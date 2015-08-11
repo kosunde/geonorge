@@ -1,0 +1,912 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\FMEWorkspaces\DSB_WFStoSosiPostGre.fmw
+#          --SourceDataset_WFS "http://kart.dsb.no/wfs.aspx?service=wfs&request=getcapabilities"
+#    
+#    
+#! SOURCE_ROUTING_FILE=""
+#! SHOW_ANNOTATIONS="true"
+#! FME_REPROJECTION_ENGINE="FME"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! LOG_FILE=""
+#! BEGIN_PYTHON=""
+#! DESTINATION="VISUALIZER"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! LOG_MAX_PRECISION="Yes"
+#! WORKSPACE_VERSION="1"
+#! FME_DOCUMENT_GUID="f3eec5e6-3708-483d-81b5-cb7ac42d15b7"
+#! ZOOM_SCALE="100"
+#! DESCRIPTION=""
+#! SHOW_INFO_NODES="true"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! END_TCL=""
+#! DESTINATION_ROUTING_FILE=""
+#! REDIRECT_TERMINATORS="NONE"
+#! DOC_TOP_LEFT="-1961.02 -412.995"
+#! ATTR_TYPE_ENCODING="SDF"
+#! BEGIN_TCL=""
+#! TITLE=""
+#! FME_BUILD_NUM="15515"
+#! PASSWORD=""
+#! HISTORY=""
+#! CATEGORY=""
+#! END_PYTHON=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! VIEW_POSITION="-2178.02 855.009"
+#! DOC_EXTENTS="2055.02 1266.51"
+#! SOURCE="NONE"
+#! REQUIREMENTS_KEYWORD=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! LEGAL_TERMS_CONDITIONS=""
+#! IGNORE_READER_FAILURE="No"
+#! FME_SERVER_SERVICES=""
+#! FME_DOCUMENT_PRIORGUID=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! MAX_LOG_FEATURES="200"
+#! REQUIREMENTS=""
+#! USAGE=""
+#! LAST_SAVE_DATE="2015-08-11T15:26:18"
+#! >
+#! <DATASETS>
+#! <DATASET
+#! IS_SOURCE="true"
+#! ROLE="READER"
+#! FORMAT="WFS"
+#! DATASET="$(SourceDataset_WFS)"
+#! KEYWORD="WFS_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="multi_reader_full_id xml_int32 multi_reader_type xml_char(50) fme_basename xml_char(50) fme_text_size xml_real64 fme_start_angle xml_real64 fme_feature_type xml_char(50) fme_geometry fme_char(50) fme_dataset xml_char(50) fme_fill_color xml_char(50) multi_reader_keyword xml_char(50) fme_sweep_angle xml_real64 fme_color xml_char(50) fme_text_string xml_char(50) fme_secondary_axis xml_real64 fme_primary_axis xml_real64 fme_rotation xml_real64 fme_type xml_char(50) multi_reader_id xml_int32 xml_type xml_char(50)"
+#! DEFLINE_PARMS=""
+#! ATTR_INDEX_TYPES=""
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="URL"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! MAX_FEATURES=""
+#! COORDSYS="EPSG:32633"
+#! FEATURE_TYPES=""
+#! START_FEATURE=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MIN_FEATURES=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="URL"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Specify the WFS URL"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_char(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_buffer"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_xml"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_datetime"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_date"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_time"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_int64"
+#! FME_TYPE="fme_int64"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_uint64"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_int32"
+#! FME_TYPE="fme_int32"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_uint32"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_int16"
+#! FME_TYPE="fme_int16"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_uint16"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_byte"
+#! FME_TYPE="fme_int16"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_ubyte"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_real32"
+#! FME_TYPE="fme_real32"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_real64"
+#! FME_TYPE="fme_real64"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_decimal(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_boolean"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_char(20)"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_char(8)"
+#! FME_TYPE="fme_date"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_char(12)"
+#! FME_TYPE="fme_time"
+#! FORMAT="WFS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_geometry"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="WFS"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_no_geom"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_line"
+#! FME_TYPE="fme_line"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_area"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_aggregate"
+#! FME_TYPE="fme_collection"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_text"
+#! FME_TYPE="fme_text"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_arc"
+#! FME_TYPE="fme_arc"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_surface"
+#! FME_TYPE="fme_surface"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_solid"
+#! FME_TYPE="fme_solid"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_mesh"
+#! FME_TYPE="fme_surface"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_raster"
+#! FORMAT="WFS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="WFS"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="layer_562"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="1"
+#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
+#! POSITION="-848.009 -412.995"
+#! BOUNDING_RECT="-848.009 -412.995 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="WFS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="POLY_" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="POLY_ID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="AREA" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="PERIMETER" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OPPR" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="X" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="Y" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="KOORDH" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="SENTRAL" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="LOKALISERI" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OPPHAV" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="MALEMETODE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="NOYAKTIGHE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="SYNBARHET" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="H_MALEMETO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="H_NOYAKTIG" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="MAX_AVVIK" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OBJTYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="NAVN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="layer_511"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="2"
+#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
+#! POSITION="-1919.02 -364.996"
+#! BOUNDING_RECT="-1919.02 -364.996 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="WFS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="false"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="KASERNERT" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNVESEN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ANLEGGID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="AJOURDATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="INFORMASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OPPHAV" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="STASJONSTY" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OBJTYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTA_" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="layer_395"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="3"
+#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
+#! POSITION="-1832.02 700.013"
+#! BOUNDING_RECT="-1832.02 700.013 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="WFS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="KASERNERT" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNVESEN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ANLEGGID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="AJOURDATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="INFORMASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OPPHAV" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="STASJONSTY" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OBJTYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTA_" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="layer_394"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="4"
+#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
+#! POSITION="93.9999 -253.996"
+#! BOUNDING_RECT="93.9999 -253.996 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="WFS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="KASERNERT" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNVESEN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ANLEGGID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="AJOURDATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="INFORMASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OPPHAV" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="STASJONSTY" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="OBJTYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTA_" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="layer_309"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="5"
+#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
+#! POSITION="-908.01 535.009"
+#! BOUNDING_RECT="-908.01 535.009 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="WFS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="TYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="KOMMUNE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="URL" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="NAVN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="layer_307"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="6"
+#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
+#! POSITION="-14.0011 472.007"
+#! BOUNDING_RECT="-14.0011 472.007 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="WFS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_property" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="SIVDISTRIK" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="URL" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="NAVN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT SourceDataset_WFS Source WFS (Web Feature Service) URL:"
+#! DEFAULT_VALUE="http://kart.dsb.no/wfs.aspx?service=wfs&amp;request=getcapabilities"
+#! IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#! IDENTIFIER="7"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Brannstasjoner - kasernering&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-1874.02 853.514"
+#! TOP_LEFT="-1874.02 853.514"
+#! BOTTOM_RIGHT="-1875.02 854.514"
+#! BOUNDING_RECT="-1874.02 853.514 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#! IDENTIFIER="8"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Brannstasjoner&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="51.9999 -103.495"
+#! TOP_LEFT="51.9999 -103.495"
+#! BOTTOM_RIGHT="50.9999 -102.495"
+#! BOUNDING_RECT="51.9999 -103.495 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="4"
+#! />
+#! <COMMENT
+#! IDENTIFIER="9"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Distriktskontor sivilforsvaret&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-950.01 688.51"
+#! TOP_LEFT="-950.01 688.51"
+#! BOTTOM_RIGHT="-951.01 689.51"
+#! BOUNDING_RECT="-950.01 688.51 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="5"
+#! />
+#! <COMMENT
+#! IDENTIFIER="10"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Brannstasjoner utf8&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-1961.02 -211.495"
+#! TOP_LEFT="-1961.02 -211.495"
+#! BOTTOM_RIGHT="-1962.02 -210.495"
+#! BOUNDING_RECT="-1961.02 -211.495 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="2"
+#! />
+#! <COMMENT
+#! IDENTIFIER="11"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;110-sentraldistrikter&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-855.013 -211.495"
+#! TOP_LEFT="-855.013 -211.495"
+#! BOTTOM_RIGHT="-856.013 -210.495"
+#! BOUNDING_RECT="-855.013 -211.495 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="1"
+#! />
+#! <COMMENT
+#! IDENTIFIER="12"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Sivilforsvarsdistrikter&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-56.0011 625.508"
+#! TOP_LEFT="-56.0011 625.508"
+#! BOTTOM_RIGHT="-57.0011 626.508"
+#! BOUNDING_RECT="-56.0011 625.508 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.196078"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="6"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+GUI IGNORE SourceDataset_WFS_1,WFS_IN_PREFER_POST_WFS_1,WFS_IN_PREFERRED_VERSION_WFS_1,WFS_IN_HTTP_AUTH_USER_WFS_1,WFS_IN_HTTP_AUTH_PASSWORD_WFS_1,WFS_IN_HTTP_AUTH_METHOD_WFS_1,WFS_IN_MAX_RESULT_FEATURES_WFS_1,WFS_IN_OUTPUT_FORMAT_WFS_1,WFS_IN_FILTER_EXPRESSION_WFS_1,WFS_IN_XSD_DOC_WFS_1,WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1,WFS_IN_SRS_AXIS_ORDER_WFS_1,WFS_IN_SRS_ANGLE_DIRECTION_WFS_1,WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1,WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1,WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1,WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1,WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1,WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1,WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1,WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1,WFS_IN_GML_READER_GROUP_WFS_1,WFS_IN_USE_OLD_READER_WFS_1,WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1,WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1,WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1,WFS_IN_CLIP_TO_ENVELOPE_WFS_1,WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1
+DEFAULT_MACRO SourceDataset_WFS http://kart.dsb.no/wfs.aspx?service=wfs&request=getcapabilities
+GUI TEXT SourceDataset_WFS Source WFS (Web Feature Service) URL:
+INCLUDE [ if {{$(SourceDataset_WFS)} == {}} { puts_real {Parameter 'SourceDataset_WFS' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE WFS
+READER_KEYWORD WFS_1
+READER_GEN_DIRECTIVES PREFERRED_VERSION,1.1.0,XML_FRAGMENTS_AS_DOCUMENTS,YES,FLATTEN_XML_FRAGMENTS_SEPARATOR,,ARCGIS_CACHE_GROUP,,MAP_PREDEFINED_GML_PROPERTIES,NO,FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE,,USE_SEARCH_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,FLATTEN_XML_FRAGMENTS,NO,MAX_MULTI_LIST_LEVEL,,SRS_AXIS_ORDER,,MAP_COMPLEX_PROPERTIES_AS,Nested<space>Attributes,HTTP_AUTH_USER,,USE_HTTP_AUTH,NO,DISABLE_AUTOMATIC_READER_TYPE_SELECTION,NO,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,LOCAL_CACHE_EXPIRY,60,ENFORCE_PATH_CONTINUITY_BY,SNAPPING_END_POINTS,SEARCH_ENVELOPE_MINX,0,GML_READER_GROUP,,SEARCH_ENVELOPE_MINY,0,XSD_DOC,,FILTER_EXPRESSION,,DISABLE_XML_NAMESPACE_PROCESSING,NO,HTTP_AUTH_METHOD,Basic,MAX_RESULT_FEATURES,30000,OUTPUT_FORMAT,text<solidus>xml<semicolon><space>subtype=gml<solidus>3.1.1,FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE,,MAP_GEOMETRY_COLUMNS,YES,SRS_ANGLE_DIRECTION,,QNAMES_FOR_PROPERTIES_TO_IGNORE,,HTTP_AUTH_PASSWORD,,WFS_SERVICE_TITLE,Mapserver<space>WFS<space>-<space>kart,USE_OLD_READER,NO,FME_FEATURE_IDENTIFIER,,CLIP_TO_ENVELOPE,NO,MAP_EMBEDDED_OBJECTS_AS,ATTRIBUTES,WFS_EXPOSE_FORMAT_ATTRS,,PREFER_POST,No,TABLELIST,<quote>layer_307<space><space><opencurly>Sivilforsvarsdistrikter<closecurly><quote><space><quote>layer_309<space><space><opencurly>Distriktskontor<space>sivilforsvaret<closecurly><quote><space><quote>layer_394<space><space><opencurly>Brannstasjoner<closecurly><quote><space><quote>layer_395<space><space><opencurly>Brannstasjoner<space>-<space>kasernering<closecurly><quote><space><quote>layer_511<space><space><opencurly>Brannstasjoner<space>utf8<closecurly><quote><space><quote>layer_562<space><space><opencurly>110-sentraldistrikter<closecurly><quote>,BBOX_COORDINATE_SYSTEM,
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "WFS_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER WFS WFS_1
+# ============================================================================
+# The following GUI line prompts for the URL for Web Feature Service from which
+# data will be extracted
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_WFS_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER WFS WFS_1
+DEFAULT_MACRO SourceDataset_WFS_1 $(SourceDataset_WFS)
+GUI TEXT SourceDataset_WFS_1 Source WFS (Web Feature Service) URL:
+DEFAULT_MACRO IDs_WFS_1 
+WFS_1_IDs $(IDs_WFS_1)
+DEFAULT_MACRO WFS_IN_PREFER_POST_WFS_1 No
+WFS_1_PREFER_POST "$(WFS_IN_PREFER_POST_WFS_1)"
+GUI CHECKBOX WFS_IN_PREFER_POST_WFS_1 Yes%No Prefer HTTP Post, if Available:
+DEFAULT_MACRO WFS_IN_PREFERRED_VERSION_WFS_1 1.1.0
+WFS_1_PREFERRED_VERSION "$(WFS_IN_PREFERRED_VERSION_WFS_1)"
+GUI CHOICE WFS_IN_PREFERRED_VERSION_WFS_1 1.0.0%1.1.0%2.0.0 WFS Version:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_HTTP_AUTH_USER_WFS_1 
+WFS_1_HTTP_AUTH_USER "$(WFS_IN_HTTP_AUTH_USER_WFS_1)"
+GUI OPTIONAL TEXT WFS_IN_HTTP_AUTH_USER_WFS_1 HTTP Username:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_HTTP_AUTH_PASSWORD_WFS_1 
+WFS_1_HTTP_AUTH_PASSWORD "$(WFS_IN_HTTP_AUTH_PASSWORD_WFS_1)"
+GUI OPTIONAL PASSWORD WFS_IN_HTTP_AUTH_PASSWORD_WFS_1 HTTP Password:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_HTTP_AUTH_METHOD_WFS_1 Basic
+WFS_1_HTTP_AUTH_METHOD "$(WFS_IN_HTTP_AUTH_METHOD_WFS_1)"
+GUI OPTIONAL CHOICE WFS_IN_HTTP_AUTH_METHOD_WFS_1 Basic%Digest%NTLM HTTP Authentication Method:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_MAX_RESULT_FEATURES_WFS_1 30000
+WFS_1_MAX_RESULT_FEATURES "$(WFS_IN_MAX_RESULT_FEATURES_WFS_1)"
+GUI OPTIONAL INTEGER WFS_IN_MAX_RESULT_FEATURES_WFS_1 Max Features:
+DEFAULT_MACRO WFS_IN_OUTPUT_FORMAT_WFS_1 text/xml; subtype=gml/3.1.1
+WFS_1_OUTPUT_FORMAT "$(WFS_IN_OUTPUT_FORMAT_WFS_1)"
+GUI OPTIONAL TEXT WFS_IN_OUTPUT_FORMAT_WFS_1 WFS Output Format:
+DEFAULT_MACRO WFS_IN_FILTER_EXPRESSION_WFS_1 
+WFS_1_FILTER_EXPRESSION "$(WFS_IN_FILTER_EXPRESSION_WFS_1)"
+GUI OPTIONAL TEXT_EDIT_ WFS_IN_FILTER_EXPRESSION_WFS_1 XML Filter Expression:
+# ============================================================================
+# The XSD_DOC keyword overwrites the location of the XML Schema document that
+# is specified in the xsi:schemaLocation of the XML dataset.
+DEFAULT_MACRO WFS_IN_XSD_DOC_WFS_1 
+WFS_1_XSD_DOC "$(WFS_IN_XSD_DOC_WFS_1)"
+GUI OPTIONAL FILE_OR_URL WFS_IN_XSD_DOC_WFS_1 GML_Schema_File(*.xsd)|*.xsd|All_Files(*)|* Application Schema:
+DEFAULT_MACRO WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1 
+WFS_1_FME_FEATURE_IDENTIFIER "$(WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1)"
+GUI OPTIONAL TEXT WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1 Numeric Identifier Attribute:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_SRS_AXIS_ORDER_WFS_1 
+WFS_1_SRS_AXIS_ORDER "$(WFS_IN_SRS_AXIS_ORDER_WFS_1)"
+GUI OPTIONAL CHOICE WFS_IN_SRS_AXIS_ORDER_WFS_1 1,2%2,1%1,2,3%2,1,3 GML SRS Axis Order:
+DEFAULT_MACRO WFS_IN_SRS_ANGLE_DIRECTION_WFS_1 
+WFS_1_SRS_ANGLE_DIRECTION "$(WFS_IN_SRS_ANGLE_DIRECTION_WFS_1)"
+GUI OPTIONAL LOOKUP_CHOICE WFS_IN_SRS_ANGLE_DIRECTION_WFS_1 Counterclockwise,CCW%Clockwise,CW GML SRS Angle Direction:
+DEFAULT_MACRO WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1 SNAPPING_END_POINTS
+WFS_1_ENFORCE_PATH_CONTINUITY_BY "$(WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1)"
+GUI OPTIONAL LOOKUP_CHOICE WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1 "Snapping End Points",SNAPPING_END_POINTS%"Inserting New Segment",INSERTING_NEW_SEGMENT Enforce Path Continuity By:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1 ATTRIBUTES
+WFS_1_MAP_EMBEDDED_OBJECTS_AS "$(WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1)"
+GUI LOOKUP_CHOICE WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1 "Attributes",ATTRIBUTES%"Geometries",GEOMETRIES%"Feature Types",FEATURE_TYPES Map Embedded Objects as:
+DEFAULT_MACRO WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1 NO
+WFS_1_MAP_PREDEFINED_GML_PROPERTIES "$(WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1)"
+GUI CHECKBOX WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1 YES%NO Map Predefined Properties
+DEFAULT_MACRO WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1 YES
+WFS_1_MAP_GEOMETRY_COLUMNS "$(WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1)"
+GUI CHECKBOX WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1 YES%NO Map Geometry Columns
+DEFAULT_MACRO WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1 
+WFS_1_QNAMES_FOR_PROPERTIES_TO_IGNORE "$(WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1)"
+GUI OPTIONAL TEXT_EDIT_XML WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1 Properties to Ignore:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1 Nested Attributes
+WFS_1_MAP_COMPLEX_PROPERTIES_AS "$(WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1)"
+GUI ACTIVECHOICE WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1 "Nested Attributes"%"XML Fragments",WFS_IN_MAX_MULTI_LIST_LEVEL Map Complex Properties as:
+DEFAULT_MACRO WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1 
+WFS_1_MAX_MULTI_LIST_LEVEL "$(WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1)"
+GUI OPTIONAL CHOICE WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20 Limit Number of Lists in Nested Attributes:
+DEFAULT_MACRO WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1 YES
+WFS_1_XML_FRAGMENTS_AS_DOCUMENTS "$(WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1)"
+GUI CHECKBOX WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1 YES%NO Include XML Declaration in XML Fragments
+DEFAULT_MACRO WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1 NO
+WFS_1_FLATTEN_XML_FRAGMENTS "$(WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1)"
+GUI ACTIVEDISCLOSUREGROUP WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1 FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE%FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE%FLATTEN_XML_FRAGMENTS_SEPARATOR Flatten XML Fragments
+DEFAULT_MACRO WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1 
+WFS_1_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE "$(WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1)"
+GUI OPTIONAL STRING_OR_CHOICE WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1 {%_%-%empty_string Substitute Open List Brace:
+DEFAULT_MACRO WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1 
+WFS_1_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE "$(WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1)"
+GUI OPTIONAL STRING_OR_CHOICE WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1 }%_%-%empty_string Substitute Close List Brace:
+DEFAULT_MACRO WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1 
+WFS_1_FLATTEN_XML_FRAGMENTS_SEPARATOR "$(WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1)"
+GUI OPTIONAL STRING_OR_CHOICE WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1 .%_%empty_string Substitute Element List Separator:
+# ============================================================================
+DEFAULT_MACRO WFS_IN_GML_READER_GROUP_WFS_1 
+GUI DISCLOSUREGROUP WFS_IN_GML_READER_GROUP_WFS_1 USE_OLD_READER%DISABLE_AUTOMATIC_READER_TYPE_SELECTION%DISABLE_XML_NAMESPACE_PROCESSING GML Reader Version and XML Namespace Processing
+DEFAULT_MACRO WFS_IN_USE_OLD_READER_WFS_1 NO
+WFS_1_USE_OLD_READER "$(WFS_IN_USE_OLD_READER_WFS_1)"
+GUI CHECKBOX WFS_IN_USE_OLD_READER_WFS_1 YES%NO Use Old Reader for GML v3.1.1 and v2.1.2 Documents
+DEFAULT_MACRO WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1 NO
+WFS_1_DISABLE_AUTOMATIC_READER_TYPE_SELECTION "$(WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1)"
+GUI CHECKBOX WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1 YES%NO Disable Automatic Reader Type Selection
+DEFAULT_MACRO WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1 NO
+WFS_1_DISABLE_XML_NAMESPACE_PROCESSING "$(WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1)"
+GUI CHECKBOX WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1 YES%NO Disable XML Namespace Processing
+# ============================================================================
+DEFAULT_MACRO WFS_IN_LOCAL_CACHE_EXPIRY_WFS_1 60
+WFS_1_LOCAL_CACHE_EXPIRY "$(WFS_IN_LOCAL_CACHE_EXPIRY_WFS_1)"
+DEFAULT_MACRO WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1 
+WFS_1_EXPOSE_ATTRS_GROUP "$(WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1)"
+GUI DISCLOSUREGROUP WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1 WFS_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1 0
+WFS_1_SEARCH_ENVELOPE "$(WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1)"
+GUI OPTIONAL FLOAT WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1 Minimum X:
+DEFAULT_MACRO WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1 0
+WFS_1_SEARCH_ENVELOPE "$(WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1)"
+GUI OPTIONAL FLOAT WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1 Minimum Y:
+DEFAULT_MACRO WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1 0
+WFS_1_SEARCH_ENVELOPE "$(WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1)"
+GUI OPTIONAL FLOAT WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1 Maximum X:
+DEFAULT_MACRO WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1 0
+WFS_1_SEARCH_ENVELOPE "$(WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1)"
+GUI OPTIONAL FLOAT WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1 Maximum Y:
+DEFAULT_MACRO WFS_IN_CLIP_TO_ENVELOPE_WFS_1 NO
+WFS_1_CLIP_TO_ENVELOPE "$(WFS_IN_CLIP_TO_ENVELOPE_WFS_1)"
+GUI OPTIONAL CHECKBOX WFS_IN_CLIP_TO_ENVELOPE_WFS_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1 
+WFS_1_BBOX_COORDINATE_SYSTEM "$(WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1)"
+GUI OPTIONAL COORDSYS WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1 Search Envelope Coordinate System:
+WFS_1_DATASET "$(SourceDataset_WFS_1)"
+#! END_SOURCE_HEADER
+#! END_HEADER
+
+WRITER_TYPE NULL
+WRITER_KEYWORD WBROUTER_OUT
+WBROUTER_OUT_DATASET null
+
+LOG_END_BANNER 
+LOG_END_BANNER *** All writer output has been redirected to the Inspector application ***
+LOG_END_BANNER 
+LOG_FILENAME "$(FME_MF_DIR)DSB_WFStoSosiPostGre.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_WFS_1 WFS_1
+# -------------------------------------------------------------------------
+
+WFS_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+WFS_1_COORDINATE_SYSTEM EPSG:32633
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME DSB_WFStoSosiPostGre
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_307   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   SIVDISTRIK                   xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_309   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   TYPE                         xml_buffer   KOMMUNE                      xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_394   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   BRANNSTASJ                   xml_buffer   KASERNERT                    xml_buffer   BRANNVESEN                   xml_buffer   ANLEGGID                     xml_buffer   AJOURDATO                    xml_buffer   INFORMASJ                    xml_buffer   OPPHAV                       xml_buffer   STASJONSTY                   xml_buffer   OBJTYPE                      xml_buffer   DATO                         xml_buffer   BRANNSTA_                    xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_395   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   BRANNSTASJ                   xml_buffer   KASERNERT                    xml_buffer   BRANNVESEN                   xml_buffer   ANLEGGID                     xml_buffer   AJOURDATO                    xml_buffer   INFORMASJ                    xml_buffer   OPPHAV                       xml_buffer   STASJONSTY                   xml_buffer   OBJTYPE                      xml_buffer   DATO                         xml_buffer   BRANNSTA_                    xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_511   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   BRANNSTASJ                   xml_buffer   KASERNERT                    xml_buffer   BRANNVESEN                   xml_buffer   ANLEGGID                     xml_buffer   AJOURDATO                    xml_buffer   INFORMASJ                    xml_buffer   OPPHAV                       xml_buffer   STASJONSTY                   xml_buffer   OBJTYPE                      xml_buffer   DATO                         xml_buffer   BRANNSTA_                    xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_562   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_parent_property          xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   POLY_                        xml_buffer   POLY_ID                      xml_buffer   AREA                         xml_buffer   PERIMETER                    xml_buffer   OPPR                         xml_buffer   X                            xml_buffer   Y                            xml_buffer   KOORDH                       xml_buffer   SENTRAL                      xml_buffer   LOKALISERI                   xml_buffer   OPPHAV                       xml_buffer   MALEMETODE                   xml_buffer   NOYAKTIGHE                   xml_buffer   SYNBARHET                    xml_buffer   H_MALEMETO                   xml_buffer   H_NOYAKTIG                   xml_buffer   MAX_AVVIK                    xml_buffer   OBJTYPE                      xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,WFS_1)    ROUTE WFS WFS_1::layer_307 TO FME_GENERIC ::layer_307 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_309 TO FME_GENERIC ::layer_309 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_394 TO FME_GENERIC ::layer_394 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_395 TO FME_GENERIC ::layer_395 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_511 TO FME_GENERIC ::layer_511 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_562 TO FME_GENERIC ::layer_562 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+WFS_1_MERGE_DEF WFS_1::layer_307 EXACT layer_307
+WFS_1_MERGE_DEF WFS_1::layer_309 EXACT layer_309
+WFS_1_MERGE_DEF WFS_1::layer_394 EXACT layer_394
+WFS_1_MERGE_DEF WFS_1::layer_395 EXACT layer_395
+WFS_1_MERGE_DEF WFS_1::layer_511 EXACT layer_511
+WFS_1_MERGE_DEF WFS_1::layer_562 EXACT layer_562
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "layer_307 (WFS_1) Splitter"    INPUT FEATURE_TYPE layer_307
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "layer_309 (WFS_1) Splitter"    INPUT FEATURE_TYPE layer_309
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "layer_394 (WFS_1) Splitter"    INPUT FEATURE_TYPE layer_394
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "layer_395 (WFS_1) Splitter"    INPUT FEATURE_TYPE layer_395
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "layer_511 (WFS_1) Splitter"    INPUT FEATURE_TYPE layer_511
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "layer_562 (WFS_1) Splitter"    INPUT FEATURE_TYPE layer_562
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
