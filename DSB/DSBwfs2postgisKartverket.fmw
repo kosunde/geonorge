@@ -5,54 +5,54 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    D:\apps\FME\fme.exe D:\Utvikling\Kartverket\GeoNorge\Nedlastingslosning\geonorge\DSB\DBSwfs2postgisKartverket.fmw
+#    D:\apps\FME\fme.exe D:\Utvikling\Kartverket\GeoNorge\Nedlastingslosning\geonorge\DSB\DSBwfs2postgisKartverket.fmw
 #          --SourceDataset_WFS "http://kart.dsb.no/wfs.aspx?service=wfs&request=getcapabilities"
 #          --DestDataset_POSTGIS_1 "dsb"
 #    
 #    
-#! FME_BUILD_NUM="15244"
 #! DESTINATION_ROUTING_FILE=""
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! LAST_SAVE_DATE="2015-08-13T08:36:09"
-#! SOURCE_ROUTING_FILE=""
-#! DESTINATION="NONE"
-#! REQUIREMENTS=""
-#! END_PYTHON=""
-#! VIEW_POSITION="126.001 342.003"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! HISTORY=""
-#! DESCRIPTION=""
-#! ATTR_TYPE_ENCODING="SDF"
+#! IGNORE_READER_FAILURE="No"
+#! REQUIREMENTS_KEYWORD=""
 #! FME_REPROJECTION_ENGINE="FME"
-#! ZOOM_SCALE="100"
-#! USAGE=""
+#! FME_BUILD_NUM="15244"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! FME_SERVER_SERVICES=""
+#! BEGIN_PYTHON=""
+#! DESTINATION="NONE"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! SHOW_INFO_NODES="true"
+#! REDIRECT_TERMINATORS="NONE"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! DESCRIPTION=""
+#! SOURCE_ROUTING_FILE=""
+#! SHOW_ANNOTATIONS="true"
+#! LOG_MAX_PRECISION="Yes"
+#! TITLE=""
+#! WORKSPACE_VERSION="1"
+#! DOC_TOP_LEFT="100 -920"
+#! ATTR_TYPE_ENCODING="SDF"
+#! FME_DOCUMENT_PRIORGUID="bc840ad2-7a25-4e5f-87bd-9af6db56ca86,075147b0-383d-4d81-b321-027d2a9349e9"
 #! PASSWORD=""
 #! LAST_SAVE_BUILD="FME(R) 2015.0 (20150113 - Build 15244 - WIN32)"
-#! REQUIREMENTS_KEYWORD=""
-#! BEGIN_PYTHON=""
-#! MAX_LOG_FEATURES="200"
-#! FME_DOCUMENT_GUID="075147b0-383d-4d81-b321-027d2a9349e9"
-#! SHOW_INFO_NODES="true"
-#! SHOW_ANNOTATIONS="true"
-#! REDIRECT_TERMINATORS="NONE"
-#! FME_DOCUMENT_PRIORGUID="bc840ad2-7a25-4e5f-87bd-9af6db56ca86"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! DOC_TOP_LEFT="100 -920"
-#! DOC_EXTENTS="1780.99 1086"
 #! FME_GEOMETRY_HANDLING="Enhanced"
-#! IGNORE_READER_FAILURE="No"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! TITLE=""
-#! LOG_FILE=""
 #! BEGIN_TCL=""
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! CATEGORY=""
+#! LAST_SAVE_DATE="2015-08-13T13:54:15"
 #! END_TCL=""
+#! DOC_EXTENTS="1810.99 825.001"
+#! MAX_LOG_FEATURES="200"
+#! VIEW_POSITION="0 186.002"
+#! END_PYTHON=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
 #! SOURCE="NONE"
-#! LOG_MAX_PRECISION="Yes"
+#! USAGE=""
 #! LEGAL_TERMS_CONDITIONS=""
-#! FME_SERVER_SERVICES=""
-#! WORKSPACE_VERSION="1"
+#! FME_DOCUMENT_GUID="b69110db-a1bc-41e5-a95c-5f7d3ef3e01c"
+#! ZOOM_SCALE="100"
+#! REQUIREMENTS=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! HISTORY=""
+#! LOG_FILE=""
+#! CATEGORY=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -68,7 +68,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_type xml_char(50) multi_reader_id xml_int32 multi_reader_keyword xml_char(50) fme_rotation xml_real64 fme_primary_axis xml_real64 fme_start_angle xml_real64 fme_text_size xml_real64 fme_basename xml_char(50) fme_color xml_char(50) multi_reader_full_id xml_int32 multi_reader_type xml_char(50) fme_secondary_axis xml_real64 fme_geometry fme_char(50) fme_feature_type xml_char(50) fme_sweep_angle xml_real64 fme_dataset xml_char(50) fme_text_string xml_char(50) xml_type xml_char(50) fme_fill_color xml_char(50)"
+#! EXPOSABLE_ATTRS="fme_basename xml_char(50) fme_geometry fme_char(50) fme_primary_axis xml_real64 fme_sweep_angle xml_real64 multi_reader_full_id xml_int32 multi_reader_type xml_char(50) fme_type xml_char(50) xml_type xml_char(50) fme_text_size xml_real64 fme_text_string xml_char(50) fme_feature_type xml_char(50) fme_color xml_char(50) multi_reader_id xml_int32 fme_dataset xml_char(50) fme_rotation xml_real64 fme_fill_color xml_char(50) multi_reader_keyword xml_char(50) fme_start_angle xml_real64 fme_secondary_axis xml_real64"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -78,18 +78,14 @@
 #! DATASET_TYPE="URL"
 #! GENERATE_FME_BUILD_NUM="15244"
 #! COORDSYS="EPSG:32633"
-#! MIN_FEATURES=""
-#! FEATURE_TYPES=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! START_FEATURE=""
 #! MAX_FEATURES=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! FEATURE_TYPES=""
+#! MIN_FEATURES=""
+#! START_FEATURE=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="READER_DATASET_HINT"
-#! VALUE="Specify the WFS URL"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
+#! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -97,7 +93,11 @@
 #! VALUE="URL"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Specify the WFS URL"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! </DATASET>
@@ -114,7 +114,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode INHERIT_FROM_WRITER postgis_sql_key_columns &quot;&quot; postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_drop_table NO postgis_truncate_table NO postgis_create_with_oids NO postgis_create_gist_index YES postgis_vacuum_analyze NO postgis_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_type char(50) fme_db_operation char(8) fme_rotation float8 postgis_collection_part_id int4 fme_primary_axis float8 fme_where char(254) postgis_type char(50) fme_start_angle float8 postgis_collection_id int4 fme_text_size float8 fme_basename char(50) fme_color char(50) fme_secondary_axis float8 fme_geometry fme_char(50) fme_feature_type char(50) fme_sweep_angle float8 fme_dataset char(50) fme_text_string char(50) fme_fill_color char(50)"
+#! EXPOSABLE_ATTRS="fme_basename char(50) fme_geometry fme_char(50) postgis_collection_id int4 fme_primary_axis float8 fme_db_operation char(8) fme_sweep_angle float8 fme_where char(254) postgis_collection_part_id int4 fme_type char(50) fme_text_size float8 fme_text_string char(50) fme_feature_type char(50) fme_color char(50) fme_dataset char(50) fme_rotation float8 fme_fill_color char(50) postgis_type char(50) fme_start_angle float8 fme_secondary_axis float8"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgis_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgis_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgis_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgis_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgis_spatial_column_type geometry%geography Spatial Column Type&quot; geometry &quot;GUI TEXT postgis_spatial_column Spatial Column Name&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -124,27 +124,23 @@
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15244"
 #! COORDSYS=""
-#! FANOUT_DIRECTORY=""
-#! FANOUT_ID_ATTR=""
-#! FANOUT="No"
 #! FANOUT_SUFFIX=""
 #! FANOUT_PREFIX=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT_DIRECTORY=""
+#! FANOUT="No"
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="READER_DATASET_HINT"
-#! VALUE="Specify the PostGIS Dataset"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="WRITER_DATASET_HINT"
 #! VALUE="Specify the PostGIS Dataset"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
+#! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -155,7 +151,11 @@
 #! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Specify the PostGIS Dataset"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! </DATASET>
@@ -723,8 +723,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="1"
 #! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#! POSITION="202.001 166.004"
-#! BOUNDING_RECT="202.001 166.004 -1 -1"
+#! POSITION="172.001 -94.9987"
+#! BOUNDING_RECT="172.001 -94.9987 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="WFS_1"
@@ -947,17 +947,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -990,17 +990,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="brannsta_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1008,8 +1008,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="9"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="1880.99 118.003"
-#! BOUNDING_RECT="1880.99 118.003 -1 -1"
+#! POSITION="1910.99 -94.9987"
+#! BOUNDING_RECT="1910.99 -94.9987 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
@@ -1042,17 +1042,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1077,17 +1077,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1120,17 +1120,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="brannsta_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1163,17 +1163,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="brannsta_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1258,67 +1258,60 @@
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#! IDENTIFIER="131086"
-#! SOURCE_NODE="6"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="5"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
 #! IDENTIFIER="196622"
 #! SOURCE_NODE="6"
 #! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="2"
-#! TARGET_PORT_DESC="2"
+#! SOURCE_PORT_DESC="3"
+#! TARGET_PORT_DESC="3"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="262158"
 #! SOURCE_NODE="6"
 #! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="3"
-#! TARGET_PORT_DESC="3"
+#! SOURCE_PORT_DESC="4"
+#! TARGET_PORT_DESC="4"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="65550"
 #! SOURCE_NODE="6"
 #! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="4"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="131087"
-#! SOURCE_NODE="5"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="4"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196623"
-#! SOURCE_NODE="5"
-#! TARGET_NODE="7"
 #! SOURCE_PORT_DESC="5"
 #! TARGET_PORT_DESC="5"
 #! />
 #! <ATTR_LINK
+#! IDENTIFIER="131086"
+#! SOURCE_NODE="6"
+#! TARGET_NODE="10"
+#! SOURCE_PORT_DESC="2"
+#! TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
 #! IDENTIFIER="327695"
+#! SOURCE_NODE="5"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="6"
+#! TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196623"
 #! SOURCE_NODE="5"
 #! TARGET_NODE="7"
 #! SOURCE_PORT_DESC="2"
 #! TARGET_PORT_DESC="2"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="65551"
+#! IDENTIFIER="131087"
 #! SOURCE_NODE="5"
 #! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="3"
-#! TARGET_PORT_DESC="3"
+#! SOURCE_PORT_DESC="5"
+#! TARGET_PORT_DESC="5"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="262159"
 #! SOURCE_NODE="5"
 #! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="6"
-#! TARGET_PORT_DESC="6"
+#! SOURCE_PORT_DESC="3"
+#! TARGET_PORT_DESC="3"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="393231"
@@ -1328,32 +1321,46 @@
 #! TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="131088"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="11"
-#! TARGET_PORT_DESC="11"
+#! IDENTIFIER="65551"
+#! SOURCE_NODE="5"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="4"
+#! TARGET_PORT_DESC="4"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="196624"
+#! IDENTIFIER="524304"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="9"
+#! TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="131088"
 #! SOURCE_NODE="4"
 #! TARGET_NODE="8"
 #! SOURCE_PORT_DESC="13"
 #! TARGET_PORT_DESC="13"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="524304"
+#! IDENTIFIER="393232"
 #! SOURCE_NODE="4"
 #! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="12"
-#! TARGET_PORT_DESC="12"
+#! SOURCE_PORT_DESC="4"
+#! TARGET_PORT_DESC="4"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="655376"
 #! SOURCE_NODE="4"
 #! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="10"
-#! TARGET_PORT_DESC="10"
+#! SOURCE_PORT_DESC="2"
+#! TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="589840"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="8"
+#! TARGET_PORT_DESC="8"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="327696"
@@ -1366,60 +1373,53 @@
 #! IDENTIFIER="458768"
 #! SOURCE_NODE="4"
 #! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="4"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720912"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="8"
 #! SOURCE_PORT_DESC="6"
 #! TARGET_PORT_DESC="6"
 #! />
 #! <ATTR_LINK
+#! IDENTIFIER="196624"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="12"
+#! TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
 #! IDENTIFIER="786448"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="9"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262160"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="8"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393232"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="2"
-#! TARGET_PORT_DESC="2"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65552"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="3"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589840"
 #! SOURCE_NODE="4"
 #! TARGET_NODE="8"
 #! SOURCE_PORT_DESC="7"
 #! TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="196625"
-#! SOURCE_NODE="3"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="13"
-#! TARGET_PORT_DESC="13"
+#! IDENTIFIER="262160"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="10"
+#! TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="327697"
+#! IDENTIFIER="720912"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="3"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="65552"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="11"
+#! TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="655377"
+#! SOURCE_NODE="3"
+#! TARGET_NODE="11"
+#! SOURCE_PORT_DESC="12"
+#! TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="131089"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
 #! SOURCE_PORT_DESC="5"
@@ -1429,27 +1429,6 @@
 #! IDENTIFIER="393233"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="2"
-#! TARGET_PORT_DESC="2"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589841"
-#! SOURCE_NODE="3"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="7"
-#! TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="786449"
-#! SOURCE_NODE="3"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="9"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720913"
-#! SOURCE_NODE="3"
-#! TARGET_NODE="11"
 #! SOURCE_PORT_DESC="6"
 #! TARGET_PORT_DESC="6"
 #! />
@@ -1457,53 +1436,74 @@
 #! IDENTIFIER="262161"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="8"
-#! TARGET_PORT_DESC="8"
+#! SOURCE_PORT_DESC="7"
+#! TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="458769"
+#! IDENTIFIER="65553"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="4"
-#! TARGET_PORT_DESC="4"
+#! SOURCE_PORT_DESC="13"
+#! TARGET_PORT_DESC="13"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="655377"
+#! IDENTIFIER="589841"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
 #! SOURCE_PORT_DESC="10"
 #! TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="524305"
-#! SOURCE_NODE="3"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="12"
-#! TARGET_PORT_DESC="12"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65553"
+#! IDENTIFIER="720913"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
 #! SOURCE_PORT_DESC="3"
 #! TARGET_PORT_DESC="3"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="131089"
+#! IDENTIFIER="458769"
+#! SOURCE_NODE="3"
+#! TARGET_NODE="11"
+#! SOURCE_PORT_DESC="8"
+#! TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196625"
+#! SOURCE_NODE="3"
+#! TARGET_NODE="11"
+#! SOURCE_PORT_DESC="2"
+#! TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="786449"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="11"
 #! SOURCE_PORT_DESC="11"
 #! TARGET_PORT_DESC="11"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="327698"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="5"
-#! TARGET_PORT_DESC="5"
+#! IDENTIFIER="327697"
+#! SOURCE_NODE="3"
+#! TARGET_NODE="11"
+#! SOURCE_PORT_DESC="9"
+#! TARGET_PORT_DESC="9"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="589842"
+#! IDENTIFIER="524305"
+#! SOURCE_NODE="3"
+#! TARGET_NODE="11"
+#! SOURCE_PORT_DESC="4"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="786450"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="12"
+#! TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="131090"
 #! SOURCE_NODE="2"
 #! TARGET_NODE="12"
 #! SOURCE_PORT_DESC="7"
@@ -1513,85 +1513,99 @@
 #! IDENTIFIER="262162"
 #! SOURCE_NODE="2"
 #! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="8"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458770"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="12"
 #! SOURCE_PORT_DESC="4"
 #! TARGET_PORT_DESC="4"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="393234"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="2"
-#! TARGET_PORT_DESC="2"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720914"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="6"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="786450"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="9"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196626"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="13"
-#! TARGET_PORT_DESC="13"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="655378"
+#! IDENTIFIER="589842"
 #! SOURCE_NODE="2"
 #! TARGET_NODE="12"
 #! SOURCE_PORT_DESC="10"
 #! TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="65554"
+#! IDENTIFIER="196626"
 #! SOURCE_NODE="2"
 #! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="3"
-#! TARGET_PORT_DESC="3"
+#! SOURCE_PORT_DESC="8"
+#! TARGET_PORT_DESC="8"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="131090"
+#! IDENTIFIER="393234"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="6"
+#! TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="327698"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="2"
+#! TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="524306"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="13"
+#! TARGET_PORT_DESC="13"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="720914"
 #! SOURCE_NODE="2"
 #! TARGET_NODE="12"
 #! SOURCE_PORT_DESC="11"
 #! TARGET_PORT_DESC="11"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="524306"
+#! IDENTIFIER="458770"
 #! SOURCE_NODE="2"
 #! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="12"
-#! TARGET_PORT_DESC="12"
+#! SOURCE_PORT_DESC="9"
+#! TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="655378"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="3"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="65554"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="5"
+#! TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="524307"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="19"
+#! TARGET_PORT_DESC="19"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="917523"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="4"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1376275"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="21"
+#! TARGET_PORT_DESC="21"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="655379"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="8"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720915"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="14"
-#! TARGET_PORT_DESC="14"
+#! SOURCE_PORT_DESC="10"
+#! TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="196627"
@@ -1601,67 +1615,88 @@
 #! TARGET_PORT_DESC="15"
 #! />
 #! <ATTR_LINK
+#! IDENTIFIER="131091"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="14"
+#! TARGET_PORT_DESC="14"
+#! />
+#! <ATTR_LINK
 #! IDENTIFIER="786451"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="7"
-#! TARGET_PORT_DESC="7"
+#! SOURCE_PORT_DESC="5"
+#! TARGET_PORT_DESC="5"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="65555"
+#! IDENTIFIER="1310739"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="16"
+#! TARGET_PORT_DESC="16"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="327699"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
 #! SOURCE_PORT_DESC="2"
 #! TARGET_PORT_DESC="2"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="1310739"
+#! IDENTIFIER="65555"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="20"
-#! TARGET_PORT_DESC="20"
+#! SOURCE_PORT_DESC="8"
+#! TARGET_PORT_DESC="8"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="262163"
+#! IDENTIFIER="1048595"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="22"
+#! TARGET_PORT_DESC="22"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="458771"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
 #! SOURCE_PORT_DESC="12"
 #! TARGET_PORT_DESC="12"
 #! />
 #! <ATTR_LINK
+#! IDENTIFIER="1114131"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="3"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
 #! IDENTIFIER="1179667"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="19"
-#! TARGET_PORT_DESC="19"
+#! SOURCE_PORT_DESC="6"
+#! TARGET_PORT_DESC="6"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="1245203"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="18"
-#! TARGET_PORT_DESC="18"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1048595"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="10"
-#! TARGET_PORT_DESC="10"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="131091"
+#! IDENTIFIER="720915"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
 #! SOURCE_PORT_DESC="11"
 #! TARGET_PORT_DESC="11"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="917523"
+#! IDENTIFIER="589843"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="5"
-#! TARGET_PORT_DESC="5"
+#! SOURCE_PORT_DESC="18"
+#! TARGET_PORT_DESC="18"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1245203"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="9"
+#! SOURCE_PORT_DESC="13"
+#! TARGET_PORT_DESC="13"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="851987"
@@ -1671,60 +1706,25 @@
 #! TARGET_PORT_DESC="9"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="458771"
+#! IDENTIFIER="262163"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="4"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589843"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="17"
-#! TARGET_PORT_DESC="17"
+#! SOURCE_PORT_DESC="7"
+#! TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="393235"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="22"
-#! TARGET_PORT_DESC="22"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1376275"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="3"
-#! TARGET_PORT_DESC="3"
+#! SOURCE_PORT_DESC="20"
+#! TARGET_PORT_DESC="20"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="983059"
 #! SOURCE_NODE="1"
 #! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="6"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327699"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="13"
-#! TARGET_PORT_DESC="13"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="524307"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="16"
-#! TARGET_PORT_DESC="16"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1114131"
-#! SOURCE_NODE="1"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="21"
-#! TARGET_PORT_DESC="21"
+#! SOURCE_PORT_DESC="17"
+#! TARGET_PORT_DESC="17"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
@@ -1973,7 +1973,7 @@ POSTGIS_1_END_SQL "$(POSTGIS_OUT_END_SQL_POSTGIS_1)"
 #! END_DEST_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)DBSwfs2postgisKartverket.log"
+LOG_FILENAME "$(FME_MF_DIR)DSBwfs2postgisKartverket.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1996,12 +1996,8 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME DBSwfs2postgisKartverket
+MACRO WORKSPACE_NAME DSBwfs2postgisKartverket
 MACRO FME_VIEWER_APP fmedatainspector
-# -------------------------------------------------------------------------
-WFS_1_DEF layer_562   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   POLY_                        xml_buffer   POLY_ID                      xml_buffer   AREA                         xml_buffer   PERIMETER                    xml_buffer   OPPR                         xml_buffer   X                            xml_buffer   Y                            xml_buffer   KOORDH                       xml_buffer   SENTRAL                      xml_buffer   LOKALISERI                   xml_buffer   OPPHAV                       xml_buffer   MALEMETODE                   xml_buffer   NOYAKTIGHE                   xml_buffer   SYNBARHET                    xml_buffer   H_MALEMETO                   xml_buffer   H_NOYAKTIG                   xml_buffer   MAX_AVVIK                    xml_buffer   OBJTYPE                      xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
-# -------------------------------------------------------------------------
-WFS_1_DEF layer_307   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   SIVDISTRIK                   xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer
 # -------------------------------------------------------------------------
 WFS_1_DEF layer_309   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   TYPE                         xml_buffer   KOMMUNE                      xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
 # -------------------------------------------------------------------------
@@ -2011,18 +2007,22 @@ WFS_1_DEF layer_395   xml_type                     "xml_no_geom xml_point xml_li
 # -------------------------------------------------------------------------
 WFS_1_DEF layer_511   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   BRANNSTASJ                   xml_buffer   KASERNERT                    xml_buffer   BRANNVESEN                   xml_buffer   ANLEGGID                     xml_buffer   AJOURDATO                    xml_buffer   INFORMASJ                    xml_buffer   OPPHAV                       xml_buffer   STASJONSTY                   xml_buffer   OBJTYPE                      xml_buffer   DATO                         xml_buffer   BRANNSTA_                    xml_buffer
 # -------------------------------------------------------------------------
+WFS_1_DEF layer_562   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   POLY_                        xml_buffer   POLY_ID                      xml_buffer   AREA                         xml_buffer   PERIMETER                    xml_buffer   OPPR                         xml_buffer   X                            xml_buffer   Y                            xml_buffer   KOORDH                       xml_buffer   SENTRAL                      xml_buffer   LOKALISERI                   xml_buffer   OPPHAV                       xml_buffer   MALEMETODE                   xml_buffer   NOYAKTIGHE                   xml_buffer   SYNBARHET                    xml_buffer   H_MALEMETO                   xml_buffer   H_NOYAKTIG                   xml_buffer   MAX_AVVIK                    xml_buffer   OBJTYPE                      xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_307   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   SIVDISTRIK                   xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE WFS WFS_1::layer_562 TO FME_GENERIC ::layer_562 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_307 TO FME_GENERIC ::layer_307 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_309 TO FME_GENERIC ::layer_309 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_394 TO FME_GENERIC ::layer_394 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_395 TO FME_GENERIC ::layer_395 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_511 TO FME_GENERIC ::layer_511 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-WFS_1_MERGE_DEF WFS_1::layer_562 EXACT layer_562 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,POLY_,xml_buffer,POLY_ID,xml_buffer,AREA,xml_buffer,PERIMETER,xml_buffer,OPPR,xml_buffer,X,xml_buffer,Y,xml_buffer,KOORDH,xml_buffer,SENTRAL,xml_buffer,LOKALISERI,xml_buffer,OPPHAV,xml_buffer,MALEMETODE,xml_buffer,NOYAKTIGHE,xml_buffer,SYNBARHET,xml_buffer,H_MALEMETO,xml_buffer,H_NOYAKTIG,xml_buffer,MAX_AVVIK,xml_buffer,OBJTYPE,xml_buffer,NAVN,xml_buffer,DATO,xml_buffer
-WFS_1_MERGE_DEF WFS_1::layer_307 EXACT layer_307 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,SIVDISTRIK,xml_buffer,URL,xml_buffer,NAVN,xml_buffer
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE WFS WFS_1::layer_309 TO FME_GENERIC ::layer_309 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_394 TO FME_GENERIC ::layer_394 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_395 TO FME_GENERIC ::layer_395 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_511 TO FME_GENERIC ::layer_511 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_562 TO FME_GENERIC ::layer_562 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_307 TO FME_GENERIC ::layer_307 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 WFS_1_MERGE_DEF WFS_1::layer_309 EXACT layer_309 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,TYPE,xml_buffer,KOMMUNE,xml_buffer,URL,xml_buffer,NAVN,xml_buffer,DATO,xml_buffer
 WFS_1_MERGE_DEF WFS_1::layer_394 EXACT layer_394 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,BRANNSTASJ,xml_buffer,KASERNERT,xml_buffer,BRANNVESEN,xml_buffer,ANLEGGID,xml_buffer,AJOURDATO,xml_buffer,INFORMASJ,xml_buffer,OPPHAV,xml_buffer,STASJONSTY,xml_buffer,OBJTYPE,xml_buffer,DATO,xml_buffer,BRANNSTA_,xml_buffer
 WFS_1_MERGE_DEF WFS_1::layer_395 EXACT layer_395 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,BRANNSTASJ,xml_buffer,KASERNERT,xml_buffer,BRANNVESEN,xml_buffer,ANLEGGID,xml_buffer,AJOURDATO,xml_buffer,INFORMASJ,xml_buffer,OPPHAV,xml_buffer,STASJONSTY,xml_buffer,OBJTYPE,xml_buffer,DATO,xml_buffer,BRANNSTA_,xml_buffer
 WFS_1_MERGE_DEF WFS_1::layer_511 EXACT layer_511 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,BRANNSTASJ,xml_buffer,KASERNERT,xml_buffer,BRANNVESEN,xml_buffer,ANLEGGID,xml_buffer,AJOURDATO,xml_buffer,INFORMASJ,xml_buffer,OPPHAV,xml_buffer,STASJONSTY,xml_buffer,OBJTYPE,xml_buffer,DATO,xml_buffer,BRANNSTA_,xml_buffer
+WFS_1_MERGE_DEF WFS_1::layer_562 EXACT layer_562 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,POLY_,xml_buffer,POLY_ID,xml_buffer,AREA,xml_buffer,PERIMETER,xml_buffer,OPPR,xml_buffer,X,xml_buffer,Y,xml_buffer,KOORDH,xml_buffer,SENTRAL,xml_buffer,LOKALISERI,xml_buffer,OPPHAV,xml_buffer,MALEMETODE,xml_buffer,NOYAKTIGHE,xml_buffer,SYNBARHET,xml_buffer,H_MALEMETO,xml_buffer,H_NOYAKTIG,xml_buffer,MAX_AVVIK,xml_buffer,OBJTYPE,xml_buffer,NAVN,xml_buffer,DATO,xml_buffer
+WFS_1_MERGE_DEF WFS_1::layer_307 EXACT layer_307 DEFLINE xml_type,xml_no_geom<space>xml_point<space>xml_line<space>xml_area<space>xml_arc<space>xml_surface<space>xml_solid<space>xml_aggregate,gml_parent_id,xml_buffer,gml_id,xml_buffer,msGeometry,xml_geometry,SIVDISTRIK,xml_buffer,URL,xml_buffer,NAVN,xml_buffer
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC layer_511 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>brannstasj<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasj<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonsty<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjoner_utf8<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_562 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>poly_<comma>POLY_<comma>poly_id<comma>POLY_ID<comma>area<comma>AREA<comma>perimeter<comma>PERIMETER<comma>oppr<comma>OPPR<comma>x<comma>X<comma>y<comma>Y<comma>koordh<comma>KOORDH<comma>sentral<comma>SENTRAL<comma>lokaliseri<comma>LOKALISERI<comma>opphav<comma>OPPHAV<comma>malemetode<comma>MALEMETODE<comma>noyaktighe<comma>NOYAKTIGHE<comma>synbarhet<comma>SYNBARHET<comma>h_malemeto<comma>H_MALEMETO<comma>h_noyaktig<comma>H_NOYAKTIG<comma>max_avvik<comma>MAX_AVVIK<comma>objtype<comma>OBJTYPE<comma>navn<comma>NAVN<comma>dato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sentraldistrikter110<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_307 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>sivdistrik<comma>SIVDISTRIK<comma>url<comma>URL<comma>navn<comma>NAVN<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sivilforsvarsdistrikter<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_309 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>type<comma>TYPE<comma>kommune<comma>KOMMUNE<comma>url<comma>URL<comma>navn<comma>NAVN<comma>dato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sivilforsvaret_distriktskontor<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_394 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>brannstasj<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasj<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonsty<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjoner<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_395 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>brannstasj<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasj<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonsty<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjonkasernering<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC layer_511 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>brannstasj<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasj<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonsty<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjoner_utf8<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_309 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>type<comma>TYPE<comma>kommune<comma>KOMMUNE<comma>url<comma>URL<comma>navn<comma>NAVN<comma>dato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sivilforsvaret_distriktskontor<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_562 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>poly_<comma>POLY_<comma>poly_id<comma>POLY_ID<comma>area<comma>AREA<comma>perimeter<comma>PERIMETER<comma>oppr<comma>OPPR<comma>x<comma>X<comma>y<comma>Y<comma>koordh<comma>KOORDH<comma>sentral<comma>SENTRAL<comma>lokaliseri<comma>LOKALISERI<comma>opphav<comma>OPPHAV<comma>malemetode<comma>MALEMETODE<comma>noyaktighe<comma>NOYAKTIGHE<comma>synbarhet<comma>SYNBARHET<comma>h_malemeto<comma>H_MALEMETO<comma>h_noyaktig<comma>H_NOYAKTIG<comma>max_avvik<comma>MAX_AVVIK<comma>objtype<comma>OBJTYPE<comma>navn<comma>NAVN<comma>dato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sentraldistrikter110<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_307 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>sivdistrik<comma>SIVDISTRIK<comma>url<comma>URL<comma>navn<comma>NAVN<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sivilforsvarsdistrikter<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_395 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>brannstasj<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasj<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonsty<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjonkasernering<closeparen> GEOMETRY    ROUTE FME_GENERIC layer_394 TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>brannstasj<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasj<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonsty<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjoner<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
@@ -2030,12 +2030,12 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 # -------------------------------------------------------------------------
 POSTGIS_1_DEF brannstasjoner_utf8   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   brannstasj                   text   kasernert                    text   brannvesen                   text   anleggid                     text   ajourdato                    text   informasj                    text   opphav                       text   stasjonsty                   text   objtype                      text   dato                         text   brannsta_                    text
 # -------------------------------------------------------------------------
+POSTGIS_1_DEF sivilforsvaret_distriktskontor   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   type                         text   kommune                      text   url                          text   navn                         text   dato                         text
+# -------------------------------------------------------------------------
 POSTGIS_1_DEF sentraldistrikter110   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       NO   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   poly_                        text   poly_id                      text   area                         text   perimeter                    text   oppr                         text   x                            text   y                            text   koordh                       text   sentral                      text   lokaliseri                   text   opphav                       text   malemetode                   text   noyaktighe                   text   synbarhet                    text   h_malemeto                   text   h_noyaktig                   text   max_avvik                    text   objtype                      text   navn                         text   dato                         text
 # -------------------------------------------------------------------------
 POSTGIS_1_DEF sivilforsvarsdistrikter   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   sivdistrik                   text   url                          text   navn                         text
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF sivilforsvaret_distriktskontor   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   type                         text   kommune                      text   url                          text   navn                         text   dato                         text
+POSTGIS_1_DEF brannstasjonkasernering   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   brannstasj                   text   kasernert                    text   brannvesen                   text   anleggid                     text   ajourdato                    text   informasj                    text   opphav                       text   stasjonsty                   text   objtype                      text   dato                         text   brannsta_                    text
 # -------------------------------------------------------------------------
 POSTGIS_1_DEF brannstasjoner   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   brannstasj                   text   kasernert                    text   brannvesen                   text   anleggid                     text   ajourdato                    text   informasj                    text   opphav                       text   stasjonsty                   text   objtype                      text   dato                         text   brannsta_                    text
-# -------------------------------------------------------------------------
-POSTGIS_1_DEF brannstasjonkasernering   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   gml_parent_id                text   gml_id                       text   msgeometry                   text   brannstasj                   text   kasernert                    text   brannvesen                   text   anleggid                     text   ajourdato                    text   informasj                    text   opphav                       text   stasjonsty                   text   objtype                      text   dato                         text   brannsta_                    text
