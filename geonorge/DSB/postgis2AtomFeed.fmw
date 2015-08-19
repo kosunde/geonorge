@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\geonorge\DSB\postgis2Sosi.fmw
+#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\geonorge\DSB\postgis2AtomFeed.fmw
 #          --SourceDataset_POSTGIS "geonortst<at>Nnridb504:5432<solidus>geonor01tst"
 #          --DestDataset_SOSI "C:\Users\xmaland\Documents\SOSIfiler\DSB.SOS"
 #    
@@ -15,9 +15,9 @@
 #! DOC_TOP_LEFT="-168.008 -1054"
 #! REDIRECT_TERMINATORS="NONE"
 #! SOURCE_ROUTING_FILE=""
-#! VIEW_POSITION="-303.003 0"
+#! VIEW_POSITION="-300.003 0"
 #! TITLE=""
-#! LAST_SAVE_DATE="2015-08-19T10:25:47"
+#! LAST_SAVE_DATE="2015-08-19T10:26:36"
 #! PASSWORD=""
 #! IGNORE_READER_FAILURE="No"
 #! HISTORY=""
@@ -44,10 +44,10 @@
 #! BEGIN_PYTHON=""
 #! LOG_MAX_PRECISION="Yes"
 #! WORKSPACE_VERSION="1"
-#! FME_DOCUMENT_GUID="b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea"
+#! FME_DOCUMENT_GUID="eb3f060c-7908-4125-ab71-35f9c20b7290"
 #! FME_REPROJECTION_ENGINE="FME"
 #! MAX_LOG_FEATURES="200"
-#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c"
+#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c,b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea"
 #! FME_SERVER_SERVICES=""
 #! END_TCL=""
 #! DESTINATION="NONE"
@@ -1282,7 +1282,7 @@ SOSI_1_DATASET "$(DestDataset_SOSI_1)"
 #! END_DEST_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)postgis2Sosi.log"
+LOG_FILENAME "$(FME_MF_DIR)postgis2AtomFeed.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1305,7 +1305,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME postgis2Sosi
+MACRO WORKSPACE_NAME postgis2AtomFeed
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
@@ -1318,15 +1318,15 @@ POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.brannstasjonkasernering EXACT dsb.brannstasjo
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC dsb.sivilforsvaret_distriktskontor TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.brannstasjoner TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sentraldistrikter110 TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sivilforsvarsdistrikter TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.brannstasjonkasernering TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjonkasernering<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC dsb.brannstasjoner TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sivilforsvaret_distriktskontor TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sentraldistrikter110 TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sivilforsvarsdistrikter TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.brannstasjonkasernering TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjonkasernering<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-SOSI_1_DEF dsb.sivilforsvaret_distriktskontor   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_buffer   dato                         SOSI_date   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer
-# -------------------------------------------------------------------------
 SOSI_1_DEF dsb.brannstasjoner   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   opphav                       SOSI_buffer   stasjonstype                 SOSI_buffer   objtype                      SOSI_buffer   dato                         SOSI_date   brannsta_                    SOSI_buffer   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer
+# -------------------------------------------------------------------------
+SOSI_1_DEF dsb.sivilforsvaret_distriktskontor   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_buffer   dato                         SOSI_date   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer
 # -------------------------------------------------------------------------
 SOSI_1_DEF dsb.sentraldistrikter110   SOSI_type                    SOSI_polygon   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   poly_                        SOSI_buffer   poly_id                      SOSI_buffer   area                         SOSI_buffer   perimeter                    SOSI_buffer   oppr                         SOSI_buffer   x                            SOSI_real64   y                            SOSI_real64   koordh                       SOSI_buffer   sentral                      SOSI_buffer   lokalisering                 SOSI_buffer   opphav                       SOSI_buffer   omradeid                     SOSI_int64   originaldatavert             SOSI_buffer   kopidato                     SOSI_datetime   malemetode                   SOSI_buffer   noyaktighet                  SOSI_int64   synbarhet                    SOSI_buffer   h_malemetode                 SOSI_buffer   h_noyaktig                   SOSI_buffer   max_avvik                    SOSI_buffer   objtype                      SOSI_buffer   navn                         SOSI_buffer   datafangstdato               SOSI_date
 # -------------------------------------------------------------------------

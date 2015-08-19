@@ -5,61 +5,61 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\geonorge\DSB\postgis2Sosi.fmw
-#          --SourceDataset_POSTGIS "geonortst<at>Nnridb504:5432<solidus>geonor01tst"
+#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\geonorge\DSB\DSB_PostGIS2DSB_Sosi.fmw
 #          --DestDataset_SOSI "C:\Users\xmaland\Documents\SOSIfiler\DSB.SOS"
+#          --SourceDataset_POSTGIS_1 "geonor01tst"
 #    
 #    
-#! END_PYTHON=""
-#! DESCRIPTION=""
-#! DOC_TOP_LEFT="-168.008 -1054"
-#! REDIRECT_TERMINATORS="NONE"
-#! SOURCE_ROUTING_FILE=""
-#! VIEW_POSITION="-303.003 0"
-#! TITLE=""
-#! LAST_SAVE_DATE="2015-08-19T10:25:47"
-#! PASSWORD=""
-#! IGNORE_READER_FAILURE="No"
-#! HISTORY=""
 #! LEGAL_TERMS_CONDITIONS=""
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! FME_BUILD_NUM="15515"
-#! DOC_EXTENTS="3504.04 940.998"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! ATTR_TYPE_ENCODING="SDF"
-#! SHOW_INFO_NODES="true"
-#! SHOW_ANNOTATIONS="true"
-#! REQUIREMENTS=""
-#! ZOOM_SCALE="100"
-#! USAGE=""
-#! FME_STROKE_MAX_DEVIATION="0"
-#! SOURCE="NONE"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! FME_GEOMETRY_HANDLING="Enhanced"
+#! DOC_EXTENTS="3144.03 940.998"
 #! LOG_FILE=""
 #! CATEGORY=""
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! BEGIN_TCL=""
-#! BEGIN_PYTHON=""
-#! LOG_MAX_PRECISION="Yes"
-#! WORKSPACE_VERSION="1"
-#! FME_DOCUMENT_GUID="b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea"
-#! FME_REPROJECTION_ENGINE="FME"
-#! MAX_LOG_FEATURES="200"
-#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c"
 #! FME_SERVER_SERVICES=""
+#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c,b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea"
+#! LAST_SAVE_DATE="2015-08-19T15:04:28"
+#! LOG_MAX_PRECISION="Yes"
+#! ATTR_TYPE_ENCODING="SDF"
+#! WORKSPACE_VERSION="1"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! SOURCE_ROUTING_FILE=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! USAGE=""
+#! BEGIN_PYTHON=""
+#! IGNORE_READER_FAILURE="No"
+#! BEGIN_TCL=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! FME_BUILD_NUM="15515"
 #! END_TCL=""
+#! SHOW_INFO_NODES="true"
+#! MAX_LOG_FEATURES="200"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! DOC_TOP_LEFT="-168.008 -1054"
 #! DESTINATION="NONE"
+#! SOURCE="NONE"
+#! ZOOM_SCALE="100"
+#! PASSWORD=""
+#! REQUIREMENTS=""
+#! VIEW_POSITION="-300.003 0"
+#! DESCRIPTION=""
+#! SHOW_ANNOTATIONS="true"
 #! DESTINATION_ROUTING_FILE=""
+#! HISTORY=""
 #! REQUIREMENTS_KEYWORD=""
+#! FME_DOCUMENT_GUID="322aba2d-7e13-424f-99bc-4ad788264fb1"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! TITLE=""
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! REDIRECT_TERMINATORS="NONE"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! END_PYTHON=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
 #! >
 #! <DATASETS>
 #! <DATASET
 #! IS_SOURCE="true"
 #! ROLE="READER"
 #! FORMAT="POSTGIS"
-#! DATASET="$(SourceDataset_POSTGIS)"
+#! DATASET="$(SourceDataset_POSTGIS_1)"
 #! KEYWORD="POSTGIS_1"
 #! MULTI_GEOM_ALLOWED="false"
 #! ATTR_MAX_LENGTH="60"
@@ -68,7 +68,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="multi_reader_id int4 fme_feature_type char(50) postgis_type char(50) postgres_oid int4 multi_reader_type char(50) fme_basename char(50) multi_reader_keyword char(50) fme_start_angle float8 fme_geometry fme_char(50) fme_secondary_axis float8 fme_sweep_angle float8 fme_fill_color char(50) postgis_collection_id int4 fme_text_size float8 postgis_collection_part_id int4 fme_primary_axis float8 fme_type char(50) fme_color char(50) fme_text_string char(50) multi_reader_full_id int4 fme_rotation float8 fme_dataset char(50)"
+#! EXPOSABLE_ATTRS="postgres_oid int4 fme_color char(50) fme_sweep_angle float8 postgis_collection_id int4 fme_text_size float8 postgis_collection_part_id int4 fme_text_string char(50) fme_type char(50) fme_primary_axis float8 multi_reader_keyword char(50) multi_reader_id int4 fme_fill_color char(50) fme_rotation float8 postgis_type char(50) fme_start_angle float8 multi_reader_type char(50) fme_feature_type char(50) fme_secondary_axis float8 fme_dataset char(50) fme_basename char(50) multi_reader_full_id int4 fme_geometry fme_char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -77,12 +77,12 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! MIN_FEATURES=""
-#! START_FEATURE=""
-#! MAX_FEATURES=""
 #! COORDSYS=""
+#! MIN_FEATURES=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! FEATURE_TYPES=""
+#! START_FEATURE=""
+#! MAX_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
@@ -97,12 +97,12 @@
 #! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -118,7 +118,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="SOSI_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_color SOSI_char(50) fme_text_string SOSI_char(50) fme_basename SOSI_char(50) fme_primary_axis SOSI_real64 fme_feature_type SOSI_char(50) fme_type SOSI_char(50) fme_sweep_angle SOSI_real64 fme_start_angle SOSI_real64 fme_secondary_axis SOSI_real64 fme_geometry fme_char(50) fme_rotation SOSI_real64 fme_dataset SOSI_char(50) fme_text_size SOSI_real64 fme_fill_color SOSI_char(50)"
+#! EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_text_string SOSI_char(50) fme_rotation SOSI_real64 fme_start_angle SOSI_real64 fme_sweep_angle SOSI_real64 fme_text_size SOSI_real64 fme_color SOSI_char(50) fme_dataset SOSI_char(50) fme_fill_color SOSI_char(50) fme_basename SOSI_char(50) fme_secondary_axis SOSI_real64 fme_primary_axis SOSI_real64 fme_feature_type SOSI_char(50) fme_type SOSI_char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -128,11 +128,11 @@
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15515"
 #! FANOUT_SUFFIX=""
-#! FANOUT="No"
-#! FANOUT_PREFIX=""
 #! FANOUT_DIRECTORY=""
-#! FANOUT_ID_ATTR=""
+#! FANOUT_PREFIX=""
 #! COORDSYS="EPSG:32633"
+#! FANOUT="No"
+#! FANOUT_ID_ATTR=""
 #! />
 #! </DATASETS>
 #! <DATA_TYPES>
@@ -675,8 +675,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -711,8 +711,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -727,7 +727,7 @@
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
-#! PARMS_EDITED="false"
+#! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
 #! MERGE_FILTER=""
@@ -762,8 +762,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -804,8 +804,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -846,8 +846,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -857,8 +857,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="6"
 #! FEAT_GEOMTYPE="SOSI_point"
-#! POSITION="1784.99 -707"
-#! BOUNDING_RECT="1784.99 -707 1269.04 71"
+#! POSITION="1424.99 -680"
+#! BOUNDING_RECT="1424.99 -680 1269.04 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -893,8 +893,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="7"
 #! FEAT_GEOMTYPE="SOSI_polygon"
-#! POSITION="1784.99 -405.003"
-#! BOUNDING_RECT="1784.99 -405.003 1551.04 71"
+#! POSITION="1424.99 -297.002"
+#! BOUNDING_RECT="1424.99 -297.002 1551.04 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -921,8 +921,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="8"
 #! FEAT_GEOMTYPE="SOSI_point"
-#! POSITION="1811.99 -540.005"
-#! BOUNDING_RECT="1811.99 -540.005 1293.04 71"
+#! POSITION="1424.99 -476"
+#! BOUNDING_RECT="1424.99 -476 1293.04 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -987,8 +987,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="10"
 #! FEAT_GEOMTYPE="SOSI_polygon"
-#! POSITION="1736.99 -860"
-#! BOUNDING_RECT="1736.99 -860 1209.04 71"
+#! POSITION="1424.99 -956.001"
+#! BOUNDING_RECT="1424.99 -956.001 1209.04 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -1026,16 +1026,207 @@
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#! NAME="fmedatadownload"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE="FME_DISCLOSURE_OPEN"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE="DATADOWNLOAD_ASYNC_JOB_FAILURE"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE="POSTGIS_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="OUTPUT_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE="DATADOWNLOAD_ASYNC_JOB_SUCCESS"
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="fmedatastreaming"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE="FME_DISCLOSURE_OPEN"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE="JOBSUBMITTER_ASYNC_JOB_FAILURE"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE="POSTGIS_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="OUTPUT_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE="JOBSUBMITTER_ASYNC_JOB_SUCCESS"
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE="FME_DISCLOSURE_OPEN"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE="JOBSUBMITTER_ASYNC_JOB_FAILURE"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE="POSTGIS_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE="JOBSUBMITTER_ASYNC_JOB_SUCCESS"
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="fmenotification"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE="FME_DISCLOSURE_OPEN"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="CONTENT_FORMAT"
+#! VALUE="XML"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE="DATADOWNLOAD_ASYNC_JOB_FAILURE"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE="POSTGIS_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="PUBLISHER"
+#! VALUE="FME_DISCLOSURE_OPEN"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE="DATADOWNLOAD_ASYNC_JOB_SUCCESS"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="TOPICS_LIST"
+#! VALUE="JOBSUBMITTER_ASYNC_JOB_SUCCESS"
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#! NAME="DSB"
+#! />
+#! <ITEM
+#! NAME="DSB_PostGIS2DSB_Sosi.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#! UID=":GlobalParameterMgr:DestDataset_SOSI"
+#! VALUE="C:\Users\xmaland\Documents\SOSIfiler\DSB.SOS"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:DestDataset_SOSI_1"
+#! VALUE="$(DestDataset_SOSI)"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:FANOUT_DIRECTORY"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:LOG_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:SOURCE_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! </MODIFICATIONS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#! GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS Connection:"
-#! DEFAULT_VALUE="geonortst&lt;at&gt;Nnridb504:5432&lt;solidus&gt;geonor01tst"
+#! GUI_LINE="GUI FILENAME DestDataset_SOSI SOSI_Files(*.sos)|*.sos|All_files(*.*)|*.* Destination SOSI File:"
+#! DEFAULT_VALUE="C:\Users\xmaland\Documents\SOSIfiler\DSB.SOS"
 #! IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#! GUI_LINE="GUI FILENAME DestDataset_SOSI SOSI_Files(*.sos)|*.sos|All_files(*.*)|*.* Destination SOSI File:"
-#! DEFAULT_VALUE="C:\Users\xmaland\Documents\SOSIfiler\DSB.SOS"
+#! GUI_LINE="GUI TEXT SourceDataset_POSTGIS_1 Database:"
+#! DEFAULT_VALUE="geonor01tst"
 #! IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1104,13 +1295,13 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 #! 
-GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,DestDataset_SOSI_1,SOSI_OUT_HODE_ENHET_SOSI_1,SOSI_OUT_HODE_PRODUSENT_SOSI_1,SOSI_OUT_HODE_EIER_SOSI_1,SOSI_OUT_HODE_TEGNSETT_SOSI_1,SOSI_OUT_HODE_HOYDEREF_SOSI_1,SOSI_OUT_HODE_DYBDEEREF_SOSI_1,SOSI_OUT_HODE_FRISEILREF_SOSI_1,SOSI_OUT_HODE_HOYDETYPE_SOSI_1,SOSI_OUT_HODE_VERSJON_SOSI_1,SOSI_OUT_HODE_PRODUKTSPEK_SOSI_1,SOSI_OUT_HODE_OBJEKTKATALOG_SOSI_1,SOSI_OUT_HODE_ANNET_SOSI_1,SOSI_OUT_WRITER_THRESHOLD_SOSI_1,SOSI_OUT_WRITER_DUMMY_Z_VALUE_SOSI_1,SOSI_OUT_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES_SOSI_1,SOSI_OUT_WRITER_USE_TOPOLOGY_RULES_SOSI_1,SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1,SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1,SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1,SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1,SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1,SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1,SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1,SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1
-DEFAULT_MACRO SourceDataset_POSTGIS geonortst<at>Nnridb504:5432<solidus>geonor01tst
-GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS Connection:
+GUI IGNORE POSTGIS_IN_PASSWORD_POSTGIS_1,POSTGIS_IN_USER_NAME_POSTGIS_1,POSTGIS_IN_PORT_POSTGIS_1,POSTGIS_IN_HOST_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,DestDataset_SOSI_1,SOSI_OUT_HODE_ENHET_SOSI_1,SOSI_OUT_HODE_PRODUSENT_SOSI_1,SOSI_OUT_HODE_EIER_SOSI_1,SOSI_OUT_HODE_TEGNSETT_SOSI_1,SOSI_OUT_HODE_HOYDEREF_SOSI_1,SOSI_OUT_HODE_DYBDEEREF_SOSI_1,SOSI_OUT_HODE_FRISEILREF_SOSI_1,SOSI_OUT_HODE_HOYDETYPE_SOSI_1,SOSI_OUT_HODE_VERSJON_SOSI_1,SOSI_OUT_HODE_PRODUKTSPEK_SOSI_1,SOSI_OUT_HODE_OBJEKTKATALOG_SOSI_1,SOSI_OUT_HODE_ANNET_SOSI_1,SOSI_OUT_WRITER_THRESHOLD_SOSI_1,SOSI_OUT_WRITER_DUMMY_Z_VALUE_SOSI_1,SOSI_OUT_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES_SOSI_1,SOSI_OUT_WRITER_USE_TOPOLOGY_RULES_SOSI_1,SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1,SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1,SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1,SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1,SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1,SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1,SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1,SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1
 DEFAULT_MACRO DestDataset_SOSI C:\Users\xmaland\Documents\SOSIfiler\DSB.SOS
 GUI FILENAME DestDataset_SOSI SOSI_Files(*.sos)|*.sos|All_files(*.*)|*.* Destination SOSI File:
-INCLUDE [ if {{$(SourceDataset_POSTGIS)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS' must be given a value.}; exit 1; }; ]
+DEFAULT_MACRO SourceDataset_POSTGIS_1 geonor01tst
+GUI TEXT SourceDataset_POSTGIS_1 Database:
 INCLUDE [ if {{$(DestDataset_SOSI)} == {}} { puts_real {Parameter 'DestDataset_SOSI' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_POSTGIS_1)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_1' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE POSTGIS
@@ -1126,7 +1317,12 @@ MULTI_WRITER_KEYWORD{0} SOSI_1
 MACRO WB_KEYWORD "POSTGIS_1"
 #! END_WB_HEADER
 #! START_SOURCE_HEADER POSTGIS POSTGIS_1
-# The dataset this mapping file was generated from was:
+DEFAULT_MACRO POSTGIS_IN_HOST_POSTGIS_1 Nnridb504
+POSTGIS_1_HOST "$(POSTGIS_IN_HOST_POSTGIS_1)"
+GUI TEXT POSTGIS_IN_HOST_POSTGIS_1 Host:
+DEFAULT_MACRO POSTGIS_IN_PORT_POSTGIS_1 5432
+POSTGIS_1_PORT "$(POSTGIS_IN_PORT_POSTGIS_1)"
+GUI INTEGER POSTGIS_IN_PORT_POSTGIS_1 Port:
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 DEFAULT_MACRO SourceDataset
@@ -1135,8 +1331,16 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER POSTGIS POSTGIS_1
-DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset_POSTGIS)
-GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_1 FMT:POSTGIS Connection:
+DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset_POSTGIS_1)
+POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
+GUI TEXT SourceDataset_POSTGIS_1 Database:
+DEFAULT_MACRO POSTGIS_IN_USER_NAME_POSTGIS_1 geonortst
+POSTGIS_1_USER_NAME "$(POSTGIS_IN_USER_NAME_POSTGIS_1)"
+GUI TEXT POSTGIS_IN_USER_NAME_POSTGIS_1 Username:
+DEFAULT_MACRO POSTGIS_IN_PASSWORD_POSTGIS_1 fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz3aJcJJbBQ2JPsUqzvHL628vTzRfP1bJ8qVE1NS+Y72Vbcp08FYkEGKN4j6Z4FNSaGW6FKRGZ8Ky+4IGOXVzqfoEPt37BZwgUX/oYSwMbrkyfA+s4CdbceEAPEBjo+M9d3Rg0DQMHIVsMLxQ/toH+bPlYe8zReBZIlMQNiFc9XWJToo7Qt+kV0KrF5r5cnHWR/IpGR70VzQGyrw6HZltsHF5eKbxHB8P4HEYb8uyrYAvWITPSMP8T71YaTHZMNTwmPfcEohmqvkVr38ZHpi0M8wIpg1yuOURiTpWQaQmZD8XHPVxAATCburQVyjZS/A4k1eVxcegT6bRHQHnGrZ/ZdEnMlCueqf/G)
+POSTGIS_1_PASSWORD "$(POSTGIS_IN_PASSWORD_POSTGIS_1)"
+GUI OPTIONAL PASSWORD POSTGIS_IN_PASSWORD_POSTGIS_1 Password:
+# The dataset this mapping file was generated from was:
 DEFAULT_MACRO POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1 Yes
 POSTGIS_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1)"
 DEFAULT_MACRO POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1 yes
@@ -1185,7 +1389,6 @@ POSTGIS_1_BEGIN_SQL "$(POSTGIS_IN_BEGIN_SQL_POSTGIS_1)"
 DEFAULT_MACRO POSTGIS_IN_END_SQL_POSTGIS_1 
 GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_END_SQL_POSTGIS_1 SQL Statement to Execute After Translation:
 POSTGIS_1_END_SQL "$(POSTGIS_IN_END_SQL_POSTGIS_1)"
-POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "SOSI_1"
@@ -1260,7 +1463,7 @@ GUI CHOICE SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1 Full%Basic%None Ege
 DEFAULT_MACRO SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1 SOSI_Objekt
 SOSI_1_WRITER_OBJTYPE_FOR_GENERATED_LINES "$(SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1)"
 GUI TEXT SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1 OBJTYPE for genererte linjer:
-DEFAULT_MACRO SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1 no
+DEFAULT_MACRO SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1 yes
 SOSI_1_WRITER_ALLOW_MISSING_MANDATORY_ATTRS "$(SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1)"
 GUI CHOICE SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1 yes%no Tillat objekter som mangler obligatoriske egenskaper:
 DEFAULT_MACRO SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1 yes
@@ -1269,7 +1472,7 @@ GUI CHOICE SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1 yes%no Logg advarsler:
 DEFAULT_MACRO SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1 yes
 SOSI_1_WRITER_LOG_ERRORS "$(SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1)"
 GUI CHOICE SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1 yes%no Logg feil:
-DEFAULT_MACRO SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 yes
+DEFAULT_MACRO SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 no
 SOSI_1_WRITER_GENERATE_MAPPING_XML "$(SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1)"
 GUI CHOICE SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 yes%no Generer mapping xml:
 DEFAULT_MACRO SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 
@@ -1282,7 +1485,7 @@ SOSI_1_DATASET "$(DestDataset_SOSI_1)"
 #! END_DEST_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)postgis2Sosi.log"
+LOG_FILENAME "$(FME_MF_DIR)DSB_PostGIS2DSB_Sosi.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1305,30 +1508,30 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME postgis2Sosi
+MACRO WORKSPACE_NAME DSB_PostGIS2DSB_Sosi
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvaret_distriktskontor TO FME_GENERIC ::dsb.sivilforsvaret_distriktskontor ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjoner TO FME_GENERIC ::dsb.brannstasjoner ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sentraldistrikter110 TO FME_GENERIC ::dsb.sentraldistrikter110 ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvarsdistrikter TO FME_GENERIC ::dsb.sivilforsvarsdistrikter ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjonkasernering TO FME_GENERIC ::dsb.brannstasjonkasernering ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvaret_distriktskontor EXACT dsb.sivilforsvaret_distriktskontor DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,type,text,kommune,text,url,text,navn,text,dato,date,omradeid,int8,kopidato,timestamp,originaldatavert,text
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.brannstasjoner EXACT dsb.brannstasjoner DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,brannstasjon,text,kasernert,text,brannvesen,text,anleggid,text,ajourdato,date,informasjon,text,opphav,text,stasjonstype,text,objtype,text,dato,date,brannsta_,text,omradeid,int8,kopidato,timestamp,originaldatavert,text
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::dsb.sentraldistrikter110 TO FME_GENERIC ::dsb.sentraldistrikter110 ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjoner TO FME_GENERIC ::dsb.brannstasjoner ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvaret_distriktskontor TO FME_GENERIC ::dsb.sivilforsvaret_distriktskontor ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvarsdistrikter TO FME_GENERIC ::dsb.sivilforsvarsdistrikter ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjonkasernering TO FME_GENERIC ::dsb.brannstasjonkasernering ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sentraldistrikter110 EXACT dsb.sentraldistrikter110 DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,poly_,text,poly_id,text,area,text,perimeter,text,oppr,text,x,float8,y,float8,koordh,text,sentral,text,lokalisering,text,opphav,text,omradeid,int8,originaldatavert,text,kopidato,timestamp,malemetode,text,noyaktighet,int8,synbarhet,text,h_malemetode,text,h_noyaktig,text,max_avvik,text,objtype,text,navn,text,datafangstdato,date
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.brannstasjoner EXACT dsb.brannstasjoner DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,brannstasjon,text,kasernert,text,brannvesen,text,anleggid,text,ajourdato,date,informasjon,text,opphav,text,stasjonstype,text,objtype,text,dato,date,brannsta_,text,omradeid,int8,kopidato,timestamp,originaldatavert,text
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvaret_distriktskontor EXACT dsb.sivilforsvaret_distriktskontor DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,type,text,kommune,text,url,text,navn,text,dato,date,omradeid,int8,kopidato,timestamp,originaldatavert,text
 POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvarsdistrikter EXACT dsb.sivilforsvarsdistrikter DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,sivdistrik,text,url,text,navn,text,kopidato,timestamp,originaldatavert,text,omradeid,int4
 POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.brannstasjonkasernering EXACT dsb.brannstasjonkasernering DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,brannstasjon,text,kasernert,text,brannvesen,text,anleggid,text,ajourdato,date,informasjon,text,opphav,text,stasjonstype,text,objtype,text,dato,date,brannsta_,text,omradeid,int8,kopidato,timestamp,originaldatavert,text
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC dsb.sivilforsvaret_distriktskontor TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.brannstasjoner TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sentraldistrikter110 TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sivilforsvarsdistrikter TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.brannstasjonkasernering TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjonkasernering<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC dsb.brannstasjoner TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sentraldistrikter110 TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sivilforsvaret_distriktskontor TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.sivilforsvarsdistrikter TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY    ROUTE FME_GENERIC dsb.brannstasjonkasernering TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjonkasernering<closeparen> COORDINATE_SYSTEM EPSG:32633 GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-SOSI_1_DEF dsb.sivilforsvaret_distriktskontor   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_buffer   dato                         SOSI_date   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer
-# -------------------------------------------------------------------------
 SOSI_1_DEF dsb.brannstasjoner   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   opphav                       SOSI_buffer   stasjonstype                 SOSI_buffer   objtype                      SOSI_buffer   dato                         SOSI_date   brannsta_                    SOSI_buffer   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer
 # -------------------------------------------------------------------------
 SOSI_1_DEF dsb.sentraldistrikter110   SOSI_type                    SOSI_polygon   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   poly_                        SOSI_buffer   poly_id                      SOSI_buffer   area                         SOSI_buffer   perimeter                    SOSI_buffer   oppr                         SOSI_buffer   x                            SOSI_real64   y                            SOSI_real64   koordh                       SOSI_buffer   sentral                      SOSI_buffer   lokalisering                 SOSI_buffer   opphav                       SOSI_buffer   omradeid                     SOSI_int64   originaldatavert             SOSI_buffer   kopidato                     SOSI_datetime   malemetode                   SOSI_buffer   noyaktighet                  SOSI_int64   synbarhet                    SOSI_buffer   h_malemetode                 SOSI_buffer   h_noyaktig                   SOSI_buffer   max_avvik                    SOSI_buffer   objtype                      SOSI_buffer   navn                         SOSI_buffer   datafangstdato               SOSI_date
+# -------------------------------------------------------------------------
+SOSI_1_DEF dsb.sivilforsvaret_distriktskontor   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_buffer   dato                         SOSI_date   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer
 # -------------------------------------------------------------------------
 SOSI_1_DEF dsb.sivilforsvarsdistrikter   SOSI_type                    SOSI_polygon   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_buffer   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer   omradeid                     SOSI_int32
 # -------------------------------------------------------------------------
