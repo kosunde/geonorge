@@ -33,12 +33,12 @@
 #! MAX_LOG_FEATURES="200"
 #! END_TCL=""
 #! VIEW_POSITION="-1298.95 1158.52"
-#! DOC_EXTENTS="4471.06 2360.16"
+#! DOC_EXTENTS="4471.06 2350.59"
 #! FME_REPROJECTION_ENGINE="FME"
 #! DOC_TOP_LEFT="-1399.6 -1203.01"
 #! SHOW_ANNOTATIONS="true"
 #! SOURCE_ROUTING_FILE=""
-#! LAST_SAVE_DATE="2015-08-19T15:37:26"
+#! LAST_SAVE_DATE="2015-08-20T11:24:19"
 #! FME_GEOMETRY_HANDLING="Enhanced"
 #! BEGIN_TCL=""
 #! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
@@ -305,8 +305,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="83"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="560.365 1035.86"
-#! BOUNDING_RECT="560.365 1035.86 -1 -1"
+#! POSITION="560.365 1026.29"
+#! BOUNDING_RECT="560.365 1026.29 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="false"
 #! KEYWORD="GEORSS_1"
@@ -613,9 +613,9 @@
 #! IDENTIFIER="60"
 #! NAME="Feed"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="-1178.2 1157.15"
-#! BOTTOM_RIGHT="1095.01 353.575"
-#! BOUNDING_RECT="-1178.2 1157.15 2273.21 803.575"
+#! TOP_LEFT="-1178.2 1147.58"
+#! BOTTOM_RIGHT="1095.01 344"
+#! BOUNDING_RECT="-1178.2 1147.58 2273.21 803.575"
 #! STICKY="true"
 #! COLOUR="0.0627451,0.792157,0.0666667"
 #! CONTENTS="65 83 42 54 55 "
@@ -988,8 +988,8 @@
 #! IDENTIFIER="42"
 #! TYPE="Creator"
 #! VERSION="5"
-#! POSITION="-952.202 775.555"
-#! BOUNDING_RECT="-952.202 775.555 -1 -1"
+#! POSITION="-952.202 765.98"
+#! BOUNDING_RECT="-952.202 765.98 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="false"
 #! ENABLED="true"
@@ -1048,8 +1048,8 @@
 #! IDENTIFIER="54"
 #! TYPE="AttributeCreator"
 #! VERSION="6"
-#! POSITION="-255.432 717.58"
-#! BOUNDING_RECT="-255.432 717.58 -1 -1"
+#! POSITION="-255.432 708.005"
+#! BOUNDING_RECT="-255.432 708.005 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1419,9 +1419,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME SubstringExtractor    INPUT  FEATURE_TY
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_4_1b5a431a_8ffb_4e13_ac24_d148eab4e7fb10_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_4}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_4}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_4_1b5a431a_8ffb_4e13_ac24_d148eab4e7fb11_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_4}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_4}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_4    INPUT  FEATURE_TYPE SubstringExtractor_OUTPUT    OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT         "@Tcl2( AttributeCreator_4_1b5a431a_8ffb_4e13_ac24_d148eab4e7fb10_attrSetter {(GetParametersURL,$(FMEServerRoot$encode)<solidus>fmerest<solidus>repositories<solidus>$(Repository_Name$encode)<solidus><at>Value<openparen>displayName<closeparen><solidus>parameters.xml?token=$(Token$encode))} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_4    INPUT  FEATURE_TYPE SubstringExtractor_OUTPUT    OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT         "@Tcl2( AttributeCreator_4_1b5a431a_8ffb_4e13_ac24_d148eab4e7fb11_attrSetter {(GetParametersURL,$(FMEServerRoot$encode)<solidus>fmerest<solidus>repositories<solidus>$(Repository_Name$encode)<solidus><at>Value<openparen>displayName<closeparen><solidus>parameters.xml?token=$(Token$encode))} )"
 
 # -------------------------------------------------------------------------
 
@@ -1429,9 +1429,9 @@ FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE A
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_3_f791a59c_d270_40a6_9525_f8ad00f091ab10_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_3}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_3}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_3_f791a59c_d270_40a6_9525_f8ad00f091ab11_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_3}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_3}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_3    INPUT  FEATURE_TYPE HTTPCaller_<Rejected>    OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT         "@Tcl2( AttributeCreator_3_f791a59c_d270_40a6_9525_f8ad00f091ab10_attrSetter {(Author,$(Author$encode),Content,Check<space>that<space>FMEServer.com<space>is<space>running<space>and<space>that<space>the<space>workspace<space>has<space>a<space>valid<space>REST<space>Security<space>Token,Title,The<space>Workspace<space>could<space>not<space>read<space>from<space>the<space>REST<space>service<space>running<space>on:<space><space>$(FMEServerRoot$encode)<space><space>Check<space>that<space>the<space>workspace<space>has<space>a<space>valid<space>user<space>name<space>and<space>password,ContentType,html)} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_3    INPUT  FEATURE_TYPE HTTPCaller_<Rejected>    OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT         "@Tcl2( AttributeCreator_3_f791a59c_d270_40a6_9525_f8ad00f091ab11_attrSetter {(Author,$(Author$encode),Content,Check<space>that<space>FMEServer.com<space>is<space>running<space>and<space>that<space>the<space>workspace<space>has<space>a<space>valid<space>REST<space>Security<space>Token,Title,The<space>Workspace<space>could<space>not<space>read<space>from<space>the<space>REST<space>service<space>running<space>on:<space><space>$(FMEServerRoot$encode)<space><space>Check<space>that<space>the<space>workspace<space>has<space>a<space>valid<space>user<space>name<space>and<space>password,ContentType,html)} )"
 
 # -------------------------------------------------------------------------
 
@@ -1449,9 +1449,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    LIST_NAME "options.option{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    MODE LEAN    OUTPUT ELEMENT FEATURE_TYPE ListExploder_LIST_FOUND         @RemoveAttributes(ElementFactory.baseCloned)
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_62c1a8d2_c40f_41d6_bcfc_543b5385628f10_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "{\[0-9\]+}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_62c1a8d2_c40f_41d6_bcfc_543b5385628f11_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "{\[0-9\]+}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE ListExploder_LIST_FOUND    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(name,value,fme_regexp_match,"^fme_$(AttributeKeeper_62c1a8d2_c40f_41d6_bcfc_543b5385628f10_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE ListExploder_LIST_FOUND    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(name,value,fme_regexp_match,"^fme_$(AttributeKeeper_62c1a8d2_c40f_41d6_bcfc_543b5385628f11_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT ATTR DownloadUrl $(FMEServerRoot$encode)<solidus>fmedatastreaming<solidus>$(Repository_Name$encode)<solidus>$(workspaceName$encode)?DestDataset_SOSI=%24<openparen>FME_SHAREDRESOURCE_DATA<closeparen>DSB%2FDSBSosi<amp>SourceDataset_POSTGIS_1=geonor01tst<lf><lf>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
