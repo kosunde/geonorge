@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+	    <FeatureClass InputName="akvakultur.akvakulturflate">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+            <Field InputName="areal_m2" InputType="H11" OutputName="AREAL_M2" OutputType="H7"/>
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+        </FeatureClass>
+        <FeatureClass InputName="akvakultur.akvakulturgrense">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+		</FeatureClass>
+        <FeatureClass InputName="akvakultur.akvakulturpunkt">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+            <Field InputName="L:akva_art{}.art" InputType="T80" OutputName="AKVA_ART" OutputType="T80" UserDefined="true"/>
+			<Field InputName="akva_kapasitet" InputType="D10.2" OutputName="AKVA_KAPASITET" OutputType="D10.2"/>
+            <Field InputName="akva_enhet" InputType="T80" OutputName="AKVA_ENHET" OutputType="H1"/>
+            <Field InputName="adresse" InputType="T80" OutputName="FISKE_BEDR_ID\FIRMA_EIER\ADRESSE" OutputType="T35"/>
+            <Field InputName="firma" InputType="T80" OutputName="FISKE_BEDR_ID\FIRMA_EIER\FIRMA" OutputType="T35"/>
+            <Field InputName="fiske_bedr_eier" InputType="T80" OutputName="FISKE_BEDR_ID\FIRMA_EIER\FISKE_BEDR_EIER" OutputType="T25"/>
+            <Field InputName="kontaktperson" InputType="T80" OutputName="FISKE_BEDR_ID\FIRMA_EIER\KONTAKTPERSON" OutputType="T50"/>
+            <Field InputName="plassering" InputType="T80" OutputName="PLASSERING" OutputType="T255"/>
+            <Field InputName="postadresse" InputType="T80" OutputName="FISKE_BEDR_ID\FIRMA_EIER\POSTSTED" OutputType="T80"/>
+            <Field InputName="postnr" InputType="H11" OutputName="FISKE_BEDR_ID\FIRMA_EIER\POSTNR" OutputType="H4"/>
+            <Field InputName="telefonnr" InputType="H11" OutputName="FISKE_BEDR_ID\FIRMA_EIER\TELEFONNR" OutputType="H8"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.akvatillatelsesnummer" InputType="H4" OutputName="AKVA_KONS_INFO\AKVA_NR" OutputType="H4"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.fiskebruknummerfylke" InputType="T80" OutputName="AKVA_KONS_INFO\FBNR_FYLK" OutputType="T2"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.fiskebruknummerkommune" InputType="T80" OutputName="AKVA_KONS_INFO\FBNR_KOMM" OutputType="T2"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.lok_navn" InputType="T80" OutputName="AKVA_KONS_INFO\LOK_NAVN" OutputType="T35"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.lok_nr" InputType="H5" OutputName="AKVA_KONS_INFO\LOK_NR" OutputType="H5"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.tillatelsesformaal" InputType="T80" OutputName="AKVA_KONS_INFO\AKVAKONSESJONSFORMÅL" OutputType="T15"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.tillatelsesstatus" InputType="T80" OutputName="AKVA_KONS_INFO\AKVA_STATUS" OutputType="T1"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.tillatelsestype" InputType="T80" OutputName="AKVA_KONS_INFO\AKVA_TYPE" OutputType="T4"/>
+			<Field InputName="L:akvatillatelsesinformasjon{}.tillatelsesurl" InputType="T255" OutputName="AKVA_KONS_INFO\AKVA_URL" OutputType="T255"/>
+            <Field InputName="vannmiljo" InputType="T80" OutputName="VANNMILJO" OutputType="T80" UserDefined="true"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>
