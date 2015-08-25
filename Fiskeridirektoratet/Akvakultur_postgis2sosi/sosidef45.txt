@@ -2064,6 +2064,9 @@
 ..AKVA_KAPASITET D10.2                             !akvaKapasitet
 
 .DEF
+..AKVA_KLASSE T80                             !akvaKlasse
+
+.DEF
 ..AKVA_KONS_INFO *                                 !akvaKonsesjonsinformasjon
 ...FBNR_FYLK T2 $MAN $CARMIN (1) $CARMAX (1)       !fiskebruksnummerFylke
 ...FBNR_KOMM T2 $MAN $CARMIN (1) $CARMAX (1)       !fiskebruksnummerKommune
@@ -9801,6 +9804,7 @@
 ...AKVA_KONSTR H1 $CARMIN (0) $CARMAX (1)          !akvaKonstruksjon
 ...AKVA_ART H6 $CARMIN (0) $CARMAX (1)             !akvaArt
 ...AKVA_ENHET H1 $CARMIN (0) $CARMAX (1)           !akvaEnhet
+...AKVA_KLASSE T80 $CARMIN (0) $CARMAX (1)         !akvaKlasse
 ...AKVA_KONS_INFO * $CARMIN (0) $CARMAX ($N)       !akvaKonsesjonsinformasjon
 ....FBNR_FYLK T2 $MAN $CARMIN (1) $CARMAX (1)      !fiskebruksnummerFylke
 ....AKVA_NR H4 $MAN $CARMIN (1) $CARMAX (1)        !akvaKonsesjonsnummer
