@@ -5,16 +5,22 @@
 			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
             <Field InputName="areal_m2" InputType="H11" OutputName="AREAL_M2" OutputType="H7"/>
             <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+			<Field InputName="kommuneid" InputType="H8" OutputName="KOPIDATA\OMRÅDEID" OutputType="H8"/>
 		    <Field InputName="dataeier" InputType="T80" OutputName="KOPIDATA\ORIGINALDATAVERT" OutputType="T80"/>
 			<Field InputName="kopidato" InputType="DATO" OutputName="KOPIDATA\KOPIDATO" OutputType="DATOTID"/>
+			<Field InputName="komm" InputType="T4" OutputName="KOMM" OutputType="T4"/>
+			<Field InputName="fylkesnr" InputType="H2" OutputName="FYLKESNR" OutputType="H2"/>			
         </FeatureClass>
         <FeatureClass InputName="akvakultur.akvakulturgrense">
 			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+		    <Field InputName="kommuneid" InputType="H8" OutputName="KOPIDATA\OMRÅDEID" OutputType="H8"/>
 		    <Field InputName="dataeier" InputType="T80" OutputName="KOPIDATA\ORIGINALDATAVERT" OutputType="T80"/>
 			<Field InputName="kopidato" InputType="DATO" OutputName="KOPIDATA\KOPIDATO" OutputType="DATOTID"/>
 			<Field InputName="malemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
 			<Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
 			<Field InputName="noyaktighet" InputType="H2" OutputName="KVALITET\NØYAKTIGHET" OutputType="H2"/>
+			<Field InputName="komm" InputType="T4" OutputName="KOMM" OutputType="T4"/>
+			<Field InputName="fylkesnr" InputType="H2" OutputName="FYLKESNR" OutputType="H2"/>			
 		</FeatureClass>
         <FeatureClass InputName="akvakultur.akvakulturpunkt">
 			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
@@ -40,11 +46,14 @@
 			<Field InputName="L:akvatillatelsesinformasjon{}.tillatelsestype" InputType="T80" OutputName="AKVA_KONS_INFO\AKVA_TYPE" OutputType="T4"/>
 			<Field InputName="L:akvatillatelsesinformasjon{}.tillatelsesurl" InputType="T255" OutputName="AKVA_KONS_INFO\AKVA_URL" OutputType="T255"/>
             <Field InputName="vannmiljo" InputType="T80" OutputName="VANNMILJO" OutputType="T80" UserDefined="true"/>
+			<Field InputName="kommuneid" InputType="H8" OutputName="KOPIDATA\OMRÅDEID" OutputType="H8"/>
 			<Field InputName="dataeier" InputType="T80" OutputName="KOPIDATA\ORIGINALDATAVERT" OutputType="T80"/>
 			<Field InputName="kopidato" InputType="DATO" OutputName="KOPIDATA\KOPIDATO" OutputType="DATOTID"/>
 			<Field InputName="malemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
 			<Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
 			<Field InputName="noyaktighet" InputType="H2" OutputName="KVALITET\NØYAKTIGHET" OutputType="H2"/>
+			<Field InputName="komm" InputType="T4" OutputName="KOMM" OutputType="T4"/>
+			<Field InputName="fylkesnr" InputType="H2" OutputName="FYLKESNR" OutputType="H2"/>
         </FeatureClass>
     </Mapping>
 </GeoSOSI>
