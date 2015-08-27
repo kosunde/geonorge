@@ -1,0 +1,1651 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" E:\Geonorge\IMR\Korallrev_postgis2sosi\Korallrev_postgis2sosi.fmw
+#          --OUTPUT_EPSG_CODE "25833"
+#    
+#    
+#! DESCRIPTION=""
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! TITLE=""
+#! LAST_SAVE_DATE="2015-08-27T10:43:38"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! HISTORY=""
+#! FME_DOCUMENT_GUID="03643d8d-3df2-4f5e-81c9-59b5acfbe23b"
+#! CATEGORY=""
+#! DESTINATION_ROUTING_FILE=""
+#! FME_SERVER_SERVICES=""
+#! SHOW_ANNOTATIONS="true"
+#! REQUIREMENTS_KEYWORD=""
+#! VIEW_POSITION="-90.0009 75.0008"
+#! REQUIREMENTS=""
+#! DOC_EXTENTS="2364 1e-05"
+#! REDIRECT_TERMINATORS="NONE"
+#! SOURCE_ROUTING_FILE=""
+#! FME_STROKE_MAX_DEVIATION="0"
+#! USAGE=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! END_PYTHON=""
+#! BEGIN_PYTHON=""
+#! LOG_MAX_PRECISION="Yes"
+#! FME_BUILD_NUM="15515"
+#! FME_REPROJECTION_ENGINE="FME"
+#! LEGAL_TERMS_CONDITIONS=""
+#! WORKSPACE_VERSION="1"
+#! SHOW_INFO_NODES="true"
+#! MAX_LOG_FEATURES="200"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! PASSWORD=""
+#! ZOOM_SCALE="100"
+#! LOG_FILE=""
+#! FME_DOCUMENT_PRIORGUID="773017be-939a-481c-81e0-daa86fd92e4c,a82165d6-8fa4-4951-8e4a-64405cbfeecc,f93eaecf-d4fc-4520-b6b6-3677cd1a1087,0f269376-ff2f-4e14-b0b3-b07d41d0eb12,192c25a1-0af5-4ab2-b067-ad47e7a5b860,9322dde8-f414-40b2-82e9-c7d6d9ed16e7,0a08b369-a5f8-426e-9d13-3bb63f133ac6,c435003d-9e9c-4b40-b4c5-ef6e3043f133,3762ff4c-63af-4060-a8e6-8d850e46dfed,b2f5e370-59ef-4f9c-a941-524c0fb62d5c"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! IGNORE_READER_FAILURE="No"
+#! ATTR_TYPE_ENCODING="SDF"
+#! BEGIN_TCL=""
+#! END_TCL=""
+#! DOC_TOP_LEFT="150 -150"
+#! SOURCE="NONE"
+#! DESTINATION="NONE"
+#! >
+#! <DATASETS>
+#! <DATASET
+#! IS_SOURCE="true"
+#! ROLE="READER"
+#! FORMAT="POSTGIS"
+#! DATASET="$(PG_DB)"
+#! KEYWORD="POSTGIS_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="fme_start_angle float8 postgres_oid int4 fme_basename char(50) postgis_collection_id int4 fme_geometry fme_char(50) multi_reader_keyword char(50) fme_fill_color char(50) fme_feature_type char(50) fme_sweep_angle float8 postgis_collection_part_id int4 multi_reader_type char(50) fme_secondary_axis float8 fme_type char(50) fme_text_size float8 fme_text_string char(50) multi_reader_full_id int4 fme_color char(50) fme_primary_axis float8 fme_rotation float8 multi_reader_id int4 postgis_type char(50) fme_dataset char(50)"
+#! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
+#! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="DATABASE"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MIN_FEATURES=""
+#! COORDSYS=""
+#! MAX_FEATURES=""
+#! FEATURE_TYPES=""
+#! START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! </DATASET>
+#! <DATASET
+#! IS_SOURCE="false"
+#! ROLE="WRITER"
+#! FORMAT="SOSI"
+#! DATASET="./korallrev_temp.sos"
+#! KEYWORD="SOSI_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="500"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="SOSI_type {FME_GEN_GEOMETRY}"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="fme_type SOSI_char(50) fme_start_angle SOSI_real64 fme_sweep_angle SOSI_real64 fme_basename SOSI_char(50) fme_fill_color SOSI_char(50) fme_secondary_axis SOSI_real64 fme_primary_axis SOSI_real64 fme_color SOSI_char(50) fme_text_size SOSI_real64 fme_feature_type SOSI_char(50) fme_geometry fme_char(50) fme_rotation SOSI_real64 fme_text_string SOSI_char(50) fme_dataset SOSI_char(50)"
+#! DEFLINE_PARMS=""
+#! ATTR_INDEX_TYPES=""
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="false"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="FILE"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! FANOUT_SUFFIX=".sos"
+#! FANOUT_ID_ATTR="SosiFile"
+#! FANOUT="Yes"
+#! FANOUT_PREFIX=""
+#! COORDSYS="$(OUTPUT_COORD_SYS)"
+#! FANOUT_DIRECTORY="$(FME_SERVER_DEST_DIR)"
+#! />
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bool"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varchar(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="text"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bytea"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_int16"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_int64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="oid"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="serial"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float4"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="money"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float8"
+#! FME_TYPE="fme_real64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="date"
+#! FME_TYPE="fme_date"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="time"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timetz"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamp"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamptz"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="uuid"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bit(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_buffer"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_char"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_varchar(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_date"
+#! FME_TYPE="fme_date"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_datetime"
+#! FME_TYPE="fme_time"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_datetime"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_number(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_real32"
+#! FME_TYPE="fme_real32"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_real64"
+#! FME_TYPE="fme_real64"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_uint64"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_int64"
+#! FME_TYPE="fme_int64"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_uint32"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_int32"
+#! FME_TYPE="fme_int32"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_uint16"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_int16"
+#! FME_TYPE="fme_int16"
+#! FORMAT="SOSI"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_boolean"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="SOSI"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipoint"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multilinestring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multicurve"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_linestring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_circularstring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_compoundcurve"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multisurface"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_curvepolygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipoint"
+#! FME_TYPE="fme_text"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multilinestring"
+#! FME_TYPE="fme_arc"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_triangle"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polyhedralsurface"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polyhedralsurface"
+#! FME_TYPE="fme_solid"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_tin"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_geometry"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_geometrycollection"
+#! FME_TYPE="fme_collection"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_raster"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_line"
+#! FME_TYPE="fme_line"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_polygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_text"
+#! FME_TYPE="fme_text"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_arc"
+#! FME_TYPE="fme_arc"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_polygon"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_line"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_line"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_no_geom"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_polygon"
+#! FME_TYPE="fme_raster"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_line"
+#! FME_TYPE="fme_surface"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_line"
+#! FME_TYPE="fme_solid"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_polygon"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="SOSI"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="SOSI_no_geom"
+#! FME_TYPE="fme_collection"
+#! FORMAT="SOSI"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="korallrev.korallrev"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="korallrev"
+#! IS_EDITABLE="false"
+#! IDENTIFIER="1"
+#! FEAT_GEOMTYPE="postgis_point"
+#! POSITION="150 -150"
+#! BOUNDING_RECT="150 -150 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="POSTGIS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="serial,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="obs_metode" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="obs_start" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="obs_slutt" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bmnatyp" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bm_kildenavn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bm_kildetittel" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bmkildtyp" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bm_kildeaar" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dybde_min" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dybde_max" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="verifiseringsdato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="maalemetode" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="max_avvik" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="medium" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="produkt" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="versjon" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noeyaktighet" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="maalemetodehoeyde" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="h_noeyaktighet" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noeyaktighetsklasse" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="false"
+#! NODE_NAME="korallrev.korallrev"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="true"
+#! IDENTIFIER="4"
+#! FEAT_GEOMTYPE="SOSI_point"
+#! POSITION="2514 -150"
+#! BOUNDING_RECT="2514 -150 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="SOSI_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="obs_metode" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="obs_start" ATTR_TYPE="SOSI_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="obs_slutt" ATTR_TYPE="SOSI_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bmnatyp" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bm_kildenavn" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bm_kildetittel" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bmkildtyp" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bm_kildeaar" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dybde_min" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dybde_max" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="verifiseringsdato" ATTR_TYPE="SOSI_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="maalemetode" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="max_avvik" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="medium" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="produkt" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="versjon" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noeyaktighet" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="maalemetodehoeyde" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="h_noeyaktighet" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noeyaktighetsklasse" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#! NAME="fmedatadownload"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="OUTPUT_WRITER"
+#! VALUE="SOSI_1"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#! NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#! NAME="IMR"
+#! />
+#! <ITEM
+#! NAME="Korallrev_postgis2sosi.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#! UID=":WBDoc:LOG_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:DestDataset_SOSI_1"
+#! VALUE="./korallrev_temp.sos"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:FANOUT_DIRECTORY"
+#! VALUE="$(FME_SERVER_DEST_DIR)"
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:SOURCE_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1"
+#! VALUE="$(MAPPING_FILE)"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_SOSI_1:SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1"
+#! VALUE="$(SOSIDEF_FILE)"
+#! />
+#! </MODIFICATIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI OPTIONAL TEXT_OR_ATTR OUTPUT_EPSG_CODE Enter output EPSG code:"
+#! DEFAULT_VALUE="25833"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM CONFIG_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GetConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;os&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;fmwdir&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fmwdir&lt;comma&gt;&lt;space&gt;fmwfile&lt;closeparen&gt;&lt;lf&gt;configfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;fmwfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;_config.xml&lt;apos&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;configfile"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_PWD Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgpwd&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_USER Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pguser&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_PORT Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgport&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_HOST Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pghost&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_DB Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgdb&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM MAPPING_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;mappingfile&lt;apos&gt;&lt;closeparen&gt;.text&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value&lt;lf&gt;"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM SOSIDEF_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;sosideffile&lt;apos&gt;&lt;closeparen&gt;.text&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value&lt;lf&gt;"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM OUTPUT_COORD_SYS Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SetCoordinateSystem&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;os&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;EPSGvalue&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;OUTPUT_EPSG_CODE&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;EPSGcode&lt;space&gt;&lt;space&gt;=&lt;space&gt;&lt;apos&gt;EPSG:&lt;apos&gt;&lt;space&gt;+&lt;space&gt;EPSGvalue&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;EPSGcode"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM SOSI_ENHET Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SetSOSIUnit&lt;lf&gt;#&lt;space&gt;Purpose:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Set&lt;space&gt;SOSI&lt;space&gt;unit&lt;space&gt;based&lt;space&gt;on&lt;space&gt;geographic&lt;space&gt;or&lt;space&gt;projected&lt;space&gt;coordinatesystem&lt;lf&gt;#&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;based&lt;space&gt;on&lt;space&gt;EPSG&lt;space&gt;code&lt;space&gt;&lt;openbracket&gt;&lt;apos&gt;OUTPUT_EPSG_CODE&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xgrimor&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xgrimor&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;pypyodbc&lt;lf&gt;&lt;lf&gt;try:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Set&lt;space&gt;ODBC&lt;space&gt;connection&lt;space&gt;string.&lt;space&gt;Driver&lt;space&gt;is&lt;space&gt;&lt;apos&gt;PostgreSQL&lt;space&gt;ODBC&lt;space&gt;Deriver&lt;openparen&gt;UNICODE&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;rest&lt;space&gt;is&lt;space&gt;per&lt;space&gt;parameters&lt;lf&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pgODBC&lt;space&gt;&lt;space&gt;=&lt;space&gt;&lt;apos&gt;DRIVER=&lt;opencurly&gt;PostgreSQL&lt;space&gt;ODBC&lt;space&gt;Driver&lt;openparen&gt;UNICODE&lt;closeparen&gt;&lt;closecurly&gt;&lt;semicolon&gt;&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pgODBC&lt;space&gt;+=&lt;space&gt;&lt;apos&gt;SERVER=&lt;apos&gt;&lt;space&gt;+&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;PG_HOST&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;&lt;semicolon&gt;&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pgODBC&lt;space&gt;+=&lt;space&gt;&lt;apos&gt;DATABASE=&lt;apos&gt;&lt;space&gt;+&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;PG_DB&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;&lt;semicolon&gt;&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pgODBC&lt;space&gt;+=&lt;space&gt;&lt;apos&gt;UID=&lt;apos&gt;&lt;space&gt;+&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;PG_USER&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;&lt;semicolon&gt;&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pgODBC&lt;space&gt;+=&lt;space&gt;&lt;apos&gt;PWD=&lt;apos&gt;&lt;space&gt;+&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;PG_PWD&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Define&lt;space&gt;select&lt;space&gt;versus&lt;space&gt;epsg.epsg_coordinatereferencesystem&lt;lf&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SQLstm&lt;space&gt;&lt;space&gt;=&lt;space&gt;&lt;apos&gt;select&lt;space&gt;coord_ref_sys_kind&lt;space&gt;from&lt;space&gt;epsg.epsg_coordinatereferencesystem&lt;space&gt;where&lt;space&gt;coord_ref_sys_code=&lt;apos&gt;&lt;space&gt;+&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;OUTPUT_EPSG_CODE&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Start&lt;space&gt;connection&lt;space&gt;and&lt;space&gt;retreive&lt;space&gt;coordinatsystem&lt;space&gt;type:&lt;lf&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;conn&lt;space&gt;=&lt;space&gt;pypyodbc.connect&lt;openparen&gt;pgODBC&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;cur&lt;space&gt;=&lt;space&gt;conn.cursor&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;cur.execute&lt;openparen&gt;SQLstm&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;type&lt;space&gt;=&lt;space&gt;cur.fetchone&lt;openparen&gt;&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Set&lt;space&gt;SOSIunit&lt;space&gt;according&lt;space&gt;to&lt;space&gt;type:&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;compound&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.000001&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;engineering&lt;space&gt;&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.000001&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;geocentric&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.000001&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;geographic&lt;space&gt;2D&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.000001&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;geographic&lt;space&gt;3D&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.000001&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;projected&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.01&lt;lf&gt;#&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;vertical&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.01&lt;lf&gt;#&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;otherwise&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;-&lt;gt&gt;&lt;space&gt;0.01&lt;lf&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;compound&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.000001&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;engineering&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.000001&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;geocentric&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.000001&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;geographic&lt;space&gt;2D&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.000001&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;geographic&lt;space&gt;3D&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.000001&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;projected&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.01&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;type&lt;space&gt;==&lt;space&gt;&lt;apos&gt;vertical&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.01&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.01&lt;apos&gt;&lt;lf&gt;except:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;If&lt;space&gt;we&lt;apos&gt;re&lt;space&gt;unable&lt;space&gt;to&lt;space&gt;fetch&lt;space&gt;type&lt;space&gt;from&lt;space&gt;epsg.epsg_coordinatereferencesystem&lt;comma&gt;&lt;lf&gt;#&lt;space&gt;set&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;0.01&lt;space&gt;&lt;openparen&gt;same&lt;space&gt;as&lt;space&gt;projected&lt;space&gt;-&lt;space&gt;GeoSOSIPro&lt;space&gt;default&lt;closeparen&gt;&lt;lf&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;SOSIunit&lt;space&gt;=&lt;space&gt;&lt;apos&gt;0.01&lt;apos&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;SOSIunit"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI OPTIONAL IGNORE STRING FME_SERVER_DEST_DIR FME Server Destination Directory:"
+#! DEFAULT_VALUE="D:\GeoNorge\IMR"
+#! IS_STAND_ALONE="FME_SERVER"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#! IDENTIFIER="8"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="750 -150"
+#! BOUNDING_RECT="750 -150 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="obs_metode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="obs_start" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="obs_slutt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bmnatyp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bm_kildenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bm_kildetittel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bmkildtyp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bm_kildeaar" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dybde_min" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dybde_max" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="verifiseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="maalemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="medium" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noeyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="maalemetodehoeyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_noeyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(OUTPUT_COORD_SYS)"/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="6"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="1401 -150"
+#! BOUNDING_RECT="1401 -150 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="obs_metode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="obs_start" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="obs_slutt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bmnatyp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bm_kildenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bm_kildetittel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bmkildtyp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bm_kildeaar" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dybde_min" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dybde_max" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="verifiseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="maalemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="medium" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noeyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="maalemetodehoeyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_noeyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SosiFile" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="SosiFile,korallrev"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="9"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="7"
+#! SOURCE_NODE="8"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="10"
+#! SOURCE_NODE="6"
+#! TARGET_NODE="4"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_HOST_POSTGIS_1,POSTGIS_IN_PORT_POSTGIS_1,POSTGIS_IN_USER_NAME_POSTGIS_1,POSTGIS_IN_PASSWORD_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,DestDataset_SOSI_1,SOSI_OUT_HODE_ENHET_SOSI_1,SOSI_OUT_HODE_PRODUSENT_SOSI_1,SOSI_OUT_HODE_EIER_SOSI_1,SOSI_OUT_HODE_TEGNSETT_SOSI_1,SOSI_OUT_HODE_HOYDEREF_SOSI_1,SOSI_OUT_HODE_DYBDEEREF_SOSI_1,SOSI_OUT_HODE_FRISEILREF_SOSI_1,SOSI_OUT_HODE_HOYDETYPE_SOSI_1,SOSI_OUT_HODE_VERSJON_SOSI_1,SOSI_OUT_HODE_PRODUKTSPEK_SOSI_1,SOSI_OUT_HODE_OBJEKTKATALOG_SOSI_1,SOSI_OUT_HODE_ANNET_SOSI_1,SOSI_OUT_WRITER_THRESHOLD_SOSI_1,SOSI_OUT_WRITER_DUMMY_Z_VALUE_SOSI_1,SOSI_OUT_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES_SOSI_1,SOSI_OUT_WRITER_USE_TOPOLOGY_RULES_SOSI_1,SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1,SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1,SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1,SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1,SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1,SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1,SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1,SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1
+DEFAULT_MACRO OUTPUT_EPSG_CODE 25833
+GUI OPTIONAL TEXT OUTPUT_EPSG_CODE Enter output EPSG code:
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        GetConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import os, fme
+  
+  fmwdir = fme.macroValues['FME_MF_DIR']
+  fmwfile = fme.macroValues['FME_MF_NAME']
+  
+  fmwfile = os.path.join(fmwdir, fmwfile)
+  configfile = os.path.splitext(fmwfile)[0] + '_config.xml'
+  
+  return configfile
+value = ParamFunc()
+macroName = 'CONFIG_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgpwd').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_PWD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pguser').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_USER'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgport').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_PORT'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pghost').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_HOST'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgdb').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_DB'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme, os
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  
+  value = os.path.join(fme.macroValues['FME_MF_DIR'], configdoc.find('mappingfile').text)
+  
+  return value
+  
+value = ParamFunc()
+macroName = 'MAPPING_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme, os
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  
+  value = os.path.join(fme.macroValues['FME_MF_DIR'], configdoc.find('sosideffile').text)
+  
+  return value
+  
+value = ParamFunc()
+macroName = 'SOSIDEF_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        SetCoordinateSystem
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import os, fme
+  
+  EPSGvalue = fme.macroValues['OUTPUT_EPSG_CODE']
+  EPSGcode  = 'EPSG:' + EPSGvalue
+  
+  return EPSGcode
+value = ParamFunc()
+macroName = 'OUTPUT_COORD_SYS'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        SetSOSIUnit
+  # Purpose:     Set SOSI unit based on geographic or projected coordinatesystem
+  #              based on EPSG code ['OUTPUT_EPSG_CODE']
+  #
+  # Author:      xgrimor
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xgrimor 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme, pypyodbc
+  
+  try:
+  #
+  # Set ODBC connection string. Driver is 'PostgreSQL ODBC Deriver(UNICODE)', rest is per parameters
+  #
+      pgODBC  = 'DRIVER={PostgreSQL ODBC Driver(UNICODE)};'
+      pgODBC += 'SERVER=' + fme.macroValues['PG_HOST'] + ';'
+      pgODBC += 'DATABASE=' + fme.macroValues['PG_DB'] + ';'
+      pgODBC += 'UID=' + fme.macroValues['PG_USER'] + ';'
+      pgODBC += 'PWD=' + fme.macroValues['PG_PWD']
+  #
+  # Define select versus epsg.epsg_coordinatereferencesystem
+  #
+      SQLstm  = 'select coord_ref_sys_kind from epsg.epsg_coordinatereferencesystem where coord_ref_sys_code=' + fme.macroValues['OUTPUT_EPSG_CODE']
+  #
+  # Start connection and retreive coordinatsystem type:
+  #
+      conn = pypyodbc.connect(pgODBC)
+      cur = conn.cursor()
+      cur.execute(SQLstm)
+      type = cur.fetchone()[0]
+  #
+  # Set SOSIunit according to type:
+  #  -> compound      -> 0.000001
+  #  -> engineering   -> 0.000001
+  #  -> geocentric    -> 0.000001
+  #  -> geographic 2D -> 0.000001
+  #  -> geographic 3D -> 0.000001
+  #  -> projected     -> 0.01
+  #  -> vertical      -> 0.01
+  #     otherwise     -> 0.01
+  #
+      if type == 'compound':
+          SOSIunit = '0.000001'
+      elif type == 'engineering':
+          SOSIunit = '0.000001'
+      elif type == 'geocentric':
+          SOSIunit = '0.000001'
+      elif type == 'geographic 2D':
+          SOSIunit = '0.000001'
+      elif type == 'geographic 3D':
+          SOSIunit = '0.000001'
+      elif type == 'projected':
+          SOSIunit = '0.01'
+      elif type == 'vertical':
+          SOSIunit = '0.01'
+      else:
+          SOSIunit = '0.01'
+  except:
+  #
+  # If we're unable to fetch type from epsg.epsg_coordinatereferencesystem,
+  # set SOSIunit = 0.01 (same as projected - GeoSOSIPro default)
+  #
+      SOSIunit = '0.01'
+  
+  return SOSIunit
+value = ParamFunc()
+macroName = 'SOSI_ENHET'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+DEFAULT_MACRO FME_SERVER_DEST_DIR D:\GeoNorge\IMR
+GUI OPTIONAL IGNORE STRING FME_SERVER_DEST_DIR FME Server Destination Directory:
+INCLUDE [ if {{$(CONFIG_FILE)} == {}} { puts_real {Parameter 'CONFIG_FILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_PWD)} == {}} { puts_real {Parameter 'PG_PWD' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_USER)} == {}} { puts_real {Parameter 'PG_USER' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_PORT)} == {}} { puts_real {Parameter 'PG_PORT' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_HOST)} == {}} { puts_real {Parameter 'PG_HOST' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_DB)} == {}} { puts_real {Parameter 'PG_DB' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(MAPPING_FILE)} == {}} { puts_real {Parameter 'MAPPING_FILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SOSIDEF_FILE)} == {}} { puts_real {Parameter 'SOSIDEF_FILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(OUTPUT_COORD_SYS)} == {}} { puts_real {Parameter 'OUTPUT_COORD_SYS' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SOSI_ENHET)} == {}} { puts_real {Parameter 'SOSI_ENHET' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE POSTGIS
+READER_KEYWORD POSTGIS_1
+READER_GEN_DIRECTIVES POSTGIS_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,HOST,localhost,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,FME_CONNECTION_GROUP,,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,SCHEMALIST,korallrev,DISABLE_COLLECTION_SPLITTING,yes,USE_TRUE_POSTGIS_TYPES,yes,TABLELIST,korallrev.korallrev,USE_SEARCH_ENVELOPE,NO,CLIP_TO_ENVELOPE,NO,PORT,5432,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,USER_NAME,morten
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} MULTI_WRITER
+MULTI_WRITER_KEYWORD{0} SOSI_1_FANOUT
+SOSI_1_FANOUT_TYPE{*} SOSI
+SOSI_1_FANOUT_KEYWORD{*} SOSI_1
+SOSI_1_FANOUT_ID_ATTRIBUTE SosiFile
+SOSI_1_FANOUT_DATASET_ORDER BY_INPUT
+SOSI_1_DATASET{*} "$(FME_SERVER_DEST_DIR)\<multi_writer_id>.sos"
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "POSTGIS_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGIS POSTGIS_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGIS POSTGIS_1
+DEFAULT_MACRO SourceDataset_POSTGIS_1 $(PG_DB)
+GUI TEXT SourceDataset_POSTGIS_1 Database:
+DEFAULT_MACRO POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1 Yes
+POSTGIS_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1 yes
+POSTGIS_1_DISABLE_COLLECTION_SPLITTING "$(POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1 yes
+POSTGIS_1_USE_TRUE_POSTGIS_TYPES "$(POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_HOST_POSTGIS_1 $(PG_HOST)
+POSTGIS_1_HOST "$(POSTGIS_IN_HOST_POSTGIS_1)"
+GUI TEXT POSTGIS_IN_HOST_POSTGIS_1 Host:
+DEFAULT_MACRO POSTGIS_IN_PORT_POSTGIS_1 $(PG_PORT)
+POSTGIS_1_PORT "$(POSTGIS_IN_PORT_POSTGIS_1)"
+GUI INTEGER POSTGIS_IN_PORT_POSTGIS_1 Port:
+DEFAULT_MACRO POSTGIS_IN_USER_NAME_POSTGIS_1 $(PG_USER)
+POSTGIS_1_USER_NAME "$(POSTGIS_IN_USER_NAME_POSTGIS_1)"
+GUI TEXT POSTGIS_IN_USER_NAME_POSTGIS_1 Username:
+DEFAULT_MACRO POSTGIS_IN_PASSWORD_POSTGIS_1 $(PG_PWD)
+POSTGIS_1_PASSWORD "$(POSTGIS_IN_PASSWORD_POSTGIS_1)"
+GUI OPTIONAL PASSWORD POSTGIS_IN_PASSWORD_POSTGIS_1 Password:
+DEFAULT_MACRO POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 
+POSTGIS_1_EXPOSE_ATTRS_GROUP "$(POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1)"
+GUI DISCLOSUREGROUP POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 POSTGIS_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1 NO
+POSTGIS_1_CLIP_TO_ENVELOPE "$(POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1)"
+GUI OPTIONAL CHECKBOX POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1 YES%NO Clip to Search Envelope
+# ============================================================================
+# Search Envelope Coordinate System
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1 
+GUI OPTIONAL COORDSYS POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1 Search Envelope Coordinate System:
+POSTGIS_1_SEARCH_ENVELOPE_COORDINATE_SYSTEM "$(POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_SEARCH_METHOD_POSTGIS_1 MBR_OVERLAPS
+GUI CHOICE POSTGIS_IN_SEARCH_METHOD_POSTGIS_1 MBR_OVERLAPS%CONTAINS%DISJOINT%EQUALS%INTERSECTS%OVERLAPS%TOUCHES%WITHIN Search Method:
+POSTGIS_1_SEARCH_METHOD $(POSTGIS_IN_SEARCH_METHOD_POSTGIS_1)
+DEFAULT_MACRO POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1 10000
+GUI FLOAT POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1 Number Of Records To Fetch At A Time:
+POSTGIS_1_FEATURES_PER_FETCH $(POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1)
+DEFAULT_MACRO POSTGIS_IN_BEGIN_SQL_POSTGIS_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_BEGIN_SQL_POSTGIS_1 SQL Statement to Execute Before Translation:
+POSTGIS_1_BEGIN_SQL "$(POSTGIS_IN_BEGIN_SQL_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_END_SQL_POSTGIS_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_END_SQL_POSTGIS_1 SQL Statement to Execute After Translation:
+POSTGIS_1_END_SQL "$(POSTGIS_IN_END_SQL_POSTGIS_1)"
+POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "SOSI_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER SOSI SOSI_1
+# =====================================================================
+# The following GUI line prompts for a directory to be used as the
+# the destination for the SOSI files. The user input is stored in
+# a macro, which is then used to define the dataset to be written.
+# Control how much memory FME is allowed to use.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_SOSI_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER SOSI SOSI_1
+DEFAULT_MACRO DestDataset_SOSI_1 ./korallrev_temp.sos
+GUI FILENAME DestDataset_SOSI_1 SOSI_Files(*.sos)|*.sos|All_files(*.*)|*.* Destination SOSI File:
+DEFAULT_MACRO SOSI_OUT_HODE_ENHET_SOSI_1 $(SOSI_ENHET)
+SOSI_1_HODE_ENHET "$(SOSI_OUT_HODE_ENHET_SOSI_1)"
+GUI FLOAT SOSI_OUT_HODE_ENHET_SOSI_1 ENHET:
+DEFAULT_MACRO SOSI_OUT_HODE_PRODUSENT_SOSI_1 GeoNorge
+SOSI_1_HODE_PRODUSENT "$(SOSI_OUT_HODE_PRODUSENT_SOSI_1)"
+GUI OPTIONAL TEXT SOSI_OUT_HODE_PRODUSENT_SOSI_1 PRODUSENT:
+DEFAULT_MACRO SOSI_OUT_HODE_EIER_SOSI_1 IMR
+SOSI_1_HODE_EIER "$(SOSI_OUT_HODE_EIER_SOSI_1)"
+GUI OPTIONAL TEXT SOSI_OUT_HODE_EIER_SOSI_1 EIER:
+DEFAULT_MACRO SOSI_OUT_HODE_TEGNSETT_SOSI_1 UTF-8
+SOSI_1_HODE_TEGNSETT "$(SOSI_OUT_HODE_TEGNSETT_SOSI_1)"
+GUI CHOICE SOSI_OUT_HODE_TEGNSETT_SOSI_1 ANSI%ISO8859-1%ISO8859-10%DOSN8%ND7%DECN7%UTF-8 TEGNSETT:
+DEFAULT_MACRO SOSI_OUT_HODE_HOYDEREF_SOSI_1 <INGEN>
+SOSI_1_HODE_HOYDEREF "$(SOSI_OUT_HODE_HOYDEREF_SOSI_1)"
+GUI CHOICE SOSI_OUT_HODE_HOYDEREF_SOSI_1 %<INGEN>%101%102%103%104%105%106%107%108%109%110%ELLIP%LOKAL%NKG89%NN2000%NN54%NNN57 HØYDE-REF:
+DEFAULT_MACRO SOSI_OUT_HODE_DYBDEEREF_SOSI_1 <INGEN>
+SOSI_1_HODE_DYBDEEREF "$(SOSI_OUT_HODE_DYBDEEREF_SOSI_1)"
+GUI CHOICE SOSI_OUT_HODE_DYBDEEREF_SOSI_1 %<INGEN>%FOTOV%HFROM%HREF%HVANN%LREF%LVANN%SJØ0 DYBDE-REF:
+DEFAULT_MACRO SOSI_OUT_HODE_FRISEILREF_SOSI_1 <INGEN>
+SOSI_1_HODE_FRISEILREF "$(SOSI_OUT_HODE_FRISEILREF_SOSI_1)"
+GUI CHOICE SOSI_OUT_HODE_FRISEILREF_SOSI_1 %<INGEN>%HAT%HREF%HSH%LREF FRISEIL-REF:
+DEFAULT_MACRO SOSI_OUT_HODE_HOYDETYPE_SOSI_1 <INGEN>
+SOSI_1_HODE_HOYDETYPE "$(SOSI_OUT_HODE_HOYDETYPE_SOSI_1)"
+GUI CHOICE SOSI_OUT_HODE_HOYDETYPE_SOSI_1 %<INGEN>%D%E%N%O HØYDE-TYPE:
+DEFAULT_MACRO SOSI_OUT_HODE_VERSJON_SOSI_1 4.5
+SOSI_1_HODE_VERSJON "$(SOSI_OUT_HODE_VERSJON_SOSI_1)"
+GUI TEXT SOSI_OUT_HODE_VERSJON_SOSI_1 SOSI-VERSJON:
+DEFAULT_MACRO SOSI_OUT_HODE_PRODUKTSPEK_SOSI_1 
+SOSI_1_HODE_PRODUKTSPEK "$(SOSI_OUT_HODE_PRODUKTSPEK_SOSI_1)"
+GUI OPTIONAL TEXT SOSI_OUT_HODE_PRODUKTSPEK_SOSI_1 PRODUKTSPEK:
+DEFAULT_MACRO SOSI_OUT_HODE_OBJEKTKATALOG_SOSI_1 
+SOSI_1_HODE_OBJEKTKATALOG "$(SOSI_OUT_HODE_OBJEKTKATALOG_SOSI_1)"
+GUI OPTIONAL TEXT SOSI_OUT_HODE_OBJEKTKATALOG_SOSI_1 OBJEKTKATALOG:
+DEFAULT_MACRO SOSI_OUT_HODE_ANNET_SOSI_1 
+SOSI_1_HODE_ANNET "$(SOSI_OUT_HODE_ANNET_SOSI_1)"
+GUI OPTIONAL TEXT SOSI_OUT_HODE_ANNET_SOSI_1 ANNET:
+DEFAULT_MACRO SOSI_OUT_WRITER_THRESHOLD_SOSI_1 1
+SOSI_1_WRITER_THRESHOLD "$(SOSI_OUT_WRITER_THRESHOLD_SOSI_1)"
+GUI FLOAT SOSI_OUT_WRITER_THRESHOLD_SOSI_1 Terskelverdi (cm):
+DEFAULT_MACRO SOSI_OUT_WRITER_DUMMY_Z_VALUE_SOSI_1 -9999
+SOSI_1_WRITER_DUMMY_Z_VALUE "$(SOSI_OUT_WRITER_DUMMY_Z_VALUE_SOSI_1)"
+GUI FLOAT SOSI_OUT_WRITER_DUMMY_Z_VALUE_SOSI_1 Dummy Z-verdi:
+DEFAULT_MACRO SOSI_OUT_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES_SOSI_1 yes
+SOSI_1_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES "$(SOSI_OUT_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_WRITE_TEXT_FORMAT_ATTRIBUTES_SOSI_1 yes%no Skriv ut formateringsegenskaper for .TEKST:
+DEFAULT_MACRO SOSI_OUT_WRITER_USE_TOPOLOGY_RULES_SOSI_1 no
+SOSI_1_WRITER_USE_TOPOLOGY_RULES "$(SOSI_OUT_WRITER_USE_TOPOLOGY_RULES_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_USE_TOPOLOGY_RULES_SOSI_1 yes%no Bruk topologiregler:
+DEFAULT_MACRO SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1 Basic
+SOSI_1_WRITER_ATTRIBUTE_VALIDATION_LEVEL "$(SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_ATTRIBUTE_VALIDATION_LEVEL_SOSI_1 Full%Basic%None Egenskapsvalideringsnivå:
+DEFAULT_MACRO SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1 SOSI_Objekt
+SOSI_1_WRITER_OBJTYPE_FOR_GENERATED_LINES "$(SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1)"
+GUI TEXT SOSI_OUT_WRITER_OBJTYPE_FOR_GENERATED_LINES_SOSI_1 OBJTYPE for genererte linjer:
+DEFAULT_MACRO SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1 yes
+SOSI_1_WRITER_ALLOW_MISSING_MANDATORY_ATTRS "$(SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_ALLOW_MISSING_MANDATORY_ATTRS_SOSI_1 yes%no Tillat objekter som mangler obligatoriske egenskaper:
+DEFAULT_MACRO SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1 no
+SOSI_1_WRITER_LOG_WARNINGS "$(SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_LOG_WARNINGS_SOSI_1 yes%no Logg advarsler:
+DEFAULT_MACRO SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1 yes
+SOSI_1_WRITER_LOG_ERRORS "$(SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1 yes%no Logg feil:
+DEFAULT_MACRO SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 no
+SOSI_1_WRITER_GENERATE_MAPPING_XML "$(SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1)"
+GUI CHOICE SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 yes%no Generer mapping xml:
+DEFAULT_MACRO SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 $(MAPPING_FILE)
+SOSI_1_WRITER_XML_MAPPING_FILE "$(SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 XML-filer(*.xml)|*.xml|Alle_filer(*.*)|*.* Bruk mappingfil:
+DEFAULT_MACRO SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 $(SOSIDEF_FILE)
+SOSI_1_WRITER_SOSIDEF_FILE "$(SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 Definisjonsfiler(*.txt)|*.txt|Alle_filer(*.*)|*.* Bruk spesiell definisjonsfil:
+SOSI_1_DATASET "$(DestDataset_SOSI_1)"
+#! END_DEST_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Korallrev_postgis2sosi.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
+DEFAULT_MACRO DATASET_KEYWORD_SOSI_1 SOSI_1
+# -------------------------------------------------------------------------
+
+POSTGIS_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+SOSI_1_COORDINATE_SYSTEM $(OUTPUT_COORD_SYS)
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Korallrev_postgis2sosi
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::korallrev.korallrev TO FME_GENERIC ::korallrev.korallrev ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+POSTGIS_1_MERGE_DEF POSTGIS_1::korallrev.korallrev EXACT korallrev.korallrev DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,serial<comma>PRIKEY,objtype,varchar<openparen>32<closeparen>,obs_metode,varchar<openparen>80<closeparen>,obs_start,timestamp,obs_slutt,timestamp,bmnatyp,varchar<openparen>80<closeparen>,bm_kildenavn,varchar<openparen>80<closeparen>,bm_kildetittel,varchar<openparen>80<closeparen>,bmkildtyp,varchar<openparen>80<closeparen>,bm_kildeaar,int4,dybde_min,int4,dybde_max,int4,lokalid,uuid<comma>PRIKEY,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,verifiseringsdato,timestamp,maalemetode,varchar<openparen>80<closeparen>,synbarhet,varchar<openparen>80<closeparen>,max_avvik,int4,medium,varchar<openparen>80<closeparen>,opphav,varchar<openparen>80<closeparen>,produkt,varchar<openparen>80<closeparen>,versjon,varchar<openparen>80<closeparen>,noeyaktighet,int4,maalemetodehoeyde,varchar<openparen>80<closeparen>,h_noeyaktighet,int4,noeyaktighetsklasse,varchar<openparen>80<closeparen>
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+# Wipe out the source setting if it was untouched from the default setting
+
+DEFAULT_MACRO Reprojector_SOURCE "Read from feature"
+INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
+Tcl2 proc Reprojector_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_haveWarned;   if { [info exists Reprojector_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
+# Passing in source CS to @Tcl rather than referencing it directly to allow
+# attribute evalutation to be performed.
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE korallrev.korallrev    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Tcl2("Reprojector_warnIfSourceIgnored {$(Reprojector_SOURCE)}")         @Reproject($(Reprojector_SOURCE),"@EvaluateExpression(FDIV,STRING,$(OUTPUT_COORD_SYS),Reprojector)",NearestNeighbor,PreserveCells)
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Reprojector_REPROJECTED ATTR SosiFile korallrev    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>korallrev.korallrev<closeparen> COORDINATE_SYSTEM $(OUTPUT_COORD_SYS) GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+SOSI_1_DEF korallrev.korallrev   SOSI_type                    SOSI_point   objid                        SOSI_int32   objtype                      SOSI_varchar(32)   obs_metode                   SOSI_varchar(80)   obs_start                    SOSI_datetime   obs_slutt                    SOSI_datetime   bmnatyp                      SOSI_varchar(80)   bm_kildenavn                 SOSI_varchar(80)   bm_kildetittel               SOSI_varchar(80)   bmkildtyp                    SOSI_varchar(80)   bm_kildeaar                  SOSI_int32   dybde_min                    SOSI_int32   dybde_max                    SOSI_int32   lokalid                      SOSI_buffer   navnerom                     SOSI_varchar(80)   versjonid                    SOSI_varchar(80)   verifiseringsdato            SOSI_datetime   maalemetode                  SOSI_varchar(80)   synbarhet                    SOSI_varchar(80)   max_avvik                    SOSI_int32   medium                       SOSI_varchar(80)   opphav                       SOSI_varchar(80)   produkt                      SOSI_varchar(80)   versjon                      SOSI_varchar(80)   noeyaktighet                 SOSI_int32   maalemetodehoeyde            SOSI_varchar(80)   h_noeyaktighet               SOSI_int32   noeyaktighetsklasse          SOSI_varchar(80)
