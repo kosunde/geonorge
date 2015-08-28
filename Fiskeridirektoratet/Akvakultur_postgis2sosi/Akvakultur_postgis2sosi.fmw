@@ -33,7 +33,7 @@
 #! SOURCE_ROUTING_FILE=""
 #! FME_DOCUMENT_GUID="5f583184-e7f9-42dc-8af7-842ac14778cd"
 #! BEGIN_TCL=""
-#! LAST_SAVE_DATE="2015-08-27T14:10:36"
+#! LAST_SAVE_DATE="2015-08-27T14:48:43"
 #! REQUIREMENTS=""
 #! END_TCL=""
 #! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
@@ -1710,11 +1710,11 @@
 #! NAME="Clipper file (any format)"
 #! DESCRIPTION=""
 #! TOP_LEFT="-604.006 -516.748"
-#! BOTTOM_RIGHT="563.626 -1071.25"
-#! BOUNDING_RECT="-604.006 -516.748 1167.63 554.5"
+#! BOTTOM_RIGHT="1166.26 -1071.25"
+#! BOUNDING_RECT="-604.006 -516.748 1770.27 554.5"
 #! STICKY="true"
 #! COLOUR="0.45098,0.105882,0.776471"
-#! CONTENTS="73 74 75 "
+#! CONTENTS="76 73 74 75 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -2717,6 +2717,27 @@
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="76"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="670.254 -625.248"
+#! BOUNDING_RECT="670.254 -625.248 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -2936,10 +2957,19 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="71"
+#! IDENTIFIER="77"
 #! SOURCE_NODE="73"
-#! TARGET_NODE="42"
+#! TARGET_NODE="76"
 #! SOURCE_PORT_DESC="fo 2"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="78"
+#! SOURCE_NODE="76"
+#! TARGET_NODE="42"
+#! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
@@ -4211,6 +4241,17 @@ INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureRe
 FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         GENERIC    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(CLIPPER_FILE),FeatureReader)"    READER_IDS    READER_DIRECTIVES   META_MACROS,SourceREAL_FORMAT<comma>GUESS_FROM_EXTENSION,METAFILE,GENERIC    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(GENERIC,FME_GENERIC)
 
 # -------------------------------------------------------------------------
+
+# Wipe out the source setting if it was untouched from the default setting
+
+DEFAULT_MACRO Reprojector_3_SOURCE "Read from feature"
+INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_3_SOURCE}          }         ]
+Tcl2 proc Reprojector_3_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_3_haveWarned;   if { [info exists Reprojector_3_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_3_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector_3: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
+# Passing in source CS to @Tcl rather than referencing it directly to allow
+# attribute evalutation to be performed.
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_3    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    OUTPUT FEATURE_TYPE Reprojector_3_REPROJECTED         @Tcl2("Reprojector_3_warnIfSourceIgnored {$(Reprojector_3_SOURCE)}")         @Reproject($(Reprojector_3_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
+
+# -------------------------------------------------------------------------
 MACRO CreateClipper_WORKSPACE_NAME CreateClipper
 MACRO $(CreateClipper_WORKSPACE_NAME)_XFORMER_NAME CreateClipper
 MACRO $(CreateClipper_WORKSPACE_NAME)_TRANSFORMER_GROUP 
@@ -4274,7 +4315,7 @@ DEFAULT_MACRO $(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE Read from fea
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO $(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_Reprojector_3    INPUT  FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_BoundingBoxAccumulator_2_BOUNDING_BOX"    OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"         @Reproject($($(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE),EPSG:4258,NearestNeighbor,PreserveCells)
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_21440677436 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_2_REPROJECTED"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_2"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_21440679723 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_2_REPROJECTED"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_2"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(CreateClipper_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "CreateClipper reprojectBboxESRI_REPROJECTED_2 Output Renamer/Nuker"   INPUT FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2   OUTPUT FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2
 # -------------------------------------------------------------------------
@@ -4297,7 +4338,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE Te
 # -------------------------------------------------------------------------
 
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE akvakultur.akvakulturgrense    INPUT  FEATURE_TYPE akvakultur.akvakulturpunkt    INPUT  FEATURE_TYPE akvakultur.akvakulturflate    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
 FACTORY_DEF $(RASTER_CLIPPER_IN) RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    PRESERVE_CLIPPEE_EXTENTS NO    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
