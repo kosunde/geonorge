@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="korallrev.korallrev">
+            <Field InputName="lokalid" InputType="T255" OutputName="IDENT\LOKALID" OutputType="T100"/>
+            <Field InputName="navnerom" InputType="T100" OutputName="IDENT\NAVNEROM" OutputType="T100"/>
+            <Field InputName="versjonid" InputType="T100" OutputName="IDENT\VERSJONID" OutputType="T100"/>
+            <Field InputName="bmkildtyp" InputType="H1" OutputName="BMKILDE\BMKILDTYP" OutputType="H1"/>
+            <Field InputName="bm_kildeaar" InputType="H4" OutputName="BMKILDE\BM_KILDEÅR" OutputType="H4"/>
+            <Field InputName="bm_kildenavn" InputType="T20" OutputName="BMKILDE\BM_KILDENAVN" OutputType="T255"/>
+            <Field InputName="bm_kildetittel" InputType="T20" OutputName="BMKILDE\BM_KILDETITTEL" OutputType="T255"/>
+            <Field InputName="bmnatyp" InputType="T5" OutputName="BMNATYP" OutputType="T5"/>
+            <Field InputName="dybde_max" InputType="H6" OutputName="DYBDE_MAX" OutputType="D6.2"/>
+            <Field InputName="dybde_min" InputType="H6" OutputName="DYBDE_MIN" OutputType="D6.2"/>
+            <Field InputName="h_maalemetode" InputType="H2" OutputName="KVALITET\H-MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="h_noeyaktighet" InputType="H6" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="maalemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="max_avvik" InputType="H6" OutputName="KVALITET\MAX-AVVIK" OutputType="H6"/>
+            <Field InputName="noeyaktighet" InputType="H6" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="medium" InputType="T1" OutputName="MEDIUM" OutputType="T1"/>
+            <Field InputName="noeyaktighetsklasse" InputType="H1" OutputName="NØYAKTIGHETSKLASSE" OutputType="H1"/>
+            <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
+            <Field InputName="obs_metode" InputType="T100" OutputName="OBS_METODE" OutputType="T100" UserDefined="true"/>
+            <Field InputName="obs_slutt" InputType="DATOTID" OutputName="OBS_SLUTT" OutputType="DATOTID" UserDefined="true"/>
+            <Field InputName="obs_start" InputType="DATOTID" OutputName="OBS_START" OutputType="DATOTID" UserDefined="true"/>
+            <Field InputName="opphav" InputType="T255" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="produkt" InputType="T50" OutputName="REGISTRERINGSVERSJON\PRODUKT" OutputType="T15"/>
+            <Field InputName="versjon" InputType="T20" OutputName="REGISTRERINGSVERSJON\VERSJON" OutputType="T50"/>
+            <Field InputName="verifiseringsdato" InputType="DATOTID" OutputName="VERIFISERINGSDATO" OutputType="DATOTID"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>
