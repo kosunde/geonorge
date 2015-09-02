@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>Export Map (WMS/RA_Askeladden)</title>
+<link href="/arcgis/rest/static/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">
+ArcGIS REST Services Directory
+</td>
+<td align="right">
+<a href="http://askeladden_wms.ra.no/arcgis/rest/login">Login</a>
+| <a href="https://askeladden_wms.ra.no/arcgis/tokens/">Get Token</a>
+</td>
+</tr>
+</table>
+<table width="100%" class="navTable">
+<tr valign="top">
+<td class="breadcrumbs">
+<a href="/arcgis/rest/services">Home</a>
+&gt; <a href="/arcgis/rest/services">services</a>
+&gt; <a href="/arcgis/rest/services/WMS">WMS</a>
+&gt; <a href="/arcgis/rest/services/WMS/RA_Askeladden/MapServer">RA_Askeladden (MapServer)</a>
+&gt; <a href="/arcgis/rest/services/WMS/RA_Askeladden/MapServer/export"><i>export</i></a>
+</td>
+<td align="right">
+<a href="http://askeladden_wms.ra.no/arcgis/sdk/rest/02ss/02ss00000057000000.htm" target="_blank">Help</a> | <a href="http://askeladden_wms.ra.no/arcgis/rest/services/WMS/RA_Askeladden/MapServer/export?f=help" target="_blank">API Reference</a>
+</td>
+</tr>
+</table>
+<h2>Export Map (WMS/RA_Askeladden)</h2>
+<div class="rbody">
+<table class="infoTable" cellspacing="5">
+<tr valign="top">
+<td>
+<img style="border:2px solid #000000;" src="http://askeladden_wms.ra.no/arcgis/rest/directories/arcgisoutput/WMS/RA_Askeladden_MapServer/_ags_mapfa6b0669f0f14504adb1e9e15a390761.png" />
+</td>
+<td>
+Width: 400<br/>
+Height: 400<br/>
+Extent: <ul>
+XMin: 260918.78615346513<br/>
+YMin: 6649600.145915372<br/>
+XMax: 263459.7055792576<br/>
+YMax: 6652141.065341164<br/>
+Spatial Reference: 25833
+&nbsp;(25833)
+<br/> <br/>
+</ul><br/>
+Scale: 24008.639470428145
+</td>
+</tr>
+</table>
+<div style="color:#ff6666"> </div>
+<form action="/arcgis/rest/services/WMS/RA_Askeladden/MapServer/export">
+<table class="formTable">
+<tr valign="top">
+<td>Bounding Box:</td>
+<td><input type="text" name="bbox" value="260918.78615346513,6650283.79768594,263459.7055792576,6651457.413570592" size="75"/></td>
+</tr>
+<tr valign="top">
+<td>Bounding Box Spatial Reference:</td>
+<td><input type="text" name="bboxSR" value="" size="75" /></td>
+</tr>
+<tr valign="top">
+<td>Layers:</td>
+<td><input type="text" name="layers" value="" /></td>
+</tr>
+<tr valign="top">
+<td>Layer Definitions:</td>
+<td><input type="text" name="layerDefs" value="" size="75" /></td>
+</tr>
+<tr valign="top">
+<td>Image Size:</td>
+<td><input type="text" name="size" value="" /></td>
+</tr>
+<tr valign="top">
+<td>Image Spatial Reference:</td>
+<td><input type="text" name="imageSR" value="" size="75" /></td>
+</tr>
+<tr valign="top">
+<td>Image Format:</td>
+<td>
+<select name="format">
+<option value="png" >PNG</option>
+<option value="png8" >PNG8</option>
+<option value="png24" >PNG24</option>
+<option value="png32" >PNG32</option>
+<option value="jpg" >JPG</option>
+<option value="pdf" >PDF</option>
+<option value="bmp" >BMP</option>
+<option value="gif" >GIF</option>
+<option value="svg" >SVG</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Background Transparent:</td>
+<td>
+<input type="radio" name="transparent" value="true" /> True &nbsp;
+<input type="radio" name="transparent" value="false" checked="true" /> False
+</td>
+</tr>
+<tr valign="top">
+<td>DPI:</td>
+<td><input type="text" name="dpi" value="" /></td>
+</tr>
+<tr>
+<td>Time: </td>
+<td><input type="text" name="time" value="" size="50" /></td>
+</tr>
+<tr valign="top">
+<td>Layer Time Options:</td>
+<td>
+<textarea name="layerTimeOptions" rows="3" cols="55"></textarea>
+</td>
+</tr>
+<tr valign="top">
+<td>Dynamic Layers:</td>
+<td>
+<textarea name="dynamicLayers" rows="3" cols="55"></textarea>
+</td>
+</tr>
+<tr valign="top">
+<td>Geodatabase Version Name:</td>
+<td><input type="text" name="gdbVersion" value="" /></td>
+</tr>
+<tr valign="top">
+<td>Map Scale:</td>
+<td><input type="text" name="mapScale" value="" /></td>
+</tr>
+<tr>
+<td>Format:</td>
+<td>
+<select name="f">
+<option value="html">HTML</option>
+<option value="pjson">JSON</option>
+<option value="image">Image</option>
+<option value="kmz">KMZ</option>
+</select>
+</td>
+</tr>
+<tr><td colspan="2" align="left">
+<input type="submit" value="Export Map Image (GET)" />
+<input type="submit" onclick="this.form.method = 'post';" value="Export Map Image (POST)" />
+</td></tr>
+</table>
+</form>
+<script type="text/javascript">
+document.body.onload = document.all.bbox.focus();
+</script>
+<br/><br/>
+</div>
+<br/><br/>
+</body>
+</html>
