@@ -1,0 +1,1225 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\DSB\DSBsivilforsvarsdistrikterWFS10_test.fmw
+#          --DestDataset_GML2 "C:\Users\xmaland\Documents\GitHub\geonorge\DSB\return.gml"
+#          --SourceDataset_POSTGIS "geonor01tst"
+#          --FEATURE_TYPES_2 "akvakultur.akvakulturpunkt akvakultur.akvakulturgrense akvakultur.akvakulturflate"
+#    
+#    
+#! BEGIN_TCL=""
+#! BEGIN_PYTHON=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! FME_DOCUMENT_GUID="12d882e2-d996-4649-a701-c0abb536aee8"
+#! LEGAL_TERMS_CONDITIONS=""
+#! FME_DOCUMENT_PRIORGUID="d7822837-5425-4dda-84e8-db076d411128,98e7005a-2071-4919-bd86-1d73a1ba74de,461a1004-ae72-4c08-adda-bd8b4d85a481,8d813eaf-0d27-48e6-b90f-42ec441ee354,4d9f80d4-5024-4459-90f3-99036ce74ace,b7496704-4167-4341-8168-dd42382676fe,e4e58a1c-f349-4179-98c7-b8b077d13d2a,5eb4a39e-e7d9-4932-9dcc-4878fb0e5cc8,f50e5480-9c22-426f-a96f-0533f803da55,d8a4148e-c2c0-40e6-8a33-773f69ca94ed,ac257c1f-bb96-40a5-a6ea-12b76fc054cf,3ac84590-cdd6-46a4-872b-e10004482298,22efd00b-9584-4d02-9c78-0ca9aa04f004,4db35fb4-6647-46fb-9f79-8c160b5bffbe,fcf2fd1b-ce24-4822-8f48-e28013ddbba1,41fa9a6b-d0d5-496e-bec7-12d8546e0845,d6dcf779-bcf3-4a8a-a1fa-95431b87d19c,e2ab42d4-0ad3-49fb-84c6-309e36519002,e4cb39ae-854a-4e0b-92d2-b806ec0cd46d,d517282b-d971-470a-96eb-935090f3d33f,a8f3c543-8047-4a5f-bc10-7f6771631ff1,88eb5dd4-4821-4deb-b406-63ac8528b393,a823ce05-6c21-4428-a1d5-c3d673754019,69ffb910-2638-426b-b87f-01a77a0667b8,2a1f3073-19fd-4bde-a836-15c761f6751f,e81e7780-d0ec-4bf3-821c-ec531c537442,84a30db3-a5a4-4b8e-ad12-625e7ff81f42,2ab5c8c7-5ed5-4b6d-ab9d-44ee924a5d45,fb65c871-96d0-4223-b3cc-f4a138fd5b80,3e24c615-121c-4348-aedb-3d1d488cc679,e3764af4-5ffd-49cb-922a-4f32a30c8f53,7398fd73-cc49-473f-be15-b3d8f4481646,6aae2694-13ee-48e8-941e-cb808ca12441,2795af7f-1aae-4668-b62b-756dfca6cbbb,c4eb5abe-d688-4199-a381-8097f7e94f66,de3870d7-dae2-4f74-8b6b-87a8c70caf55,bf50de8c-9173-4ae3-8ef2-a4a14e08269a,5de8fd14-e2c7-4fb6-893a-354f1f045bd3,782653af-b14c-46a2-b20b-84ddaabe5a88,23a85f3d-5edf-4ee0-8f26-4af7099acca5,706ac8da-a28b-4a36-a7a6-9e8daedbd912,61df90fa-d4b0-4174-ad70-7259e04bacf4,2fcc2c2b-3b92-423e-916c-150dc348140b"
+#! REQUIREMENTS_KEYWORD=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! DOC_TOP_LEFT="11947.1 -4487.04"
+#! FME_BUILD_NUM="15515"
+#! FME_SERVER_SERVICES=""
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! SHOW_ANNOTATIONS="true"
+#! DESTINATION="NONE"
+#! USAGE=""
+#! LAST_SAVE_DATE="2015-09-03T14:21:39"
+#! REDIRECT_TERMINATORS="NONE"
+#! CATEGORY=""
+#! DESTINATION_ROUTING_FILE=""
+#! DESCRIPTION=""
+#! END_TCL=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! VIEW_POSITION="11580.1 -4026.04"
+#! FME_REPROJECTION_ENGINE="FME"
+#! SOURCE_ROUTING_FILE=""
+#! LOG_MAX_PRECISION="Yes"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! WORKSPACE_VERSION="1"
+#! END_PYTHON=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! HISTORY=""
+#! MAX_LOG_FEATURES="200"
+#! SHOW_INFO_NODES="true"
+#! ZOOM_SCALE="100"
+#! REQUIREMENTS=""
+#! SOURCE="NONE"
+#! PASSWORD=""
+#! IGNORE_READER_FAILURE="Yes"
+#! DOC_EXTENTS="787.983 231.001"
+#! TITLE=""
+#! LOG_FILE=""
+#! >
+#! <DATASETS>
+#! <DATASET
+#! IS_SOURCE="true"
+#! ROLE="READER"
+#! FORMAT="POSTGIS"
+#! DATASET="$(SourceDataset_POSTGIS)"
+#! KEYWORD="POSTGIS_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="postgis_collection_id int4 fme_primary_axis float8 fme_type char(50) fme_text_size float8 fme_color char(50) multi_reader_id int4 multi_reader_keyword char(50) fme_rotation float8 fme_start_angle float8 postgis_collection_part_id int4 fme_dataset char(50) fme_feature_type char(50) postgis_type char(50) fme_basename char(50) fme_geometry fme_char(50) fme_sweep_angle float8 postgres_oid int4 multi_reader_full_id int4 multi_reader_type char(50) fme_fill_color char(50) fme_secondary_axis float8 fme_text_string char(50)"
+#! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
+#! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="DATABASE"
+#! FEATURE_TYPES_LIST="dsb.sivilforsvarsdistrikter"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MAX_FEATURES=""
+#! FEATURE_TYPES="$(FEATURE_TYPES_2)"
+#! START_FEATURE=""
+#! MIN_FEATURES=""
+#! COORDSYS=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! </DATASET>
+#! <DATASET
+#! IS_SOURCE="false"
+#! ROLE="WRITER"
+#! FORMAT="GML2"
+#! DATASET="$(DestDataset_GML2)"
+#! KEYWORD="GML2_1"
+#! MULTI_GEOM_ALLOWED="true"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="fme_basename xml_char(50) xml_type xml_char(50) fme_fill_color xml_char(50) fme_text_size xml_real64 fme_color xml_char(50) fme_geometry fme_char(50) fme_rotation xml_real64 fme_text_string xml_char(50) fme_type xml_char(50) fme_secondary_axis xml_real64 fme_start_angle xml_real64 fme_dataset xml_char(50) fme_primary_axis xml_real64 fme_sweep_angle xml_real64 fme_feature_type xml_char(50)"
+#! DEFLINE_PARMS=""
+#! ATTR_INDEX_TYPES=""
+#! ATTR_NAME_INVALID_CHARS="[]= %~!@$&amp;#[()^?*&apos;+\\/&quot;:"
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="FILE"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! FANOUT="No"
+#! FANOUT_SUFFIX=""
+#! FANOUT_ID_ATTR=""
+#! COORDSYS=""
+#! FANOUT_PREFIX=""
+#! FANOUT_DIRECTORY=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="MIME_TYPE"
+#! VALUE="application/xml"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Select the GML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="gml file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a name for the GML file"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bool"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varchar(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="text"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bytea"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_int16"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_int64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="oid"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="serial"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float4"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="money"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float8"
+#! FME_TYPE="fme_real64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="date"
+#! FME_TYPE="fme_date"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="time"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timetz"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamp"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamptz"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="uuid"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bit(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_char(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_buffer"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_xml"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_datetime"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_date"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_time"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_int64"
+#! FME_TYPE="fme_int64"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_uint64"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_int32"
+#! FME_TYPE="fme_int32"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_uint32"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_int16"
+#! FME_TYPE="fme_int16"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_uint16"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_byte"
+#! FME_TYPE="fme_int16"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_ubyte"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_real32"
+#! FME_TYPE="fme_real32"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_real64"
+#! FME_TYPE="fme_real64"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_decimal(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_boolean"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_char(20)"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_char(8)"
+#! FME_TYPE="fme_date"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_char(12)"
+#! FME_TYPE="fme_time"
+#! FORMAT="GML2"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_geometry"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="GML2"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipoint"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multilinestring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multicurve"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_linestring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_circularstring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_compoundcurve"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multisurface"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_curvepolygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipoint"
+#! FME_TYPE="fme_text"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multilinestring"
+#! FME_TYPE="fme_arc"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_triangle"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polyhedralsurface"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polyhedralsurface"
+#! FME_TYPE="fme_solid"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_tin"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_geometry"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_geometrycollection"
+#! FME_TYPE="fme_collection"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_raster"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_no_geom"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_line"
+#! FME_TYPE="fme_line"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_area"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_aggregate"
+#! FME_TYPE="fme_collection"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_text"
+#! FME_TYPE="fme_text"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_line"
+#! FME_TYPE="fme_arc"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_surface"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_solid"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_mesh"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_raster"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_line"
+#! FME_TYPE="fme_surface"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_line"
+#! FME_TYPE="fme_solid"
+#! FORMAT="GML2"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="xml_area"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="GML2"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#! IS_SOURCE="false"
+#! NODE_NAME="NewFeatureType"
+#! FEATURE_TYPE_NAME="NewFeatureType"
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="true"
+#! IDENTIFIER="2"
+#! FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
+#! POSITION="12735.1 -4256.04"
+#! BOUNDING_RECT="12735.1 -4256.04 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="GML2_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! SCHEMA_ATTRIBUTE_SOURCE="2"
+#! DYNAMIC_SCHEMA="false"
+#! DYNAMIC_SCHEMA_SOURCES=""
+#! DYNAMIC_SCHEMA_FEATURE_TYPE="AUTOMATIC"
+#! DYNAMIC_SCHEMA_FEATURE_TYPE_NAME="@Value(fme_feature_type)"
+#! DYNAMIC_SCHEMA_DEFINITION="AUTOMATIC"
+#! DYNAMIC_SCHEMA_DEFINITION_NAME=""
+#! DYNAMIC_SCHEMA_GEOMETRY="FIXED"
+#! DYNAMIC_SCHEMA_GEOMETRY_NAME="&lt;Unused&gt;"
+#! DYNAMIC_SCHEMA_ATTRIBUTES_TO_REMOVE=""
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="akvakultur.akvakulturpunkt"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="akvakultur"
+#! IS_EDITABLE="false"
+#! IDENTIFIER="4"
+#! FEAT_GEOMTYPE="postgis_none postgis_point postgis_multipoint postgis_linestring postgis_multilinestring postgis_circularstring postgis_compoundcurve postgis_multicurve postgis_polygon postgis_multipolygon postgis_curvepolygon postgis_multisurface postgis_triangle postgis_polyhedralsurface postgis_tin postgis_geometrycollection"
+#! POSITION="11947.1 -4487.04"
+#! BOUNDING_RECT="11947.1 -4487.04 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="POSTGIS_1"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER="*"
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="true"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="akva_enhet" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="akva_kapasitet" ATTR_TYPE="float4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="av_class" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="plassering" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="vannmiljo" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="areal_m2" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="avgrensningfk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#! NAME="WFS"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="COORDINATE_SYSTEM"
+#! VALUE="EPSG:4258"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MAX_X"
+#! VALUE="180"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MAX_Y"
+#! VALUE="90"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MIN_X"
+#! VALUE="-180"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="MIN_Y"
+#! VALUE="-90"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="WFS_DESCRIBE_FEATURE_TYPE"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="WFS_GET_CAPABILITIES"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#! NAME="DSB"
+#! />
+#! <ITEM
+#! NAME="DSBsivilforsvarsdistrikterWFS10_test.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#! UID=":DatasetMgr_TEXTLINE_1:DestDataset_TEXTLINE_1"
+#! VALUE="responseMessage.xml"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_TEXTLINE_1:FANOUT_DIRECTORY"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBParameterNode_150:XML_OUTPUT_FILE"
+#! VALUE="&lt;Unused&gt;"
+#! />
+#! <MODIFICATION
+#! UID=":WBParameterNode_152:XML_OUTPUT_FILE"
+#! VALUE="&lt;Unused&gt;"
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:LOG_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_GML2_1:DestDataset_GML2_1"
+#! VALUE="C:\Users\bpont\Downloads\return.gml"
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_GML2_1:_OUT_XSD_DOC_GML2_1"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_GML2_1:_STYLESHEET_RESULT_GML2_1"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_GML2_1:FANOUT_DIRECTORY"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_XML_1:SourceDataset_XML_1"
+#! VALUE="$(FME_MF_DIR)useparameters.xml"
+#! />
+#! </MODIFICATIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI FILENAME DestDataset_GML2 GML_Files(*.xml;*.gml;*.gz)|*.xml;*.gml;*.gz|GML_Files(*.xml)|*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|All_Files|* Destination Geography Markup Language (GML) v2.1.2 File:"
+#! DEFAULT_VALUE="$(FME_MF_DIR)return.gml"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI TEXT SourceDataset_POSTGIS Database:"
+#! DEFAULT_VALUE="geonor01tst"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI OPTIONAL FEATURE_TYPES FEATURE_TYPES_2 &quot;geonor01tst,_FORMAT_OVERRIDE_,POSTGIS,_DATASET_OVERRIDE_,SourceDataset_POSTGIS,HOST,Nnridb504,PORT,5432,USER_NAME,geonortst,PASSWORD,fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszjKaNUUnGOLZeEcDhG0FQAjTDXO01BAWhD4KrzNSNMeRhCuBwZ598lIJWXRp7do23rOcqeR3V4mh+IcHv/zECxsGymoDg6gIrXlFpENSrytkrHYOkJgZ2lxsD8RXTYGypuRo8/I3ywh3tmwhMgE4awQBUYAfi0q4kgEhptAlbKfgzWpXrKOK+GVmvcRjlzmCPb/kez0YXHebDhqry45akAMZfPR8M/EMr4Xj8Eyp95UNLMrOZB9LyVGCVMNN7VUSZ2a36LYh9prxSz/Hsv9TkAluNXbrn1KvTrEvo8pLcpIh1+FkDhFpy/zu/r+zeC1MZw/PtJ4+miCEpfswQMm8+x0z3NwoMw3m5),CLIP_TO_ENVELOPE,NO,SEARCH_METHOD,MBR_OVERLAPS,FEATURES_PER_FETCH,10000,_MERGE_SCHEMAS,YES,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,DYNAMIC_WORKFLOW,yes,TABLELIST,\&quot;akvakultur.akvakulturflate akvakultur.akvakulturgrense akvakultur.akvakulturpunkt\&quot;,SCHEMALIST,akvakultur,DISABLE_COLLECTION_SPLITTING,yes,USE_TRUE_POSTGIS_TYPES,yes,_MERGE_SCHEMAS,YES&quot; Feature Types to Read:"
+#! DEFAULT_VALUE="akvakultur.akvakulturpunkt akvakultur.akvakulturgrense akvakultur.akvakulturflate"
+#! IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="5"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="2"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_HOST_POSTGIS_1,POSTGIS_IN_PORT_POSTGIS_1,POSTGIS_IN_USER_NAME_POSTGIS_1,POSTGIS_IN_PASSWORD_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,DestDataset_GML2_1,_OUT_SCHEMA_MODE_GML2_1,_OUT_XSD_DOC_GML2_1,_TARGET_NS_PREFIX_GML2_1,_TARGET_NS_URI_GML2_1,_TARGET_XSI_SCHEMALOCATION_URL_GML2_1,_OUTPUT_ENCODING_GML2_1,_FEATURE_ENCODING_GML2_1,_MAPPING_FILE_ENCODING_GML2_1,_USE_WFS_FEATURE_COLLECTION_GML2_1,_APPLY_STYLESHEET_GML2_1,_STYLESHEET_RESULT_GML2_1,_SUPPRESS_NULL_ATTRS_GML2_1,_WRITE_ALL_FEATURE_TYPE_DEFNS_GML2_1,_DOCUMENTS_TO_WRITE_GML2_1,_SUPPRESS_SCHEMA_LOCATION_ATTR_GML2_1,_LISTS_IN_MULTI_VALUE_ATTRIBUTES_GML2_1,_MULTI_VALUE_SEPARATOR_GML2_1
+DEFAULT_MACRO DestDataset_GML2 $(FME_MF_DIR)return.gml
+GUI FILENAME DestDataset_GML2 GML_Files(*.xml;*.gml;*.gz)|*.xml;*.gml;*.gz|GML_Files(*.xml)|*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|All_Files|* Destination Geography Markup Language (GML) v2.1.2 File:
+DEFAULT_MACRO SourceDataset_POSTGIS geonor01tst
+GUI TEXT SourceDataset_POSTGIS Database:
+DEFAULT_MACRO FEATURE_TYPES_2 akvakultur.akvakulturpunkt akvakultur.akvakulturgrense akvakultur.akvakulturflate
+GUI OPTIONAL FEATURE_TYPES FEATURE_TYPES_2 "geonor01tst,_FORMAT_OVERRIDE_,POSTGIS,_DATASET_OVERRIDE_,SourceDataset_POSTGIS,HOST,Nnridb504,PORT,5432,USER_NAME,geonortst,PASSWORD,fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszjKaNUUnGOLZeEcDhG0FQAjTDXO01BAWhD4KrzNSNMeRhCuBwZ598lIJWXRp7do23rOcqeR3V4mh+IcHv/zECxsGymoDg6gIrXlFpENSrytkrHYOkJgZ2lxsD8RXTYGypuRo8/I3ywh3tmwhMgE4awQBUYAfi0q4kgEhptAlbKfgzWpXrKOK+GVmvcRjlzmCPb/kez0YXHebDhqry45akAMZfPR8M/EMr4Xj8Eyp95UNLMrOZB9LyVGCVMNN7VUSZ2a36LYh9prxSz/Hsv9TkAluNXbrn1KvTrEvo8pLcpIh1+FkDhFpy/zu/r+zeC1MZw/PtJ4+miCEpfswQMm8+x0z3NwoMw3m5),CLIP_TO_ENVELOPE,NO,SEARCH_METHOD,MBR_OVERLAPS,FEATURES_PER_FETCH,10000,_MERGE_SCHEMAS,YES,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,DYNAMIC_WORKFLOW,yes,TABLELIST,\"akvakultur.akvakulturflate akvakultur.akvakulturgrense akvakultur.akvakulturpunkt\",SCHEMALIST,akvakultur,DISABLE_COLLECTION_SPLITTING,yes,USE_TRUE_POSTGIS_TYPES,yes,_MERGE_SCHEMAS,YES" Feature Types to Read:
+INCLUDE [ if {{$(DestDataset_GML2)} == {}} { puts_real {Parameter 'DestDataset_GML2' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_POSTGIS)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE POSTGIS
+READER_KEYWORD POSTGIS_1
+READER_GEN_DIRECTIVES _MERGE_SCHEMAS,YES,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MINY,0,DYNAMIC_WORKFLOW,yes,POSTGIS_EXPOSE_FORMAT_ATTRS,,HOST,Nnridb504,CLIP_TO_ENVELOPE,NO,FME_CONNECTION_GROUP,,TABLELIST,akvakultur.akvakulturflate<space>akvakultur.akvakulturgrense<space>akvakultur.akvakulturpunkt,SCHEMALIST,akvakultur,DISABLE_COLLECTION_SPLITTING,yes,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,USE_TRUE_POSTGIS_TYPES,yes,USER_NAME,geonortst,PORT,5432,EXPOSE_ATTRS_GROUP,
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} GML2
+MULTI_WRITER_KEYWORD{0} GML2_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "POSTGIS_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGIS POSTGIS_1
+POSTGIS_1_DYNAMIC_WORKFLOW YES
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGIS POSTGIS_1
+DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset_POSTGIS)
+GUI TEXT SourceDataset_POSTGIS_1 Database:
+DEFAULT_MACRO POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1 Yes
+POSTGIS_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1 yes
+POSTGIS_1_DISABLE_COLLECTION_SPLITTING "$(POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1 yes
+POSTGIS_1_USE_TRUE_POSTGIS_TYPES "$(POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_HOST_POSTGIS_1 Nnridb504
+POSTGIS_1_HOST "$(POSTGIS_IN_HOST_POSTGIS_1)"
+GUI TEXT POSTGIS_IN_HOST_POSTGIS_1 Host:
+DEFAULT_MACRO POSTGIS_IN_PORT_POSTGIS_1 5432
+POSTGIS_1_PORT "$(POSTGIS_IN_PORT_POSTGIS_1)"
+GUI INTEGER POSTGIS_IN_PORT_POSTGIS_1 Port:
+DEFAULT_MACRO POSTGIS_IN_USER_NAME_POSTGIS_1 geonortst
+POSTGIS_1_USER_NAME "$(POSTGIS_IN_USER_NAME_POSTGIS_1)"
+GUI TEXT POSTGIS_IN_USER_NAME_POSTGIS_1 Username:
+DEFAULT_MACRO POSTGIS_IN_PASSWORD_POSTGIS_1 fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszjKaNUUnGOLZeEcDhG0FQAjTDXO01BAWhD4KrzNSNMeRhCuBwZ598lIJWXRp7do23rOcqeR3V4mh+IcHv/zECxsGymoDg6gIrXlFpENSrytkrHYOkJgZ2lxsD8RXTYGypuRo8/I3ywh3tmwhMgE4awQBUYAfi0q4kgEhptAlbKfgzWpXrKOK+GVmvcRjlzmCPb/kez0YXHebDhqry45akAMZfPR8M/EMr4Xj8Eyp95UNLMrOZB9LyVGCVMNN7VUSZ2a36LYh9prxSz/Hsv9TkAluNXbrn1KvTrEvo8pLcpIh1+FkDhFpy/zu/r+zeC1MZw/PtJ4+miCEpfswQMm8+x0z3NwoMw3m5)
+POSTGIS_1_PASSWORD "$(POSTGIS_IN_PASSWORD_POSTGIS_1)"
+GUI OPTIONAL PASSWORD POSTGIS_IN_PASSWORD_POSTGIS_1 Password:
+DEFAULT_MACRO POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 
+POSTGIS_1_EXPOSE_ATTRS_GROUP "$(POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1)"
+GUI DISCLOSUREGROUP POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 POSTGIS_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1 NO
+POSTGIS_1_CLIP_TO_ENVELOPE "$(POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1)"
+GUI OPTIONAL CHECKBOX POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1 YES%NO Clip to Search Envelope
+# ============================================================================
+# Search Envelope Coordinate System
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1 
+GUI OPTIONAL COORDSYS POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1 Search Envelope Coordinate System:
+POSTGIS_1_SEARCH_ENVELOPE_COORDINATE_SYSTEM "$(POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_SEARCH_METHOD_POSTGIS_1 MBR_OVERLAPS
+GUI CHOICE POSTGIS_IN_SEARCH_METHOD_POSTGIS_1 MBR_OVERLAPS%CONTAINS%DISJOINT%EQUALS%INTERSECTS%OVERLAPS%TOUCHES%WITHIN Search Method:
+POSTGIS_1_SEARCH_METHOD $(POSTGIS_IN_SEARCH_METHOD_POSTGIS_1)
+DEFAULT_MACRO POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1 10000
+GUI FLOAT POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1 Number Of Records To Fetch At A Time:
+POSTGIS_1_FEATURES_PER_FETCH $(POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1)
+DEFAULT_MACRO POSTGIS_IN_BEGIN_SQL_POSTGIS_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_BEGIN_SQL_POSTGIS_1 SQL Statement to Execute Before Translation:
+POSTGIS_1_BEGIN_SQL "$(POSTGIS_IN_BEGIN_SQL_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_END_SQL_POSTGIS_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_END_SQL_POSTGIS_1 SQL Statement to Execute After Translation:
+POSTGIS_1_END_SQL "$(POSTGIS_IN_END_SQL_POSTGIS_1)"
+POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "GML2_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER GML2 GML2_1
+# ============================================================================
+# The following GUI lines prompt for a GML v2 file to be used as the
+# the destination of the data.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_GML2_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER GML2 GML2_1
+DEFAULT_MACRO DestDataset_GML2_1 $(DestDataset_GML2)
+GUI FILENAME DestDataset_GML2_1 GML_Files(*.xml;*.gml;*.gz)|*.xml;*.gml;*.gz|GML_Files(*.xml)|*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|All_Files|* Destination Geography Markup Language (GML) v2.1.2 File:
+# ============================================================================
+# The SCHEMA_MODE keyword sets the GML2 writer's mode. Valid values are
+# 'FIXED', 'CREATE', and 'SCAN'.
+#
+# FIXED: In this mode the writer outputs a GML v2 instance document
+# that corresponds to the FMEFeatures.xsd GML v2 Schema.
+#
+# CREATE: The writer outputs GML v2 Schema document and a
+# corresponding GML v2 instance document.
+# The GML v2 Schema document is determined by the GML DEF lines.
+#
+# SCAN: This mode is currently NOT implemented.
+DEFAULT_MACRO _OUT_SCHEMA_MODE_GML2_1 CREATE
+GUI CHOICE _OUT_SCHEMA_MODE_GML2_1 FIXED%CREATE GML2 Schema Mode:
+GML2_1_SCHEMA_MODE $(_OUT_SCHEMA_MODE_GML2_1)
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO GML2_OUT_DESTINATION_DATASETTYPE_VALIDATION_GML2_1 Yes
+GML2_1_DESTINATION_DATASETTYPE_VALIDATION "$(GML2_OUT_DESTINATION_DATASETTYPE_VALIDATION_GML2_1)"
+DEFAULT_MACRO GML2_OUT_COORDINATE_SYSTEM_GRANULARITY_GML2_1 GML2
+GML2_1_COORDINATE_SYSTEM_GRANULARITY "$(GML2_OUT_COORDINATE_SYSTEM_GRANULARITY_GML2_1)"
+# ============================================================================
+# On FIXED schema: The XSD_DOC keyword is ignored.
+#
+# On CREATE schema: The XSD_DOC keyword is optional,
+# when it is not specified the .xsd file will be written
+# in the same folder as the output dataset and its
+# basename will be the same as the base name of the
+# GML output dataset. e.g., if the DATASET is data.xml,
+# then the GML v2 schema file that is produced will
+# be named data.xsd.
+#
+# On SCAN schema: The SCAN mode is currently NOT implemented.
+#
+# Default it to be the empty string.
+DEFAULT_MACRO _OUT_XSD_DOC_GML2_1 
+GUI OPTIONAL FILENAME _OUT_XSD_DOC_GML2_1 XML_Schema_File(*.xsd)|*.xsd|All_Files(*)|* XML Schema Document:
+GML2_1_XSD_DOC "$(_OUT_XSD_DOC_GML2_1)"
+# ============================================================================
+# The TARGET_NS_PREFIX and TARGET_NS_URI keywords are used when the
+# GML2 writer is set on CREATE mode. They declare the namespace that
+# the output document should use.
+DEFAULT_MACRO _TARGET_NS_PREFIX_GML2_1 
+GUI OPTIONAL TEXT _TARGET_NS_PREFIX_GML2_1 Target Namespace Prefix:
+GML2_1_TARGET_NS_PREFIX $(_TARGET_NS_PREFIX_GML2_1)
+DEFAULT_MACRO _TARGET_NS_URI_GML2_1 
+GUI OPTIONAL TEXT _TARGET_NS_URI_GML2_1 Target Namespace URI:
+GML2_1_TARGET_NS_URI $(_TARGET_NS_URI_GML2_1)
+DEFAULT_MACRO _TARGET_XSI_SCHEMALOCATION_URL_GML2_1 
+GUI OPTIONAL TEXT _TARGET_XSI_SCHEMALOCATION_URL_GML2_1 Target Schema Location URL:
+GML2_1_TARGET_XSI_SCHEMALOCATION_URL $(_TARGET_XSI_SCHEMALOCATION_URL_GML2_1)
+# ============================================================================
+# The OUTPUT_ENCODING keyword is optional. If no value is specified
+# then the encoding defaults to UTF-8.
+#
+# All files output by the GML2 writer will be output with the
+# encoding.
+DEFAULT_MACRO _OUTPUT_ENCODING_GML2_1 
+GUI OPTIONAL TEXT _OUTPUT_ENCODING_GML2_1 Output Dataset Encoding:
+GML2_1_OUTPUT_ENCODING $(_OUTPUT_ENCODING_GML2_1)
+# ============================================================================
+# The FEATURE_ENCODING keyword is optional. If no value is specified
+# then the system's encoding is used.
+#
+# Tells the GML v2 writer which enconding the input FME features
+# are in.
+DEFAULT_MACRO _FEATURE_ENCODING_GML2_1 
+GUI OPTIONAL TEXT _FEATURE_ENCODING_GML2_1 FME Feature Encoding:
+GML2_1_FEATURE_ENCODING $(_FEATURE_ENCODING_GML2_1)
+# ============================================================================
+# The MAPPING_FILE_ENCODING enconding is optional. If no value is specified
+# then the system's encoding is used.
+#
+# Specifies the encoding used in the FME mapping file.
+DEFAULT_MACRO _MAPPING_FILE_ENCODING_GML2_1 
+GUI OPTIONAL TEXT _MAPPING_FILE_ENCODING_GML2_1 FME Mapping File Encoding:
+GML2_1_MAPPING_FILE_ENCODING $(_MAPPING_FILE_ENCODING_GML2_1)
+# ============================================================================
+# The writer will use the wfs:FeatureCollection as the root element of the
+# GML instance when this keyword is set to yes.
+DEFAULT_MACRO _USE_WFS_FEATURE_COLLECTION_GML2_1 no
+GUI OPTIONAL CHOICE _USE_WFS_FEATURE_COLLECTION_GML2_1 no%yes Use wfs:FeatureCollection:
+GML2_1_USE_WFS_FEATURE_COLLECTION $(_USE_WFS_FEATURE_COLLECTION_GML2_1)
+# ============================================================================
+# APPLY_STYLESHEET
+# Specifies the XSLT stylesheet to be applied to the output document.
+DEFAULT_MACRO _APPLY_STYLESHEET_GML2_1 
+GUI OPTIONAL FILENAME_MUSTEXIST _APPLY_STYLESHEET_GML2_1 XSLT_Stylesheet_Files(*.xslt)|*.xslt|All_Files(*)|* XSLT Stylesheet to Apply:
+GML2_1_APPLY_STYLESHEET "$(_APPLY_STYLESHEET_GML2_1)"
+# ============================================================================
+# STYLESHEET_RESULT
+# The location and name of the resulting document after XSLT stylesheet
+# transformation. This is an optional keyword.
+DEFAULT_MACRO _STYLESHEET_RESULT_GML2_1 
+GUI OPTIONAL FILENAME _STYLESHEET_RESULT_GML2_1 All_Files(*)|* Stylesheet File to Write:
+GML2_1_STYLESHEET_RESULT "$(_STYLESHEET_RESULT_GML2_1)"
+# ============================================================================
+# SUPPRESS_NULL_ATTRS
+# This parameter defines whether the GML writer will suppress writing out
+# attributes that are specified on the DEF line, but that have no values on
+# the outgoing features.
+DEFAULT_MACRO _SUPPRESS_NULL_ATTRS_GML2_1 no
+GUI OPTIONAL CHOICE _SUPPRESS_NULL_ATTRS_GML2_1 yes%no Suppress Null Attributes:
+GML2_1_SUPPRESS_NULL_ATTRS $(_SUPPRESS_NULL_ATTRS_GML2_1)
+# ============================================================================
+# WRITE_ALL_FEATURE_TYPE_DEFNS
+# This parameter defines whether the GML writer will write out the feature
+# definitions whether or not it has features.
+DEFAULT_MACRO _WRITE_ALL_FEATURE_TYPE_DEFNS_GML2_1 no
+GUI OPTIONAL CHOICE _WRITE_ALL_FEATURE_TYPE_DEFNS_GML2_1 yes%no Write All Feature Types:
+GML2_1_WRITE_ALL_FEATURE_TYPE_DEFNS $(_WRITE_ALL_FEATURE_TYPE_DEFNS_GML2_1)
+# ============================================================================
+# The GML application schema document will not be written when this keyword
+# is set to yes.
+GUI OPTIONAL LOOKUP_CHOICE _DOCUMENTS_TO_WRITE_GML2_1 "Both",BOTH%"GML Only",GML_ONLY%"XSD Only",XSD_ONLY Documents To Write:
+DEFAULT_MACRO _DOCUMENTS_TO_WRITE_GML2_1 BOTH
+GML2_1_DOCUMENTS_TO_WRITE $(_DOCUMENTS_TO_WRITE_GML2_1)
+# ============================================================================
+# The xsi:schemaLocation is merely a hint to an XML processor for a set of
+# schema namespace/location pairs whose grammar would validate the XML instance
+# document, this keyword allows the suppression of the xsi:schemaLocation in
+# the output GML instance document.
+DEFAULT_MACRO _SUPPRESS_SCHEMA_LOCATION_ATTR_GML2_1 no
+GUI OPTIONAL CHOICE _SUPPRESS_SCHEMA_LOCATION_ATTR_GML2_1 no%yes Suppress xsi:schemaLocation Attribute:
+GML2_1_SUPPRESS_SCHEMA_LOCATION_ATTR $(_SUPPRESS_SCHEMA_LOCATION_ATTR_GML2_1)
+# ============================================================================
+DEFAULT_MACRO _LISTS_IN_MULTI_VALUE_ATTRIBUTES_GML2_1 yes
+GUI OPTIONAL CHOICE _LISTS_IN_MULTI_VALUE_ATTRIBUTES_GML2_1 no%yes Lists in Multi-Value Attributes:
+GML2_1_LISTS_IN_MULTI_VALUE_ATTRIBUTES $(_LISTS_IN_MULTI_VALUE_ATTRIBUTES_GML2_1)
+# ============================================================================
+DEFAULT_MACRO _MULTI_VALUE_SEPARATOR_GML2_1 
+GUI OPTIONAL TEXT _MULTI_VALUE_SEPARATOR_GML2_1 Multi-Value Separator:
+GML2_1_MULTI_VALUE_SEPARATOR $(_MULTI_VALUE_SEPARATOR_GML2_1)
+GML2_1_DATASET "$(DestDataset_GML2_1)"
+#! END_DEST_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)DSBsivilforsvarsdistrikterWFS10_test.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
+DEFAULT_MACRO DATASET_KEYWORD_GML2_1 GML2_1
+# -------------------------------------------------------------------------
+
+POSTGIS_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+POSTGIS_1_FEATURE_TYPES $(FEATURE_TYPES_2)
+MULTI_READER_CONTINUE_ON_READER_FAILURE Yes
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME DSBsivilforsvarsdistrikterWFS10_test
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::akvakultur.akvakulturpunkt TO FME_GENERIC ::akvakultur.akvakulturpunkt ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+POSTGIS_1_MERGE_DEF POSTGIS_1::akvakultur.akvakulturpunkt GLOB * DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,int4<comma>PRIKEY,objtype,varchar<openparen>32<closeparen>,akva_enhet,varchar<openparen>80<closeparen>,akva_kapasitet,float4,av_class,varchar<openparen>80<closeparen>,plassering,varchar<openparen>80<closeparen>,vannmiljo,varchar<openparen>80<closeparen>,kopidato,date,areal_m2,int4,navn,varchar<openparen>80<closeparen>,id,int4,avgrensningfk,int4<comma>BTREE
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC akvakultur.akvakulturpunkt TO GML2 __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>NewFeatureType<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>NewFeatureType<comma>NewFeatureType<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+GML2_1_DEF NewFeatureType   xml_type                     <NO_GEOMETRY>
