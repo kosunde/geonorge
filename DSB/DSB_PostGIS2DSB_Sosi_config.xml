@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration>
+	<wfsin>http://kart.dsb.no/wfs.aspx?service=wfs&amp;request=getcapabilities</wfsin>
+    <pghost>Nnridb504</pghost>
+	<pguser>geonortst</pguser>
+	<pgpwd>geonortst</pgpwd>
+	<pgport>5432</pgport>
+	<pgdb>geonor01tst</pgdb>
+	<sr>EPSG:4258</sr>
+    <pgODBCdriver>{PostgreSQL ODBC Driver(UNICODE)}</pgODBCdriver>
+</configuration>

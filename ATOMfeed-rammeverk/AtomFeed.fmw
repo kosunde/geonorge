@@ -5,14 +5,14 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" Z:\Geonorge\DSB\DSBAtomFeed.fmw
+#    "C:\Program Files\FME\fme.exe" Z:\Geonorge\ATOMfeed-rammeverk\AtomFeed.fmw
 #    
 #    
 #! BEGIN_TCL=""
 #! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
 #! PASSWORD=""
 #! LOG_MAX_PRECISION="Yes"
-#! LAST_SAVE_DATE="2015-08-31T10:12:03"
+#! LAST_SAVE_DATE="2015-08-31T10:17:37"
 #! WORKSPACE_VERSION="1"
 #! VIEW_POSITION="-1539.49 197.37"
 #! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
@@ -57,7 +57,7 @@
 #! IS_SOURCE="false"
 #! ROLE="WRITER"
 #! FORMAT="GEORSS"
-#! DATASET="$(FME_MF_DIR)ATOM\DSBAtomFeed.xml"
+#! DATASET="Z:\Geonorge\DSB\ATOM\DSBAtomFeed.xml"
 #! KEYWORD="GEORSS_1"
 #! MULTI_GEOM_ALLOWED="true"
 #! ATTR_MAX_LENGTH="60"
@@ -591,7 +591,7 @@
 #! />
 #! <COMMENT
 #! IDENTIFIER="50"
-#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager FylkesID-attributt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager KommuneID-attributt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #! POSITION="-653.057 -2041.91"
 #! TOP_LEFT="-653.057 -2041.91"
 #! BOTTOM_RIGHT="-654.057 -2040.91"
@@ -606,7 +606,7 @@
 #! />
 #! <COMMENT
 #! IDENTIFIER="52"
-#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager Fylkesnavn-attributt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager kommunenavn-attributt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #! POSITION="-210.125 -2090.33"
 #! TOP_LEFT="-210.125 -2090.33"
 #! BOTTOM_RIGHT="-211.125 -2089.33"
@@ -1299,7 +1299,7 @@ INCLUDE [ if {"$(DestDataset)" != ""} {                          \
  } ]
 #! END_WB_HEADER
 #! START_DEST_HEADER GEORSS GEORSS_1
-DEFAULT_MACRO DestDataset_GEORSS_1 $(FME_MF_DIR)ATOM\DSBAtomFeed.xml
+DEFAULT_MACRO DestDataset_GEORSS_1 Z:\Geonorge\DSB\ATOM\DSBAtomFeed.xml
 GUI FILENAME DestDataset_GEORSS_1 XML_Files(*.xml)|*.xml|All_Files|* Destination GeoRSS/RSS Feed File:
 GEORSS_1_COORDINATE_SYSTEM_GRANULARITY DATASET
 DEFAULT_MACRO GEORSS_OUT_WRITER_CHARSET_GEORSS_1 UTF-8
@@ -1329,7 +1329,7 @@ GEORSS_1_DATASET "$(DestDataset_GEORSS_1)"
 #! END_DEST_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)DSBAtomFeed.log"
+LOG_FILENAME "$(FME_MF_DIR)AtomFeed.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1348,7 +1348,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME DSBAtomFeed
+MACRO WORKSPACE_NAME AtomFeed
 MACRO FME_VIEWER_APP fmedatainspector
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
