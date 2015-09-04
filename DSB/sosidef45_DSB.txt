@@ -9826,6 +9826,20 @@
 ..OBJTYPE Akvakulturgrense $GEOMETRY (KURVE)
 
 .OBJDEF
+..OBJTYPE 110distriktGrense $GEOMETRY (KURVE)
+...KVALITET * $CARMIN (1) $CARMAX (1) $COMPACT     !posisjonskvalitet
+....MÅLEMETODE H2 $MAN $CARMIN (1) $CARMAX (1)     !målemetode
+....NØYAKTIGHET H6 $CARMIN (0) $CARMAX (1)         !nøyaktighet
+....SYNBARHET H2 $CARMIN (0) $CARMAX (1)           !synbarhet
+
+.OBJDEF
+..OBJTYPE SivilforsvarDistriktsgrense $GEOMETRY (KURVE)
+...KVALITET * $CARMIN (1) $CARMAX (1) $COMPACT     !posisjonskvalitet
+....MÅLEMETODE H2 $MAN $CARMIN (1) $CARMAX (1)     !målemetode
+....NØYAKTIGHET H6 $CARMIN (0) $CARMAX (1)         !nøyaktighet
+....SYNBARHET H2 $CARMIN (0) $CARMAX (1)           !synbarhet
+
+.OBJDEF
 ..OBJTYPE Allé $GEOMETRY (KURVE)
 ...TRE_TYP H2 $CARMIN (0) $CARMAX (1)              !treType
 ...HREF T6 $CARMIN (0) $CARMAX (1)                 !høydereferanse

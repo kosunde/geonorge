@@ -1,0 +1,1255 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" Z:\Geonorge\Dekningsanalyse\Dekningsanalyse_rastervisning.fmw
+#          --SourceDataset_POSTGIS "geonortst<at>Nnridb504:5432<solidus>geonor01tst"
+#          --DestDataset_PNGRASTER "Z:\Geonorge\Dekningsanalyse"
+#    
+#    
+#! ATTR_TYPE_ENCODING="SDF"
+#! SHOW_INFO_NODES="true"
+#! SHOW_ANNOTATIONS="true"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! VIEW_POSITION="-90.0009 0"
+#! BEGIN_TCL=""
+#! FME_SERVER_SERVICES=""
+#! REQUIREMENTS=""
+#! DOC_EXTENTS="2597 1293.01"
+#! FME_DOCUMENT_GUID="86fa3920-4709-4d89-b1f8-2e8f38abc8d0"
+#! SOURCE="NONE"
+#! DESTINATION_ROUTING_FILE=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! SOURCE_ROUTING_FILE=""
+#! USAGE=""
+#! PASSWORD=""
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! CATEGORY=""
+#! BEGIN_PYTHON=""
+#! REQUIREMENTS_KEYWORD=""
+#! FME_BUILD_NUM="15515"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! END_TCL=""
+#! FME_DOCUMENT_PRIORGUID="afe1227c-e40e-489e-a0d0-1ce811520d47"
+#! ZOOM_SCALE="100"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! REDIRECT_TERMINATORS="NONE"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! DOC_TOP_LEFT="100 -1523.01"
+#! LOG_MAX_PRECISION="Yes"
+#! DESTINATION="NONE"
+#! WORKSPACE_VERSION="1"
+#! LAST_SAVE_DATE="2015-09-02T08:20:02"
+#! DESCRIPTION=""
+#! HISTORY=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! TITLE=""
+#! LOG_FILE=""
+#! LEGAL_TERMS_CONDITIONS=""
+#! END_PYTHON=""
+#! MAX_LOG_FEATURES="200"
+#! IGNORE_READER_FAILURE="No"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! >
+#! <DATASETS>
+#! <DATASET
+#! IS_SOURCE="true"
+#! ROLE="READER"
+#! FORMAT="POSTGIS"
+#! DATASET="$(SourceDataset_POSTGIS)"
+#! KEYWORD="POSTGIS_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="multi_reader_id int4 multi_reader_type char(50) postgis_type char(50) fme_start_angle float8 fme_type char(50) fme_primary_axis float8 postgis_collection_part_id int4 multi_reader_keyword char(50) postgres_oid int4 postgis_collection_id int4 fme_basename char(50) fme_secondary_axis float8 fme_geometry fme_char(50) fme_sweep_angle float8 fme_fill_color char(50) fme_dataset char(50) fme_text_string char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_text_size float8 fme_color char(50) fme_rotation float8"
+#! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
+#! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="DATABASE"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MAX_FEATURES=""
+#! FEATURE_TYPES=""
+#! START_FEATURE=""
+#! MIN_FEATURES=""
+#! COORDSYS=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! </DATASET>
+#! <DATASET
+#! IS_SOURCE="false"
+#! ROLE="WRITER"
+#! FORMAT="PNGRASTER"
+#! DATASET="$(DestDataset_PNGRASTER)"
+#! KEYWORD="PNGRASTER_1"
+#! MULTI_GEOM_ALLOWED="true"
+#! ATTR_MAX_LENGTH="64"
+#! ATTR_CASE="ANYFIRSTNONNUMERIC"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="pngraster_world_file_generation $(_PNGRASTER_WRITER_WORLD_FILE_GENERATION) pngraster_tab_file_generation $(_PNGRASTER_WRITER_TAB_FILE_GENERATION) pngraster_optimize $(_PNGRASTER_WRITER_OPTIMIZE)"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="fme_start_angle float pngraster_optimize char(3) fme_type char(50) fme_primary_axis float fme_basename char(50) pngraster_world_file_generation char(3) fme_secondary_axis float fme_geometry fme_char(50) fme_sweep_angle float pngraster_tab_file_generation char(3) fme_fill_color char(50) fme_dataset char(50) fme_text_string char(50) fme_feature_type char(50) pngraster_type char(255) fme_text_size float fme_color char(50) fme_rotation float"
+#! DEFLINE_PARMS="&quot;GUI CHOICE pngraster_world_file_generation yes%no World File Generation&quot; yes &quot;GUI CHOICE pngraster_tab_file_generation yes%no TAB File Generation&quot; no &quot;GUI CHOICE pngraster_optimize No_optimization%Level_1_(recommended)%Level_2%Level_3%Level_4%Level_5%Level_6%Level_7_(slow) PNG Optimization Level (reduces file size)&quot; No_optimization "
+#! ATTR_INDEX_TYPES=""
+#! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="FILEDIR"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! FANOUT_DIRECTORY=""
+#! FANOUT="No"
+#! FANOUT_SUFFIX=""
+#! FANOUT_PREFIX=""
+#! FANOUT_ID_ATTR=""
+#! COORDSYS=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="READER_AUTO_EXPOSE"
+#! VALUE="fme_basename char(50)"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Raster1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="AUTO_FANOUT_ATTRIBUTE"
+#! VALUE="fme_basename"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Select the PNG raster file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="png file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a folder for the PNG raster file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="MIME_TYPE"
+#! VALUE="image/PNG"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Raster File"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bool"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varchar(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="text"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bytea"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_int16"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_int64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="oid"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="serial"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float4"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="money"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float8"
+#! FME_TYPE="fme_real64"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="date"
+#! FME_TYPE="fme_date"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="time"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timetz"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamp"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamptz"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="uuid"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bit(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(254)"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="datetime"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="time"
+#! FME_TYPE="fme_time"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="date"
+#! FME_TYPE="fme_date"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="decimal(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="float"
+#! FME_TYPE="fme_real64"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="float"
+#! FME_TYPE="fme_real32"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="integer"
+#! FME_TYPE="fme_int32"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="decimal(11,0)"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="decimal(20,0)"
+#! FME_TYPE="fme_int64"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="decimal(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="logical"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="smallint"
+#! FME_TYPE="fme_int16"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="integer"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="PNGRASTER"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="smallint"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="PNGRASTER"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipoint"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_point"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multilinestring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multicurve"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_linestring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_circularstring"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_compoundcurve"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multisurface"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_curvepolygon"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipoint"
+#! FME_TYPE="fme_text"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multilinestring"
+#! FME_TYPE="fme_arc"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_triangle"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polyhedralsurface"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_polyhedralsurface"
+#! FME_TYPE="fme_solid"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_tin"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_geometry"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_geometrycollection"
+#! FME_TYPE="fme_collection"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_raster"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgis_multipolygon"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="pngraster_raster"
+#! FME_TYPE="fme_raster"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="pngraster_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_point"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_text"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_line"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_arc"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_area"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_surface"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_solid"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="fme_no_map"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="PNGRASTER"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="pngraster_none"
+#! FME_TYPE="fme_collection"
+#! FORMAT="PNGRASTER"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="dekningsoversikt.dekningsoversikt"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="dekningsoversikt"
+#! IS_EDITABLE="false"
+#! IDENTIFIER="1"
+#! FEAT_GEOMTYPE="postgis_none postgis_point postgis_multipoint postgis_linestring postgis_multilinestring postgis_circularstring postgis_compoundcurve postgis_multicurve postgis_polygon postgis_multipolygon postgis_curvepolygon postgis_multisurface postgis_triangle postgis_polyhedralsurface postgis_tin postgis_geometrycollection"
+#! POSITION="100 -230"
+#! BOUNDING_RECT="100 -230 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="POSTGIS_1"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="akvakultur" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="korallrev" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_110sentral" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_brannstasjon" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_distrkont_siv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_sivforsvdistr" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_brannsmitteomr" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_tettetrehusm" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_frededebygg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_enkeltminner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_kulturmiljo" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_lokaliteter" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_sikringssoner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="false"
+#! NODE_NAME="dekningsoversikt"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER=""
+#! IS_EDITABLE="false"
+#! IDENTIFIER="14"
+#! FEAT_GEOMTYPE="All"
+#! POSITION="2697 -1523.01"
+#! BOUNDING_RECT="2697 -1523.01 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="PNGRASTER_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! SCHEMA_ATTRIBUTE_SOURCE="0"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="pngraster_world_file_generation" PARM_VALUE="yes"/>
+#! <DEFLINE_PARM PARM_NAME="pngraster_optimize" PARM_VALUE="No_optimization"/>
+#! <DEFLINE_PARM PARM_NAME="pngraster_tab_file_generation" PARM_VALUE="no"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS Connection:"
+#! DEFAULT_VALUE="geonortst&lt;at&gt;Nnridb504:5432&lt;solidus&gt;geonor01tst"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI DIRNAME DestDataset_PNGRASTER Destination PNG (Portable Network Graphics) Folder:"
+#! DEFAULT_VALUE="Z:\Geonorge\Dekningsanalyse"
+#! IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#! IDENTIFIER="2"
+#! TYPE="MapnikRasterizer"
+#! VERSION="2"
+#! POSITION="1929.01 -826.506"
+#! BOUNDING_RECT="1929.01 -826.506 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="RASTER"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="COLROW_OR_SPACING" PARM_VALUE="Columns and Rows"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MapnikRasterizer"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="NUM_ROWS" PARM_VALUE="2500"/>
+#! <XFORM_PARM PARM_NAME="REFERENCED_FILES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MIN_X" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="LAYER_CARDINALITY" PARM_VALUE="Each rendering rule is a layer"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MIN_Y" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_PROPERTIES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_COLOR_ALPHA" PARM_VALUE="0"/>
+#! <XFORM_PARM PARM_NAME="SPECIFY_GROUND_EXTENTS" PARM_VALUE="Use input data ground extents"/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_COLOR" PARM_VALUE="1,1,1"/>
+#! <XFORM_PARM PARM_NAME="MAPNIK_CONFIG" PARM_VALUE="dekningsoversikt.dekningsoversikt;polygon;__ignore__color-group&lt;semicolon&gt;&lt;semicolon&gt;fill&lt;semicolon&gt;0&lt;comma&gt;1&lt;comma&gt;0&lt;semicolon&gt;fill-opacity&lt;semicolon&gt;1&lt;semicolon&gt;__ignore__smoothing-group&lt;semicolon&gt;FME_DISCLOSURE_OPEN&lt;semicolon&gt;gamma&lt;semicolon&gt;1&lt;semicolon&gt;gamma-method&lt;semicolon&gt;power&lt;semicolon&gt;smooth&lt;semicolon&gt;0&lt;semicolon&gt;__ignore__comp-group&lt;semicolon&gt;FME_DISCLOSURE_OPEN&lt;semicolon&gt;comp-op&lt;semicolon&gt;src-over;failed;polygon;__ignore__color-group&lt;semicolon&gt;&lt;semicolon&gt;fill&lt;semicolon&gt;1&lt;comma&gt;0&lt;comma&gt;0&lt;semicolon&gt;fill-opacity&lt;semicolon&gt;1&lt;semicolon&gt;__ignore__smoothing-group&lt;semicolon&gt;&lt;semicolon&gt;gamma&lt;semicolon&gt;1&lt;semicolon&gt;gamma-method&lt;semicolon&gt;power&lt;semicolon&gt;smooth&lt;semicolon&gt;0&lt;semicolon&gt;__ignore__comp-group&lt;semicolon&gt;&lt;semicolon&gt;comp-op&lt;semicolon&gt;src-over;Line;line;__ignore__color-group&lt;semicolon&gt;&lt;semicolon&gt;stroke&lt;semicolon&gt;0&lt;comma&gt;0&lt;comma&gt;0&lt;semicolon&gt;stroke-opacity&lt;semicolon&gt;1&lt;semicolon&gt;__ignore__line-style-group&lt;semicolon&gt;&lt;semicolon&gt;stroke-width&lt;semicolon&gt;1&lt;semicolon&gt;stroke-linejoin&lt;semicolon&gt;miter&lt;semicolon&gt;stroke-linecap&lt;semicolon&gt;butt&lt;semicolon&gt;stroke-dasharray&lt;semicolon&gt;&lt;semicolon&gt;stroke-miterlimit&lt;semicolon&gt;4&lt;semicolon&gt;__ignore__positioning-group&lt;semicolon&gt;&lt;semicolon&gt;offset&lt;semicolon&gt;0&lt;semicolon&gt;__ignore__smoothing-group&lt;semicolon&gt;&lt;semicolon&gt;stroke-gamma&lt;semicolon&gt;1&lt;semicolon&gt;stroke-gamma-method&lt;semicolon&gt;power&lt;semicolon&gt;smooth&lt;semicolon&gt;0&lt;semicolon&gt;rasterizer&lt;semicolon&gt;full&lt;semicolon&gt;__ignore__comp-group&lt;semicolon&gt;&lt;semicolon&gt;comp-op&lt;semicolon&gt;src-over"/>
+#! <XFORM_PARM PARM_NAME="BACKGROUND_IMAGE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NUM_COLUMNS" PARM_VALUE="2500"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MAX_X" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_MAX_Y" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="INPUT_PARMS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SPACING" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUND_EXTENTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="INTERPRETATION_TYPE" PARM_VALUE="RGBA32"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="4"
+#! TYPE="Tester"
+#! VERSION="2"
+#! POSITION="1090.51 -525.005"
+#! BOUNDING_RECT="1090.51 -525.005 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="PASSED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="akvakultur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="korallrev" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dsb_110sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dsb_brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dsb_distrkont_siv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dsb_sivforsvdistr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_brannsmitteomr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_tettetrehusm" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_frededebygg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_enkeltminner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_kulturmiljo" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_lokaliteter" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ra_sikringssoner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="FAILED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="akvakultur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="korallrev" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dsb_110sentral" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dsb_brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dsb_distrkont_siv" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dsb_sivforsvdistr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_brannsmitteomr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_tettetrehusm" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_frededebygg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_enkeltminner" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_kulturmiljo" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_lokaliteter" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ra_sikringssoner" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;dsb_distrkont_siv&lt;closeparen&gt; = t"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="7"
+#! TYPE="Inspector"
+#! VERSION="3"
+#! POSITION="2543.01 -923.007"
+#! BOUNDING_RECT="2543.01 -923.007 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MapnikRasterizer_Raster"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="10"
+#! TYPE="TopologyBuilder"
+#! VERSION="6"
+#! POSITION="1090.51 -885.009"
+#! BOUNDING_RECT="1090.51 -885.009 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="NODE"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_node_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_node_angle{}.fme_arc_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_node_angle{}.fme_arc_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="LINE"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_arc_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_right_polygon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_left_polygon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_right_edge" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_left_edge" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_from_node" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_to_node" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_polygons" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="AREA"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="akvakultur" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="korallrev" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="dsb_110sentral" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="dsb_brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="dsb_distrkont_siv" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="dsb_sivforsvdistr" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_brannsmitteomr" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_tettetrehusm" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_frededebygg" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_enkeltminner" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_kulturmiljo" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_lokaliteter" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ra_sikringssoner" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <OUTPUT_FEAT NAME="UNIVERSE"/>
+#! <FEAT_COLLAPSED COLLAPSED="3"/>
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_PARM PARM_NAME="OVERLAPPING_MODE" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="CLEAN_DATA" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TopologyBuilder"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PROP_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAX" PARM_VALUE="0"/>
+#! <XFORM_PARM PARM_NAME="ALLOW_CYCLES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ALL_EDGES" PARM_VALUE="Yes"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="5"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="4"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="8"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="9"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="2"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="11"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="2"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="12"
+#! SOURCE_NODE="10"
+#! TARGET_NODE="2"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 2"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="13"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="10"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 2"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="15"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="14"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,DestDataset_PNGRASTER_1
+DEFAULT_MACRO SourceDataset_POSTGIS geonortst<at>Nnridb504:5432<solidus>geonor01tst
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS Connection:
+DEFAULT_MACRO DestDataset_PNGRASTER Z:\Geonorge\Dekningsanalyse
+GUI DIRNAME DestDataset_PNGRASTER Destination PNG (Portable Network Graphics) Folder:
+INCLUDE [ if {{$(SourceDataset_POSTGIS)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_PNGRASTER)} == {}} { puts_real {Parameter 'DestDataset_PNGRASTER' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE POSTGIS
+READER_KEYWORD POSTGIS_1
+READER_GEN_DIRECTIVES DISABLE_COLLECTION_SPLITTING,yes,NAMED_CONNECTION,geonortst<lt>at<gt>Nnridb504:5432<lt>solidus<gt>geonor01tst,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXX,0,USE_TRUE_POSTGIS_TYPES,yes,TABLELIST,dekningsoversikt.dekningsoversikt,POSTGIS_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,FME_CONNECTION_GROUP,,EXPOSE_ATTRS_GROUP,,USE_SEARCH_ENVELOPE,NO,CLIP_TO_ENVELOPE,NO,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SCHEMALIST,dekningsoversikt
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} PNGRASTER
+MULTI_WRITER_KEYWORD{0} PNGRASTER_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "POSTGIS_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGIS POSTGIS_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGIS POSTGIS_1
+DEFAULT_MACRO SourceDataset_POSTGIS_1 $(SourceDataset_POSTGIS)
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_1 FMT:POSTGIS Connection:
+DEFAULT_MACRO POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1 Yes
+POSTGIS_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1 yes
+POSTGIS_1_DISABLE_COLLECTION_SPLITTING "$(POSTGIS_IN_DISABLE_COLLECTION_SPLITTING_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1 yes
+POSTGIS_1_USE_TRUE_POSTGIS_TYPES "$(POSTGIS_IN_USE_TRUE_POSTGIS_TYPES_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 
+POSTGIS_1_EXPOSE_ATTRS_GROUP "$(POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1)"
+GUI DISCLOSUREGROUP POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1 POSTGIS_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1 0
+POSTGIS_1_SEARCH_ENVELOPE "$(POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1)"
+GUI OPTIONAL FLOAT POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1 NO
+POSTGIS_1_CLIP_TO_ENVELOPE "$(POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1)"
+GUI OPTIONAL CHECKBOX POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1 YES%NO Clip to Search Envelope
+# ============================================================================
+# Search Envelope Coordinate System
+DEFAULT_MACRO POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1 
+GUI OPTIONAL COORDSYS POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1 Search Envelope Coordinate System:
+POSTGIS_1_SEARCH_ENVELOPE_COORDINATE_SYSTEM "$(POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_SEARCH_METHOD_POSTGIS_1 MBR_OVERLAPS
+GUI CHOICE POSTGIS_IN_SEARCH_METHOD_POSTGIS_1 MBR_OVERLAPS%CONTAINS%DISJOINT%EQUALS%INTERSECTS%OVERLAPS%TOUCHES%WITHIN Search Method:
+POSTGIS_1_SEARCH_METHOD $(POSTGIS_IN_SEARCH_METHOD_POSTGIS_1)
+DEFAULT_MACRO POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1 10000
+GUI FLOAT POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1 Number Of Records To Fetch At A Time:
+POSTGIS_1_FEATURES_PER_FETCH $(POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1)
+DEFAULT_MACRO POSTGIS_IN_BEGIN_SQL_POSTGIS_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_BEGIN_SQL_POSTGIS_1 SQL Statement to Execute Before Translation:
+POSTGIS_1_BEGIN_SQL "$(POSTGIS_IN_BEGIN_SQL_POSTGIS_1)"
+DEFAULT_MACRO POSTGIS_IN_END_SQL_POSTGIS_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGIS_IN_END_SQL_POSTGIS_1 SQL Statement to Execute After Translation:
+POSTGIS_1_END_SQL "$(POSTGIS_IN_END_SQL_POSTGIS_1)"
+POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "PNGRASTER_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER PNGRASTER PNGRASTER_1
+# The following GUI lines prompt for a PNGRASTER file to be used as the
+# the destination of the data.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_PNGRASTER_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER PNGRASTER PNGRASTER_1
+DEFAULT_MACRO DestDataset_PNGRASTER_1 $(DestDataset_PNGRASTER)
+GUI DIRNAME DestDataset_PNGRASTER_1 Destination PNG (Portable Network Graphics) Folder:
+DEFAULT_MACRO _PNGRASTER_WRITER_WORLD_FILE_GENERATION_PNGRASTER_1 yes
+DEFAULT_MACRO _PNGRASTER_WRITER_TAB_FILE_GENERATION_PNGRASTER_1 no
+DEFAULT_MACRO _PNGRASTER_WRITER_OPTIMIZE_PNGRASTER_1 No_optimization
+DEFAULT_MACRO PNGRASTER_OUT_COORDINATE_SYSTEM_GRANULARITY_PNGRASTER_1 FEATURE
+PNGRASTER_1_COORDINATE_SYSTEM_GRANULARITY "$(PNGRASTER_OUT_COORDINATE_SYSTEM_GRANULARITY_PNGRASTER_1)"
+PNGRASTER_1_DATASET "$(DestDataset_PNGRASTER_1)"
+#! END_DEST_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Dekningsanalyse_rastervisning.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
+DEFAULT_MACRO DATASET_KEYWORD_PNGRASTER_1 PNGRASTER_1
+# -------------------------------------------------------------------------
+
+POSTGIS_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Dekningsanalyse_rastervisning
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::dekningsoversikt.dekningsoversikt TO FME_GENERIC ::dekningsoversikt.dekningsoversikt ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+POSTGIS_1_MERGE_DEF POSTGIS_1::dekningsoversikt.dekningsoversikt EXACT dekningsoversikt.dekningsoversikt DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4,akvakultur,bool,korallrev,bool,dsb_110sentral,bool,dsb_brannstasjon,bool,dsb_distrkont_siv,bool,dsb_sivforsvdistr,bool,ra_brannsmitteomr,bool,ra_tettetrehusm,bool,ra_frededebygg,bool,ra_enkeltminner,bool,ra_kulturmiljo,bool,ra_lokaliteter,bool,ra_sikringssoner,bool
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "dekningsoversikt.dekningsoversikt (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE dekningsoversikt.dekningsoversikt    OUTPUT FEATURE_TYPE dekningsoversikt.dekningsoversikt_0_lUc9NXn/odc=    OUTPUT FEATURE_TYPE dekningsoversikt.dekningsoversikt_1_lUc9NXn/odc=
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE dekningsoversikt.dekningsoversikt_0_lUc9NXn/odc=    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>dsb_distrkont_siv<closeparen>,Tester) = t ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO TopologyBuilder_OVERLAPPING_MODE
+INCLUDE [ if {{No} == {Yes}} { puts "MACRO TopologyBuilder_OVERLAPPING_MODE OVERLAPPING_DATA_PREFIX_ATTR _overlapping_input_data" } ]
+FACTORY_DEF * TopologyFactory    FACTORY_NAME TopologyBuilder    INPUT  FEATURE_TYPE dekningsoversikt.dekningsoversikt_1_lUc9NXn/odc=    ARC_NUMBER_ATTR _arc_id    FROM_NODE_ATTR  _from_node    TO_NODE_ATTR    _to_node    RIGHT_POLY_ATTR _right_polygon    LEFT_POLY_ATTR  _left_polygon    RIGHT_EDGE_ATTR _right_edge    LEFT_EDGE_ATTR  _left_edge    POLYGON_NUMBER_ATTR _polygon_id    PERIMETER_ATTR  _perimeter    ARCS_ATTR       _lines    POLYGONS_ATTR   _polygons    AREA_ATTR       _area    NODES_ATTR      _nodes    NODE_NUMBER_ATTR _node_number    ANGLE_PREFIX_ATTR _node_angle    PROPAGATE_ATTRS No    ALLOW_CYCLES No    ASSUME_CLEAN_DATA No    $(TopologyBuilder_OVERLAPPING_MODE)    START_EDGES_ONLY No    MAX_COORDS      0    MODE COMPLETE    UNIVERSE_GEOMETRY yes    OUTPUT LINE FEATURE_TYPE TopologyBuilder_LINE
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * MapnikFactory    FACTORY_NAME MapnikRasterizer    LAYERS "dekningsoversikt.dekningsoversikt;polygon;__ignore__color-group<semicolon><semicolon>fill<semicolon>0<comma>1<comma>0<semicolon>fill-opacity<semicolon>1<semicolon>__ignore__smoothing-group<semicolon>FME_DISCLOSURE_OPEN<semicolon>gamma<semicolon>1<semicolon>gamma-method<semicolon>power<semicolon>smooth<semicolon>0<semicolon>__ignore__comp-group<semicolon>FME_DISCLOSURE_OPEN<semicolon>comp-op<semicolon>src-over;failed;polygon;__ignore__color-group<semicolon><semicolon>fill<semicolon>1<comma>0<comma>0<semicolon>fill-opacity<semicolon>1<semicolon>__ignore__smoothing-group<semicolon><semicolon>gamma<semicolon>1<semicolon>gamma-method<semicolon>power<semicolon>smooth<semicolon>0<semicolon>__ignore__comp-group<semicolon><semicolon>comp-op<semicolon>src-over;Line;line;__ignore__color-group<semicolon><semicolon>stroke<semicolon>0<comma>0<comma>0<semicolon>stroke-opacity<semicolon>1<semicolon>__ignore__line-style-group<semicolon><semicolon>stroke-width<semicolon>1<semicolon>stroke-linejoin<semicolon>miter<semicolon>stroke-linecap<semicolon>butt<semicolon>stroke-dasharray<semicolon><semicolon>stroke-miterlimit<semicolon>4<semicolon>__ignore__positioning-group<semicolon><semicolon>offset<semicolon>0<semicolon>__ignore__smoothing-group<semicolon><semicolon>stroke-gamma<semicolon>1<semicolon>stroke-gamma-method<semicolon>power<semicolon>smooth<semicolon>0<semicolon>rasterizer<semicolon>full<semicolon>__ignore__comp-group<semicolon><semicolon>comp-op<semicolon>src-over"    LAYER_CARDINALITY "RULES"    INPUT dekningsoversikt.dekningsoversikt FEATURE_TYPE Tester_PASSED    INPUT failed FEATURE_TYPE Tester_FAILED    INPUT Line FEATURE_TYPE TopologyBuilder_LINE    NUM_COLUMNS "2500"    NUM_ROWS "2500"    INTERPRETATION "RGBA32"    BACKGROUND_COLOR "1,1,1"    BACKGROUND_COLOR_ALPHA "0"    OUTPUT RASTER FEATURE_TYPE MapnikRasterizer_RASTER       @SupplyAttributes(?,fme_basename,MapnikRasterizer)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "MapnikRasterizer RASTER Splitter"   INPUT FEATURE_TYPE MapnikRasterizer_RASTER   OUTPUT FEATURE_TYPE MapnikRasterizer_RASTER_0_PxmaRJJ/i3E=   OUTPUT FEATURE_TYPE MapnikRasterizer_RASTER_1_PxmaRJJ/i3E=
+# -------------------------------------------------------------------------
+
+# Set the directive to add all the meta-attributes to the features.
+# We do this so users see all possible information in the viewed
+# features.
+
+READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [         set grpByAttrs {};         if { [string length $grpByAttrs] > 0 } {             if { [string first "@EvaluateExpression" $grpByAttrs] == 0 } {                 puts "MACRO CATMAC _$grpByAttrs" ;             } else {                set catter "" ;                set comma "" ;                foreach attr $grpByAttrs {                    set catter "$catter$comma@Value(\"$attr\")" ;                    set comma ",_," ;                } ;                puts "MACRO CATMAC _@Concatenate($catter)" ;             }         }         else {             puts "MACRO CATMAC " ;         };         set safeName "[regsub -all {[^a-zA-Z0-9]} {MapnikRasterizer_Raster} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";         puts "MACRO SAFE_FFS_NAME $safeName";         ]
+# Make the temporary directory that the FFS files will live in.
+FACTORY_DEF * CreationFactory      FACTORY_NAME MapnikRasterizer_Raster_DirCreator      OUTPUT FEATURE_TYPE __nukeme__          @Tcl2("catch {file mkdir {$(WORKSPACE_TEMP_DIR)}}")
+FACTORY_DEF * TeeFactory    FACTORY_NAME MapnikRasterizer_Raster_DirCreatorCleanerUpper    INPUT FEATURE_TYPE __nukeme__
+# Send raster, point cloud and vector features down different paths to prepare
+# them for viewing
+
+FACTORY_DEF * TestFactory    FACTORY_NAME MapnikRasterizer_Raster_FeatureDirector    INPUT  FEATURE_TYPE MapnikRasterizer_RASTER_0_PxmaRJJ/i3E=    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE MapnikRasterizer_Raster___NotRasterFeatures___    OUTPUT PASSED FEATURE_TYPE MapnikRasterizer_Raster___RasterFeatures___
+FACTORY_DEF * TestFactory    FACTORY_NAME MapnikRasterizer_Raster___FeatureDirector1    INPUT FEATURE_TYPE MapnikRasterizer_Raster___NotRasterFeatures___    TEST &fme_type == "fme_point_cloud"    OUTPUT FAILED FEATURE_TYPE MapnikRasterizer_Raster___VectorFeatures___    OUTPUT PASSED FEATURE_TYPE MapnikRasterizer_Raster___PointCloudFeatures___
+# Vector features simply may get their colors overridden
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME MapnikRasterizer_Raster_VectorSetterUpper    INPUT FEATURE_TYPE MapnikRasterizer_Raster___VectorFeatures___    OUTPUT FEATURE_TYPE __viewme__
+# Point Cloud Features Might Need to be thinned
+
+# Note that we don't call the ThinPointCloud function directly, but rather
+# do it through TCL. This should allow this transformer to be used with a
+# Desktop license, even though ThinPointCloud requires Professional.
+
+Tcl2 proc MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME MapnikRasterizer_Raster___PointCloudThinner    INPUT FEATURE_TYPE MapnikRasterizer_Raster___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_thinPointCloud")
+Tcl2 proc MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME MapnikRasterizer_Raster_RasterSetterUpper    INPUT FEATURE_TYPE MapnikRasterizer_Raster___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+# MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_VIS_FEAT_TYPE changes the feature types
+# of the features being visualized.
+
+DEFAULT_MACRO MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_VIS_FEAT_TYPE MapnikRasterizer_Raster$(CATMAC)
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+
+FACTORY_DEF * RecorderFactory    FACTORY_NAME MapnikRasterizer_Raster_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(MapnikRasterizer_Raster_8bd7803a_232c_4570_b1b7_6defe3db23420_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA fme_basename,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC MapnikRasterizer_RASTER_1_PxmaRJJ/i3E= TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
+# -------------------------------------------------------------------------
+PNGRASTER_1_DEF dekningsoversikt   pngraster_world_file_generation yes   pngraster_tab_file_generation no   pngraster_optimize           No_optimization
