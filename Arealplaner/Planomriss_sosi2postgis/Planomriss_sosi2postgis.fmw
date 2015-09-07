@@ -5,52 +5,52 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\Users\xsunknu\Documents\geonorge\Arealplaner\Planomrade_sosi2postgis\Planomrade_sosi2postgis.fmw
+#    "C:\Program Files\FME\fme.exe" C:\Users\xsunknu\Documents\geonorge\Arealplaner\Planomriss_sosi2postgis\Planomriss_sosi2postgis.fmw
 #    
 #    
+#! IGNORE_READER_FAILURE="No"
 #! FME_REPROJECTION_ENGINE="FME"
-#! DESTINATION_ROUTING_FILE=""
-#! ZOOM_SCALE="100"
-#! DESTINATION="NONE"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! LOG_FILE="$(LOG_FILE)"
-#! ATTR_TYPE_ENCODING="SDF"
-#! VIEW_POSITION="-1257.01 -1116.01"
-#! BEGIN_TCL=""
-#! DESCRIPTION=""
-#! DOC_TOP_LEFT="-1264.01 -3215"
-#! SHOW_ANNOTATIONS="true"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! TITLE=""
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! LEGAL_TERMS_CONDITIONS=""
-#! REQUIREMENTS_KEYWORD=""
-#! SHOW_INFO_NODES="true"
-#! FME_DOCUMENT_PRIORGUID="89ad68ee-0fd0-461f-acfd-b73421dee974,bad3bf22-1990-4d10-9b54-a5c4b3b4ecca,b446588d-8b8b-4868-94f8-bee5b4f6b4a2,038e2b5b-13fb-4ab4-90b7-82f290affe24"
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! FME_DOCUMENT_GUID="7ad3afe0-e199-4644-b590-51bd3a9a49eb"
-#! REDIRECT_TERMINATORS="NONE"
-#! PASSWORD=""
-#! DOC_EXTENTS="4657.01 2214.49"
-#! CATEGORY=""
+#! USAGE=""
 #! MAX_LOG_FEATURES="200"
 #! HISTORY=""
-#! FME_SERVER_SERVICES=""
-#! REQUIREMENTS=""
-#! USAGE=""
-#! FME_STROKE_MAX_DEVIATION="0"
-#! LAST_SAVE_DATE="2015-09-04T09:19:02"
-#! SOURCE="NONE"
-#! SOURCE_ROUTING_FILE=""
-#! END_TCL=""
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! END_PYTHON=""
-#! LOG_MAX_PRECISION="Yes"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
 #! FME_BUILD_NUM="15515"
+#! END_PYTHON=""
+#! LEGAL_TERMS_CONDITIONS=""
+#! BEGIN_TCL=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! LOG_MAX_PRECISION="Yes"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! LAST_SAVE_DATE="2015-09-07T10:37:45"
+#! PASSWORD=""
+#! DESTINATION="NONE"
+#! REQUIREMENTS=""
+#! SHOW_INFO_NODES="true"
+#! DESCRIPTION=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! TITLE=""
 #! BEGIN_PYTHON=""
+#! FME_STROKE_MAX_DEVIATION="0"
+#! SHOW_ANNOTATIONS="true"
+#! FME_SERVER_SERVICES=""
+#! REQUIREMENTS_KEYWORD=""
+#! ZOOM_SCALE="100"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! FME_DOCUMENT_PRIORGUID="89ad68ee-0fd0-461f-acfd-b73421dee974,bad3bf22-1990-4d10-9b54-a5c4b3b4ecca,b446588d-8b8b-4868-94f8-bee5b4f6b4a2,038e2b5b-13fb-4ab4-90b7-82f290affe24,7ad3afe0-e199-4644-b590-51bd3a9a49eb,d0b8912a-e54a-4347-ac43-1a689d749df8"
+#! END_TCL=""
 #! WORKSPACE_VERSION="1"
-#! IGNORE_READER_FAILURE="No"
+#! FME_DOCUMENT_GUID="7229c74e-9292-4b62-9463-d40f3c34e95c"
+#! VIEW_POSITION="-1251.01 -1116.01"
+#! DOC_TOP_LEFT="-1264.01 -3215"
+#! DOC_EXTENTS="4657.01 2214.49"
+#! SOURCE_ROUTING_FILE=""
+#! LOG_FILE="$(LOG_FILE)"
+#! CATEGORY=""
+#! REDIRECT_TERMINATORS="NONE"
+#! SOURCE="NONE"
+#! DESTINATION_ROUTING_FILE=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="SOSI_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_rotation SOSI_real64 fme_dataset SOSI_char(50) fme_sweep_angle SOSI_real64 fme_text_string SOSI_char(50) fme_fill_color SOSI_char(50) fme_feature_type SOSI_char(50) fme_basename SOSI_char(50) fme_color SOSI_char(50) multi_reader_keyword SOSI_char(50) fme_text_size SOSI_real64 fme_geometry fme_char(50) multi_reader_id SOSI_int32 fme_secondary_axis SOSI_real64 multi_reader_type SOSI_char(50) fme_primary_axis SOSI_real64 fme_start_angle SOSI_real64 fme_type SOSI_char(50) multi_reader_full_id SOSI_int32"
+#! EXPOSABLE_ATTRS="fme_sweep_angle SOSI_real64 fme_text_size SOSI_real64 fme_fill_color SOSI_char(50) fme_primary_axis SOSI_real64 multi_reader_keyword SOSI_char(50) fme_text_string SOSI_char(50) fme_rotation SOSI_real64 fme_type SOSI_char(50) multi_reader_id SOSI_int32 fme_color SOSI_char(50) fme_basename SOSI_char(50) multi_reader_type SOSI_char(50) fme_secondary_axis SOSI_real64 fme_geometry fme_char(50) fme_start_angle SOSI_real64 fme_feature_type SOSI_char(50) multi_reader_full_id SOSI_int32 fme_dataset SOSI_char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -76,12 +76,12 @@
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15515"
 #! NAME="PlanOmrade [SOSI]"
-#! MAX_FEATURES=""
 #! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! COORDSYS=""
 #! MIN_FEATURES=""
+#! COORDSYS=""
+#! MAX_FEATURES=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! />
 #! <DATASET
 #! IS_SOURCE="false"
@@ -96,7 +96,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode INHERIT_FROM_WRITER postgis_sql_key_columns &quot;&quot; postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_drop_table NO postgis_truncate_table NO postgis_create_with_oids NO postgis_create_gist_index YES postgis_vacuum_analyze NO postgis_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_rotation float8 fme_dataset char(50) fme_where char(254) fme_sweep_angle float8 postgis_type char(50) fme_text_string char(50) fme_fill_color char(50) fme_feature_type char(50) fme_basename char(50) fme_color char(50) fme_text_size float8 fme_geometry fme_char(50) postgis_collection_part_id int4 postgis_collection_id int4 fme_secondary_axis float8 fme_db_operation char(8) fme_primary_axis float8 fme_start_angle float8 fme_type char(50)"
+#! EXPOSABLE_ATTRS="fme_sweep_angle float8 fme_text_size float8 fme_fill_color char(50) fme_db_operation char(8) fme_primary_axis float8 fme_text_string char(50) fme_where char(254) fme_rotation float8 fme_type char(50) postgis_type char(50) postgis_collection_part_id int4 fme_color char(50) fme_basename char(50) fme_secondary_axis float8 fme_geometry fme_char(50) fme_start_angle float8 fme_feature_type char(50) postgis_collection_id int4 fme_dataset char(50)"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgis_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgis_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgis_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgis_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgis_spatial_column_type geometry%geography Spatial Column Type&quot; geometry &quot;GUI TEXT postgis_spatial_column Spatial Column Name&quot; omrade &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -107,31 +107,31 @@
 #! GENERATE_FME_BUILD_NUM="15515"
 #! NAME="Planområde [POSTGIS]"
 #! FANOUT_DIRECTORY=""
-#! FANOUT="No"
-#! FANOUT_SUFFIX=""
-#! COORDSYS=""
-#! FANOUT_PREFIX=""
 #! FANOUT_ID_ATTR=""
+#! FANOUT_SUFFIX=""
+#! FANOUT_PREFIX=""
+#! COORDSYS=""
+#! FANOUT="No"
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_DEFAULT_NAME"
-#! VALUE="Table1"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -147,7 +147,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_mode INHERIT_FROM_WRITER postgres_sql_key_columns &quot;&quot; postgres_drop_table NO postgres_truncate_table NO postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_feature_type char(50) fme_type char(50) fme_geometry fme_char(50) fme_rotation float8 fme_where char(254) fme_db_operation char(8) fme_text_string char(50) fme_start_angle float8 fme_sweep_angle float8 postgres_type char(50) fme_basename char(50) fme_primary_axis float8 fme_color char(50) fme_text_size float8 fme_fill_color char(50) fme_secondary_axis float8 fme_dataset char(50)"
+#! EXPOSABLE_ATTRS="fme_db_operation char(8) fme_type char(50) fme_color char(50) postgres_type char(50) fme_basename char(50) fme_fill_color char(50) fme_text_string char(50) fme_where char(254) fme_text_size float8 fme_primary_axis float8 fme_dataset char(50) fme_start_angle float8 fme_feature_type char(50) fme_geometry fme_char(50) fme_sweep_angle float8 fme_secondary_axis float8 fme_rotation float8"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgres_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgres_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgres_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgres_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -158,31 +158,31 @@
 #! GENERATE_FME_BUILD_NUM="15515"
 #! NAME="Planområde [POSTGRES]"
 #! FANOUT_DIRECTORY=""
-#! FANOUT="No"
-#! FANOUT_SUFFIX=""
-#! COORDSYS=""
-#! FANOUT_PREFIX=""
 #! FANOUT_ID_ATTR=""
+#! FANOUT_SUFFIX=""
+#! FANOUT_PREFIX=""
+#! COORDSYS=""
+#! FANOUT="No"
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_DEFAULT_NAME"
-#! VALUE="Table1"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -1440,17 +1440,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="planstatus" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="plantype" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="vedtakendeligplandato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="omrade"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="omrade"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1476,13 +1476,13 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="prosess_historie" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kpomrade_fk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1503,17 +1503,17 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="grense"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="grense"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1534,18 +1534,18 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="forstedigitaliseringsdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kpgrense_fk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1571,13 +1571,13 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="prosess_historie" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="rpomrade_fk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1598,18 +1598,18 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="forstedigitaliseringsdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="rpgrense_fk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1648,17 +1648,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="plantype" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="vedtakendeligplandato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="vertikalniva" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="omrade"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="omrade"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1679,17 +1679,17 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="grense"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="grense"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1789,7 +1789,7 @@
 #! />
 #! <COMMENT
 #! IDENTIFIER="94"
-#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Splitter attributter, setter standardattributter og genererer nøkler&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Splitter attributter, setter standardattributter og genererer nøkler, fikser feil&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #! POSITION="1905 -1350"
 #! TOP_LEFT="1905 -1350"
 #! BOTTOM_RIGHT="2655 -1400"
@@ -1815,7 +1815,7 @@
 #! BOUNDING_RECT="-1264.01 -1864.51 825.008 1051.52"
 #! STICKY="true"
 #! COLOUR="0.184314,0.027451,0.27451"
-#! CONTENTS="6 7 8 3 5 4 2 "
+#! CONTENTS="6 8 7 3 4 2 5 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="44"
@@ -1826,7 +1826,7 @@
 #! BOUNDING_RECT="-1264.01 -1000.51 825.008 766.509"
 #! STICKY="true"
 #! COLOUR="0.564706,0.164706,0.964706"
-#! CONTENTS="11 13 9 12 10 "
+#! CONTENTS="13 11 9 10 12 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="47"
@@ -1837,7 +1837,7 @@
 #! BOUNDING_RECT="2797 -1382.64 596 672.878"
 #! STICKY="true"
 #! COLOUR="0.0431373,0.376471,0.258824"
-#! CONTENTS="41 61 37 70 "
+#! CONTENTS="41 61 70 37 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="46"
@@ -1848,7 +1848,7 @@
 #! BOUNDING_RECT="2797 -2112.6 596 653.93"
 #! STICKY="true"
 #! COLOUR="0.364706,0.211765,0.756863"
-#! CONTENTS="45 39 59 60 "
+#! CONTENTS="45 60 39 59 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1866,47 +1866,47 @@
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kpgrense_fk" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,KpGrense,objid,&lt;at&gt;Count&lt;openparen&gt;grenseteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;,kpgrense_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,KpGrense,objid,&lt;at&gt;Count&lt;openparen&gt;grenseteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;,kpgrense_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;,malemetode,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt; &gt; 99&apos;99&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="26"
@@ -1922,47 +1922,47 @@
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kpomrade_fk" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,KpOmr&lt;u00e5&gt;de,landkode,NO,fylkesnr,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;int&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;komm&lt;closeparen&gt;&lt;solidus&gt;100&lt;closeparen&gt;&lt;closeparen&gt;,objid,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Count&lt;openparen&gt;omradeteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;&lt;closeparen&gt;,kpomrade_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,KpOmr&lt;u00e5&gt;de,landkode,NO,fylkesnr,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;int&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;komm&lt;closeparen&gt;&lt;solidus&gt;100&lt;closeparen&gt;&lt;closeparen&gt;,objid,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Count&lt;openparen&gt;omradeteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;&lt;closeparen&gt;,kpomrade_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;,malemetode,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt; &gt; 100&apos;99&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="30"
@@ -1978,49 +1978,49 @@
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="sosi_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikraft" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbest" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovrefbeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstat" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BulkAttributeRenamer"/>
-#! <XFORM_PARM PARM_NAME="REPLACE_STR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="All Attributes"/>
-#! <XFORM_PARM PARM_NAME="PATTERN_ACTION_DISP" PARM_VALUE="Change Case"/>
 #! <XFORM_PARM PARM_NAME="CASE_CHANGE_TYPE" PARM_VALUE="lowercase"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="REPLACE_PATTERN" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="CASE_DISP" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="REPLACE_PATTERN" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BulkAttributeRenamer"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PATTERN_ACTION_DISP" PARM_VALUE="Change Case"/>
+#! <XFORM_PARM PARM_NAME="REPLACE_STR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="CASE_DISP" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="31"
@@ -2036,40 +2036,40 @@
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="ikraft,ikrafttredelsesdato,,planstat,planstatus,,lovrefbeskrivelse,lovreferansebeskrivelse,,planbest,planbestemmelse,,sosi_id,objid,"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="48"
@@ -2085,45 +2085,45 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="57"
@@ -2139,495 +2139,495 @@
 #! <OUTPUT_FEAT NAME="KpOmrade"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="KpGrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <OUTPUT_FEAT NAME="KpGrense_1"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <OUTPUT_FEAT NAME="KpArealGrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="3"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <OUTPUT_FEAT NAME="KpArealGrense_1"/>
 #! <FEAT_COLLAPSED COLLAPSED="4"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <OUTPUT_FEAT NAME="RpOmrade"/>
 #! <FEAT_COLLAPSED COLLAPSED="5"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <OUTPUT_FEAT NAME="RpFareGrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="6"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <OUTPUT_FEAT NAME="RpFormalGrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="7"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <OUTPUT_FEAT NAME="RpFormalGrense_1"/>
 #! <FEAT_COLLAPSED COLLAPSED="8"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #! <OUTPUT_FEAT NAME="RpAngittHensynGrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="9"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #! <OUTPUT_FEAT NAME="RpGrense_1"/>
 #! <FEAT_COLLAPSED COLLAPSED="10"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="10" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #! <OUTPUT_FEAT NAME="RpGrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="11"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="11" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #! <OUTPUT_FEAT NAME="&lt;BLANK&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="12"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="12" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #! <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="13"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureTypeFilter"/>
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="KpOmrade,KpGrense,KpGrense_1,KpArealGrense,KpArealGrense_1,RpOmrade,RpFareGrense,RpFormalGrense,RpFormalGrense_1,RpAngittHensynGrense,RpGrense_1,RpGrense,&lt;lt&gt;BLANK&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureTypeFilter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="78"
@@ -2643,47 +2643,47 @@
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="rpomrade_fk" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,RpOmr&lt;u00e5&gt;de,landkode,NO,fylkesnr,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;int&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;komm&lt;closeparen&gt;&lt;solidus&gt;100&lt;closeparen&gt;&lt;closeparen&gt;,objid,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Count&lt;openparen&gt;omradeteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;&lt;closeparen&gt;,rpomrade_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,RpOmr&lt;u00e5&gt;de,landkode,NO,fylkesnr,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;int&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;komm&lt;closeparen&gt;&lt;solidus&gt;100&lt;closeparen&gt;&lt;closeparen&gt;,objid,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Count&lt;openparen&gt;omradeteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;&lt;closeparen&gt;,rpomrade_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;,malemetode,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt; &gt; 99&apos;99&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="82"
@@ -2699,47 +2699,47 @@
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="forstedigitaliseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="landkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="link" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planbestemmelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plannavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferansebeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sosi_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opprinneligadministrativenhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="opprinneligplanid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertniv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="rpgrense_fk" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,KpGrense,objid,&lt;at&gt;Count&lt;openparen&gt;grenseteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;,rpgrense_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,KpGrense,objid,&lt;at&gt;Count&lt;openparen&gt;grenseteller&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;,rpgrense_fk,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;,malemetode,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;malemetode&lt;closeparen&gt; &gt; 99&apos;99&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="95"
@@ -2758,13 +2758,13 @@
 #! <XFORM_ATTR ATTR_NAME="SOSI_parent_guid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="OMRADEID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ORIGINALDATAVERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KOPIDATA_SOSI"/>
-#! <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
 #! <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
 #! <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #! <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KOPIDATA_SOSI"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="97"
@@ -2782,13 +2782,13 @@
 #! <XFORM_ATTR ATTR_NAME="FeatureClass" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="GeometryType" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Table" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SOSI_RelationshipClasses"/>
-#! <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
 #! <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
 #! <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #! <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SOSI_RelationshipClasses"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -3607,51 +3607,51 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME Planomrade_sosi2postgis
+MACRO WORKSPACE_NAME Planomriss_sosi2postgis
 MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+SOSI_1_DEF SOSI_RelationshipClasses   SOSI_type                    SOSI_no_geom   FeatureClass                 SOSI_char(100)   GeometryType                 SOSI_char(32)   Table                        SOSI_char(100)
 # -------------------------------------------------------------------------
 SOSI_1_DEF RpOmrade   SOSI_type                    SOSI_polygon   SOSI_id                      SOSI_int32   LANDKODE                     SOSI_char(2)   LOVREFERANSE                 SOSI_int16   LINK                         SOSI_char(255)   FORSLAGSSTILLERTYPE          SOSI_int16   KOPIDATO                     SOSI_datetime   FORSTEDIGITALISERINGSDATO    SOSI_datetime   PLANTYPE                     SOSI_int16   PROSESS_HISTORIE             SOSI_char(255)   IKRAFT                       SOSI_date   OPPRINNELIGADMINISTRATIVENHET SOSI_char(4)   OMRADEID                     SOSI_number(8,0)   KOMM                         SOSI_char(4)   PLANID                       SOSI_char(16)   ORIGINALDATAVERT             SOSI_char(100)   PLANBEST                     SOSI_int16   PLANNAVN                     SOSI_char(120)   LOVREFBESKRIVELSE            SOSI_char(120)   GJENNOMFORINGSFRIST          SOSI_date   SOSI_guid                    SOSI_char(36)   KUNNGJORINGSDATO             SOSI_date   PLANSTAT                     SOSI_int16   INFORMASJON                  SOSI_char(255)   OPPRINNELIGPLANID            SOSI_char(16)   OBJTYPE                      SOSI_char(32)   VERTNIV                      SOSI_int16   FYLKESNR                     SOSI_int16   OPPDATERINGSDATO             SOSI_datetime   VEDTAKENDELIGPLANDATO        SOSI_date
 # -------------------------------------------------------------------------
 SOSI_1_DEF RpGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   KOPIDATO                     SOSI_datetime   H_MALEMETODE                 SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   NOYAKTIGHET                  SOSI_number(6,0)   SYNBARHET                    SOSI_int16   OMRADEID                     SOSI_number(8,0)   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)   SOSI_guid                    SOSI_char(36)   OBJTYPE                      SOSI_char(32)   OPPDATERINGSDATO             SOSI_datetime
 # -------------------------------------------------------------------------
-SOSI_1_DEF KpArealGrense_1   SOSI_type                    SOSI_arc   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SYNBARHET                    SOSI_int16   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
-# -------------------------------------------------------------------------
 SOSI_1_DEF RpGrense_1   SOSI_type                    SOSI_arc   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SOSI_guid                    SOSI_char(36)   SYNBARHET                    SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
-SOSI_1_DEF KpOmrade   SOSI_type                    SOSI_polygon   SOSI_id                      SOSI_int32   LANDKODE                     SOSI_char(2)   LOVREFERANSE                 SOSI_int16   LINK                         SOSI_char(255)   KOPIDATO                     SOSI_datetime   FORSTEDIGITALISERINGSDATO    SOSI_datetime   PLANTYPE                     SOSI_int16   PROSESS_HISTORIE             SOSI_char(255)   IKRAFT                       SOSI_date   OMRADEID                     SOSI_number(8,0)   KOMM                         SOSI_char(4)   PLANID                       SOSI_char(16)   ORIGINALDATAVERT             SOSI_char(100)   PLANBEST                     SOSI_int16   PLANNAVN                     SOSI_char(120)   LOVREFBESKRIVELSE            SOSI_char(120)   KUNNGJORINGSDATO             SOSI_date   PLANSTAT                     SOSI_int16   INFORMASJON                  SOSI_char(255)   OBJTYPE                      SOSI_char(32)   FYLKESNR                     SOSI_int16   OPPDATERINGSDATO             SOSI_datetime   VEDTAKENDELIGPLANDATO        SOSI_date
+SOSI_1_DEF RpFormalGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
 SOSI_1_DEF RpFormalGrense_1   SOSI_type                    SOSI_arc   SOSI_id                      SOSI_int32   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
-SOSI_1_DEF KpGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SOSI_guid                    SOSI_char(36)   SYNBARHET                    SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
-# -------------------------------------------------------------------------
 SOSI_1_DEF RpAngittHensynGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   FORSTEDIGITALISERINGSDATO    SOSI_datetime   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
-SOSI_1_DEF SOSI_RelationshipClasses   SOSI_type                    SOSI_no_geom   FeatureClass                 SOSI_char(100)   GeometryType                 SOSI_char(32)   Table                        SOSI_char(100)
-# -------------------------------------------------------------------------
-SOSI_1_DEF KpArealGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SYNBARHET                    SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
+SOSI_1_DEF KpOmrade   SOSI_type                    SOSI_polygon   SOSI_id                      SOSI_int32   LANDKODE                     SOSI_char(2)   LOVREFERANSE                 SOSI_int16   LINK                         SOSI_char(255)   KOPIDATO                     SOSI_datetime   FORSTEDIGITALISERINGSDATO    SOSI_datetime   PLANTYPE                     SOSI_int16   PROSESS_HISTORIE             SOSI_char(255)   IKRAFT                       SOSI_date   OMRADEID                     SOSI_number(8,0)   KOMM                         SOSI_char(4)   PLANID                       SOSI_char(16)   ORIGINALDATAVERT             SOSI_char(100)   PLANBEST                     SOSI_int16   PLANNAVN                     SOSI_char(120)   LOVREFBESKRIVELSE            SOSI_char(120)   KUNNGJORINGSDATO             SOSI_date   PLANSTAT                     SOSI_int16   INFORMASJON                  SOSI_char(255)   OBJTYPE                      SOSI_char(32)   FYLKESNR                     SOSI_int16   OPPDATERINGSDATO             SOSI_datetime   VEDTAKENDELIGPLANDATO        SOSI_date
 # -------------------------------------------------------------------------
 SOSI_1_DEF KOPIDATA_SOSI   SOSI_type                    SOSI_no_geom   KOPIDATO                     SOSI_datetime   SOSI_parent_guid             SOSI_char(36)   OMRADEID                     SOSI_number(8,0)   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
-SOSI_1_DEF RpFormalGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
+SOSI_1_DEF KpGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SOSI_guid                    SOSI_char(36)   SYNBARHET                    SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
+# -------------------------------------------------------------------------
+SOSI_1_DEF KpArealGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SYNBARHET                    SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
+# -------------------------------------------------------------------------
+SOSI_1_DEF KpArealGrense_1   SOSI_type                    SOSI_arc   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SYNBARHET                    SOSI_int16   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
 SOSI_1_DEF KpGrense_1   SOSI_type                    SOSI_arc   SOSI_id                      SOSI_int32   NOYAKTIGHET                  SOSI_number(6,0)   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   SYNBARHET                    SOSI_int16   FORSTEDIGITALISERINGSDATO    SOSI_datetime   MALEMETODE                   SOSI_int16   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
 SOSI_1_DEF RpFareGrense   SOSI_type                    SOSI_line   SOSI_id                      SOSI_int32   OMRADEID                     SOSI_number(8,0)   KOPIDATO                     SOSI_datetime   OPPDATERINGSDATO             SOSI_datetime   OBJTYPE                      SOSI_char(32)   FORSTEDIGITALISERINGSDATO    SOSI_datetime   ORIGINALDATAVERT             SOSI_char(100)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,SOSI_1)    ROUTE SOSI SOSI_1::RpOmrade TO FME_GENERIC ::RpOmrade ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpGrense TO FME_GENERIC ::RpGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpArealGrense_1 TO FME_GENERIC ::KpArealGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpGrense_1 TO FME_GENERIC ::RpGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpOmrade TO FME_GENERIC ::KpOmrade ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpFormalGrense_1 TO FME_GENERIC ::RpFormalGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpGrense TO FME_GENERIC ::KpGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpAngittHensynGrense TO FME_GENERIC ::RpAngittHensynGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::SOSI_RelationshipClasses TO FME_GENERIC ::SOSI_RelationshipClasses ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpArealGrense TO FME_GENERIC ::KpArealGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KOPIDATA_SOSI TO FME_GENERIC ::KOPIDATA_SOSI ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpFormalGrense TO FME_GENERIC ::RpFormalGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpGrense_1 TO FME_GENERIC ::KpGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpFareGrense TO FME_GENERIC ::RpFareGrense ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,SOSI_1)    ROUTE SOSI SOSI_1::SOSI_RelationshipClasses TO FME_GENERIC ::SOSI_RelationshipClasses ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpOmrade TO FME_GENERIC ::RpOmrade ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpGrense TO FME_GENERIC ::RpGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpGrense_1 TO FME_GENERIC ::RpGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpFormalGrense TO FME_GENERIC ::RpFormalGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpFormalGrense_1 TO FME_GENERIC ::RpFormalGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpAngittHensynGrense TO FME_GENERIC ::RpAngittHensynGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpOmrade TO FME_GENERIC ::KpOmrade ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KOPIDATA_SOSI TO FME_GENERIC ::KOPIDATA_SOSI ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpGrense TO FME_GENERIC ::KpGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpArealGrense TO FME_GENERIC ::KpArealGrense ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpArealGrense_1 TO FME_GENERIC ::KpArealGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::KpGrense_1 TO FME_GENERIC ::KpGrense_1 ALIAS_GEOMETRY    ROUTE SOSI SOSI_1::RpFareGrense TO FME_GENERIC ::RpFareGrense ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+SOSI_1_MERGE_DEF SOSI_1::SOSI_RelationshipClasses EXACT SOSI_RelationshipClasses
 SOSI_1_MERGE_DEF SOSI_1::RpOmrade EXACT RpOmrade
 SOSI_1_MERGE_DEF SOSI_1::RpGrense EXACT RpGrense
-SOSI_1_MERGE_DEF SOSI_1::KpArealGrense_1 EXACT KpArealGrense_1
 SOSI_1_MERGE_DEF SOSI_1::RpGrense_1 EXACT RpGrense_1
-SOSI_1_MERGE_DEF SOSI_1::KpOmrade EXACT KpOmrade
-SOSI_1_MERGE_DEF SOSI_1::RpFormalGrense_1 EXACT RpFormalGrense_1
-SOSI_1_MERGE_DEF SOSI_1::KpGrense EXACT KpGrense
-SOSI_1_MERGE_DEF SOSI_1::RpAngittHensynGrense EXACT RpAngittHensynGrense
-SOSI_1_MERGE_DEF SOSI_1::SOSI_RelationshipClasses EXACT SOSI_RelationshipClasses
-SOSI_1_MERGE_DEF SOSI_1::KpArealGrense EXACT KpArealGrense
-SOSI_1_MERGE_DEF SOSI_1::KOPIDATA_SOSI EXACT KOPIDATA_SOSI
 SOSI_1_MERGE_DEF SOSI_1::RpFormalGrense EXACT RpFormalGrense
+SOSI_1_MERGE_DEF SOSI_1::RpFormalGrense_1 EXACT RpFormalGrense_1
+SOSI_1_MERGE_DEF SOSI_1::RpAngittHensynGrense EXACT RpAngittHensynGrense
+SOSI_1_MERGE_DEF SOSI_1::KpOmrade EXACT KpOmrade
+SOSI_1_MERGE_DEF SOSI_1::KOPIDATA_SOSI EXACT KOPIDATA_SOSI
+SOSI_1_MERGE_DEF SOSI_1::KpGrense EXACT KpGrense
+SOSI_1_MERGE_DEF SOSI_1::KpArealGrense EXACT KpArealGrense
+SOSI_1_MERGE_DEF SOSI_1::KpArealGrense_1 EXACT KpArealGrense_1
 SOSI_1_MERGE_DEF SOSI_1::KpGrense_1 EXACT KpGrense_1
 SOSI_1_MERGE_DEF SOSI_1::RpFareGrense EXACT RpFareGrense
 DEFAULT_MACRO WB_CURRENT_CONTEXT
@@ -3662,7 +3662,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME KOPIDATA_SOSI_Logger    INPUT  FEATURE_
 FACTORY_DEF * TeeFactory   FACTORY_NAME "KOPIDATA_SOSI LOGGED Output Nuker"   INPUT FEATURE_TYPE KOPIDATA_SOSI_LOGGED
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME BulkAttributeRenamer    INPUT  FEATURE_TYPE RpAngittHensynGrense    INPUT  FEATURE_TYPE RpGrense    INPUT  FEATURE_TYPE KpGrense_1    INPUT  FEATURE_TYPE KpArealGrense_1    INPUT  FEATURE_TYPE RpFormalGrense    INPUT  FEATURE_TYPE RpOmrade    INPUT  FEATURE_TYPE RpFormalGrense_1    INPUT  FEATURE_TYPE KpOmrade    INPUT  FEATURE_TYPE RpFareGrense    INPUT  FEATURE_TYPE RpGrense_1    INPUT  FEATURE_TYPE KpGrense    INPUT  FEATURE_TYPE KpArealGrense    OUTPUT FEATURE_TYPE BulkAttributeRenamer_OUTPUT        @RenameAttributes(PATTERN_REPLACE, CASECHANGE, <Unused>, "<Unused>", "<Unused>", "lower", "<Unused>", "-_")
+FACTORY_DEF * TeeFactory    FACTORY_NAME BulkAttributeRenamer    INPUT  FEATURE_TYPE KpGrense    INPUT  FEATURE_TYPE KpArealGrense    INPUT  FEATURE_TYPE KpOmrade    INPUT  FEATURE_TYPE RpFormalGrense    INPUT  FEATURE_TYPE RpOmrade    INPUT  FEATURE_TYPE RpFormalGrense_1    INPUT  FEATURE_TYPE KpArealGrense_1    INPUT  FEATURE_TYPE RpGrense    INPUT  FEATURE_TYPE RpAngittHensynGrense    INPUT  FEATURE_TYPE RpGrense_1    INPUT  FEATURE_TYPE RpFareGrense    INPUT  FEATURE_TYPE KpGrense_1    OUTPUT FEATURE_TYPE BulkAttributeRenamer_OUTPUT        @RenameAttributes(PATTERN_REPLACE, CASECHANGE, <Unused>, "<Unused>", "<Unused>", "lower", "<Unused>", "-_")
 
 # -------------------------------------------------------------------------
 
@@ -3689,16 +3689,16 @@ FACTORY_DEF * TestFactory    FACTORY_NAME FeatureTypeFilter_BlankFilter    INPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureTypeFilter <BLANK> Output Nuker"   INPUT FEATURE_TYPE FeatureTypeFilter_<BLANK>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureTypeFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE FeatureTypeFilter_<UNFILTERED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_RpAngittHensynGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_RpFormalGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpFormalGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_RpGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpFareGrense ATTR objtype KpGrense ATTR objid <at>Count<openparen>grenseteller<comma><space>1<closeparen> ATTR rpgrense_fk <at>Value<openparen>objid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_RpGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpFormalGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_RpAngittHensynGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpFareGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_RpFormalGrense_1 ATTR objtype KpGrense ATTR objid <at>Count<openparen>grenseteller<comma><space>1<closeparen> ATTR rpgrense_fk <at>Value<openparen>objid<closeparen> ATTR malemetode "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>malemetode<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>malemetode<closeparen> > 99'99'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_4 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_4_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT_0_E4SXNhkeM5E=   OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT_1_E4SXNhkeM5E=
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_RpOmrade ATTR objtype RpOmr<u00e5>de ATTR landkode NO ATTR fylkesnr <at>Evaluate<openparen><at>int<openparen><at>Value<openparen>komm<closeparen><solidus>100<closeparen><closeparen> ATTR objid <at>Evaluate<openparen><at>Count<openparen>omradeteller<comma><space>1<closeparen><closeparen> ATTR rpomrade_fk <at>Value<openparen>objid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_RpOmrade ATTR objtype RpOmr<u00e5>de ATTR landkode NO ATTR fylkesnr <at>Evaluate<openparen><at>int<openparen><at>Value<openparen>komm<closeparen><solidus>100<closeparen><closeparen> ATTR objid <at>Evaluate<openparen><at>Count<openparen>omradeteller<comma><space>1<closeparen><closeparen> ATTR rpomrade_fk <at>Value<openparen>objid<closeparen> ATTR malemetode "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>malemetode<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>malemetode<closeparen> > 99'99'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_3 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_3_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT_0_kOM1Bcf6Tmc=   OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT_1_kOM1Bcf6Tmc=
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_KpArealGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_KpArealGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_KpGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_KpGrense ATTR objtype KpGrense ATTR objid <at>Count<openparen>grenseteller<comma><space>1<closeparen> ATTR kpgrense_fk <at>Value<openparen>objid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_KpGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_KpGrense    INPUT  FEATURE_TYPE FeatureTypeFilter_KpArealGrense_1    INPUT  FEATURE_TYPE FeatureTypeFilter_KpArealGrense ATTR objtype KpGrense ATTR objid <at>Count<openparen>grenseteller<comma><space>1<closeparen> ATTR kpgrense_fk <at>Value<openparen>objid<closeparen> ATTR malemetode "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>malemetode<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>malemetode<closeparen> > 99'99'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_0_olPiq+C1D00=   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_1_olPiq+C1D00=
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_KpOmrade ATTR objtype KpOmr<u00e5>de ATTR landkode NO ATTR fylkesnr <at>Evaluate<openparen><at>int<openparen><at>Value<openparen>komm<closeparen><solidus>100<closeparen><closeparen> ATTR objid <at>Evaluate<openparen><at>Count<openparen>omradeteller<comma><space>1<closeparen><closeparen> ATTR kpomrade_fk <at>Value<openparen>objid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_KpOmrade ATTR objtype KpOmr<u00e5>de ATTR landkode NO ATTR fylkesnr <at>Evaluate<openparen><at>int<openparen><at>Value<openparen>komm<closeparen><solidus>100<closeparen><closeparen> ATTR objid <at>Evaluate<openparen><at>Count<openparen>omradeteller<comma><space>1<closeparen><closeparen> ATTR kpomrade_fk <at>Value<openparen>objid<closeparen> ATTR malemetode "FME_CONDITIONAL:DEFAULT_VALUE'<at>Value<openparen>malemetode<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>malemetode<closeparen> > 100'99'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_2 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_2_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_0_KpUyI6tMDVI=   OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_1_KpUyI6tMDVI=
 # -------------------------------------------------------------------------
 
@@ -3707,11 +3707,13 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME SOSI_RelationshipClasses_Logger    INPU
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SOSI_RelationshipClasses LOGGED Output Nuker"   INPUT FEATURE_TYPE SOSI_RelationshipClasses_LOGGED
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT_0_kOM1Bcf6Tmc= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planomrade_rp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT_1_KpUyI6tMDVI= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planomrade_kp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT_0_E4SXNhkeM5E= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planlinjer_rp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT_0_olPiq+C1D00= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planlinjer_kp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT_1_kOM1Bcf6Tmc= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.rpomrade<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT_1_E4SXNhkeM5E= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.rpgrense<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT_0_KpUyI6tMDVI= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.kpomrade<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT_1_olPiq+C1D00= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.kpgrense<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT_0_olPiq+C1D00= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.kpgrense<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT_0_kOM1Bcf6Tmc= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.rpomrade<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT_0_E4SXNhkeM5E= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.rpgrense<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT_1_KpUyI6tMDVI= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.kpomrade<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT_0_KpUyI6tMDVI= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planomrade_kp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT_1_E4SXNhkeM5E= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planlinjer_rp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT_1_olPiq+C1D00= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planlinjer_kp<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT_1_kOM1Bcf6Tmc= TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>planomriss.sosi_objekt_planomrade_rp<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
+# -------------------------------------------------------------------------
+POSTGIS_1_DEF planomriss.kpgrense   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       grense   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(32)
 # -------------------------------------------------------------------------
 POSTGIS_1_DEF planomriss.rpomrade   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       omrade   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(32)   landkode                     varchar(2)   fylkesnr                     int2   komm                         int2   planid                       varchar(16)   forslagsstillertype          int2   gjennomforingsfrist          date   ikrafttredelsesdato          date   kunngjoringsdato             date   lovreferanse                 int2   lovreferansebeskrivelse      varchar(255)   opprinneligadministrativenhet int2   opprinneligplanid            varchar(16)   planbestemmelse              int2   plannavn                     varchar(255)   planstatus                   int2   plantype                     int2   vedtakendeligplandato        date   vertikalniva                 int4
 # -------------------------------------------------------------------------
@@ -3719,12 +3721,10 @@ POSTGIS_1_DEF planomriss.rpgrense   postgis_type                 postgis_geometr
 # -------------------------------------------------------------------------
 POSTGIS_1_DEF planomriss.kpomrade   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       omrade   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(32)   landkode                     varchar(2)   fylkesnr                     int2   komm                         int2   planid                       varchar(16)   ikrafttredelsesdato          date   kunngjoringsdato             date   lovreferanse                 int2   lovreferansebeskrivelse      varchar(255)   opprinneligadministrativenhet int2   opprinneligplanid            varchar(16)   planbestemmelse              int2   plannavn                     varchar(255)   planstatus                   int2   plantype                     int2   vedtakendeligplandato        date
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF planomriss.kpgrense   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       grense   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(32)
-# -------------------------------------------------------------------------
-POSTGRES_1_DEF planomriss.sosi_objekt_planomrade_rp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   informasjon                  varchar(255)   link                         varchar(255)   oppdateringsdato             date   prosess_historie             varchar(255)   rpomrade_fk                  int4,BTREE
-# -------------------------------------------------------------------------
 POSTGRES_1_DEF planomriss.sosi_objekt_planomrade_kp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   informasjon                  varchar(255)   link                         varchar(255)   oppdateringsdato             date   prosess_historie             varchar(255)   kpomrade_fk                  int4,BTREE
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF planomriss.sosi_objekt_planlinjer_rp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   noyaktighet                  int2   malemetode                   int2   synbarhet                    int2   oppdateringsdato             date   rpgrense_fk                  int4,BTREE
+POSTGRES_1_DEF planomriss.sosi_objekt_planlinjer_rp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   noyaktighet                  int4   malemetode                   int2   synbarhet                    int2   oppdateringsdato             date   rpgrense_fk                  int4,BTREE
 # -------------------------------------------------------------------------
-POSTGRES_1_DEF planomriss.sosi_objekt_planlinjer_kp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   noyaktighet                  int2   malemetode                   int2   synbarhet                    int2   oppdateringsdato             date   kpgrense_fk                  int4,BTREE
+POSTGRES_1_DEF planomriss.sosi_objekt_planlinjer_kp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   noyaktighet                  int4   malemetode                   int2   synbarhet                    int2   oppdateringsdato             date   kpgrense_fk                  int4,BTREE
+# -------------------------------------------------------------------------
+POSTGRES_1_DEF planomriss.sosi_objekt_planomrade_rp   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   forstedigitaliseringsdato    date   informasjon                  varchar(255)   link                         varchar(255)   oppdateringsdato             date   prosess_historie             varchar(255)   rpomrade_fk                  int4,BTREE
