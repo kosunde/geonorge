@@ -29,7 +29,7 @@
 			<Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>			
 			<Field InputName="malemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
 			<Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
-			<Field InputName="noyaktighet" InputType="H2" OutputName="KVALITET\NØYAKTIGHET" OutputType="H2"/>
+			<Field InputName="noyaktighet" InputType="H6" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
 			<Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>	
 		</FeatureClass>
 	    <FeatureClass InputName="RpOmrade">
@@ -63,7 +63,7 @@
 			<Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>			
 			<Field InputName="malemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
 			<Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
-			<Field InputName="noyaktighet" InputType="H2" OutputName="KVALITET\NØYAKTIGHET" OutputType="H2"/>
+			<Field InputName="noyaktighet" InputType="H6" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
 			<Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>	
 		</FeatureClass>		
     </Mapping>

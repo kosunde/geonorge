@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\Users\xsunknu\Documents\geonorge\Arealplaner\Planomrade_postgis2sosi\Planomrade_postgis2sosi.fmw
+#    "C:\Program Files\FME\fme.exe" C:\Users\xsunknu\Documents\geonorge\Arealplaner\Planomriss_postgis2sosi\Planomriss_postgis2sosi.fmw
 #          --KNR ""
 #          --FNR ""
 #          --CLIPPERCOORDS "8 59 9 59 9 60 8 60 8 59"
@@ -15,49 +15,49 @@
 #          --FANOUT "Ingen"
 #    
 #    
-#! BEGIN_PYTHON=""
-#! TITLE=""
-#! LOG_FILE="$(LOG_FILE)"
-#! MAX_LOG_FEATURES="200"
-#! LOG_MAX_PRECISION="Yes"
-#! DOC_TOP_LEFT="0 -1985.49"
-#! WORKSPACE_VERSION="1"
-#! REQUIREMENTS=""
-#! END_TCL=""
+#! END_PYTHON=""
+#! PASSWORD=""
 #! SHOW_ANNOTATIONS="true"
-#! FME_REPROJECTION_ENGINE="FME"
-#! LAST_SAVE_DATE="2015-09-04T15:06:38"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! DESTINATION="NONE"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! DESCRIPTION=""
-#! USAGE=""
+#! CATEGORY=""
 #! LOG_MAX_RECORDED_FEATURES="200"
 #! ZOOM_SCALE="80"
-#! HISTORY=""
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! VIEW_POSITION="150.002 648.756"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! USAGE=""
 #! FME_SERVER_SERVICES=""
-#! PASSWORD=""
-#! REQUIREMENTS_KEYWORD=""
-#! CATEGORY=""
-#! DESTINATION_ROUTING_FILE=""
-#! SOURCE="NONE"
-#! SHOW_INFO_NODES="true"
-#! SOURCE_ROUTING_FILE=""
-#! FME_DOCUMENT_GUID="92ba66da-27c4-4dec-b289-0b7538bbc6a2"
-#! REDIRECT_TERMINATORS="NONE"
 #! LEGAL_TERMS_CONDITIONS=""
-#! BEGIN_TCL=""
-#! FME_DOCUMENT_PRIORGUID="bbc761d3-25a3-4cb0-ac65-0a2674b31e6a,799a0c27-b352-4678-a352-9cfaca767790,633c3cc7-c73a-43fb-b7e2-8548200ba2f3"
-#! ATTR_TYPE_ENCODING="SDF"
-#! FME_GEOMETRY_HANDLING="Enhanced"
+#! REQUIREMENTS=""
+#! FME_DOCUMENT_PRIORGUID="bbc761d3-25a3-4cb0-ac65-0a2674b31e6a,799a0c27-b352-4678-a352-9cfaca767790,633c3cc7-c73a-43fb-b7e2-8548200ba2f3,92ba66da-27c4-4dec-b289-0b7538bbc6a2,4c9404a2-b9f3-4eb1-bcfd-d2b75e0e4211,98683ae8-1548-4970-bce7-acac01f43955"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
 #! FME_BUILD_NUM="15515"
+#! SOURCE_ROUTING_FILE=""
+#! END_TCL=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! ATTR_TYPE_ENCODING="SDF"
+#! FME_DOCUMENT_GUID="33fc9865-454c-41f6-9d57-34549713a341"
+#! REQUIREMENTS_KEYWORD=""
+#! MAX_LOG_FEATURES="200"
+#! DESTINATION="NONE"
+#! BEGIN_PYTHON=""
 #! IGNORE_READER_FAILURE="No"
+#! SHOW_INFO_NODES="true"
+#! VIEW_POSITION="-41.2504 645.006"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! DESCRIPTION=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! REDIRECT_TERMINATORS="NONE"
+#! LOG_FILE="$(LOG_FILE)"
+#! HISTORY=""
+#! TITLE=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! DOC_TOP_LEFT="0 -1985.49"
+#! DESTINATION_ROUTING_FILE=""
+#! LOG_MAX_PRECISION="Yes"
+#! SOURCE="NONE"
+#! LAST_SAVE_DATE="2015-09-07T10:25:50"
+#! WORKSPACE_VERSION="1"
+#! BEGIN_TCL=""
+#! FME_STROKE_MAX_DEVIATION="0"
+#! FME_GEOMETRY_HANDLING="Enhanced"
 #! DOC_EXTENTS="5643.75 2634.24"
-#! END_PYTHON=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -73,7 +73,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_type char(50) fme_start_angle float8 fme_dataset char(50) fme_rotation float8 multi_reader_type char(50) postgis_type char(50) postgis_collection_id int4 postgis_collection_part_id int4 fme_feature_type char(50) fme_text_size float8 fme_sweep_angle float8 fme_basename char(50) multi_reader_keyword char(50) fme_geometry fme_char(50) postgres_oid int4 fme_fill_color char(50) fme_text_string char(50) fme_secondary_axis float8 multi_reader_id int4 multi_reader_full_id int4 fme_primary_axis float8 fme_color char(50)"
+#! EXPOSABLE_ATTRS="fme_sweep_angle float8 postgis_collection_part_id int4 fme_color char(50) fme_rotation float8 multi_reader_type char(50) fme_dataset char(50) fme_text_string char(50) multi_reader_keyword char(50) fme_secondary_axis float8 postgis_type char(50) fme_fill_color char(50) fme_basename char(50) fme_text_size float8 fme_primary_axis float8 postgis_collection_id int4 postgres_oid int4 multi_reader_id int4 fme_geometry fme_char(50) multi_reader_full_id int4 fme_type char(50) fme_start_angle float8 fme_feature_type char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -83,16 +83,24 @@
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
 #! NAME="Administrative områder [POSTGIS]"
-#! MAX_FEATURES=""
+#! START_FEATURE=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! FEATURE_TYPES=""
 #! MIN_FEATURES=""
 #! COORDSYS=""
-#! START_FEATURE=""
+#! MAX_FEATURES=""
+#! FEATURE_TYPES=""
 #! >
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
@@ -101,14 +109,6 @@
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
-#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -124,7 +124,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="SOSI_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_primary_axis SOSI_real64 fme_fill_color SOSI_char(50) fme_feature_type SOSI_char(50) fme_geometry fme_char(50) fme_rotation SOSI_real64 fme_color SOSI_char(50) fme_text_string SOSI_char(50) fme_dataset SOSI_char(50) fme_type SOSI_char(50) fme_text_size SOSI_real64 fme_start_angle SOSI_real64 fme_sweep_angle SOSI_real64 fme_secondary_axis SOSI_real64 fme_basename SOSI_char(50)"
+#! EXPOSABLE_ATTRS="fme_primary_axis SOSI_real64 fme_start_angle SOSI_real64 fme_sweep_angle SOSI_real64 fme_feature_type SOSI_char(50) fme_type SOSI_char(50) fme_color SOSI_char(50) fme_dataset SOSI_char(50) fme_fill_color SOSI_char(50) fme_text_size SOSI_real64 fme_basename SOSI_char(50) fme_secondary_axis SOSI_real64 fme_text_string SOSI_char(50) fme_geometry fme_char(50) fme_rotation SOSI_real64"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -133,12 +133,12 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FANOUT_PREFIX=""
-#! FANOUT_DIRECTORY="$(FANOUT_FOLDER)"
-#! FANOUT_ID_ATTR="sosifile"
-#! COORDSYS=""
 #! FANOUT="Yes"
 #! FANOUT_SUFFIX=".sos"
+#! FANOUT_ID_ATTR="sosifile"
+#! FANOUT_PREFIX=""
+#! FANOUT_DIRECTORY="$(FANOUT_FOLDER)"
+#! COORDSYS=""
 #! />
 #! </DATASETS>
 #! <DATA_TYPES>
@@ -672,8 +672,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -697,8 +697,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -924,6 +924,21 @@
 #! IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_OR_ATTR SOSI_FILE SOSI file:"
+#! DEFAULT_VALUE="planomriss"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM MAPPING_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;mappingfile&lt;apos&gt;&lt;closeparen&gt;.text&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value&lt;lf&gt;"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI OPTIONAL IGNORE TEXT_EDIT_PYTHON_PARM SOSIDEF_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;sosideffile&lt;apos&gt;&lt;closeparen&gt;.text&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
 #! GUI_LINE="GUI OPTIONAL IGNORE TEXT_EDIT_PYTHON_PARM LOG_FILE Python Script:"
 #! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GetConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;os&lt;comma&gt;&lt;space&gt;uuid&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;fmwdir&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;logdir&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fmwdir&lt;comma&gt;&lt;space&gt;&lt;apos&gt;log&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;if&lt;space&gt;not&lt;space&gt;os.path.isdir&lt;openparen&gt;logdir&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.mkdir&lt;openparen&gt;logdir&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;logfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;fmwfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;_&lt;apos&gt;&lt;space&gt;+&lt;space&gt;str&lt;openparen&gt;uuid.uuid1&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;.replace&lt;openparen&gt;&lt;apos&gt;-&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;.log&lt;apos&gt;&lt;lf&gt;logfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;logdir&lt;comma&gt;&lt;space&gt;logfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;logfile"
 #! IS_STAND_ALONE="false"
@@ -933,10 +948,10 @@
 #! <COMMENT
 #! IDENTIFIER="33"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Reprojiserer til destcoordsys&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="1301.01 -1350"
-#! TOP_LEFT="1301.01 -1350"
-#! BOTTOM_RIGHT="1300.01 -1349"
-#! BOUNDING_RECT="1301.01 -1350 -1 -1"
+#! POSITION="1350 -1350"
+#! TOP_LEFT="1350 -1350"
+#! BOTTOM_RIGHT="1349 -1349"
+#! BOUNDING_RECT="1350 -1350 -1 -1"
 #! ORDER="5e+014"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
@@ -958,7 +973,7 @@
 #! BOUNDING_RECT="0 648.75 1776.01 566.508"
 #! STICKY="true"
 #! COLOUR="0.737255,0.0784314,0.364706"
-#! CONTENTS="25 16 12 26 17 18 27 11 24 "
+#! CONTENTS="24 27 18 17 12 25 26 16 11 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="36"
@@ -969,7 +984,7 @@
 #! BOUNDING_RECT="0 54.4988 1770.27 554.5"
 #! STICKY="true"
 #! COLOUR="0.447059,0.101961,0.776471"
-#! CONTENTS="21 19 28 29 20 "
+#! CONTENTS="21 29 28 20 19 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="99"
@@ -979,8 +994,8 @@
 #! BOTTOM_RIGHT="4886.3 -1985.49"
 #! BOUNDING_RECT="1869 600 3017.3 2585.49"
 #! STICKY="true"
-#! COLOUR="0.647059,0.592157,0.341176"
-#! CONTENTS="81 93 119 82 98 116 78 90 88 83 96 113 61 84 57 120 87 70 117 95 92 118 63 91 80 97 76 64 79 86 121 114 94 115 68 89 122 "
+#! COLOUR="0.647059,0.592157,0.337255"
+#! CONTENTS="117 68 82 90 98 116 113 79 91 122 76 95 86 84 115 83 89 92 81 118 120 97 87 96 57 114 94 63 70 64 80 121 61 78 88 93 119 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="108"
@@ -990,7 +1005,7 @@
 #! BOTTOM_RIGHT="5643.75 -44.5"
 #! BOUNDING_RECT="5047.75 600 596 644.5"
 #! STICKY="true"
-#! COLOUR="0.776471,0.321569,0.0313725"
+#! COLOUR="0.776471,0.321569,0.027451"
 #! CONTENTS="100 104 102 106 "
 #! />
 #! </BOOKMARKS>
@@ -1017,8 +1032,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1030,15 +1043,17 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="14"
@@ -1054,13 +1069,13 @@
 #! <OUTPUT_FEAT NAME="Output"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CreateClipper"/>
-#! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CLIPPERCOORDS" PARM_VALUE="$(FIXEDCLIPPERCOORDS)"/>
 #! <XFORM_PARM PARM_NAME="DESTCOORDSYS" PARM_VALUE="$(DESTCOORDSYS)"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CLIPPERCOORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CLIPPERCOORDS" PARM_VALUE="$(FIXEDCLIPPERCOORDS)"/>
 #! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="CreateClipper"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CreateClipper"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="15"
@@ -1084,8 +1099,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1097,6 +1110,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="OUTSIDE"/>
@@ -1107,8 +1122,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1120,26 +1133,28 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_fme_no_clipper" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Clippee"/>
+#! <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="CREATE_AGGREGATES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Clipper"/>
+#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
 #! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
-#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
-#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Clippee"/>
-#! <XFORM_PARM PARM_NAME="CREATE_AGGREGATES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="YES"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Clipper"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="16"
@@ -1158,13 +1173,13 @@
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; IN $(FNR)"/>
-#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="17"
@@ -1183,13 +1198,13 @@
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; IN $(KNR)"/>
-#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="18"
@@ -1206,13 +1221,13 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="19"
@@ -1246,40 +1261,40 @@
 #! <FEAT_COLLAPSED COLLAPSED="4"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="NewFeatureType,"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GENERIC_REAL_FORMAT" PARM_VALUE="GUESS_FROM_EXTENSION"/>
-#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%NewFeatureType"/>
+#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%NewFeatureType"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(CLIPPER_FILE)"/>
-#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="GENERIC"/>
 #! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceREAL_FORMAT&lt;comma&gt;GUESS_FROM_EXTENSION,METAFILE,GENERIC"/>
 #! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="NewFeatureType,"/>
-#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="GENERIC_REAL_FORMAT,&quot;OPTIONAL READERPICK&quot;,GENERIC&lt;space&gt;Input&lt;space&gt;Format:"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="GENERIC"/>
+#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="GENERIC_REAL_FORMAT,&quot;OPTIONAL READERPICK&quot;,GENERIC&lt;space&gt;Input&lt;space&gt;Format:"/>
+#! <XFORM_PARM PARM_NAME="GENERIC_REAL_FORMAT" PARM_VALUE="GUESS_FROM_EXTENSION"/>
+#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="20"
@@ -1295,16 +1310,16 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="21"
@@ -1319,13 +1334,13 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="32"
@@ -1340,9 +1355,9 @@
 #! >
 #! <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1402,60 +1417,63 @@
 #! <FEAT_COLLAPSED COLLAPSED="5"/>
 #! <OUTPUT_FEAT NAME="INITIATOR"/>
 #! <FEAT_COLLAPSED COLLAPSED="6"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="7"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_POSTGIS_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_2"/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_NAMED_CONNECTION" PARM_VALUE="geonortst&lt;at&gt;Nnridb504:5432&lt;solidus&gt;geonor01tst"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_SCHEMALIST" PARM_VALUE="planomriss"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGIS_DISABLE_COLLECTION_SPLITTING,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_POSTGIS_EXPOSE_FORMAT_ATTRS,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,POSTGIS_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%CLIP_TO_ENVELOPE&quot;,POSTGIS&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,POSTGIS_FME_CONNECTION_GROUP,&quot;OPTIONAL NAMEDGROUP NAMED_CONNECTION%SCHEMALIST&quot;,POSTGIS&lt;space&gt;Database&lt;space&gt;Connection,POSTGIS_SCHEMALIST,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGIS_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP POSTGIS_EXPOSE_FORMAT_ATTRS&quot;,POSTGIS&lt;space&gt;Schema&lt;space&gt;Attributes,POSTGIS_CLIP_TO_ENVELOPE,&quot;OPTIONAL CHECKBOX YES%NO&quot;,POSTGIS&lt;space&gt;Clip&lt;space&gt;to&lt;space&gt;Search&lt;space&gt;Envelope,POSTGIS_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Connection:,POSTGIS_USE_TRUE_POSTGIS_TYPES,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_TABLELIST,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Table&lt;space&gt;List:"/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceDISABLE_COLLECTION_SPLITTING&lt;comma&gt;yes&lt;comma&gt;SourcePOSTGIS_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS&lt;comma&gt;Yes&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceFME_CONNECTION_GROUP&lt;comma&gt;&lt;comma&gt;SourceSCHEMALIST&lt;comma&gt;planomriss&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceNAMED_CONNECTION&lt;comma&gt;geonortst&lt;lt&gt;at&lt;gt&gt;Nnridb504:5432&lt;lt&gt;solidus&lt;gt&gt;geonor01tst&lt;comma&gt;SourceUSE_TRUE_POSTGIS_TYPES&lt;comma&gt;yes,METAFILE,POSTGIS"/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_FME_CONNECTION_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
-#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGIS"/>
-#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_CLIP_TO_ENVELOPE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_2"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGIS"/>
 #! <XFORM_PARM PARM_NAME="POSTGIS_USE_TRUE_POSTGIS_TYPES" PARM_VALUE="yes"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="geonortst&lt;at&gt;Nnridb504:5432&lt;solidus&gt;geonor01tst"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_DISABLE_COLLECTION_SPLITTING" PARM_VALUE="yes"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_SCHEMALIST" PARM_VALUE="planomriss"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_FME_CONNECTION_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="planomriss.kpgrense,&quot;objid,objtype&quot;,planomriss.kpomrade,&quot;objid,objtype,landkode,fylkesnr,komm,planid,ikrafttredelsesdato,kunngjoringsdato,lovreferanse,lovreferansebeskrivelse,opprinneligadministrativenhet,opprinneligplanid,planbestemmelse,plannavn,planstatus,plantype,vedtakendeligplandato&quot;,planomriss.rpgrense,&quot;objid,objtype&quot;,planomriss.rpomrade,&quot;objid,objtype,landkode,fylkesnr,komm,planid,forslagsstillertype,gjennomforingsfrist,ikrafttredelsesdato,kunngjoringsdato,lovreferanse,lovreferansebeskrivelse,opprinneligadministrativenhet,opprinneligplanid,planbestemmelse,plannavn,planstatus,plantype,vedtakendeligplandato,vertikalniva&quot;"/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
+#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="planomriss.kpgrense planomriss.kpomrade planomriss.rpgrense planomriss.rpomrade"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_USER_NAME" PARM_VALUE="$(PG_USER)"/>
 #! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="POSTGIS_TABLELIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="planomriss.kpgrense%planomriss.kpomrade%planomriss.rpgrense%planomriss.rpomrade"/>
-#! <XFORM_PARM PARM_NAME="POSTGIS_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="planomriss.kpgrense planomriss.kpomrade planomriss.rpgrense planomriss.rpomrade"/>
-#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="Intersects"/>
+#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_DISABLE_COLLECTION_SPLITTING" PARM_VALUE="yes"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_CLIP_TO_ENVELOPE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_PORT" PARM_VALUE="$(PG_PORT)"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGIS_USE_TRUE_POSTGIS_TYPES,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_POSTGIS_EXPOSE_FORMAT_ATTRS,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,POSTGIS_SCHEMALIST,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGIS_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%CLIP_TO_ENVELOPE&quot;,POSTGIS&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,POSTGIS_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGIS&lt;space&gt;Port:,POSTGIS_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP POSTGIS_EXPOSE_FORMAT_ATTRS&quot;,POSTGIS&lt;space&gt;Schema&lt;space&gt;Attributes,POSTGIS_TABLELIST,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Table&lt;space&gt;List:,POSTGIS_FME_CONNECTION_GROUP,&quot;OPTIONAL NAMEDGROUP HOST%PORT%DATASET%USER_NAME%PASSWORD%NAMED_CONNECTION%SCHEMALIST&quot;,POSTGIS&lt;space&gt;Database&lt;space&gt;Connection,POSTGIS_DISABLE_COLLECTION_SPLITTING,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,POSTGIS&lt;space&gt;Password:,POSTGIS_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGIS&lt;space&gt;Username:,POSTGIS_HOST,&quot;OPTIONAL TEXT&quot;,POSTGIS&lt;space&gt;Host:,POSTGIS_CLIP_TO_ENVELOPE,&quot;OPTIONAL CHECKBOX YES%NO&quot;,POSTGIS&lt;space&gt;Clip&lt;space&gt;to&lt;space&gt;Search&lt;space&gt;Envelope"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="planomriss.kpgrense%planomriss.kpomrade%planomriss.rpgrense%planomriss.rpomrade"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS&lt;comma&gt;Yes&lt;comma&gt;SourceDISABLE_COLLECTION_SPLITTING&lt;comma&gt;yes&lt;comma&gt;SourceUSE_TRUE_POSTGIS_TYPES&lt;comma&gt;yes&lt;comma&gt;SourceFME_CONNECTION_GROUP&lt;comma&gt;&lt;comma&gt;SourceSCHEMALIST&lt;comma&gt;planomriss&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourcePOSTGIS_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceHOST&lt;comma&gt;nnridb504&lt;comma&gt;SourcePORT&lt;comma&gt;5432&lt;comma&gt;SourceUSER_NAME&lt;comma&gt;geonortst&lt;comma&gt;SourcePASSWORD&lt;comma&gt;fme_decrypt&lt;openparen&gt;MDowfCN8I3xcG3GQ&lt;solidus&gt;TeRRUJUZ5LDPtdvpscbh7Nj9gG&lt;solidus&gt;INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl&lt;solidus&gt;0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07&lt;solidus&gt;nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D&lt;solidus&gt;WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszqYxxAFYSwblCRBVmZGDAEWoNxcLAA&lt;solidus&gt;&lt;solidus&gt;m95lwar+7DxBgzG+BVpM81z2OQNo5DOkWAvZDQq2N7ypMq&lt;solidus&gt;QDEHtutwwoI5r9JTeIQ&lt;solidus&gt;Fbwg6W4kKuZ&lt;solidus&gt;H&lt;solidus&gt;9WNymhr2bozaO7TUQKXY18YTWHwiftRUW6n+VQCQc&lt;solidus&gt;jKqZweQSZM5ufSEApAhCsuSOZGfoImK1v7s9k9PgsRjwoIrJzYYokbgS+DCG7nDS70M8Gr+hWxRM&lt;solidus&gt;Zttwwy8iRS5gdjiwIYHlXeqH26PrzaR8AvLwy1Du77v9D9DPWOyJPPEC4Epcf4PWwfcQTD&lt;solidus&gt;nHTtTmU9lxAC&lt;solidus&gt;c&lt;solidus&gt;Pvd4rfLSLj2zV5X47NuiknVBWxqGtU8cCKn&lt;closeparen&gt;,METAFILE,POSTGIS"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_HOST" PARM_VALUE="$(PG_HOST)"/>
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="POSTGIS_POSTGIS_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="49"
@@ -1472,19 +1490,19 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Generalizer"/>
-#! <XFORM_PARM PARM_NAME="NUMNEIGHBORS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="WEIGHTINGPOWER" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="DEGREE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SEGMENT_LENGTH" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="PRESERVE" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="DEGREE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUMWEDGES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ANGLE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TOLERANCE" PARM_VALUE="0.000009"/>
 #! <XFORM_PARM PARM_NAME="DISPLACEMENT" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SEGMENT_LENGTH" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TOLERANCE" PARM_VALUE="0.000009"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="WEIGHTINGPOWER" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Generalizer"/>
 #! <XFORM_PARM PARM_NAME="ALG_TEXT" PARM_VALUE="Douglas (Generalize)"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NUMNEIGHBORS" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="57"
@@ -1501,14 +1519,14 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planomrade_kp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planomrade_kp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="63"
@@ -1532,8 +1550,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1545,6 +1561,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1565,8 +1583,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1578,6 +1594,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1609,24 +1627,24 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;kpomrade_fk&lt;closeparen&gt; AUTO"/>
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;kpomrade_fk&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="64"
@@ -1650,8 +1668,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1663,6 +1679,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1677,8 +1695,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1690,6 +1706,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1704,8 +1722,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1717,6 +1733,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1731,8 +1749,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1744,6 +1760,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1758,8 +1776,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -1771,6 +1787,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -1785,8 +1803,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -1798,11 +1814,13 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureTypeFilter"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="planomriss.kpomrade,planomriss.kpgrense,planomriss.rpomrade,planomriss.rpgrense,&lt;lt&gt;BLANK&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureTypeFilter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="68"
@@ -1819,14 +1837,14 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planlinjer_kp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planlinjer_kp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="70"
@@ -1850,8 +1868,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1863,6 +1879,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1883,8 +1901,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1896,6 +1912,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1927,24 +1945,24 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;kpgrense_fk&lt;closeparen&gt; AUTO"/>
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_2"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;kpgrense_fk&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_2"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="79"
@@ -1961,14 +1979,14 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planomrade_rp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planomrade_rp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="81"
@@ -1992,8 +2010,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2005,6 +2021,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2025,8 +2043,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2038,6 +2054,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2069,24 +2087,24 @@
 #! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="prosess_historie" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="rpomrade_fk" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;rpomrade_fk&lt;closeparen&gt; AUTO"/>
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_3"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;rpomrade_fk&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_3"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="90"
@@ -2103,14 +2121,14 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planlinjer_rp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sql,select&lt;space&gt;*&lt;space&gt;from&lt;space&gt;planomriss.sosi_objekt_planlinjer_rp&lt;space&gt;where&lt;space&gt;objid&lt;space&gt;in&lt;space&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="92"
@@ -2134,8 +2152,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2147,6 +2163,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2167,8 +2185,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2180,6 +2196,8 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2211,24 +2229,24 @@
 #! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="rpgrense_fk" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;rpgrense_fk&lt;closeparen&gt; AUTO"/>
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_4"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;rpgrense_fk&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_4"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="109"
@@ -2252,8 +2270,6 @@
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="planid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="ikrafttredelsesdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kunngjoringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lovreferanse" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2265,17 +2281,19 @@
 #! <XFORM_ATTR ATTR_NAME="planstatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="plantype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vedtakendeligplandato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="forslagsstillertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gjennomforingsfrist" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalniva" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sosifile,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;planomriss_$(OUTPUT_EPSG_CODE)&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Kommuner&apos;planomriss_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Fylker&apos;planomriss_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)&apos;FME_NUM_CONDITIONS3___&quot;,komm,&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;komm&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;,opprinneligadministrativenhet,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;opprinneligadministrativenhet&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST opprinneligadministrativenhet ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sosifile,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;$(SOSI_FILE)_$(OUTPUT_EPSG_CODE)&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Kommuner&apos;$(SOSI_FILE)_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Fylker&apos;$(SOSI_FILE)_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)&apos;FME_NUM_CONDITIONS3___&quot;,komm,&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;komm&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;,opprinneligadministrativenhet,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;opprinneligadministrativenhet&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST opprinneligadministrativenhet ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="113"
@@ -2291,30 +2309,30 @@
 #! <OUTPUT_FEAT NAME="AGGREGATE"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2331,30 +2349,30 @@
 #! <OUTPUT_FEAT NAME="AGGREGATE"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator_2"/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator_2"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2371,30 +2389,30 @@
 #! <OUTPUT_FEAT NAME="AGGREGATE"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator_3"/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator_3"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2411,30 +2429,30 @@
 #! <OUTPUT_FEAT NAME="AGGREGATE"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator_4"/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
-#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="objid"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator_4"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2462,21 +2480,21 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;sql&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,informasjon,kpomrade_fk,link,objid,oppdateringsdato,prosess_historie"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
 #! <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(PG_PORT)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,informasjon,kpomrade_fk,link,objid,oppdateringsdato,prosess_historie"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="80"
@@ -2503,21 +2521,21 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;sql&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,kpgrense_fk,malemetode,noyaktighet,objid,oppdateringsdato,synbarhet"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
 #! <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(PG_PORT)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,kpgrense_fk,malemetode,noyaktighet,objid,oppdateringsdato,synbarhet"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="118"
@@ -2544,21 +2562,21 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_3"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;sql&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,informasjon,link,objid,oppdateringsdato,prosess_historie,rpomrade_fk"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
 #! <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(PG_PORT)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,informasjon,link,objid,oppdateringsdato,prosess_historie,rpomrade_fk"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_3"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="84"
@@ -2585,21 +2603,21 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sql" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_4"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;sql&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,malemetode,noyaktighet,objid,oppdateringsdato,rpgrense_fk,synbarhet"/>
-#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(PG_USER)"/>
 #! <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(PG_PORT)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="forstedigitaliseringsdato,malemetode,noyaktighet,objid,oppdateringsdato,rpgrense_fk,synbarhet"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(PG_HOST)"/>
+#! <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(PG_PWD)"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_4"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(PG_DB)"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -3007,27 +3025,27 @@
 #! <SUBDOCUMENTS>
 #! <SUBDOCUMENT
 #! NAME="CreateClipper"
-#! REQUIREMENTS_KEYWORD="none"
-#! IS_VISIBLE="true"
-#! DOC_EXTENTS="3826.01 768"
-#! FME_DOCUMENT_GUID=""
-#! FME_PROCESS_GROUP_BY=""
 #! CATEGORY="Geometric Operators"
-#! USAGE=""
-#! TITLE="CreateClipper"
-#! FME_PROCESS_COUNT="NO_PARALLELISM"
 #! SUPPRESS_UPGRADE="false"
-#! REQUIREMENTS=""
-#! LEGAL_TERMS_CONDITIONS=""
-#! ZOOM_SCALE="100"
-#! DESCRIPTION=""
 #! XFORM_DEPRECATED="No"
-#! VIEW_POSITION="-60.0006 306.003"
+#! FME_DOCUMENT_GUID=""
+#! ZOOM_SCALE="100"
+#! USAGE=""
+#! DOC_EXTENTS="3826.01 768"
+#! TITLE="CreateClipper"
+#! LEGAL_TERMS_CONDITIONS=""
+#! FME_PROCESS_COUNT="NO_PARALLELISM"
+#! REQUIREMENTS=""
 #! DOC_DYNAMIC_INPUT_ATTRS="1"
+#! DESCRIPTION=""
+#! REQUIREMENTS_KEYWORD="none"
 #! HISTORY=",,"
+#! IS_VISIBLE="true"
+#! VIEW_POSITION="-60.0006 306.003"
+#! FME_DOCUMENT_PRIORGUID=""
 #! DOC_TOP_LEFT="315 -1132"
 #! FME_PROCESS_GROUPS_ORDERED="No"
-#! FME_DOCUMENT_PRIORGUID=""
+#! FME_PROCESS_GROUP_BY=""
 #! >
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
@@ -3187,14 +3205,14 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="$(CLIPPERCOORDS)"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Coordinate List"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="2"
@@ -3211,16 +3229,16 @@
 #! <OUTPUT_FEAT NAME="ORIGINAL"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TOPFER_INDEX" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="3"
@@ -3239,16 +3257,16 @@
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator_2"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TOPFER_INDEX" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator_2"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="4"
@@ -3268,18 +3286,18 @@
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter"/>
-#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Base"/>
-#! <XFORM_PARM PARM_NAME="PREDICATES" PARM_VALUE="EQUALS"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Single Base"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDICATES" PARM_VALUE="EQUALS"/>
+#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Base"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Single Base"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="5"
@@ -3296,14 +3314,14 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="6"
@@ -3319,14 +3337,14 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="7"
@@ -3341,14 +3359,14 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="8"
@@ -3367,12 +3385,12 @@
 #! <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryFilter"/>
-#! <XFORM_PARM PARM_NAME="GEOM_PORT_NAMES" PARM_VALUE="Area"/>
-#! <XFORM_PARM PARM_NAME="INSTANTIATE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="BREAK_AGG" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BREAK_AGG" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="INSTANTIATE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOM_PORT_NAMES" PARM_VALUE="Area"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryFilter"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -3878,6 +3896,69 @@ if value == None:
 else:
   return { macroName : str(value) }
 END_INCLUDE
+DEFAULT_MACRO SOSI_FILE planomriss
+GUI IGNORE TEXT SOSI_FILE SOSI file:
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme, os
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  
+  value = os.path.join(fme.macroValues['FME_MF_DIR'], configdoc.find('mappingfile').text)
+  
+  return value
+  
+value = ParamFunc()
+macroName = 'MAPPING_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme, os
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  
+  value = os.path.join(fme.macroValues['FME_MF_DIR'], configdoc.find('sosideffile').text)
+  
+  return value
+value = ParamFunc()
+macroName = 'SOSIDEF_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
 INCLUDE PYTHON
 def ParamFunc():
   #-------------------------------------------------------------------------------
@@ -3921,6 +4002,8 @@ INCLUDE [ if {{$(FIXEDCLIPPERCOORDS)} == {}} { puts_real {Parameter 'FIXEDCLIPPE
 INCLUDE [ if {{$(PG_USER)} == {}} { puts_real {Parameter 'PG_USER' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(FANOUT_FOLDER)} == {}} { puts_real {Parameter 'FANOUT_FOLDER' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(ENHET)} == {}} { puts_real {Parameter 'ENHET' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SOSI_FILE)} == {}} { puts_real {Parameter 'SOSI_FILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(MAPPING_FILE)} == {}} { puts_real {Parameter 'MAPPING_FILE' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE POSTGIS
@@ -4099,10 +4182,10 @@ GUI CHOICE SOSI_OUT_WRITER_LOG_ERRORS_SOSI_1 yes%no Logg feil:
 DEFAULT_MACRO SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 no
 SOSI_1_WRITER_GENERATE_MAPPING_XML "$(SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1)"
 GUI CHOICE SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 yes%no Generer mapping xml:
-DEFAULT_MACRO SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 $(FME_MF_DIR)Planomrade.sos.xml
+DEFAULT_MACRO SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 $(MAPPING_FILE)
 SOSI_1_WRITER_XML_MAPPING_FILE "$(SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1)"
 GUI OPTIONAL FILENAME_MUSTEXIST SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 XML-filer(*.xml)|*.xml|Alle_filer(*.*)|*.* Bruk mappingfil:
-DEFAULT_MACRO SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 $(FME_MF_DIR)sosidef45.txt
+DEFAULT_MACRO SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 $(SOSIDEF_FILE)
 SOSI_1_WRITER_SOSIDEF_FILE "$(SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1)"
 GUI OPTIONAL FILENAME_MUSTEXIST SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 Definisjonsfiler(*.txt)|*.txt|Alle_filer(*.*)|*.* Bruk spesiell definisjonsfil:
 SOSI_1_DATASET "$(DestDataset_SOSI_1)"
@@ -4131,13 +4214,13 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME Planomrade_postgis2sosi
+MACRO WORKSPACE_NAME Planomriss_postgis2sosi
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::admingrense.fylkeflate TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::admingrense.kommuneflate TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-POSTGIS_1_MERGE_DEF POSTGIS_1::admingrense.fylkeflate EXACT admingrense.fylkeflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,fylkeid,int4
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::admingrense.kommuneflate TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::admingrense.fylkeflate TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::admingrense.kommuneflate EXACT admingrense.kommuneflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4
+POSTGIS_1_MERGE_DEF POSTGIS_1::admingrense.fylkeflate EXACT admingrense.fylkeflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,fylkeid,int4
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
@@ -4257,11 +4340,11 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_Geometr
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_InstanceTest    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_CollectionTest    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_Deagg    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Input___    OUTPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Prepped___        $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_e262809a_e437_4ef6_a9c0_f961fb1f016464_targetFeatureType @Lookup($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_Router    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Prepped___    TEST @Value($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_e262809a_e437_4ef6_a9c0_f961fb1f016464_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_e262809a_e437_4ef6_a9c0_f961fb1f016464_targetFeatureType))                                 @RemoveAttributes($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_e262809a_e437_4ef6_a9c0_f961fb1f016464_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"        @RemoveAttributes($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_e262809a_e437_4ef6_a9c0_f961fb1f016464_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Input___    OUTPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Prepped___        $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_78985e09_a4b1_412e_9813_67fa3edf80f51_targetFeatureType @Lookup($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_GeometryFilter_Router    INPUT FEATURE_TYPE $(CreateClipper_WORKSPACE_NAME)_GeometryFilter___Prepped___    TEST @Value($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_78985e09_a4b1_412e_9813_67fa3edf80f51_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_78985e09_a4b1_412e_9813_67fa3edf80f51_targetFeatureType))                                 @RemoveAttributes($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_78985e09_a4b1_412e_9813_67fa3edf80f51_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"        @RemoveAttributes($(CreateClipper_WORKSPACE_NAME)_GeometryFilter_78985e09_a4b1_412e_9813_67fa3edf80f51_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_GeometryFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_Output1441371998 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_GeometryFilter_AREA"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_Output1441614350 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_GeometryFilter_AREA"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Output"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(CreateClipper_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "CreateClipper Output Output Renamer/Nuker"   INPUT FEATURE_TYPE CreateClipper_Output   OUTPUT FEATURE_TYPE CreateClipper_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "CreateClipper Output Splitter"   INPUT FEATURE_TYPE CreateClipper_Output   OUTPUT FEATURE_TYPE CreateClipper_Output_0_FTcHTZ7JVIg=   OUTPUT FEATURE_TYPE CreateClipper_Output_1_FTcHTZ7JVIg=
@@ -4280,19 +4363,32 @@ INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {M
 Tcl2 proc Reprojector_2_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_2_haveWarned;   if { [info exists Reprojector_2_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_2_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector_2: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
 # Passing in source CS to @Tcl rather than referencing it directly to allow
 # attribute evalutation to be performed.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE Tester_PASSED    INPUT  FEATURE_TYPE Tester_2_PASSED    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE Tester_2_PASSED    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector_2 REPROJECTED Splitter"   INPUT FEATURE_TYPE Reprojector_2_REPROJECTED   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_1_NLSGbdUJQYU=
+# -------------------------------------------------------------------------
+MACRO FeatureReader_2_OUTPUT_PORTS_ENCODED planomriss.kpgrense planomriss.kpomrade planomriss.rpgrense planomriss.rpomrade
+MACRO FeatureReader_2_DIRECTIVES USE_TRUE_POSTGIS_TYPES yes SCHEMALIST planomriss USE_SEARCH_ENVELOPE NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PORT "$(PG_PORT)" DISABLE_COLLECTION_SPLITTING yes PASSWORD "$(PG_PWD)" USER_NAME "$(PG_USER)" HOST "$(PG_HOST)" CLIP_TO_ENVELOPE NO
+
+# Values come in encoded and come out decoded.
+Tcl2 proc FeatureReader_2_findInListElseDefault { valueEncoded defaultValue } {    if { [lsearch [split {$(FeatureReader_2_OUTPUT_PORTS_ENCODED)}] $valueEncoded] >= 0} {       return FeatureReader_2_[FME_DecodeText $valueEncoded]    } else {       return FeatureReader_2_$defaultValue    } }
+# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
+INCLUDE [if { ( {INTERSECTS} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "INTERSECTS"};          }         ]
+# Consolidate the attribute merge options to what the factory expects
+DEFAULT_MACRO FeatureReader_2_COMBINE_ATTRS
+INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_2_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_2_COMBINE_ATTRS RESULT_ONLY";       };    ]
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED_1_DaVhxWDdoTg=    INPUT  FEATURE_TYPE CreateClipper_Output_1_FTcHTZ7JVIg=    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_1_NLSGbdUJQYU=    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(PG_DB),FeatureReader_2)"    READER_IDS          planomriss.kpgrense planomriss.kpomrade planomriss.rpgrense planomriss.rpomrade    READER_DIRECTIVES   META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMALIST<comma>planomriss<comma>SourceEXPOSE_ATTRS_GROUP<comma><comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceHOST<comma>nnridb504<comma>SourcePORT<comma>5432<comma>SourceUSER_NAME<comma>geonortst<comma>SourcePASSWORD<comma>fme_decrypt<openparen>MDowfCN8I3xcG3GQ<solidus>TeRRUJUZ5LDPtdvpscbh7Nj9gG<solidus>INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl<solidus>0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07<solidus>nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D<solidus>WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszqYxxAFYSwblCRBVmZGDAEWoNxcLAA<solidus><solidus>m95lwar+7DxBgzG+BVpM81z2OQNo5DOkWAvZDQq2N7ypMq<solidus>QDEHtutwwoI5r9JTeIQ<solidus>Fbwg6W4kKuZ<solidus>H<solidus>9WNymhr2bozaO7TUQKXY18YTWHwiftRUW6n+VQCQc<solidus>jKqZweQSZM5ufSEApAhCsuSOZGfoImK1v7s9k9PgsRjwoIrJzYYokbgS+DCG7nDS70M8Gr+hWxRM<solidus>Zttwwy8iRS5gdjiwIYHlXeqH26PrzaR8AvLwy1Du77v9D9DPWOyJPPEC4Epcf4PWwfcQTD<solidus>nHTtTmU9lxAC<solidus>c<solidus>Pvd4rfLSLj2zV5X47NuiknVBWxqGtU8cCKn<closeparen>,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [FeatureReader_2_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(POSTGIS,FME_GENERIC)
+
 # -------------------------------------------------------------------------
 
 INCLUDE [    if { {No} == {Yes} } {       puts {MACRO ___PRESERVE___ *};       puts {MACRO ___JUST_GEN___ NotThisTime};    } else {       puts {MACRO ___PRESERVE___ NotThisTime};       puts {MACRO ___JUST_GEN___ *};    };    proc prepareForProcessing {params} {       puts {MACRO Generalizer_PropagateAttributes_Options};       puts {MACRO Generalizer_PropagateAttributes_Funcs};       if { {No} == {Yes} } {          set propagateAttrs "";          set first 1;          foreach param $params {             regexp {@EvaluateExpression\(FDIV,FLOAT,<at>Value<openparen>(.+)<closeparen>,.+\)} $param -> raw_param;             if { [info exists raw_param] } {                if {$first} {                   set first 0;                } else {                   append propagateAttrs ",";                };                if { [string first {ENCODED,} "$raw_param"] == 0 } {                   set raw_param [string range $raw_param 8 end];                   set raw_param [FME_DecodeText $raw_param];                };                append propagateAttrs "$raw_param,&__polyAttributes__{0}.$raw_param";             };          };          if {[string length $propagateAttrs] > 0} {             set propagateAttrs "@SupplyAttributes($propagateAttrs)";             puts {MACRO Generalizer_PropagateAttributes_Options PROPAGATE_ATTRS POLYGONS_ATTR __polyAttributes__};             puts "MACRO Generalizer_PropagateAttributes_Funcs $propagateAttrs @RemoveAttributes(fme_regexp_match, __polyAttributes__.*)";          };       };       set args "";       if {[llength params] > 0} {          set args [concat "," [join $params ","]];       };       puts "MACRO Generalizer_GeneralizeFunc @Generalize(Douglas $args)";    };    if { {Douglas} == {McMaster} } {       prepareForProcessing [list {"<Unused>"} {"<Unused>"}];    } elseif { {Douglas} == {McMasterWeightedDistance} } {       prepareForProcessing [list {"<Unused>"} {"<Unused>"} {"<Unused>"}];    } elseif { {Douglas} == {Deveau} } {       prepareForProcessing [list {"0.000009"} {"<Unused>"} {"<Unused>"}];    } elseif { {Douglas} == {NURBfit} } {       prepareForProcessing [list {"<Unused>"} {"<Unused>"}];    } elseif { {Douglas} == {Inflection} } {       prepareForProcessing [list {"<Unused>"}];    } elseif { {Douglas} == {Regression} } {       prepareForProcessing [list];    } else {       prepareForProcessing [list {"0.000009"}];    }; ]
 # The following is for when we don't preserve boundaries
 # We simply handle the input and then send it out
 
-FACTORY_DEF $(___JUST_GEN___) TeeFactory    FACTORY_NAME Generalizer_GeneralizeAll    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED_1_DaVhxWDdoTg=    OUTPUT FEATURE_TYPE ___sendout___         $(Generalizer_GeneralizeFunc)
+FACTORY_DEF $(___JUST_GEN___) TeeFactory    FACTORY_NAME Generalizer_GeneralizeAll    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED_0_DaVhxWDdoTg=    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=    OUTPUT FEATURE_TYPE ___sendout___         $(Generalizer_GeneralizeFunc)
 # The following is for when we preserve boundaries (for areas)
 
-FACTORY_DEF $(___PRESERVE___) TestFactory    FACTORY_NAME Generalizer_AggregateTester    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED_1_DaVhxWDdoTg=    TEST &fme_geometry = fme_aggregate    OUTPUT PASSED FEATURE_TYPE ___toDeag___ __area_id__ @Count(Generalizer)    OUTPUT FAILED FEATURE_TYPE ___toTest___ __area_id__ @Count(Generalizer)
+FACTORY_DEF $(___PRESERVE___) TestFactory    FACTORY_NAME Generalizer_AggregateTester    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED_0_DaVhxWDdoTg=    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=    TEST &fme_geometry = fme_aggregate    OUTPUT PASSED FEATURE_TYPE ___toDeag___ __area_id__ @Count(Generalizer)    OUTPUT FAILED FEATURE_TYPE ___toTest___ __area_id__ @Count(Generalizer)
 FACTORY_DEF $(___PRESERVE___) DeaggregateFactory    FACTORY_NAME Generalizer_Deaggregater    INPUT FEATURE_TYPE ___toDeag___    OUTPUT LINE FEATURE_TYPE ___toTest___    OUTPUT POLYGON FEATURE_TYPE  ___toTest___    OUTPUT DONUT FEATURE_TYPE ___toTest___    OUTPUT POINT FEATURE_TYPE ___cleanup___    OUTPUT AGGREGATE FEATURE_TYPE ___cleanup___
 FACTORY_DEF $(___PRESERVE___) TestFactory    FACTORY_NAME Generalizer_EllipseTester    INPUT FEATURE_TYPE ___toTest___    TEST &fme_type = fme_ellipse    OUTPUT PASSED FEATURE_TYPE ___cleanup___    OUTPUT FAILED FEATURE_TYPE ___toTest___
 FACTORY_DEF $(___PRESERVE___) TestFactory    FACTORY_NAME Generalizer_LineTester    INPUT FEATURE_TYPE ___toTest___    TEST &fme_type  == fme_area    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE ___toTopo___    OUTPUT FAILED FEATURE_TYPE ___toGen___
@@ -4310,24 +4406,11 @@ FACTORY_DEF $(___PRESERVE___) TeeFactory    FACTORY_NAME Generalizer_CleanUp    
 FACTORY_DEF * TeeFactory    FACTORY_NAME Generalizer_SendOut    INPUT FEATURE_TYPE ___sendout___    OUTPUT FEATURE_TYPE Generalizer_OUTPUT
 
 # -------------------------------------------------------------------------
-MACRO FeatureReader_2_OUTPUT_PORTS_ENCODED planomriss.kpgrense planomriss.kpomrade planomriss.rpgrense planomriss.rpomrade
-MACRO FeatureReader_2_DIRECTIVES DISABLE_COLLECTION_SPLITTING yes QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes USE_SEARCH_ENVELOPE NO SCHEMALIST planomriss CLIP_TO_ENVELOPE NO NAMED_CONNECTION geonortst<at>Nnridb504:5432<solidus>geonor01tst USE_TRUE_POSTGIS_TYPES yes
-
-# Values come in encoded and come out decoded.
-Tcl2 proc FeatureReader_2_findInListElseDefault { valueEncoded defaultValue } {    if { [lsearch [split {$(FeatureReader_2_OUTPUT_PORTS_ENCODED)}] $valueEncoded] >= 0} {       return FeatureReader_2_[FME_DecodeText $valueEncoded]    } else {       return FeatureReader_2_$defaultValue    } }
-# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
-INCLUDE [if { ( {INTERSECTS} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "INTERSECTS"};          }         ]
-# Consolidate the attribute merge options to what the factory expects
-DEFAULT_MACRO FeatureReader_2_COMBINE_ATTRS
-INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_2_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_2_COMBINE_ATTRS RESULT_ONLY";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED_0_DaVhxWDdoTg=    INPUT  FEATURE_TYPE CreateClipper_Output_0_FTcHTZ7JVIg=    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_1_NLSGbdUJQYU=    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,geonortst<at>Nnridb504:5432<solidus>geonor01tst,FeatureReader_2)"    READER_IDS          planomriss.kpgrense planomriss.kpomrade planomriss.rpgrense planomriss.rpomrade    READER_DIRECTIVES   META_MACROS,SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><comma>SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMALIST<comma>planomriss<comma>SourceEXPOSE_ATTRS_GROUP<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceNAMED_CONNECTION<comma>geonortst<lt>at<gt>Nnridb504:5432<lt>solidus<gt>geonor01tst<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [FeatureReader_2_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(POSTGIS,FME_GENERIC)
-
-# -------------------------------------------------------------------------
 
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Generalizer_OUTPUT    INPUT  FEATURE_TYPE CreateClipper_Output_1_FTcHTZ7JVIg=    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Generalizer_OUTPUT    INPUT  FEATURE_TYPE CreateClipper_Output_0_FTcHTZ7JVIg=    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
-FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.kpomrade    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.kpgrense    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.rpgrense    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.rpomrade    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
+FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.rpomrade    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.kpgrense    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.rpgrense    INPUT  FEATURE_TYPE FeatureReader_2_planomriss.kpomrade    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
 FACTORY_DEF $(RASTER_CLIPPER_IN) RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    PRESERVE_CLIPPEE_EXTENTS NO    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
 FACTORY_DEF * ClippingFactory    FACTORY_NAME Clipper_Vector    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForVector___    INPUT CLIPPEE FEATURE_TYPE Clipper___VectorOrSolidClippees___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    DO_NOT_AGGREGATE YES    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    MODE COMPLETE    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT OUTSIDE_NO_CLIPPER FEATURE_TYPE Clipper___ClippeeForSolid___    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")    OUTPUT NONPOLY_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917352 Clipper")
 FACTORY_DEF * SolidIntersectionFactory    FACTORY_NAME Clipper_Solid    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForSolid___    INPUT CLIPPEE FEATURE_TYPE Clipper___ClippeeForSolid___    MULTICLIP YES    CLIPPEE_ON_BOUNDARY INSIDE    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    DO_NOT_AGGREGATE YES    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER   FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
@@ -4346,7 +4429,7 @@ Tcl2 proc Reprojector_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE Clipper_INSIDE    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Tcl2("Reprojector_warnIfSourceIgnored {$(Reprojector_SOURCE)}")         @Reproject($(Reprojector_SOURCE),"@EvaluateExpression(FDIV,STRING,$(DESTCOORDSYS),Reprojector)",NearestNeighbor,PreserveCells)
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Reprojector_REPROJECTED ATTR sosifile "FME_CONDITIONAL:DEFAULT_VALUE'planomriss_$(OUTPUT_EPSG_CODE$encode)'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST $(FANOUT$encode) LIKE Kommuner'planomriss_<at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen>_$(OUTPUT_EPSG_CODE$encode)'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST $(FANOUT$encode) LIKE Fylker'planomriss_<at>PadLeft<openparen><at>Value<openparen>fylkeid<closeparen><comma>2<comma>0<closeparen>_$(OUTPUT_EPSG_CODE$encode)'FME_NUM_CONDITIONS3___" ATTR komm <at>PadLeft<openparen><at>Value<openparen>komm<closeparen><comma>4<comma>0<closeparen> ATTR opprinneligadministrativenhet "FME_CONDITIONAL:DEFAULT_VALUE'<at>PadLeft<openparen><at>Value<openparen>opprinneligadministrativenhet<closeparen><comma>4<comma>0<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST opprinneligadministrativenhet ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_'FME_NULL_VALUE'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Reprojector_REPROJECTED ATTR sosifile "FME_CONDITIONAL:DEFAULT_VALUE'$(SOSI_FILE$encode)_$(OUTPUT_EPSG_CODE$encode)'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST $(FANOUT$encode) LIKE Kommuner'$(SOSI_FILE$encode)_<at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen>_$(OUTPUT_EPSG_CODE$encode)'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST $(FANOUT$encode) LIKE Fylker'$(SOSI_FILE$encode)_<at>PadLeft<openparen><at>Value<openparen>fylkeid<closeparen><comma>2<comma>0<closeparen>_$(OUTPUT_EPSG_CODE$encode)'FME_NUM_CONDITIONS3___" ATTR komm <at>PadLeft<openparen><at>Value<openparen>komm<closeparen><comma>4<comma>0<closeparen> ATTR opprinneligadministrativenhet "FME_CONDITIONAL:DEFAULT_VALUE'<at>PadLeft<openparen><at>Value<openparen>opprinneligadministrativenhet<closeparen><comma>4<comma>0<closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST opprinneligadministrativenhet ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_'FME_NULL_VALUE'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
 # -------------------------------------------------------------------------
 Lookup FeatureTypeFilter_Lut   planomriss.kpomrade ok   planomriss.kpgrense ok   planomriss.rpomrade ok   planomriss.rpgrense ok   "" notok   ENCODED
 
@@ -4383,7 +4466,7 @@ FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_4    INPUT REFERENC
 
 DEFAULT_MACRO Aggregator_3_BREAK_ATTR
 
-FACTORY_DEF * AggregateFactory    FACTORY_NAME Aggregator_3    INPUT  FEATURE_TYPE FeatureTypeFilter_planomriss.rpomrade_0_sEY57Mxr0yo=    MODE ONE_LEVEL    $(Aggregator_3_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES Never    CONCATENATE_FIELDS objid    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_3_AGGREGATE
+FACTORY_DEF * AggregateFactory    FACTORY_NAME Aggregator_3    INPUT  FEATURE_TYPE FeatureTypeFilter_planomriss.rpomrade_1_sEY57Mxr0yo=    MODE ONE_LEVEL    $(Aggregator_3_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES Never    CONCATENATE_FIELDS objid    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_3_AGGREGATE
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Aggregator_3_AGGREGATE ATTR sql select<space>*<space>from<space>planomriss.sosi_objekt_planomrade_rp<space>where<space>objid<space>in<space><openparen><at>Value<openparen>objid<closeparen><closeparen><semicolon>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
@@ -4397,7 +4480,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 INITIATOR Output Nuker"  
 
 INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_3_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_3_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
 
-FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_3    INPUT REFERENCER FEATURE_TYPE FeatureTypeFilter_planomriss.rpomrade_1_sEY57Mxr0yo=    INPUT REFERENCEE FEATURE_TYPE SQLExecutor_3_RESULT    REFERENCE_INFO $(FeatureMerger_3_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>objid<closeparen>,FeatureMerger_3) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>rpomrade_fk<closeparen>,FeatureMerger_3) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_3_MERGED
+FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_3    INPUT REFERENCER FEATURE_TYPE FeatureTypeFilter_planomriss.rpomrade_0_sEY57Mxr0yo=    INPUT REFERENCEE FEATURE_TYPE SQLExecutor_3_RESULT    REFERENCE_INFO $(FeatureMerger_3_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>objid<closeparen>,FeatureMerger_3) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>rpomrade_fk<closeparen>,FeatureMerger_3) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_3_MERGED
 
 # -------------------------------------------------------------------------
 
