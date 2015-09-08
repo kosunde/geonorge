@@ -3,6 +3,7 @@ select kpgrense.objtype,
     kpgrense.grense,
     sosi_objekt_planlinjer_kp.forstedigitaliseringsdato,
     sosi_objekt_planlinjer_kp.noyaktighet,
+    sosi_objekt_planlinjer_kp.malemetode,
     sosi_objekt_planlinjer_kp.synbarhet,
     sosi_objekt_planlinjer_kp.oppdateringsdato
    from planomriss.kpgrense

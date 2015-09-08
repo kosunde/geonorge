@@ -3,6 +3,7 @@ select rpgrense.objtype,
     rpgrense.grense,
     sosi_objekt_planlinjer_rp.forstedigitaliseringsdato,
     sosi_objekt_planlinjer_rp.noyaktighet,
+    sosi_objekt_planlinjer_rp.malemetode,
     sosi_objekt_planlinjer_rp.synbarhet,
     sosi_objekt_planlinjer_rp.oppdateringsdato
    from planomriss.rpgrense
