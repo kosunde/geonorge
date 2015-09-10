@@ -1,0 +1,28 @@
+﻿create or replace view planomriss.v_rpomrade as
+select rpomrade.objtype,
+    rpomrade.landkode,
+    rpomrade.fylkesnr,
+    rpomrade.komm,
+    rpomrade.planid,
+    rpomrade.forslagsstillertype,
+    rpomrade.gjennomforingsfrist,
+    rpomrade.ikrafttredelsesdato,
+    rpomrade.kunngjoringsdato,
+    rpomrade.lovreferanse,
+    rpomrade.lovreferansebeskrivelse,
+    rpomrade.opprinneligadministrativenhet,
+    rpomrade.opprinneligplanid,
+    rpomrade.planbestemmelse,
+    rpomrade.plannavn,
+    rpomrade.planstatus,
+    rpomrade.plantype,
+    rpomrade.vedtakendeligplandato,
+    rpomrade.vertikalniva,
+    rpomrade.omrade,
+    sosi_objekt_planomrade_rp.forstedigitaliseringsdato,
+    sosi_objekt_planomrade_rp.informasjon,
+    sosi_objekt_planomrade_rp.link,
+    sosi_objekt_planomrade_rp.oppdateringsdato,
+    sosi_objekt_planomrade_rp.prosess_historie
+   from planomriss.rpomrade
+     join planomriss.sosi_objekt_planomrade_rp on rpomrade.objid = sosi_objekt_planomrade_rp.rpomrade_fk;

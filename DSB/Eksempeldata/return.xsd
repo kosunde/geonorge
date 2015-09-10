@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:app="http://www.safe.com/gml/fme" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+	<import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<element name="dsb.sentraldistrikter110" type="app:dsb.sentraldistrikter110Type" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="dsb.sentraldistrikter110Type">
+		<complexContent>
+			<extension base="gml:AbstractFeatureType">
+				<sequence>
+					<element name="lokalid" minOccurs="0" type="string"/>
+					<element name="navnerom" minOccurs="0" type="string"/>
+					<element name="versjonid" minOccurs="0">
+						<simpleType>
+							<restriction base="string">
+								<maxLength value="2"/>
+							</restriction>
+						</simpleType>
+					</element>
+					<element name="msgeometry" minOccurs="0" type="string"/>
+					<element name="poly_" minOccurs="0" type="string"/>
+					<element name="poly_id" minOccurs="0" type="string"/>
+					<element name="area" minOccurs="0" type="string"/>
+					<element name="perimeter" minOccurs="0" type="string"/>
+					<element name="oppr" minOccurs="0" type="string"/>
+					<element name="x" minOccurs="0" type="double"/>
+					<element name="y" minOccurs="0" type="double"/>
+					<element name="koordh" minOccurs="0" type="string"/>
+					<element name="sentral" minOccurs="0" type="string"/>
+					<element name="lokalisering" minOccurs="0" type="string"/>
+					<element name="opphav" minOccurs="0" type="string"/>
+					<element name="omradeid" minOccurs="0" type="long"/>
+					<element name="originaldatavert" minOccurs="0" type="string"/>
+					<element name="kopidato" minOccurs="0">
+						<simpleType>
+							<restriction base="string">
+								<maxLength value="20"/>
+							</restriction>
+						</simpleType>
+					</element>
+					<element name="malemetode" minOccurs="0" type="string"/>
+					<element name="noyaktighet" minOccurs="0" type="long"/>
+					<element name="synbarhet" minOccurs="0" type="string"/>
+					<element name="h_malemetode" minOccurs="0" type="string"/>
+					<element name="h_noyaktig" minOccurs="0" type="string"/>
+					<element name="max_avvik" minOccurs="0" type="string"/>
+					<element name="objtype" minOccurs="0" type="string"/>
+					<element name="navn" minOccurs="0" type="string"/>
+					<element name="datafangstdato" minOccurs="0">
+						<simpleType>
+							<restriction base="string">
+								<maxLength value="8"/>
+							</restriction>
+						</simpleType>
+					</element>
+					<element name="objid" minOccurs="0" type="int"/>
+					<element ref="gml:surfaceProperty" minOccurs="0"/>
+					<element ref="gml:multiSurfaceProperty" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="dsb.sentraldistrikter110grense" type="app:dsb.sentraldistrikter110grenseType" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="dsb.sentraldistrikter110grenseType">
+		<complexContent>
+			<extension base="gml:AbstractFeatureType">
+				<sequence>
+					<element name="objtype" minOccurs="0">
+						<simpleType>
+							<restriction base="string">
+								<maxLength value="32"/>
+							</restriction>
+						</simpleType>
+					</element>
+					<element name="objid" minOccurs="0" type="int"/>
+					<element name="avgrensningfk" minOccurs="0" type="int"/>
+					<element name="avgrensningfk2" minOccurs="0" type="int"/>
+					<element ref="gml:curveProperty" minOccurs="0"/>
+					<element ref="gml:multiCurveProperty" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+</schema>

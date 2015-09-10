@@ -1,0 +1,1 @@
+"C:\Program Files\FME\fme.exe" \\nnrite507\geodata\Jobs\Planomriss_sosi2postgis\Planomriss_sosi2postgis.fmw

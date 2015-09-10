@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+	    <FeatureClass InputName="KpOmrade">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+		    <Field InputName="landkode" InputType="T2" OutputName="NASJONALAREALPLANID\LANDKODE" OutputType="T2"/>			
+		    <Field InputName="fylkesnr" InputType="H2" OutputName="NASJONALAREALPLANID\FYLKESNR" OutputType="H2"/>			
+		    <Field InputName="komm" InputType="T4" OutputName="NASJONALAREALPLANID\KOMM" OutputType="T4"/>			
+		    <Field InputName="planid" InputType="T16" OutputName="NASJONALAREALPLANID\PLANID" OutputType="T16"/>									
+            <Field InputName="ikrafttredelsesdato" InputType="DATO" OutputName="IKRAFT" OutputType="DATO"/>
+			<Field InputName="kunngjoringsdato" InputType="DATO" OutputName="KUNNGJØRINGSDATO" OutputType="DATO"/>
+			<Field InputName="lovreferanse" InputType="H1" OutputName="LOVREFERANSE" OutputType="H1"/>
+			<Field InputName="lovreferansebeskrivelse" InputType="T255" OutputName="LOVREFBESKRIVELSE" OutputType="T255"/>
+			<Field InputName="opprinneligadministrativenhet" InputType="T4" OutputName="OPPRINNELIGADMINISTRATIVENHET" OutputType="T4"/>
+			<Field InputName="opprinneligplanid" InputType="T16" OutputName="OPPRINNELIGPLANID" OutputType="T4"/>
+			<Field InputName="planbestemmelse" InputType="H1" OutputName="PLANBEST" OutputType="H1"/>			
+			<Field InputName="plannavn" InputType="T255" OutputName="PLANNAVN" OutputType="T255"/>				
+			<Field InputName="planstatus" InputType="H1" OutputName="PLANSTAT" OutputType="H1"/>	
+			<Field InputName="plantype" InputType="H2" OutputName="PLANTYPE" OutputType="H2"/>
+			<Field InputName="vedtakendeligplandato" InputType="DATO" OutputName="VEDTAKENDELIGPLANDATO" OutputType="DATO"/>
+			<Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>			
+			<Field InputName="informasjon" InputType="T255" OutputName="INFORMASJON" OutputType="T255"/>
+			<Field InputName="link" InputType="T255" OutputName="LINK" OutputType="T255"/>
+			<Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>			
+			<Field InputName="prosess_historie" InputType="T255" OutputName="PROSESS_HISTORIE" OutputType="T255"/>						
+        </FeatureClass>
+        <FeatureClass InputName="KpGrense">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+			<Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>			
+			<Field InputName="malemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+			<Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+			<Field InputName="noyaktighet" InputType="H6" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+			<Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>	
+		</FeatureClass>
+	    <FeatureClass InputName="RpOmrade">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+		    <Field InputName="landkode" InputType="T2" OutputName="NASJONALAREALPLANID\LANDKODE" OutputType="T2"/>			
+		    <Field InputName="fylkesnr" InputType="H2" OutputName="NASJONALAREALPLANID\FYLKESNR" OutputType="H2"/>			
+		    <Field InputName="komm" InputType="T4" OutputName="NASJONALAREALPLANID\KOMM" OutputType="T4"/>			
+		    <Field InputName="planid" InputType="T16" OutputName="NASJONALAREALPLANID\PLANID" OutputType="T16"/>
+			<Field InputName="forslagsstillertype" InputType="H1" OutputName="FORSLAGSSTILLERTYPE" OutputType="H1"/>			
+			<Field InputName="gjennomforingsfrist" InputType="DATO" OutputName="OPPDATERINGSDATO" OutputType="DATO"/>
+            <Field InputName="ikrafttredelsesdato" InputType="DATO" OutputName="IKRAFT" OutputType="DATO"/>
+			<Field InputName="kunngjoringsdato" InputType="DATO" OutputName="KUNNGJØRINGSDATO" OutputType="DATO"/>
+			<Field InputName="lovreferanse" InputType="H1" OutputName="LOVREFERANSE" OutputType="H1"/>
+			<Field InputName="lovreferansebeskrivelse" InputType="T255" OutputName="LOVREFBESKRIVELSE" OutputType="T255"/>
+			<Field InputName="opprinneligadministrativenhet" InputType="T4" OutputName="OPPRINNELIGADMINISTRATIVENHET" OutputType="T4"/>
+			<Field InputName="opprinneligplanid" InputType="T16" OutputName="OPPRINNELIGPLANID" OutputType="T4"/>
+			<Field InputName="planbestemmelse" InputType="H1" OutputName="PLANBEST" OutputType="H1"/>			
+			<Field InputName="plannavn" InputType="T255" OutputName="PLANNAVN" OutputType="T255"/>				
+			<Field InputName="planstatus" InputType="H1" OutputName="PLANSTAT" OutputType="H1"/>	
+			<Field InputName="plantype" InputType="H2" OutputName="PLANTYPE" OutputType="H2"/>
+			<Field InputName="vedtakendeligplandato" InputType="DATO" OutputName="VEDTAKENDELIGPLANDATO" OutputType="DATO"/>
+			<Field InputName="vertikalniva" InputType="H1" OutputName="VERTNIV" OutputType="H1"/>					
+			<Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>			
+			<Field InputName="informasjon" InputType="T255" OutputName="INFORMASJON" OutputType="T255"/>
+			<Field InputName="link" InputType="T255" OutputName="LINK" OutputType="T255"/>
+			<Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>			
+			<Field InputName="prosess_historie" InputType="T255" OutputName="PROSESS_HISTORIE" OutputType="T255"/>						
+        </FeatureClass>
+        <FeatureClass InputName="RpGrense">
+			<Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32"/>
+			<Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>			
+			<Field InputName="malemetode" InputType="H2" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+			<Field InputName="synbarhet" InputType="H2" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+			<Field InputName="noyaktighet" InputType="H6" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+			<Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>	
+		</FeatureClass>		
+    </Mapping>
+</GeoSOSI>

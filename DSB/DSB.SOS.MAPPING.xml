@@ -8,7 +8,6 @@
             <Field InputName="ajourdato" InputType="DATO" OutputName="AJOURDATO" OutputType="DATO" UserDefined="true"/>
             <Field InputName="anleggid" InputType="T255" OutputName="ANLEGGID" OutputType="T255" UserDefined="true"/>
             <Field InputName="brannstasjon" InputType="T255" OutputName="BRANNSTASJON" OutputType="T255" UserDefined="true"/>
-            <Field InputName="brannsta_" InputType="T255" OutputName="BRANNSTA_" OutputType="T255" UserDefined="true"/>
             <Field InputName="brannvesen" InputType="T255" OutputName="BRANNVESEN" OutputType="T255" UserDefined="true"/>			
             <Field InputName="dato" InputType="DATO" OutputName="DATO" OutputType="DATO" UserDefined="true"/>
             <Field InputName="informasjon" InputType="T255" OutputName="INFORMASJON" OutputType="T255"/>
@@ -21,6 +20,8 @@
             <Field InputName="opphav" InputType="T255" OutputName="OPPHAV" OutputType="T255"/>
             <Field InputName="stasjonstype" InputType="T255" OutputName="STASJONSTYPE" OutputType="T1"/>
         </FeatureClass>
+        <FeatureClass InputName="dsb.sentraldistrikter110grense"/>
+        <FeatureClass InputName="dsb.sivilforsvarsdistriktgrense"/>
         <FeatureClass InputName="dsb.sentraldistrikter110">
             <Field InputName="lokalid" InputType="T255" OutputName="ADMINISTRASJONSSENTER\IDENT\LOKALID" OutputType="T100"/>
             <Field InputName="navnerom" InputType="T255" OutputName="ADMINISTRASJONSSENTER\IDENT\NAVNEROM" OutputType="T100"/>
