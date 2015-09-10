@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Last ned XSL stylesheet og legg på samme katalog som XML-fila for visning med en nettleser lokalt -->
+<!-- Link: http://www.kartverket.no/metadata/temadata/temadata.xsl -->
+<?xml-stylesheet type="text/xsl" href="temadata.xsl"?>
+<metadata>
+	<dataIdInfo>
+		<geoBox>
+			<westBL>4.9530</westBL>
+			<eastBL>32.2913</eastBL>
+			<northBL>70.9624</northBL>
+			<southBL>57.5759</southBL>
+		</geoBox>
+		<idCitation>
+         <resTitle>Sivilforsvarets lokaliteter og distrikter i Norge  </resTitle>
+			<citRespParty>
+				<role>
+					<RoleCd value="002"/>
+				</role>
+				<rpOrgName>Statens kartverk</rpOrgName>
+				<rpIndName/>
+				<rpCntInfo>
+					<cntAddress>
+                  <eMailAdd>post@norgedigitalt.no</eMailAdd>
+						<delPoint>Kartverksveien 17</delPoint>
+						<city>Hønefoss</city>
+						<adminArea>Buskerud</adminArea>
+						<postCode>3517</postCode>
+						<country>Norge</country>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum>+4732118100</voiceNum>
+						<faxNum/>
+					</cntPhone>
+				</rpCntInfo>
+			</citRespParty>
+         
+                  <!-- Eier -->
+         
+         <citRespParty>
+            <role>
+               <RoleCd value="003"/>
+            </role>
+            <rpOrgName>Direktoratet for samfunnssikkerhet og beredskap</rpOrgName>
+            <rpIndName/>
+            <rpCntInfo>
+               <cntAddress>
+                  <eMailAdd>postmottak@dsb.no</eMailAdd>
+                  <delPoint>Rambergvegen 9,</delPoint>
+                  <city>Tønsberg</city>
+                  <adminArea></adminArea>
+                  <postCode>3115</postCode>
+                  <country>Norge</country>
+               </cntAddress>
+               <cntPhone>
+                  <voiceNum>+4733310660</voiceNum>
+                  <faxNum/>
+               </cntPhone>
+            </rpCntInfo>
+         </citRespParty>
+      
+                  <!-- Eier slutt -->         
+         
+			<presForm>
+				<PresFormCd value="005">005</PresFormCd>
+			</presForm>
+			<resEd>2006</resEd>
+			<resRefDate><!-- Data mottatt fra part -->
+				<refDate>20140619</refDate>
+				<refDateType>
+					<DateTypCd value="002"/>
+				</refDateType>
+			</resRefDate>
+		</idCitation>
+      <idAbs>Datasettet viser sivilforsvarets lokalisering og distriktsinndeling</idAbs>
+		<idPurp>Datasettet benyttes som grunnlag for planlegging av krisehåndtering og beredskap.</idPurp>
+		<suppInfo>Datasettet legges ut som en nasjonal fil i Norge digitalt nedlastingsløsning når datasettet endres.</suppInfo>
+		<tpCat>
+			<TopicCatCd value="010">010</TopicCatCd>
+		</tpCat>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="008">008</MaintFreqCd>
+			</maintFreq>
+		</resMaint>
+		<resConst>
+			<LegConsts>
+				<accessConsts>
+					<RestrictCd value="005">005</RestrictCd>
+				</accessConsts>
+				<useConsts>
+					<RestrictCd value="005">005</RestrictCd>
+				</useConsts>
+				<othConsts>Nedlasting av data er begrenset til Norge Digitalt avtaleparter. For bestillinger og forespørsler kontakt Norsk Eiendomsinformasjon AS</othConsts>
+			</LegConsts>
+		</resConst>
+		<dataScale>
+			<equScale>
+				<rfDenom>500</rfDenom>
+			</equScale>
+		</dataScale>
+		<descKeys>
+			<keyTyp>
+				<KeyTypCd value="005"/>
+			</keyTyp>
+			<keyword>Sivilforsvaret</keyword>
+			<keyword>Distrikter</keyword>
+			<keyword>Samfunnssikkerhet</keyword>
+			<keyword>Beredskap</keyword>
+			<keyword>Temadata</keyword>
+			<thesaName>
+				<resTitle/>
+			</thesaName>
+		</descKeys>
+		<descKeys>
+			<keyTyp>
+				<KeyTypCd value="002"/>
+			</keyTyp>
+			<keyword>Norge</keyword>
+			<keyword>Nasjonalt</keyword>
+			<thesaName>
+				<resTitle/>
+			</thesaName>
+		</descKeys>
+		<dataExt>
+			<geoEle>
+				<GeoDesc>
+					<exTypeCode>1</exTypeCode>
+					<geoId>
+						<identCode>0000</identCode>
+					</geoId>
+				</GeoDesc>
+			</geoEle>
+			<exDesc/>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_GeometricPrimitive>
+							<TM_Period>
+								<begin></begin>
+								<end></end>
+							</TM_Period>
+						</TM_GeometricPrimitive>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+		</dataExt>
+		<idStatus>
+			<ProgCd value="004">004</ProgCd>
+		</idStatus>
+		<graphOver>
+			<bgFileName>SLD0000.PNG</bgFileName>
+			<bgFileDesc>Dekningskart: Rasterbildet viser utbredelsen av sivilforsvarets lokaliteter og distrikter i Norge  </bgFileDesc>
+			<bgFileType>PNG</bgFileType>
+		</graphOver>
+		<spatRpType>
+			<SpatRepTypCd value="001">001</SpatRepTypCd>
+		</spatRpType>
+	</dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorCont>
+				<rpIndName/>
+				<rpOrgName>Norge digitalt v/Statens kartverk</rpOrgName>
+				<rpCntInfo>
+					<cntAddress>
+						<eMailAdd>post@norgedigitalt.no</eMailAdd>
+						<delPoint/>
+						<city/>
+						<adminArea/>
+						<postCode/>
+						<country/>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum>+4732118100</voiceNum>
+						<faxNum/>
+					</cntPhone>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="005"/>
+				</role>
+			</distorCont>
+			<distorTran>
+				<onLineSrc>
+					<orDesc>Norge digitalt nedlastingsside</orDesc>
+					<linkage>https://download.geonorge.no/skdl2</linkage>
+				</onLineSrc>
+				<transSize>0,45</transSize>
+			</distorTran>
+			<distorOrdPrc>
+				<resFees/>
+			</distorOrdPrc>
+			<distorFormat><!-- Sosiversjon -->
+				<formatName>?</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<mdContact>
+		<rpOrgName>Statens kartverk</rpOrgName>
+		<rpIndName>Arvid Lillethun</rpIndName>
+		<rpCntInfo>
+			<cntAddress>
+				<eMailAdd>arvid.lillethun@statkart.no</eMailAdd>
+				<delPoint>Kartverksveien 17</delPoint>
+				<city>Hønefoss</city>
+				<adminArea>Buskerud</adminArea>
+				<postCode>3517</postCode>
+				<country>Norge</country>
+			</cntAddress>
+			<cntPhone>
+				<voiceNum>+4732118100</voiceNum>
+				<faxNum/>
+			</cntPhone>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<mdDateSt>20140624</mdDateSt>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>UTM sone 33 basert på EUREF89/WGS84</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="004"/>
+			</topLvl>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="004"/>
+				</geoObjTyp>
+				<geoObjCnt/>
+			</geometObjs>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="006"/>
+				</geoObjTyp>
+				<geoObjCnt/>
+			</geometObjs>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="003"/>
+				</geoObjTyp>
+				<geoObjCnt/>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<dqInfo>
+		<dqReport>
+			<DQCompOm>
+				<measName>FxTell</measName>
+				<measDesc>Teller alle objekttyper og egenskaper i datasettet</measDesc>
+				<!-- Produksjonsdato -->
+            <measDateTm>20140619</measDateTm>
+				<measResult>
+					<ConResult>
+						<conSpec>
+							<resTitle>SLD230000.txt</resTitle>
+						</conSpec>
+						<conExpl/>
+						<conPass>1</conPass>
+					</ConResult>
+				</measResult>
+			</DQCompOm>
+		</dqReport>
+	</dqInfo>
+	<contInfo>
+		<FetCatDesc>
+			<catLang>
+				<languageCode value="no"/>
+				<!-- norsk -->
+			</catLang>
+			<incWithDS>0</incWithDS>
+			<catFetTyps/>
+			<catCitation>
+				<resTitle></resTitle>
+				<linkage></linkage>
+				<resAltTitle/>
+				<resRefDate>
+					<refDate></refDate>
+					<refDateType>
+						<DateTypCd value="002"/>
+					</refDateType>
+				</resRefDate>
+				<resEd>4.0</resEd>
+				<citRespParty/>
+				<presForm>
+					<PresFormCd value="001"/>
+					<!-- digitaltDokument -->
+				</presForm>
+               <!-- Link til prod spekk -->
+				<otherCitDet>?</otherCitDet>
+			</catCitation>
+		</FetCatDesc>
+	</contInfo>
+	<mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer>DIS</mdStanVer>
+	<Esri>
+		<resourceType>002</resourceType>
+	</Esri>
+</metadata>

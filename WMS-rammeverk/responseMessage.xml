@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WMT_MS_Capabilities updateSequence="0" version="1.1.1">
+	<Service>
+		<Name>OGC:WMS</Name>
+		<Title>WMS Service Compliant with OGC WMS Specification Version 1.1.1</Title>
+		<Abstract>An OGC WMS Service hosted by Safe Software's FME Server.</Abstract>
+		<OnlineResource xlink:href="http://www.safe.com" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+		<Fees>none</Fees>
+		<AccessConstraints>none</AccessConstraints>
+	</Service>
+	<Capability>
+		<Request>
+			<GetCapabilities>
+				<Format>application/vnd.ogc.wms_xml</Format>
+				<DCPType>
+					<HTTP>
+						<Get>
+							<OnlineResource xlink:href="http://localhost:8080/fmedatastreaming/INSPIRE/INSPIRE_WMS.fmw" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+						</Get>
+						<Post>
+							<OnlineResource xlink:href="http://localhost:8080/fmedatastreaming/INSPIRE/INSPIRE_WMS.fmw" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+						</Post>
+					</HTTP>
+				</DCPType>
+			</GetCapabilities>
+			<GetMap>
+				<Format>image/gif</Format>
+				<Format>image/png</Format>
+				<Format>image/jpeg</Format>
+				<Format>image/svg+xml</Format>
+				<DCPType>
+					<HTTP>
+						<Get> 
+							<OnlineResource xlink:href="http://localhost:8080/fmedatastreaming/INSPIRE/INSPIRE_WMS_GetMap_png.fmw" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+						</Get>
+						<Post>
+							<OnlineResource xlink:href="http://localhost:8080/fmedatastreaming/INSPIRE/INSPIRE_WMS_GetMap_png.fmw" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+						</Post>
+					</HTTP>
+				</DCPType>
+			</GetMap>
+			<GetFeatureInfo>
+				<Format>text/xml</Format>
+				<Format>application/json</Format>
+				<Format>text/plain</Format>
+				<DCPType>
+					<HTTP>
+						<Get>
+							<OnlineResource xlink:href="http://localhost:8080/fmedatastreaming/INSPIRE/INSPIRE_WMS.fmw" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+						</Get>
+						<Post>
+							<OnlineResource xlink:href="http://localhost:8080/fmedatastreaming/INSPIRE/INSPIRE_WMS.fmw" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+						</Post>
+					</HTTP>
+				</DCPType>
+			</GetFeatureInfo>
+		</Request>
+		<Exception>
+			<Format>application/vnd.ogc.se_xml</Format>
+		</Exception>
+		<Layer>
+			<Title>INSPIRE_WMS.fmw</Title>
+			<SRS>EPSG:4326</SRS>
+			<LatLonBoundingBox maxx="180" maxy="90" minx="-180" miny="-90"/>
+			<Layer>
+				<Name>NamedPlace</Name>
+				<Title>NamedPlace</Title>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox maxx="180" maxy="90" minx="-180" miny="-90"/>
+			</Layer>
+			<Layer>
+				<Name>CadastralParcel</Name>
+				<Title>CadastralParcel</Title>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox maxx="180" maxy="90" minx="-180" miny="-90"/>
+			</Layer>
+		</Layer>
+	</Capability>
+</WMT_MS_Capabilities>

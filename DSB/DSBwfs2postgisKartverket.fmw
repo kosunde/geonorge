@@ -6,60 +6,58 @@
 #    
 #    
 #    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\DSB\DSBwfs2postgisKartverket.fmw
-#          --SourceDataset_WFS "http://kart.dsb.no/wfs.aspx?service=wfs&request=getcapabilities"
-#          --DestDataset_POSTGIS_2 "geonor01tst"
 #    
 #    
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! SHOW_INFO_NODES="true"
-#! PASSWORD=""
-#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! REQUIREMENTS_KEYWORD="none"
+#! END_PYTHON=""
+#! LOG_MAX_PRECISION="Yes"
 #! FME_BUILD_NUM="15515"
-#! LAST_SAVE_DATE="2015-08-21T14:58:09"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! REDIRECT_TERMINATORS="NONE"
-#! VIEW_POSITION="-444.004 507.005"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! REQUIREMENTS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! IGNORE_READER_FAILURE="No"
-#! ATTR_TYPE_ENCODING="SDF"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! DESTINATION="NONE"
-#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! FME_SERVER_SERVICES=""
 #! WORKSPACE_VERSION="1"
-#! FME_DOCUMENT_GUID="0a9649cd-59a4-4bbd-83c1-6be8ff55680f"
-#! DESCRIPTION="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! BEGIN_TCL=""
-#! BEGIN_PYTHON=""
+#! REQUIREMENTS_KEYWORD="none"
+#! HISTORY=""
+#! PASSWORD=""
+#! FME_REPROJECTION_ENGINE="FME"
 #! LOG_FILE=""
-#! ZOOM_SCALE="100"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! REDIRECT_TERMINATORS="NONE"
+#! SOURCE_ROUTING_FILE=""
+#! IGNORE_READER_FAILURE="No"
+#! SOURCE="NONE"
+#! REQUIREMENTS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! END_TCL=""
+#! DOC_EXTENTS="5412.75 3267.3"
+#! ATTR_TYPE_ENCODING="SDF"
+#! TITLE="DSB WFS til DSB PostGIS etter SOSI standard"
+#! BEGIN_PYTHON=""
+#! FME_STROKE_MAX_DEVIATION="0"
+#! FME_DOCUMENT_GUID="70bf3de4-1dc7-415b-8541-4a4ea0188342"
+#! LAST_SAVE_DATE="2015-09-07T08:50:48"
+#! ZOOM_SCALE="65"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
 #! CATEGORY=""
 #! MAX_LOG_FEATURES="200"
-#! FME_DOCUMENT_PRIORGUID="bc840ad2-7a25-4e5f-87bd-9af6db56ca86,075147b0-383d-4d81-b321-027d2a9349e9,b69110db-a1bc-41e5-a95c-5f7d3ef3e01c,74327959-8cc8-4117-8a24-9c886a87e7a8,bbe403f5-b05e-4fe4-bfc1-93470b94ec1f,6889cfc4-038f-4f0b-98fb-d6fe3dc76487,1314bcb0-412f-4a70-b79c-f5e1114fe3a3,18344244-59b5-4525-8dfc-bee29ca2e6b3"
-#! SOURCE="NONE"
-#! DESTINATION_ROUTING_FILE=""
-#! SHOW_ANNOTATIONS="true"
-#! FME_SERVER_SERVICES=""
-#! HISTORY=""
-#! DOC_TOP_LEFT="-509.006 -1906.01"
+#! VIEW_POSITION="-512.313 -120.001"
+#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
 #! FME_GEOMETRY_HANDLING="Enhanced"
-#! SOURCE_ROUTING_FILE=""
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! DOC_EXTENTS="3919.04 2282.03"
-#! LOG_MAX_PRECISION="Yes"
-#! FME_REPROJECTION_ENGINE="FME"
-#! TITLE="DSB WFS til DSB PostGIS etter SOSI standard"
-#! END_TCL=""
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! END_PYTHON=""
+#! DOC_TOP_LEFT="-412.004 -2605.57"
+#! SHOW_INFO_NODES="true"
+#! DESTINATION="NONE"
+#! FME_DOCUMENT_PRIORGUID="bc840ad2-7a25-4e5f-87bd-9af6db56ca86,075147b0-383d-4d81-b321-027d2a9349e9,b69110db-a1bc-41e5-a95c-5f7d3ef3e01c,74327959-8cc8-4117-8a24-9c886a87e7a8,bbe403f5-b05e-4fe4-bfc1-93470b94ec1f,6889cfc4-038f-4f0b-98fb-d6fe3dc76487,1314bcb0-412f-4a70-b79c-f5e1114fe3a3,18344244-59b5-4525-8dfc-bee29ca2e6b3,86572006-6539-46f3-8684-a82423746fee,00adc3ac-9f2d-46bf-8343-a5891525d593,4b1f83f8-88cd-41b7-9d85-fd874eda098f,1461c30c-600e-48de-889a-3b915e51ab0f,0d45e3bc-a265-4963-bef7-d1ba9efe0d57,674ac374-19c8-42d2-8d44-156875af1a91,388701c6-0b28-430e-a90f-427507038631,5c9ab98c-1168-454f-b287-11d1466ae8bb,4c6c4766-a3c2-4860-a060-5029444a6fcd"
+#! SHOW_ANNOTATIONS="true"
+#! DESTINATION_ROUTING_FILE=""
+#! DESCRIPTION="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! BEGIN_TCL=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #! >
 #! <DATASETS>
 #! <DATASET
 #! IS_SOURCE="true"
 #! ROLE="READER"
 #! FORMAT="WFS"
-#! DATASET="$(SourceDataset_WFS)"
+#! DATASET="$(WFS_IN)"
 #! KEYWORD="WFS_1"
 #! MULTI_GEOM_ALLOWED="false"
 #! ATTR_MAX_LENGTH="60"
@@ -68,7 +66,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_feature_type xml_char(50) fme_text_string xml_char(50) multi_reader_full_id xml_int32 fme_fill_color xml_char(50) fme_rotation xml_real64 fme_secondary_axis xml_real64 multi_reader_id xml_int32 multi_reader_type xml_char(50) fme_dataset xml_char(50) fme_primary_axis xml_real64 fme_start_angle xml_real64 fme_text_size xml_real64 fme_basename xml_char(50) fme_color xml_char(50) multi_reader_keyword xml_char(50) fme_geometry fme_char(50) fme_type xml_char(50) fme_sweep_angle xml_real64 xml_type xml_char(50)"
+#! EXPOSABLE_ATTRS="fme_rotation xml_real64 xml_type xml_char(50) multi_reader_id xml_int32 fme_dataset xml_char(50) fme_primary_axis xml_real64 multi_reader_type xml_char(50) fme_start_angle xml_real64 multi_reader_keyword xml_char(50) fme_type xml_char(50) fme_text_size xml_real64 fme_feature_type xml_char(50) fme_basename xml_char(50) fme_geometry fme_char(50) fme_sweep_angle xml_real64 fme_fill_color xml_char(50) multi_reader_full_id xml_int32 fme_color xml_char(50) fme_secondary_axis xml_real64 fme_text_string xml_char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -78,18 +76,14 @@
 #! DATASET_TYPE="URL"
 #! GENERATE_FME_BUILD_NUM="15244"
 #! MIN_FEATURES=""
-#! FEATURE_TYPES=""
-#! COORDSYS="EPSG:32633"
-#! START_FEATURE=""
-#! MAX_FEATURES=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! FEATURE_TYPES=""
+#! MAX_FEATURES=""
+#! START_FEATURE=""
+#! COORDSYS="EPSG:32633"
 #! >
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -100,12 +94,16 @@
 #! NAME="DATASET_NAME"
 #! VALUE="URL"
 #! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
 #! </DATASET>
 #! <DATASET
 #! IS_SOURCE="false"
 #! ROLE="WRITER"
 #! FORMAT="POSTGIS"
-#! DATASET="$(DestDataset_POSTGIS_2)"
+#! DATASET="geonor01tst"
 #! KEYWORD="POSTGIS_1"
 #! MULTI_GEOM_ALLOWED="true"
 #! ATTR_MAX_LENGTH="63"
@@ -114,7 +112,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode INHERIT_FROM_WRITER postgis_sql_key_columns &quot;&quot; postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_drop_table NO postgis_truncate_table NO postgis_create_with_oids NO postgis_create_gist_index YES postgis_vacuum_analyze NO postgis_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_feature_type char(50) fme_text_string char(50) postgis_collection_part_id int4 fme_fill_color char(50) fme_rotation float8 fme_secondary_axis float8 postgis_type char(50) fme_where char(254) fme_dataset char(50) fme_primary_axis float8 postgis_collection_id int4 fme_db_operation char(8) fme_start_angle float8 fme_text_size float8 fme_basename char(50) fme_color char(50) fme_geometry fme_char(50) fme_type char(50) fme_sweep_angle float8"
+#! EXPOSABLE_ATTRS="postgis_collection_id int4 fme_rotation float8 fme_dataset char(50) fme_primary_axis float8 fme_db_operation char(8) fme_start_angle float8 fme_type char(50) postgis_type char(50) fme_text_size float8 postgis_collection_part_id int4 fme_feature_type char(50) fme_basename char(50) fme_where char(254) fme_geometry fme_char(50) fme_sweep_angle float8 fme_fill_color char(50) fme_color char(50) fme_secondary_axis float8 fme_text_string char(50)"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgis_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgis_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgis_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgis_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgis_spatial_column_type geometry%geography Spatial Column Type&quot; geometry &quot;GUI TEXT postgis_spatial_column Spatial Column Name&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -123,23 +121,23 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15244"
-#! FANOUT="No"
-#! FANOUT_DIRECTORY=""
-#! FANOUT_ID_ATTR=""
-#! COORDSYS="EPSG:25833"
-#! FANOUT_SUFFIX=""
 #! FANOUT_PREFIX=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT_DIRECTORY=""
+#! FANOUT="No"
+#! FANOUT_SUFFIX=""
+#! COORDSYS="EPSG:4258"
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="WRITER_DATASET_HINT"
 #! VALUE="Specify the PostGIS Dataset"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -155,8 +153,8 @@
 #! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_DEFAULT_NAME"
-#! VALUE="Table1"
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -473,6 +471,12 @@
 #! FME_TYPE="fme_varchar(width)"
 #! FORMAT="POSTGIS"
 #! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="numeric(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="POSTGIS"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -770,85 +774,13 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="2"
 #! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#! POSITION="-377.005 -370.995"
-#! BOUNDING_RECT="-377.005 -370.995 -1 -1"
+#! POSITION="-320.004 -2402.57"
+#! BOUNDING_RECT="-320.004 -2402.57 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="WFS_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
-#! HIDDEN_USER_ATTRS=""
-#! MERGE_FILTER=""
-#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
-#! MERGE_FILTER_CASE_SENSITIVE="true"
-#! DYNAMIC_SCHEMA="false"
-#! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="KASERNERT" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNVESEN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ANLEGGID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="AJOURDATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="INFORMASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="OPPHAV" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="STASJONSTY" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="OBJTYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTA_" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
-#! IS_SOURCE="true"
-#! NODE_NAME="layer_395"
-#! FEATURE_TYPE_NAME=""
-#! FEATURE_TYPE_NAME_QUALIFIER=""
-#! IS_EDITABLE="false"
-#! IDENTIFIER="3"
-#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#! POSITION="-347.004 -1584.02"
-#! BOUNDING_RECT="-347.004 -1584.02 -1 -1"
-#! ORDER="5e+014"
-#! COLLAPSED="true"
-#! KEYWORD="WFS_1"
-#! PARMS_EDITED="true"
-#! ENABLED="false"
-#! HIDDEN_USER_ATTRS=""
-#! MERGE_FILTER=""
-#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
-#! MERGE_FILTER_CASE_SENSITIVE="false"
-#! DYNAMIC_SCHEMA="false"
-#! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="gml_parent_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msGeometry" ATTR_TYPE="xml_geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="KASERNERT" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNVESEN" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ANLEGGID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="AJOURDATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="INFORMASJ" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="OPPHAV" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="STASJONSTY" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="OBJTYPE" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="DATO" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="BRANNSTA_" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
-#! IS_SOURCE="true"
-#! NODE_NAME="layer_394"
-#! FEATURE_TYPE_NAME=""
-#! FEATURE_TYPE_NAME_QUALIFIER=""
-#! IS_EDITABLE="false"
-#! IDENTIFIER="4"
-#! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#! POSITION="-509.006 -1835.01"
-#! BOUNDING_RECT="-509.006 -1835.01 -1 -1"
-#! ORDER="5e+014"
-#! COLLAPSED="true"
-#! KEYWORD="WFS_1"
-#! PARMS_EDITED="true"
-#! ENABLED="false"
 #! HIDDEN_USER_ATTRS=""
 #! MERGE_FILTER=""
 #! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
@@ -876,10 +808,10 @@
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER=""
 #! IS_EDITABLE="false"
-#! IDENTIFIER="5"
+#! IDENTIFIER="3"
 #! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#! POSITION="-377.005 -111.001"
-#! BOUNDING_RECT="-377.005 -111.001 -1 -1"
+#! POSITION="-320.004 -1714.31"
+#! BOUNDING_RECT="-320.004 -1714.31 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="WFS_1"
@@ -906,10 +838,10 @@
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER=""
 #! IS_EDITABLE="false"
-#! IDENTIFIER="6"
+#! IDENTIFIER="4"
 #! FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#! POSITION="-320.004 169.005"
-#! BOUNDING_RECT="-320.004 169.005 -1 -1"
+#! POSITION="-320.004 -371.653"
+#! BOUNDING_RECT="-320.004 -371.653 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="WFS_1"
@@ -934,10 +866,10 @@
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER="dsb"
 #! IS_EDITABLE="true"
-#! IDENTIFIER="7"
+#! IDENTIFIER="5"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="2531.99 -148.997"
-#! BOUNDING_RECT="2531.99 -148.997 795.037 71"
+#! POSITION="2534.01 -1806.31"
+#! BOUNDING_RECT="2534.01 -1806.31 795.037 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
@@ -959,63 +891,16 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
-#! IS_SOURCE="false"
-#! NODE_NAME="brannstasjoner_NOTINUSE"
-#! FEATURE_TYPE_NAME=""
-#! FEATURE_TYPE_NAME_QUALIFIER=""
-#! IS_EDITABLE="true"
-#! IDENTIFIER="8"
-#! FEAT_GEOMTYPE="All"
-#! POSITION="1082.01 -1835.01"
-#! BOUNDING_RECT="1082.01 -1835.01 801.037 71"
-#! ORDER="5e+014"
-#! COLLAPSED="true"
-#! KEYWORD="POSTGIS_1"
-#! PARMS_EDITED="true"
-#! ENABLED="false"
-#! SCHEMA_ATTRIBUTE_SOURCE="1"
-#! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="varchar(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannsta_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="originalvert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1023,10 +908,10 @@
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER="dsb"
 #! IS_EDITABLE="true"
-#! IDENTIFIER="9"
+#! IDENTIFIER="6"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="2470.99 310.022"
-#! BOUNDING_RECT="2470.99 310.022 750.038 71"
+#! POSITION="4038.97 -1.76748"
+#! BOUNDING_RECT="4038.97 -1.76748 750.038 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
@@ -1061,17 +946,18 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1079,10 +965,10 @@
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER="dsb"
 #! IS_EDITABLE="true"
-#! IDENTIFIER="10"
+#! IDENTIFIER="7"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="2470.99 82.0045"
-#! BOUNDING_RECT="2470.99 82.0045 684.037 71"
+#! POSITION="4104.97 -570.001"
+#! BOUNDING_RECT="4104.97 -570.001 684.037 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
@@ -1102,63 +988,81 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
-#! NODE_NAME="dsb.brannstasjonkasernering"
+#! NODE_NAME="dsb.sentraldistrikter110grense"
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER="dsb"
 #! IS_EDITABLE="true"
-#! IDENTIFIER="11"
+#! IDENTIFIER="9"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="2213.99 -1683.02"
-#! BOUNDING_RECT="2213.99 -1683.02 1113.04 71"
+#! POSITION="4352.04 553.225"
+#! BOUNDING_RECT="4352.04 553.225 -1 -1"
 #! ORDER="5e+014"
-#! COLLAPSED="true"
+#! COLLAPSED="false"
 #! KEYWORD="POSTGIS_1"
 #! PARMS_EDITED="true"
-#! ENABLED="false"
+#! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="varchar(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannsta_" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="avgrensningfk" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="avgrensningfk2" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="false"
+#! NODE_NAME="dsb.sivilforsvarsdistriktergrense"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="dsb"
+#! IS_EDITABLE="true"
+#! IDENTIFIER="10"
+#! FEAT_GEOMTYPE="All"
+#! POSITION="4019.5 -1063.16"
+#! BOUNDING_RECT="4019.5 -1063.16 684.037 71"
+#! ORDER="5e+014"
+#! COLLAPSED="false"
+#! KEYWORD="POSTGIS_1"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1166,10 +1070,10 @@
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER="dsb"
 #! IS_EDITABLE="true"
-#! IDENTIFIER="12"
+#! IDENTIFIER="8"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="2687 -435.004"
-#! BOUNDING_RECT="2687 -435.004 723.036 71"
+#! POSITION="2855.62 -2487.38"
+#! BOUNDING_RECT="2855.62 -2487.38 723.036 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
@@ -1196,45 +1100,230 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#! NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="ADVANCED"
+#! VALUE="FME_DISCLOSURE_CLOSED"
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="FAILURE_TOPICS"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="HTTP_DATASET"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="NOTIFICATION_WRITER"
+#! VALUE=""
+#! />
+#! <PROPERTY
+#! CATEGORY="FMEUSERPROPDATA"
+#! NAME="SUCCESS_TOPICS"
+#! VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#! NAME="DSB"
+#! />
+#! <ITEM
+#! NAME="DSBwfs2postgisKartverket.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#! UID=":WBDoc:LOG_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_POSTGIS_1:FANOUT_DIRECTORY"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":DatasetMgr_WFS_1:WFS_IN_XSD_DOC_WFS_1"
+#! VALUE=""
+#! />
+#! <MODIFICATION
+#! UID=":WBDoc:SOURCE_ROUTING_FILE"
+#! VALUE=""
+#! />
+#! </MODIFICATIONS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#! GUI_LINE="GUI TEXT SourceDataset_WFS Source WFS (Web Feature Service) URL:"
-#! DEFAULT_VALUE="http://kart.dsb.no/wfs.aspx?service=wfs&amp;request=getcapabilities"
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM CONFIG_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GetConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;os&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;fmwdir&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fmwdir&lt;comma&gt;&lt;space&gt;fmwfile&lt;closeparen&gt;&lt;lf&gt;configfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;fmwfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;_config.xml&lt;apos&gt;&lt;lf&gt;print&lt;space&gt;configfile&lt;lf&gt;return&lt;space&gt;configfile"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM WFS_IN Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;wfsin&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;return&lt;space&gt;value"
 #! IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#! GUI_LINE="GUI TEXT DestDataset_POSTGIS_2 Database:"
-#! DEFAULT_VALUE="geonor01tst"
-#! IS_STAND_ALONE="false"
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_PWD Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgpwd&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#! IDENTIFIER="57"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Formaterer datofelter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="123.218 370.257"
+#! TOP_LEFT="123.218 370.257"
+#! BOTTOM_RIGHT="122.218 371.257"
+#! BOUNDING_RECT="123.218 370.257 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="11"
+#! />
+#! <COMMENT
+#! IDENTIFIER="58"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager kopidato&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="699.623 443.837"
+#! TOP_LEFT="699.623 443.837"
+#! BOTTOM_RIGHT="698.623 444.837"
+#! BOUNDING_RECT="699.623 443.837 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="12"
+#! />
+#! <COMMENT
+#! IDENTIFIER="59"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Reprojiserer til EPSG4258&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="1298.01 370.257"
+#! TOP_LEFT="1298.01 370.257"
+#! BOTTOM_RIGHT="1297.01 371.257"
+#! BOUNDING_RECT="1298.01 370.257 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="20"
+#! />
+#! <COMMENT
+#! IDENTIFIER="60"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Setter områdeID = 3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="1900.92 401.029"
+#! TOP_LEFT="1900.92 401.029"
+#! BOTTOM_RIGHT="1899.92 402.029"
+#! BOUNDING_RECT="1900.92 401.029 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="24"
+#! />
+#! <COMMENT
+#! IDENTIFIER="61"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lager avgrensningslinjer for flatene&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="2576.82 493.258"
+#! TOP_LEFT="2576.82 493.258"
+#! BOTTOM_RIGHT="2575.82 494.258"
+#! BOUNDING_RECT="2576.82 493.258 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="27"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
 #! <BOOKMARKS>
+#! <BOOKMARK
+#! IDENTIFIER="62"
+#! NAME="110-Sentraler"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="-412.004 661.725"
+#! BOTTOM_RIGHT="5000.75 -184.191"
+#! BOUNDING_RECT="-412.004 661.725 5412.75 845.916"
+#! STICKY="true"
+#! COLOUR="0.376471,0.231373,0.509804"
+#! CONTENTS="9 31 6 50 40 1 28 59 32 61 26 51 20 27 24 45 58 52 12 49 57 48 60 11 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="63"
+#! NAME="Sivilforsvarsdistrikter"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="-412.004 -263.153"
+#! BOTTOM_RIGHT="4881.01 -1309.66"
+#! BOUNDING_RECT="-412.004 -263.153 5293.01 1046.51"
+#! STICKY="true"
+#! COLOUR="0.564706,0.00784314,0.419608"
+#! CONTENTS="13 55 10 21 54 41 7 29 53 56 4 30 34 14 33 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="64"
+#! NAME="Distriktskontor"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="-412.004 -1605.81"
+#! BOTTOM_RIGHT="3421.05 -1952.31"
+#! BOUNDING_RECT="-412.004 -1605.81 3833.05 346.5"
+#! STICKY="true"
+#! COLOUR="0.74902,0.439216,0.639216"
+#! CONTENTS="3 42 15 5 38 19 43 35 37 16 22 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="65"
+#! NAME="Brannstasjoner"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="-412.004 -2294.07"
+#! BOTTOM_RIGHT="3670.66 -2605.57"
+#! BOUNDING_RECT="-412.004 -2294.07 4082.66 311.5"
+#! STICKY="true"
+#! COLOUR="0.764706,0.0784314,0.776471"
+#! CONTENTS="44 36 39 2 17 18 25 47 8 23 46 "
+#! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
 #! <TRANSFORMER
-#! IDENTIFIER="20"
+#! IDENTIFIER="11"
 #! TYPE="DateFormatter"
 #! VERSION="4"
-#! POSITION="261.002 376.022"
-#! BOUNDING_RECT="261.002 376.022 -1 -1"
+#! POSITION="201.218 247.257"
+#! BOUNDING_RECT="201.218 247.257 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1265,20 +1354,20 @@
 #! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
-#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO Date (%Y-%m-%d)"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
 #! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="DATO"/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO Date (%Y-%m-%d)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#! IDENTIFIER="23"
+#! IDENTIFIER="12"
 #! TYPE="TimeStamper"
 #! VERSION="1"
-#! POSITION="842.006 376.022"
-#! BOUNDING_RECT="842.006 376.022 -1 -1"
+#! POSITION="777.623 320.837"
+#! BOUNDING_RECT="777.623 320.837 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1310,18 +1399,18 @@
 #! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
 #! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#! IDENTIFIER="24"
+#! IDENTIFIER="13"
 #! TYPE="TimeStamper"
 #! VERSION="1"
-#! POSITION="893.005 109.005"
-#! BOUNDING_RECT="893.005 109.005 -1 -1"
+#! POSITION="893.005 -431.653"
+#! BOUNDING_RECT="893.005 -431.653 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="false"
 #! ENABLED="true"
@@ -1339,528 +1428,550 @@
 #! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_2"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
 #! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="14"
+#! TYPE="AttributeCreator"
+#! VERSION="6"
+#! POSITION="315.003 -404.653"
+#! BOUNDING_RECT="315.003 -404.653 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SIVDISTRIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="originaldatavert,DSB,objtype,Sivilforsvardistrikt,omradeid,3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="15"
+#! TYPE="TimeStamper"
+#! VERSION="1"
+#! POSITION="1358.01 -1806.31"
+#! BOUNDING_RECT="1358.01 -1806.31 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15244"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_3"/>
+#! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="16"
+#! TYPE="AttributeCreator"
+#! VERSION="6"
+#! POSITION="842.01 -1746.31"
+#! BOUNDING_RECT="842.01 -1746.31 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="originaldatavert,DSB,objtype,Distriktskontor,omradeid,3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="17"
+#! TYPE="DateFormatter"
+#! VERSION="4"
+#! POSITION="357.576 -2402.57"
+#! BOUNDING_RECT="357.576 -2402.57 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter_4"/>
+#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="AJOURDATO,DATO"/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="18"
+#! TYPE="TimeStamper"
+#! VERSION="1"
+#! POSITION="989.583 -2459.57"
+#! BOUNDING_RECT="989.583 -2459.57 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15244"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_6"/>
+#! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="19"
+#! TYPE="DateFormatter"
+#! VERSION="4"
+#! POSITION="261.002 -1746.31"
+#! BOUNDING_RECT="261.002 -1746.31 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter_5"/>
+#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="DATO"/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO Date (%Y-%m-%d)"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="20"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="1358.01 247.257"
+#! BOUNDING_RECT="1358.01 247.257 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="POLY_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="POLY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="AREA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="PERIMETER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPR" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="X" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="Y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KOORDH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SENTRAL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="LOKALISERI" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="MALEMETODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NOYAKTIGHE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SYNBARHET" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="H_MALEMETO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="H_NOYAKTIG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="MAX_AVVIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="21"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="1602.02 -458.653"
+#! BOUNDING_RECT="1602.02 -458.653 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SIVDISTRIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="22"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="1905.47 -1760.33"
+#! BOUNDING_RECT="1905.47 -1760.33 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="23"
+#! TYPE="Reprojector"
+#! VERSION="4"
+#! POSITION="1585.62 -2459.57"
+#! BOUNDING_RECT="1585.62 -2459.57 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="REPROJECTED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_5"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="24"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="1966.92 278.029"
+#! BOUNDING_RECT="1966.92 278.029 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="POLY_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="POLY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="AREA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="PERIMETER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPR" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="X" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="Y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KOORDH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SENTRAL" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="LOKALISERI" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="MALEMETODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NOYAKTIGHE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="SYNBARHET" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="H_MALEMETO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="H_NOYAKTIG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="MAX_AVVIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="omradeid,3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="25"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="2264.17 -2459.57"
+#! BOUNDING_RECT="2264.17 -2459.57 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="omradeid,3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="26"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="3441.84 401.029"
+#! BOUNDING_RECT="3441.84 401.029 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_arc_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_right_polygon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_left_polygon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_right_edge" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_left_edge" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_from_node" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_to_node" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_polygons" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="avgrensningfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="avgrensningfk2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,110distriktGrense,avgrensningfk,&lt;at&gt;Value&lt;openparen&gt;_left_polygon&lt;closeparen&gt;,avgrensningfk2,&lt;at&gt;Value&lt;openparen&gt;_right_polygon&lt;closeparen&gt;,malemetode,64,noyaktighet,50000"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="27"
+#! TYPE="TopologyBuilder"
+#! VERSION="6"
+#! POSITION="2576.82 370.257"
+#! BOUNDING_RECT="2576.82 370.257 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="NODE"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_node_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_node_angle{}.fme_arc_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_node_angle{}.fme_arc_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="LINE"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_arc_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_right_polygon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_left_polygon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_right_edge" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_left_edge" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_from_node" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_to_node" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_polygons" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="AREA"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="POLY_" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="POLY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="AREA" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="PERIMETER" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="OPPR" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="X" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="Y" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="KOORDH" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="SENTRAL" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="LOKALISERI" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="MALEMETODE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="NOYAKTIGHE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="SYNBARHET" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="H_MALEMETO" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="H_NOYAKTIG" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="MAX_AVVIK" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <OUTPUT_FEAT NAME="UNIVERSE"/>
+#! <FEAT_COLLAPSED COLLAPSED="3"/>
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAX" PARM_VALUE="0"/>
+#! <XFORM_PARM PARM_NAME="ALLOW_CYCLES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ALL_EDGES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="OVERLAPPING_MODE" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CLEAN_DATA" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TopologyBuilder"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PROP_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="28"
 #! TYPE="AttributeCreator"
-#! VERSION="6"
-#! POSITION="315.003 136.005"
-#! BOUNDING_RECT="315.003 136.005 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="SIVDISTRIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="originaldatavert,DSB,objtype,Sivilforsvardistrikt,omradeid,3"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="31"
-#! TYPE="TimeStamper"
-#! VERSION="1"
-#! POSITION="1358.01 -208.997"
-#! BOUNDING_RECT="1358.01 -208.997 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15244"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_3"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="34"
-#! TYPE="AttributeCreator"
-#! VERSION="6"
-#! POSITION="789.008 -208.997"
-#! BOUNDING_RECT="789.008 -208.997 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="originaldatavert,DSB,objtype,Distriktskontor,omradeid,3"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="32"
-#! TYPE="TimeStamper"
-#! VERSION="1"
-#! POSITION="581.003 -1835.01"
-#! BOUNDING_RECT="581.003 -1835.01 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="false"
-#! LAST_PARM_EDIT="15244"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_4"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="37"
-#! TYPE="TimeStamper"
-#! VERSION="1"
-#! POSITION="932.005 -1554.02"
-#! BOUNDING_RECT="932.005 -1554.02 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="false"
-#! LAST_PARM_EDIT="15244"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_5"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="43"
-#! TYPE="DateFormatter"
-#! VERSION="4"
-#! POSITION="315.003 -1584.02"
-#! BOUNDING_RECT="315.003 -1584.02 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="false"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter_3"/>
-#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
-#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="AJOURDATO,DATO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="46"
-#! TYPE="DateFormatter"
-#! VERSION="4"
-#! POSITION="261.002 -439.996"
-#! BOUNDING_RECT="261.002 -439.996 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter_4"/>
-#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
-#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="AJOURDATO,DATO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="49"
-#! TYPE="TimeStamper"
-#! VERSION="1"
-#! POSITION="893.005 -496.996"
-#! BOUNDING_RECT="893.005 -496.996 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15244"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper_6"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="kopidato"/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (^Y^m^d^H^M^S)"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="39"
-#! TYPE="DateFormatter"
-#! VERSION="4"
-#! POSITION="69.0003 -1835.01"
-#! BOUNDING_RECT="69.0003 -1835.01 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="false"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter_2"/>
-#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date (%Y%m%d)"/>
-#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="AJOURDATO,DATO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="48"
-#! TYPE="DateFormatter"
-#! VERSION="4"
-#! POSITION="261.002 -148.997"
-#! BOUNDING_RECT="261.002 -148.997 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="OUTPUT"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="%Y%m%d"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter_5"/>
-#! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO Date (%Y-%m-%d)"/>
-#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="DATO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="45"
-#! TYPE="Reprojector"
-#! VERSION="4"
-#! POSITION="1443.01 376.022"
-#! BOUNDING_RECT="1443.01 376.022 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="REPROJECTED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="POLY_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="POLY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AREA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="PERIMETER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPR" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="X" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="Y" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KOORDH" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="SENTRAL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="LOKALISERI" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="MALEMETODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NOYAKTIGHE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="SYNBARHET" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="H_MALEMETO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="H_NOYAKTIG" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="MAX_AVVIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:25833"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="56"
-#! TYPE="Reprojector"
-#! VERSION="4"
-#! POSITION="1602.02 82.0045"
-#! BOUNDING_RECT="1602.02 82.0045 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="REPROJECTED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="SIVDISTRIK" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:25833"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="60"
-#! TYPE="Reprojector"
-#! VERSION="4"
-#! POSITION="1935.02 -148.997"
-#! BOUNDING_RECT="1935.02 -148.997 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="REPROJECTED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KOMMUNE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:25833"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="63"
-#! TYPE="Reprojector"
-#! VERSION="4"
-#! POSITION="1548.02 -1524.02"
-#! BOUNDING_RECT="1548.02 -1524.02 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="false"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="REPROJECTED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_4"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:25833"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="66"
-#! TYPE="Reprojector"
-#! VERSION="4"
-#! POSITION="1489.05 -496.996"
-#! BOUNDING_RECT="1489.05 -496.996 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="REPROJECTED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_5"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:25833"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="69"
-#! TYPE="AttributeCreator"
 #! VERSION="7"
-#! POSITION="1971.52 347.01"
-#! BOUNDING_RECT="1971.52 347.01 -1 -1"
+#! POSITION="3497.03 99.772"
+#! BOUNDING_RECT="3497.03 99.772 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1893,86 +2004,155 @@
 #! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="omradeid,3"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objid,&lt;at&gt;Value&lt;openparen&gt;_polygon_id&lt;closeparen&gt;,originaldatavert,DSB"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#! IDENTIFIER="72"
-#! TYPE="AttributeCreator"
-#! VERSION="7"
-#! POSITION="2055.02 -496.996"
-#! BOUNDING_RECT="2055.02 -496.996 -1 -1"
+#! IDENTIFIER="29"
+#! TYPE="TopologyBuilder"
+#! VERSION="6"
+#! POSITION="2922.03 -803.662"
+#! BOUNDING_RECT="2922.03 -803.662 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="false"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
+#! <OUTPUT_FEAT NAME="NODE"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_node_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_node_angle{}.fme_arc_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_node_angle{}.fme_arc_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="LINE"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_arc_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_right_polygon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_left_polygon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_right_edge" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_left_edge" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_from_node" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_to_node" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_polygons" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="AREA"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="SIVDISTRIK" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="URL" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="NAVN" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <OUTPUT_FEAT NAME="UNIVERSE"/>
+#! <FEAT_COLLAPSED COLLAPSED="3"/>
+#! <XFORM_ATTR ATTR_NAME="_polygon_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_perimeter" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_lines" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MAX" PARM_VALUE="0"/>
+#! <XFORM_PARM PARM_NAME="ALLOW_CYCLES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ALL_EDGES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="OVERLAPPING_MODE" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CLEAN_DATA" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TopologyBuilder_2"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PROP_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="30"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="3497.03 -934.18"
+#! BOUNDING_RECT="3497.03 -934.18 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="gml_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msGeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="KASERNERT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNVESEN" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ANLEGGID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="AJOURDATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="INFORMASJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OPPHAV" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="STASJONSTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="DATO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="BRANNSTA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_ATTR ATTR_NAME="_arc_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_right_polygon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_left_polygon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_right_edge" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_left_edge" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_from_node" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_to_node" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_polygons" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="omradeid,3"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,SivilforsvarDistriktsgrense"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#! IDENTIFIER="22"
-#! SOURCE_NODE="20"
-#! TARGET_NODE="23"
+#! IDENTIFIER="31"
+#! SOURCE_NODE="11"
+#! TARGET_NODE="12"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="26"
+#! IDENTIFIER="32"
 #! SOURCE_NODE="1"
-#! TARGET_NODE="20"
+#! TARGET_NODE="11"
 #! SOURCE_PORT_DESC="-1"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="29"
-#! SOURCE_NODE="6"
-#! TARGET_NODE="28"
+#! IDENTIFIER="33"
+#! SOURCE_NODE="4"
+#! TARGET_NODE="14"
 #! SOURCE_PORT_DESC="-1"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="30"
-#! SOURCE_NODE="28"
-#! TARGET_NODE="24"
+#! IDENTIFIER="34"
+#! SOURCE_NODE="14"
+#! TARGET_NODE="13"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="35"
+#! SOURCE_NODE="16"
+#! TARGET_NODE="15"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
@@ -1980,17 +2160,71 @@
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="36"
-#! SOURCE_NODE="34"
-#! TARGET_NODE="31"
-#! SOURCE_PORT_DESC="fo 0"
+#! SOURCE_NODE="2"
+#! TARGET_NODE="17"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="37"
+#! SOURCE_NODE="3"
+#! TARGET_NODE="19"
+#! SOURCE_PORT_DESC="-1"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="38"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
+#! SOURCE_NODE="19"
+#! TARGET_NODE="16"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="39"
+#! SOURCE_NODE="17"
+#! TARGET_NODE="18"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="40"
+#! SOURCE_NODE="12"
+#! TARGET_NODE="20"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="41"
+#! SOURCE_NODE="13"
+#! TARGET_NODE="21"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="42"
+#! SOURCE_NODE="15"
+#! TARGET_NODE="22"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="43"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="-1"
 #! ENABLED="true"
@@ -1998,160 +2232,34 @@
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="44"
-#! SOURCE_NODE="3"
-#! TARGET_NODE="43"
-#! SOURCE_PORT_DESC="-1"
+#! SOURCE_NODE="18"
+#! TARGET_NODE="23"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="45"
+#! SOURCE_NODE="20"
+#! TARGET_NODE="24"
+#! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="47"
-#! SOURCE_NODE="2"
-#! TARGET_NODE="46"
-#! SOURCE_PORT_DESC="-1"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="40"
-#! SOURCE_NODE="4"
-#! TARGET_NODE="39"
-#! SOURCE_PORT_DESC="-1"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="41"
-#! SOURCE_NODE="39"
-#! TARGET_NODE="32"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="53"
-#! SOURCE_NODE="5"
-#! TARGET_NODE="48"
-#! SOURCE_PORT_DESC="-1"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="54"
-#! SOURCE_NODE="48"
-#! TARGET_NODE="34"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="59"
-#! SOURCE_NODE="46"
-#! TARGET_NODE="49"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="55"
-#! SOURCE_NODE="43"
-#! TARGET_NODE="37"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="50"
 #! SOURCE_NODE="23"
-#! TARGET_NODE="45"
+#! TARGET_NODE="25"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="57"
-#! SOURCE_NODE="24"
-#! TARGET_NODE="56"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="58"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="61"
-#! SOURCE_NODE="31"
-#! TARGET_NODE="60"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="62"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="64"
-#! SOURCE_NODE="37"
-#! TARGET_NODE="63"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="65"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="67"
-#! SOURCE_NODE="49"
-#! TARGET_NODE="66"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="70"
-#! SOURCE_NODE="45"
-#! TARGET_NODE="69"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="71"
-#! SOURCE_NODE="69"
+#! IDENTIFIER="48"
+#! SOURCE_NODE="26"
 #! TARGET_NODE="9"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="-1"
@@ -2159,20 +2267,83 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="74"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
+#! IDENTIFIER="49"
+#! SOURCE_NODE="27"
+#! TARGET_NODE="26"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="50"
+#! SOURCE_NODE="27"
+#! TARGET_NODE="28"
+#! SOURCE_PORT_DESC="fo 2"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="51"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="-1"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="73"
-#! SOURCE_NODE="66"
-#! TARGET_NODE="72"
+#! IDENTIFIER="52"
+#! SOURCE_NODE="24"
+#! TARGET_NODE="27"
 #! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 2"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="53"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="54"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="29"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 2"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="55"
+#! SOURCE_NODE="29"
+#! TARGET_NODE="30"
+#! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="56"
+#! SOURCE_NODE="30"
+#! TARGET_NODE="10"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="46"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
@@ -2181,611 +2352,359 @@
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#! IDENTIFIER="65574"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 11"
-#! TARGET_PORT_DESC="12"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458790"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 8"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="786470"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 2"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720934"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 7"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327718"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 0"
-#! TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="131110"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 5"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="852006"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="16"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262182"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196646"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 12"
-#! TARGET_PORT_DESC="13"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589862"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 10"
-#! TARGET_PORT_DESC="11"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="917542"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 14"
-#! TARGET_PORT_DESC="17"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="524326"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 13"
-#! TARGET_PORT_DESC="14"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1048614"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="10"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393254"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
+#! IDENTIFIER="327723"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
 #! SOURCE_PORT_DESC="ao 0 1"
 #! TARGET_PORT_DESC="0"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="655398"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
+#! IDENTIFIER="458795"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
+#! SOURCE_PORT_DESC="ao 0 4"
+#! TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="131115"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
+#! SOURCE_PORT_DESC="ao 0 2"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="524331"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
+#! SOURCE_PORT_DESC="ao 0 7"
+#! TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="65579"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
+#! SOURCE_PORT_DESC="ao 0 5"
+#! TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="262187"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
+#! SOURCE_PORT_DESC="ao 0 3"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196651"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
+#! SOURCE_PORT_DESC="ao 0 0"
+#! TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="393259"
+#! SOURCE_NODE="22"
+#! TARGET_NODE="5"
 #! SOURCE_PORT_DESC="ao 0 6"
 #! TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="983078"
-#! SOURCE_NODE="32"
-#! TARGET_NODE="8"
-#! SOURCE_PORT_DESC="ao 0 4"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="131130"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="ao 0 5"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327738"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="ao 0 1"
-#! TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262202"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="ao 0 0"
-#! TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393274"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196666"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="ao 0 4"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65594"
-#! SOURCE_NODE="56"
-#! TARGET_NODE="10"
-#! SOURCE_PORT_DESC="ao 0 2"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65598"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393278"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 1"
-#! TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="524350"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 4"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196670"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
+#! IDENTIFIER="655411"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 6"
 #! TARGET_PORT_DESC="7"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="131134"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 0"
-#! TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327742"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 7"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262206"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 5"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458814"
-#! SOURCE_NODE="60"
-#! TARGET_NODE="7"
-#! SOURCE_PORT_DESC="ao 0 2"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458817"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 12"
-#! TARGET_PORT_DESC="13"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589889"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 5"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="786497"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 10"
-#! TARGET_PORT_DESC="11"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="917569"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 0"
-#! TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196673"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="16"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65601"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 6"
-#! TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="131137"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="10"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262209"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 7"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393281"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 14"
-#! TARGET_PORT_DESC="17"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327745"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 11"
-#! TARGET_PORT_DESC="12"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="524353"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 4"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="655425"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 13"
-#! TARGET_PORT_DESC="14"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720961"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 2"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="852033"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 1"
-#! TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="983105"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 8"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1048641"
-#! SOURCE_NODE="63"
-#! TARGET_NODE="11"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458823"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 19"
-#! TARGET_PORT_DESC="23"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1507399"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 7"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="852039"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="10"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589895"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 4"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196679"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 13"
-#! TARGET_PORT_DESC="16"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1572935"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 21"
-#! TARGET_PORT_DESC="25"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393287"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
+#! IDENTIFIER="524339"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 14"
 #! TARGET_PORT_DESC="18"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="1048647"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 11"
-#! TARGET_PORT_DESC="12"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="917575"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 2"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="983111"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
+#! IDENTIFIER="720947"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 17"
 #! TARGET_PORT_DESC="21"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="327751"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 16"
-#! TARGET_PORT_DESC="20"
+#! IDENTIFIER="327731"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 5"
+#! TARGET_PORT_DESC="6"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="131143"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
+#! IDENTIFIER="458803"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 13"
+#! TARGET_PORT_DESC="14"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="589875"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 15"
 #! TARGET_PORT_DESC="19"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="1179719"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 18"
-#! TARGET_PORT_DESC="22"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="786503"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 13"
-#! TARGET_PORT_DESC="14"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65607"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 20"
-#! TARGET_PORT_DESC="24"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1441863"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 22"
-#! TARGET_PORT_DESC="26"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="655431"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1310791"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 5"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720967"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 10"
-#! TARGET_PORT_DESC="11"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1376327"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 8"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1245255"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 1"
-#! TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1114183"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 12"
-#! TARGET_PORT_DESC="13"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="524359"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 23"
-#! TARGET_PORT_DESC="17"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262215"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 6"
-#! TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1638471"
-#! SOURCE_NODE="69"
-#! TARGET_NODE="9"
-#! SOURCE_PORT_DESC="ao 0 0"
-#! TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="393290"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="16"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458826"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 1"
-#! TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="917578"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
+#! IDENTIFIER="131123"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 4"
 #! TARGET_PORT_DESC="5"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="983114"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 8"
-#! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="720970"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 12"
-#! TARGET_PORT_DESC="13"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="524362"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 7"
-#! TARGET_PORT_DESC="8"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="65610"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 0"
-#! TARGET_PORT_DESC="1"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="196682"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 5"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="131146"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 6"
-#! TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327754"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 13"
-#! TARGET_PORT_DESC="14"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="1048650"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 2"
-#! TARGET_PORT_DESC="3"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262218"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589898"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
+#! IDENTIFIER="393267"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 11"
 #! TARGET_PORT_DESC="12"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="655434"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
-#! SOURCE_PORT_DESC="ao 0 10"
-#! TARGET_PORT_DESC="11"
+#! IDENTIFIER="786483"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 19"
+#! TARGET_PORT_DESC="23"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="786506"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
+#! IDENTIFIER="1376307"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 12"
+#! TARGET_PORT_DESC="13"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196659"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 20"
+#! TARGET_PORT_DESC="24"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="852019"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 18"
+#! TARGET_PORT_DESC="22"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1310771"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 9"
 #! TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="852042"
-#! SOURCE_NODE="72"
-#! TARGET_NODE="12"
+#! IDENTIFIER="65587"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 21"
+#! TARGET_PORT_DESC="25"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1114163"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 10"
+#! TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="983091"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 16"
+#! TARGET_PORT_DESC="20"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1179699"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 2"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1245235"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 8"
+#! TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="917555"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 22"
+#! TARGET_PORT_DESC="26"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1048627"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 3"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="262195"
+#! SOURCE_NODE="28"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 7"
+#! TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="262197"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="ao 0 2"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="393269"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="ao 0 5"
+#! TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="327733"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="ao 0 1"
+#! TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="131125"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="ao 0 0"
+#! TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="65589"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="ao 0 4"
+#! TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196661"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="7"
+#! SOURCE_PORT_DESC="ao 0 3"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="393262"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 4"
+#! TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="1048622"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 3"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="917550"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 10"
+#! TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="524334"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 13"
+#! TARGET_PORT_DESC="14"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="655406"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 5"
+#! TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196654"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 6"
+#! TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="65582"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 8"
+#! TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="720942"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 0"
+#! TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="852014"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 7"
+#! TARGET_PORT_DESC="8"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="983086"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 12"
+#! TARGET_PORT_DESC="13"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="262190"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 9"
+#! TARGET_PORT_DESC="16"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="327726"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 1"
+#! TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="786478"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 2"
+#! TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="458798"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 11"
+#! TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="589870"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
+#! SOURCE_PORT_DESC="ao 0 9"
+#! TARGET_PORT_DESC="10"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="131118"
+#! SOURCE_NODE="25"
+#! TARGET_NODE="8"
 #! SOURCE_PORT_DESC="ao 0 14"
 #! TARGET_PORT_DESC="17"
 #! />
@@ -2797,17 +2716,97 @@
 #! </WORKSPACE>
 #! 
 GUI IGNORE SourceDataset_WFS_1,WFS_IN_PREFER_POST_WFS_1,WFS_IN_PREFERRED_VERSION_WFS_1,WFS_IN_HTTP_AUTH_USER_WFS_1,WFS_IN_HTTP_AUTH_PASSWORD_WFS_1,WFS_IN_HTTP_AUTH_METHOD_WFS_1,WFS_IN_HTTP_PROXY_WFS_1,WFS_IN_HTTP_PROXY_PORT_WFS_1,WFS_IN_HTTP_PROXY_USER_WFS_1,WFS_IN_HTTP_PROXY_PASSWORD_WFS_1,WFS_IN_HTTP_PROXY_AUTH_METHOD_WFS_1,WFS_IN_MAX_RESULT_FEATURES_WFS_1,WFS_IN_OUTPUT_FORMAT_WFS_1,WFS_IN_FILTER_EXPRESSION_WFS_1,WFS_IN_XSD_DOC_WFS_1,WFS_IN_FME_FEATURE_IDENTIFIER_WFS_1,WFS_IN_SRS_AXIS_ORDER_WFS_1,WFS_IN_SRS_ANGLE_DIRECTION_WFS_1,WFS_IN_ENFORCE_PATH_CONTINUITY_BY_WFS_1,WFS_IN_MAP_EMBEDDED_OBJECTS_AS_WFS_1,WFS_IN_MAP_PREDEFINED_GML_PROPERTIES_WFS_1,WFS_IN_MAP_GEOMETRY_COLUMNS_WFS_1,WFS_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_WFS_1,WFS_IN_MAP_COMPLEX_PROPERTIES_AS_WFS_1,WFS_IN_MAX_MULTI_LIST_LEVEL_WFS_1,WFS_IN_XML_FRAGMENTS_AS_DOCUMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_WFS_1,WFS_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_WFS_1,WFS_IN_GML_READER_GROUP_WFS_1,WFS_IN_USE_OLD_READER_WFS_1,WFS_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_WFS_1,WFS_IN_DISABLE_XML_NAMESPACE_PROCESSING_WFS_1,WFS_IN_EXPOSE_ATTRS_GROUP_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MINY_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXX_WFS_1,WFS_IN_SEARCH_ENVELOPE_MAXY_WFS_1,WFS_IN_CLIP_TO_ENVELOPE_WFS_1,WFS_IN_BBOX_COORDINATE_SYSTEM_WFS_1,POSTGIS_OUT_HOST_POSTGIS_1,POSTGIS_OUT_PORT_POSTGIS_1,DestDataset_POSTGIS_1,POSTGIS_OUT_USER_NAME_POSTGIS_1,POSTGIS_OUT_PASSWORD_POSTGIS_1,POSTGIS_OUT_WRITER_MODE_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1
-DEFAULT_MACRO SourceDataset_WFS http://kart.dsb.no/wfs.aspx?service=wfs&request=getcapabilities
-GUI TEXT SourceDataset_WFS Source WFS (Web Feature Service) URL:
-DEFAULT_MACRO DestDataset_POSTGIS_2 geonor01tst
-GUI TEXT DestDataset_POSTGIS_2 Database:
-INCLUDE [ if {{$(SourceDataset_WFS)} == {}} { puts_real {Parameter 'SourceDataset_WFS' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(DestDataset_POSTGIS_2)} == {}} { puts_real {Parameter 'DestDataset_POSTGIS_2' must be given a value.}; exit 1; }; ]
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        GetConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import os, fme
+  fmwdir = fme.macroValues['FME_MF_DIR']
+  fmwfile = fme.macroValues['FME_MF_NAME']
+  fmwfile = os.path.join(fmwdir, fmwfile)
+  configfile = os.path.splitext(fmwfile)[0] + '_config.xml'
+  print configfile
+  return configfile
+value = ParamFunc()
+macroName = 'CONFIG_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('wfsin').text
+  return value
+value = ParamFunc()
+macroName = 'WFS_IN'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgpwd').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_PWD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE [ if {{$(CONFIG_FILE)} == {}} { puts_real {Parameter 'CONFIG_FILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(WFS_IN)} == {}} { puts_real {Parameter 'WFS_IN' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_PWD)} == {}} { puts_real {Parameter 'PG_PWD' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE WFS
 READER_KEYWORD WFS_1
-READER_GEN_DIRECTIVES HTTP_PROXY_AUTH_METHOD,Basic,XSD_DOC,,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,FLATTEN_XML_FRAGMENTS,NO,OUTPUT_FORMAT,text<solidus>xml<semicolon><space>subtype=gml<solidus>3.1.1,LOCAL_CACHE_EXPIRY,60,BBOX_COORDINATE_SYSTEM,,MAX_RESULT_FEATURES,30000,FILTER_EXPRESSION,,HTTP_PROXY_USER,,USE_HTTP_AUTH,NO,MAP_GEOMETRY_COLUMNS,YES,USE_SEARCH_ENVELOPE,NO,TABLELIST,<quote>layer_307<space><space><opencurly>Sivilforsvarsdistrikter<closecurly><quote><space><quote>layer_309<space><space><opencurly>Distriktskontor<space>sivilforsvaret<closecurly><quote><space><quote>layer_394<space><space><opencurly>Brannstasjoner<closecurly><quote><space><quote>layer_395<space><space><opencurly>Brannstasjoner<space>-<space>kasernering<closecurly><quote><space><quote>layer_511<space><space><opencurly>Brannstasjoner<space>utf8<closecurly><quote><space><quote>layer_562<space><space><opencurly>110-sentraldistrikter<closecurly><quote>,SRS_AXIS_ORDER,,FLATTEN_XML_FRAGMENTS_SEPARATOR,,HTTP_AUTH_USER,,DISABLE_AUTOMATIC_READER_TYPE_SELECTION,NO,_MERGE_SCHEMAS,YES,WFS_SERVICE_TITLE,Mapserver<space>WFS<space>-<space>kart,HTTP_PROXY_PASSWORD,,QNAMES_FOR_PROPERTIES_TO_IGNORE,,HTTP_PROXY,null,MAP_EMBEDDED_OBJECTS_AS,ATTRIBUTES,MAP_COMPLEX_PROPERTIES_AS,Nested<space>Attributes,HTTP_AUTH_METHOD,Basic,MAP_PREDEFINED_GML_PROPERTIES,NO,FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE,,DISABLE_XML_NAMESPACE_PROCESSING,NO,HTTP_PROXY_PORT,null,ENFORCE_PATH_CONTINUITY_BY,SNAPPING_END_POINTS,SRS_ANGLE_DIRECTION,,PREFERRED_VERSION,1.1.0,PREFER_POST,No,FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE,,MAX_MULTI_LIST_LEVEL,,ARCGIS_CACHE_GROUP,,CLIP_TO_ENVELOPE,NO,XML_FRAGMENTS_AS_DOCUMENTS,YES,USE_OLD_READER,NO,EXPOSE_ATTRS_GROUP,,HTTP_AUTH_PASSWORD,,GML_READER_GROUP,,USE_PROXY_SERVER,NO,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,FME_FEATURE_IDENTIFIER,,WFS_EXPOSE_FORMAT_ATTRS,
+READER_GEN_DIRECTIVES SRS_AXIS_ORDER,,EXPOSE_ATTRS_GROUP,,HTTP_AUTH_USER,,DISABLE_XML_NAMESPACE_PROCESSING,NO,ENFORCE_PATH_CONTINUITY_BY,SNAPPING_END_POINTS,FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE,,MAP_PREDEFINED_GML_PROPERTIES,NO,MAP_EMBEDDED_OBJECTS_AS,ATTRIBUTES,QNAMES_FOR_PROPERTIES_TO_IGNORE,,LOCAL_CACHE_EXPIRY,60,FILTER_EXPRESSION,,XML_FRAGMENTS_AS_DOCUMENTS,YES,SRS_ANGLE_DIRECTION,,BBOX_COORDINATE_SYSTEM,,WFS_SERVICE_TITLE,Mapserver<space>WFS<space>-<space>kart.fiskeridir.no,GML_READER_GROUP,,USE_HTTP_AUTH,NO,MAX_MULTI_LIST_LEVEL,,FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE,,XSD_DOC,,HTTP_AUTH_PASSWORD,,FLATTEN_XML_FRAGMENTS_SEPARATOR,,_MERGE_SCHEMAS,YES,HTTP_AUTH_METHOD,Basic,USE_OLD_READER,NO,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,WFS_EXPOSE_FORMAT_ATTRS,,FLATTEN_XML_FRAGMENTS,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,PREFERRED_VERSION,1.0.0,FME_FEATURE_IDENTIFIER,,DISABLE_AUTOMATIC_READER_TYPE_SELECTION,NO,MAX_RESULT_FEATURES,30000,OUTPUT_FORMAT,,CLIP_TO_ENVELOPE,NO,TABLELIST,<quote>layer_14<quote><space><quote>layer_15<quote>,MAP_COMPLEX_PROPERTIES_AS,Nested<space>Attributes,USE_SEARCH_ENVELOPE,NO,PREFER_POST,No,MAP_GEOMETRY_COLUMNS,YES,ARCGIS_CACHE_GROUP,
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
@@ -2830,7 +2829,7 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER WFS WFS_1
-DEFAULT_MACRO SourceDataset_WFS_1 $(SourceDataset_WFS)
+DEFAULT_MACRO SourceDataset_WFS_1 $(WFS_IN)
 GUI TEXT SourceDataset_WFS_1 Source WFS (Web Feature Service) URL:
 DEFAULT_MACRO IDs_WFS_1 
 WFS_1_IDs $(IDs_WFS_1)
@@ -2992,13 +2991,13 @@ INCLUDE [ if {"$(DestDataset)" != ""} {                          \
  } ]
 #! END_WB_HEADER
 #! START_DEST_HEADER POSTGIS POSTGIS_1
-DEFAULT_MACRO DestDataset_POSTGIS_1 $(DestDataset_POSTGIS_2)
+DEFAULT_MACRO DestDataset_POSTGIS_1 geonor01tst
 POSTGIS_1_DATASET "$(DestDataset_POSTGIS_1)"
 GUI TEXT DestDataset_POSTGIS_1 Database:
 DEFAULT_MACRO POSTGIS_OUT_USER_NAME_POSTGIS_1 geonortst
 POSTGIS_1_USER_NAME "$(POSTGIS_OUT_USER_NAME_POSTGIS_1)"
 GUI TEXT POSTGIS_OUT_USER_NAME_POSTGIS_1 Username:
-DEFAULT_MACRO POSTGIS_OUT_PASSWORD_POSTGIS_1 fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszYVVUImxMIWwOww2HjqZX13kQ/igDjjKwtK4F+MIU0Ab+TNJUKp11a5JAV6OJwMmjmc0mIt6V3/B7yPShHpVZEI+4KUZ5FYFgYxeCOCAJZAqz8KUTjYlK42709LujTla3WA/T+nBcL/yzAlfA9l9H+AMFqK3ll89awhDnIr/sV436dcQM9ITL1qZiX0TUT04igLzEkIaQIQK5xgzB41j2KrViykMjWArSSiM9+UIboJ6clLtSUnBm+o+pGxytxUosgi+GAfdkP8sAKYx4nCzoMoNkVr3/pNXK44Sqxg8RXIa3u5Sm/L7gxZ4lkOyXikqVFtJb8NVEIBPJRCsFnTGxDD4yvym13DdF)
+DEFAULT_MACRO POSTGIS_OUT_PASSWORD_POSTGIS_1 $(PG_PWD)
 POSTGIS_1_PASSWORD "$(POSTGIS_OUT_PASSWORD_POSTGIS_1)"
 GUI OPTIONAL PASSWORD POSTGIS_OUT_PASSWORD_POSTGIS_1 Password:
 POSTGIS_1_COORDINATE_SYSTEM_GRANULARITY FEATURE_TYPE
@@ -3056,7 +3055,7 @@ WFS_1_READER_META_ATTRIBUTES fme_feature_type
 # -------------------------------------------------------------------------
 
 WFS_1_COORDINATE_SYSTEM EPSG:32633
-POSTGIS_1_COORDINATE_SYSTEM EPSG:25833
+POSTGIS_1_COORDINATE_SYSTEM EPSG:4258
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
@@ -3064,22 +3063,20 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME DSBwfs2postgisKartverket
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-WFS_1_DEF layer_511   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   BRANNSTASJ                   xml_buffer   KASERNERT                    xml_buffer   BRANNVESEN                   xml_buffer   ANLEGGID                     xml_buffer   AJOURDATO                    xml_buffer   INFORMASJ                    xml_buffer   OPPHAV                       xml_buffer   STASJONSTY                   xml_buffer   OBJTYPE                      xml_buffer   DATO                         xml_buffer   BRANNSTA_                    xml_buffer
-# -------------------------------------------------------------------------
-WFS_1_DEF layer_562   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   POLY_                        xml_buffer   POLY_ID                      xml_buffer   AREA                         xml_buffer   PERIMETER                    xml_buffer   OPPR                         xml_buffer   X                            xml_buffer   Y                            xml_buffer   KOORDH                       xml_buffer   SENTRAL                      xml_buffer   LOKALISERI                   xml_buffer   OPPHAV                       xml_buffer   MALEMETODE                   xml_buffer   NOYAKTIGHE                   xml_buffer   SYNBARHET                    xml_buffer   H_MALEMETO                   xml_buffer   H_NOYAKTIG                   xml_buffer   MAX_AVVIK                    xml_buffer   OBJTYPE                      xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
-# -------------------------------------------------------------------------
 WFS_1_DEF layer_307   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   SIVDISTRIK                   xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer
 # -------------------------------------------------------------------------
 WFS_1_DEF layer_309   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   TYPE                         xml_buffer   KOMMUNE                      xml_buffer   URL                          xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
 # -------------------------------------------------------------------------
+WFS_1_DEF layer_511   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   BRANNSTASJ                   xml_buffer   KASERNERT                    xml_buffer   BRANNVESEN                   xml_buffer   ANLEGGID                     xml_buffer   AJOURDATO                    xml_buffer   INFORMASJ                    xml_buffer   OPPHAV                       xml_buffer   STASJONSTY                   xml_buffer   OBJTYPE                      xml_buffer   DATO                         xml_buffer   BRANNSTA_                    xml_buffer
+# -------------------------------------------------------------------------
+WFS_1_DEF layer_562   xml_type                     "xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"   gml_parent_id                xml_buffer   gml_id                       xml_buffer   msGeometry                   xml_geometry   POLY_                        xml_buffer   POLY_ID                      xml_buffer   AREA                         xml_buffer   PERIMETER                    xml_buffer   OPPR                         xml_buffer   X                            xml_buffer   Y                            xml_buffer   KOORDH                       xml_buffer   SENTRAL                      xml_buffer   LOKALISERI                   xml_buffer   OPPHAV                       xml_buffer   MALEMETODE                   xml_buffer   NOYAKTIGHE                   xml_buffer   SYNBARHET                    xml_buffer   H_MALEMETO                   xml_buffer   H_NOYAKTIG                   xml_buffer   MAX_AVVIK                    xml_buffer   OBJTYPE                      xml_buffer   NAVN                         xml_buffer   DATO                         xml_buffer
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,WFS_1)    ROUTE WFS WFS_1::layer_511 TO FME_GENERIC ::layer_511 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_562 TO FME_GENERIC ::layer_562 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_307 TO FME_GENERIC ::layer_307 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_309 TO FME_GENERIC ::layer_309 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-WFS_1_MERGE_DEF WFS_1::layer_511 EXACT layer_511
-WFS_1_MERGE_DEF WFS_1::layer_562 EXACT layer_562
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,WFS_1)    ROUTE WFS WFS_1::layer_307 TO FME_GENERIC ::layer_307 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_309 TO FME_GENERIC ::layer_309 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_511 TO FME_GENERIC ::layer_511 ALIAS_GEOMETRY    ROUTE WFS WFS_1::layer_562 TO FME_GENERIC ::layer_562 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 WFS_1_MERGE_DEF WFS_1::layer_307 EXACT layer_307
 WFS_1_MERGE_DEF WFS_1::layer_309 EXACT layer_309
-WFS_1_MERGE_DEF WFS_1::layer_394 EXACT layer_394
-WFS_1_MERGE_DEF WFS_1::layer_395 EXACT layer_395
+WFS_1_MERGE_DEF WFS_1::layer_511 EXACT layer_511
+WFS_1_MERGE_DEF WFS_1::layer_562 EXACT layer_562
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE layer_307 ATTR originaldatavert DSB ATTR objtype Sivilforsvardistrikt ATTR omradeid 3    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
@@ -3097,8 +3094,17 @@ INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {M
 Tcl2 proc Reprojector_2_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_2_haveWarned;   if { [info exists Reprojector_2_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_2_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector_2: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
 # Passing in source CS to @Tcl rather than referencing it directly to allow
 # attribute evalutation to be performed.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE TimeStamper_2_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:25833",NearestNeighbor,PreserveCells)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE TimeStamper_2_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector_2 REPROJECTED Splitter"   INPUT FEATURE_TYPE Reprojector_2_REPROJECTED   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_1_NLSGbdUJQYU=
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO TopologyBuilder_2_OVERLAPPING_MODE
+INCLUDE [ if {{No} == {Yes}} { puts "MACRO TopologyBuilder_2_OVERLAPPING_MODE OVERLAPPING_DATA_PREFIX_ATTR _overlapping_input_data" } ]
+FACTORY_DEF * TopologyFactory    FACTORY_NAME TopologyBuilder_2    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_0_NLSGbdUJQYU=    ARC_NUMBER_ATTR _arc_id    FROM_NODE_ATTR  _from_node    TO_NODE_ATTR    _to_node    RIGHT_POLY_ATTR _right_polygon    LEFT_POLY_ATTR  _left_polygon    RIGHT_EDGE_ATTR _right_edge    LEFT_EDGE_ATTR  _left_edge    POLYGON_NUMBER_ATTR _polygon_id    PERIMETER_ATTR  _perimeter    ARCS_ATTR       _lines    POLYGONS_ATTR   _polygons    AREA_ATTR       _area    NODES_ATTR      _nodes    NODE_NUMBER_ATTR _node_number    ANGLE_PREFIX_ATTR _node_angle    PROPAGATE_ATTRS No    ALLOW_CYCLES No    ASSUME_CLEAN_DATA No    $(TopologyBuilder_2_OVERLAPPING_MODE)    START_EDGES_ONLY No    MAX_COORDS      0    MODE COMPLETE    UNIVERSE_GEOMETRY yes    OUTPUT LINE FEATURE_TYPE TopologyBuilder_2_LINE
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TopologyBuilder_2_LINE ATTR objtype SivilforsvarDistriktsgrense    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
 # -------------------------------------------------------------------------
 
 Tcl2 proc DateFormatter_5_formatter {invalidValue} {       set dateFormat {ISO Date (%Y-%m-%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {DATO} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set srcfmt {};        if {{%Y%m%d} != {FME_AUTOMATIC}} {            set srcfmt {%Y%m%d};        } else {          set comment { In Automatic mode we ignore the millisecond part };          regexp {^[^.]*} $date date;        };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };        };        set sourceFormatOpt {};        if {[string length $srcfmt] > 0} {           set sourceFormatOpt \"-format {$srcfmt}\";        };        set comment { Compute the output value and catch any errors };        set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                           set output [clock format $seconds -format $dateFormat];        }];        set comment { If there was error then we try again by removing digits after last decimal };        if { $error != 0 } {           set index [string last "." $date];           if { $index > 0 } {              set date [eval string range $date 0 [expr $index-1]];              set dateLen [string length $date];              set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];           };        };        if { $error == 0 } {           FME_SetAttribute $attr $output;        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
@@ -3120,18 +3126,8 @@ INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {M
 Tcl2 proc Reprojector_3_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_3_haveWarned;   if { [info exists Reprojector_3_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_3_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector_3: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
 # Passing in source CS to @Tcl rather than referencing it directly to allow
 # attribute evalutation to be performed.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_3    INPUT  FEATURE_TYPE TimeStamper_3_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_3_REPROJECTED         @Tcl2("Reprojector_3_warnIfSourceIgnored {$(Reprojector_3_SOURCE)}")         @Reproject($(Reprojector_3_SOURCE),"EPSG:25833",NearestNeighbor,PreserveCells)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_3    INPUT  FEATURE_TYPE TimeStamper_3_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_3_REPROJECTED         @Tcl2("Reprojector_3_warnIfSourceIgnored {$(Reprojector_3_SOURCE)}")         @Reproject($(Reprojector_3_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "DateFormatter_2 (Disabled) Nuker"   INPUT FEATURE_TYPE layer_394
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "TimeStamper_4 (Disabled) Nuker"   INPUT FEATURE_TYPE DateFormatter_2_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "DateFormatter_3 (Disabled) Nuker"   INPUT FEATURE_TYPE layer_395
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "TimeStamper_5 (Disabled) Nuker"   INPUT FEATURE_TYPE DateFormatter_3_OUTPUT
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector_4 (Disabled) Nuker"   INPUT FEATURE_TYPE TimeStamper_5_OUTPUT
 # -------------------------------------------------------------------------
 
 Tcl2 proc DateFormatter_4_formatter {invalidValue} {       set dateFormat {FME Date (%Y%m%d)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {AJOURDATO,DATO} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set srcfmt {};        if {{%Y%m%d} != {FME_AUTOMATIC}} {            set srcfmt {%Y%m%d};        } else {          set comment { In Automatic mode we ignore the millisecond part };          regexp {^[^.]*} $date date;        };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };        };        set sourceFormatOpt {};        if {[string length $srcfmt] > 0} {           set sourceFormatOpt \"-format {$srcfmt}\";        };        set comment { Compute the output value and catch any errors };        set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                           set output [clock format $seconds -format $dateFormat];        }];        set comment { If there was error then we try again by removing digits after last decimal };        if { $error != 0 } {           set index [string last "." $date];           if { $index > 0 } {              set date [eval string range $date 0 [expr $index-1]];              set dateLen [string length $date];              set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];           };        };        if { $error == 0 } {           FME_SetAttribute $attr $output;        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
@@ -3151,7 +3147,7 @@ INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {M
 Tcl2 proc Reprojector_5_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_5_haveWarned;   if { [info exists Reprojector_5_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_5_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector_5: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
 # Passing in source CS to @Tcl rather than referencing it directly to allow
 # attribute evalutation to be performed.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_5    INPUT  FEATURE_TYPE TimeStamper_6_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_5_REPROJECTED         @Tcl2("Reprojector_5_warnIfSourceIgnored {$(Reprojector_5_SOURCE)}")         @Reproject($(Reprojector_5_SOURCE),"EPSG:25833",NearestNeighbor,PreserveCells)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_5    INPUT  FEATURE_TYPE TimeStamper_6_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_5_REPROJECTED         @Tcl2("Reprojector_5_warnIfSourceIgnored {$(Reprojector_5_SOURCE)}")         @Reproject($(Reprojector_5_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Reprojector_5_REPROJECTED ATTR omradeid 3    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
@@ -3174,22 +3170,36 @@ INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {M
 Tcl2 proc Reprojector_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_haveWarned;   if { [info exists Reprojector_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
 # Passing in source CS to @Tcl rather than referencing it directly to allow
 # attribute evalutation to be performed.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE TimeStamper_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Tcl2("Reprojector_warnIfSourceIgnored {$(Reprojector_SOURCE)}")         @Reproject($(Reprojector_SOURCE),"EPSG:25833",NearestNeighbor,PreserveCells)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE TimeStamper_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Tcl2("Reprojector_warnIfSourceIgnored {$(Reprojector_SOURCE)}")         @Reproject($(Reprojector_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Reprojector_REPROJECTED ATTR omradeid 3    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Reprojector_3_REPROJECTED TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>type<comma>TYPE<comma>kommune<comma>KOMMUNE<comma>url<comma>URL<comma>navn<comma>NAVN<comma>dato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM EPSG:25833 GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>brannstasjon<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasjon<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonstype<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<comma>originaldatavert<comma>OPPHAV<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM EPSG:25833 GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>poly_<comma>POLY_<comma>poly_id<comma>POLY_ID<comma>area<comma>AREA<comma>perimeter<comma>PERIMETER<comma>oppr<comma>OPPR<comma>x<comma>X<comma>y<comma>Y<comma>koordh<comma>KOORDH<comma>sentral<comma>SENTRAL<comma>lokalisering<comma>LOKALISERI<comma>opphav<comma>OPPHAV<comma>originaldatavert<comma>OPPHAV<comma>malemetode<comma>MALEMETODE<comma>noyaktighet<comma>NOYAKTIGHE<comma>synbarhet<comma>SYNBARHET<comma>h_malemetode<comma>H_MALEMETO<comma>h_noyaktig<comma>H_NOYAKTIG<comma>max_avvik<comma>MAX_AVVIK<comma>objtype<comma>OBJTYPE<comma>navn<comma>NAVN<comma>datafangstdato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM EPSG:25833 GEOMETRY    ROUTE FME_GENERIC TimeStamper_4_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>brannstasjon<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasjon<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonstype<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<comma>originalvert<comma>OPPHAV<closeparen>,multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ COORDINATE_SYSTEM EPSG:25833 GEOMETRY    ROUTE FME_GENERIC Reprojector_2_REPROJECTED TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>sivdistrik<comma>SIVDISTRIK<comma>url<comma>URL<comma>navn<comma>NAVN<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM EPSG:25833 GEOMETRY    ROUTE FME_GENERIC Reprojector_4_REPROJECTED TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>brannstasjon<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasjon<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonstype<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<comma>originaldatavert<comma>OPPHAV<closeparen>,multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ COORDINATE_SYSTEM EPSG:25833 GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+DEFAULT_MACRO TopologyBuilder_OVERLAPPING_MODE
+INCLUDE [ if {{No} == {Yes}} { puts "MACRO TopologyBuilder_OVERLAPPING_MODE OVERLAPPING_DATA_PREFIX_ATTR _overlapping_input_data" } ]
+FACTORY_DEF * TopologyFactory    FACTORY_NAME TopologyBuilder    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    ARC_NUMBER_ATTR _arc_id    FROM_NODE_ATTR  _from_node    TO_NODE_ATTR    _to_node    RIGHT_POLY_ATTR _right_polygon    LEFT_POLY_ATTR  _left_polygon    RIGHT_EDGE_ATTR _right_edge    LEFT_EDGE_ATTR  _left_edge    POLYGON_NUMBER_ATTR _polygon_id    PERIMETER_ATTR  _perimeter    ARCS_ATTR       _lines    POLYGONS_ATTR   _polygons    AREA_ATTR       _area    NODES_ATTR      _nodes    NODE_NUMBER_ATTR _node_number    ANGLE_PREFIX_ATTR _node_angle    PROPAGATE_ATTRS No    ALLOW_CYCLES No    ASSUME_CLEAN_DATA No    $(TopologyBuilder_OVERLAPPING_MODE)    START_EDGES_ONLY No    MAX_COORDS      0    MODE COMPLETE    UNIVERSE_GEOMETRY yes    OUTPUT LINE FEATURE_TYPE TopologyBuilder_LINE    OUTPUT POLYGON FEATURE_TYPE TopologyBuilder_AREA
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TopologyBuilder_AREA ATTR objid <at>Value<openparen>_polygon_id<closeparen> ATTR originaldatavert DSB    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TopologyBuilder_LINE ATTR objtype 110distriktGrense ATTR avgrensningfk <at>Value<openparen>_left_polygon<closeparen> ATTR avgrensningfk2 <at>Value<openparen>_right_polygon<closeparen> ATTR malemetode 64 ATTR noyaktighet 50000    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>brannstasjon<comma>BRANNSTASJ<comma>kasernert<comma>KASERNERT<comma>brannvesen<comma>BRANNVESEN<comma>anleggid<comma>ANLEGGID<comma>ajourdato<comma>AJOURDATO<comma>informasjon<comma>INFORMASJ<comma>opphav<comma>OPPHAV<comma>stasjonstype<comma>STASJONSTY<comma>objtype<comma>OBJTYPE<comma>dato<comma>DATO<comma>brannsta_<comma>BRANNSTA_<comma>originaldatavert<comma>OPPHAV<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM EPSG:4258 GEOMETRY    ROUTE FME_GENERIC AttributeCreator_5_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110grense<closeparen> COORDINATE_SYSTEM EPSG:4258 GEOMETRY    ROUTE FME_GENERIC Reprojector_2_REPROJECTED_1_NLSGbdUJQYU= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>sivdistrik<comma>SIVDISTRIK<comma>url<comma>URL<comma>navn<comma>NAVN<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM EPSG:4258 GEOMETRY    ROUTE FME_GENERIC AttributeCreator_6_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>msgeometry<comma>msGeometry<comma>poly_<comma>POLY_<comma>poly_id<comma>POLY_ID<comma>area<comma>AREA<comma>perimeter<comma>PERIMETER<comma>oppr<comma>OPPR<comma>x<comma>X<comma>y<comma>Y<comma>koordh<comma>KOORDH<comma>sentral<comma>SENTRAL<comma>lokalisering<comma>LOKALISERI<comma>opphav<comma>OPPHAV<comma>malemetode<comma>MALEMETODE<comma>noyaktighet<comma>NOYAKTIGHE<comma>synbarhet<comma>SYNBARHET<comma>h_malemetode<comma>H_MALEMETO<comma>h_noyaktig<comma>H_NOYAKTIG<comma>max_avvik<comma>MAX_AVVIK<comma>objtype<comma>OBJTYPE<comma>navn<comma>NAVN<comma>datafangstdato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM EPSG:4258 GEOMETRY    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistriktergrense<closeparen> COORDINATE_SYSTEM EPSG:4258 GEOMETRY    ROUTE FME_GENERIC Reprojector_3_REPROJECTED TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>lokalid<comma>gml_id<comma>navnerom<comma>gml_parent_id<comma>msgeometry<comma>msGeometry<comma>type<comma>TYPE<comma>kommune<comma>KOMMUNE<comma>url<comma>URL<comma>navn<comma>NAVN<comma>dato<comma>DATO<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM EPSG:4258 GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF dsb.sivilforsvaret_distriktskontor   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   type                         text   kommune                      text   url                          text   navn                         text   dato                         date   omradeid                     int8   originaldatavert             text   kopidato                     timestamp   objtype                      text
+POSTGIS_1_DEF dsb.brannstasjoner   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   brannstasjon                 text   kasernert                    text   brannvesen                   text   anleggid                     text   ajourdato                    date   informasjon                  text   opphav                       text   stasjonstype                 text   objtype                      text   dato                         date   brannsta_                    text   omradeid                     int8   originaldatavert             text   kopidato                     timestamp
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF dsb.brannstasjoner   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   brannstasjon                 text   kasernert                    text   brannvesen                   text   anleggid                     text   ajourdato                    date   informasjon                  text   opphav                       text   stasjonstype                 text   objtype                      text   dato                         date   brannsta_                    text   omradeid                     int8   originaldatavert             text   kopidato                     timestamp
+POSTGIS_1_DEF dsb.sentraldistrikter110grense   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objtype                      varchar(32)   objid                        int4   avgrensningfk                int4   avgrensningfk2               int4   malemetode                   int4   noyaktighet                  int8
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF dsb.sentraldistrikter110   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   poly_                        text   poly_id                      text   area                         text   perimeter                    text   oppr                         text   x                            float8   y                            float8   koordh                       text   sentral                      text   lokalisering                 text   opphav                       text   omradeid                     int8   originaldatavert             text   kopidato                     timestamp   malemetode                   text   noyaktighet                  int8   synbarhet                    text   h_malemetode                 text   h_noyaktig                   text   max_avvik                    text   objtype                      text   navn                         text   datafangstdato               date
+POSTGIS_1_DEF dsb.sivilforsvarsdistrikter   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   sivdistrik                   text   url                          text   navn                         text   kopidato                     timestamp   originaldatavert             text   omradeid                     int4   objtype                      text
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF dsb.sivilforsvarsdistrikter   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   sivdistrik                   text   url                          text   navn                         text   kopidato                     timestamp   originaldatavert             text   omradeid                     int4   objtype                      text
+POSTGIS_1_DEF dsb.sentraldistrikter110   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   poly_                        text   poly_id                      text   area                         text   perimeter                    text   oppr                         text   x                            float8   y                            float8   koordh                       text   sentral                      text   lokalisering                 text   opphav                       text   omradeid                     int8   originaldatavert             text   kopidato                     timestamp   malemetode                   text   noyaktighet                  int8   synbarhet                    text   h_malemetode                 text   h_noyaktig                   text   max_avvik                    text   objtype                      text   navn                         text   datafangstdato               date   objid                        int4
+# -------------------------------------------------------------------------
+POSTGIS_1_DEF dsb.sivilforsvarsdistriktergrense   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   objtype                      text
+# -------------------------------------------------------------------------
+POSTGIS_1_DEF dsb.sivilforsvaret_distriktskontor   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     YES   postgis_create_gist_index    YES   postgis_vacuum_analyze       YES   postgis_allow_serial_writing NO   lokalid                      uuid   navnerom                     text   versjonid                    varchar(2)   msgeometry                   text   type                         text   kommune                      text   url                          text   navn                         text   dato                         date   omradeid                     int8   originaldatavert             text   kopidato                     timestamp   objtype                      text

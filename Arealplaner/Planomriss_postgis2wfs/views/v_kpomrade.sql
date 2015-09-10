@@ -1,0 +1,25 @@
+﻿create or replace view planomriss.v_kpomrade as
+select kpomrade.objtype,
+    kpomrade.landkode,
+    kpomrade.fylkesnr,
+    kpomrade.komm,
+    kpomrade.planid,
+    kpomrade.ikrafttredelsesdato,
+    kpomrade.kunngjoringsdato,
+    kpomrade.lovreferanse,
+    kpomrade.lovreferansebeskrivelse,
+    kpomrade.opprinneligadministrativenhet,
+    kpomrade.opprinneligplanid,
+    kpomrade.planbestemmelse,
+    kpomrade.plannavn,
+    kpomrade.planstatus,
+    kpomrade.plantype,
+    kpomrade.vedtakendeligplandato,
+    kpomrade.omrade,
+    sosi_objekt_planomrade_kp.forstedigitaliseringsdato,
+    sosi_objekt_planomrade_kp.informasjon,
+    sosi_objekt_planomrade_kp.link,
+    sosi_objekt_planomrade_kp.oppdateringsdato,
+    sosi_objekt_planomrade_kp.prosess_historie
+   from planomriss.kpomrade
+     join planomriss.sosi_objekt_planomrade_kp on kpomrade.objid = sosi_objekt_planomrade_kp.kpomrade_fk;
