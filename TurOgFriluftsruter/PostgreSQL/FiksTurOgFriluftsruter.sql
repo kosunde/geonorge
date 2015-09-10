@@ -234,12 +234,18 @@ objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
+alter table turogfriluftsruter.annenrute_opparbeiding
+  add constraint annenrute_opparbeiding_annenrute_fk foreign key (objid) references turogfriluftsruter.annenrute (objid)
+   on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.annenrute_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
+alter table turogfriluftsruter.annenrute_tilgjengelighetsgruppe
+  add constraint annenrute_tilgjengelighetsgruppe_annenrute_fk foreign key (objid) references turogfriluftsruter.annenrute (objid)
+   on update no action on delete no action;
 
 -- Tabell   : fotrute
 -- Attributt: ..SFOTRUTETYPE
@@ -248,18 +254,27 @@ objid          integer          ,
 sfotrutetype   character varying,
 unique ( objid, sfotrutetype)
 );
+alter table turogfriluftsruter.fotrute_sfotrutetype
+  add constraint fotrute_sfotrutetype_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
+   on update no action on delete no action;
 -- Attributt: ..OPPARBEIDING
 create table turogfriluftsruter.fotrute_opparbeiding (
 objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
+alter table turogfriluftsruter.fotrute_opparbeiding
+  add constraint fotrute_opparbeiding_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
+   on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.fotrute_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
+alter table turogfriluftsruter.fotrute_tilgjengelighetsgruppe
+  add constraint fotrute_tilgjengelighetsgruppe_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
+   on update no action on delete no action;
 
 -- Tabell   : skiloype
 -- Attributt: ..OPPARBEIDING
@@ -268,12 +283,18 @@ objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
+alter table turogfriluftsruter.skiloype_opparbeiding
+  add constraint skiloype_opparbeiding_skiloype_fk foreign key (objid) references turogfriluftsruter.skiloype (objid)
+   on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.skiloype_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
+alter table turogfriluftsruter.skiloype_tilgjengelighetsgruppe
+  add constraint skiloype_tilgjengelighetsgruppe_skiloype_fk foreign key (objid) references turogfriluftsruter.skiloype (objid)
+   on update no action on delete no action;
 
 -- Tabell   : sykkelrute
 -- Attributt: ..OPPARBEIDING
@@ -282,9 +303,50 @@ objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
+alter table turogfriluftsruter.sykkelrute_opparbeiding
+  add constraint sykkelrute_opparbeiding_sykkelrute_fk foreign key (objid) references turogfriluftsruter.sykkelrute (objid)
+   on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.sykkelrute_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
+alter table turogfriluftsruter.sykkelrute_tilgjengelighetsgruppe
+  add constraint sykkelrute_tilgjengelighetsgruppe_sykkelrute_fk foreign key (objid) references turogfriluftsruter.sykkelrute (objid)
+   on update no action on delete no action;
+
+--
+-- Det genereres automatisk en verdi i kolonnene OBJID. Dett fungerer
+-- ikke i de tilfellene hvor vi har relaterte tabeller. Da må OBJID
+-- telles opp i FME-workbenchen slik at vi har kontrolllen og kan lage 
+-- koblingene.
+--
+
+-- Tabell: annenrute
+alter table turogfriluftsruter.annenrute
+   alter column objid drop default;
+drop sequence turogfriluftsruter.annenrute_objid_seq;
+
+-- Tabell: fotrute
+alter table turogfriluftsruter.fotrute
+   alter column objid drop default;
+drop sequence turogfriluftsruter.fotrute_objid_seq;
+
+-- Tabell: friluftslivtilrettelegging
+alter table turogfriluftsruter.friluftslivtilrettelegging
+   alter column objid drop default;
+drop sequence turogfriluftsruter.friluftslivtilrettelegging_objid_seq;
+
+-- Tabell: skiloype
+alter table turogfriluftsruter.skiloype
+   alter column objid drop default;
+drop sequence turogfriluftsruter.skiloeype_objid_seq;
+
+-- Tabell: sykkelrute
+alter table turogfriluftsruter.sykkelrute
+   alter column objid drop default;
+drop sequence turogfriluftsruter.sykkelrute_objid_seq;
+
+--
+
