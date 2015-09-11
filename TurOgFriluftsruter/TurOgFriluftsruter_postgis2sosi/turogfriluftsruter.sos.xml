@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="turogfriluftsruter.annenrute">
+            <Field InputName="arutetype" InputType="T80" OutputName="ARUTETYPE" OutputType="T50"/>
+            <Field InputName="belysning" InputType="T80" OutputName="BELYSNING" OutputType="H1"/>
+            <Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+            <Field InputName="frilufteierforhold" InputType="T80" OutputName="FRILUFTEIERFORHOLD" OutputType="H1"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T80" UserDefined="true"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="lengde" InputType="H11" OutputName="LENGDE" OutputType="D8.2"/>
+            <Field InputName="link" InputType="T80" OutputName="LINK" OutputType="T255"/>
+            <Field InputName="lokalid" InputType="T255" OutputName="LOKALID" OutputType="T100"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+            <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
+            <Field InputName="_ar_list_opparbeiding{}.opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="rutebetydning" InputType="T80" OutputName="RUTEBETYDNING" OutputType="H1"/>
+            <Field InputName="rutebredde" InputType="T80" OutputName="RUTEBREDDE" OutputType="H1"/>
+            <Field InputName="rutefolger" InputType="T80" OutputName="RUTEFØLGER" OutputType="T2"/>
+            <Field InputName="rutemerking" InputType="T80" OutputName="RUTEMERKING" OutputType="T2"/>
+            <Field InputName="rutenr" InputType="T80" OutputName="RUTENR" OutputType="T100"/>
+            <Field InputName="rutetype" InputType="T80" OutputName="RUTETYPE" OutputType="H1"/>
+            <Field InputName="rutevanskelighetsgrad" InputType="T80" OutputName="RUTEVANSKELIGHETSGRAD" OutputType="T25"/>
+            <Field InputName="skilting" InputType="BOOLSK" OutputName="SKILTING" OutputType="BOOLSK"/>
+            <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
+            <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
+            <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
+            <Field InputName="_ar_list_tilgjengelighetsgruppe{}.tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
+        </FeatureClass>
+        <FeatureClass InputName="turogfriluftsruter.fotrute">
+            <Field InputName="belysning" InputType="T80" OutputName="BELYSNING" OutputType="H1"/>
+            <Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+            <Field InputName="frilufteierforhold" InputType="T80" OutputName="FRILUFTEIERFORHOLD" OutputType="H1"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T80" UserDefined="true"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="lengde" InputType="H11" OutputName="LENGDE" OutputType="D8.2"/>
+            <Field InputName="link" InputType="T80" OutputName="LINK" OutputType="T255"/>
+            <Field InputName="lokalid" InputType="T255" OutputName="LOKALID" OutputType="T100"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+            <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
+            <Field InputName="_fr_list_opparbeiding{}.opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="rutebetydning" InputType="T80" OutputName="RUTEBETYDNING" OutputType="H1"/>
+            <Field InputName="rutebredde" InputType="T80" OutputName="RUTEBREDDE" OutputType="H1"/>
+            <Field InputName="rutefolger" InputType="T80" OutputName="RUTEFØLGER" OutputType="T2"/>
+            <Field InputName="rutemerking" InputType="T80" OutputName="RUTEMERKING" OutputType="T2"/>
+            <Field InputName="rutenr" InputType="T80" OutputName="RUTENR" OutputType="T100"/>
+            <Field InputName="rutetype" InputType="T80" OutputName="RUTETYPE" OutputType="H1"/>
+            <Field InputName="rutevanskelighetsgrad" InputType="T80" OutputName="RUTEVANSKELIGHETSGRAD" OutputType="T25"/>
+            <Field InputName="sesong" InputType="T80" OutputName="SESONG" OutputType="T25"/>
+            <Field InputName="_fr_list_sfotrutetype{}.sfotrutetype" InputType="T80" OutputName="SFOTRUTETYPE" OutputType="T2"/>
+            <Field InputName="skilting" InputType="BOOLSK" OutputName="SKILTING" OutputType="BOOLSK"/>
+            <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
+            <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
+            <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
+            <Field InputName="_fr_list_tilgjengelighetsgruppe{}.tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
+        </FeatureClass>
+        <FeatureClass InputName="turogfriluftsruter.friluftslivtilrettelegging">
+            <Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+            <Field InputName="fritilrettelegging" InputType="T80" OutputName="FRITILRETTELEGGING" OutputType="H2"/>
+            <Field InputName="informasjon" InputType="T80" OutputName="INFORMASJON" OutputType="T255"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T80" UserDefined="true"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="link" InputType="T80" OutputName="LINK" OutputType="T255"/>
+            <Field InputName="lokalid" InputType="T255" OutputName="LOKALID" OutputType="T100"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
+        </FeatureClass>
+        <FeatureClass InputName="turogfriluftsruter.skiloype">
+            <Field InputName="antallskispor" InputType="H11" OutputName="ANTALLSKISPOR" OutputType="H4"/>
+            <Field InputName="belysning" InputType="T80" OutputName="BELYSNING" OutputType="H1"/>
+            <Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+            <Field InputName="frilufteierforhold" InputType="T80" OutputName="FRILUFTEIERFORHOLD" OutputType="H1"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T80" UserDefined="true"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="lengde" InputType="H11" OutputName="LENGDE" OutputType="D8.2"/>
+            <Field InputName="link" InputType="T80" OutputName="LINK" OutputType="T255"/>
+            <Field InputName="lokalid" InputType="T255" OutputName="LOKALID" OutputType="T100"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+            <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
+            <Field InputName="_sl_list_opparbeiding{}.opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="preparering" InputType="T80" OutputName="PREPARERING" OutputType="T3"/>
+            <Field InputName="rutebetydning" InputType="T80" OutputName="RUTEBETYDNING" OutputType="H1"/>
+            <Field InputName="rutebredde" InputType="T80" OutputName="RUTEBREDDE" OutputType="H1"/>
+            <Field InputName="rutefolger" InputType="T80" OutputName="RUTEFØLGER" OutputType="T2"/>
+            <Field InputName="rutemerking" InputType="T80" OutputName="RUTEMERKING" OutputType="T2"/>
+            <Field InputName="rutenr" InputType="T80" OutputName="RUTENR" OutputType="T100"/>
+            <Field InputName="rutetype" InputType="T80" OutputName="RUTETYPE" OutputType="H1"/>
+            <Field InputName="rutevanskelighetsgrad" InputType="T80" OutputName="RUTEVANSKELIGHETSGRAD" OutputType="T25"/>
+            <Field InputName="ryddebredde" InputType="T80" OutputName="RYDDEBREDDE" OutputType="H1"/>
+            <Field InputName="skoytetrase" InputType="BOOLSK" OutputName="SKØYTETRASE" OutputType="BOOLSK"/>
+            <Field InputName="skilting" InputType="BOOLSK" OutputName="SKILTING" OutputType="BOOLSK"/>
+            <Field InputName="spes_skiloypetype" InputType="T80" OutputName="SPES_SKILØYPETYPE" OutputType="T2"/>
+            <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
+            <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
+            <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
+            <Field InputName="_sl_list_tilgjengelighetsgruppe{}.tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
+        </FeatureClass>
+        <FeatureClass InputName="turogfriluftsruter.sykkelrute">
+            <Field InputName="belysning" InputType="T80" OutputName="BELYSNING" OutputType="H1"/>
+            <Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+            <Field InputName="frilufteierforhold" InputType="T80" OutputName="FRILUFTEIERFORHOLD" OutputType="H1"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T80" UserDefined="true"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="lengde" InputType="H11" OutputName="LENGDE" OutputType="D8.2"/>
+            <Field InputName="link" InputType="T80" OutputName="LINK" OutputType="T255"/>
+            <Field InputName="lokalid" InputType="T255" OutputName="LOKALID" OutputType="T100"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+            <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
+            <Field InputName="opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="rutebetydning" InputType="T80" OutputName="RUTEBETYDNING" OutputType="H1"/>
+            <Field InputName="rutebredde" InputType="T80" OutputName="RUTEBREDDE" OutputType="H1"/>
+            <Field InputName="rutefolger" InputType="T80" OutputName="RUTEFØLGER" OutputType="T2"/>
+            <Field InputName="rutemerking" InputType="T80" OutputName="RUTEMERKING" OutputType="T2"/>
+            <Field InputName="rutenr" InputType="T80" OutputName="RUTENR" OutputType="T100"/>
+            <Field InputName="rutetype" InputType="T80" OutputName="RUTETYPE" OutputType="H1"/>
+            <Field InputName="rutevanskelighetsgrad" InputType="T80" OutputName="RUTEVANSKELIGHETSGRAD" OutputType="T25"/>
+            <Field InputName="skilting" InputType="BOOLSK" OutputName="SKILTING" OutputType="BOOLSK"/>
+            <Field InputName="spesialsykkelrutetype" InputType="T80" OutputName="SPESIALSYKKELRUTETYPE" OutputType="T100"/>
+            <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
+            <Field InputName="trafikkbelastning" InputType="T80" OutputName="TRAFIKKBELASTNING" OutputType="H1"/>
+            <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
+            <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
+            <Field InputName="tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>
