@@ -11,91 +11,14 @@
 -- Opprettet: 03.09.2015
 --------------------------------------------------------------------------------
 
-/*
 --
--- Fjerner fremmednøkler der SOSI UML definerer multiplisitet lik [0..1] (valgfri verdi)
---
-
--- Tabell: fotrute:
-alter table turogfriluftsruter.fotrute drop constraint fotrute_sfotrutetype_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_sesong_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_frilufteierforhold_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_belysning_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_rutefoelger_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_rutebredde_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_opparbeiding_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_rutebetydning_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_rutevanskelighetsgrad_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_underlagstype_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_tilgjengelighetsgruppe_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_rutetype_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_synbarhet_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_maalemetodehoeyde_fkey;
-alter table turogfriluftsruter.fotrute drop constraint fotrute_kommune_fkey;
--- Usikre FK'er å slette
-alter table turogfriluftsruter.fotrute drop constraint fotrute_maalemetode_fkey;
-
--- Tabell: skiloeype:
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_spes_skiloeypetype_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_preparering_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_ryddebredde_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_frilufteierforhold_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_belysning_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_rutefoelger_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_rutebredde_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_opparbeiding_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_rutebetydning_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_rutevanskelighetsgrad_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_underlagstype_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_tilgjengelighetsgruppe_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_rutetype_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_synbarhet_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_maalemetodehoeyde_fkey;
-alter table turogfriluftsruter.skiloeype drop constraint skiloeype_kommune_fkey;
-
--- Tabell: sykkelrute:
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_spesialsykkelrutetype_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_trafikkbelastning_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_frilufteierforhold_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_belysning_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_rutefoelger_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_rutebredde_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_opparbeiding_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_rutebetydning_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_rutevanskelighetsgrad_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_underlagstype_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_tilgjengelighetsgruppe_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_rutetype_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_synbarhet_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_maalemetodehoeyde_fkey;
-alter table turogfriluftsruter.sykkelrute drop constraint sykkelrute_kommune_fkey;
-
--- Tabell: annenrute:
-alter table turogfriluftsruter.annenrute drop constraint annenrute_frilufteierforhold_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_belysning_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_rutefoelger_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_rutebredde_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_opparbeiding_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_rutebetydning_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_rutevanskelighetsgrad_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_underlagstype_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_tilgjengelighetsgruppe_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_rutetype_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_synbarhet_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_maalemetodehoeyde_fkey;
-alter table turogfriluftsruter.annenrute drop constraint annenrute_kommune_fkey;
-
--- Tabeller: friluftslivtilrettelegging:
-alter table turogfriluftsruter.friluftslivtilrettelegging drop constraint friluftslivtilrettelegging_synbarhet_fkey;
-alter table turogfriluftsruter.friluftslivtilrettelegging drop constraint friluftslivtilrettelegging_maalemetodehoeyde_fkey;
-alter table turogfriluftsruter.friluftslivtilrettelegging drop constraint friluftslivtilrettelegging_kommune_fkey;
-*/
-
---
--- Bytter ut alle tidligere "konverteringer" av ÆØÅ i kolonnenavn:
+-- Bytter ut alle tidligere "konverteringer" av ÆØÅ i tabell- og kolonnenavn:
 --  -> Æ satt til AE endres til E
 --  -> Ø satt til OE endres til O
 --  -> Å satt til AA endres til A
+--
+-- NB: Det gjøres ingen endring i eksisterende kodetabeller i forhold til dette,
+--     kun for de tabellene det vil refereres til i bruk av FME.
 --
 
 -- Tabell: annenrute
@@ -234,18 +157,18 @@ objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
-alter table turogfriluftsruter.annenrute_opparbeiding
-  add constraint annenrute_opparbeiding_annenrute_fk foreign key (objid) references turogfriluftsruter.annenrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.annenrute_opparbeiding
+--   add constraint annenrute_opparbeiding_annenrute_fk foreign key (objid) references turogfriluftsruter.annenrute (objid)
+--    on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.annenrute_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
-alter table turogfriluftsruter.annenrute_tilgjengelighetsgruppe
-  add constraint annenrute_tilgjengelighetsgruppe_annenrute_fk foreign key (objid) references turogfriluftsruter.annenrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.annenrute_tilgjengelighetsgruppe
+--   add constraint annenrute_tilgjengelighetsgruppe_annenrute_fk foreign key (objid) references turogfriluftsruter.annenrute (objid)
+--    on update no action on delete no action;
 
 -- Tabell   : fotrute
 -- Attributt: ..SFOTRUTETYPE
@@ -254,27 +177,27 @@ objid          integer          ,
 sfotrutetype   character varying,
 unique ( objid, sfotrutetype)
 );
-alter table turogfriluftsruter.fotrute_sfotrutetype
-  add constraint fotrute_sfotrutetype_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.fotrute_sfotrutetype
+--   add constraint fotrute_sfotrutetype_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
+--    on update no action on delete no action;
 -- Attributt: ..OPPARBEIDING
 create table turogfriluftsruter.fotrute_opparbeiding (
 objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
-alter table turogfriluftsruter.fotrute_opparbeiding
-  add constraint fotrute_opparbeiding_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.fotrute_opparbeiding
+--   add constraint fotrute_opparbeiding_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
+--    on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.fotrute_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
-alter table turogfriluftsruter.fotrute_tilgjengelighetsgruppe
-  add constraint fotrute_tilgjengelighetsgruppe_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.fotrute_tilgjengelighetsgruppe
+--   add constraint fotrute_tilgjengelighetsgruppe_fotrute_fk foreign key (objid) references turogfriluftsruter.fotrute (objid)
+--    on update no action on delete no action;
 
 -- Tabell   : skiloype
 -- Attributt: ..OPPARBEIDING
@@ -283,18 +206,18 @@ objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
-alter table turogfriluftsruter.skiloype_opparbeiding
-  add constraint skiloype_opparbeiding_skiloype_fk foreign key (objid) references turogfriluftsruter.skiloype (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.skiloype_opparbeiding
+--   add constraint skiloype_opparbeiding_skiloype_fk foreign key (objid) references turogfriluftsruter.skiloype (objid)
+--    on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.skiloype_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
-alter table turogfriluftsruter.skiloype_tilgjengelighetsgruppe
-  add constraint skiloype_tilgjengelighetsgruppe_skiloype_fk foreign key (objid) references turogfriluftsruter.skiloype (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.skiloype_tilgjengelighetsgruppe
+--   add constraint skiloype_tilgjengelighetsgruppe_skiloype_fk foreign key (objid) references turogfriluftsruter.skiloype (objid)
+--    on update no action on delete no action;
 
 -- Tabell   : sykkelrute
 -- Attributt: ..OPPARBEIDING
@@ -303,18 +226,18 @@ objid         integer,
 opparbeiding  integer,
 unique ( objid, opparbeiding)
 );
-alter table turogfriluftsruter.sykkelrute_opparbeiding
-  add constraint sykkelrute_opparbeiding_sykkelrute_fk foreign key (objid) references turogfriluftsruter.sykkelrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.sykkelrute_opparbeiding
+--   add constraint sykkelrute_opparbeiding_sykkelrute_fk foreign key (objid) references turogfriluftsruter.sykkelrute (objid)
+--    on update no action on delete no action;
 -- Atributt: ..TILGJENGELIGHETSGRUPPE
 create table turogfriluftsruter.sykkelrute_tilgjengelighetsgruppe (
 objid                   integer,
 tilgjengelighetsgruppe  integer,
 unique ( objid, tilgjengelighetsgruppe)
 );
-alter table turogfriluftsruter.sykkelrute_tilgjengelighetsgruppe
-  add constraint sykkelrute_tilgjengelighetsgruppe_sykkelrute_fk foreign key (objid) references turogfriluftsruter.sykkelrute (objid)
-   on update no action on delete no action;
+-- alter table turogfriluftsruter.sykkelrute_tilgjengelighetsgruppe
+--   add constraint sykkelrute_tilgjengelighetsgruppe_sykkelrute_fk foreign key (objid) references turogfriluftsruter.sykkelrute (objid)
+--    on update no action on delete no action;
 
 --
 -- Det genereres automatisk en verdi i kolonnene OBJID. Dett fungerer
@@ -324,29 +247,44 @@ alter table turogfriluftsruter.sykkelrute_tilgjengelighetsgruppe
 --
 
 -- Tabell: annenrute
-alter table turogfriluftsruter.annenrute
-   alter column objid drop default;
+alter table turogfriluftsruter.annenrute alter column objid drop default;
 drop sequence turogfriluftsruter.annenrute_objid_seq;
 
 -- Tabell: fotrute
-alter table turogfriluftsruter.fotrute
-   alter column objid drop default;
+alter table turogfriluftsruter.fotrute alter column objid drop default;
 drop sequence turogfriluftsruter.fotrute_objid_seq;
 
 -- Tabell: friluftslivtilrettelegging
-alter table turogfriluftsruter.friluftslivtilrettelegging
-   alter column objid drop default;
+alter table turogfriluftsruter.friluftslivtilrettelegging alter column objid drop default;
 drop sequence turogfriluftsruter.friluftslivtilrettelegging_objid_seq;
 
 -- Tabell: skiloype
-alter table turogfriluftsruter.skiloype
-   alter column objid drop default;
+alter table turogfriluftsruter.skiloype alter column objid drop default;
 drop sequence turogfriluftsruter.skiloeype_objid_seq;
 
 -- Tabell: sykkelrute
-alter table turogfriluftsruter.sykkelrute
-   alter column objid drop default;
+alter table turogfriluftsruter.sykkelrute alter column objid drop default;
 drop sequence turogfriluftsruter.sykkelrute_objid_seq;
 
 --
+-- Enterprise Architect genererer NOT NULL constraints på en del
+-- kolonner som er definert med multiplisitet [0..1] i
+-- produktspesifikasjonen. Dette skaper problemer når vi kjører
+-- FME modeller der det ikke finnes data i kilden. Attributtverdien vil
+-- da nødvendigvis bli <NULL>.
+-- NOT NULL constrainter på disse kolonnene må fjernes.
+--
 
+-- Tabell: annenrute
+alter table turogfriluftsruter.annenrute alter column arutetype drop not null;
+
+-- Tabell: fotrute
+
+-- Tabell: friluftslivtilrettelegging
+
+-- Tabell: skiloype
+alter table turogfriluftsruter.skiloype alter column preparering drop not null;
+
+-- Tabell: sykkelrute
+
+--
