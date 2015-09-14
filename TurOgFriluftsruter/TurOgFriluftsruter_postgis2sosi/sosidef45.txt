@@ -2,7 +2,7 @@
 !                         SOSI format v4.5 definition file                     !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!
-!!!!  Date:  2015-09-08 10:19:14                                               
+!!!!  Date:  2015-09-14 11:36:37                                               
 !!!!
 !!!!  Supplert manuelt da Kartverket ikke lenger har et oppegående samlet opplegg
 !!!!  Start manuelt vedlikehold 2014-02-03
@@ -1534,8 +1534,6 @@
 .$VALUE RUTEMERKING ("JA" "NEI" "PM" "SM")
 .$VALUE RUTENETTYPE ("Annet lokalt" "Euref89 lokal UTM sone" "Gradnett"
 "NGO lokal akse")
-.$VALUE FOTRUTETYPE (1 2 3)
-.$VALUE SYKKELRUTETYPE (1 2 3)
 .$VALUE RUTEVANSKELIGHETSGRAD ("B" "G" "I" "R" "S")
 .$VALUE RWY_BÆREEVNE_BEN ("PCN")
 .$VALUE RWY_TYPE ("10" "11" "12" "13" "20" "21" "22" "30" "31" "32")
@@ -6786,13 +6784,13 @@
 ..OBJEKTKATALOG_LINK T255
 
 .DEF
-..OBS_METODE T25
+..OBS_METODE T25                                   !observasjonsmåte
 
 .DEF
-..OBS_SLUTT DATOTID
+..OBS_SLUTT DATOTID                                !observasjonSluttDato
 
 .DEF
-..OBS_START DATOTID
+..OBS_START DATOTID                                !observasjonStartDato
 
 .DEF
 ..OBSERVASJONDEFORMASJON R                         !observasjon
@@ -7671,7 +7669,7 @@
 ..RUTEFØLGER T2                                    !ruteFølger
 
 .DEF
-..RUTEMERKING T2                                   !ruteMerking
+..RUTEMERKING T3                                   !ruteMerking
 
 .DEF
 ..RUTENETTYPE T35                                  !rutenettype
@@ -10039,7 +10037,7 @@
 ...RUTENR T100 $CARMIN (0) $CARMAX (1)             !rutenummer
 ...BELYSNING H1 $CARMIN (0) $CARMAX (1)            !belysning
 ...VEDLIKEH T35 $CARMIN (0) $CARMAX (1)            !vedlikeholdsansvarlig
-...RUTEMERKING T2 $CARMIN (1) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
 ...RUTEBREDDE H1 $CARMIN (0) $CARMAX (1)           !rutebredde
 ...OPPARBEIDING H1 $CARMIN (0) $CARMAX ($N)        !opparbeiding
@@ -10198,7 +10196,7 @@
 ..OBJTYPE Barmarksløype $GEOMETRY (KURVE)
 ...NAVN T60 $CARMIN (0) $CARMAX (1)                !navn
 ...RUTENR T100 $CARMIN (0) $CARMAX (1)             !rutenummer
-...RUTEMERKING T2 $CARMIN (0) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...ÅPNESDATO DATO $CARMIN (0) $CARMAX (1)          !åpnesDato
 ...STENGESDATO DATO $CARMIN (0) $CARMAX (1)        !stengesDato
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
@@ -11890,7 +11888,7 @@
 ...RUTENR T100 $CARMIN (0) $CARMAX (1)             !rutenummer
 ...BELYSNING H1 $CARMIN (0) $CARMAX (1)            !belysning
 ...VEDLIKEH T35 $CARMIN (0) $CARMAX (1)            !vedlikeholdsansvarlig
-...RUTEMERKING T2 $CARMIN (1) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
 ...RUTEBREDDE H1 $CARMIN (0) $CARMAX (1)           !rutebredde
 ...OPPARBEIDING H1 $CARMIN (0) $CARMAX ($N)        !opparbeiding
@@ -14074,7 +14072,7 @@
 ...OBS_SLUTT DATOTID $MAN $CARMIN (1) $CARMAX (1)  !observasjonSluttDato
 ...BMNATYP T5 $MAN $CARMIN (1) $CARMAX (1)         !biologiskmangfoldNaturtype
 ...BMKILDE * $MAN $CARMIN (1) $CARMAX (1)          !biologiskmangfoldKilde
-....BMKILDTYP H1 $MAN                              !kildetype
+....BMKILDTYP H1 $MAN                              !
 ....BM_KILDELINK T255 $MAN                         !kildeLink
 ....BM_KILDENAVN T255 $MAN                         !kildeNavn
 ....BM_KILDETITTEL T255 $MAN                       !kildeTittel
@@ -14085,7 +14083,7 @@
 ....LOKALID T100                                   !lokalID
 ....NAVNEROM T100                                  !navnerom
 ....VERSJONID T100                                 !versjonID
-...VERIFISERINGSDATO DATOTID $MAN $CARMIN (1) $CARMAX (1)  !verifiseringDato
+...VERIFISERINGSDATO DATOTID $MAN $CARMIN (1) $CARMAX (1) !verifiseringDato
 ...KVALITET * $MAN $CARMIN (1) $CARMAX (1)         !kvalitet
 ....MÅLEMETODE H2 $MAN $CARMIN (1) $CARMAX (1)     !målemetode
 ....NØYAKTIGHET H6 $CARMIN (0) $CARMAX (1)         !nøyaktighet
@@ -14095,8 +14093,8 @@
 ....MAX-AVVIK H6 $CARMIN (0) $CARMAX (1)           !maksimaltAvvik
 ...MEDIUM T1 $MAN $CARMIN (1) $CARMAX (1)          !medium
 ...OPPHAV T255 $MAN $CARMIN (1) $CARMAX (1)        !opphav
-...NØYAKTIGHETSKLASSE H1 $MAN $CARMIN (1) $CARMAX (1)      !nøyaktighetsklasse
-...REGISTRERINGSVERSJON * $MAN $CARMIN (1) $CARMAX (1)     !registreringsversjon
+...NØYAKTIGHETSKLASSE H1 $MAN $CARMIN (1) $CARMAX (1) !nøyaktighetsklasse
+...REGISTRERINGSVERSJON * $MAN $CARMIN (1) $CARMAX (1) !registreringsversjon
 ....PRODUKT T15 $MAN $CARMIN (1) $CARMAX (1)       !produkt
 ....VERSJON T50 $MAN $CARMIN (1) $CARMAX (1)       !versjon
 
@@ -17608,7 +17606,7 @@
 ...SKØYTETRASE BOOLSK $CARMIN (0) $CARMAX (1)      !skøytetrase
 ...BELYSNING H1 $CARMIN (0) $CARMAX (1)            !belysning
 ...VEDLIKEH T35 $CARMIN (0) $CARMAX (1)            !vedlikeholdsansvarlig
-...RUTEMERKING T2 $CARMIN (1) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
 ...RUTEBREDDE H1 $CARMIN (0) $CARMAX (1)           !rutebredde
 ...OPPARBEIDING H1 $CARMIN (0) $CARMAX ($N)        !opparbeiding
@@ -17850,7 +17848,7 @@
 ...NAVN T60 $CARMIN (0) $CARMAX (1)                !navn
 ...RUTENR T100 $CARMIN (0) $CARMAX (1)             !rutenummer
 ...SNØSCOOTERLØYPETYPE T100 $CARMIN (0) $CARMAX (1) !snøscooterløypeType
-...RUTEMERKING T2 $CARMIN (0) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...ÅPNESDATO DATO $CARMIN (1) $CARMAX (1)          !åpnesDato
 ...STENGESDATO DATO $CARMIN (1) $CARMAX (1)        !stengesDato
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
@@ -18109,7 +18107,7 @@
 
 .OBJDEF
 ..OBJTYPE Sti $GEOMETRY (KURVE)
-...RUTEMERKING T2 $CARMIN (0) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 
 .OBJDEF
 ..OBJTYPE Stikkrenne $GEOMETRY (KURVE)
@@ -18203,7 +18201,7 @@
 ...RUTENR T100 $CARMIN (0) $CARMAX (1)             !rutenummer
 ...BELYSNING H1 $CARMIN (0) $CARMAX (1)            !belysning
 ...VEDLIKEH T35 $CARMIN (0) $CARMAX (1)            !vedlikeholdsansvarlig
-...RUTEMERKING T2 $CARMIN (1) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
 ...RUTEBREDDE H1 $CARMIN (0) $CARMAX (1)           !rutebredde
 ...OPPARBEIDING H1 $CARMIN (0) $CARMAX ($N)        !opparbeiding
@@ -18718,7 +18716,7 @@
 ...RUTENR T100 $CARMIN (0) $CARMAX (1)             !rutenummer
 ...BELYSNING H1 $CARMIN (0) $CARMAX (1)            !belysning
 ...VEDLIKEH T35 $CARMIN (0) $CARMAX (1)            !vedlikeholdsansvarlig
-...RUTEMERKING T2 $CARMIN (1) $CARMAX (1)          !ruteMerking
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)          !ruteMerking
 ...RUTEFØLGER T2 $CARMIN (0) $CARMAX (1)           !ruteFølger
 ...RUTEBREDDE H1 $CARMIN (0) $CARMAX (1)           !rutebredde
 ...OPPARBEIDING H1 $CARMIN (0) $CARMAX ($N)        !opparbeiding
@@ -19174,7 +19172,7 @@
 ...BARMARKSLØYPE BOOLSK $CARMIN (0) $CARMAX (1)
 ...BELYSNING H1 $CARMIN (0) $CARMAX (1)
 ...MEDIUM T1 $CARMIN (0) $CARMAX (1)
-...RUTEMERKING T2 $CARMIN (0) $CARMAX (1)
+...RUTEMERKING T3 $CARMIN (0) $CARMAX (1)
 ...DATAFANGSTDATO DATOTID $MAN $CARMIN (1) $CARMAX (1)
 ...VERIFISERINGSDATO DATOTID $MAN $CARMIN (0) $CARMAX (1) !verifiseringsdato
 ...OPPDATERINGSDATO DATOTID $MAN $CARMIN (0) $CARMAX (1)
