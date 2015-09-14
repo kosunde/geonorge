@@ -17,21 +17,21 @@
             <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
             <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
             <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
-            <Field InputName="_ar_list_opparbeiding{}.opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
             <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
             <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
             <Field InputName="rutebetydning" InputType="T80" OutputName="RUTEBETYDNING" OutputType="H1"/>
             <Field InputName="rutebredde" InputType="T80" OutputName="RUTEBREDDE" OutputType="H1"/>
             <Field InputName="rutefolger" InputType="T80" OutputName="RUTEFØLGER" OutputType="T2"/>
-            <Field InputName="rutemerking" InputType="T80" OutputName="RUTEMERKING" OutputType="T2"/>
+            <Field InputName="rutemerking" InputType="T80" OutputName="RUTEMERKING" OutputType="T3"/>
             <Field InputName="rutenr" InputType="T80" OutputName="RUTENR" OutputType="T100"/>
             <Field InputName="rutetype" InputType="T80" OutputName="RUTETYPE" OutputType="H1"/>
             <Field InputName="rutevanskelighetsgrad" InputType="T80" OutputName="RUTEVANSKELIGHETSGRAD" OutputType="T25"/>
-            <Field InputName="skilting" InputType="BOOLSK" OutputName="SKILTING" OutputType="BOOLSK"/>
+            <Field InputName="skilting" InputType="T3" OutputName="SKILTING" OutputType="T3"/>
             <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
             <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
             <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
-            <Field InputName="_ar_list_tilgjengelighetsgruppe{}.tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
             <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
         </FeatureClass>
         <FeatureClass InputName="turogfriluftsruter.fotrute">
@@ -49,7 +49,7 @@
             <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
             <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
             <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
-            <Field InputName="_fr_list_opparbeiding{}.opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
             <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
             <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
             <Field InputName="rutebetydning" InputType="T80" OutputName="RUTEBETYDNING" OutputType="H1"/>
@@ -60,12 +60,12 @@
             <Field InputName="rutetype" InputType="T80" OutputName="RUTETYPE" OutputType="H1"/>
             <Field InputName="rutevanskelighetsgrad" InputType="T80" OutputName="RUTEVANSKELIGHETSGRAD" OutputType="T25"/>
             <Field InputName="sesong" InputType="T80" OutputName="SESONG" OutputType="T25"/>
-            <Field InputName="_fr_list_sfotrutetype{}.sfotrutetype" InputType="T80" OutputName="SFOTRUTETYPE" OutputType="T2"/>
+            <Field InputName="sfotrutetype" InputType="T80" OutputName="SFOTRUTETYPE" OutputType="T2"/>
             <Field InputName="skilting" InputType="BOOLSK" OutputName="SKILTING" OutputType="BOOLSK"/>
             <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
             <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
             <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
-            <Field InputName="_fr_list_tilgjengelighetsgruppe{}.tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
             <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
         </FeatureClass>
         <FeatureClass InputName="turogfriluftsruter.friluftslivtilrettelegging">
@@ -101,7 +101,7 @@
             <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="T80" UserDefined="true"/>
             <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
             <Field InputName="objtype" InputType="T32" OutputName="OBJTYPE" OutputType="T32" UserDefined="true"/>
-            <Field InputName="_sl_list_opparbeiding{}.opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
+            <Field InputName="opparbeiding" InputType="T80" OutputName="OPPARBEIDING" OutputType="H1"/>
             <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
             <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
             <Field InputName="preparering" InputType="T80" OutputName="PREPARERING" OutputType="T3"/>
@@ -119,7 +119,7 @@
             <Field InputName="stigning" InputType="H11" OutputName="STIGNING" OutputType="H3"/>
             <Field InputName="underlagstype" InputType="T80" OutputName="UNDERLAGSTYPE" OutputType="H1"/>
             <Field InputName="informasjon" InputType="T80" OutputName="UNIVERSELLUTFORMING\INFORMASJON" OutputType="T255"/>
-            <Field InputName="_sl_list_tilgjengelighetsgruppe{}.tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
+            <Field InputName="tilgjengelighetsgruppe" InputType="T80" OutputName="UNIVERSELLUTFORMING\TILGJENGELIGHETSGRUPPE" OutputType="H1"/>
             <Field InputName="vedlikeh" InputType="T80" OutputName="VEDLIKEH" OutputType="T35"/>
         </FeatureClass>
         <FeatureClass InputName="turogfriluftsruter.sykkelrute">
