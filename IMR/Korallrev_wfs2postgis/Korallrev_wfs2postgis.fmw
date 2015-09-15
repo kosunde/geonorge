@@ -5,52 +5,52 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" D:\Repositories\GitHub\geonorge\IMR\Korallrev_wfs2postgis\Korallrev_wfs2postgis.fmw
+#    "C:\Program Files\FME\fme.exe" D:\GitHub\geonorge\IMR\Korallrev_wfs2postgis\Korallrev_wfs2postgis.fmw
 #    
 #    
-#! FME_DOCUMENT_PRIORGUID="88e82931-766a-4a8a-aeea-f1a9fe3c827b,aa608d2b-fb42-472a-8e0a-7c3c359d60ee,94414b0c-81a0-457d-a009-a0b81c6ce91e,df7950f9-6c5c-46e7-9dd7-577ab7660bba,22432c47-be41-4087-8664-7b27d477d561,b78eb91f-d031-4b22-97b5-20348d993baa,295b42c4-6235-4e88-b14a-2a9fa7976a11"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! VIEW_POSITION="-90.0009 0"
-#! END_PYTHON=""
-#! SOURCE_ROUTING_FILE=""
-#! IGNORE_READER_FAILURE="No"
-#! DESTINATION_ROUTING_FILE=""
-#! SHOW_INFO_NODES="true"
-#! ATTR_TYPE_ENCODING="SDF"
-#! USAGE=""
 #! DOC_EXTENTS="3750 1800"
-#! BEGIN_PYTHON=""
-#! ZOOM_SCALE="100"
-#! FME_DOCUMENT_GUID="aeb18c3f-0162-43d6-942b-45fb2d64f204"
-#! SHOW_ANNOTATIONS="true"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! LOG_FILE=""
-#! LEGAL_TERMS_CONDITIONS=""
-#! DOC_TOP_LEFT="150 -2049"
-#! FME_BUILD_NUM="15515"
-#! SOURCE="NONE"
-#! LAST_SAVE_DATE="2015-09-01T14:07:57"
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! END_TCL=""
-#! MAX_LOG_FEATURES="200"
-#! DESTINATION="NONE"
-#! REQUIREMENTS_KEYWORD=""
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #! TITLE=""
+#! REQUIREMENTS_KEYWORD=""
+#! ZOOM_SCALE="100"
+#! HISTORY=""
+#! REQUIREMENTS=""
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! FME_BUILD_NUM="15515"
+#! REDIRECT_TERMINATORS="NONE"
+#! PASSWORD=""
+#! SHOW_ANNOTATIONS="true"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! ATTR_TYPE_ENCODING="SDF"
+#! VIEW_POSITION="-90.0009 0"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! LEGAL_TERMS_CONDITIONS=""
+#! SOURCE="NONE"
+#! BEGIN_TCL=""
+#! DESTINATION="NONE"
+#! BEGIN_PYTHON=""
+#! FME_DOCUMENT_PRIORGUID="88e82931-766a-4a8a-aeea-f1a9fe3c827b,aa608d2b-fb42-472a-8e0a-7c3c359d60ee,94414b0c-81a0-457d-a009-a0b81c6ce91e,df7950f9-6c5c-46e7-9dd7-577ab7660bba,22432c47-be41-4087-8664-7b27d477d561,b78eb91f-d031-4b22-97b5-20348d993baa,295b42c4-6235-4e88-b14a-2a9fa7976a11,aeb18c3f-0162-43d6-942b-45fb2d64f204"
+#! USAGE=""
 #! DESCRIPTION=""
+#! END_PYTHON=""
+#! LAST_SAVE_DATE="2015-09-15T14:49:14"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! DESTINATION_ROUTING_FILE=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! MAX_LOG_FEATURES="200"
+#! FME_SERVER_SERVICES=""
+#! DOC_TOP_LEFT="150 -2049"
+#! IGNORE_READER_FAILURE="No"
+#! SHOW_INFO_NODES="true"
+#! LOG_FILE="$(LOG_FILE)"
+#! CATEGORY=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! SOURCE_ROUTING_FILE=""
 #! LOG_MAX_PRECISION="Yes"
 #! WORKSPACE_VERSION="1"
-#! BEGIN_TCL=""
-#! PASSWORD=""
-#! REDIRECT_TERMINATORS="NONE"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! CATEGORY=""
-#! HISTORY=""
-#! FME_REPROJECTION_ENGINE="FME"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! REQUIREMENTS=""
-#! FME_SERVER_SERVICES=""
+#! FME_DOCUMENT_GUID="d522c05e-43b8-418a-a7cf-655dd924c930"
+#! END_TCL=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_dataset xml_char(50) fme_color xml_char(50) fme_feature_type xml_char(50) multi_reader_keyword xml_char(50) fme_start_angle xml_real64 multi_reader_type xml_char(50) fme_text_size xml_real64 fme_rotation xml_real64 fme_sweep_angle xml_real64 multi_reader_full_id xml_int32 fme_basename xml_char(50) fme_secondary_axis xml_real64 fme_geometry fme_char(50) fme_text_string xml_char(50) fme_primary_axis xml_real64 fme_fill_color xml_char(50) fme_type xml_char(50) xml_type xml_char(50) multi_reader_id xml_int32"
+#! EXPOSABLE_ATTRS="fme_start_angle xml_real64 fme_dataset xml_char(50) fme_secondary_axis xml_real64 xml_type xml_char(50) fme_rotation xml_real64 fme_type xml_char(50) fme_primary_axis xml_real64 multi_reader_full_id xml_int32 fme_sweep_angle xml_real64 fme_color xml_char(50) fme_feature_type xml_char(50) multi_reader_type xml_char(50) fme_text_size xml_real64 fme_basename xml_char(50) fme_text_string xml_char(50) fme_geometry fme_char(50) multi_reader_keyword xml_char(50) multi_reader_id xml_int32 fme_fill_color xml_char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -75,17 +75,13 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="URL"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! COORDSYS=""
 #! MAX_FEATURES=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! COORDSYS=""
+#! MIN_FEATURES=""
 #! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MIN_FEATURES=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
@@ -97,6 +93,10 @@
 #! <METAFILE_PARAMETER
 #! NAME="READER_DATASET_HINT"
 #! VALUE="Specify the WFS URL"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -112,7 +112,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode INHERIT_FROM_WRITER postgis_sql_key_columns &quot;&quot; postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_drop_table NO postgis_truncate_table NO postgis_create_with_oids NO postgis_create_gist_index YES postgis_vacuum_analyze NO postgis_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_dataset char(50) fme_color char(50) fme_feature_type char(50) fme_start_angle float8 fme_text_size float8 fme_rotation float8 fme_sweep_angle float8 postgis_collection_id int4 postgis_type char(50) fme_basename char(50) fme_secondary_axis float8 fme_geometry fme_char(50) fme_text_string char(50) fme_db_operation char(8) fme_primary_axis float8 fme_fill_color char(50) fme_where char(254) postgis_collection_part_id int4 fme_type char(50)"
+#! EXPOSABLE_ATTRS="fme_start_angle float8 fme_dataset char(50) fme_secondary_axis float8 fme_rotation float8 fme_where char(254) fme_primary_axis float8 fme_db_operation char(8) fme_type char(50) postgis_type char(50) fme_sweep_angle float8 fme_color char(50) fme_feature_type char(50) postgis_collection_part_id int4 fme_text_size float8 fme_basename char(50) fme_text_string char(50) fme_geometry fme_char(50) fme_fill_color char(50) postgis_collection_id int4"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgis_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgis_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgis_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgis_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgis_spatial_column_type geometry%geography Spatial Column Type&quot; geometry &quot;GUI TEXT postgis_spatial_column Spatial Column Name&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -122,12 +122,20 @@
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
 #! FANOUT="No"
-#! COORDSYS="$(COORDSYS_OUT)"
 #! FANOUT_SUFFIX=""
 #! FANOUT_PREFIX=""
-#! FANOUT_ID_ATTR=""
+#! COORDSYS="$(COORDSYS_OUT)"
 #! FANOUT_DIRECTORY=""
+#! FANOUT_ID_ATTR=""
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
@@ -139,14 +147,6 @@
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -811,17 +811,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="produkt" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjon" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_maalemetode" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="posisjon"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="posisjon"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -926,6 +926,11 @@
 #! <GLOBAL_PARAMETER
 #! GUI_LINE="GUI IGNORE COORDSYS COORDSYS_OUT Destination Coordinate System:"
 #! DEFAULT_VALUE="EPSG:4258"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM LOG_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GetConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;os&lt;comma&gt;&lt;space&gt;uuid&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;fmwdir&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;logdir&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fmwdir&lt;comma&gt;&lt;space&gt;&lt;apos&gt;log&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;if&lt;space&gt;not&lt;space&gt;os.path.isdir&lt;openparen&gt;logdir&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.mkdir&lt;openparen&gt;logdir&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;logfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;fmwfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;_&lt;apos&gt;&lt;space&gt;+&lt;space&gt;str&lt;openparen&gt;uuid.uuid1&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;.replace&lt;openparen&gt;&lt;apos&gt;-&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;.log&lt;apos&gt;&lt;lf&gt;logfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;logdir&lt;comma&gt;&lt;space&gt;logfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;logfile"
 #! IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1033,7 +1038,7 @@
 #! BOUNDING_RECT="3043.01 -450 554 1161.02"
 #! STICKY="true"
 #! COLOUR="0.619608,0.137255,0.254902"
-#! CONTENTS="16 18 23 37 21 35 20 "
+#! CONTENTS="18 21 16 37 20 23 35 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="43"
@@ -1044,7 +1049,7 @@
 #! BOUNDING_RECT="1650 -450 552.006 1167.02"
 #! STICKY="true"
 #! COLOUR="0.321569,0.737255,0.701961"
-#! CONTENTS="46 47 36 6 27 "
+#! CONTENTS="46 27 6 47 36 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1083,9 +1088,9 @@
 #! <XFORM_ATTR ATTR_NAME="Dybde_Nedr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Kilde" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BulkAttributeRemover"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_EXP" PARM_VALUE=".xsi_nil"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="6"
@@ -1132,14 +1137,14 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SOSI_AttributeCreator"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,Korallrev,h_maalemetode,70,bmnatyp,I09,bmkildtyp,9,maalemetode,70,synbarhet,0,medium,S,noeyaktighetsklasse,2,produkt,Korallrev,versjon,20150408"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="9"
@@ -1176,12 +1181,12 @@
 #! <XFORM_ATTR ATTR_NAME="Dybde_Nedr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Kilde" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(COORDSYS_OUT)"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(COORDSYS_OUT)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="12"
@@ -1218,10 +1223,10 @@
 #! <XFORM_ATTR ATTR_NAME="Dybde_Nedr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Kilde" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="UUID_ATTR" PARM_VALUE="lokalid"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="LOKALID_UUIDGenerator"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UUID_ATTR" PARM_VALUE="lokalid"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="15"
@@ -1271,12 +1276,12 @@
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="OBJID_Counter"/>
-#! <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="counter"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Global"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="counter"/>
 #! <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="objid"/>
 #! <XFORM_PARM PARM_NAME="START" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="18"
@@ -1324,13 +1329,13 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="OBS_START_DateFormatter"/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="obs_start"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="16"
@@ -1378,13 +1383,13 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="OBS_SLUTT_DateFormatter"/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="obs_slutt"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="20"
@@ -1432,13 +1437,13 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VERIFISERINGSDATO_DateFormatter"/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="verifiseringsdato"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="FME_NULL_VALUE"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="27"
@@ -1534,13 +1539,13 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="%Y"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BM_KILDEAAR_DateFormatter"/>
-#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="bm_kildeaar"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="%Y"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="47"
@@ -1637,17 +1642,17 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DATO_NullSetter"/>
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="bm_kildeaar obs_slutt obs_start verifiseringsdato"/>
-#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
-#! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="1899-12-31"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null"/>
+#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="bm_kildeaar obs_slutt obs_start verifiseringsdato"/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="1899-12-31"/>
+#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
+#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="49"
@@ -1695,17 +1700,17 @@
 #! <XFORM_ATTR ATTR_NAME="noeyaktighetsklasse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="produkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="bm_kildenavn bm_kildetittel bmkildtyp bmnatyp maalemetode medium navnerom noeyaktighetsklasse obs_metode opphav produkt versjon"/>
-#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
-#! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="Empty String"/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null"/>
+#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="bm_kildenavn bm_kildetittel bmkildtyp bmnatyp maalemetode medium navnerom noeyaktighetsklasse obs_metode opphav produkt versjon"/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="Empty String"/>
+#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2052,6 +2057,39 @@ else:
 END_INCLUDE
 DEFAULT_MACRO COORDSYS_OUT EPSG:4258
 GUI IGNORE COORDSYS COORDSYS_OUT Destination Coordinate System:
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        GetConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import os, uuid, fme
+  
+  fmwdir = fme.macroValues['FME_MF_DIR']
+  fmwfile = fme.macroValues['FME_MF_NAME']
+  
+  logdir = os.path.join(fmwdir, 'log')
+  if not os.path.isdir(logdir):
+      os.mkdir(logdir)
+  
+  logfile = os.path.splitext(fmwfile)[0] + '_' + str(uuid.uuid1()).replace('-','') + '.log'
+  logfile = os.path.join(logdir, logfile)
+  
+  return logfile
+value = ParamFunc()
+macroName = 'LOG_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
 INCLUDE [ if {{$(CONFIG_FILE)} == {}} { puts_real {Parameter 'CONFIG_FILE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(WFS_IN)} == {}} { puts_real {Parameter 'WFS_IN' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(PG_PWD)} == {}} { puts_real {Parameter 'PG_PWD' must be given a value.}; exit 1; }; ]
@@ -2060,6 +2098,7 @@ INCLUDE [ if {{$(PG_PORT)} == {}} { puts_real {Parameter 'PG_PORT' must be given
 INCLUDE [ if {{$(PG_HOST)} == {}} { puts_real {Parameter 'PG_HOST' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(PG_DB)} == {}} { puts_real {Parameter 'PG_DB' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(COORDSYS_OUT)} == {}} { puts_real {Parameter 'COORDSYS_OUT' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(LOG_FILE)} == {}} { puts_real {Parameter 'LOG_FILE' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE WFS
@@ -2278,7 +2317,7 @@ POSTGIS_1_DATASET "$(DestDataset_POSTGIS_1)"
 #! END_DEST_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)Korallrev_wfs2postgis.log"
+LOG_FILENAME "$(LOG_FILE)"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -2342,13 +2381,13 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCopier    INPUT  FEATURE_TYPE 
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc DATO_NullSetter_16789f06_f8ce_40ad_b87e_252d8bb8d5850_null_replacer { otherValue newValue regExp } {    set attrs [split {bm_kildeaar obs_slutt obs_start verifiseringsdato} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DATO_NullSetter    INPUT  FEATURE_TYPE AttributeCopier_OUTPUT    OUTPUT FEATURE_TYPE DATO_NullSetter_OUTPUT         @Tcl2("DATO_NullSetter_16789f06_f8ce_40ad_b87e_252d8bb8d5850_null_replacer {} {1899-12-31} {}")
+Tcl2 proc DATO_NullSetter_ebaccf2e_09b8_49fc_a386_cf8a289de7dd1_null_replacer { otherValue newValue regExp } {    set attrs [split {bm_kildeaar obs_slutt obs_start verifiseringsdato} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME DATO_NullSetter    INPUT  FEATURE_TYPE AttributeCopier_OUTPUT    OUTPUT FEATURE_TYPE DATO_NullSetter_OUTPUT         @Tcl2("DATO_NullSetter_ebaccf2e_09b8_49fc_a386_cf8a289de7dd1_null_replacer {} {1899-12-31} {}")
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_bdc4c27c_e961_477d_b8d2_564b8751c0650_null_replacer { otherValue newValue regExp } {    set attrs [split {bm_kildenavn bm_kildetittel bmkildtyp bmnatyp maalemetode medium navnerom noeyaktighetsklasse obs_metode opphav produkt versjon} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {EMPTY};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {EMPTY};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {EMPTY};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {EMPTY};          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {EMPTY};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE DATO_NullSetter_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_bdc4c27c_e961_477d_b8d2_564b8751c0650_null_replacer {} {<Unused>} {}")
+Tcl2 proc NullAttributeMapper_8632eb74_2480_4c15_a137_a0d5fb250a051_null_replacer { otherValue newValue regExp } {    set attrs [split {bm_kildenavn bm_kildetittel bmkildtyp bmnatyp maalemetode medium navnerom noeyaktighetsklasse obs_metode opphav produkt versjon} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {EMPTY};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {EMPTY};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {EMPTY};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {EMPTY};          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {EMPTY};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE DATO_NullSetter_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_8632eb74_2480_4c15_a137_a0d5fb250a051_null_replacer {} {<Unused>} {}")
 
 # -------------------------------------------------------------------------
 
@@ -2372,9 +2411,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME BM_KILDEAAR_DateFormatter    INPUT  FEA
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc OBJID_Counter_440eb416_abe5_4bea_b8c5_e8a3f177b7a50_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {OBJID_Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc OBJID_Counter_cfd1e6b4_56ea_41e1_9c50_090c31b76bd71_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {OBJID_Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME OBJID_Counter    INPUT  FEATURE_TYPE BM_KILDEAAR_DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE OBJID_Counter_OUTPUT         "objid" @Count(fme_encoded,@Tcl2("OBJID_Counter_440eb416_abe5_4bea_b8c5_e8a3f177b7a50_createDomain {counter}"), "1")
+FACTORY_DEF * TeeFactory    FACTORY_NAME OBJID_Counter    INPUT  FEATURE_TYPE BM_KILDEAAR_DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE OBJID_Counter_OUTPUT         "objid" @Count(fme_encoded,@Tcl2("OBJID_Counter_cfd1e6b4_56ea_41e1_9c50_090c31b76bd71_createDomain {counter}"), "1")
 
 # -------------------------------------------------------------------------
 
