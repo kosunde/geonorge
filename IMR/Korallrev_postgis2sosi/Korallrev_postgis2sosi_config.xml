@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <configuration>
-    <pghost>Nnridb504</pghost>
+    <pghost>nnridb504</pghost>
 	<pguser>geonortst</pguser>
 	<pgpwd>geonortst</pgpwd>
 	<pgport>5432</pgport>
@@ -8,5 +8,6 @@
 	<sosifile>korallrev.sos</sosifile>
 	<mappingfile>korallrev.sos.xml</mappingfile>
 	<sosideffile>korallrev_sosidef45.txt</sosideffile>
-    <pgODBCdriver>{PostgreSQL ODBC Driver(UNICODE)}</pgODBCdriver>
+    <pgODBCdriver>{PostgreSQL Unicode(x64)}</pgODBCdriver>	
+	<destdir>\\nnrite507\Geodata\Output</destdir>
  </configuration>

@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------
+﻿--------------------------------------------------------------------------------
 -- Filnavn: FiksTurOgFriluftsliv.sql
 -- Formål : Rydder i skjema generert fra Enterprise Architect. Antakelig ligger
 --          dette i EA, og vi må "korrigere" for dette:
@@ -83,23 +83,18 @@ alter table turogfriluftsruter.sykkelrute alter column rutenr type character var
 insert into turogfriluftsruter.maalemetode values ('19','Ukjent_1');
 insert into turogfriluftsruter.maalemetode values ('25','Ukjent_2');
 insert into turogfriluftsruter.maalemetode values ('47','Ukjent_3');
-commit;
 
 -- Tabell: maalemetodehoeyde
 insert into turogfriluftsruter.maalemetodehoeyde values ('0','Ukjent_1');
-commit;
 
 -- Tabell: spesialfotrutetype
 insert into turogfriluftsruter.spesialfotrutetype values ('PG','Ukjent_1');
-commit;
 
 -- tabell: rutefoelger
 insert into turogfriluftsruter.rutefoelger values ('JA','Ukjent_1');
-commit;
 
 -- Tabell: rutemerking
 insert into turogfriluftsruter.rutemerking values ('UKJ','Ukjent_1');
-commit;
 
 --
 -- ..KVALITET egenskapen nøyaktighet er i produktspekken lagt inn med
@@ -240,7 +235,7 @@ unique ( objid, tilgjengelighetsgruppe)
 --    on update no action on delete no action;
 
 --
--- Det genereres automatisk en verdi i kolonnene OBJID. Dett fungerer
+-- Det genereres automatisk en verdi i kolonnene OBJID. Dette fungerer
 -- ikke i de tilfellene hvor vi har relaterte tabeller. Da må OBJID
 -- telles opp i FME-workbenchen slik at vi har kontrolllen og kan lage 
 -- koblingene.
