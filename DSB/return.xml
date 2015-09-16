@@ -1,9 +1,9 @@
-﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <WFS_Capabilities xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.opengis.net/wfs/2.0" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd" updateSequence="71579">
 	<!--Service Identification Section-->
 	<ows:ServiceIdentification>
 		<ows:Title>WFS Service Compliant with OGC WFS Specification Version 2.0.0</ows:Title>
-		<ows:Abstract>An OGC WFS Service created by Geonorge FME Server</ows:Abstract>
+		<ows:Abstract>An OGC WFS Service created by GeoNorge FME Server</ows:Abstract>
 		<ows:ServiceType>WFS</ows:ServiceType>
 		<ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
 		<ows:ServiceTypeVersion>1.1.0</ows:ServiceTypeVersion>
@@ -11,18 +11,16 @@
 		<ows:Fees>None</ows:Fees>
 		<ows:AccessConstraints>None</ows:AccessConstraints>
 	</ows:ServiceIdentification>
-	<ows:ServiceType>WFS</ows:ServiceType>
-	<ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
 	<!--Service Provider Section-->
 	<ows:ServiceProvider>
-		<ows:ProviderName>Geonorge</ows:ProviderName>
-		<ows:ProviderSite xlink:href="www.geonorge.no"></ows:ProviderSite>
+		<ows:ProviderName>GeoNorge</ows:ProviderName>
+		<ows:ProviderSite xlink:href="www.safe.com"></ows:ProviderSite>
 		<ows:ServiceContact>
-			<ows:IndividualName>Geonorge.no</ows:IndividualName>
-			<ows:PositionName>Geonorge.no</ows:PositionName>
+			<ows:IndividualName>Norge Digitalt</ows:IndividualName>
+			<ows:PositionName></ows:PositionName>
 			<ows:ContactInfo>
 				<ows:Phone>
-					<ows:Voice>08700</ows:Voice>
+					<ows:Voice></ows:Voice>
 					<ows:Facsimile></ows:Facsimile>
 				</ows:Phone>
 				<ows:Address>
@@ -32,8 +30,8 @@
 					<ows:ElectronicMailAddress>post@norgedigitalt.no</ows:ElectronicMailAddress>
 				</ows:Address>
 				<ows:OnlineResource xlink:href="http://www.geonorge.no"></ows:OnlineResource>
-				<ows:HoursOfService>24x7</ows:HoursOfService>
-				<ows:ContactInstructions>none</ows:ContactInstructions>
+				<ows:HoursOfService></ows:HoursOfService>
+				<ows:ContactInstructions></ows:ContactInstructions>
 			</ows:ContactInfo>
 			<ows:Role></ows:Role>
 		</ows:ServiceContact>
@@ -43,8 +41,8 @@
 		<ows:Operation name="GetCapabilities">
 			<ows:DCP>
 				<ows:HTTP>
-					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/DSB/DSBSentraldistrikterWFS.fmw"></ows:Get>
-					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/DSB/DSBSentraldistrikterWFS.fmw"></ows:Post>
+					<ows:Get xlink:href=""></ows:Get>
+					<ows:Post xlink:href=""></ows:Post>
 				</ows:HTTP>
 			</ows:DCP>
 			<ows:Parameter name="AcceptVersions">
@@ -63,8 +61,8 @@
 		<ows:Operation name="DescribeFeatureType">
 			<ows:DCP>
 				<ows:HTTP>
-					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/DSB/DSBSentraldistrikterWFS.fmw"></ows:Get>
-					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/DSB/DSBSentraldistrikterWFS.fmw"></ows:Post>
+					<ows:Get xlink:href=""></ows:Get>
+					<ows:Post xlink:href=""></ows:Post>
 				</ows:HTTP>
 			</ows:DCP>
 			<ows:Parameter name="outputFormat">
@@ -76,8 +74,8 @@
 		<ows:Operation name="GetFeature">
 			<ows:DCP>
 				<ows:HTTP>
-					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/DSB/DSBSentraldistrikterWFS.fmw"></ows:Get>
-					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/DSB/DSBSentraldistrikterWFS.fmw"></ows:Post>
+					<ows:Get xlink:href=""></ows:Get>
+					<ows:Post xlink:href=""></ows:Post>
 				</ows:HTTP>
 			</ows:DCP>
 		</ows:Operation>
@@ -143,11 +141,21 @@
 	</ows:OperationsMetadata>
 	<!--Feature Type List Section-->
 	<FeatureTypeList>
-		<FeatureType xmlns:mywfs="http://www.safe.com/gml/fme">
-			<Name>mywfs:dsb.sentraldistrikter110</Name>
-			<Title>dsb.sentraldistrikter110</Title>
+		<FeatureType xmlns:app="http://skjema.geonorge.no/SOSI/produktspesifikasjon/">
+			<Name>app:dsb.brannstasjoner</Name>
+			<Title>dsb.brannstasjoner</Title>
 			<Abstract></Abstract>
-			<DefaultCRS>urn:ogc:def:crs:EPSG::4326</DefaultCRS>
+			<DefaultCRS>urn:ogc:def:crs:EPSG:4258</DefaultCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25830</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25831</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25832</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25833</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25834</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25835</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::25836</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+			<OtherCRS>urn:ogc:def:crs:EPSG::3045</OtherCRS>
 			<OutputFormats>
 				<Format>text/xml; subtype=gml/3.2.1</Format>
 			</OutputFormats>
@@ -234,4 +242,3 @@
 		</fes:Scalar_Capabilities>
 	</fes:Filter_Capabilities>
 </WFS_Capabilities>
-
