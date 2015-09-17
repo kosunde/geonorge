@@ -6,54 +6,54 @@
 #    
 #    
 #    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Dekningsanalyse_MD.fmw
-#          --SourceDataset_POSTGIS "geonortst<at>Nnridb504:5432<solidus>geonor01tst"
-#          --DestDataset_POSTGIS "geonortst<at>Nnridb504:5432<solidus>geonor01tst"
+#          --SourceDataset_POSTGIS "geonortst<at>nnridb504:5432<solidus>geonor01tst"
+#          --DestDataset_POSTGIS "geonortst<at>nnridb504:5432<solidus>geonor01tst"
 #          --SourceDataset_SHAPE_3 """"""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\arter_nasj_for_int.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Fril_kartlverd.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Fril_statligsikra.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\GF_lokalitet.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Naturnvernomr.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Naturnvernomr_foreslaatt.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\naturt_i_norge_landskap.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\naturt_utvalgte.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Verdifulle_kulturlandskap.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Viktige_naturtyper.shp"" ""C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Temp_data\MD\Villreinomrader.shp""""""
 #    
 #    
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! FME_REPROJECTION_ENGINE="FME"
-#! DOC_TOP_LEFT="-4652.53 -32026.9"
-#! LAST_SAVE_DATE="2015-09-14T15:07:13"
-#! PASSWORD=""
-#! LEGAL_TERMS_CONDITIONS=""
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! DOC_EXTENTS="7662.2 5452.22"
-#! FME_BUILD_NUM="15515"
-#! LOG_FILE=""
-#! TITLE=""
-#! ZOOM_SCALE="36"
-#! SHOW_ANNOTATIONS="true"
-#! DESTINATION_ROUTING_FILE=""
-#! END_TCL=""
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! FME_SERVER_SERVICES=""
-#! VIEW_POSITION="-5683.39 -26175.3"
-#! LOG_MAX_PRECISION="Yes"
-#! WORKSPACE_VERSION="1"
-#! IGNORE_READER_FAILURE="No"
-#! SOURCE_ROUTING_FILE=""
-#! REQUIREMENTS_KEYWORD=""
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! ATTR_TYPE_ENCODING="SDF"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! HISTORY=""
-#! REDIRECT_TERMINATORS="NONE"
-#! MAX_LOG_FEATURES="200"
-#! REQUIREMENTS=""
-#! END_PYTHON=""
-#! DESTINATION="NONE"
-#! CATEGORY=""
-#! USAGE=""
-#! FME_DOCUMENT_PRIORGUID="25b265e7-87d7-496a-bebd-8f92d63dd537,a4a98728-22e8-445f-8706-00b180f374f9,2ed82dfb-17bb-452f-a861-539d7d6d31e7,3db0ec33-235c-4ac2-8e60-14917b81df2a,56809dc4-016d-47f4-ada2-26f387e5bf1f,e31ec4c8-1bd0-481e-93b9-795bfe1c64f6,1ca9d93e-a32a-420c-84b8-36a0cac5d37f,9bed60fb-4332-4d03-96a8-29d380613f01,5fec33c0-ad4e-40b8-9f90-4b7324a485f9,ee873a6e-a378-46a1-ada1-1067237934d3,abdfcf7d-4f5b-431d-b0bf-38174efdc4f0,cf9cd252-9910-46a8-88a8-0e6ef93ba98a,ffa49d02-4b22-423d-81a2-c2f4919bd561,895b8f71-5935-4cd2-bbba-c2427f1d6104,a623945c-c013-4be0-b200-cb382e5e5caf,68c0b884-c181-46b2-8d4f-407862a20c68,99907c82-a784-4069-a154-32080aab6413,427ca0d4-3805-47d6-8f63-b154436f9717,9e35dbdb-ab3a-4ee5-8a79-dfe111782d32,86f6e4ae-5b59-4f65-94f3-19cd24b91a91,0213bc3f-3d4d-4dbc-9c5a-ea393e36d5ec,bb9fc087-555b-4de0-abf1-f19fefb98c44,14806e93-3fe2-42ab-89ea-34a9c51e0b7e,72b11907-ed50-4af4-b064-af9967a16886,cc6683f4-ce09-4166-ac96-053d352b5b3b,f867fe26-ad80-410f-83d9-bce53cc3cda2,3b96abca-2e66-475d-9a68-6591e1200abc,617b7aa0-9080-4cf1-8e1a-4266f37f5d67,78451cab-e932-43ba-9916-4947f8ff9759,cb824fea-a0e6-466d-a039-361979f1a8c3,eb7a8f79-7af0-462a-b3f0-14364bee602b,2382fcb3-7552-4708-be90-af471faf85df,98eada19-664c-4b2a-a0b6-e2ea8ac6e7cc,1fa19f9c-aeb9-49ae-9284-e89cdf79447f,f76b1965-88c2-4b89-9e24-2297fd4e5a57,4b4b9979-d82d-4e9e-9d35-74200928f749,daad5d71-b427-4184-88db-e71fc1af084f,22919610-1c62-42a0-9741-83d3b74fb422,66332890-99f8-44a5-bf92-b8e9c0f41c0d,a8c2833a-1898-438e-a786-b8599ee030b7,b26f95f2-2e3f-413a-9ce8-2e7e1071d1de,5d567418-3239-4713-ab52-8132d7f614ba,b07eec23-de55-493a-ac0c-d8d71b4be36c,b2c3181e-2db6-45be-be5d-c035d249a84b,f1076964-49cb-4e04-9087-c9eee18927fe"
-#! DESCRIPTION=""
-#! BEGIN_TCL=""
 #! SOURCE="NONE"
-#! BEGIN_PYTHON=""
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! FME_DOCUMENT_GUID="f3b8aa55-f866-4d51-92c8-76624f7eadbd"
-#! SHOW_INFO_NODES="true"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! REDIRECT_TERMINATORS="NONE"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! USAGE=""
+#! REQUIREMENTS=""
+#! PASSWORD=""
+#! END_TCL=""
+#! DOC_EXTENTS="7662.21 5452.3"
 #! FME_STROKE_MAX_DEVIATION="0"
+#! END_PYTHON=""
+#! BEGIN_PYTHON=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! LAST_SAVE_DATE="2015-09-17T14:52:17"
+#! FME_REPROJECTION_ENGINE="FME"
+#! LOG_MAX_PRECISION="Yes"
+#! ZOOM_SCALE="36"
+#! HISTORY=""
+#! WORKSPACE_VERSION="1"
+#! FME_BUILD_NUM="15515"
+#! DESTINATION_ROUTING_FILE=""
+#! FME_SERVER_SERVICES=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! LEGAL_TERMS_CONDITIONS=""
+#! DOC_TOP_LEFT="-4652.53 -32026.9"
+#! VIEW_POSITION="-5675.06 -26366.9"
+#! TITLE=""
+#! DESTINATION="NONE"
+#! SHOW_INFO_NODES="true"
+#! FME_DOCUMENT_PRIORGUID="25b265e7-87d7-496a-bebd-8f92d63dd537,a4a98728-22e8-445f-8706-00b180f374f9,2ed82dfb-17bb-452f-a861-539d7d6d31e7,3db0ec33-235c-4ac2-8e60-14917b81df2a,56809dc4-016d-47f4-ada2-26f387e5bf1f,e31ec4c8-1bd0-481e-93b9-795bfe1c64f6,1ca9d93e-a32a-420c-84b8-36a0cac5d37f,9bed60fb-4332-4d03-96a8-29d380613f01,5fec33c0-ad4e-40b8-9f90-4b7324a485f9,ee873a6e-a378-46a1-ada1-1067237934d3,abdfcf7d-4f5b-431d-b0bf-38174efdc4f0,cf9cd252-9910-46a8-88a8-0e6ef93ba98a,ffa49d02-4b22-423d-81a2-c2f4919bd561,895b8f71-5935-4cd2-bbba-c2427f1d6104,a623945c-c013-4be0-b200-cb382e5e5caf,68c0b884-c181-46b2-8d4f-407862a20c68,99907c82-a784-4069-a154-32080aab6413,427ca0d4-3805-47d6-8f63-b154436f9717,9e35dbdb-ab3a-4ee5-8a79-dfe111782d32,86f6e4ae-5b59-4f65-94f3-19cd24b91a91,0213bc3f-3d4d-4dbc-9c5a-ea393e36d5ec,bb9fc087-555b-4de0-abf1-f19fefb98c44,14806e93-3fe2-42ab-89ea-34a9c51e0b7e,72b11907-ed50-4af4-b064-af9967a16886,cc6683f4-ce09-4166-ac96-053d352b5b3b,f867fe26-ad80-410f-83d9-bce53cc3cda2,3b96abca-2e66-475d-9a68-6591e1200abc,617b7aa0-9080-4cf1-8e1a-4266f37f5d67,78451cab-e932-43ba-9916-4947f8ff9759,cb824fea-a0e6-466d-a039-361979f1a8c3,eb7a8f79-7af0-462a-b3f0-14364bee602b,2382fcb3-7552-4708-be90-af471faf85df,98eada19-664c-4b2a-a0b6-e2ea8ac6e7cc,1fa19f9c-aeb9-49ae-9284-e89cdf79447f,f76b1965-88c2-4b89-9e24-2297fd4e5a57,4b4b9979-d82d-4e9e-9d35-74200928f749,daad5d71-b427-4184-88db-e71fc1af084f,22919610-1c62-42a0-9741-83d3b74fb422,66332890-99f8-44a5-bf92-b8e9c0f41c0d,a8c2833a-1898-438e-a786-b8599ee030b7,b26f95f2-2e3f-413a-9ce8-2e7e1071d1de,5d567418-3239-4713-ab52-8132d7f614ba,b07eec23-de55-493a-ac0c-d8d71b4be36c,b2c3181e-2db6-45be-be5d-c035d249a84b,f1076964-49cb-4e04-9087-c9eee18927fe,f3b8aa55-f866-4d51-92c8-76624f7eadbd"
+#! LOG_FILE=""
+#! SOURCE_ROUTING_FILE=""
+#! CATEGORY=""
+#! DESCRIPTION=""
+#! MAX_LOG_FEATURES="200"
+#! BEGIN_TCL=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! SHOW_ANNOTATIONS="true"
+#! REQUIREMENTS_KEYWORD=""
+#! IGNORE_READER_FAILURE="No"
+#! FME_DOCUMENT_GUID="3a3020a3-8ee4-4e0c-bf30-48e058681178"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_rotation float8 multi_reader_full_id int4 postgis_collection_part_id int4 fme_sweep_angle float8 fme_feature_type char(50) postgis_type char(50) fme_secondary_axis float8 fme_text_string char(50) postgres_oid int4 fme_basename char(50) multi_reader_id int4 fme_dataset char(50) fme_geometry fme_char(50) postgis_collection_id int4 multi_reader_keyword char(50) fme_primary_axis float8 fme_fill_color char(50) multi_reader_type char(50) fme_color char(50) fme_start_angle float8 fme_type char(50) fme_text_size float8"
+#! EXPOSABLE_ATTRS="multi_reader_id int4 fme_geometry fme_char(50) fme_dataset char(50) multi_reader_keyword char(50) fme_feature_type char(50) fme_start_angle float8 postgis_collection_part_id int4 fme_text_size float8 fme_secondary_axis float8 multi_reader_type char(50) fme_sweep_angle float8 fme_rotation float8 fme_type char(50) fme_fill_color char(50) multi_reader_full_id int4 postgis_collection_id int4 postgis_type char(50) fme_text_string char(50) fme_primary_axis float8 fme_color char(50) postgres_oid int4 fme_basename char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -78,31 +78,31 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MAX_FEATURES=""
 #! COORDSYS=""
-#! MIN_FEATURES=""
 #! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MAX_FEATURES=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MIN_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
 #! />
 #! </DATASET>
@@ -111,7 +111,7 @@
 #! ROLE="READER"
 #! FORMAT="SHAPE"
 #! DATASET="$(SourceDataset_SHAPE_3)"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! MULTI_GEOM_ALLOWED="false"
 #! ATTR_MAX_LENGTH="60"
 #! ATTR_CASE="ANY"
@@ -119,7 +119,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_rotation number(31,15) multi_reader_full_id number(11,0) fme_sweep_angle number(31,15) fme_feature_type char(50) fme_secondary_axis number(31,15) fme_text_string char(50) fme_basename char(50) fme_dataset char(50) multi_reader_id number(11,0) fme_geometry fme_char(50) shape_geometry_error{} char(254) multi_reader_keyword char(50) fme_primary_axis number(31,15) fme_fill_color char(50) multi_reader_type char(50) shape_measures char(254) fme_color char(50) fme_start_angle number(31,15) fme_type char(50) fme_text_size number(31,15)"
+#! EXPOSABLE_ATTRS="multi_reader_id number(11,0) fme_geometry fme_char(50) fme_dataset char(50) multi_reader_keyword char(50) shape_geometry_error{} char(254) fme_feature_type char(50) fme_start_angle number(31,15) fme_text_size number(31,15) fme_secondary_axis number(31,15) multi_reader_type char(50) fme_sweep_angle number(31,15) fme_rotation number(31,15) fme_type char(50) fme_fill_color char(50) multi_reader_full_id number(11,0) shape_measures char(254) fme_text_string char(50) fme_primary_axis number(31,15) fme_color char(50) fme_basename char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES="INDEX"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -128,20 +128,20 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILEDIR"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MAX_FEATURES=""
 #! COORDSYS=""
-#! MIN_FEATURES=""
 #! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MAX_FEATURES=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MIN_FEATURES=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="shp file"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="WRITER_DATASET_HINT"
 #! VALUE="Specify a folder for the Esri Shape file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Shape File"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -152,8 +152,8 @@
 #! VALUE="SHAPE_IN_SEARCH_ENVELOPE_MINX SHAPE_IN_SEARCH_ENVELOPE_MINY SHAPE_IN_SEARCH_ENVELOPE_MAXX SHAPE_IN_SEARCH_ENVELOPE_MAXY SHAPE_IN_CLIP_TO_ENVELOPE SEARCH_ENVELOPE_COORDINATE_SYSTEM SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Shape File"
+#! NAME="DATASET_NAME"
+#! VALUE="shp file"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="READER_DATASET_HINT"
@@ -173,7 +173,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode INHERIT_FROM_WRITER postgis_sql_key_columns &quot;&quot; postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_drop_table NO postgis_truncate_table NO postgis_create_with_oids NO postgis_create_gist_index YES postgis_vacuum_analyze NO postgis_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_rotation float8 postgis_collection_part_id int4 fme_sweep_angle float8 fme_feature_type char(50) postgis_type char(50) fme_secondary_axis float8 fme_text_string char(50) fme_basename char(50) fme_dataset char(50) fme_where char(254) fme_geometry fme_char(50) postgis_collection_id int4 fme_primary_axis float8 fme_fill_color char(50) fme_db_operation char(8) fme_color char(50) fme_start_angle float8 fme_type char(50) fme_text_size float8"
+#! EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_dataset char(50) fme_start_angle float8 fme_feature_type char(50) postgis_collection_part_id int4 fme_text_size float8 fme_secondary_axis float8 fme_sweep_angle float8 fme_rotation float8 fme_type char(50) fme_fill_color char(50) fme_where char(254) postgis_collection_id int4 postgis_type char(50) fme_text_string char(50) fme_db_operation char(8) fme_primary_axis float8 fme_color char(50) fme_basename char(50)"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgis_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgis_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgis_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgis_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgis_spatial_column_type geometry%geography Spatial Column Type&quot; geometry &quot;GUI TEXT postgis_spatial_column Spatial Column Name&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -182,31 +182,31 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FANOUT_PREFIX=""
-#! FANOUT_ID_ATTR=""
 #! COORDSYS=""
+#! FANOUT_SUFFIX=""
+#! FANOUT_ID_ATTR=""
 #! FANOUT_DIRECTORY=""
 #! FANOUT="No"
-#! FANOUT_SUFFIX=""
+#! FANOUT_PREFIX=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
 #! />
 #! </DATASET>
@@ -1120,8 +1120,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1212,17 +1212,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="md_arter_nasjon_forv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="md_naturt_landskap" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="md_naturt_utv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="UPDATE"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE="kommuneid"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geom"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1236,7 +1236,7 @@
 #! BOUNDING_RECT="-1401.16 -29561.3 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1259,7 +1259,7 @@
 #! BOUNDING_RECT="-1348.65 -28064.4 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1282,7 +1282,7 @@
 #! BOUNDING_RECT="-1461.16 -31097.3 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1305,7 +1305,7 @@
 #! BOUNDING_RECT="-1566.84 -31712.6 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1328,7 +1328,7 @@
 #! BOUNDING_RECT="-1401.16 -29050.4 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1351,7 +1351,7 @@
 #! BOUNDING_RECT="-1348.65 -26727.9 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1374,7 +1374,7 @@
 #! BOUNDING_RECT="-1461.16 -30089.7 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1397,7 +1397,7 @@
 #! BOUNDING_RECT="-1401.16 -30657.1 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1420,7 +1420,7 @@
 #! BOUNDING_RECT="-1401.16 -27158.4 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1443,7 +1443,7 @@
 #! BOUNDING_RECT="-1401.16 -27596.4 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1466,7 +1466,7 @@
 #! BOUNDING_RECT="-1401.16 -28599.9 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
-#! KEYWORD="SHAPE_2"
+#! KEYWORD="SHAPE_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! HIDDEN_USER_ATTRS=""
@@ -1483,12 +1483,12 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #! GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS Connection:"
-#! DEFAULT_VALUE="geonortst&lt;at&gt;Nnridb504:5432&lt;solidus&gt;geonor01tst"
+#! DEFAULT_VALUE="geonortst&lt;at&gt;nnridb504:5432&lt;solidus&gt;geonor01tst"
 #! IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #! GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS Connection:"
-#! DEFAULT_VALUE="geonortst&lt;at&gt;Nnridb504:5432&lt;solidus&gt;geonor01tst"
+#! DEFAULT_VALUE="geonortst&lt;at&gt;nnridb504:5432&lt;solidus&gt;geonor01tst"
 #! IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1525,12 +1525,12 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryCoercer"/>
 #! <XFORM_PARM PARM_NAME="GQUERY" PARM_VALUE="for&lt;space&gt;&lt;dollar&gt;geom&lt;space&gt;in&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;geometry&lt;lf&gt;where&lt;space&gt;&lt;dollar&gt;geom&lt;solidus&gt;count&lt;openparen&gt;parent::geometry&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;0&lt;lf&gt;return&lt;space&gt;number&lt;openparen&gt;&lt;dollar&gt;geom&lt;solidus&gt;&lt;at&gt;fme_id&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="GQUERY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="fme_polygon"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryCoercer"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="KIND" PARM_VALUE="fme_polygon"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="78"
@@ -1548,23 +1548,23 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="60"
@@ -1580,13 +1580,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="62"
@@ -1607,23 +1607,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_2"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_2"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="65"
@@ -1654,19 +1654,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_2"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_2"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="66"
@@ -1690,13 +1690,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturvernomr_foresl" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr_foresl,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr_foresl,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1716,13 +1716,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturvernomr_foresl" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr_foresl,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr_foresl,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1739,13 +1739,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="33"
@@ -1766,23 +1766,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_3"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_3"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="34"
@@ -1813,19 +1813,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_3"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_3"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="35"
@@ -1849,13 +1849,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_verdif_kulturlandsk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_verdif_kulturlandsk,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_verdif_kulturlandsk,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1875,13 +1875,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_verdif_kulturlandsk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_verdif_kulturlandsk,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_verdif_kulturlandsk,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1898,13 +1898,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_4"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_4"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="42"
@@ -1925,23 +1925,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_4"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_4"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="43"
@@ -1972,19 +1972,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_4"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_4"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="44"
@@ -2008,13 +2008,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_viktige_naturt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_viktige_naturt,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_viktige_naturt,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2034,13 +2034,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_viktige_naturt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_viktige_naturt,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_viktige_naturt,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2057,13 +2057,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_5"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_5"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="72"
@@ -2084,23 +2084,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_5"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_5"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="73"
@@ -2131,19 +2131,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_5"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_5"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="74"
@@ -2167,13 +2167,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_frilkartlverds" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilkartlverds,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_8"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_8"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilkartlverds,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2193,13 +2193,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_frilkartlverds" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilkartlverds,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_9"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_9"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilkartlverds,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2216,13 +2216,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_6"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_6"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="84"
@@ -2243,23 +2243,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_6"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_6"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="85"
@@ -2290,19 +2290,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_6"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_6"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="86"
@@ -2326,13 +2326,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_villreinomr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_villreinomr,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_10"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_10"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_villreinomr,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2352,13 +2352,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_villreinomr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_villreinomr,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_11"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_11"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_villreinomr,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2375,13 +2375,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_7"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_7"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="93"
@@ -2402,23 +2402,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_7"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_7"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="94"
@@ -2449,19 +2449,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_7"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_7"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="95"
@@ -2485,13 +2485,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturvernomr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_12"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_12"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2511,13 +2511,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturvernomr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_13"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_13"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturvernomr,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2534,13 +2534,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_8"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_8"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="102"
@@ -2561,23 +2561,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_8"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_8"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="103"
@@ -2608,19 +2608,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_8"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_8"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="104"
@@ -2644,13 +2644,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_arter_nasjon_forv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_arter_nasjon_forv,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_14"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_14"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_arter_nasjon_forv,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2670,13 +2670,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_arter_nasjon_forv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_arter_nasjon_forv,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_15"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_15"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_arter_nasjon_forv,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2693,13 +2693,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_9"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_9"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="111"
@@ -2720,23 +2720,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_9"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_9"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="112"
@@ -2767,19 +2767,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_9"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_9"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="113"
@@ -2803,13 +2803,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturt_landskap" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_landskap,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_16"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_16"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_landskap,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2829,13 +2829,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturt_landskap" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_landskap,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_17"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_17"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_landskap,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2852,13 +2852,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_10"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_10"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="120"
@@ -2879,23 +2879,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_10"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_10"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="121"
@@ -2926,19 +2926,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_10"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_10"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="122"
@@ -2962,13 +2962,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturt_utv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_utv,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_18"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_18"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_utv,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2988,13 +2988,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_naturt_utv" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_utv,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_19"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_19"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_naturt_utv,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -3011,13 +3011,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_11"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_11"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="129"
@@ -3038,23 +3038,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_11"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_11"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="130"
@@ -3085,19 +3085,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_11"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_11"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="131"
@@ -3121,13 +3121,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_frilstatligsikra" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilstatligsikra,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_20"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_20"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilstatligsikra,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -3147,13 +3147,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_frilstatligsikra" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilstatligsikra,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_21"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_21"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_frilstatligsikra,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -3170,13 +3170,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_match_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_12"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_12"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="138"
@@ -3197,23 +3197,23 @@
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
-#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
-#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
-#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_12"/>
+#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
 #! <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="_geometry_name"/>
+#! <XFORM_PARM PARM_NAME="SPLIT_COMPOSITES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="ID and Parent ID"/>
+#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
+#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_ONE_LEVEL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="_hierarchy_id"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Flatten One Level"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PART_NUMBER_FIELD" PARM_VALUE="_part_number"/>
 #! <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PRESERVE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="_hierarchy_child_id_list"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Deaggregator_12"/>
-#! <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="_hierarchy_parent_id"/>
-#! <XFORM_PARM PARM_NAME="COPY_ATTR" PARM_VALUE="Every Node"/>
-#! <XFORM_PARM PARM_NAME="EXPLODE_INSTANCES" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTR_MODE_LOOKUP" PARM_VALUE="LEAN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="139"
@@ -3244,19 +3244,19 @@
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
 #! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_12"/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
 #! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter_12"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PREDICATE_VALUE" PARM_VALUE="Intersects"/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Multiple Filters"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Filter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="140"
@@ -3280,13 +3280,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_forurensetgrunn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_forurensetgrunn,1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_22"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_22"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_forurensetgrunn,1"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -3306,13 +3306,13 @@
 #! <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="md_forurensetgrunn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_forurensetgrunn,0"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_23"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_23"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="md_forurensetgrunn,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
@@ -4237,10 +4237,10 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 #! 
-GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,SourceDataset_SHAPE_2,SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_2,SHAPE_IN_ENCODING_SHAPE_2,SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_2,SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_2,SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_2,SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_2,SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_2,SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_2,SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_2,SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_2,_MEASURES_AS_Z_SHAPE_2,SHAPE_IN_DISSOLVE_HOLES_SHAPE_2,SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_2,SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_2,DestDataset_POSTGIS_2,POSTGIS_OUT_WRITER_MODE_POSTGIS_2,POSTGIS_OUT_START_TRANSACTION_POSTGIS_2,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2,POSTGIS_OUT_BULK_COPY_POSTGIS_2,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2,POSTGIS_OUT_BEGIN_SQL_POSTGIS_2,POSTGIS_OUT_END_SQL_POSTGIS_2
-DEFAULT_MACRO SourceDataset_POSTGIS geonortst<at>Nnridb504:5432<solidus>geonor01tst
+GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_EXPOSE_ATTRS_GROUP_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,SourceDataset_SHAPE_1,SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_1,SHAPE_IN_ENCODING_SHAPE_1,SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_1,SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_1,SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_1,_MEASURES_AS_Z_SHAPE_1,SHAPE_IN_DISSOLVE_HOLES_SHAPE_1,SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_1,SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_1,DestDataset_POSTGIS_2,POSTGIS_OUT_WRITER_MODE_POSTGIS_2,POSTGIS_OUT_START_TRANSACTION_POSTGIS_2,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2,POSTGIS_OUT_BULK_COPY_POSTGIS_2,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2,POSTGIS_OUT_BEGIN_SQL_POSTGIS_2,POSTGIS_OUT_END_SQL_POSTGIS_2
+DEFAULT_MACRO SourceDataset_POSTGIS geonortst<at>nnridb504:5432<solidus>geonor01tst
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS Connection:
-DEFAULT_MACRO DestDataset_POSTGIS geonortst<at>Nnridb504:5432<solidus>geonor01tst
+DEFAULT_MACRO DestDataset_POSTGIS geonortst<at>nnridb504:5432<solidus>geonor01tst
 GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS Connection:
 DEFAULT_MACRO SourceDataset_SHAPE_3 ""$(FME_MF_DIR)Temp_data\MD\arter_nasj_for_int.shp" "$(FME_MF_DIR)Temp_data\MD\Fril_kartlverd.shp" "$(FME_MF_DIR)Temp_data\MD\Fril_statligsikra.shp" "$(FME_MF_DIR)Temp_data\MD\GF_lokalitet.shp" "$(FME_MF_DIR)Temp_data\MD\Naturnvernomr.shp" "$(FME_MF_DIR)Temp_data\MD\Naturnvernomr_foreslaatt.shp" "$(FME_MF_DIR)Temp_data\MD\naturt_i_norge_landskap.shp" "$(FME_MF_DIR)Temp_data\MD\naturt_utvalgte.shp" "$(FME_MF_DIR)Temp_data\MD\Verdifulle_kulturlandskap.shp" "$(FME_MF_DIR)Temp_data\MD\Viktige_naturtyper.shp" "$(FME_MF_DIR)Temp_data\MD\Villreinomrader.shp""
 GUI MULTIFILE SourceDataset_SHAPE_3 Shape_Files(*.shp)|*.shp|Compressed_Shape_Files(*.shz)|*.shz|All_Files(*)|* Source Esri Shape File(s):
@@ -4254,7 +4254,7 @@ MULTI_READER_TYPE{0} POSTGIS
 MULTI_READER_KEYWORD{0} POSTGIS_1
 MULTI_READER_GEN_DIRECTIVES{0} USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXX,0,DISABLE_COLLECTION_SPLITTING,yes,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,EXPOSE_ATTRS_GROUP,,FME_CONNECTION_GROUP,,NAMED_CONNECTION,geonortst<lt>at<gt>Nnridb504:5432<lt>solidus<gt>geonor01tst,SCHEMALIST,admingrense,TABLELIST,admingrense.kommuneflate,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,POSTGIS_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,USE_TRUE_POSTGIS_TYPES,yes,CLIP_TO_ENVELOPE,NO
 MULTI_READER_TYPE{1} SHAPE
-MULTI_READER_KEYWORD{1} SHAPE_2
+MULTI_READER_KEYWORD{1} SHAPE_1
 MULTI_READER_GEN_DIRECTIVES{1} _MERGE_SCHEMAS,YES,UPPER_CASE_ATTR_NAMES,No,_EXTRA_DATASETS,C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Fril_kartlverd.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Fril_statligsikra.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>GF_lokalitet.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Naturnvernomr.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Naturnvernomr_foreslaatt.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>naturt_i_norge_landskap.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>naturt_utvalgte.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Verdifulle_kulturlandskap.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Viktige_naturtyper.shp<comma>C:<backslash>Users<backslash>xmaland<backslash>Documents<backslash>GitHub<backslash>geonorge<backslash>Dekningsanalyse<backslash>Temp_data<backslash>MD<backslash>Villreinomrader.shp,SIMPLE_DONUT_GEOMETRY,simple,SHAPE_EXPOSE_FORMAT_ATTRS,,ENCODING,SYSTEM,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,USE_SEARCH_ENVELOPE,NO,CLIP_TO_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
@@ -4328,9 +4328,9 @@ POSTGIS_1_END_SQL "$(POSTGIS_IN_END_SQL_POSTGIS_1)"
 POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "SHAPE_2"
+MACRO WB_KEYWORD "SHAPE_1"
 #! END_WB_HEADER
-#! START_SOURCE_HEADER SHAPE SHAPE_2
+#! START_SOURCE_HEADER SHAPE SHAPE_1
 # ============================================================================
 # The following GUI line prompts for the source shape files
 # The dataset this mapping file was generated from was:
@@ -4338,97 +4338,97 @@ MACRO WB_KEYWORD "SHAPE_2"
 #! START_WB_HEADER
 DEFAULT_MACRO SourceDataset
 INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
- puts {DEFAULT_MACRO SourceDataset_SHAPE_2 $(SourceDataset)}     \
+ puts {DEFAULT_MACRO SourceDataset_SHAPE_1 $(SourceDataset)}     \
  } ]
 #! END_WB_HEADER
-#! START_SOURCE_HEADER SHAPE SHAPE_2
-DEFAULT_MACRO SourceDataset_SHAPE_2 $(SourceDataset_SHAPE_3)
-GUI MULTIFILE SourceDataset_SHAPE_2 Shape_Files(*.shp)|*.shp|Compressed_Shape_Files(*.shz)|*.shz|All_Files(*)|* Source Esri Shape File(s):
+#! START_SOURCE_HEADER SHAPE SHAPE_1
+DEFAULT_MACRO SourceDataset_SHAPE_1 $(SourceDataset_SHAPE_3)
+GUI MULTIFILE SourceDataset_SHAPE_1 Shape_Files(*.shp)|*.shp|Compressed_Shape_Files(*.shz)|*.shz|All_Files(*)|* Source Esri Shape File(s):
 # =====================================================================
 # Provide some control over what attributes have the user-selected
 # encoding applied. Normally all attributes are updated after being
 # read, but the following lines exclude from this treatment all
 # attributes whose names start with fme_ or shape_.
-SHAPE_2_UNENCODED_ATTR_PREFIX fme_ shape_
+SHAPE_1_UNENCODED_ATTR_PREFIX fme_ shape_
 # ============================================================================
 # Determines whether the attribute names should be uppercased, or whether they
 # should stay as specified in the shape file. Once the mapping file/workspace
 # has been generated, the value for this keyword should not be changed.
-DEFAULT_MACRO SHAPE_IN_UPPER_CASE_ATTR_NAMES_SHAPE_2 No
-SHAPE_2_UPPER_CASE_ATTR_NAMES "$(SHAPE_IN_UPPER_CASE_ATTR_NAMES_SHAPE_2)"
+DEFAULT_MACRO SHAPE_IN_UPPER_CASE_ATTR_NAMES_SHAPE_1 No
+SHAPE_1_UPPER_CASE_ATTR_NAMES "$(SHAPE_IN_UPPER_CASE_ATTR_NAMES_SHAPE_1)"
 # ============================================================================
 # Option to use simple donut geometry creation, which is faster than the
 # original creation method, but less meticulous at detecting and correcting
 # geometric anomalies (i.e.holeswithinholes)
-DEFAULT_MACRO SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_2 simple
-SHAPE_2_SIMPLE_DONUT_GEOMETRY "$(SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_2)"
-GUI LOOKUP_CHOICE SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_2 "Orientation Only",simple%"Orientation and Spatial Relationship",complex Donut Geometry Detection
+DEFAULT_MACRO SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_1 simple
+SHAPE_1_SIMPLE_DONUT_GEOMETRY "$(SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_1)"
+GUI LOOKUP_CHOICE SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_1 "Orientation Only",simple%"Orientation and Spatial Relationship",complex Donut Geometry Detection
 # ============================================================================
 # The following keyword allows the user to choose what encoding to
 # use for reading the shape file, overrides dbf file LDID or .cpg
 # file if present.
-DEFAULT_MACRO SHAPE_IN_ENCODING_SHAPE_2 SYSTEM
-SHAPE_2_ENCODING "$(SHAPE_IN_ENCODING_SHAPE_2)"
-GUI OPTIONAL ENCODING SHAPE_IN_ENCODING_SHAPE_2 ANSI%SYSTEM%BIG5%EUC%HKBIG5%ISO%OEM%SJIS%UTF-8%CP437%CP708%CP720%CP737%CP775%CP850%CP852%CP855%CP857%CP860%CP861%CP862%CP863%CP864%CP865%CP866%CP869%CP874%CP932%CP936%CP950%CP1250%CP1251%CP1252%CP1253%CP1254%CP1255%CP1256%CP1257%CP1258%ISO8859-1%ISO8859-2%ISO8859-3%ISO8859-4%ISO8859-5%ISO8859-6%ISO8859-7%ISO8859-8%ISO8859-9%ISO-8859-11%ISO8859-13%ISO8859-15%WINDOWS-874 Character Encoding:
+DEFAULT_MACRO SHAPE_IN_ENCODING_SHAPE_1 SYSTEM
+SHAPE_1_ENCODING "$(SHAPE_IN_ENCODING_SHAPE_1)"
+GUI OPTIONAL ENCODING SHAPE_IN_ENCODING_SHAPE_1 ANSI%SYSTEM%BIG5%EUC%HKBIG5%ISO%OEM%SJIS%UTF-8%CP437%CP708%CP720%CP737%CP775%CP850%CP852%CP855%CP857%CP860%CP861%CP862%CP863%CP864%CP865%CP866%CP869%CP874%CP932%CP936%CP950%CP1250%CP1251%CP1252%CP1253%CP1254%CP1255%CP1256%CP1257%CP1258%ISO8859-1%ISO8859-2%ISO8859-3%ISO8859-4%ISO8859-5%ISO8859-6%ISO8859-7%ISO8859-8%ISO8859-9%ISO-8859-11%ISO8859-13%ISO8859-15%WINDOWS-874 Character Encoding:
 #Note: Using the search envelope requires the shape index files (.sbnand.sbx)
-DEFAULT_MACRO SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_2 
-SHAPE_2_EXPOSE_ATTRS_GROUP "$(SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_2)"
-GUI DISCLOSUREGROUP SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_2 SHAPE_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_1 
+SHAPE_1_EXPOSE_ATTRS_GROUP "$(SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_1)"
+GUI DISCLOSUREGROUP SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_1 SHAPE_EXPOSE_FORMAT_ATTRS Schema Attributes
 # Include this file in source setting section to add native search envelope processing
 # Zero as a default means we don't do any search -- this makes workbench happier
 # ===========================================================================
-DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_2 0
-SHAPE_2_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_2)"
-GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_2 Minimum X:
+DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_1 0
+SHAPE_1_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_1)"
+GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_1 Minimum X:
 # ===========================================================================
-DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_2 0
-SHAPE_2_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_2)"
-GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_2 Minimum Y:
+DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_1 0
+SHAPE_1_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_1)"
+GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_1 Minimum Y:
 # ===========================================================================
-DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_2 0
-SHAPE_2_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_2)"
-GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_2 Maximum X:
+DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_1 0
+SHAPE_1_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_1)"
+GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_1 Maximum X:
 # ===========================================================================
-DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_2 0
-SHAPE_2_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_2)"
-GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_2 Maximum Y:
+DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_1 0
+SHAPE_1_SEARCH_ENVELOPE "$(SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_1)"
+GUI OPTIONAL FLOAT SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_1 Maximum Y:
 # ===========================================================================
-DEFAULT_MACRO SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_2 NO
-SHAPE_2_CLIP_TO_ENVELOPE "$(SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_2)"
-GUI OPTIONAL CHECKBOX SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_2 YES%NO Clip to Search Envelope
+DEFAULT_MACRO SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_1 NO
+SHAPE_1_CLIP_TO_ENVELOPE "$(SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_1)"
+GUI OPTIONAL CHECKBOX SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_1 YES%NO Clip to Search Envelope
 # ===========================================================================
-DEFAULT_MACRO SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_2 
-SHAPE_2_NETWORK_AUTHENTICATION "$(SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_2)"
-GUI OPTIONAL AUTHENTICATOR SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_2 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+DEFAULT_MACRO SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_1 
+SHAPE_1_NETWORK_AUTHENTICATION "$(SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_1)"
+GUI OPTIONAL AUTHENTICATOR SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
 # ============================================================================
 # Search Envelope Coordinate System
 # BUG18999: Re-adding directive to allow specification of a search envelope
 # in a coordinate system other than what the data is in. Note that this
 # depends on the source coordinate system being set as well.
-DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_2 
-GUI OPTIONAL COORDSYS SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_2 Search Envelope Coordinate System:
-SHAPE_2_SEARCH_ENVELOPE_COORDINATE_SYSTEM "$(SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_2)"
+DEFAULT_MACRO SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_1 
+GUI OPTIONAL COORDSYS SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_1 Search Envelope Coordinate System:
+SHAPE_1_SEARCH_ENVELOPE_COORDINATE_SYSTEM "$(SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_1)"
 # ============================================================================
 # The following GUI line sets whether measure values in the shape files should
 # be treated as elevations.
-DEFAULT_MACRO _MEASURES_AS_Z_SHAPE_2 no
-GUI CHOICE _MEASURES_AS_Z_SHAPE_2 yes%no Treat Measures as Elevation:
-SHAPE_2_MEASURES_AS_Z $(_MEASURES_AS_Z_SHAPE_2)
+DEFAULT_MACRO _MEASURES_AS_Z_SHAPE_1 no
+GUI CHOICE _MEASURES_AS_Z_SHAPE_1 yes%no Treat Measures as Elevation:
+SHAPE_1_MEASURES_AS_Z $(_MEASURES_AS_Z_SHAPE_1)
 # ============================================================================
 # The following keyword sets whether the reader dissolves holes in donuts.
-DEFAULT_MACRO SHAPE_IN_DISSOLVE_HOLES_SHAPE_2 no
-GUI CHOICE SHAPE_IN_DISSOLVE_HOLES_SHAPE_2 yes%no Dissolve Adjacent Holes:
-SHAPE_2_DISSOLVE_HOLES $(SHAPE_IN_DISSOLVE_HOLES_SHAPE_2)
+DEFAULT_MACRO SHAPE_IN_DISSOLVE_HOLES_SHAPE_1 no
+GUI CHOICE SHAPE_IN_DISSOLVE_HOLES_SHAPE_1 yes%no Dissolve Adjacent Holes:
+SHAPE_1_DISSOLVE_HOLES $(SHAPE_IN_DISSOLVE_HOLES_SHAPE_1)
 # ============================================================================
 # The following keyword sets whether bad geometry should be reported via
 # the shape_geometry_error{} list attribute.
-DEFAULT_MACRO SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_2 no
-GUI CHOICE SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_2 yes%no Report Geometry Anomalies:
-SHAPE_2_REPORT_BAD_GEOMETRY $(SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_2)
-DEFAULT_MACRO SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_2 YES
-GUI CHOICE SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_2 yes%no Trim Preceding Spaces:
-SHAPE_2_TRIM_PRECEDING_SPACES $(SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_2)
-SHAPE_2_DATASET "$(SourceDataset_SHAPE_2)"
+DEFAULT_MACRO SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_1 no
+GUI CHOICE SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_1 yes%no Report Geometry Anomalies:
+SHAPE_1_REPORT_BAD_GEOMETRY $(SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_1)
+DEFAULT_MACRO SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_1 YES
+GUI CHOICE SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_1 yes%no Trim Preceding Spaces:
+SHAPE_1_TRIM_PRECEDING_SPACES $(SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_1)
+SHAPE_1_DATASET "$(SourceDataset_SHAPE_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "POSTGIS_2"
@@ -4496,7 +4496,7 @@ FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
-DEFAULT_MACRO DATASET_KEYWORD_SHAPE_2 SHAPE_2
+DEFAULT_MACRO DATASET_KEYWORD_SHAPE_1 SHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_2 POSTGIS_2
 # -------------------------------------------------------------------------
 
@@ -4504,7 +4504,7 @@ POSTGIS_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
-SHAPE_2_READER_META_ATTRIBUTES fme_feature_type
+SHAPE_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
@@ -4515,42 +4515,42 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME Dekningsanalyse_MD
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Naturnvernomr_foreslaatt   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF Villreinomrader   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Verdifulle_kulturlandskap   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF Naturnvernomr   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Viktige_naturtyper   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF Fril_statligsikra   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Fril_kartlverd   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF GF_lokalitet   SHAPE_GEOMETRY               shape_point   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Villreinomrader   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF Naturnvernomr_foreslaatt   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Naturnvernomr   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF Viktige_naturtyper   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF arter_nasj_for_int   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF naturt_utvalgte   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF naturt_i_norge_landskap   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF Verdifulle_kulturlandskap   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF naturt_utvalgte   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF arter_nasj_for_int   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF Fril_statligsikra   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
+SHAPE_1_DEF naturt_i_norge_landskap   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
-SHAPE_2_DEF GF_lokalitet   SHAPE_GEOMETRY               shape_point   _match_id                    char(200)
+SHAPE_1_DEF Fril_kartlverd   SHAPE_GEOMETRY               shape_polygon   _match_id                    char(200)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::admingrense.kommuneflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Naturnvernomr_foreslaatt multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Naturnvernomr_foreslaatt ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Verdifulle_kulturlandskap multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Verdifulle_kulturlandskap ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Viktige_naturtyper multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Viktige_naturtyper ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Fril_kartlverd multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Fril_kartlverd ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Villreinomrader multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Villreinomrader ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Naturnvernomr multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Naturnvernomr ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::arter_nasj_for_int multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::arter_nasj_for_int ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::naturt_i_norge_landskap multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::naturt_i_norge_landskap ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::naturt_utvalgte multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::naturt_utvalgte ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::Fril_statligsikra multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::Fril_statligsikra ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_2::GF_lokalitet multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_2) TO FME_GENERIC ::GF_lokalitet ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::admingrense.kommuneflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Villreinomrader multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Villreinomrader ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Naturnvernomr multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Naturnvernomr ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Fril_statligsikra multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Fril_statligsikra ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::GF_lokalitet multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::GF_lokalitet ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Naturnvernomr_foreslaatt multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Naturnvernomr_foreslaatt ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Viktige_naturtyper multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Viktige_naturtyper ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::naturt_utvalgte multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::naturt_utvalgte ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Verdifulle_kulturlandskap multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Verdifulle_kulturlandskap ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::arter_nasj_for_int multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::arter_nasj_for_int ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::naturt_i_norge_landskap multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::naturt_i_norge_landskap ALIAS_GEOMETRY    ROUTE SHAPE SHAPE_1::Fril_kartlverd multi_reader_keyword,$(DATASET_KEYWORD_SHAPE_1) TO FME_GENERIC ::Fril_kartlverd ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::admingrense.kommuneflate EXACT admingrense.kommuneflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4
-SHAPE_2_MERGE_DEF SHAPE_2::Naturnvernomr_foreslaatt EXACT Naturnvernomr_foreslaatt
-SHAPE_2_MERGE_DEF SHAPE_2::Verdifulle_kulturlandskap EXACT Verdifulle_kulturlandskap
-SHAPE_2_MERGE_DEF SHAPE_2::Viktige_naturtyper EXACT Viktige_naturtyper
-SHAPE_2_MERGE_DEF SHAPE_2::Fril_kartlverd EXACT Fril_kartlverd
-SHAPE_2_MERGE_DEF SHAPE_2::Villreinomrader EXACT Villreinomrader
-SHAPE_2_MERGE_DEF SHAPE_2::Naturnvernomr EXACT Naturnvernomr
-SHAPE_2_MERGE_DEF SHAPE_2::arter_nasj_for_int EXACT arter_nasj_for_int
-SHAPE_2_MERGE_DEF SHAPE_2::naturt_i_norge_landskap EXACT naturt_i_norge_landskap
-SHAPE_2_MERGE_DEF SHAPE_2::naturt_utvalgte EXACT naturt_utvalgte
-SHAPE_2_MERGE_DEF SHAPE_2::Fril_statligsikra EXACT Fril_statligsikra
-SHAPE_2_MERGE_DEF SHAPE_2::GF_lokalitet EXACT GF_lokalitet
+SHAPE_1_MERGE_DEF SHAPE_1::Villreinomrader EXACT Villreinomrader
+SHAPE_1_MERGE_DEF SHAPE_1::Naturnvernomr EXACT Naturnvernomr
+SHAPE_1_MERGE_DEF SHAPE_1::Fril_statligsikra EXACT Fril_statligsikra
+SHAPE_1_MERGE_DEF SHAPE_1::GF_lokalitet EXACT GF_lokalitet
+SHAPE_1_MERGE_DEF SHAPE_1::Naturnvernomr_foreslaatt EXACT Naturnvernomr_foreslaatt
+SHAPE_1_MERGE_DEF SHAPE_1::Viktige_naturtyper EXACT Viktige_naturtyper
+SHAPE_1_MERGE_DEF SHAPE_1::naturt_utvalgte EXACT naturt_utvalgte
+SHAPE_1_MERGE_DEF SHAPE_1::Verdifulle_kulturlandskap EXACT Verdifulle_kulturlandskap
+SHAPE_1_MERGE_DEF SHAPE_1::arter_nasj_for_int EXACT arter_nasj_for_int
+SHAPE_1_MERGE_DEF SHAPE_1::naturt_i_norge_landskap EXACT naturt_i_norge_landskap
+SHAPE_1_MERGE_DEF SHAPE_1::Fril_kartlverd EXACT Fril_kartlverd
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
@@ -4729,47 +4729,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryCoercer COERCED Splitter"   INP
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryCoercer UNTOUCHED Splitter"   INPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_0_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_1_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_2_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_3_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_4_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_5_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_6_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_7_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_8_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_9_1aGFqQuEN9I=   OUTPUT FEATURE_TYPE GeometryCoercer_UNTOUCHED_10_1aGFqQuEN9I=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_9    INPUT BASE FEATURE_TYPE Deaggregator_9_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_0_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_9_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_9_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_9_FAILED
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_17 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_9_FAILED ATTR md_naturt_landskap 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_17_OUTPUT 
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_16 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_9_PASSED ATTR md_naturt_landskap 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_16_OUTPUT 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_2    INPUT BASE FEATURE_TYPE Deaggregator_2_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_3_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_5_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_2_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_2_FAILED
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_2_FAILED ATTR md_naturvernomr_foresl 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_2_PASSED ATTR md_naturvernomr_foresl 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_6    INPUT BASE FEATURE_TYPE Deaggregator_6_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_2_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_4_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_6_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_6_FAILED
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_11 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_6_FAILED ATTR md_villreinomr 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_11_OUTPUT 
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_10 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_6_PASSED ATTR md_villreinomr 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_10_OUTPUT 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_8    INPUT BASE FEATURE_TYPE Deaggregator_8_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_7_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_8_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_8_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_8_FAILED
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_15 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_8_FAILED ATTR md_arter_nasjon_forv 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_15_OUTPUT 
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_14 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_8_PASSED ATTR md_arter_nasjon_forv 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_14_OUTPUT 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_5    INPUT BASE FEATURE_TYPE Deaggregator_5_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_1_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_9_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_5_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_5_FAILED
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_9 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_5_FAILED ATTR md_frilkartlverds 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_9_OUTPUT 
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_8 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_5_PASSED ATTR md_frilkartlverds 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_12    INPUT BASE FEATURE_TYPE Deaggregator_12_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_4_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_10_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_12_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_12_FAILED
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_12    INPUT BASE FEATURE_TYPE Deaggregator_12_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_6_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_6_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_12_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_12_FAILED
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_23 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_12_FAILED ATTR md_forurensetgrunn 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_23_OUTPUT 
@@ -4777,7 +4737,31 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_23 ATTRSET_CREATE_DIR
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_22 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_12_PASSED ATTR md_forurensetgrunn 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_22_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_3    INPUT BASE FEATURE_TYPE Deaggregator_3_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_1_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_7_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_3_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_3_FAILED
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_8    INPUT BASE FEATURE_TYPE Deaggregator_8_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_2_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_5_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_8_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_8_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_15 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_8_FAILED ATTR md_arter_nasjon_forv 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_15_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_14 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_8_PASSED ATTR md_arter_nasjon_forv 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_14_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_2    INPUT BASE FEATURE_TYPE Deaggregator_2_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_0_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_5_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_2_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_2_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_2_FAILED ATTR md_naturvernomr_foresl 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_2_PASSED ATTR md_naturvernomr_foresl 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_6    INPUT BASE FEATURE_TYPE Deaggregator_6_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_10_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_9_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_6_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_6_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_11 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_6_FAILED ATTR md_villreinomr 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_11_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_10 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_6_PASSED ATTR md_villreinomr 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_10_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_3    INPUT BASE FEATURE_TYPE Deaggregator_3_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_0_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_3_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_3_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_3_FAILED
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_3_FAILED ATTR md_verdif_kulturlandsk 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
@@ -4785,23 +4769,15 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRE
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_3_PASSED ATTR md_verdif_kulturlandsk 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_7    INPUT BASE FEATURE_TYPE Deaggregator_7_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_2_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_10_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_7_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_7_FAILED
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_9    INPUT BASE FEATURE_TYPE Deaggregator_9_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_4_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_4_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_9_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_9_FAILED
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_13 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_7_FAILED ATTR md_naturvernomr 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_13_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_17 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_9_FAILED ATTR md_naturt_landskap 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_17_OUTPUT 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_12 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_7_PASSED ATTR md_naturvernomr 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_12_OUTPUT 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_4    INPUT BASE FEATURE_TYPE Deaggregator_4_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_0_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_6_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_4_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_4_FAILED
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_4_FAILED ATTR md_viktige_naturt 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_4_PASSED ATTR md_viktige_naturt 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_16 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_9_PASSED ATTR md_naturt_landskap 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_16_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_11    INPUT BASE FEATURE_TYPE Deaggregator_11_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_8_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_6_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_11_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_11_FAILED
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_11    INPUT BASE FEATURE_TYPE Deaggregator_11_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_3_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_10_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_11_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_11_FAILED
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_21 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_11_FAILED ATTR md_frilstatligsikra 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_21_OUTPUT 
@@ -4809,7 +4785,15 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_21 ATTRSET_CREATE_DIR
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_20 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_11_PASSED ATTR md_frilstatligsikra 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_20_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_10    INPUT BASE FEATURE_TYPE Deaggregator_10_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_3_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_5_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_10_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_10_FAILED
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_7    INPUT BASE FEATURE_TYPE Deaggregator_7_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_2_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_8_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_7_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_7_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_13 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_7_FAILED ATTR md_naturvernomr 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_13_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_12 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_7_PASSED ATTR md_naturvernomr 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_12_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_10    INPUT BASE FEATURE_TYPE Deaggregator_10_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_1_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_7_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_10_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_10_FAILED
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_19 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_10_FAILED ATTR md_naturt_utv 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_19_OUTPUT 
@@ -4817,7 +4801,23 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_19 ATTRSET_CREATE_DIR
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_18 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_10_PASSED ATTR md_naturt_utv 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_18_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_5_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_11_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_10_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_14_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_17_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_23_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_22_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_19_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_8_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_9_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_20_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_12_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_16_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_18_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_6_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_15_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_13_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_21_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_5    INPUT BASE FEATURE_TYPE Deaggregator_5_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_9_dge7IR4V3L0=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_8_1aGFqQuEN9I=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_5_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_5_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_9 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_5_FAILED ATTR md_frilkartlverds 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_9_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_8 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_5_PASSED ATTR md_frilkartlverds 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * SpatialFilterFactory    FACTORY_NAME SpatialFilter_4    INPUT BASE FEATURE_TYPE Deaggregator_4_DEAGGREGATED    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_UNTOUCHED_1_1aGFqQuEN9I=    INPUT CANDIDATE FEATURE_TYPE GeometryCoercer_COERCED_7_dge7IR4V3L0=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_4_PASSED    OUTPUT FAILED FEATURE_TYPE SpatialFilter_4_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_4_FAILED ATTR md_viktige_naturt 0    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SpatialFilter_4_PASSED ATTR md_viktige_naturt 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_22_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_14_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_23_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_10_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_12_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_15_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_20_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_16_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_19_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_8_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_11_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_21_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_9_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_17_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_13_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_5_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_18_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_6_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
