@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" Z:\Geonorge\DSB\DSB_PostGIS2DSB_Sosi.fmw
+#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\DSB\DSB_PostGIS2DSB_Sosi.fmw
 #          --KNR ""
 #          --FNR ""
 #          --CLIPPERCOORDS ""
@@ -14,49 +14,49 @@
 #          --OUTPUT_EPSG_CODE "25833"
 #    
 #    
-#! CATEGORY=""
-#! BEGIN_PYTHON=""
-#! SOURCE_ROUTING_FILE=""
-#! ZOOM_SCALE="57"
-#! REDIRECT_TERMINATORS="NONE"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! MAX_LOG_FEATURES="200"
-#! DESTINATION="NONE"
-#! LOG_MAX_PRECISION="Yes"
-#! WORKSPACE_VERSION="1"
-#! DESCRIPTION="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! END_TCL=""
-#! DOC_TOP_LEFT="-1799.02 -2361.99"
-#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! PASSWORD=""
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! END_PYTHON=""
-#! ATTR_TYPE_ENCODING="SDF"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! HISTORY=""
-#! BEGIN_TCL=""
-#! SHOW_INFO_NODES="true"
-#! DOC_EXTENTS="6692.23 3272.52"
-#! FME_DOCUMENT_GUID="b75678c6-a537-4b25-a449-65f7bc94cab5"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! SHOW_ANNOTATIONS="true"
-#! FME_BUILD_NUM="15515"
 #! FME_GEOMETRY_HANDLING="Enhanced"
-#! IGNORE_READER_FAILURE="No"
-#! SOURCE="NONE"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #! DESTINATION_ROUTING_FILE=""
 #! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! REQUIREMENTS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! LAST_SAVE_DATE="2015-08-31T11:12:44"
-#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c,b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea,322aba2d-7e13-424f-99bc-4ad788264fb1,c1cba4a8-5482-41b6-a62d-80798824c712,85641e35-55e2-4dad-b738-c9ccf485c58e,f9175740-dbdb-439f-8fdf-a524a2afadcf,9ef0b6d1-77cc-4527-9529-a8d2946acd2c,0461041e-711a-4369-9c34-7c1383a2fc4c"
-#! VIEW_POSITION="-1889.49 910.535"
-#! FME_SERVER_SERVICES=""
-#! FME_REPROJECTION_ENGINE="FME"
-#! REQUIREMENTS_KEYWORD="none"
+#! END_PYTHON=""
 #! TITLE="DSB data fra PostGIS til SOSI"
+#! SOURCE_ROUTING_FILE=""
+#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c,b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea,322aba2d-7e13-424f-99bc-4ad788264fb1,c1cba4a8-5482-41b6-a62d-80798824c712,85641e35-55e2-4dad-b738-c9ccf485c58e,f9175740-dbdb-439f-8fdf-a524a2afadcf,9ef0b6d1-77cc-4527-9529-a8d2946acd2c,0461041e-711a-4369-9c34-7c1383a2fc4c,b75678c6-a537-4b25-a449-65f7bc94cab5,0ee22b60-2f53-4268-b044-5ce035b3ab5c"
+#! DOC_TOP_LEFT="-1799.02 -2361.99"
+#! FME_BUILD_NUM="15515"
+#! LAST_SAVE_DATE="2015-09-18T11:24:26"
+#! DOC_EXTENTS="6692.23 3272.52"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! SHOW_INFO_NODES="true"
+#! VIEW_POSITION="2355.58 -757.785"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! CATEGORY=""
+#! SOURCE="NONE"
+#! REQUIREMENTS_KEYWORD="none"
+#! IGNORE_READER_FAILURE="No"
+#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! REDIRECT_TERMINATORS="NONE"
+#! ATTR_TYPE_ENCODING="SDF"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! END_TCL=""
+#! ZOOM_SCALE="135"
+#! REQUIREMENTS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! DESTINATION="NONE"
+#! BEGIN_TCL=""
+#! MAX_LOG_FEATURES="200"
+#! DESCRIPTION="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! FME_REPROJECTION_ENGINE="FME"
+#! PASSWORD=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! WARN_INVALID_XFORM_PARAM="Yes"
 #! LOG_FILE=""
+#! SHOW_ANNOTATIONS="true"
+#! BEGIN_PYTHON=""
+#! LOG_MAX_PRECISION="Yes"
+#! HISTORY=""
+#! FME_SERVER_SERVICES=""
+#! WORKSPACE_VERSION="1"
+#! FME_DOCUMENT_GUID="b3ca2cd4-ac96-4a5d-895a-982f32fc8a3d"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -72,7 +72,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_type char(50) fme_geometry fme_char(50) fme_secondary_axis float8 postgis_collection_part_id int4 fme_start_angle float8 fme_feature_type char(50) fme_text_size float8 multi_reader_full_id int4 fme_rotation float8 fme_fill_color char(50) fme_sweep_angle float8 postgis_collection_id int4 fme_text_string char(50) fme_type char(50) fme_primary_axis float8 postgis_type char(50) fme_color char(50) postgres_oid int4 multi_reader_id int4 fme_basename char(50) multi_reader_keyword char(50)"
+#! EXPOSABLE_ATTRS="postgres_oid int4 multi_reader_full_id int4 multi_reader_type char(50) fme_primary_axis float8 fme_dataset char(50) fme_sweep_angle float8 fme_text_size float8 fme_geometry fme_char(50) fme_text_string char(50) fme_feature_type char(50) fme_secondary_axis float8 postgis_collection_id int4 fme_fill_color char(50) fme_type char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_rotation float8 fme_start_angle float8 postgis_collection_part_id int4 postgis_type char(50) fme_basename char(50) fme_color char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -82,16 +82,12 @@
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! MIN_FEATURES=""
-#! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MAX_FEATURES=""
+#! MIN_FEATURES=""
 #! COORDSYS="EPSG:4258"
+#! MAX_FEATURES=""
+#! FEATURE_TYPES=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
-#! VALUE="NO"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
@@ -99,6 +95,10 @@
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
@@ -122,7 +122,7 @@
 #! WRITE_DEFS="false"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="false"
-#! EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_type char(50) fme_geometry fme_char(50) fme_secondary_axis number(31,15) text_line_type char(64) fme_start_angle number(31,15) fme_feature_type char(50) text_line_eol char(10) fme_text_size number(31,15) multi_reader_full_id number(11,0) fme_rotation number(31,15) fme_fill_color char(50) fme_sweep_angle number(31,15) fme_text_string char(50) text_line_number number(11,0) fme_type char(50) fme_primary_axis number(31,15) fme_color char(50) text_line_length number(6,0) multi_reader_id number(11,0) fme_basename char(50) multi_reader_keyword char(50)"
+#! EXPOSABLE_ATTRS="text_line_number number(11,0) text_line_eol char(10) multi_reader_full_id number(11,0) multi_reader_type char(50) fme_primary_axis number(31,15) fme_dataset char(50) fme_sweep_angle number(31,15) fme_text_size number(31,15) text_line_type char(64) fme_geometry fme_char(50) text_line_length number(6,0) fme_text_string char(50) fme_feature_type char(50) fme_secondary_axis number(31,15) fme_fill_color char(50) fme_type char(50) multi_reader_keyword char(50) multi_reader_id number(11,0) fme_rotation number(31,15) fme_start_angle number(31,15) fme_basename char(50) fme_color char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -133,19 +133,23 @@
 #! GENERATE_FME_BUILD_NUM="15250"
 #! NAME="DSBDescription [TEXTLINE]"
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! MIN_FEATURES=""
-#! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MAX_FEATURES=""
+#! MIN_FEATURES=""
 #! COORDSYS=""
+#! MAX_FEATURES=""
+#! FEATURE_TYPES=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="WRITER_DATASET_HINT"
-#! VALUE="Specify a name for the Text file"
+#! NAME="MIME_TYPE"
+#! VALUE=""
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="txt file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a name for the Text file"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -154,10 +158,6 @@
 #! <METAFILE_PARAMETER
 #! NAME="READER_DATASET_HINT"
 #! VALUE="Select the Text file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="MIME_TYPE"
-#! VALUE=""
 #! />
 #! </DATASET>
 #! <DATASET
@@ -173,26 +173,22 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_type char(50) fme_geometry fme_char(50) fme_secondary_axis float8 postgis_collection_part_id int4 fme_start_angle float8 fme_feature_type char(50) fme_text_size float8 multi_reader_full_id int4 fme_rotation float8 fme_fill_color char(50) fme_sweep_angle float8 postgis_collection_id int4 fme_text_string char(50) fme_type char(50) fme_primary_axis float8 postgis_type char(50) fme_color char(50) postgres_oid int4 multi_reader_id int4 fme_basename char(50) multi_reader_keyword char(50)"
+#! EXPOSABLE_ATTRS="postgres_oid int4 multi_reader_full_id int4 multi_reader_type char(50) fme_primary_axis float8 fme_dataset char(50) fme_sweep_angle float8 fme_text_size float8 fme_geometry fme_char(50) fme_text_string char(50) fme_feature_type char(50) fme_secondary_axis float8 postgis_collection_id int4 fme_fill_color char(50) fme_type char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_rotation float8 fme_start_angle float8 postgis_collection_part_id int4 postgis_type char(50) fme_basename char(50) fme_color char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
 #! SUPPORTS_FEATURE_TYPE_FANOUT="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! MIN_FEATURES=""
-#! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MAX_FEATURES=""
+#! MIN_FEATURES=""
 #! COORDSYS=""
+#! MAX_FEATURES=""
+#! FEATURE_TYPES=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
-#! VALUE="NO"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
@@ -200,6 +196,10 @@
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
@@ -223,7 +223,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="SOSI_type {FME_GEN_GEOMETRY}"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_secondary_axis SOSI_real64 fme_color SOSI_char(50) fme_fill_color SOSI_char(50) fme_text_string SOSI_char(50) fme_text_size SOSI_real64 fme_type SOSI_char(50) fme_basename SOSI_char(50) fme_start_angle SOSI_real64 fme_sweep_angle SOSI_real64 fme_primary_axis SOSI_real64 fme_dataset SOSI_char(50) fme_feature_type SOSI_char(50) fme_geometry fme_char(50) fme_rotation SOSI_real64"
+#! EXPOSABLE_ATTRS="fme_start_angle SOSI_real64 fme_type SOSI_char(50) fme_sweep_angle SOSI_real64 fme_color SOSI_char(50) fme_dataset SOSI_char(50) fme_secondary_axis SOSI_real64 fme_basename SOSI_char(50) fme_primary_axis SOSI_real64 fme_feature_type SOSI_char(50) fme_fill_color SOSI_char(50) fme_text_size SOSI_real64 fme_text_string SOSI_char(50) fme_geometry fme_char(50) fme_rotation SOSI_real64"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -232,12 +232,12 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FANOUT_ID_ATTR="opphav"
-#! FANOUT_SUFFIX=".sos"
-#! FANOUT_DIRECTORY="C:\Users\xmaland\Documents\SOSIfiler"
-#! FANOUT_PREFIX=""
 #! FANOUT="No"
+#! FANOUT_SUFFIX=".sos"
+#! FANOUT_ID_ATTR="opphav"
+#! FANOUT_PREFIX=""
 #! COORDSYS="$(DESTCOORDSYS)"
+#! FANOUT_DIRECTORY="C:\Users\xmaland\Documents\SOSIfiler"
 #! />
 #! <DATASET
 #! IS_SOURCE="false"
@@ -252,7 +252,7 @@
 #! WRITE_DEFS="false"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="false"
-#! EXPOSABLE_ATTRS="text_line_eol char(10) fme_secondary_axis number(31,15) fme_color char(50) fme_fill_color char(50) fme_text_string char(50) fme_text_size number(31,15) fme_type char(50) fme_basename char(50) fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_primary_axis number(31,15) fme_dataset char(50) fme_feature_type char(50) fme_geometry fme_char(50) fme_rotation number(31,15)"
+#! EXPOSABLE_ATTRS="fme_start_angle number(31,15) fme_type char(50) fme_sweep_angle number(31,15) text_line_eol char(10) fme_color char(50) fme_dataset char(50) fme_secondary_axis number(31,15) fme_basename char(50) fme_primary_axis number(31,15) fme_feature_type char(50) fme_fill_color char(50) fme_text_size number(31,15) fme_text_string char(50) fme_geometry fme_char(50) fme_rotation number(31,15)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -262,20 +262,24 @@
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15250"
 #! NAME="DSBDescription [TEXTLINE]"
-#! FANOUT_ID_ATTR=""
-#! FANOUT_SUFFIX=""
-#! FANOUT_DIRECTORY=""
-#! FANOUT_PREFIX=""
 #! FANOUT="No"
+#! FANOUT_SUFFIX=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT_PREFIX=""
 #! COORDSYS=""
+#! FANOUT_DIRECTORY=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="WRITER_DATASET_HINT"
-#! VALUE="Specify a name for the Text file"
+#! NAME="MIME_TYPE"
+#! VALUE="text/plain"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="txt file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a name for the Text file"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -284,10 +288,6 @@
 #! <METAFILE_PARAMETER
 #! NAME="READER_DATASET_HINT"
 #! VALUE="Select the Text file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="MIME_TYPE"
-#! VALUE="text/plain"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -1216,8 +1216,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1253,8 +1253,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1304,8 +1304,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1315,8 +1315,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="5"
 #! FEAT_GEOMTYPE="postgis_none postgis_point postgis_multipoint postgis_linestring postgis_multilinestring postgis_circularstring postgis_compoundcurve postgis_multicurve postgis_polygon postgis_multipolygon postgis_curvepolygon postgis_multisurface postgis_triangle postgis_polyhedralsurface postgis_tin postgis_geometrycollection"
-#! POSITION="-1649.44 -1003.95"
-#! BOUNDING_RECT="-1649.44 -1003.95 914.01 71"
+#! POSITION="-1643.44 -1003.95"
+#! BOUNDING_RECT="-1643.44 -1003.95 914.01 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGIS_1"
@@ -1346,8 +1346,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1357,8 +1357,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="6"
 #! FEAT_GEOMTYPE="SOSI_point"
-#! POSITION="3591.17 -873.041"
-#! BOUNDING_RECT="3591.17 -873.041 1269.04 71"
+#! POSITION="3615.17 -893.041"
+#! BOUNDING_RECT="3615.17 -893.041 1269.04 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -1366,23 +1366,23 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="SOSI_varchar(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="SOSI_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_id" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="area" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1393,25 +1393,25 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="koordh" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sentral" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalisering" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="SOSI_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_malemetode" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_noyaktig" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="max_avvik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_KNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_FNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPERCOORDS" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPER_FILE" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_clipped" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sosifile" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dataeier" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1435,23 +1435,23 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_id" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="area" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1462,25 +1462,25 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="koordh" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sentral" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalisering" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_malemetode" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_noyaktig" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="max_avvik" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_KNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_FNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPERCOORDS" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPER_FILE" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_clipped" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sosifile" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dataeier" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1504,23 +1504,23 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_id" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="area" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1531,25 +1531,25 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="koordh" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sentral" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalisering" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_malemetode" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_noyaktig" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="max_avvik" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_KNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_FNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPERCOORDS" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPER_FILE" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_clipped" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sosifile" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dataeier" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1573,23 +1573,23 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="dato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="msgeometry" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="poly_id" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="area" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1600,25 +1600,25 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="koordh" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sentral" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lokalisering" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="malemetode" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="noyaktighet" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="synbarhet" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_malemetode" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="h_noyaktig" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="max_avvik" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="datafangstdato" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannstasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="kasernert" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="brannvesen" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="anleggid" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="ajourdato" ATTR_TYPE="SOSI_date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="stasjonstype" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="sivdistrik" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="url" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommune" ATTR_TYPE="SOSI_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_KNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_FNR" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPERCOORDS" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_CLIPPER_FILE" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="SOSI_int32" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="_creation_instance" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="_clipped" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="sosifile" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="dataeier" ATTR_TYPE="SOSI_char" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1689,8 +1689,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1714,8 +1714,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1739,8 +1739,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(32)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1783,8 +1783,8 @@
 #! DYNAMIC_SCHEMA="false"
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1794,8 +1794,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="75"
 #! FEAT_GEOMTYPE="SOSI_line"
-#! POSITION="3591.17 -1285.57"
-#! BOUNDING_RECT="3591.17 -1285.57 1278.04 71"
+#! POSITION="3582.17 -1201.36"
+#! BOUNDING_RECT="3582.17 -1201.36 1278.04 71"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -2134,7 +2134,7 @@
 #! BOUNDING_RECT="-1799.02 -2036.48 2144.02 325.505"
 #! STICKY="true"
 #! COLOUR="1,0.666667,0"
-#! CONTENTS="14 13 15 "
+#! CONTENTS="14 15 13 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="33"
@@ -2145,7 +2145,7 @@
 #! BOUNDING_RECT="-1759.44 910.535 1776.01 607.926"
 #! STICKY="true"
 #! COLOUR="0.737255,0.0784314,0.364706"
-#! CONTENTS="26 27 21 19 18 22 17 28 30 "
+#! CONTENTS="26 27 28 17 21 22 30 19 18 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="34"
@@ -2156,18 +2156,18 @@
 #! BOUNDING_RECT="-1759.44 248.551 1167.63 554.5"
 #! STICKY="true"
 #! COLOUR="0.447059,0.101961,0.776471"
-#! CONTENTS="24 25 31 "
+#! CONTENTS="31 25 24 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="43"
 #! NAME="PostGIS inn"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #! TOP_LEFT="-1759.44 -583.452"
-#! BOTTOM_RIGHT="-363.162 -1910.55"
+#! BOTTOM_RIGHT="-363.16 -1910.54"
 #! BOUNDING_RECT="-1759.44 -583.452 1396.28 1327.09"
 #! STICKY="true"
 #! COLOUR="0.564706,0.509804,0.901961"
-#! CONTENTS="59 3 60 2 1 5 "
+#! CONTENTS="3 1 59 5 60 2 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -2190,11 +2190,11 @@
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; IN $(FNR)"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; IN $(FNR)"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="21"
@@ -2215,11 +2215,11 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; IN $(KNR)"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; IN $(KNR)"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="22"
@@ -2234,15 +2234,15 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="24"
@@ -2276,40 +2276,40 @@
 #! <FEAT_COLLAPSED COLLAPSED="4"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(CLIPPER_FILE)"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#! <XFORM_PARM PARM_NAME="GENERIC_REAL_FORMAT" PARM_VALUE="GUESS_FROM_EXTENSION"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
 #! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
+#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%NewFeatureType"/>
+#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(CLIPPER_FILE)"/>
+#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
 #! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceREAL_FORMAT&lt;comma&gt;GUESS_FROM_EXTENSION,METAFILE,GENERIC"/>
 #! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="NewFeatureType,"/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="GENERIC"/>
-#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="GENERIC_REAL_FORMAT,&quot;OPTIONAL READERPICK&quot;,GENERIC&lt;space&gt;Input&lt;space&gt;Format:"/>
 #! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%NewFeatureType"/>
-#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GENERIC_REAL_FORMAT" PARM_VALUE="GUESS_FROM_EXTENSION"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="NewFeatureType,"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="GENERIC"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="25"
@@ -2325,16 +2325,16 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="35"
@@ -2351,12 +2351,12 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CLIPPERCOORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
-#! <XFORM_PARM PARM_NAME="DESTCOORDSYS" PARM_VALUE="$(DESTCOORDSYS)"/>
-#! <XFORM_PARM PARM_NAME="CLIPPERCOORDS" PARM_VALUE="$(FIXEDCLIPPERCOORDS)"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DESTCOORDSYS" PARM_VALUE="$(DESTCOORDSYS)"/>
+#! <XFORM_PARM PARM_NAME="CLIPPERCOORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="CreateClipper"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CreateClipper"/>
+#! <XFORM_PARM PARM_NAME="CLIPPERCOORDS" PARM_VALUE="$(FIXEDCLIPPERCOORDS)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="36"
@@ -2371,23 +2371,26 @@
 #! >
 #! <OUTPUT_FEAT NAME="INSIDE"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2398,21 +2401,18 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2420,20 +2420,23 @@
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="OUTSIDE"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2444,21 +2447,18 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2467,21 +2467,21 @@
 #! <XFORM_ATTR ATTR_NAME="_fme_no_clipper" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
-#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Clipper"/>
-#! <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Clippee"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
+#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
 #! <XFORM_PARM PARM_NAME="CREATE_AGGREGATES" PARM_VALUE="Yes"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Clipper"/>
+#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
 #! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Clippee"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="40"
@@ -2496,23 +2496,23 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2523,33 +2523,33 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="50"
@@ -2564,23 +2564,23 @@
 #! >
 #! <OUTPUT_FEAT NAME="&lt;BLANK&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2591,25 +2591,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2617,23 +2617,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2644,25 +2644,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2670,23 +2670,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <OUTPUT_FEAT NAME="dsb.sivilforsvaret_distriktskontor"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2697,25 +2697,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2723,23 +2723,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <OUTPUT_FEAT NAME="dsb.sentraldistrikter110"/>
 #! <FEAT_COLLAPSED COLLAPSED="3"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2750,25 +2750,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2776,23 +2776,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <OUTPUT_FEAT NAME="dsb.sivilforsvarsdistrikter"/>
 #! <FEAT_COLLAPSED COLLAPSED="4"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2803,25 +2803,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2829,23 +2829,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <OUTPUT_FEAT NAME="dsb.brannstasjoner"/>
 #! <FEAT_COLLAPSED COLLAPSED="5"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -2856,25 +2856,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -2882,23 +2882,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <OUTPUT_FEAT NAME="dsb.sentraldistrikter110grense"/>
 #! <FEAT_COLLAPSED COLLAPSED="6"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="6" />
@@ -2909,25 +2909,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="6" />
@@ -2935,23 +2935,23 @@
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #! <OUTPUT_FEAT NAME="dsb.sivilforsvarsdistriktergrense"/>
 #! <FEAT_COLLAPSED COLLAPSED="7"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="7" />
@@ -2962,25 +2962,25 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="7" />
@@ -2993,32 +2993,32 @@
 #! IDENTIFIER="48"
 #! TYPE="AttributeCreator"
 #! VERSION="7"
-#! POSITION="1894.76 -763.165"
-#! BOUNDING_RECT="1894.76 -763.165 -1 -1"
+#! POSITION="1994.76 -805.271"
+#! BOUNDING_RECT="1994.76 -805.271 -1 -1"
 #! ORDER="5e+014"
-#! PARMS_EDITED="false"
+#! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3029,38 +3029,38 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sosifile,$(SOSI_FILE),dataeier,DSB,fylkesnr,&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;,komm,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST kommuneid ATTRIBUTE_IS_MISSING _FME_BLANK_STRING_&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sosifile,$(SOSI_FILE),dataeier,DSB,fylkesnr,&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;,komm,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST kommuneid ATTRIBUTE_IS_MISSING _FME_BLANK_STRING_&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="62"
@@ -3075,20 +3075,23 @@
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3099,41 +3102,41 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3144,32 +3147,29 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _KNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _FNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPER_FILE ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPERCOORDS ATTRIBUTE_IS_EMPTY &quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _KNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _FNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPER_FILE ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPERCOORDS ATTRIBUTE_IS_EMPTY &quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="66"
@@ -3184,20 +3184,23 @@
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kopidato" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="originaldatavert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="omradeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="dato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="msgeometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="poly_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3208,33 +3211,30 @@
 #! <XFORM_ATTR ATTR_NAME="koordh" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sentral" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalisering" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="h_noyaktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="max_avvik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="datafangstdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannstasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="kasernert" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="brannvesen" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="anleggid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="ajourdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="stasjonstype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="sivdistrik" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommune" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_KNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_KNR,$(KNR),_FNR,$(FNR),_CLIPPERCOORDS,$(CLIPPERCOORDS),_CLIPPER_FILE,$(CLIPPER_FILE)"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_KNR,$(KNR),_FNR,$(FNR),_CLIPPERCOORDS,$(CLIPPERCOORDS),_CLIPPER_FILE,$(CLIPPER_FILE)"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -3392,15 +3392,6 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="68"
-#! SOURCE_NODE="66"
-#! TARGET_NODE="62"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #! IDENTIFIER="63"
 #! SOURCE_NODE="3"
 #! TARGET_NODE="66"
@@ -3481,6 +3472,15 @@
 #! ENABLED="true"
 #! EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#! IDENTIFIER="68"
+#! SOURCE_NODE="66"
+#! TARGET_NODE="62"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -3489,41 +3489,41 @@
 #! IDENTIFIER="65608"
 #! SOURCE_NODE="50"
 #! TARGET_NODE="67"
-#! SOURCE_PORT_DESC="ao 6 3"
+#! SOURCE_PORT_DESC="ao 6 11"
 #! TARGET_PORT_DESC="0"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="65613"
 #! SOURCE_NODE="50"
 #! TARGET_NODE="75"
-#! SOURCE_PORT_DESC="ao 7 3"
+#! SOURCE_PORT_DESC="ao 7 11"
 #! TARGET_PORT_DESC="0"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
 #! <SUBDOCUMENT
 #! NAME="CreateClipper"
-#! FME_DOCUMENT_PRIORGUID=""
 #! REQUIREMENTS=""
+#! DOC_EXTENTS="3190 780"
+#! REQUIREMENTS_KEYWORD="none"
 #! FME_DOCUMENT_GUID=""
-#! DESCRIPTION=""
-#! DOC_TOP_LEFT="315 -1144"
+#! USAGE=""
+#! FME_DOCUMENT_PRIORGUID=""
+#! FME_PROCESS_GROUP_BY=""
+#! TITLE="CreateClipper"
 #! FME_PROCESS_COUNT="NO_PARALLELISM"
-#! DOC_DYNAMIC_INPUT_ATTRS="1"
+#! DOC_TOP_LEFT="315 -1144"
+#! IS_VISIBLE="true"
+#! DESCRIPTION=""
+#! VIEW_POSITION="435.004 243.002"
+#! FME_PROCESS_GROUPS_ORDERED="No"
 #! SUPPRESS_UPGRADE="false"
 #! XFORM_DEPRECATED="No"
-#! IS_VISIBLE="true"
-#! REQUIREMENTS_KEYWORD="none"
-#! LEGAL_TERMS_CONDITIONS=""
-#! USAGE=""
-#! TITLE="CreateClipper"
-#! FME_PROCESS_GROUP_BY=""
+#! DOC_DYNAMIC_INPUT_ATTRS="1"
 #! CATEGORY="Geometric Operators"
-#! ZOOM_SCALE="100"
-#! DOC_EXTENTS="3190 780"
-#! FME_PROCESS_GROUPS_ORDERED="No"
-#! VIEW_POSITION="435.004 243.002"
+#! LEGAL_TERMS_CONDITIONS=""
 #! HISTORY=",,"
+#! ZOOM_SCALE="100"
 #! >
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
@@ -3668,14 +3668,14 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="$(CLIPPERCOORDS)"/>
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Coordinate List"/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="$(CLIPPERCOORDS)"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="2"
@@ -3692,16 +3692,16 @@
 #! <OUTPUT_FEAT NAME="ORIGINAL"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TOPFER_INDEX" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="3"
@@ -3720,16 +3720,16 @@
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TOPFER_INDEX" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator_2"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="4"
@@ -3749,18 +3749,18 @@
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Base"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PREDICATES" PARM_VALUE="EQUALS"/>
 #! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Single Base"/>
+#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PREDICATES" PARM_VALUE="EQUALS"/>
 #! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Base"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Single Base"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="5"
@@ -3777,14 +3777,14 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="6"
@@ -3800,14 +3800,14 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="7"
@@ -3822,14 +3822,14 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
-#! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -4285,7 +4285,8 @@ MULTI_READER_GEN_DIRECTIVES{0} CLIP_TO_ENVELOPE,NO,_MERGE_SCHEMAS,YES,SEARCH_ENV
 MULTI_READER_TYPE{1} TEXTLINE
 MULTI_READER_KEYWORD{1} TEXTLINE_1
 MULTI_READER_GEN_DIRECTIVES{1} READ_WHOLE_FILE_AT_ONCE,YES,SKIP_FOOTER,0,ENCODING,,READ_BOTTOM_UP,NO,_MERGE_SCHEMAS,YES,SKIP_LINES,0
-MULTI_READER_TYPE{2} POSTGIS
+MULTI_READER_TYPE{2} NULL
+MULTI_READER_FORMAT{2} NULL
 MULTI_READER_KEYWORD{2} POSTGIS_2
 MULTI_READER_GEN_DIRECTIVES{2} QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,USE_SEARCH_ENVELOPE,NO,CLIP_TO_ENVELOPE,NO,TABLELIST,admingrense.fylkeflate<space>admingrense.kommuneflate,DISABLE_COLLECTION_SPLITTING,yes,EXPOSE_ATTRS_GROUP,,_MERGE_SCHEMAS,YES,NAMED_CONNECTION,geonortst<lt>at<gt>Nnridb504:5432<lt>solidus<gt>geonor01tst,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXX,0,POSTGIS_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,USE_TRUE_POSTGIS_TYPES,yes,SCHEMALIST,admingrense,FME_CONNECTION_GROUP,
 WRITER_TYPE MULTI_WRITER
@@ -4580,7 +4581,7 @@ GUI CHOICE SOSI_OUT_WRITER_GENERATE_MAPPING_XML_SOSI_1 yes%no Generer mapping xm
 DEFAULT_MACRO SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 ./DSB.SOS.MAPPING.xml
 SOSI_1_WRITER_XML_MAPPING_FILE "$(SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1)"
 GUI OPTIONAL FILENAME_MUSTEXIST SOSI_OUT_WRITER_XML_MAPPING_FILE_SOSI_1 XML-filer(*.xml)|*.xml|Alle_filer(*.*)|*.* Bruk mappingfil:
-DEFAULT_MACRO SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 ./sosidef45_DSB.txt
+DEFAULT_MACRO SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 $(FME_MF_DIR)sosidef45_DSB.txt
 SOSI_1_WRITER_SOSIDEF_FILE "$(SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1)"
 GUI OPTIONAL FILENAME_MUSTEXIST SOSI_OUT_WRITER_SOSIDEF_FILE_SOSI_1 Definisjonsfiler(*.txt)|*.txt|Alle_filer(*.*)|*.* Bruk spesiell definisjonsfil:
 SOSI_1_DATASET "$(DestDataset_SOSI_1)"
@@ -4680,16 +4681,16 @@ MACRO WORKSPACE_NAME DSB_PostGIS2DSB_Sosi
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvarsdistrikter multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sivilforsvarsdistrikter ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvaret_distriktskontor multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sivilforsvaret_distriktskontor ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvarsdistriktergrense multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sivilforsvarsdistriktergrense ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sentraldistrikter110grense multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sentraldistrikter110grense ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sentraldistrikter110 multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sentraldistrikter110 ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjoner multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.brannstasjoner ALIAS_GEOMETRY    ROUTE TEXTLINE TEXTLINE_1::text_line multi_reader_keyword,$(DATASET_KEYWORD_TEXTLINE_1) TO FME_GENERIC ::text_line ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::admingrense.fylkeflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::admingrense.kommuneflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvarsdistrikter EXACT dsb.sivilforsvarsdistrikter DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,sivdistrik,text,url,text,navn,text,kopidato,timestamp,originaldatavert,text,omradeid,int4,objtype,text
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvaret_distriktskontor EXACT dsb.sivilforsvaret_distriktskontor DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,type,text,kommune,text,url,text,navn,text,dato,date,omradeid,int8,kopidato,timestamp,originaldatavert,text,objtype,text
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvarsdistriktergrense EXACT dsb.sivilforsvarsdistriktergrense DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objtype,text
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sentraldistrikter110grense EXACT dsb.sentraldistrikter110grense DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objtype,varchar<openparen>32<closeparen>
-POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sentraldistrikter110 EXACT dsb.sentraldistrikter110 DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,poly_,text,poly_id,text,area,text,perimeter,text,oppr,text,x,float8,y,float8,koordh,text,sentral,text,lokalisering,text,opphav,text,omradeid,int8,originaldatavert,text,kopidato,timestamp,malemetode,text,noyaktighet,int8,synbarhet,text,h_malemetode,text,h_noyaktig,text,max_avvik,text,objtype,text,navn,text,datafangstdato,date
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjoner multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.brannstasjoner ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvarsdistriktergrense multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sivilforsvarsdistriktergrense ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvaret_distriktskontor multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sivilforsvaret_distriktskontor ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sentraldistrikter110 multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sentraldistrikter110 ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sivilforsvarsdistrikter multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sivilforsvarsdistrikter ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::dsb.sentraldistrikter110grense multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.sentraldistrikter110grense ALIAS_GEOMETRY    ROUTE TEXTLINE TEXTLINE_1::text_line multi_reader_keyword,$(DATASET_KEYWORD_TEXTLINE_1) TO FME_GENERIC ::text_line ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.brannstasjoner EXACT dsb.brannstasjoner DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,brannstasjon,text,kasernert,text,brannvesen,text,anleggid,text,ajourdato,date,informasjon,text,opphav,text,stasjonstype,text,objtype,text,dato,date,brannsta_,text,omradeid,int8,kopidato,timestamp,originaldatavert,text
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvarsdistriktergrense EXACT dsb.sivilforsvarsdistriktergrense DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objtype,text
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvaret_distriktskontor EXACT dsb.sivilforsvaret_distriktskontor DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,type,text,kommune,text,url,text,navn,text,dato,date,omradeid,int8,kopidato,timestamp,originaldatavert,text,objtype,text
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sentraldistrikter110 EXACT dsb.sentraldistrikter110 DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,poly_,text,poly_id,text,area,text,perimeter,text,oppr,text,x,float8,y,float8,koordh,text,sentral,text,lokalisering,text,opphav,text,omradeid,int8,originaldatavert,text,kopidato,timestamp,malemetode,text,noyaktighet,int8,synbarhet,text,h_malemetode,text,h_noyaktig,text,max_avvik,text,objtype,text,navn,text,datafangstdato,date
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sivilforsvarsdistrikter EXACT dsb.sivilforsvarsdistrikter DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,sivdistrik,text,url,text,navn,text,kopidato,timestamp,originaldatavert,text,omradeid,int4,objtype,text
+POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.sentraldistrikter110grense EXACT dsb.sentraldistrikter110grense DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objtype,varchar<openparen>32<closeparen>
 TEXTLINE_1_MERGE_DEF TEXTLINE_1::text_line EXACT text_line
-POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.fylkeflate EXACT admingrense.fylkeflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,fylkeid,int4
-POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.kommuneflate EXACT admingrense.kommuneflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4
+POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.fylkeflate EXACT admingrense.fylkeflate
+POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.kommuneflate EXACT admingrense.kommuneflate
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 MACRO CreateClipper_WORKSPACE_NAME CreateClipper
@@ -4755,7 +4756,7 @@ DEFAULT_MACRO $(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE Read from fea
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO $(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_Reprojector_3    INPUT  FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_BoundingBoxAccumulator_2_BOUNDING_BOX"    OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"         @Reproject($($(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE),EPSG:4258,NearestNeighbor,PreserveCells)
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_21441012364 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_2_REPROJECTED"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_2"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_21442568266 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_2_REPROJECTED"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_2"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(CreateClipper_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "CreateClipper reprojectBboxESRI_REPROJECTED_2 Output Renamer/Nuker"   INPUT FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2   OUTPUT FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2
 # -------------------------------------------------------------------------
@@ -4804,14 +4805,14 @@ Tcl2 proc Reprojector_2_warnIfSourceIgnored {chosenSource} {   global FME_CoordS
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE Tester_PASSED    INPUT  FEATURE_TYPE Tester_2_PASSED    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE dsb.sivilforsvarsdistrikter    INPUT  FEATURE_TYPE dsb.brannstasjoner    INPUT  FEATURE_TYPE dsb.sivilforsvaret_distriktskontor    INPUT  FEATURE_TYPE dsb.sentraldistrikter110grense    INPUT  FEATURE_TYPE dsb.sentraldistrikter110    INPUT  FEATURE_TYPE dsb.sivilforsvarsdistriktergrense ATTR _KNR $(KNR$encode) ATTR _FNR $(FNR$encode) ATTR _CLIPPERCOORDS $(CLIPPERCOORDS$encode) ATTR _CLIPPER_FILE $(CLIPPER_FILE)    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE dsb.sivilforsvarsdistriktergrense    INPUT  FEATURE_TYPE dsb.sentraldistrikter110grense    INPUT  FEATURE_TYPE dsb.sivilforsvaret_distriktskontor    INPUT  FEATURE_TYPE dsb.sivilforsvarsdistrikter    INPUT  FEATURE_TYPE dsb.brannstasjoner    INPUT  FEATURE_TYPE dsb.sentraldistrikter110 ATTR _KNR $(KNR$encode) ATTR _FNR $(FNR$encode) ATTR _CLIPPERCOORDS $(CLIPPERCOORDS$encode) ATTR _CLIPPER_FILE $(CLIPPER_FILE)    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    TEST _KNR ATTRIBUTE_IS_EMPTY "" ENCODED TEST _FNR ATTRIBUTE_IS_EMPTY "" ENCODED TEST _CLIPPER_FILE ATTRIBUTE_IS_EMPTY "" ENCODED TEST _CLIPPERCOORDS ATTRIBUTE_IS_EMPTY "" ENCODED    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
 # -------------------------------------------------------------------------
 
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    INPUT  FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT  FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE Tester_3_FAILED    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
 FACTORY_DEF $(RASTER_CLIPPER_IN) RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    PRESERVE_CLIPPEE_EXTENTS NO    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
@@ -4843,20 +4844,20 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureTypeFilter <BLANK> Output Nuker"
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureTypeFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE FeatureTypeFilter_<UNFILTERED>
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC text_line TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sivilforsvarsdistrikter TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sivilforsvaret_distriktskontor TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sentraldistrikter110grense TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>OBJTYPE<comma>objtype<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110grense<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sentraldistrikter110 TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.brannstasjoner TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sivilforsvarsdistriktergrense TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>OBJTYPE<comma>objtype<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistriktgrense<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC text_line TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.brannstasjoner TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sivilforsvaret_distriktskontor TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvaret_distriktskontor<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sentraldistrikter110 TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sivilforsvarsdistrikter TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistrikter<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sivilforsvarsdistriktergrense TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>OBJTYPE<comma>objtype<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sivilforsvarsdistriktgrense<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY    ROUTE FME_GENERIC FeatureTypeFilter_dsb.sentraldistrikter110grense TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>OBJTYPE<comma>objtype<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.sentraldistrikter110grense<closeparen> COORDINATE_SYSTEM $(DESTCOORDSYS) GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-SOSI_1_DEF dsb.sivilforsvarsdistrikter   SOSI_type                    SOSI_polygon   _creation_instance           SOSI_char   fylkeid                      SOSI_int32   kommuneid                    SOSI_int32   objtype                      SOSI_char   lokalid                      SOSI_char   navnerom                     SOSI_char   versjonid                    SOSI_char   msgeometry                   SOSI_char   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_char   kopidato                     SOSI_char   originaldatavert             SOSI_char   omradeid                     SOSI_char   type                         SOSI_buffer   kommune                      SOSI_buffer   dato                         SOSI_date   poly_                        SOSI_char   poly_id                      SOSI_char   area                         SOSI_char   perimeter                    SOSI_char   oppr                         SOSI_char   x                            SOSI_char   y                            SOSI_char   koordh                       SOSI_char   sentral                      SOSI_char   lokalisering                 SOSI_char   opphav                       SOSI_char   malemetode                   SOSI_char   noyaktighet                  SOSI_char   synbarhet                    SOSI_char   h_malemetode                 SOSI_char   h_noyaktig                   SOSI_char   max_avvik                    SOSI_char   datafangstdato               SOSI_char   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   stasjonstype                 SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
+SOSI_1_DEF dsb.brannstasjoner   SOSI_type                    SOSI_point   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   opphav                       SOSI_buffer   stasjonstype                 SOSI_buffer   objtype                      SOSI_buffer   dato                         SOSI_date   omradeid                     SOSI_int64   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer   msgeometry                   SOSI_buffer   poly_                        SOSI_buffer   poly_id                      SOSI_buffer   area                         SOSI_buffer   perimeter                    SOSI_buffer   oppr                         SOSI_buffer   x                            SOSI_real64   y                            SOSI_real64   koordh                       SOSI_buffer   sentral                      SOSI_buffer   lokalisering                 SOSI_buffer   malemetode                   SOSI_buffer   noyaktighet                  SOSI_int64   synbarhet                    SOSI_buffer   h_malemetode                 SOSI_buffer   h_noyaktig                   SOSI_buffer   max_avvik                    SOSI_buffer   navn                         SOSI_buffer   datafangstdato               SOSI_date   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   kommuneid                    SOSI_buffer   fylkeid                      SOSI_int32   _creation_instance           SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
 # -------------------------------------------------------------------------
-SOSI_1_DEF dsb.sivilforsvaret_distriktskontor   SOSI_type                    SOSI_point   _creation_instance           SOSI_char   fylkeid                      SOSI_int32   kommuneid                    SOSI_int32   objtype                      SOSI_char   lokalid                      SOSI_char   navnerom                     SOSI_char   versjonid                    SOSI_char   msgeometry                   SOSI_char   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_char   kopidato                     SOSI_char   originaldatavert             SOSI_char   omradeid                     SOSI_char   type                         SOSI_buffer   kommune                      SOSI_buffer   dato                         SOSI_date   poly_                        SOSI_char   poly_id                      SOSI_char   area                         SOSI_char   perimeter                    SOSI_char   oppr                         SOSI_char   x                            SOSI_char   y                            SOSI_char   koordh                       SOSI_char   sentral                      SOSI_char   lokalisering                 SOSI_char   opphav                       SOSI_char   malemetode                   SOSI_char   noyaktighet                  SOSI_char   synbarhet                    SOSI_char   h_malemetode                 SOSI_char   h_noyaktig                   SOSI_char   max_avvik                    SOSI_char   datafangstdato               SOSI_char   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   stasjonstype                 SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
+SOSI_1_DEF dsb.sivilforsvaret_distriktskontor   SOSI_type                    SOSI_point   lokalid                      SOSI_char   navnerom                     SOSI_char   versjonid                    SOSI_char   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   opphav                       SOSI_char   stasjonstype                 SOSI_buffer   objtype                      SOSI_char   dato                         SOSI_date   omradeid                     SOSI_char   kopidato                     SOSI_char   originaldatavert             SOSI_char   msgeometry                   SOSI_char   poly_                        SOSI_char   poly_id                      SOSI_char   area                         SOSI_char   perimeter                    SOSI_char   oppr                         SOSI_char   x                            SOSI_char   y                            SOSI_char   koordh                       SOSI_char   sentral                      SOSI_char   lokalisering                 SOSI_char   malemetode                   SOSI_char   noyaktighet                  SOSI_char   synbarhet                    SOSI_char   h_malemetode                 SOSI_char   h_noyaktig                   SOSI_char   max_avvik                    SOSI_char   navn                         SOSI_char   datafangstdato               SOSI_char   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   kommuneid                    SOSI_int32   fylkeid                      SOSI_int32   _creation_instance           SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
 # -------------------------------------------------------------------------
-SOSI_1_DEF dsb.sentraldistrikter110grense   SOSI_type                    SOSI_line   OBJTYPE                      SOSI_char
+SOSI_1_DEF dsb.sentraldistrikter110   SOSI_type                    SOSI_polygon   lokalid                      SOSI_char   navnerom                     SOSI_char   versjonid                    SOSI_char   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   opphav                       SOSI_char   stasjonstype                 SOSI_buffer   objtype                      SOSI_char   dato                         SOSI_date   omradeid                     SOSI_char   kopidato                     SOSI_char   originaldatavert             SOSI_char   msgeometry                   SOSI_char   poly_                        SOSI_char   poly_id                      SOSI_char   area                         SOSI_char   perimeter                    SOSI_char   oppr                         SOSI_char   x                            SOSI_char   y                            SOSI_char   koordh                       SOSI_char   sentral                      SOSI_char   lokalisering                 SOSI_char   malemetode                   SOSI_char   noyaktighet                  SOSI_char   synbarhet                    SOSI_char   h_malemetode                 SOSI_char   h_noyaktig                   SOSI_char   max_avvik                    SOSI_char   navn                         SOSI_char   datafangstdato               SOSI_char   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   kommuneid                    SOSI_int32   fylkeid                      SOSI_int32   _creation_instance           SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
 # -------------------------------------------------------------------------
-SOSI_1_DEF dsb.sentraldistrikter110   SOSI_type                    SOSI_polygon   _creation_instance           SOSI_char   fylkeid                      SOSI_int32   kommuneid                    SOSI_int32   objtype                      SOSI_char   lokalid                      SOSI_char   navnerom                     SOSI_char   versjonid                    SOSI_char   msgeometry                   SOSI_char   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_char   kopidato                     SOSI_char   originaldatavert             SOSI_char   omradeid                     SOSI_char   type                         SOSI_buffer   kommune                      SOSI_buffer   dato                         SOSI_date   poly_                        SOSI_char   poly_id                      SOSI_char   area                         SOSI_char   perimeter                    SOSI_char   oppr                         SOSI_char   x                            SOSI_char   y                            SOSI_char   koordh                       SOSI_char   sentral                      SOSI_char   lokalisering                 SOSI_char   opphav                       SOSI_char   malemetode                   SOSI_char   noyaktighet                  SOSI_char   synbarhet                    SOSI_char   h_malemetode                 SOSI_char   h_noyaktig                   SOSI_char   max_avvik                    SOSI_char   datafangstdato               SOSI_char   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   stasjonstype                 SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
-# -------------------------------------------------------------------------
-SOSI_1_DEF dsb.brannstasjoner   SOSI_type                    SOSI_point   _creation_instance           SOSI_char   fylkeid                      SOSI_int32   kommuneid                    SOSI_int32   objtype                      SOSI_buffer   lokalid                      SOSI_buffer   navnerom                     SOSI_buffer   versjonid                    SOSI_varchar(2)   msgeometry                   SOSI_buffer   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   navn                         SOSI_buffer   kopidato                     SOSI_datetime   originaldatavert             SOSI_buffer   omradeid                     SOSI_int64   type                         SOSI_buffer   kommune                      SOSI_buffer   dato                         SOSI_date   poly_                        SOSI_buffer   poly_id                      SOSI_buffer   area                         SOSI_buffer   perimeter                    SOSI_buffer   oppr                         SOSI_buffer   x                            SOSI_real64   y                            SOSI_real64   koordh                       SOSI_buffer   sentral                      SOSI_buffer   lokalisering                 SOSI_buffer   opphav                       SOSI_buffer   malemetode                   SOSI_buffer   noyaktighet                  SOSI_int64   synbarhet                    SOSI_buffer   h_malemetode                 SOSI_buffer   h_noyaktig                   SOSI_buffer   max_avvik                    SOSI_buffer   datafangstdato               SOSI_date   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   stasjonstype                 SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
+SOSI_1_DEF dsb.sivilforsvarsdistrikter   SOSI_type                    SOSI_polygon   lokalid                      SOSI_char   navnerom                     SOSI_char   versjonid                    SOSI_char   brannstasjon                 SOSI_buffer   kasernert                    SOSI_buffer   brannvesen                   SOSI_buffer   anleggid                     SOSI_buffer   ajourdato                    SOSI_date   informasjon                  SOSI_buffer   opphav                       SOSI_char   stasjonstype                 SOSI_buffer   objtype                      SOSI_char   dato                         SOSI_date   omradeid                     SOSI_char   kopidato                     SOSI_char   originaldatavert             SOSI_char   msgeometry                   SOSI_char   poly_                        SOSI_char   poly_id                      SOSI_char   area                         SOSI_char   perimeter                    SOSI_char   oppr                         SOSI_char   x                            SOSI_char   y                            SOSI_char   koordh                       SOSI_char   sentral                      SOSI_char   lokalisering                 SOSI_char   malemetode                   SOSI_char   noyaktighet                  SOSI_char   synbarhet                    SOSI_char   h_malemetode                 SOSI_char   h_noyaktig                   SOSI_char   max_avvik                    SOSI_char   navn                         SOSI_char   datafangstdato               SOSI_char   sivdistrik                   SOSI_buffer   url                          SOSI_buffer   type                         SOSI_buffer   kommune                      SOSI_buffer   _KNR                         SOSI_char   _FNR                         SOSI_char   _CLIPPERCOORDS               SOSI_char   _CLIPPER_FILE                SOSI_char   kommuneid                    SOSI_int32   fylkeid                      SOSI_int32   _creation_instance           SOSI_char   _clipped                     SOSI_char   sosifile                     SOSI_char   dataeier                     SOSI_char   fylkesnr                     SOSI_char   komm                         SOSI_char
 # -------------------------------------------------------------------------
 SOSI_1_DEF dsb.sivilforsvarsdistriktgrense   SOSI_type                    SOSI_line   OBJTYPE                      SOSI_char
+# -------------------------------------------------------------------------
+SOSI_1_DEF dsb.sentraldistrikter110grense   SOSI_type                    SOSI_line   OBJTYPE                      SOSI_char

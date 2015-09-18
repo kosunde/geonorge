@@ -1939,6 +1939,39 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 .DEF
+..AREA T255
+.DEF
+..DATO DATO
+.DEF
+..KOMMUNE T255
+.DEF
+..KOORDH T255
+.DEF
+..LOKALISERING T255
+.DEF
+..MSGEOMETRY T255
+.DEF
+..OPPR T255
+.DEF
+..PERIMETER T255
+.DEF
+..POLY_ T255
+.DEF
+..POLY_ID T255
+.DEF
+..SENTRAL T255
+.DEF
+..SIVDISTRIK T255
+.DEF
+..TYPE T255
+.DEF
+..URL T255
+.DEF
+..X D20.2
+.DEF
+..Y D20.2
+
+.DEF
 ..ABSOLUTTVERDI BOOLSK                             !absoluttverdi
 
 .DEF
@@ -2154,6 +2187,9 @@
 
 .DEF
 ..ANKRTYP H2                                       !ankringstype
+
+.DEF
+..ANLEGGID T255                                    
 
 .DEF
 ..ANLEGGNØDSTRØM T6                                !anleggNødstrøm
@@ -2853,6 +2889,12 @@
 
 .DEF
 ..BOT_OK_INT T1                                    !botaniskØkologiskInteresse
+
+.DEF
+..BRANNSTASJON T255                                
+
+.DEF
+..BRANNVESEN T255                                
 
 .DEF
 ..BRANSJE T5                                       !bransje
@@ -10521,8 +10563,9 @@
 
 .OBJDEF
 ..OBJTYPE Brannstasjon $GEOMETRY (PUNKT)
-...stasjonstype T1 $MAN $CARMIN (1) $CARMAX (1)
-...kasernert T2 $MAN $CARMIN (1) $CARMAX (2)
+..STASJONSTYPE T1 $MAN $CARMIN (1) $CARMAX (1)
+..KASERNERT T2 $MAN $CARMIN (1) $CARMAX (2)
+..ANLEGGID T255 $MAN $CARMIN (0) $CARMAX (1)
 
 .OBJDEF
 ..OBJTYPE Brannventil $GEOMETRY (PUNKT)
