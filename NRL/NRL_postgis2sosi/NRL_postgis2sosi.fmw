@@ -35,14 +35,14 @@
 #! WARN_INVALID_XFORM_PARAM="Yes"
 #! REQUIREMENTS_KEYWORD=""
 #! END_PYTHON=""
-#! DOC_TOP_LEFT="0 -2404.51"
+#! DOC_TOP_LEFT="0 -2590.51"
 #! REDIRECT_TERMINATORS="NONE"
 #! REQUIREMENTS=""
 #! LEGAL_TERMS_CONDITIONS=""
 #! IGNORE_READER_FAILURE="No"
-#! VIEW_POSITION="-723.757 82.5008"
-#! LAST_SAVE_DATE="2015-09-22T15:20:11"
-#! DOC_EXTENTS="4796 2462.52"
+#! VIEW_POSITION="-75.0008 82.5008"
+#! LAST_SAVE_DATE="2015-09-22T16:06:57"
+#! DOC_EXTENTS="5542.25 2738.51"
 #! PASSWORD=""
 #! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
 #! MAX_LOG_FEATURES="200"
@@ -1109,8 +1109,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="16"
 #! FEAT_GEOMTYPE="SOSI_no_geom"
-#! POSITION="4274 -2300.01"
-#! BOUNDING_RECT="4274 -2300.01 -1 -1"
+#! POSITION="5020.25 -2486.01"
+#! BOUNDING_RECT="5020.25 -2486.01 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -1148,8 +1148,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="18"
 #! FEAT_GEOMTYPE="SOSI_line"
-#! POSITION="4274 -2157.26"
-#! BOUNDING_RECT="4274 -2157.26 -1 -1"
+#! POSITION="5020.25 -2343.26"
+#! BOUNDING_RECT="5020.25 -2343.26 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -1164,6 +1164,22 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="L:avgrensesav{}.lokalid" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="L:avgrensesav{}.navnerom" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="L:avgrensesav{}.versjonid" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.lokalid" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.navnerom" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingmonsterkode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.kommentarmerkingmonster" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingtypekode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.kommentarmerkingtype" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingicao" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingtilstandkode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.farge1kode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.annet1" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.flouriserende1" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.reflekterende1" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.farge2kode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.annet2" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.flouriserende2" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.reflekterende2" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="vertikalutstrekning" ATTR_TYPE="SOSI_real64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="hoydeverdienhet" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="merkepliktig" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1204,8 +1220,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="19"
 #! FEAT_GEOMTYPE="SOSI_point"
-#! POSITION="4274 -2014.51"
-#! BOUNDING_RECT="4274 -2014.51 -1 -1"
+#! POSITION="5024 -2200.51"
+#! BOUNDING_RECT="5024 -2200.51 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="SOSI_1"
@@ -1246,6 +1262,23 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="typeendring" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="endret_tid" ATTR_TYPE="SOSI_datetime" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="status" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.lokalid" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.navnerom" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.versjonid" ATTR_TYPE="SOSI_varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingmonsterkode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.kommentarmerkingmonster" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingtypekode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.kommentarmerkingtype" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingicao" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.merkingtilstandkode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.farge1kode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.annet1" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.flouriserende1" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.reflekterende1" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.farge2kode" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.annet2" ATTR_TYPE="SOSI_varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.flouriserende2" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="L:merking{}.reflekterende2" ATTR_TYPE="SOSI_int16" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1255,8 +1288,8 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="40"
 #! FEAT_GEOMTYPE="postgres_none"
-#! POSITION="92 -1614.5"
-#! BOUNDING_RECT="92 -1614.5 -1 -1"
+#! POSITION="103 -1598.13"
+#! BOUNDING_RECT="103 -1598.13 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGRES_1"
@@ -1271,6 +1304,48 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="harlyssettingfk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lystype" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="nrl.merking"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="nrl"
+#! IS_EDITABLE="true"
+#! IDENTIFIER="64"
+#! FEAT_GEOMTYPE="postgres_none"
+#! POSITION="103 -1737.77"
+#! BOUNDING_RECT="103 -1737.77 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="POSTGRES_1"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="false"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="numeric(19,0),PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="harmerkingfk" ATTR_TYPE="numeric(19,0),BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="merkingmonsterkode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommentarmerkingmonster" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="merkingtypekode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommentarmerkingtype" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="merkingicao" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="merkingtilstandkode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="farge1kode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="annet1" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="flouriserende1" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="reflekterende1" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="farge2kode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="annet2" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="flouriserende2" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="reflekterende2" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
@@ -1311,26 +1386,59 @@
 #! CONTENTS="8 6 "
 #! />
 #! <BOOKMARK
-#! IDENTIFIER="43"
-#! NAME="PostgreSQL"
-#! DESCRIPTION=""
-#! TOP_LEFT="0 -1350"
-#! BOTTOM_RIGHT="607 -1719"
-#! BOUNDING_RECT="0 -1350 607 369.002"
-#! STICKY="true"
-#! COLOUR="0.752941,0.615686,0.231373"
-#! CONTENTS="14 40 "
-#! />
-#! <BOOKMARK
 #! IDENTIFIER="63"
 #! NAME="SOSI"
 #! DESCRIPTION=""
-#! TOP_LEFT="4200 -1906.01"
-#! BOTTOM_RIGHT="4796 -2404.51"
-#! BOUNDING_RECT="4200 -1906.01 596 498.496"
+#! TOP_LEFT="4946.25 -2092.01"
+#! BOTTOM_RIGHT="5542.25 -2590.51"
+#! BOUNDING_RECT="4946.25 -2092.01 596 498.496"
 #! STICKY="true"
 #! COLOUR="1,0.666667,0"
 #! CONTENTS="16 18 19 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="65"
+#! NAME="PostgreSQL"
+#! DESCRIPTION=""
+#! TOP_LEFT="10.9996 -1350"
+#! BOTTOM_RIGHT="607 -1842.27"
+#! BOUNDING_RECT="10.9996 -1350 596 492.265"
+#! STICKY="true"
+#! COLOUR="0.239216,0.694118,0.666667"
+#! CONTENTS="14 40 64 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="80"
+#! NAME="Merking"
+#! DESCRIPTION=""
+#! TOP_LEFT="4211.25 -1058.22"
+#! BOTTOM_RIGHT="4741.25 -2432.98"
+#! BOUNDING_RECT="4211.25 -1058.22 530 1374.76"
+#! STICKY="true"
+#! COLOUR="0.0588235,0.47451,0.52549"
+#! CONTENTS="74 68 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="81"
+#! NAME="Lyssetting"
+#! DESCRIPTION=""
+#! TOP_LEFT="3505.79 -450"
+#! BOTTOM_RIGHT="4035.79 -1998.01"
+#! BOUNDING_RECT="3505.79 -450 530 1548.01"
+#! STICKY="true"
+#! COLOUR="0.105882,0.807843,0.913725"
+#! CONTENTS="59 44 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="82"
+#! NAME="Punkt vs. Linje"
+#! DESCRIPTION=""
+#! TOP_LEFT="2776 148.009"
+#! BOTTOM_RIGHT="3330 -1436"
+#! BOUNDING_RECT="2776 148.009 554 1584.01"
+#! STICKY="true"
+#! COLOUR="0.811765,0.4,0.427451"
+#! CONTENTS="58 54 48 38 41 36 55 42 56 31 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1612,8 +1720,8 @@
 #! IDENTIFIER="23"
 #! TYPE="AttributeCreator"
 #! VERSION="7"
-#! POSITION="1014 -2136"
-#! BOUNDING_RECT="1014 -2136 -1 -1"
+#! POSITION="1137.75 -2328"
+#! BOUNDING_RECT="1137.75 -2328 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1653,8 +1761,8 @@
 #! IDENTIFIER="20"
 #! TYPE="FeatureMerger"
 #! VERSION="13"
-#! POSITION="1694 -2136"
-#! BOUNDING_RECT="1694 -2136 -1 -1"
+#! POSITION="1817.75 -2328"
+#! BOUNDING_RECT="1817.75 -2328 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1749,8 +1857,8 @@
 #! IDENTIFIER="29"
 #! TYPE="AttributeCreator"
 #! VERSION="7"
-#! POSITION="1005 -1758.01"
-#! BOUNDING_RECT="1005 -1758.01 -1 -1"
+#! POSITION="1128.75 -1950"
+#! BOUNDING_RECT="1128.75 -1950 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1805,8 +1913,8 @@
 #! IDENTIFIER="32"
 #! TYPE="AttributeRemover"
 #! VERSION="1"
-#! POSITION="1005 -1947"
-#! BOUNDING_RECT="1005 -1947 -1 -1"
+#! POSITION="1128.75 -2139"
+#! BOUNDING_RECT="1128.75 -2139 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -2012,8 +2120,8 @@
 #! IDENTIFIER="44"
 #! TYPE="FeatureMerger"
 #! VERSION="13"
-#! POSITION="3409.53 -1500"
-#! BOUNDING_RECT="3409.53 -1500 -1 -1"
+#! POSITION="3555.79 -1492.01"
+#! BOUNDING_RECT="3555.79 -1492.01 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -2067,6 +2175,7 @@
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="NOT_MERGED"/>
@@ -2117,6 +2226,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2125,6 +2235,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <OUTPUT_FEAT NAME="DUPLICATE_SUPPLIER"/>
@@ -2132,6 +2243,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2169,6 +2281,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
@@ -2368,8 +2481,8 @@
 #! IDENTIFIER="59"
 #! TYPE="FeatureMerger"
 #! VERSION="13"
-#! POSITION="3409.53 -547.99"
-#! BOUNDING_RECT="3409.53 -547.99 -1 -1"
+#! POSITION="3555.79 -540"
+#! BOUNDING_RECT="3555.79 -540 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -2423,6 +2536,7 @@
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <OUTPUT_FEAT NAME="NOT_MERGED"/>
@@ -2473,6 +2587,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #! <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2481,6 +2596,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <OUTPUT_FEAT NAME="DUPLICATE_SUPPLIER"/>
@@ -2488,6 +2604,7 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2508,6 +2625,507 @@
 #! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="YES"/>
 #! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="L:lyssetting"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="66"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="2850 -1757"
+#! BOUNDING_RECT="2850 -1757 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="lokalid,&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt;,navnerom,NO.KARTVERKET.NRL"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="68"
+#! TYPE="FeatureMerger"
+#! VERSION="13"
+#! POSITION="4261.25 -1926.98"
+#! BOUNDING_RECT="4261.25 -1926.98 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="MERGED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brekkbar" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vertikalutstrekning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="hoydeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktigihenholdtil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ansvarligformerking" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkeinformasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkeplikt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="hrefsystem" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="registernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="eksternid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="mobilitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="komponentsekvnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bsle21hinder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bestaravvertikalobjektkomponentfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="verifiseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="malemetodehoyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="typeendring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lengdeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="linjespenn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.de9im" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.pass{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingicao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.farge1kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.annet1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.farge2kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.annet2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="NOT_MERGED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brekkbar" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="vertikalutstrekning" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="hoydeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktig" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktigihenholdtil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ansvarligformerking" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="merkeinformasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkeplikt" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="hrefsystem" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="registernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="eksternid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="mobilitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="komponentsekvnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="bsle21hinder" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="bestaravvertikalobjektkomponentfk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="verifiseringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="malemetodehoyde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="h_noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="typeendring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lengde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lengdeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="linjespenn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.de9im" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrensesav{}.pass{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lystype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="REFERENCED"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <OUTPUT_FEAT NAME="UNREFERENCED"/>
+#! <FEAT_COLLAPSED COLLAPSED="3"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <OUTPUT_FEAT NAME="DUPLICATE_SUPPLIER"/>
+#! <FEAT_COLLAPSED COLLAPSED="4"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;harmerkingfk&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_4"/>
+#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="L:merking"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="74"
+#! TYPE="FeatureMerger"
+#! VERSION="13"
+#! POSITION="4261.25 -1148.22"
+#! BOUNDING_RECT="4261.25 -1148.22 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="MERGED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="brekkbar" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="vertikalutstrekning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="hoydeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktig" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktigihenholdtil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="ansvarligformerking" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkeinformasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkeplikt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="hrefsystem" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="registernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="eksternid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="mobilitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="komponentsekvnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bsle21hinder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="bestaravvertikalobjektkomponentfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="verifiseringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="malemetodehoyde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="h_noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="typeendring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lengde" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lengdeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="linjespenn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.de9im" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.pass{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingicao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.farge1kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.annet1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.farge2kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.annet2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="L:merking{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="NOT_MERGED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="objtype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="brekkbar" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="vertikalutstrekning" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="hoydeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktig" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="merkepliktigihenholdtil" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="ansvarligformerking" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="merkeinformasjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkeplikt" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="hrefsystem" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="registernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="eksternid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="mobilitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="komponentsekvnr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="bsle21hinder" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="bestaravvertikalobjektkomponentfk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="verifiseringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="oppdateringsdato" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="malemetode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="synbarhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="malemetodehoyde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="h_noyaktighet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="typeendring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lengde" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lengdeverdienhet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="linjespenn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="OBJTYPE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.de9im" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:avgrenserlinje{}.pass{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.objid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lystype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.versjonid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="L:lyssetting{}.navnerom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="REFERENCED"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <OUTPUT_FEAT NAME="UNREFERENCED"/>
+#! <FEAT_COLLAPSED COLLAPSED="3"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <OUTPUT_FEAT NAME="DUPLICATE_SUPPLIER"/>
+#! <FEAT_COLLAPSED COLLAPSED="4"/>
+#! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="harmerkingfk" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingmonsterkode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingmonster" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingtypekode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="kommentarmerkingtype" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingicao" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="merkingtilstandkode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="farge1kode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="annet1" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende1" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende1" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="farge2kode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="annet2" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="flouriserende2" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="reflekterende2" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;objid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;harmerkingfk&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_5"/>
+#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="L:merking"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2656,24 +3274,6 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="46"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="18"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="47"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="18"
-#! SOURCE_PORT_DESC="fo 1"
-#! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #! IDENTIFIER="50"
 #! SOURCE_NODE="40"
 #! TARGET_NODE="49"
@@ -2737,15 +3337,6 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="61"
-#! SOURCE_NODE="59"
-#! TARGET_NODE="19"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #! IDENTIFIER="53"
 #! SOURCE_NODE="49"
 #! TARGET_NODE="59"
@@ -2755,13 +3346,103 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="62"
+#! IDENTIFIER="67"
+#! SOURCE_NODE="64"
+#! TARGET_NODE="66"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="69"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="68"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="70"
+#! SOURCE_NODE="68"
+#! TARGET_NODE="18"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="71"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="68"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="72"
+#! SOURCE_NODE="68"
+#! TARGET_NODE="18"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="73"
+#! SOURCE_NODE="66"
+#! TARGET_NODE="68"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 1"
+#! ENABLED="true"
+#! EXTRA_POINTS="3431 -2096"
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="75"
 #! SOURCE_NODE="59"
+#! TARGET_NODE="74"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="76"
+#! SOURCE_NODE="74"
+#! TARGET_NODE="19"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="77"
+#! SOURCE_NODE="59"
+#! TARGET_NODE="74"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="78"
+#! SOURCE_NODE="74"
 #! TARGET_NODE="19"
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="-1"
 #! ENABLED="true"
 #! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="79"
+#! SOURCE_NODE="66"
+#! TARGET_NODE="74"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 1"
+#! ENABLED="true"
+#! EXTRA_POINTS="3502 -2043 4046 -2040"
 #! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
@@ -3021,10 +3702,11 @@ MACRO WORKSPACE_NAME NRL_postgis2sosi
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::nrl.vertikalobjektkomponentpunkt multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::nrl.vertikalobjektkomponentpunkt ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::nrl.vertikalobjektkomponentlinje multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::nrl.vertikalobjektkomponentlinje ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::nrl.lyssetting multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::nrl.lyssetting ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::nrl.vertikalobjekt multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::nrl.vertikalobjekt ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::nrl.vertikalobjektkomponentpunkt multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::nrl.vertikalobjektkomponentpunkt ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::nrl.vertikalobjektkomponentlinje multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::nrl.vertikalobjektkomponentlinje ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::nrl.lyssetting multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::nrl.lyssetting ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::nrl.merking multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::nrl.merking ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::nrl.vertikalobjekt multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::nrl.vertikalobjekt ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::nrl.vertikalobjektkomponentpunkt EXACT nrl.vertikalobjektkomponentpunkt DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,int4<comma>PRIKEY,objtype,varchar<openparen>80<closeparen>,brekkbar,bool,vertikalutstrekning,float8,hoydeverdienhet,varchar<openparen>80<closeparen>,merkepliktig,varchar<openparen>80<closeparen>,merkepliktigihenholdtil,varchar<openparen>80<closeparen>,ansvarligformerking,varchar<openparen>80<closeparen>,merkeinformasjon,varchar<openparen>80<closeparen>,kommentarmerkeplikt,varchar<openparen>80<closeparen>,hrefsystem,varchar<openparen>80<closeparen>,href,varchar<openparen>80<closeparen>,registernavn,varchar<openparen>80<closeparen>,eksternid,varchar<openparen>80<closeparen>,mobilitet,bool,komponentsekvnr,int4,bsle21hinder,bool,bestaravvertikalobjektkomponentfk,int4,lokalid,uuid,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,verifiseringsdato,timestamp,oppdateringsdato,timestamp,malemetode,varchar<openparen>80<closeparen>,noyaktighet,int4,synbarhet,varchar<openparen>80<closeparen>,malemetodehoyde,varchar<openparen>80<closeparen>,h_noyaktighet,int4,typeendring,varchar<openparen>80<closeparen>,endret_tid,timestamp,status,varchar<openparen>80<closeparen>
 POSTGIS_1_MERGE_DEF POSTGIS_1::nrl.vertikalobjektkomponentlinje EXACT nrl.vertikalobjektkomponentlinje DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,int4<comma>PRIKEY,objtype,varchar<openparen>80<closeparen>,lengde,float8,lengdeverdienhet,varchar<openparen>80<closeparen>,linjespenn,bool,vertikalutstrekning,float8,hoydeverdienhet,varchar<openparen>80<closeparen>,merkepliktig,varchar<openparen>80<closeparen>,merkepliktigihenholdtil,varchar<openparen>80<closeparen>,ansvarligformerking,varchar<openparen>80<closeparen>,merkeinformasjon,varchar<openparen>80<closeparen>,kommentarmerkeplikt,varchar<openparen>80<closeparen>,hrefsystem,varchar<openparen>80<closeparen>,href,varchar<openparen>80<closeparen>,registernavn,varchar<openparen>80<closeparen>,eksternid,varchar<openparen>80<closeparen>,mobilitet,bool,komponentsekvnr,int4,bsle21hinder,bool,bestaravvertikalobjektkomponentfk,int4,lokalid,uuid,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,verifiseringsdato,timestamp,oppdateringsdato,timestamp,malemetode,varchar<openparen>80<closeparen>,noyaktighet,int4,synbarhet,varchar<openparen>80<closeparen>,malemetodehoyde,varchar<openparen>80<closeparen>,h_noyaktighet,int4,typeendring,varchar<openparen>80<closeparen>,endret_tid,timestamp,status,varchar<openparen>80<closeparen>
-POSTGRES_1_MERGE_DEF POSTGRES_1::nrl.lyssetting EXACT nrl.lyssetting DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,objid,int4<comma>PRIKEY,harlyssettingfk,int4<comma>BTREE,lystype,varchar<openparen>20<closeparen>
+POSTGRES_1_MERGE_DEF POSTGRES_1::nrl.lyssetting EXACT nrl.lyssetting DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,objid,int4<comma>PRIKEY,harlyssettingfk,int4<comma>BTREE,lystype,varchar<openparen>20<closeparen>,versjonid,int4
+POSTGRES_1_MERGE_DEF POSTGRES_1::nrl.merking EXACT nrl.merking DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,objid,numeric<openparen>19<comma>0<closeparen><comma>PRIKEY,harmerkingfk,numeric<openparen>19<comma>0<closeparen><comma>BTREE,merkingmonsterkode,varchar<openparen>255<closeparen>,kommentarmerkingmonster,varchar<openparen>255<closeparen>,merkingtypekode,varchar<openparen>255<closeparen>,kommentarmerkingtype,varchar<openparen>255<closeparen>,merkingicao,int2,merkingtilstandkode,varchar<openparen>255<closeparen>,farge1kode,varchar<openparen>255<closeparen>,annet1,varchar<openparen>255<closeparen>,flouriserende1,int2,reflekterende1,int2,farge2kode,varchar<openparen>255<closeparen>,annet2,varchar<openparen>255<closeparen>,flouriserende2,int2,reflekterende2,int2,versjonid,numeric<openparen>19<comma>0<closeparen>
 POSTGRES_1_MERGE_DEF POSTGRES_1::nrl.vertikalobjekt EXACT nrl.vertikalobjekt DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,objid,int4<comma>PRIKEY,objtype,varchar<openparen>80<closeparen>,kommentarvertobjtype,varchar<openparen>255<closeparen>,vertikalobjektgruppe,bool,vertikalobjektnavn,varchar<openparen>80<closeparen>,vertikalobjekttype,varchar<openparen>80<closeparen>,datafangstdato,timestamp,typeendring,varchar<openparen>80<closeparen>,endret_tid,timestamp,gyldigfra,timestamp,gyldigtil,timestamp,lokalid,uuid,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,informasjon,varchar<openparen>255<closeparen>,oppdateringsdato,timestamp,opphav,varchar<openparen>255<closeparen>,status,varchar<openparen>80<closeparen>
 # -------------------------------------------------------------------------
 
@@ -3033,6 +3715,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "nrl.vertikalobjektkomponentpunkt (POST
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "nrl.vertikalobjektkomponentlinje (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE nrl.vertikalobjektkomponentlinje    OUTPUT FEATURE_TYPE nrl.vertikalobjektkomponentlinje_0_maGniQK+jXQ=    OUTPUT FEATURE_TYPE nrl.vertikalobjektkomponentlinje_1_maGniQK+jXQ=
 DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE nrl.merking ATTR lokalid <at>Value<openparen>objid<closeparen> ATTR navnerom NO.KARTVERKET.NRL    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_7 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_7_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT_0_a6vTkzVgf18=   OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT_1_a6vTkzVgf18=
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE nrl.lyssetting ATTR lokalid <at>Value<openparen>objid<closeparen> ATTR navnerom NO.KARTVERKET.NRL    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_5 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_5_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT_0_AHl5K7h8luY=   OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT_1_AHl5K7h8luY=
@@ -3100,6 +3785,12 @@ FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_2    INPUT REFERENC
 
 # -------------------------------------------------------------------------
 
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_4    INPUT REFERENCER FEATURE_TYPE FeatureMerger_2_MERGED    INPUT REFERENCER FEATURE_TYPE FeatureMerger_2_NOT_MERGED    INPUT REFERENCEE FEATURE_TYPE AttributeCreator_7_OUTPUT_0_a6vTkzVgf18=    REFERENCE_INFO $(FeatureMerger_4_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>objid<closeparen>,FeatureMerger_4) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>harmerkingfk<closeparen>,FeatureMerger_4) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    LIST_NAME "L:merking"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_4_MERGED    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_4_NOT_MERGED
+
+# -------------------------------------------------------------------------
+
 FACTORY_DEF * SpatialRelationshipFactory    FACTORY_NAME SpatialRelator_2    INPUT BASE FEATURE_TYPE FeatureTypeFilter_nrl.vertikalobjektkomponentpunkt_1_uyKrnD0/m+0=    INPUT CANDIDATE FEATURE_TYPE AttributeRemover_3_OUTPUT    PREDICATE "TOUCHES"    LIST_NAME "L:avgrenserlinje"    SUCCESS_ATTR "_related_candidates"    REJECT_INVALID_GEOM Yes    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    CALCULATE_CARDINALITY No    OUTPUT TAGGED FEATURE_TYPE SpatialRelator_2_Output
 
 # -------------------------------------------------------------------------
@@ -3110,14 +3801,20 @@ FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_3    INPUT REFERENC
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC FeatureMerger_3_NOT_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_3_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjekt<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_2_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentlinje<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_2_NOT_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentlinje<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_5    INPUT REFERENCER FEATURE_TYPE FeatureMerger_3_MERGED    INPUT REFERENCER FEATURE_TYPE FeatureMerger_3_NOT_MERGED    INPUT REFERENCEE FEATURE_TYPE AttributeCreator_7_OUTPUT_1_a6vTkzVgf18=    REFERENCE_INFO $(FeatureMerger_5_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>objid<closeparen>,FeatureMerger_5) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>harmerkingfk<closeparen>,FeatureMerger_5) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    LIST_NAME "L:merking"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_5_MERGED    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_5_NOT_MERGED
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC FeatureMerger_5_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_5_NOT_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_4_NOT_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentlinje<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_4_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentlinje<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_MERGED TO SOSI __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjekt<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-SOSI_1_DEF nrl.vertikalobjektkomponentpunkt   SOSI_type                    SOSI_point   objtype                      SOSI_varchar(80)   brekkbar                     SOSI_boolean   L:avgrenserlinje{}.lokalid   SOSI_varchar(80)   L:avgrenserlinje{}.navnerom  SOSI_varchar(80)   L:avgrenserlinje{}.versjonid SOSI_varchar(80)   vertikalutstrekning          SOSI_real64   hoydeverdienhet              SOSI_varchar(80)   merkepliktig                 SOSI_varchar(80)   merkepliktigihenholdtil      SOSI_varchar(80)   ansvarligformerking          SOSI_varchar(80)   merkeinformasjon             SOSI_varchar(80)   kommentarmerkeplikt          SOSI_varchar(80)   hrefsystem                   SOSI_varchar(80)   href                         SOSI_varchar(80)   registernavn                 SOSI_varchar(80)   eksternid                    SOSI_varchar(80)   mobilitet                    SOSI_boolean   komponentsekvnr              SOSI_int32   bsle21hinder                 SOSI_boolean   bestaravvertikalobjektkomponentfk SOSI_int32   lokalid                      SOSI_buffer   navnerom                     SOSI_varchar(80)   versjonid                    SOSI_varchar(80)   verifiseringsdato            SOSI_datetime   oppdateringsdato             SOSI_datetime   malemetode                   SOSI_varchar(80)   noyaktighet                  SOSI_int32   synbarhet                    SOSI_varchar(80)   malemetodehoyde              SOSI_varchar(80)   h_noyaktighet                SOSI_int32   typeendring                  SOSI_varchar(80)   endret_tid                   SOSI_datetime   status                       SOSI_varchar(80)
+SOSI_1_DEF nrl.vertikalobjektkomponentpunkt   SOSI_type                    SOSI_point   objtype                      SOSI_varchar(80)   brekkbar                     SOSI_boolean   L:avgrenserlinje{}.lokalid   SOSI_varchar(80)   L:avgrenserlinje{}.navnerom  SOSI_varchar(80)   L:avgrenserlinje{}.versjonid SOSI_varchar(80)   vertikalutstrekning          SOSI_real64   hoydeverdienhet              SOSI_varchar(80)   merkepliktig                 SOSI_varchar(80)   merkepliktigihenholdtil      SOSI_varchar(80)   ansvarligformerking          SOSI_varchar(80)   merkeinformasjon             SOSI_varchar(80)   kommentarmerkeplikt          SOSI_varchar(80)   hrefsystem                   SOSI_varchar(80)   href                         SOSI_varchar(80)   registernavn                 SOSI_varchar(80)   eksternid                    SOSI_varchar(80)   mobilitet                    SOSI_boolean   komponentsekvnr              SOSI_int32   bsle21hinder                 SOSI_boolean   bestaravvertikalobjektkomponentfk SOSI_int32   lokalid                      SOSI_buffer   navnerom                     SOSI_varchar(80)   versjonid                    SOSI_varchar(80)   verifiseringsdato            SOSI_datetime   oppdateringsdato             SOSI_datetime   malemetode                   SOSI_varchar(80)   noyaktighet                  SOSI_int32   synbarhet                    SOSI_varchar(80)   malemetodehoyde              SOSI_varchar(80)   h_noyaktighet                SOSI_int32   typeendring                  SOSI_varchar(80)   endret_tid                   SOSI_datetime   status                       SOSI_varchar(80)   L:merking{}.lokalid          SOSI_varchar(80)   L:merking{}.navnerom         SOSI_varchar(80)   L:merking{}.versjonid        SOSI_varchar(80)   L:merking{}.merkingmonsterkode SOSI_varchar(255)   L:merking{}.kommentarmerkingmonster SOSI_varchar(255)   L:merking{}.merkingtypekode  SOSI_varchar(255)   L:merking{}.kommentarmerkingtype SOSI_varchar(255)   L:merking{}.merkingicao      SOSI_int16   L:merking{}.merkingtilstandkode SOSI_varchar(255)   L:merking{}.farge1kode       SOSI_varchar(255)   L:merking{}.annet1           SOSI_varchar(255)   L:merking{}.flouriserende1   SOSI_int16   L:merking{}.reflekterende1   SOSI_int16   L:merking{}.farge2kode       SOSI_varchar(255)   L:merking{}.annet2           SOSI_varchar(255)   L:merking{}.flouriserende2   SOSI_int16   L:merking{}.reflekterende2   SOSI_int16
+# -------------------------------------------------------------------------
+SOSI_1_DEF nrl.vertikalobjektkomponentlinje   SOSI_type                    SOSI_line   objtype                      SOSI_varchar(80)   lengde                       SOSI_real64   lengdeverdienhet             SOSI_varchar(80)   linjespenn                   SOSI_boolean   L:avgrensesav{}.lokalid      SOSI_varchar(80)   L:avgrensesav{}.navnerom     SOSI_varchar(80)   L:avgrensesav{}.versjonid    SOSI_varchar(80)   L:merking{}.lokalid          SOSI_varchar(80)   L:merking{}.navnerom         SOSI_varchar(80)   L:merking{}.merkingmonsterkode SOSI_varchar(255)   L:merking{}.kommentarmerkingmonster SOSI_varchar(255)   L:merking{}.merkingtypekode  SOSI_varchar(255)   L:merking{}.kommentarmerkingtype SOSI_varchar(255)   L:merking{}.merkingicao      SOSI_int16   L:merking{}.merkingtilstandkode SOSI_varchar(255)   L:merking{}.farge1kode       SOSI_varchar(255)   L:merking{}.annet1           SOSI_varchar(255)   L:merking{}.flouriserende1   SOSI_int16   L:merking{}.reflekterende1   SOSI_int16   L:merking{}.farge2kode       SOSI_varchar(255)   L:merking{}.annet2           SOSI_varchar(255)   L:merking{}.flouriserende2   SOSI_int16   L:merking{}.reflekterende2   SOSI_int16   vertikalutstrekning          SOSI_real64   hoydeverdienhet              SOSI_varchar(80)   merkepliktig                 SOSI_varchar(80)   merkepliktigihenholdtil      SOSI_varchar(80)   ansvarligformerking          SOSI_varchar(80)   merkeinformasjon             SOSI_varchar(80)   kommentarmerkeplikt          SOSI_varchar(80)   hrefsystem                   SOSI_varchar(80)   href                         SOSI_varchar(80)   registernavn                 SOSI_varchar(80)   eksternid                    SOSI_varchar(80)   mobilitet                    SOSI_boolean   komponentsekvnr              SOSI_int32   bsle21hinder                 SOSI_boolean   L:lyssetting{}.lystype       SOSI_varchar(80)   L:lyssetting{}.navnerom      SOSI_varchar(80)   L:lyssetting{}.versjonid     SOSI_varchar(80)   bestaravvertikalobjektkomponentfk SOSI_int32   lokalid                      SOSI_buffer   navnerom                     SOSI_varchar(80)   versjonid                    SOSI_varchar(80)   verifiseringsdato            SOSI_datetime   oppdateringsdato             SOSI_datetime   malemetode                   SOSI_varchar(80)   noyaktighet                  SOSI_int32   synbarhet                    SOSI_varchar(80)   malemetodehoyde              SOSI_varchar(80)   h_noyaktighet                SOSI_int32   typeendring                  SOSI_varchar(80)   endret_tid                   SOSI_datetime   status                       SOSI_varchar(80)
 # -------------------------------------------------------------------------
 SOSI_1_DEF nrl.vertikalobjekt   SOSI_type                    SOSI_no_geom   objtype                      SOSI_varchar(80)   kommentarvertobjtype         SOSI_varchar(255)   vertikalobjektgruppe         SOSI_boolean   vertikalobjektnavn           SOSI_varchar(80)   vertikalobjekttype           SOSI_varchar(80)   L:komponenter{}.lokalid      SOSI_varchar(80)   L:komponenter{}.navnerom     SOSI_varchar(80)   L:komponenter{}.versjonid    SOSI_varchar(80)   datafangstdato               SOSI_datetime   typeendring                  SOSI_varchar(80)   endret_tid                   SOSI_datetime   gyldigfra                    SOSI_datetime   gyldigtil                    SOSI_datetime   lokalid                      SOSI_buffer   navnerom                     SOSI_varchar(80)   versjonid                    SOSI_varchar(80)   informasjon                  SOSI_varchar(255)   link                         SOSI_varchar(255)   oppdateringsdato             SOSI_datetime   opphav                       SOSI_varchar(255)   status                       SOSI_varchar(80)
-# -------------------------------------------------------------------------
-SOSI_1_DEF nrl.vertikalobjektkomponentlinje   SOSI_type                    SOSI_line   objtype                      SOSI_varchar(80)   lengde                       SOSI_real64   lengdeverdienhet             SOSI_varchar(80)   linjespenn                   SOSI_boolean   L:avgrensesav{}.lokalid      SOSI_varchar(80)   L:avgrensesav{}.navnerom     SOSI_varchar(80)   L:avgrensesav{}.versjonid    SOSI_varchar(80)   vertikalutstrekning          SOSI_real64   hoydeverdienhet              SOSI_varchar(80)   merkepliktig                 SOSI_varchar(80)   merkepliktigihenholdtil      SOSI_varchar(80)   ansvarligformerking          SOSI_varchar(80)   merkeinformasjon             SOSI_varchar(80)   kommentarmerkeplikt          SOSI_varchar(80)   hrefsystem                   SOSI_varchar(80)   href                         SOSI_varchar(80)   registernavn                 SOSI_varchar(80)   eksternid                    SOSI_varchar(80)   mobilitet                    SOSI_boolean   komponentsekvnr              SOSI_int32   bsle21hinder                 SOSI_boolean   L:lyssetting{}.lystype       SOSI_varchar(80)   L:lyssetting{}.navnerom      SOSI_varchar(80)   L:lyssetting{}.versjonid     SOSI_varchar(80)   bestaravvertikalobjektkomponentfk SOSI_int32   lokalid                      SOSI_buffer   navnerom                     SOSI_varchar(80)   versjonid                    SOSI_varchar(80)   verifiseringsdato            SOSI_datetime   oppdateringsdato             SOSI_datetime   malemetode                   SOSI_varchar(80)   noyaktighet                  SOSI_int32   synbarhet                    SOSI_varchar(80)   malemetodehoyde              SOSI_varchar(80)   h_noyaktighet                SOSI_int32   typeendring                  SOSI_varchar(80)   endret_tid                   SOSI_datetime   status                       SOSI_varchar(80)
