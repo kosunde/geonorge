@@ -8,49 +8,49 @@
 #    "C:\Program Files\FME\fme.exe" D:\geonorge\geonorge\NRL\NRL_postgis2postgis\NRL_postgis2postgis.fmw
 #    
 #    
-#! DESTINATION="NONE"
-#! ATTR_TYPE_ENCODING="SDF"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! DESCRIPTION=""
-#! SHOW_ANNOTATIONS="true"
-#! END_PYTHON=""
-#! LAST_SAVE_DATE="2015-09-21T10:46:37"
-#! FME_BUILD_NUM="15515"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! REQUIREMENTS=""
-#! BEGIN_TCL=""
-#! PASSWORD=""
-#! VIEW_POSITION="-1656.02 0"
-#! FME_DOCUMENT_GUID="2112a6e6-e3c2-4d66-b16b-f1712535de83"
-#! IGNORE_READER_FAILURE="No"
-#! USAGE=""
-#! LEGAL_TERMS_CONDITIONS=""
-#! REQUIREMENTS_KEYWORD=""
 #! MAX_LOG_FEATURES="200"
-#! END_TCL=""
-#! DESTINATION_ROUTING_FILE=""
-#! BEGIN_PYTHON=""
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! DOC_EXTENTS="3972.52 767.743"
-#! FME_SERVER_SERVICES=""
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! FME_DOCUMENT_PRIORGUID="93e8fafa-694b-4bf5-bdd4-5821acf712b4,6233650a-ed60-4cb2-bf71-4b737a3d9b1e,ee881888-3cfc-499e-823b-0c7d4eebb292,c5e8baf0-b659-4a24-b247-0de9fc3fe9b1,5d5e1222-7823-4f07-83b6-923b7b33ded7,629c05fe-5a59-43fe-bd70-ce1f5733e8fa,69b4c670-4853-4fb3-a7d7-b4031bdbd89d,9b0aeddd-8de4-4043-9c0d-ffede09d40d6,a3fc4bd2-4534-4d5c-9ba4-4f945b89a113"
-#! REDIRECT_TERMINATORS="NONE"
-#! SOURCE_ROUTING_FILE=""
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! DOC_TOP_LEFT="-1657.02 -1465.25"
-#! ZOOM_SCALE="100"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! HISTORY=""
-#! FME_REPROJECTION_ENGINE="FME"
 #! LOG_MAX_PRECISION="Yes"
-#! SHOW_INFO_NODES="true"
-#! SOURCE="NONE"
+#! DESTINATION="NONE"
 #! WORKSPACE_VERSION="1"
-#! LOG_FILE="$(LOG_FILE)"
+#! FME_BUILD_NUM="15515"
+#! FME_DOCUMENT_PRIORGUID="93e8fafa-694b-4bf5-bdd4-5821acf712b4,6233650a-ed60-4cb2-bf71-4b737a3d9b1e,ee881888-3cfc-499e-823b-0c7d4eebb292,c5e8baf0-b659-4a24-b247-0de9fc3fe9b1,5d5e1222-7823-4f07-83b6-923b7b33ded7,629c05fe-5a59-43fe-bd70-ce1f5733e8fa,69b4c670-4853-4fb3-a7d7-b4031bdbd89d,9b0aeddd-8de4-4043-9c0d-ffede09d40d6,a3fc4bd2-4534-4d5c-9ba4-4f945b89a113,2112a6e6-e3c2-4d66-b16b-f1712535de83,73cf4aea-920d-4ddc-b78e-3a76bc28c913"
+#! DESCRIPTION=""
+#! END_TCL=""
+#! LAST_SAVE_DATE="2015-09-22T08:42:05"
 #! FME_GEOMETRY_HANDLING="Enhanced"
-#! CATEGORY=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
 #! TITLE=""
+#! PASSWORD=""
+#! END_PYTHON=""
+#! FME_SERVER_SERVICES=""
+#! CATEGORY=""
+#! HISTORY=""
+#! SOURCE="NONE"
+#! FME_REPROJECTION_ENGINE="FME"
+#! DESTINATION_ROUTING_FILE=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! REQUIREMENTS_KEYWORD=""
+#! SOURCE_ROUTING_FILE=""
+#! DOC_EXTENTS="3972.52 767.743"
+#! FME_DOCUMENT_GUID="9c27aae9-50d7-420f-b985-7f1ff7176010"
+#! BEGIN_PYTHON=""
+#! SHOW_ANNOTATIONS="true"
+#! REDIRECT_TERMINATORS="NONE"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! VIEW_POSITION="-1653.02 207.002"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! IGNORE_READER_FAILURE="No"
+#! BEGIN_TCL=""
+#! USAGE=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! DOC_TOP_LEFT="-1657.02 -1465.25"
+#! SHOW_INFO_NODES="true"
+#! LOG_FILE="$(LOG_FILE)"
+#! REQUIREMENTS=""
+#! ZOOM_SCALE="100"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! LEGAL_TERMS_CONDITIONS=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="postgis_type char(50) multi_reader_full_id int4 fme_type char(50) fme_dataset char(50) postgres_oid int4 postgis_collection_id int4 fme_start_angle float8 fme_basename char(50) fme_primary_axis float8 fme_geometry fme_char(50) multi_reader_keyword char(50) fme_sweep_angle float8 fme_color char(50) fme_feature_type char(50) fme_text_string char(50) fme_secondary_axis float8 fme_rotation float8 multi_reader_type char(50) fme_text_size float8 multi_reader_id int4 postgis_collection_part_id int4 fme_fill_color char(50)"
+#! EXPOSABLE_ATTRS="fme_secondary_axis float8 fme_geometry fme_char(50) postgis_collection_id int4 postgres_oid int4 fme_sweep_angle float8 fme_primary_axis float8 fme_text_string char(50) multi_reader_type char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_feature_type char(50) fme_text_size float8 fme_type char(50) fme_rotation float8 fme_start_angle float8 fme_color char(50) postgis_collection_part_id int4 fme_fill_color char(50) multi_reader_full_id int4 fme_dataset char(50) postgis_type char(50) fme_basename char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -75,32 +75,32 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FEATURE_TYPES=""
 #! COORDSYS=""
-#! START_FEATURE=""
 #! MIN_FEATURES=""
 #! MAX_FEATURES=""
+#! FEATURE_TYPES=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! START_FEATURE=""
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -116,7 +116,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="multi_reader_full_id int4 fme_type char(50) fme_dataset char(50) postgres_oid int4 fme_start_angle float8 fme_basename char(50) fme_primary_axis float8 fme_geometry fme_char(50) postgres_type char(50) multi_reader_keyword char(50) fme_sweep_angle float8 fme_color char(50) fme_feature_type char(50) fme_text_string char(50) fme_secondary_axis float8 fme_rotation float8 multi_reader_type char(50) fme_text_size float8 multi_reader_id int4 fme_fill_color char(50)"
+#! EXPOSABLE_ATTRS="fme_secondary_axis float8 fme_geometry fme_char(50) postgres_oid int4 fme_sweep_angle float8 fme_primary_axis float8 fme_text_string char(50) multi_reader_type char(50) postgres_type char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_feature_type char(50) fme_text_size float8 fme_type char(50) fme_rotation float8 fme_start_angle float8 fme_color char(50) fme_fill_color char(50) multi_reader_full_id int4 fme_dataset char(50) fme_basename char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -125,32 +125,32 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FEATURE_TYPES=""
 #! COORDSYS=""
-#! START_FEATURE=""
 #! MIN_FEATURES=""
 #! MAX_FEATURES=""
+#! FEATURE_TYPES=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! START_FEATURE=""
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -166,7 +166,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode INHERIT_FROM_WRITER postgis_sql_key_columns &quot;&quot; postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_drop_table NO postgis_truncate_table NO postgis_create_with_oids NO postgis_create_gist_index YES postgis_vacuum_analyze NO postgis_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="postgis_type char(50) fme_type char(50) fme_dataset char(50) postgis_collection_id int4 fme_start_angle float8 fme_basename char(50) fme_primary_axis float8 fme_db_operation char(8) fme_geometry fme_char(50) fme_where char(254) fme_sweep_angle float8 fme_color char(50) fme_feature_type char(50) fme_text_string char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_size float8 postgis_collection_part_id int4 fme_fill_color char(50)"
+#! EXPOSABLE_ATTRS="fme_secondary_axis float8 fme_geometry fme_char(50) postgis_collection_id int4 fme_sweep_angle float8 fme_db_operation char(8) fme_primary_axis float8 fme_text_string char(50) fme_where char(254) fme_feature_type char(50) fme_text_size float8 fme_type char(50) fme_rotation float8 fme_start_angle float8 fme_color char(50) postgis_collection_part_id int4 fme_fill_color char(50) fme_dataset char(50) postgis_type char(50) fme_basename char(50)"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgis_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgis_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgis_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgis_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgis_spatial_column_type geometry%geography Spatial Column Type&quot; geometry &quot;GUI TEXT postgis_spatial_column Spatial Column Name&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -175,32 +175,32 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FANOUT="No"
-#! COORDSYS=""
-#! FANOUT_DIRECTORY=""
 #! FANOUT_SUFFIX=""
-#! FANOUT_ID_ATTR=""
+#! FANOUT_DIRECTORY=""
 #! FANOUT_PREFIX=""
+#! COORDSYS=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT="No"
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -216,7 +216,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_mode INHERIT_FROM_WRITER postgres_sql_key_columns &quot;&quot; postgres_drop_table NO postgres_truncate_table NO postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_rotation float8 fme_color char(50) fme_primary_axis float8 fme_geometry fme_char(50) fme_secondary_axis float8 fme_feature_type char(50) fme_text_string char(50) fme_where char(254) fme_db_operation char(8) fme_start_angle float8 fme_sweep_angle float8 postgres_type char(50) fme_basename char(50) fme_dataset char(50) fme_type char(50) fme_fill_color char(50) fme_text_size float8"
+#! EXPOSABLE_ATTRS="fme_feature_type char(50) fme_text_string char(50) fme_where char(254) fme_start_angle float8 postgres_type char(50) fme_db_operation char(8) fme_sweep_angle float8 fme_dataset char(50) fme_text_size float8 fme_basename char(50) fme_color char(50) fme_secondary_axis float8 fme_fill_color char(50) fme_geometry fme_char(50) fme_primary_axis float8 fme_type char(50) fme_rotation float8"
 #! DEFLINE_PARMS="&quot;GUI CHOICE postgres_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgres_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgres_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgres_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -225,32 +225,32 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FANOUT="No"
-#! COORDSYS=""
-#! FANOUT_DIRECTORY=""
 #! FANOUT_SUFFIX=""
-#! FANOUT_ID_ATTR=""
+#! FANOUT_DIRECTORY=""
 #! FANOUT_PREFIX=""
+#! COORDSYS=""
+#! FANOUT_ID_ATTR=""
+#! FANOUT="No"
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -1461,8 +1461,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="maleenhethoydekode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjon" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1504,8 +1504,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="typeendringkode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjon" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1532,8 +1532,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="vertikalobjektkomponentid" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lystypekode" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="numeric(19,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1552,7 +1552,7 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="serial,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lengde" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lengdeverdienhet" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1571,8 +1571,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="mobilitet" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="komponentsekvnr" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="bsle21hinder" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="bestaravvertikalobjektkomponentfk" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bestaravvertikalobjektkomponentfk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="verifiseringsdato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1585,17 +1585,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="typeendring" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="endret_tid" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="status" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="linjeelement"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="linjeelement"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1614,7 +1614,7 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="serial,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="brekkbar" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="vertikalutstrekning" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1631,8 +1631,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="mobilitet" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="komponentsekvnr" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="bsle21hinder" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="bestaravvertikalobjektkomponentfk" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="bestaravvertikalobjektkomponentfk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="verifiseringsdato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1645,17 +1645,17 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="typeendring" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="endret_tid" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="status" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="posisjon"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_truncate_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geometry"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="posisjon"/>
+#! <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_key_columns" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1674,7 +1674,7 @@
 #! ENABLED="true"
 #! SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
-#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="serial,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="objtype" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommentarvertobjtype" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="vertikalobjektgruppe" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1685,20 +1685,20 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="endret_tid" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="gyldigfra" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="gyldigtil" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="lokalid" ATTR_TYPE="uuid" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navnerom" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="versjonid" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="informasjon" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="opphav" ATTR_TYPE="varchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="status" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -1720,13 +1720,13 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="objid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="harlyssettingfk" ATTR_TYPE="int4,BTREE" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="lystype" ATTR_TYPE="varchar(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="YES"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="YES"/>
 #! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1812,7 +1812,7 @@
 #! BOUNDING_RECT="-1657.02 -697.506 596 376.505"
 #! STICKY="true"
 #! COLOUR="0.266667,0.364706,0.929412"
-#! CONTENTS="1 2 "
+#! CONTENTS="2 1 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="8"
@@ -1834,7 +1834,7 @@
 #! BOUNDING_RECT="1716.5 -722.502 596 346.501"
 #! STICKY="true"
 #! COLOUR="0.976471,0.309804,0.219608"
-#! CONTENTS="20 27 "
+#! CONTENTS="27 20 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="31"
@@ -1923,14 +1923,14 @@
 #! <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="typeendring" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,VertikalObjekt,objid,&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Count&lt;openparen&gt;vertikalobjekt&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;&lt;closeparen&gt;,vertikalobjekttype,&lt;at&gt;Value&lt;openparen&gt;hindertype&lt;closeparen&gt;,gyldigfra,&lt;at&gt;Value&lt;openparen&gt;gyldigfradato&lt;closeparen&gt;,gyldigtil,&lt;at&gt;Value&lt;openparen&gt;gyldigtildato&lt;closeparen&gt;,kommentarvertobjtype,&lt;at&gt;Value&lt;openparen&gt;kommentarvertikalobjekttype&lt;closeparen&gt;,status,&lt;at&gt;Value&lt;openparen&gt;statuskode&lt;closeparen&gt;,typeendring,&lt;at&gt;Value&lt;openparen&gt;typeendringkode&lt;closeparen&gt;,endret_tid,&lt;at&gt;Value&lt;openparen&gt;tidspunktendring&lt;closeparen&gt;,objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objtype,VertikalObjekt,objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;,vertikalobjekttype,&lt;at&gt;Value&lt;openparen&gt;hindertype&lt;closeparen&gt;,gyldigfra,&lt;at&gt;Value&lt;openparen&gt;gyldigfradato&lt;closeparen&gt;,gyldigtil,&lt;at&gt;Value&lt;openparen&gt;gyldigtildato&lt;closeparen&gt;,kommentarvertobjtype,&lt;at&gt;Value&lt;openparen&gt;kommentarvertikalobjekttype&lt;closeparen&gt;,status,&lt;at&gt;Value&lt;openparen&gt;statuskode&lt;closeparen&gt;,typeendring,&lt;at&gt;Value&lt;openparen&gt;typeendringkode&lt;closeparen&gt;,endret_tid,&lt;at&gt;Value&lt;openparen&gt;tidspunktendring&lt;closeparen&gt;,objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="32"
@@ -2240,8 +2240,8 @@
 #! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="linjespenn" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;objtype&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;VertikalObjektKomponentPunkt&lt;quote&gt;,VertikalObjektKomponentPunkt,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;objtype&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;VertikalObjektKomponentLinjepunkt&lt;quote&gt;,VertikalObjektKomponentLinjepunkt,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;objtype&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;VertikalObjektKomponentLinje&lt;quote&gt;,VertikalObjektKomponentLinje"/>
-#! <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="39"
@@ -2328,14 +2328,14 @@
 #! <XFORM_ATTR ATTR_NAME="typeendring" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="endret_tid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="linjespenn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;,objtype,&lt;at&gt;Value&lt;openparen&gt;elementtype&lt;closeparen&gt;,bestaravvertikalobjektkomponentfk,&lt;at&gt;Value&lt;openparen&gt;vertikalobjektid&lt;closeparen&gt;,komponentsekvnr,&lt;at&gt;Value&lt;openparen&gt;komponentsekvensnummer&lt;closeparen&gt;,status,&lt;at&gt;Value&lt;openparen&gt;statuskode&lt;closeparen&gt;,hoydeverdienhet,&lt;at&gt;Value&lt;openparen&gt;hoydeverdienhetkode&lt;closeparen&gt;,merkepliktigihenholdtil,&lt;at&gt;Value&lt;openparen&gt;merkepliktihenholdtilkode&lt;closeparen&gt;,ansvarligformerking,&lt;at&gt;Value&lt;openparen&gt;ansvarligkode&lt;closeparen&gt;,merkeinformasjon,&lt;at&gt;Value&lt;openparen&gt;merkeinformasjonkode&lt;closeparen&gt;,kommentarmerkeplikt,&lt;at&gt;Value&lt;openparen&gt;kommentar&lt;closeparen&gt;,hrefsystem,&lt;at&gt;Value&lt;openparen&gt;hoydereferansesystemkode&lt;closeparen&gt;,href,&lt;at&gt;Value&lt;openparen&gt;hoydereferansekode&lt;closeparen&gt;,malemetode,&lt;at&gt;Value&lt;openparen&gt;malemetodeposisjon&lt;closeparen&gt;,noyaktighet,&lt;at&gt;Value&lt;openparen&gt;noyaktighetposisjon&lt;closeparen&gt;,synbarhet,&lt;at&gt;Value&lt;openparen&gt;synbarhetkode&lt;closeparen&gt;,malemetodehoyde,&lt;at&gt;Value&lt;openparen&gt;malemetodehoydekode&lt;closeparen&gt;,h_noyaktighet,&lt;at&gt;Value&lt;openparen&gt;noyaktighethoyde&lt;closeparen&gt;,typeendring,&lt;at&gt;Value&lt;openparen&gt;typeendringkode&lt;closeparen&gt;,endret_tid,&lt;at&gt;Value&lt;openparen&gt;tidspunktendring&lt;closeparen&gt;,linjespenn,&lt;at&gt;Value&lt;openparen&gt;spenn&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;,objtype,&lt;at&gt;Value&lt;openparen&gt;elementtype&lt;closeparen&gt;,bestaravvertikalobjektkomponentfk,&lt;at&gt;Value&lt;openparen&gt;vertikalobjektid&lt;closeparen&gt;,komponentsekvnr,&lt;at&gt;Value&lt;openparen&gt;komponentsekvensnummer&lt;closeparen&gt;,status,&lt;at&gt;Value&lt;openparen&gt;statuskode&lt;closeparen&gt;,hoydeverdienhet,&lt;at&gt;Value&lt;openparen&gt;hoydeverdienhetkode&lt;closeparen&gt;,merkepliktigihenholdtil,&lt;at&gt;Value&lt;openparen&gt;merkepliktihenholdtilkode&lt;closeparen&gt;,ansvarligformerking,&lt;at&gt;Value&lt;openparen&gt;ansvarligkode&lt;closeparen&gt;,merkeinformasjon,&lt;at&gt;Value&lt;openparen&gt;merkeinformasjonkode&lt;closeparen&gt;,kommentarmerkeplikt,&lt;at&gt;Value&lt;openparen&gt;kommentar&lt;closeparen&gt;,hrefsystem,&lt;at&gt;Value&lt;openparen&gt;hoydereferansesystemkode&lt;closeparen&gt;,href,&lt;at&gt;Value&lt;openparen&gt;hoydereferansekode&lt;closeparen&gt;,malemetode,&lt;at&gt;Value&lt;openparen&gt;malemetodeposisjon&lt;closeparen&gt;,noyaktighet,&lt;at&gt;Value&lt;openparen&gt;noyaktighetposisjon&lt;closeparen&gt;,synbarhet,&lt;at&gt;Value&lt;openparen&gt;synbarhetkode&lt;closeparen&gt;,malemetodehoyde,&lt;at&gt;Value&lt;openparen&gt;malemetodehoydekode&lt;closeparen&gt;,h_noyaktighet,&lt;at&gt;Value&lt;openparen&gt;noyaktighethoyde&lt;closeparen&gt;,typeendring,&lt;at&gt;Value&lt;openparen&gt;typeendringkode&lt;closeparen&gt;,endret_tid,&lt;at&gt;Value&lt;openparen&gt;tidspunktendring&lt;closeparen&gt;,linjespenn,&lt;at&gt;Value&lt;openparen&gt;spenn&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="23"
@@ -2357,14 +2357,14 @@
 #! <XFORM_ATTR ATTR_NAME="objid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="harlyssettingfk" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lystype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;,harlyssettingfk,&lt;at&gt;Value&lt;openparen&gt;vertikalobjektkomponentid&lt;closeparen&gt;,lystype,&lt;at&gt;Value&lt;openparen&gt;lystypekode&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="objid,&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt;,harlyssettingfk,&lt;at&gt;Value&lt;openparen&gt;vertikalobjektkomponentid&lt;closeparen&gt;,lystype,&lt;at&gt;Value&lt;openparen&gt;lystypekode&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="33"
@@ -2431,13 +2431,13 @@
 #! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="vertikalobjektgruppe" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DB_SR)"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DB_SR)"/>
+#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
-#! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="40"
@@ -2666,8 +2666,8 @@
 #! <XFORM_ATTR ATTR_NAME="opphav" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="informasjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="vertikalobjektgruppe" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="data.vertikalobjekt,data.vertikalobjektkomponent,&lt;lt&gt;BLANK&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureTypeFilter"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="data.vertikalobjekt,data.vertikalobjektkomponent,&lt;lt&gt;BLANK&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -3480,19 +3480,19 @@ FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_2 INPUT FEATURE_TY
 FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_3 OUTPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_data.vertikalobjekt ATTR objtype VertikalObjekt ATTR objid <at>Evaluate<openparen><at>Count<openparen>vertikalobjekt<comma><space>1<closeparen><closeparen> ATTR vertikalobjekttype <at>Value<openparen>hindertype<closeparen> ATTR gyldigfra <at>Value<openparen>gyldigfradato<closeparen> ATTR gyldigtil <at>Value<openparen>gyldigtildato<closeparen> ATTR kommentarvertobjtype <at>Value<openparen>kommentarvertikalobjekttype<closeparen> ATTR status <at>Value<openparen>statuskode<closeparen> ATTR typeendring <at>Value<openparen>typeendringkode<closeparen> ATTR endret_tid <at>Value<openparen>tidspunktendring<closeparen> ATTR objid <at>Value<openparen>id<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FeatureTypeFilter_data.vertikalobjekt ATTR objtype VertikalObjekt ATTR objid <at>Value<openparen>id<closeparen> ATTR vertikalobjekttype <at>Value<openparen>hindertype<closeparen> ATTR gyldigfra <at>Value<openparen>gyldigfradato<closeparen> ATTR gyldigtil <at>Value<openparen>gyldigtildato<closeparen> ATTR kommentarvertobjtype <at>Value<openparen>kommentarvertikalobjekttype<closeparen> ATTR status <at>Value<openparen>statuskode<closeparen> ATTR typeendring <at>Value<openparen>typeendringkode<closeparen> ATTR endret_tid <at>Value<openparen>tidspunktendring<closeparen> ATTR objid <at>Value<openparen>id<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC TestFilter_VertikalObjektKomponentPunkt TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC TestFilter_VertikalObjektKomponentLinjepunkt TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC TestFilter_VertikalObjektKomponentLinje TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentlinje<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjekt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.lyssetting<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC TestFilter_VertikalObjektKomponentLinje TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentlinje<closeparen> GEOMETRY    ROUTE FME_GENERIC TestFilter_VertikalObjektKomponentLinjepunkt TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC TestFilter_VertikalObjektKomponentPunkt TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjektkomponentpunkt<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.lyssetting<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>nrl.vertikalobjekt<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGIS_2_DEF nrl.vertikalobjektkomponentpunkt   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       posisjon   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        serial,PRIKEY   objtype                      varchar(80)   brekkbar                     bool   vertikalutstrekning          float8   hoydeverdienhet              varchar(80)   merkepliktig                 varchar(80)   merkepliktigihenholdtil      varchar(80)   ansvarligformerking          varchar(80)   merkeinformasjon             varchar(80)   kommentarmerkeplikt          varchar(80)   hrefsystem                   varchar(80)   href                         varchar(80)   registernavn                 varchar(80)   eksternid                    varchar(80)   mobilitet                    bool   komponentsekvnr              int4   bsle21hinder                 bool   bestaravvertikalobjektkomponentfk int4   lokalid                      uuid,PRIKEY   navnerom                     varchar(80)   versjonid                    varchar(80)   verifiseringsdato            timestamp   oppdateringsdato             timestamp   malemetode                   varchar(80)   noyaktighet                  int4   synbarhet                    varchar(80)   malemetodehoyde              varchar(80)   h_noyaktighet                int4   typeendring                  varchar(80)   endret_tid                   timestamp   status                       varchar(80)
+POSTGIS_2_DEF nrl.vertikalobjektkomponentlinje   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       linjeelement   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(80)   lengde                       float8   lengdeverdienhet             varchar(80)   linjespenn                   bool   vertikalutstrekning          float8   hoydeverdienhet              varchar(80)   merkepliktig                 varchar(80)   merkepliktigihenholdtil      varchar(80)   ansvarligformerking          varchar(80)   merkeinformasjon             varchar(80)   kommentarmerkeplikt          varchar(80)   hrefsystem                   varchar(80)   href                         varchar(80)   registernavn                 varchar(80)   eksternid                    varchar(80)   mobilitet                    bool   komponentsekvnr              int4   bsle21hinder                 bool   bestaravvertikalobjektkomponentfk int4,BTREE   lokalid                      uuid   navnerom                     varchar(80)   versjonid                    varchar(80)   verifiseringsdato            timestamp   oppdateringsdato             timestamp   malemetode                   varchar(80)   noyaktighet                  int4   synbarhet                    varchar(80)   malemetodehoyde              varchar(80)   h_noyaktighet                int4   typeendring                  varchar(80)   endret_tid                   timestamp   status                       varchar(80)
 # -------------------------------------------------------------------------
-POSTGIS_2_DEF nrl.vertikalobjektkomponentlinje   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       linjeelement   postgis_srid                 ""   postgis_drop_table           YES   postgis_truncate_table       NO   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        serial,PRIKEY   objtype                      varchar(80)   lengde                       float8   lengdeverdienhet             varchar(80)   linjespenn                   bool   vertikalutstrekning          float8   hoydeverdienhet              varchar(80)   merkepliktig                 varchar(80)   merkepliktigihenholdtil      varchar(80)   ansvarligformerking          varchar(80)   merkeinformasjon             varchar(80)   kommentarmerkeplikt          varchar(80)   hrefsystem                   varchar(80)   href                         varchar(80)   registernavn                 varchar(80)   eksternid                    varchar(80)   mobilitet                    bool   komponentsekvnr              int4   bsle21hinder                 bool   bestaravvertikalobjektkomponentfk int4   lokalid                      uuid,PRIKEY   navnerom                     varchar(80)   versjonid                    varchar(80)   verifiseringsdato            timestamp   oppdateringsdato             timestamp   malemetode                   varchar(80)   noyaktighet                  int4   synbarhet                    varchar(80)   malemetodehoyde              varchar(80)   h_noyaktighet                int4   typeendring                  varchar(80)   endret_tid                   timestamp   status                       varchar(80)
+POSTGIS_2_DEF nrl.vertikalobjektkomponentpunkt   postgis_type                 postgis_geometry   postgis_mode                 INHERIT_FROM_WRITER   postgis_sql_key_columns      ""   postgis_spatial_column_type  geometry   postgis_spatial_column       posisjon   postgis_srid                 ""   postgis_drop_table           NO   postgis_truncate_table       YES   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(80)   brekkbar                     bool   vertikalutstrekning          float8   hoydeverdienhet              varchar(80)   merkepliktig                 varchar(80)   merkepliktigihenholdtil      varchar(80)   ansvarligformerking          varchar(80)   merkeinformasjon             varchar(80)   kommentarmerkeplikt          varchar(80)   hrefsystem                   varchar(80)   href                         varchar(80)   registernavn                 varchar(80)   eksternid                    varchar(80)   mobilitet                    bool   komponentsekvnr              int4   bsle21hinder                 bool   bestaravvertikalobjektkomponentfk int4,BTREE   lokalid                      uuid   navnerom                     varchar(80)   versjonid                    varchar(80)   verifiseringsdato            timestamp   oppdateringsdato             timestamp   malemetode                   varchar(80)   noyaktighet                  int4   synbarhet                    varchar(80)   malemetodehoyde              varchar(80)   h_noyaktighet                int4   typeendring                  varchar(80)   endret_tid                   timestamp   status                       varchar(80)
 # -------------------------------------------------------------------------
-POSTGRES_2_DEF nrl.vertikalobjekt   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          YES   postgres_truncate_table      NO   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        serial,PRIKEY   objtype                      varchar(80)   kommentarvertobjtype         varchar(255)   vertikalobjektgruppe         bool   vertikalobjektnavn           varchar(80)   vertikalobjekttype           varchar(80)   datafangstdato               timestamp   typeendring                  varchar(80)   endret_tid                   timestamp   gyldigfra                    timestamp   gyldigtil                    timestamp   lokalid                      uuid,PRIKEY   navnerom                     varchar(80)   versjonid                    varchar(80)   informasjon                  varchar(255)   oppdateringsdato             timestamp   opphav                       varchar(255)   status                       varchar(80)
+POSTGRES_2_DEF nrl.lyssetting   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   harlyssettingfk              int4,BTREE   lystype                      varchar(20)
 # -------------------------------------------------------------------------
-POSTGRES_2_DEF nrl.lyssetting   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          YES   postgres_truncate_table      NO   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   harlyssettingfk              int4,BTREE   lystype                      varchar(20)
+POSTGRES_2_DEF nrl.vertikalobjekt   postgres_type                All   postgres_mode                INHERIT_FROM_WRITER   postgres_sql_key_columns     ""   postgres_drop_table          NO   postgres_truncate_table      YES   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   objid                        int4,PRIKEY   objtype                      varchar(80)   kommentarvertobjtype         varchar(255)   vertikalobjektgruppe         bool   vertikalobjektnavn           varchar(80)   vertikalobjekttype           varchar(80)   datafangstdato               timestamp   typeendring                  varchar(80)   endret_tid                   timestamp   gyldigfra                    timestamp   gyldigtil                    timestamp   lokalid                      uuid   navnerom                     varchar(80)   versjonid                    varchar(80)   informasjon                  varchar(255)   oppdateringsdato             timestamp   opphav                       varchar(255)   status                       varchar(80)
