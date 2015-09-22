@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <Table TableName="nrl.vertikalobjekt">
+		    <Field InputName="kommentarvertobjtype" InputType="T255" OutputName="KOMMENTARVERTOBJTYPE" OutputType="T255" UserDefined="true"/>
+			<Field InputName="vertikalobjektgruppe" InputType="BOOLSK" OutputName="VERTIKALOBJEKTGRUPPE" OutputType="BOOLSK" UserDefined="true"/>
+			<Field InputName="vertikalobjektnavn" InputType="T80" OutputName="VERTIKALOBJEKTNAVN" OutputType="T60" UserDefined="true"/>	
+			<Field InputName="vertikalobjekttype" InputType="T80" OutputName="VERTIKALOBJEKTTYPE" OutputType="T80" UserDefined="true"/>			
+			<Field InputName="L:komponenter{}.lokalid" InputType="T80" OutputName="VERTIKALOBJEKTKOMPONENT\KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
+			<Field InputName="L:komponenter{}.navnerom" InputType="T80" OutputName="VERTIKALOBJEKTKOMPONENT\KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="L:komponenter{}.versjonid" InputType="T80" OutputName="VERTIKALOBJEKTKOMPONENT\KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+			<Field InputName="typeendring" InputType="T80" OutputName="ENDRINGSFLAGG\ENDRET_TYPE" OutputType="T1"/>
+			<Field InputName="endret_tid" InputType="DATOTID" OutputName="ENDRINGSFLAGG\ENDRET_TID" OutputType="DATOTID"/>
+            <Field InputName="gyldigfra" InputType="DATOTID" OutputName="GYLDIGFRA" OutputType="DATOTID"/>
+            <Field InputName="gyldigtil" InputType="DATOTID" OutputName="GYLDIGTIL" OutputType="DATOTID"/>
+			<Field InputName="lokalid" InputType="T255" OutputName="VERTIKALOBJEKTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>
+            <Field InputName="navnerom" InputType="T80" OutputName="VERTIKALOBJEKTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>
+            <Field InputName="versjonid" InputType="T80" OutputName="VERTIKALOBJEKTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>
+            <Field InputName="informasjon" InputType="T255" OutputName="INFORMASJON" OutputType="T255"/>
+            <Field InputName="link" InputType="T255" OutputName="LINK" OutputType="T255"/>		
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T255" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="status" InputType="T2" OutputName="STATUS" OutputType="T2"/>      
+        </Table>
+        <FeatureClass InputName="nrl.vertikalobjektkomponentlinje">
+			<Field InputName="lengde" InputType="D20.2" OutputName="LENGDE" OutputType="D20"/>
+			<Field InputName="lengdeverdienhet" InputType="T80" OutputName="MÅLEENHET" OutputType="T2"/>
+			<Field InputName="linjespenn" InputType="BOOLSK" OutputName="LINJESPENN" OutputType="BOOLSK" UserDefined="true"/>
+			<Field InputName="L:avgrensesav{}.lokalid" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
+			<Field InputName="L:avgrensesav{}.navnerom" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="L:avgrensesav{}.versjonid" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>				
+			<Field InputName="vertikalutstrekning" InputType="D20.2" OutputName="VERTIKALUTSTREKNING" OutputType="D10" UserDefined="true"/>		
+            <Field InputName="hoydeverdienhet" InputType="T80" OutputName="MÅLEENHET" OutputType="T2"/>
+            <Field InputName="merkepliktig" InputType="T80" OutputName="MERKEPLIKTIG\MERKEPLIKTIG" OutputType="T6"/>
+			<Field InputName="merkepliktigihenholdtil" InputType="T80" OutputName="MERKEPLIKTIG\REGELVERKMERKEPLIKT" OutputType="T5"/>
+            <Field InputName="ansvarligformerking" InputType="T80" OutputName="MERKEPLIKTIG\ANSVARLIGMERKING" OutputType="T4"/>			
+            <Field InputName="merkeinformasjon" InputType="T80" OutputName="MERKEPLIKTIG\MERKEINFO" OutputType="T4"/>
+            <Field InputName="kommentarmerkeplikt" InputType="T80" OutputName="MERKEPLIKTIG\KOMMENTARMERKEPLIKT" OutputType="T255"/>			
+            <Field InputName="hrefsystem" InputType="T80" OutputName="HØYDE-REF" OutputType="T6"/>
+            <Field InputName="href" InputType="T80" OutputName="HREF" OutputType="T6"/>
+            <Field InputName="registernavn" InputType="T80" OutputName="REFERANSEEKSTREG\REGISTERNAVN" OutputType="T60"/>			
+            <Field InputName="eksternid" InputType="T80" OutputName="REFERANSEEKSTREG\EKSTERNID" OutputType="T255"/>			
+            <Field InputName="mobilitet" InputType="BOOLSK" OutputName="MOBILITET" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="komponentsekvnr" InputType="H11" OutputName="KOMPONENTSEKVNR" OutputType="H11" UserDefined="true"/>
+            <Field InputName="bsle21hinder" InputType="BOOLSK" OutputName="BSLE21HINDER" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="L:lyssetting{}.lystype" InputType="T80" OutputName="HARLYSSETTING\LYSTYPE" OutputType="T3" UserDefined="true"/>			
+			<Field InputName="L:lyssetting{}.lokalid" InputType="T80" OutputName="HARLYSSETTING\LYSSETTINGIDENT\LOKALID" OutputType="T100" UserDefined="true"/>
+			<Field InputName="L:lyssetting{}.navnerom" InputType="T80" OutputName="HARLYSSETTING\LYSSETTINGIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>
+			<Field InputName="L:lyssetting{}.versjonid" InputType="T80" OutputName="HARLYSSETTING\LYSSETTINGIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>			
+			<Field InputName="lokalid" InputType="T80" OutputName="KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
+			<Field InputName="navnerom" InputType="T80" OutputName="KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="versjonid" InputType="T80" OutputName="KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>	
+            <Field InputName="verifiseringsdato" InputType="DATOTID" OutputName="VERIFISERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="H2"/>			
+            <Field InputName="typeendring" InputType="T80" OutputName="ENDRINGSFLAGG\ENDRET_TYPE" OutputType="T1"/>
+            <Field InputName="endret_tid" InputType="DATOTID" OutputName="ENDRINGSFLAGG\ENDRET_TID" OutputType="DATOTID"/>			
+            <Field InputName="status" InputType="T80" OutputName="STATUS" OutputType="T2"/>
+        </FeatureClass>
+        <FeatureClass InputName="nrl.vertikalobjektkomponentpunkt">
+            <Field InputName="brekkbar" InputType="BOOLSK" OutputName="BREKKBAR" OutputType="BOOLSK" UserDefined="true"/>
+			<Field InputName="linjespenn" InputType="BOOLSK" OutputName="LINJESPENN" OutputType="BOOLSK" UserDefined="true"/>
+			<Field InputName="L:avgrensesav{}.lokalid" InputType="T80" OutputName="AVGRENSERLINJE\KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
+			<Field InputName="L:avgrensesav{}.navnerom" InputType="T80" OutputName="AVGRENSERLINJE\KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="L:avgrensesav{}.versjonid" InputType="T80" OutputName="AVGRENSERLINJE\KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="vertikalutstrekning" InputType="D20.2" OutputName="VERTIKALUTSTREKNING" OutputType="D10" UserDefined="true"/>		
+            <Field InputName="hoydeverdienhet" InputType="T80" OutputName="MÅLEENHET" OutputType="T2"/>
+            <Field InputName="merkepliktig" InputType="T80" OutputName="MERKEPLIKTIG\MERKEPLIKTIG" OutputType="T6"/>
+			<Field InputName="merkepliktigihenholdtil" InputType="T80" OutputName="MERKEPLIKTIG\REGELVERKMERKEPLIKT" OutputType="T5"/>
+            <Field InputName="ansvarligformerking" InputType="T80" OutputName="MERKEPLIKTIG\ANSVARLIGMERKING" OutputType="T4"/>			
+            <Field InputName="merkeinformasjon" InputType="T80" OutputName="MERKEPLIKTIG\MERKEINFO" OutputType="T4"/>
+            <Field InputName="kommentarmerkeplikt" InputType="T80" OutputName="MERKEPLIKTIG\KOMMENTARMERKEPLIKT" OutputType="T255"/>			
+            <Field InputName="hrefsystem" InputType="T80" OutputName="HØYDE-REF" OutputType="T6"/>
+            <Field InputName="href" InputType="T80" OutputName="HREF" OutputType="T6"/>
+            <Field InputName="registernavn" InputType="T80" OutputName="REFERANSEEKSTREG\REGISTERNAVN" OutputType="T60"/>			
+            <Field InputName="eksternid" InputType="T80" OutputName="REFERANSEEKSTREG\EKSTERNID" OutputType="T255"/>			
+            <Field InputName="mobilitet" InputType="BOOLSK" OutputName="MOBILITET" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="komponentsekvnr" InputType="H11" OutputName="KOMPONENTSEKVNR" OutputType="H11" UserDefined="true"/>
+            <Field InputName="bsle21hinder" InputType="BOOLSK" OutputName="BSLE21HINDER" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="L:lyssetting{}.lystype" InputType="T80" OutputName="HARLYSSETTING\LYSTYPE" OutputType="T3" UserDefined="true"/>			
+			<Field InputName="L:lyssetting{}.lokalid" InputType="T80" OutputName="HARLYSSETTING\LYSSETTINGIDENT\LOKALID" OutputType="T100" UserDefined="true"/>
+			<Field InputName="L:lyssetting{}.navnerom" InputType="T80" OutputName="HARLYSSETTING\LYSSETTINGIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>
+			<Field InputName="L:lyssetting{}.versjonid" InputType="T80" OutputName="HARLYSSETTING\LYSSETTINGIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>			
+			<Field InputName="lokalid" InputType="T80" OutputName="KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
+			<Field InputName="navnerom" InputType="T80" OutputName="KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="versjonid" InputType="T80" OutputName="KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>	
+            <Field InputName="verifiseringsdato" InputType="DATOTID" OutputName="VERIFISERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="synbarhet" InputType="T80" OutputName="KVALITET\SYNBARHET" OutputType="H2"/>
+            <Field InputName="h_noyaktighet" InputType="H11" OutputName="KVALITET\H-NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="malemetodehoyde" InputType="T80" OutputName="KVALITET\H-MÅLEMETODE" OutputType="H2"/>			
+            <Field InputName="typeendring" InputType="T80" OutputName="ENDRINGSFLAGG\ENDRET_TYPE" OutputType="T1"/>
+            <Field InputName="endret_tid" InputType="DATOTID" OutputName="ENDRINGSFLAGG\ENDRET_TID" OutputType="DATOTID"/>			
+            <Field InputName="status" InputType="T80" OutputName="STATUS" OutputType="T2"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>
