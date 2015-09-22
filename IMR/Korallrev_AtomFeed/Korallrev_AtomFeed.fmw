@@ -5,59 +5,59 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" D:\GitHub\geonorge\IMR\Korallrev_AtomFeed\Korallrev_AtomFeed.fmw
+#    C:\apps\FME\fme.exe D:\Geodata\Jobs\Korallrev_AtomFeed\Korallrev_AtomFeed.fmw
 #    
 #    
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! IGNORE_READER_FAILURE="No"
-#! VIEW_POSITION="-1654.3 -698.578"
-#! LOG_FILE=""
-#! CATEGORY=""
-#! FME_DOCUMENT_GUID="a16cf2f5-f0cf-48b2-af85-91c3d8ca9dc4"
-#! SOURCE_ROUTING_FILE=""
-#! DESTINATION_ROUTING_FILE=""
-#! REQUIREMENTS="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME 2015.0+ &lt;/p&gt;&#10;"
-#! TITLE="SOSI ATOM Data Download Feed"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! BEGIN_TCL=""
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN32)"
 #! SHOW_ANNOTATIONS="true"
-#! REQUIREMENTS_KEYWORD="none"
-#! BEGIN_PYTHON=""
-#! FME_DOCUMENT_PRIORGUID="e2268bf6-f724-4c83-b829-cff191426dfa,a4ffe612-2b5d-4aa2-a070-a7cc84bd78a5,dc0aa76a-f13b-4a5d-85a5-fa6295a58a14,2437262b-3b9c-4468-95b7-bbe86ce300c9,d01be33a-faf5-4808-82f9-2923d07d83de,1caef670-3148-4fbf-b8bf-b9dfc6c84627,b16f06fe-910a-4b62-975e-281c36c5cc7a,6bc7fbcc-3095-4439-b85f-6ffdab4f63dc,52fe7089-8dde-4bb3-bc1a-92518eac2e2f,efea6150-af30-49a5-a5c7-a8aa265c767f,15f68be8-2e9b-4eee-89e8-c5cf5fa98d9f,d4222d46-d6a6-47fe-925b-0e5269e38a16,4d976883-ac46-47f8-a587-7151c16825f5,1b2f8e2a-1d61-457f-873d-c76588de7795,6bd4d361-e01c-403c-9b2b-8f61ecefe3a3,73c3603d-84a4-4f6f-a927-a65ec2b89a14,170f85a0-17a3-4def-9f0a-ad2972960e3b,8fb859d0-baca-450d-a08f-8e711e50005f,867f90c5-965e-487b-b5db-b88f75e4531e,1973c2ff-3eb6-4276-83a1-5d7e3ea5d829,2d29ca19-028a-43e8-b9ca-f46c5b6cecdb,0dcd45d7-b572-4984-a662-1f422d4b7fe2,cbaf302f-8b38-4405-95df-e85739f38e61,578a991a-cd24-4cc3-a9e4-f8b3a26888df,d3dd435b-7f85-496a-ab1b-e8bd0f521382,eadedff6-e881-47eb-a2ca-557f376273a9,1a07bf0a-607e-49cb-bc84-c054ccf71d8d,9e23dbc7-ed4a-474a-a68c-ce535879f329,44efece1-6b44-4d26-8d63-41ae334d1534,09687c2e-53c1-4b24-a914-92bb35415d88,40f69edc-f5c3-423b-a4de-8af4fdb87146,4ee6cc26-6a73-4d69-96dc-08b46270df38,43014fdf-1585-482d-b6aa-ba16875f49b1,d37f3fe3-9e3e-4030-9126-6dce5e88f0c5,ab980aeb-0847-429a-b0a4-230cb76e2b56,a1764787-0ca9-4c28-8440-6e8ceeea9ba4,59a65324-a0f1-4a67-8e4e-9e94a39cf4e4"
 #! DESTINATION="NONE"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! PASSWORD=""
-#! LAST_SAVE_DATE="2015-09-21T15:39:15"
-#! DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pakka data for SOSI tilbys.&lt;/p&gt;&#10;"
-#! LOG_MAX_PRECISION="Yes"
-#! REDIRECT_TERMINATORS="NONE"
-#! WORKSPACE_VERSION="1"
+#! DESTINATION_ROUTING_FILE=""
 #! END_TCL=""
 #! DOC_TOP_LEFT="-1636.47 -2751.03"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! END_PYTHON=""
-#! MAX_LOG_FEATURES="200"
-#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! ATTR_TYPE_ENCODING="SDF"
-#! SOURCE="NONE"
-#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! FME_BUILD_NUM="15515"
-#! ZOOM_SCALE="70"
-#! HISTORY="23&lt;solidus&gt;02&lt;solidus&gt;2015,N&lt;space&gt;Wlock,Created"
-#! SHOW_INFO_NODES="true"
-#! FME_SERVER_SERVICES=""
-#! DOC_EXTENTS="4998.6 3898.61"
+#! SOURCE_ROUTING_FILE=""
+#! DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pakka data for SOSI tilbys.&lt;/p&gt;&#10;"
+#! FME_GEOMETRY_HANDLING="Enhanced"
 #! FME_REPROJECTION_ENGINE="FME"
+#! LOG_FILE=""
+#! CATEGORY=""
+#! TITLE="SOSI ATOM Data Download Feed"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! REQUIREMENTS_KEYWORD="none"
+#! MAX_LOG_FEATURES="200"
+#! FME_DOCUMENT_GUID="ba0b2458-043b-44c6-bc24-e81aefb1523a"
+#! ZOOM_SCALE="100"
+#! REDIRECT_TERMINATORS="NONE"
+#! DOC_EXTENTS="4998.61 3898.61"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! LAST_SAVE_DATE="2015-09-22T16:23:28"
+#! REQUIREMENTS="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME 2015.0+ &lt;/p&gt;&#10;"
+#! ATTR_TYPE_ENCODING="SDF"
+#! SHOW_INFO_NODES="true"
+#! IGNORE_READER_FAILURE="No"
+#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! PASSWORD=""
+#! BEGIN_TCL=""
+#! FME_STROKE_MAX_DEVIATION="0"
+#! FME_DOCUMENT_PRIORGUID="e2268bf6-f724-4c83-b829-cff191426dfa,a4ffe612-2b5d-4aa2-a070-a7cc84bd78a5,dc0aa76a-f13b-4a5d-85a5-fa6295a58a14,2437262b-3b9c-4468-95b7-bbe86ce300c9,d01be33a-faf5-4808-82f9-2923d07d83de,1caef670-3148-4fbf-b8bf-b9dfc6c84627,b16f06fe-910a-4b62-975e-281c36c5cc7a,6bc7fbcc-3095-4439-b85f-6ffdab4f63dc,52fe7089-8dde-4bb3-bc1a-92518eac2e2f,efea6150-af30-49a5-a5c7-a8aa265c767f,15f68be8-2e9b-4eee-89e8-c5cf5fa98d9f,d4222d46-d6a6-47fe-925b-0e5269e38a16,4d976883-ac46-47f8-a587-7151c16825f5,1b2f8e2a-1d61-457f-873d-c76588de7795,6bd4d361-e01c-403c-9b2b-8f61ecefe3a3,73c3603d-84a4-4f6f-a927-a65ec2b89a14,170f85a0-17a3-4def-9f0a-ad2972960e3b,8fb859d0-baca-450d-a08f-8e711e50005f,867f90c5-965e-487b-b5db-b88f75e4531e,1973c2ff-3eb6-4276-83a1-5d7e3ea5d829,2d29ca19-028a-43e8-b9ca-f46c5b6cecdb,0dcd45d7-b572-4984-a662-1f422d4b7fe2,cbaf302f-8b38-4405-95df-e85739f38e61,578a991a-cd24-4cc3-a9e4-f8b3a26888df,d3dd435b-7f85-496a-ab1b-e8bd0f521382,eadedff6-e881-47eb-a2ca-557f376273a9,1a07bf0a-607e-49cb-bc84-c054ccf71d8d,9e23dbc7-ed4a-474a-a68c-ce535879f329,44efece1-6b44-4d26-8d63-41ae334d1534,09687c2e-53c1-4b24-a914-92bb35415d88,40f69edc-f5c3-423b-a4de-8af4fdb87146,4ee6cc26-6a73-4d69-96dc-08b46270df38,43014fdf-1585-482d-b6aa-ba16875f49b1,d37f3fe3-9e3e-4030-9126-6dce5e88f0c5,ab980aeb-0847-429a-b0a4-230cb76e2b56,a1764787-0ca9-4c28-8440-6e8ceeea9ba4,59a65324-a0f1-4a67-8e4e-9e94a39cf4e4,a16cf2f5-f0cf-48b2-af85-91c3d8ca9dc4"
+#! FME_BUILD_NUM="15515"
+#! SOURCE="NONE"
+#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! HISTORY="23&lt;solidus&gt;02&lt;solidus&gt;2015,N&lt;space&gt;Wlock,Created"
+#! BEGIN_PYTHON=""
+#! END_PYTHON=""
+#! VIEW_POSITION="-1740.02 -1053.01"
+#! FME_SERVER_SERVICES=""
+#! LOG_MAX_PRECISION="Yes"
+#! WORKSPACE_VERSION="1"
 #! >
 #! <DATASETS>
 #! <DATASET
 #! IS_SOURCE="true"
 #! ROLE="READER"
 #! FORMAT="POSTGRES"
-#! DATASET="$(SourceDataset_POSTGRES)"
+#! DATASET="$(PG_DB)"
 #! KEYWORD="POSTGRES_1"
 #! MULTI_GEOM_ALLOWED="false"
 #! ATTR_MAX_LENGTH="60"
@@ -66,7 +66,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_sweep_angle float8 fme_dataset char(50) fme_rotation float8 fme_text_string char(50) fme_primary_axis float8 fme_text_size float8 fme_basename char(50) multi_reader_type char(50) multi_reader_id int4 multi_reader_full_id int4 postgres_oid int4 fme_feature_type char(50) fme_geometry fme_char(50) fme_start_angle float8 fme_secondary_axis float8 fme_fill_color char(50) fme_color char(50) multi_reader_keyword char(50) postgres_type char(50) fme_type char(50)"
+#! EXPOSABLE_ATTRS="multi_reader_type char(50) fme_primary_axis float8 fme_text_string char(50) multi_reader_keyword char(50) fme_color char(50) postgres_type char(50) postgres_oid int4 multi_reader_id int4 fme_basename char(50) fme_dataset char(50) fme_geometry fme_char(50) fme_secondary_axis float8 fme_start_angle float8 fme_type char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_fill_color char(50) fme_text_size float8 fme_rotation float8 fme_sweep_angle float8"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -75,13 +75,17 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! MIN_FEATURES=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! COORDSYS=""
-#! MAX_FEATURES=""
 #! FEATURE_TYPES=""
+#! MIN_FEATURES=""
 #! START_FEATURE=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MAX_FEATURES=""
+#! COORDSYS=""
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
@@ -91,16 +95,12 @@
 #! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Table"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -116,7 +116,7 @@
 #! WRITE_DEFS="false"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="false"
-#! EXPOSABLE_ATTRS="SummaryType string fme_primary_axis string Category{}.Label string Category{}.Domain string Relationship string Elevation string fme_feature_type char(50) Link{}.URI string Rating string fme_dataset char(50) Ttl string LinkURI string fme_text_size string Description string Radius string CloudDomain string TextInputDescription string Category{}.Category string EnclosureLength string FloorNumber string Title string Link{}.Relation string fme_color char(50) Author string LastUpdate string LinkRelation string fme_start_angle string IdIsPermaLink string EnclosureType string Category string SkipDays{}.SkipDays string fme_fill_color char(50) CloudPath string Content string TextInputName string ImageTitle string ImageLink string Id string GeneratorVersion string Icon string ImageURI string AuthorURI string Generator string ContributorEmail string fme_text_string char(50) TextInputLink string fme_basename char(50) TextInputTitle string LinkTitle string CategoryLabel string PublishedDate string ManagingEditor string CloudProtocol string fme_type char(50) Contributor string Version string Docs string SourceURI string fme_secondary_axis string Link{}.Title string GeneratorURI string AuthorEmail string CopyrightType string CloudPort string TitleType string Link{}.Type string Comments string EnclosureURI string Summary string ContentIsRemoteURL boolean ContentType string Logo string DescriptionType string Copyright string CategoryDomain string WebMaster string fme_rotation string FeatureType string LinkType string fme_geometry fme_char(50) SkipHours{}.SkipHours string Language string CloudRegisterProcedure string EnclosureTitle string ContributorURI string fme_sweep_angle string"
+#! EXPOSABLE_ATTRS="Radius string Version string WebMaster string fme_type char(50) ContentIsRemoteURL boolean SkipHours{}.SkipHours string Summary string Author string Category{}.Domain string fme_basename char(50) Elevation string DescriptionType string Ttl string CloudRegisterProcedure string fme_text_size string Logo string TextInputDescription string Comments string fme_sweep_angle string CategoryDomain string Contributor string GeneratorURI string Link{}.Type string GeneratorVersion string Link{}.URI string fme_color char(50) Link{}.Title string ContributorEmail string AuthorEmail string EnclosureTitle string ContributorURI string LinkType string EnclosureType string Language string Category{}.Category string EnclosureURI string IdIsPermaLink string Title string CloudPath string LinkURI string ContentType string FeatureType string EnclosureLength string SkipDays{}.SkipDays string TextInputName string fme_rotation string Link{}.Relation string LastUpdate string fme_start_angle string AuthorURI string CategoryLabel string fme_geometry fme_char(50) Generator string fme_dataset char(50) ImageLink string CloudProtocol string SummaryType string TextInputLink string ImageTitle string fme_text_string char(50) Relationship string Category{}.Label string PublishedDate string Category string CopyrightType string LinkTitle string fme_feature_type char(50) Icon string CloudPort string Description string fme_fill_color char(50) Content string fme_primary_axis string SourceURI string Rating string CloudDomain string FloorNumber string TitleType string Copyright string Docs string ImageURI string TextInputTitle string Id string LinkRelation string ManagingEditor string fme_secondary_axis string"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -127,10 +127,10 @@
 #! GENERATE_FME_BUILD_NUM="15220"
 #! FANOUT="No"
 #! FANOUT_SUFFIX=""
+#! FANOUT_DIRECTORY=""
 #! FANOUT_PREFIX=""
 #! COORDSYS=""
 #! FANOUT_ID_ATTR=""
-#! FANOUT_DIRECTORY=""
 #! >
 #! <METAFILE_PARAMETER
 #! NAME="WRITER_DATASET_HINT"
@@ -607,10 +607,10 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="83"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="560.365 1026.29"
-#! BOUNDING_RECT="560.365 1026.29 -1 -1"
+#! POSITION="515.365 828.288"
+#! BOUNDING_RECT="515.365 828.288 -1 -1"
 #! ORDER="5e+014"
-#! COLLAPSED="false"
+#! COLLAPSED="true"
 #! KEYWORD="GEORSS_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -666,8 +666,8 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="58"
 #! FEAT_GEOMTYPE="postgres_none"
-#! POSITION="-1527.54 -2088.25"
-#! BOUNDING_RECT="-1527.54 -2088.25 -1 -1"
+#! POSITION="-1530.54 -2186.11"
+#! BOUNDING_RECT="-1530.54 -2186.11 -1 -1"
 #! ORDER="5e+014"
 #! COLLAPSED="true"
 #! KEYWORD="POSTGRES_1"
@@ -692,10 +692,10 @@
 #! IS_EDITABLE="false"
 #! IDENTIFIER="59"
 #! FEAT_GEOMTYPE="postgres_none"
-#! POSITION="-1033.33 -1418.65"
-#! BOUNDING_RECT="-1033.33 -1418.65 -1 -1"
+#! POSITION="-1530.54 -1488.08"
+#! BOUNDING_RECT="-1530.54 -1488.08 -1 -1"
 #! ORDER="5e+014"
-#! COLLAPSED="false"
+#! COLLAPSED="true"
 #! KEYWORD="POSTGRES_1"
 #! PARMS_EDITED="false"
 #! ENABLED="true"
@@ -872,19 +872,49 @@
 #! IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#! GUI_LINE="GUI IGNORE TEXT SourceDataset_POSTGRES Database:"
-#! DEFAULT_VALUE="geonor01tst"
-#! IS_STAND_ALONE="false"
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM CONFIG_FILE Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GetConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;os&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;fmwdir&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;fmwfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;fmwdir&lt;comma&gt;&lt;space&gt;fmwfile&lt;closeparen&gt;&lt;lf&gt;configfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;fmwfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;_config.xml&lt;apos&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;configfile"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_PWD Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgpwd&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_USER Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pguser&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_PORT Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgport&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_HOST Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pghost&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM PG_DB Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;pgdb&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM FANOUT_FOLDER Python Script:"
+#! DEFAULT_VALUE="#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ReadValueFromConfigFile&lt;lf&gt;#&lt;space&gt;Purpose:&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;21.08.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;from&lt;space&gt;xml.etree&lt;space&gt;import&lt;space&gt;ElementTree&lt;space&gt;as&lt;space&gt;ET&lt;lf&gt;&lt;lf&gt;#Read&lt;space&gt;XML&lt;space&gt;config&lt;space&gt;file&lt;lf&gt;configtree&lt;space&gt;=&lt;space&gt;ET.parse&lt;openparen&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;CONFIG_FILE&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;configdoc&lt;space&gt;=&lt;space&gt;configtree.getroot&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;value&lt;space&gt;=&lt;space&gt;configdoc.find&lt;openparen&gt;&lt;apos&gt;destdir&lt;apos&gt;&lt;closeparen&gt;.text&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;value"
+#! IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
 #! IDENTIFIER="53"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Lager nedlastingsURL for hele landet&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="-200.708 121.457"
-#! TOP_LEFT="-200.708 121.457"
-#! BOTTOM_RIGHT="-201.708 122.457"
-#! BOUNDING_RECT="-200.708 121.457 -1 -1"
+#! POSITION="-290.479 122.987"
+#! TOP_LEFT="-290.479 122.987"
+#! BOTTOM_RIGHT="-291.479 123.987"
+#! BOUNDING_RECT="-290.479 122.987 -1 -1"
 #! ORDER="5e+014"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
@@ -896,10 +926,10 @@
 #! <COMMENT
 #! IDENTIFIER="27"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Lager nedlastingsURL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="343.333 -1321.2"
-#! TOP_LEFT="343.333 -1321.2"
-#! BOTTOM_RIGHT="342.333 -1320.2"
-#! BOUNDING_RECT="343.333 -1321.2 -1 -1"
+#! POSITION="-367.674 -1372.2"
+#! TOP_LEFT="-367.674 -1372.2"
+#! BOTTOM_RIGHT="-368.674 -1371.2"
+#! BOUNDING_RECT="-367.674 -1372.2 -1 -1"
 #! ORDER="5e+014"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
@@ -911,10 +941,10 @@
 #! <COMMENT
 #! IDENTIFIER="48"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Lager nedlastingsURL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="-208.334 -2003.11"
-#! TOP_LEFT="-208.334 -2003.11"
-#! BOTTOM_RIGHT="-209.334 -2002.11"
-#! BOUNDING_RECT="-208.334 -2003.11 -1 -1"
+#! POSITION="-364.336 -2060.11"
+#! TOP_LEFT="-364.336 -2060.11"
+#! BOTTOM_RIGHT="-365.336 -2059.11"
+#! BOUNDING_RECT="-364.336 -2060.11 -1 -1"
 #! ORDER="5e+014"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
@@ -936,7 +966,7 @@
 #! BOUNDING_RECT="-1178.2 1147.58 2273.21 803.575"
 #! STICKY="true"
 #! COLOUR="0.0627451,0.792157,0.0666667"
-#! CONTENTS="83 54 65 55 42 "
+#! CONTENTS="65 55 54 83 42 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="64"
@@ -947,7 +977,7 @@
 #! BOUNDING_RECT="-358.746 210.928 1369.61 1360.94"
 #! STICKY="true"
 #! COLOUR="0.937255,0.964706,0.337255"
-#! CONTENTS="70 20 49 53 "
+#! CONTENTS="53 70 49 20 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="51"
@@ -958,7 +988,7 @@
 #! BOUNDING_RECT="-1178.2 334.929 3394.01 1537.94"
 #! STICKY="true"
 #! COLOUR="0.14902,0.4,0.54902"
-#! CONTENTS="70 64 45 20 46 49 53 "
+#! CONTENTS="45 53 64 70 49 20 46 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="26"
@@ -969,7 +999,7 @@
 #! BOUNDING_RECT="-1632.87 -1242.07 3864.47 626.373"
 #! STICKY="true"
 #! COLOUR="0.937255,0.964706,0.337255"
-#! CONTENTS="23 25 59 85 61 24 75 27 "
+#! CONTENTS="75 61 85 59 24 27 25 50 43 52 23 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="56"
@@ -980,7 +1010,7 @@
 #! BOUNDING_RECT="-1636.47 -1918.54 3868.07 832.488"
 #! STICKY="true"
 #! COLOUR="0.937255,0.964706,0.337255"
-#! CONTENTS="48 43 52 66 69 40 44 82 67 50 63 38 37 39 58 "
+#! CONTENTS="39 41 69 37 82 44 47 48 40 62 38 58 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -988,25 +1018,26 @@
 #! IDENTIFIER="20"
 #! TYPE="AttributeCreator"
 #! VERSION="5"
-#! POSITION="-176.708 -1.54378"
-#! BOUNDING_RECT="-176.708 -1.54378 0 0"
+#! POSITION="-266.479 -0.01358"
+#! BOUNDING_RECT="-266.479 -0.01358 0 0"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_Norge_25833_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;hele&lt;space&gt;Norge"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="42"
@@ -1021,29 +1052,30 @@
 #! >
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="49"
 #! TYPE="AttributeCreator"
 #! VERSION="5"
-#! POSITION="435.373 47.9869"
-#! BOUNDING_RECT="435.373 47.9869 520.601 71"
+#! POSITION="399.373 -0.01358"
+#! BOUNDING_RECT="399.373 -0.01358 520.601 71"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1060,13 +1092,13 @@
 #! <XFORM_ATTR ATTR_NAME="Author" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Copyright" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="LinkURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;landsdekkende&lt;space&gt;data&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:25833.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Data&lt;space&gt;for&lt;space&gt;Sivilforsvaret&lt;space&gt;og&lt;space&gt;Brannvesenet.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:25833,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;25833,Author,Karen&lt;space&gt;Lie,Copyright,DSB&lt;space&gt;-&lt;space&gt;Sivilforsvaret&lt;space&gt;og&lt;space&gt;brannvesenet.,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="54"
@@ -1092,13 +1124,13 @@
 #! <XFORM_ATTR ATTR_NAME="Copyright" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="GeneratorURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="GeneratorVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,$(Title),Description,$(Description),LinkURI,$(FMEServerRoot)&lt;solidus&gt;$(Repository_Name),Id,$(FMEServerRoot)&lt;solidus&gt;$(Repository_Name),LastUpdate,$(LastUpdate),LinkRelation,self,LinkType,application&lt;solidus&gt;atom+xml,Copyright,Havforskningsinstituttet,Description,$(Description),GeneratorURI,$(FMEServerRoot),GeneratorVersion,$(FMEVersion)"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="45"
@@ -1114,23 +1146,23 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_3"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_3"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="23"
 #! TYPE="AttributeCreator"
 #! VERSION="5"
-#! POSITION="433.177 -1440.94"
-#! BOUNDING_RECT="433.177 -1440.94 0 0"
+#! POSITION="-277.83 -1491.94"
+#! BOUNDING_RECT="-277.83 -1491.94 0 0"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1144,20 +1176,21 @@
 #! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,$(FANOUT_FOLDER)&lt;backslash&gt;Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="24"
 #! TYPE="AttributeCreator"
 #! VERSION="5"
-#! POSITION="1517.86 -1377.26"
-#! BOUNDING_RECT="1517.86 -1377.26 520.601 71"
+#! POSITION="1562.86 -1491.94"
+#! BOUNDING_RECT="1562.86 -1491.94 520.601 71"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1171,6 +1204,8 @@
 #! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Title" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1185,20 +1220,20 @@
 #! <XFORM_ATTR ATTR_NAME="LinkURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Category" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Label" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;data&lt;space&gt;for&lt;space&gt;fylke&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Oversikt&lt;space&gt;over&lt;space&gt;korallrev.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Author,Per&lt;space&gt;Arne&lt;space&gt;Horneland,Copyright,Havforskninginstituttet,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Category,Fylke,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Label,&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="37"
 #! TYPE="AttributeCreator"
 #! VERSION="5"
-#! POSITION="-130.333 -2126.11"
-#! BOUNDING_RECT="-130.333 -2126.11 0 0"
+#! POSITION="-286.335 -2183.11"
+#! BOUNDING_RECT="-286.335 -2183.11 0 0"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1213,20 +1248,20 @@
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskniinginstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,$(FANOUT_FOLDER)&lt;backslash&gt;Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskniinginstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="38"
 #! TYPE="AttributeCreator"
 #! VERSION="5"
-#! POSITION="1487.95 -2206.77"
-#! BOUNDING_RECT="1487.95 -2206.77 520.601 71"
+#! POSITION="1562.86 -2183.11"
+#! BOUNDING_RECT="1562.86 -2183.11 520.601 71"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1241,6 +1276,7 @@
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Title" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1255,20 +1291,20 @@
 #! <XFORM_ATTR ATTR_NAME="LinkURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Category" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Label" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;data&lt;space&gt;for&lt;space&gt;kommune&lt;space&gt;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Korallrev.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Author,Per&lt;space&gt;Arne&lt;space&gt;Horneland,Copyright,Havforskningsinstituttet,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Category,Kommune,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Label,&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="61"
 #! TYPE="AttributeRangeMapper"
 #! VERSION="1"
-#! POSITION="-358.746 -1428.08"
-#! BOUNDING_RECT="-358.746 -1428.08 -1 -1"
+#! POSITION="-899.182 -1488.08"
+#! BOUNDING_RECT="-899.182 -1488.08 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1279,20 +1315,20 @@
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="OUT_ATTR" PARM_VALUE="koordsys"/>
-#! <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="1,17,25832,18,19,25833,20,20,25835,,,25833"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="fylkeid"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUT_ATTR" PARM_VALUE="koordsys"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeMapper"/>
+#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="1,17,25832,18,19,25833,20,20,25835,,,25833"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="69"
 #! TYPE="AttributeRangeMapper"
 #! VERSION="1"
-#! POSITION="-785.181 -2102.25"
-#! BOUNDING_RECT="-785.181 -2102.25 -1 -1"
+#! POSITION="-899.182 -2186.11"
+#! BOUNDING_RECT="-899.182 -2186.11 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1303,179 +1339,27 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="OUT_ATTR" PARM_VALUE="koordsys"/>
-#! <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="1,1799,25832,1800,1999,25833,2000,2099,25835,,,"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="kommuneid"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUT_ATTR" PARM_VALUE="koordsys"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeMapper_2"/>
+#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="1,1799,25832,1800,1999,25833,2000,2099,25835,,,"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="40"
-#! TYPE="Creator"
-#! VERSION="5"
-#! POSITION="-652.293 -2375.74"
-#! BOUNDING_RECT="-652.293 -2375.74 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="CREATED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="39"
-#! TYPE="FeatureReader"
-#! VERSION="7"
-#! POSITION="-80.2927 -2375.74"
-#! BOUNDING_RECT="-80.2927 -2375.74 -1 -1"
+#! TYPE="PythonCaller"
+#! VERSION="4"
+#! POSITION="343.333 -2183.11"
+#! BOUNDING_RECT="343.333 -2183.11 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
-#! <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <OUTPUT_FEAT NAME="PATH"/>
-#! <FEAT_COLLAPSED COLLAPSED="1"/>
-#! <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_rootname" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_extension" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_accessed_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_directory_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
-#! <FEAT_COLLAPSED COLLAPSED="2"/>
-#! <OUTPUT_FEAT NAME="INITIATOR"/>
-#! <FEAT_COLLAPSED COLLAPSED="3"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#! <FEAT_COLLAPSED COLLAPSED="4"/>
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PATH_GLOB_PATTERN" PARM_VALUE="*"/>
-#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="PATH,&quot;path_unix,path_windows,path_rootname,path_filename,path_extension,path_filesize,path_ownername,path_readonly,path_modified_date,path_created_date,path_accessed_date,path_directory_unix,path_directory_windows,path_type,fme_geometry{0}&quot;"/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PATH_TYPE" PARM_VALUE="ANY"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PATH_TYPE,&quot;OPTIONAL CHOICE ANY%DIRECTORY%FILE&quot;,PATH&lt;space&gt;Allowed&lt;space&gt;Path&lt;space&gt;Type:,PATH_RETRIEVE_FILE_PROPERTIES,&quot;OPTIONAL CHOICE YES%NO&quot;,PATH&lt;space&gt;Retrieve&lt;space&gt;file&lt;space&gt;properties:,PATH_GLOB_PATTERN,&quot;OPTIONAL TEXT_ENCODED&quot;,PATH&lt;space&gt;Path&lt;space&gt;Filter:"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceTYPE&lt;comma&gt;ANY&lt;comma&gt;SourceRETRIEVE_FILE_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceGLOB_PATTERN&lt;comma&gt;*,METAFILE,PATH"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
-#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PATH"/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%PATH"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="Y:&lt;backslash&gt;Havforskningsinstituttet&lt;backslash&gt;Korallrev&lt;backslash&gt;SOSI"/>
-#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PATH_RETRIEVE_FILE_PROPERTIES" PARM_VALUE="NO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="44"
-#! TYPE="Inspector"
-#! VERSION="3"
-#! POSITION="1313.72 -2435.74"
-#! BOUNDING_RECT="1313.72 -2435.74 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="false"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_PATH"/>
-#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#! IDENTIFIER="50"
-#! TYPE="FeatureMerger"
-#! VERSION="13"
-#! POSITION="612.566 -2315.74"
-#! BOUNDING_RECT="612.566 -2315.74 -1 -1"
-#! ORDER="5e+014"
-#! PARMS_EDITED="true"
-#! ENABLED="true"
-#! LAST_PARM_EDIT="15515"
-#! >
-#! <OUTPUT_FEAT NAME="MERGED"/>
-#! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_rootname" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_extension" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_accessed_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_directory_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="path_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1483,97 +1367,125 @@
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <OUTPUT_FEAT NAME="NOT_MERGED"/>
-#! <FEAT_COLLAPSED COLLAPSED="1"/>
-#! <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_rootname" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_extension" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_accessed_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_directory_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="path_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <OUTPUT_FEAT NAME="REFERENCED"/>
-#! <FEAT_COLLAPSED COLLAPSED="2"/>
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#! <OUTPUT_FEAT NAME="UNREFERENCED"/>
-#! <FEAT_COLLAPSED COLLAPSED="3"/>
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <OUTPUT_FEAT NAME="DUPLICATE_SUPPLIER"/>
-#! <FEAT_COLLAPSED COLLAPSED="4"/>
-#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;_fileName&lt;closeparen&gt; AUTO"/>
-#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;def&lt;space&gt;processFeature&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;fileName&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;quote&gt;_fileName&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;doesFileExist&lt;space&gt;=&lt;space&gt;os.path.exists&lt;openparen&gt;fileName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;doesFileExist:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;JA&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;NEI&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KommuneFilnavnSjekker"/>
+#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="processFeature"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="FILE_EXISTS"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#! IDENTIFIER="66"
-#! TYPE="Inspector"
-#! VERSION="3"
-#! POSITION="433.177 -2088.25"
-#! BOUNDING_RECT="433.177 -2088.25 -1 -1"
+#! IDENTIFIER="39"
+#! TYPE="Tester"
+#! VERSION="2"
+#! POSITION="966.378 -2183.11"
+#! BOUNDING_RECT="966.378 -2183.11 -1 -1"
 #! ORDER="5e+014"
-#! PARMS_EDITED="false"
+#! PARMS_EDITED="true"
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#! <OUTPUT_FEAT NAME="PASSED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="FAILED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KommuneFilnavnTester"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FILE_EXISTS&lt;closeparen&gt; = JA"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="43"
+#! TYPE="PythonCaller"
+#! VERSION="4"
+#! POSITION="343.333 -1491.94"
+#! BOUNDING_RECT="343.333 -1491.94 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6_Output"/>
-#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;def&lt;space&gt;checkFilename&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;fileName&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;quote&gt;_fileName&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;doesFileExist&lt;space&gt;=&lt;space&gt;os.path.exists&lt;openparen&gt;fileName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;doesFileExist:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;JA&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;NEI&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FylkeFilnavnSjekker"/>
+#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="checkFilename"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="FILE_EXISTS"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="50"
+#! TYPE="Tester"
+#! VERSION="2"
+#! POSITION="926.529 -1491.94"
+#! BOUNDING_RECT="926.529 -1491.94 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="PASSED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="FAILED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FylkeFilnavnTester"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FILE_EXISTS&lt;closeparen&gt; = JA"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1625,7 +1537,7 @@
 #! <FEAT_LINK
 #! IDENTIFIER="25"
 #! SOURCE_NODE="23"
-#! TARGET_NODE="24"
+#! TARGET_NODE="43"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
@@ -1686,7 +1598,16 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="43"
+#! IDENTIFIER="41"
+#! SOURCE_NODE="37"
+#! TARGET_NODE="40"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="44"
 #! SOURCE_NODE="40"
 #! TARGET_NODE="39"
 #! SOURCE_PORT_DESC="fo 0"
@@ -1695,35 +1616,8 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="52"
-#! SOURCE_NODE="39"
-#! TARGET_NODE="50"
-#! SOURCE_PORT_DESC="fo 1"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="63"
-#! SOURCE_NODE="50"
-#! TARGET_NODE="44"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #! IDENTIFIER="47"
-#! SOURCE_NODE="37"
-#! TARGET_NODE="50"
-#! SOURCE_PORT_DESC="fo 0"
-#! TARGET_PORT_DESC="fi 1"
-#! ENABLED="true"
-#! EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#! IDENTIFIER="41"
-#! SOURCE_NODE="37"
+#! SOURCE_NODE="39"
 #! TARGET_NODE="38"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
@@ -1731,9 +1625,18 @@
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#! IDENTIFIER="67"
-#! SOURCE_NODE="37"
-#! TARGET_NODE="66"
+#! IDENTIFIER="52"
+#! SOURCE_NODE="43"
+#! TARGET_NODE="50"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="63"
+#! SOURCE_NODE="50"
+#! TARGET_NODE="24"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
@@ -1775,14 +1678,221 @@ DEFAULT_MACRO FMEVersion 2015.0
 GUI IGNORE TEXT FMEVersion Version of FME being used:
 DEFAULT_MACRO ROTKATALOG_WEB http://testnedlasting.geonorge.no/geonorge/Havforskningsinstituttet/Korallrev/SOSI/
 GUI IGNORE TEXT ROTKATALOG_WEB Sti til rotkatalog for SOSI-filene:
-DEFAULT_MACRO SourceDataset_POSTGRES geonor01tst
-GUI IGNORE TEXT SourceDataset_POSTGRES Database:
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        GetConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import os, fme
+  
+  fmwdir = fme.macroValues['FME_MF_DIR']
+  fmwfile = fme.macroValues['FME_MF_NAME']
+  
+  fmwfile = os.path.join(fmwdir, fmwfile)
+  configfile = os.path.splitext(fmwfile)[0] + '_config.xml'
+  
+  return configfile
+value = ParamFunc()
+macroName = 'CONFIG_FILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgpwd').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_PWD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pguser').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_USER'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgport').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_PORT'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pghost').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_HOST'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('pgdb').text
+  
+  return value
+value = ParamFunc()
+macroName = 'PG_DB'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  #-------------------------------------------------------------------------------
+  # Name:        ReadValueFromConfigFile
+  # Purpose:
+  #
+  # Author:      xsunknu
+  #
+  # Created:     21.08.2015
+  # Copyright:   (c) xsunknu 2015
+  # Licence:     <your licence>
+  #-------------------------------------------------------------------------------
+  
+  import fme
+  from xml.etree import ElementTree as ET
+  
+  #Read XML config file
+  configtree = ET.parse(fme.macroValues['CONFIG_FILE'])
+  configdoc = configtree.getroot()
+  value = configdoc.find('destdir').text
+  
+  return value
+value = ParamFunc()
+macroName = 'FANOUT_FOLDER'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
 INCLUDE [ if {{$(Repository_Name)} == {}} { puts_real {Parameter 'Repository_Name' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(workspaceName)} == {}} { puts_real {Parameter 'workspaceName' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(LastUpdate)} == {}} { puts_real {Parameter 'LastUpdate' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(FMEVersion)} == {}} { puts_real {Parameter 'FMEVersion' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(ROTKATALOG_WEB)} == {}} { puts_real {Parameter 'ROTKATALOG_WEB' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(SourceDataset_POSTGRES)} == {}} { puts_real {Parameter 'SourceDataset_POSTGRES' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(CONFIG_FILE)} == {}} { puts_real {Parameter 'CONFIG_FILE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_PWD)} == {}} { puts_real {Parameter 'PG_PWD' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_USER)} == {}} { puts_real {Parameter 'PG_USER' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_PORT)} == {}} { puts_real {Parameter 'PG_PORT' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_HOST)} == {}} { puts_real {Parameter 'PG_HOST' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(PG_DB)} == {}} { puts_real {Parameter 'PG_DB' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(FANOUT_FOLDER)} == {}} { puts_real {Parameter 'FANOUT_FOLDER' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE POSTGRES
@@ -1807,20 +1917,20 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER POSTGRES POSTGRES_1
-DEFAULT_MACRO SourceDataset_POSTGRES_1 $(SourceDataset_POSTGRES)
+DEFAULT_MACRO SourceDataset_POSTGRES_1 $(PG_DB)
 GUI TEXT SourceDataset_POSTGRES_1 Database:
 DEFAULT_MACRO POSTGRES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGRES_1 Yes
 POSTGRES_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGRES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGRES_1)"
-DEFAULT_MACRO POSTGRES_IN_HOST_POSTGRES_1 nnridb504
+DEFAULT_MACRO POSTGRES_IN_HOST_POSTGRES_1 $(PG_HOST)
 POSTGRES_1_HOST "$(POSTGRES_IN_HOST_POSTGRES_1)"
 GUI TEXT POSTGRES_IN_HOST_POSTGRES_1 Host:
-DEFAULT_MACRO POSTGRES_IN_PORT_POSTGRES_1 5432
+DEFAULT_MACRO POSTGRES_IN_PORT_POSTGRES_1 $(PG_PORT)
 POSTGRES_1_PORT "$(POSTGRES_IN_PORT_POSTGRES_1)"
 GUI INTEGER POSTGRES_IN_PORT_POSTGRES_1 Port:
-DEFAULT_MACRO POSTGRES_IN_USER_NAME_POSTGRES_1 geonortst
+DEFAULT_MACRO POSTGRES_IN_USER_NAME_POSTGRES_1 $(PG_USER)
 POSTGRES_1_USER_NAME "$(POSTGRES_IN_USER_NAME_POSTGRES_1)"
 GUI TEXT POSTGRES_IN_USER_NAME_POSTGRES_1 Username:
-DEFAULT_MACRO POSTGRES_IN_PASSWORD_POSTGRES_1 fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszhqHnFOySHSCTnPxTp2rlQZcnzKyd3dpNlWQHE8tKMFVR0diGBLQ3mXnulWdm2U6zKARYd1U3oxStvIsUIk5ZF/OJpZ3EUl1LEe5Cyu2Az3ISNNEk+TX/eQ4JUIVPVCRAri7pLImG5afk30ju+jq1k18EFQIDIB/W50CO7FMr3Cu3H84LocW+BsaxKDWKp80/+4MxwtASZJxfaRGTxslKH/TR0Qr4AklsA5n2vWv+/uTcJAMt1I9gOAJhcD4AUUd0F8Fr1FHgZpMhnqr2C4O3IxBdPAsKTQcKeK+lPHzDnv4AmuFCttyuLCX2KSyibv+jdjTdI2WzN8wLTbsrpMcvla8+/6ezWhNs)
+DEFAULT_MACRO POSTGRES_IN_PASSWORD_POSTGRES_1 $(PG_PWD)
 POSTGRES_1_PASSWORD "$(POSTGRES_IN_PASSWORD_POSTGRES_1)"
 GUI OPTIONAL PASSWORD POSTGRES_IN_PASSWORD_POSTGRES_1 Password:
 DEFAULT_MACRO POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1 
@@ -1907,44 +2017,10 @@ MACRO WORKSPACE_NAME Korallrev_AtomFeed
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGRES_1)    ROUTE POSTGRES POSTGRES_1::admingrense.kommuner TO FME_GENERIC ::admingrense.kommuner ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::admingrense.fylker TO FME_GENERIC ::admingrense.fylker ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-POSTGRES_1_MERGE_DEF POSTGRES_1::admingrense.kommuner EXACT admingrense.kommuner DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,kommuneid,int2<comma>PRIKEY,navn,varchar<openparen>80<closeparen>
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGRES_1)    ROUTE POSTGRES POSTGRES_1::admingrense.fylker TO FME_GENERIC ::admingrense.fylker ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::admingrense.kommuner TO FME_GENERIC ::admingrense.kommuner ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGRES_1_MERGE_DEF POSTGRES_1::admingrense.fylker EXACT admingrense.fylker DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,fylkeid,int2<comma>PRIKEY,navn,varchar<openparen>80<closeparen>
+POSTGRES_1_MERGE_DEF POSTGRES_1::admingrense.kommuner EXACT admingrense.kommuner DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,kommuneid,int2<comma>PRIKEY,navn,varchar<openparen>80<closeparen>
 DEFAULT_MACRO WB_CURRENT_CONTEXT
-# -------------------------------------------------------------------------
-
-Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
-MACRO Creator_XML     NOT_ACTIVATED
-MACRO Creator_CLASSIC NOT_ACTIVATED
-MACRO Creator_2D3D    2D_GEOMETRY
-MACRO Creator_COORDS  <Unused>
-INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
-FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
-FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        @Tcl2(Creator_CoordSysRemover)        @CoordSys()        fme_feature_type Creator
-
-# -------------------------------------------------------------------------
-MACRO FeatureReader_OUTPUT_PORTS_ENCODED PATH
-MACRO FeatureReader_DIRECTIVES TYPE ANY RETRIEVE_FILE_PROPERTIES NO GLOB_PATTERN *
-
-# Values come in encoded and come out decoded.
-Tcl2 proc FeatureReader_findInListElseDefault { valueEncoded defaultValue } {    if { [lsearch [split {$(FeatureReader_OUTPUT_PORTS_ENCODED)}] $valueEncoded] >= 0} {       return FeatureReader_[FME_DecodeText $valueEncoded]    } else {       return FeatureReader_$defaultValue    } }
-# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
-INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
-# Consolidate the attribute merge options to what the factory expects
-DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
-INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS RESULT_ONLY";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         PATH    READER_DATASET      "Y:<backslash>Havforskningsinstituttet<backslash>Korallrev<backslash>SOSI"    READER_IDS    READER_DIRECTIVES   META_MACROS,SourceTYPE<comma>ANY<comma>SourceRETRIEVE_FILE_PROPERTIES<comma>NO<comma>SourceGLOB_PATTERN<comma>*,METAFILE,PATH    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(PATH,FME_GENERIC)
-
 # -------------------------------------------------------------------------
 
 Tcl2 proc Creator_3_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
@@ -1987,123 +2063,42 @@ Lookup AttributeRangeMapper_LOOKUP_TABLE   1:17            25832   18:19        
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRangeMapper    INPUT  FEATURE_TYPE admingrense.fylker    OUTPUT FEATURE_TYPE AttributeRangeMapper_OUTPUT         @Lookup(AttributeRangeMapper_LOOKUP_TABLE,fylkeid,RANGE_MAP|ENCODED_ATTR, koordsys)
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeRangeMapper_OUTPUT ATTR DownloadUrl $(ROTKATALOG_WEB$encode)Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>fylkeid<closeparen><comma>2<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip ATTR name Havforskningsinstituttet ATTR value Havforskningsinstituttet<space>SOSI<space>Data<space><at>Value<openparen>navn<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeRangeMapper_OUTPUT ATTR DownloadUrl $(ROTKATALOG_WEB$encode)Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>fylkeid<closeparen><comma>2<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip ATTR name Havforskningsinstituttet ATTR value Havforskningsinstituttet<space>SOSI<space>Data<space><at>Value<openparen>navn<closeparen> ATTR _fileName $(FANOUT_FOLDER)<backslash>Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>fylkeid<closeparen><comma>2<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT ATTR Title <at>Value<openparen>value<closeparen> ATTR Content Trykk<space>p<u00e5><space>linken<space>for<space><u00e5><space>laste<space>ned<space>data<space>for<space>fylke<space><at>Value<openparen>fylkeid<closeparen><comma><space><at>Value<openparen>navn<closeparen><space>i<space>koordinatsystemet<space>EPSG:<at>Value<openparen>koordsys<closeparen>.<space><lt>br<space><solidus><gt><space><space><lt>a<space>href=<quote><at>Value<openparen>DownloadUrl<closeparen><quote><gt><at>Value<openparen>value<closeparen><lt><backslash>a<gt> ATTR Description Oversikt<space>over<space>korallrev.<space>Trykk<space>p<u00e5><space>linken<space>for<space>nedlasting:<space><at>Value<openparen>value<closeparen> ATTR ContentType html ATTR LastUpdate $(LastUpdate$encode) ATTR Id <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>0<closecurly>.Category EPSG:<at>Value<openparen>koordsys<closeparen> ATTR Category<opencurly>0<closecurly>.Domain http:<solidus><solidus>www.opengis.net<solidus>def<solidus>crs<solidus> ATTR Category<opencurly>0<closecurly>.Label EPSG<solidus>0<solidus><at>Value<openparen>koordsys<closeparen> ATTR Author Per<space>Arne<space>Horneland ATTR Copyright Havforskninginstituttet ATTR LinkURI <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>1<closecurly>.Category Fylke ATTR Category<opencurly>1<closecurly>.Label <at>Value<openparen>navn<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
+
+
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+
+FACTORY_DEF * PythonFactory    FACTORY_NAME FylkeFilnavnSjekker    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    SYMBOL_NAME checkFilename    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<comma><space>os<lf>import<space>fmeobjects<lf><lf>#<space>Template<space>Function<space>interface:<lf>def<space>checkFilename<openparen>feature<closeparen>:<lf><space><space><space><space>fileName<space>=<space>feature.getAttribute<openparen><quote>_fileName<quote><closeparen><lf><space><space><space><space>doesFileExist<space>=<space>os.path.exists<openparen>fileName<closeparen><lf><space><space><space><space>if<space>doesFileExist:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>JA<quote><closeparen><lf><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>NEI<quote><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE FylkeFilnavnSjekker_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME FylkeFilnavnTester    INPUT  FEATURE_TYPE FylkeFilnavnSjekker_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FILE_EXISTS<closeparen>,FylkeFilnavnTester) = JA ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE FylkeFilnavnTester_PASSED
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE FylkeFilnavnTester_PASSED ATTR Title <at>Value<openparen>value<closeparen> ATTR Content Trykk<space>p<u00e5><space>linken<space>for<space><u00e5><space>laste<space>ned<space>data<space>for<space>fylke<space><at>Value<openparen>fylkeid<closeparen><comma><space><at>Value<openparen>navn<closeparen><space>i<space>koordinatsystemet<space>EPSG:<at>Value<openparen>koordsys<closeparen>.<space><lt>br<space><solidus><gt><space><space><lt>a<space>href=<quote><at>Value<openparen>DownloadUrl<closeparen><quote><gt><at>Value<openparen>value<closeparen><lt><backslash>a<gt> ATTR Description Oversikt<space>over<space>korallrev.<space>Trykk<space>p<u00e5><space>linken<space>for<space>nedlasting:<space><at>Value<openparen>value<closeparen> ATTR ContentType html ATTR LastUpdate $(LastUpdate$encode) ATTR Id <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>0<closecurly>.Category EPSG:<at>Value<openparen>koordsys<closeparen> ATTR Category<opencurly>0<closecurly>.Domain http:<solidus><solidus>www.opengis.net<solidus>def<solidus>crs<solidus> ATTR Category<opencurly>0<closecurly>.Label EPSG<solidus>0<solidus><at>Value<openparen>koordsys<closeparen> ATTR Author Per<space>Arne<space>Horneland ATTR Copyright Havforskninginstituttet ATTR LinkURI <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>1<closecurly>.Category Fylke ATTR Category<opencurly>1<closecurly>.Label <at>Value<openparen>navn<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
 # -------------------------------------------------------------------------
 Lookup AttributeRangeMapper_2_LOOKUP_TABLE   1:1799          25832   1800:1999       25833   2000:2099       25835   :               ""   ENCODED|RANGE_MAP
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRangeMapper_2    INPUT  FEATURE_TYPE admingrense.kommuner    OUTPUT FEATURE_TYPE AttributeRangeMapper_2_OUTPUT         @Lookup(AttributeRangeMapper_2_LOOKUP_TABLE,kommuneid,RANGE_MAP|ENCODED_ATTR, koordsys)
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeRangeMapper_2_OUTPUT ATTR DownloadUrl $(ROTKATALOG_WEB$encode)Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip ATTR name Havforskningsinstituttet ATTR value Havforskniinginstituttet<space>SOSI<space>Data<space><at>Value<openparen>navn<closeparen> ATTR _fileName Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_6 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_6_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT_0_+pdQNSaepco=   OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT_1_+pdQNSaepco=   OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT_2_+pdQNSaepco=
-# -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT_2_+pdQNSaepco= ATTR Title <at>Value<openparen>value<closeparen> ATTR Content Trykk<space>p<u00e5><space>linken<space>for<space><u00e5><space>laste<space>ned<space>data<space>for<space>kommune<space><at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen><comma><space><at>Value<openparen>navn<closeparen><space>i<space>koordinatsystemet<space>EPSG:<at>Value<openparen>koordsys<closeparen>.<space><lt>br<space><solidus><gt><space><space><lt>a<space>href=<quote><at>Value<openparen>DownloadUrl<closeparen><quote><gt><at>Value<openparen>value<closeparen><lt><backslash>a<gt> ATTR Description Korallrev.<space>Trykk<space>p<u00e5><space>linken<space>for<space>nedlasting:<space><at>Value<openparen>value<closeparen> ATTR ContentType html ATTR LastUpdate $(LastUpdate$encode) ATTR Id <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>0<closecurly>.Category EPSG:<at>Value<openparen>koordsys<closeparen> ATTR Category<opencurly>0<closecurly>.Domain http:<solidus><solidus>www.opengis.net<solidus>def<solidus>crs<solidus> ATTR Category<opencurly>0<closecurly>.Label EPSG<solidus>0<solidus><at>Value<openparen>koordsys<closeparen> ATTR Author Per<space>Arne<space>Horneland ATTR Copyright Havforskningsinstituttet ATTR LinkURI <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>1<closecurly>.Category Kommune ATTR Category<opencurly>1<closecurly>.Label <at>Value<openparen>navn<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeRangeMapper_2_OUTPUT ATTR DownloadUrl $(ROTKATALOG_WEB$encode)Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip ATTR name Havforskningsinstituttet ATTR value Havforskniinginstituttet<space>SOSI<space>Data<space><at>Value<openparen>navn<closeparen> ATTR _fileName $(FANOUT_FOLDER)<backslash>Havforskningsinstituttet_<at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen>_<at>Value<openparen>navn<closeparen>_<at>Value<openparen>koordsys<closeparen>_Korallrev_SOSI.zip    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
 # -------------------------------------------------------------------------
 
-# Set the directive to add all the meta-attributes to the features.
-# We do this so users see all possible information in the viewed
-# features.
 
-READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [         set grpByAttrs {};         if { [string length $grpByAttrs] > 0 } {             if { [string first "@EvaluateExpression" $grpByAttrs] == 0 } {                 puts "MACRO CATMAC _$grpByAttrs" ;             } else {                set catter "" ;                set comma "" ;                foreach attr $grpByAttrs {                    set catter "$catter$comma@Value(\"$attr\")" ;                    set comma ",_," ;                } ;                puts "MACRO CATMAC _@Concatenate($catter)" ;             }         }         else {             puts "MACRO CATMAC " ;         };         set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeCreator_6_Output} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";         puts "MACRO SAFE_FFS_NAME $safeName";         ]
-# Make the temporary directory that the FFS files will live in.
-FACTORY_DEF * CreationFactory      FACTORY_NAME AttributeCreator_6_Output_DirCreator      OUTPUT FEATURE_TYPE __nukeme__          @Tcl2("catch {file mkdir {$(WORKSPACE_TEMP_DIR)}}")
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_6_Output_DirCreatorCleanerUpper    INPUT FEATURE_TYPE __nukeme__
-# Send raster, point cloud and vector features down different paths to prepare
-# them for viewing
+FME_PYTHON_PATH "$(FME_MF_DIR)"
 
-FACTORY_DEF * TestFactory    FACTORY_NAME AttributeCreator_6_Output_FeatureDirector    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT_0_+pdQNSaepco=    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE AttributeCreator_6_Output___NotRasterFeatures___    OUTPUT PASSED FEATURE_TYPE AttributeCreator_6_Output___RasterFeatures___
-FACTORY_DEF * TestFactory    FACTORY_NAME AttributeCreator_6_Output___FeatureDirector1    INPUT FEATURE_TYPE AttributeCreator_6_Output___NotRasterFeatures___    TEST &fme_type == "fme_point_cloud"    OUTPUT FAILED FEATURE_TYPE AttributeCreator_6_Output___VectorFeatures___    OUTPUT PASSED FEATURE_TYPE AttributeCreator_6_Output___PointCloudFeatures___
-# Vector features simply may get their colors overridden
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_6_Output_VectorSetterUpper    INPUT FEATURE_TYPE AttributeCreator_6_Output___VectorFeatures___    OUTPUT FEATURE_TYPE __viewme__
-# Point Cloud Features Might Need to be thinned
-
-# Note that we don't call the ThinPointCloud function directly, but rather
-# do it through TCL. This should allow this transformer to be used with a
-# Desktop license, even though ThinPointCloud requires Professional.
-
-Tcl2 proc AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_6_Output___PointCloudThinner    INPUT FEATURE_TYPE AttributeCreator_6_Output___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_thinPointCloud")
-Tcl2 proc AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_6_Output_RasterSetterUpper    INPUT FEATURE_TYPE AttributeCreator_6_Output___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-# AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_VIS_FEAT_TYPE changes the feature types
-# of the features being visualized.
-
-DEFAULT_MACRO AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_VIS_FEAT_TYPE AttributeCreator_6_Output$(CATMAC)
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeCreator_6_Output_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(AttributeCreator_6_Output_a63264b5_aafe_4aff_9297_d902a6f98f6f1_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA kommuneid,varchar<openparen>255<closeparen>,navn,varchar<openparen>255<closeparen>,koordsys,varchar<openparen>255<closeparen>,DownloadUrl,varchar<openparen>255<closeparen>,name,varchar<openparen>255<closeparen>,value,varchar<openparen>255<closeparen>,_fileName,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * PythonFactory    FACTORY_NAME KommuneFilnavnSjekker    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    SYMBOL_NAME processFeature    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<comma><space>os<lf>import<space>fmeobjects<lf><lf>#<space>Template<space>Function<space>interface:<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>fileName<space>=<space>feature.getAttribute<openparen><quote>_fileName<quote><closeparen><lf><space><space><space><space>doesFileExist<space>=<space>os.path.exists<openparen>fileName<closeparen><lf><space><space><space><space>if<space>doesFileExist:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>JA<quote><closeparen><lf><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>NEI<quote><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE KommuneFilnavnSjekker_OUTPUT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
-
-FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger    INPUT REFERENCER FEATURE_TYPE FeatureReader_PATH    INPUT REFERENCEE FEATURE_TYPE AttributeCreator_6_OUTPUT_1_+pdQNSaepco=    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>path_filename<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_fileName<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED
-
+FACTORY_DEF * TestFactory    FACTORY_NAME KommuneFilnavnTester    INPUT  FEATURE_TYPE KommuneFilnavnSjekker_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>FILE_EXISTS<closeparen>,KommuneFilnavnTester) = JA ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE KommuneFilnavnTester_PASSED
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE KommuneFilnavnTester_PASSED ATTR Title <at>Value<openparen>value<closeparen> ATTR Content Trykk<space>p<u00e5><space>linken<space>for<space><u00e5><space>laste<space>ned<space>data<space>for<space>kommune<space><at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen><comma><space><at>Value<openparen>navn<closeparen><space>i<space>koordinatsystemet<space>EPSG:<at>Value<openparen>koordsys<closeparen>.<space><lt>br<space><solidus><gt><space><space><lt>a<space>href=<quote><at>Value<openparen>DownloadUrl<closeparen><quote><gt><at>Value<openparen>value<closeparen><lt><backslash>a<gt> ATTR Description Korallrev.<space>Trykk<space>p<u00e5><space>linken<space>for<space>nedlasting:<space><at>Value<openparen>value<closeparen> ATTR ContentType html ATTR LastUpdate $(LastUpdate$encode) ATTR Id <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>0<closecurly>.Category EPSG:<at>Value<openparen>koordsys<closeparen> ATTR Category<opencurly>0<closecurly>.Domain http:<solidus><solidus>www.opengis.net<solidus>def<solidus>crs<solidus> ATTR Category<opencurly>0<closecurly>.Label EPSG<solidus>0<solidus><at>Value<openparen>koordsys<closeparen> ATTR Author Per<space>Arne<space>Horneland ATTR Copyright Havforskningsinstituttet ATTR LinkURI <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>1<closecurly>.Category Kommune ATTR Category<opencurly>1<closecurly>.Label <at>Value<openparen>navn<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
 # -------------------------------------------------------------------------
 
-# Set the directive to add all the meta-attributes to the features.
-# We do this so users see all possible information in the viewed
-# features.
-
-READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [         set grpByAttrs {};         if { [string length $grpByAttrs] > 0 } {             if { [string first "@EvaluateExpression" $grpByAttrs] == 0 } {                 puts "MACRO CATMAC _$grpByAttrs" ;             } else {                set catter "" ;                set comma "" ;                foreach attr $grpByAttrs {                    set catter "$catter$comma@Value(\"$attr\")" ;                    set comma ",_," ;                } ;                puts "MACRO CATMAC _@Concatenate($catter)" ;             }         }         else {             puts "MACRO CATMAC " ;         };         set safeName "[regsub -all {[^a-zA-Z0-9]} {FeatureReader_PATH} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";         puts "MACRO SAFE_FFS_NAME $safeName";         ]
-# Make the temporary directory that the FFS files will live in.
-FACTORY_DEF * CreationFactory      FACTORY_NAME FeatureReader_PATH_DirCreator      OUTPUT FEATURE_TYPE __nukeme__          @Tcl2("catch {file mkdir {$(WORKSPACE_TEMP_DIR)}}")
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_PATH_DirCreatorCleanerUpper    INPUT FEATURE_TYPE __nukeme__
-# Send raster, point cloud and vector features down different paths to prepare
-# them for viewing
-
-FACTORY_DEF * TestFactory    FACTORY_NAME FeatureReader_PATH_FeatureDirector    INPUT  FEATURE_TYPE FeatureMerger_MERGED    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE FeatureReader_PATH___NotRasterFeatures___    OUTPUT PASSED FEATURE_TYPE FeatureReader_PATH___RasterFeatures___
-FACTORY_DEF * TestFactory    FACTORY_NAME FeatureReader_PATH___FeatureDirector1    INPUT FEATURE_TYPE FeatureReader_PATH___NotRasterFeatures___    TEST &fme_type == "fme_point_cloud"    OUTPUT FAILED FEATURE_TYPE FeatureReader_PATH___VectorFeatures___    OUTPUT PASSED FEATURE_TYPE FeatureReader_PATH___PointCloudFeatures___
-# Vector features simply may get their colors overridden
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_PATH_VectorSetterUpper    INPUT FEATURE_TYPE FeatureReader_PATH___VectorFeatures___    OUTPUT FEATURE_TYPE __viewme__
-# Point Cloud Features Might Need to be thinned
-
-# Note that we don't call the ThinPointCloud function directly, but rather
-# do it through TCL. This should allow this transformer to be used with a
-# Desktop license, even though ThinPointCloud requires Professional.
-
-Tcl2 proc FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_PATH___PointCloudThinner    INPUT FEATURE_TYPE FeatureReader_PATH___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_thinPointCloud")
-Tcl2 proc FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_PATH_RasterSetterUpper    INPUT FEATURE_TYPE FeatureReader_PATH___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-# FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_VIS_FEAT_TYPE changes the feature types
-# of the features being visualized.
-
-DEFAULT_MACRO FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_VIS_FEAT_TYPE FeatureReader_PATH$(CATMAC)
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME FeatureReader_PATH_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(FeatureReader_PATH_e3257002_c26a_4d94_a240_2f1999d7faa95_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA path_unix,varchar<openparen>255<closeparen>,path_windows,varchar<openparen>255<closeparen>,path_rootname,varchar<openparen>255<closeparen>,path_filename,varchar<openparen>255<closeparen>,path_extension,varchar<openparen>255<closeparen>,path_filesize,varchar<openparen>255<closeparen>,path_ownername,varchar<openparen>255<closeparen>,path_readonly,varchar<openparen>255<closeparen>,path_modified_date,varchar<openparen>255<closeparen>,path_created_date,varchar<openparen>255<closeparen>,path_accessed_date,varchar<openparen>255<closeparen>,path_directory_unix,varchar<openparen>255<closeparen>,path_directory_windows,varchar<openparen>255<closeparen>,path_type,varchar<openparen>255<closeparen>,fme_geometry<opencurly>0<closecurly>,varchar<openparen>255<closeparen>,kommuneid,varchar<openparen>255<closeparen>,navn,varchar<openparen>255<closeparen>,koordsys,varchar<openparen>255<closeparen>,DownloadUrl,varchar<openparen>255<closeparen>,name,varchar<openparen>255<closeparen>,value,varchar<openparen>255<closeparen>,_fileName,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Feed<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Feed<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
