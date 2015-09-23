@@ -1,4 +1,22 @@
-﻿CREATE OR REPLACE VIEW korallrev.v_sp_korallrev AS
+﻿--------------------------------------------------------------------------------
+-- Name       : v_korallrev
+-- Purpose    : Inneholder informasjon fra korallrev koblet opp mot:
+--               -> kommuneflate
+--               -> fylkeflate
+--              
+--              Det gjøres en spatial-join mellom korallrevene(punkt) og
+--               -> kommuneflate
+--               -> fylkeflate
+--              for at vi skal få med kommunenummer/navn og fylkesnummer/navn.
+--              Dette brukes videre for "FANOUT" av eksportfiler baasert på
+--              fylke eller kommune.
+--
+-- Author     : xgrimor
+-- Created    : 23.09.2015
+-- Coypyright : (c) xgrimor
+-- Licence    : <your licence>
+--------------------------------------------------------------------------------
+CREATE OR REPLACE VIEW korallrev.v_sp_korallrev AS
 SELECT rev.objid               as objid,
        rev.objtype             as objtype, 
        rev.obs_metode          as obs_metode, 
@@ -27,10 +45,10 @@ SELECT rev.objid               as objid,
        rev.noeyaktighetsklasse as noeyaktighetsklasse, 
        rev.produkt             as produkt,
        rev.versjon             as versjon,
+       komm.kommuneid          as k_kommuneid,
        komm.navn               as k_navn,
-       komm.kommuneid          as k_id,
-       fylke.navn              as f_navn,
-       fylke.fylkeid           as f_id
+       fylke.fylkeid           as f_fylkeid,
+       fylke.navn              as f_navn
   FROM korallrev.korallrev rev,
        admingrense.fylkeflate fylke,
        admingrense.kommuneflate komm
@@ -66,10 +84,10 @@ SELECT objid,
        noeyaktighetsklasse, 
        produkt,
        versjon,
+       k_kommuneid,
        k_navn,
-       k_id,
-       f_navn,
-       f_id
+       f_fylkeid,
+       f_navn
   FROM korallrev.v_sp_korallrev
 UNION
 SELECT objid,
@@ -100,10 +118,10 @@ SELECT objid,
        noeyaktighetsklasse, 
        produkt,
        versjon,
+       9999                   as k_kommuneid,
        'Uplassert-i-kommune'  as k_navn,
-       9999                   as k_id,
-       'Uplassert-i-fylke'    as f_navn,
-       99                     as f_id
+       99                     as f_fylkeid,
+       'Uplassert-i-fylke'    as f_navn
   FROM korallrev.korallrev
  WHERE objid not in (select objid from korallrev.v_sp_korallrev);
  
