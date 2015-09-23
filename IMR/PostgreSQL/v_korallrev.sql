@@ -52,7 +52,7 @@ SELECT rev.objid               as objid,
   FROM korallrev.korallrev rev,
        admingrense.fylkeflate fylke,
        admingrense.kommuneflate komm
- WHERE st_Intersects(komm.geom, rev.posisjon)
+ WHERE ST_Intersects(komm.geom, rev.posisjon)
    AND ST_Intersects(fylke.geom, rev.posisjon);
    
 CREATE OR REPLACE VIEW korallrev.v_korallrev AS
