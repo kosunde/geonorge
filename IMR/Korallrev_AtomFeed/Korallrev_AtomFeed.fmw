@@ -5,52 +5,52 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    C:\apps\FME\fme.exe D:\Geodata\Jobs\Korallrev_AtomFeed\Korallrev_AtomFeed.fmw
+#    "C:\Program Files\FME\fme.exe" D:\GitHub\geonorge\IMR\Korallrev_AtomFeed\Korallrev_AtomFeed.fmw
 #    
 #    
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN32)"
-#! SHOW_ANNOTATIONS="true"
-#! DESTINATION="NONE"
-#! DESTINATION_ROUTING_FILE=""
-#! END_TCL=""
-#! DOC_TOP_LEFT="-1636.47 -2751.03"
-#! SOURCE_ROUTING_FILE=""
-#! DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pakka data for SOSI tilbys.&lt;/p&gt;&#10;"
 #! FME_GEOMETRY_HANDLING="Enhanced"
-#! FME_REPROJECTION_ENGINE="FME"
-#! LOG_FILE=""
-#! CATEGORY=""
-#! TITLE="SOSI ATOM Data Download Feed"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! REQUIREMENTS_KEYWORD="none"
-#! MAX_LOG_FEATURES="200"
-#! FME_DOCUMENT_GUID="ba0b2458-043b-44c6-bc24-e81aefb1523a"
 #! ZOOM_SCALE="100"
-#! REDIRECT_TERMINATORS="NONE"
-#! DOC_EXTENTS="4998.61 3898.61"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! LAST_SAVE_DATE="2015-09-22T16:23:28"
-#! REQUIREMENTS="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME 2015.0+ &lt;/p&gt;&#10;"
+#! DESTINATION_ROUTING_FILE=""
+#! DOC_TOP_LEFT="-1636.47 -2751.03"
+#! TITLE="SOSI ATOM Data Download Feed"
+#! SOURCE_ROUTING_FILE=""
+#! BEGIN_TCL=""
+#! SOURCE="NONE"
+#! DOC_EXTENTS="4998.6 3898.61"
+#! END_TCL=""
+#! VIEW_POSITION="-663.007 -1053.01"
+#! PASSWORD=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! WARN_INVALID_XFORM_PARAM="Yes"
 #! ATTR_TYPE_ENCODING="SDF"
+#! END_PYTHON=""
 #! SHOW_INFO_NODES="true"
 #! IGNORE_READER_FAILURE="No"
-#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! PASSWORD=""
-#! BEGIN_TCL=""
-#! FME_STROKE_MAX_DEVIATION="0"
-#! FME_DOCUMENT_PRIORGUID="e2268bf6-f724-4c83-b829-cff191426dfa,a4ffe612-2b5d-4aa2-a070-a7cc84bd78a5,dc0aa76a-f13b-4a5d-85a5-fa6295a58a14,2437262b-3b9c-4468-95b7-bbe86ce300c9,d01be33a-faf5-4808-82f9-2923d07d83de,1caef670-3148-4fbf-b8bf-b9dfc6c84627,b16f06fe-910a-4b62-975e-281c36c5cc7a,6bc7fbcc-3095-4439-b85f-6ffdab4f63dc,52fe7089-8dde-4bb3-bc1a-92518eac2e2f,efea6150-af30-49a5-a5c7-a8aa265c767f,15f68be8-2e9b-4eee-89e8-c5cf5fa98d9f,d4222d46-d6a6-47fe-925b-0e5269e38a16,4d976883-ac46-47f8-a587-7151c16825f5,1b2f8e2a-1d61-457f-873d-c76588de7795,6bd4d361-e01c-403c-9b2b-8f61ecefe3a3,73c3603d-84a4-4f6f-a927-a65ec2b89a14,170f85a0-17a3-4def-9f0a-ad2972960e3b,8fb859d0-baca-450d-a08f-8e711e50005f,867f90c5-965e-487b-b5db-b88f75e4531e,1973c2ff-3eb6-4276-83a1-5d7e3ea5d829,2d29ca19-028a-43e8-b9ca-f46c5b6cecdb,0dcd45d7-b572-4984-a662-1f422d4b7fe2,cbaf302f-8b38-4405-95df-e85739f38e61,578a991a-cd24-4cc3-a9e4-f8b3a26888df,d3dd435b-7f85-496a-ab1b-e8bd0f521382,eadedff6-e881-47eb-a2ca-557f376273a9,1a07bf0a-607e-49cb-bc84-c054ccf71d8d,9e23dbc7-ed4a-474a-a68c-ce535879f329,44efece1-6b44-4d26-8d63-41ae334d1534,09687c2e-53c1-4b24-a914-92bb35415d88,40f69edc-f5c3-423b-a4de-8af4fdb87146,4ee6cc26-6a73-4d69-96dc-08b46270df38,43014fdf-1585-482d-b6aa-ba16875f49b1,d37f3fe3-9e3e-4030-9126-6dce5e88f0c5,ab980aeb-0847-429a-b0a4-230cb76e2b56,a1764787-0ca9-4c28-8440-6e8ceeea9ba4,59a65324-a0f1-4a67-8e4e-9e94a39cf4e4,a16cf2f5-f0cf-48b2-af85-91c3d8ca9dc4"
-#! FME_BUILD_NUM="15515"
-#! SOURCE="NONE"
-#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
 #! HISTORY="23&lt;solidus&gt;02&lt;solidus&gt;2015,N&lt;space&gt;Wlock,Created"
-#! BEGIN_PYTHON=""
-#! END_PYTHON=""
-#! VIEW_POSITION="-1740.02 -1053.01"
-#! FME_SERVER_SERVICES=""
+#! LAST_SAVE_DATE="2015-09-23T09:24:19"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! REQUIREMENTS="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME 2015.0+ &lt;/p&gt;&#10;"
+#! DESTINATION="NONE"
+#! FME_BUILD_NUM="15515"
+#! FME_DOCUMENT_PRIORGUID="e2268bf6-f724-4c83-b829-cff191426dfa,a4ffe612-2b5d-4aa2-a070-a7cc84bd78a5,dc0aa76a-f13b-4a5d-85a5-fa6295a58a14,2437262b-3b9c-4468-95b7-bbe86ce300c9,d01be33a-faf5-4808-82f9-2923d07d83de,1caef670-3148-4fbf-b8bf-b9dfc6c84627,b16f06fe-910a-4b62-975e-281c36c5cc7a,6bc7fbcc-3095-4439-b85f-6ffdab4f63dc,52fe7089-8dde-4bb3-bc1a-92518eac2e2f,efea6150-af30-49a5-a5c7-a8aa265c767f,15f68be8-2e9b-4eee-89e8-c5cf5fa98d9f,d4222d46-d6a6-47fe-925b-0e5269e38a16,4d976883-ac46-47f8-a587-7151c16825f5,1b2f8e2a-1d61-457f-873d-c76588de7795,6bd4d361-e01c-403c-9b2b-8f61ecefe3a3,73c3603d-84a4-4f6f-a927-a65ec2b89a14,170f85a0-17a3-4def-9f0a-ad2972960e3b,8fb859d0-baca-450d-a08f-8e711e50005f,867f90c5-965e-487b-b5db-b88f75e4531e,1973c2ff-3eb6-4276-83a1-5d7e3ea5d829,2d29ca19-028a-43e8-b9ca-f46c5b6cecdb,0dcd45d7-b572-4984-a662-1f422d4b7fe2,cbaf302f-8b38-4405-95df-e85739f38e61,578a991a-cd24-4cc3-a9e4-f8b3a26888df,d3dd435b-7f85-496a-ab1b-e8bd0f521382,eadedff6-e881-47eb-a2ca-557f376273a9,1a07bf0a-607e-49cb-bc84-c054ccf71d8d,9e23dbc7-ed4a-474a-a68c-ce535879f329,44efece1-6b44-4d26-8d63-41ae334d1534,09687c2e-53c1-4b24-a914-92bb35415d88,40f69edc-f5c3-423b-a4de-8af4fdb87146,4ee6cc26-6a73-4d69-96dc-08b46270df38,43014fdf-1585-482d-b6aa-ba16875f49b1,d37f3fe3-9e3e-4030-9126-6dce5e88f0c5,ab980aeb-0847-429a-b0a4-230cb76e2b56,a1764787-0ca9-4c28-8440-6e8ceeea9ba4,59a65324-a0f1-4a67-8e4e-9e94a39cf4e4,a16cf2f5-f0cf-48b2-af85-91c3d8ca9dc4,ba0b2458-043b-44c6-bc24-e81aefb1523a"
+#! DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pakka data for SOSI tilbys.&lt;/p&gt;&#10;"
+#! FME_STROKE_MAX_DEVIATION="0"
 #! LOG_MAX_PRECISION="Yes"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! REQUIREMENTS_KEYWORD="none"
 #! WORKSPACE_VERSION="1"
+#! FME_DOCUMENT_GUID="cad60550-f9a4-4db7-bf27-178243edeb61"
+#! MAX_LOG_FEATURES="200"
+#! BEGIN_PYTHON=""
+#! LOG_FILE=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! CATEGORY=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! SHOW_ANNOTATIONS="true"
+#! REDIRECT_TERMINATORS="NONE"
+#! FME_SERVER_SERVICES=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="multi_reader_type char(50) fme_primary_axis float8 fme_text_string char(50) multi_reader_keyword char(50) fme_color char(50) postgres_type char(50) postgres_oid int4 multi_reader_id int4 fme_basename char(50) fme_dataset char(50) fme_geometry fme_char(50) fme_secondary_axis float8 fme_start_angle float8 fme_type char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_fill_color char(50) fme_text_size float8 fme_rotation float8 fme_sweep_angle float8"
+#! EXPOSABLE_ATTRS="multi_reader_keyword char(50) fme_geometry fme_char(50) fme_color char(50) fme_secondary_axis float8 multi_reader_type char(50) fme_start_angle float8 fme_primary_axis float8 fme_fill_color char(50) fme_type char(50) fme_text_size float8 fme_sweep_angle float8 multi_reader_full_id int4 fme_rotation float8 fme_dataset char(50) fme_text_string char(50) fme_feature_type char(50) multi_reader_id int4 postgres_oid int4 postgres_type char(50) fme_basename char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -75,17 +75,13 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FEATURE_TYPES=""
-#! MIN_FEATURES=""
-#! START_FEATURE=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! MAX_FEATURES=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! COORDSYS=""
+#! MIN_FEATURES=""
+#! FEATURE_TYPES=""
+#! START_FEATURE=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
@@ -95,12 +91,16 @@
 #! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="Table"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -116,7 +116,7 @@
 #! WRITE_DEFS="false"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="false"
-#! EXPOSABLE_ATTRS="Radius string Version string WebMaster string fme_type char(50) ContentIsRemoteURL boolean SkipHours{}.SkipHours string Summary string Author string Category{}.Domain string fme_basename char(50) Elevation string DescriptionType string Ttl string CloudRegisterProcedure string fme_text_size string Logo string TextInputDescription string Comments string fme_sweep_angle string CategoryDomain string Contributor string GeneratorURI string Link{}.Type string GeneratorVersion string Link{}.URI string fme_color char(50) Link{}.Title string ContributorEmail string AuthorEmail string EnclosureTitle string ContributorURI string LinkType string EnclosureType string Language string Category{}.Category string EnclosureURI string IdIsPermaLink string Title string CloudPath string LinkURI string ContentType string FeatureType string EnclosureLength string SkipDays{}.SkipDays string TextInputName string fme_rotation string Link{}.Relation string LastUpdate string fme_start_angle string AuthorURI string CategoryLabel string fme_geometry fme_char(50) Generator string fme_dataset char(50) ImageLink string CloudProtocol string SummaryType string TextInputLink string ImageTitle string fme_text_string char(50) Relationship string Category{}.Label string PublishedDate string Category string CopyrightType string LinkTitle string fme_feature_type char(50) Icon string CloudPort string Description string fme_fill_color char(50) Content string fme_primary_axis string SourceURI string Rating string CloudDomain string FloorNumber string TitleType string Copyright string Docs string ImageURI string TextInputTitle string Id string LinkRelation string ManagingEditor string fme_secondary_axis string"
+#! EXPOSABLE_ATTRS="CloudPort string LinkType string TextInputTitle string Language string SourceURI string Category{}.Category string Author string LinkRelation string TextInputLink string SkipDays{}.SkipDays string CategoryLabel string Category{}.Domain string Description string CloudProtocol string TitleType string Category{}.Label string CloudDomain string fme_basename char(50) FloorNumber string PublishedDate string fme_feature_type char(50) CopyrightType string Copyright string WebMaster string Link{}.URI string Content string fme_primary_axis string DescriptionType string ContributorURI string EnclosureTitle string CategoryDomain string Elevation string GeneratorURI string Category string Icon string Ttl string Title string Link{}.Title string Version string LastUpdate string EnclosureURI string fme_sweep_angle string Summary string Contributor string Docs string ImageURI string fme_rotation string ImageTitle string fme_text_size string AuthorEmail string fme_geometry fme_char(50) Link{}.Type string CloudRegisterProcedure string fme_color char(50) CloudPath string fme_type char(50) Id string GeneratorVersion string TextInputDescription string Logo string Relationship string ContentType string EnclosureLength string FeatureType string ContributorEmail string Generator string ImageLink string Link{}.Relation string Rating string Comments string fme_fill_color char(50) EnclosureType string fme_start_angle string SkipHours{}.SkipHours string fme_secondary_axis string AuthorURI string TextInputName string SummaryType string ManagingEditor string ContentIsRemoteURL boolean IdIsPermaLink string LinkURI string LinkTitle string fme_text_string char(50) Radius string fme_dataset char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -125,28 +125,28 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILE_OR_URL"
 #! GENERATE_FME_BUILD_NUM="15220"
-#! FANOUT="No"
-#! FANOUT_SUFFIX=""
-#! FANOUT_DIRECTORY=""
-#! FANOUT_PREFIX=""
-#! COORDSYS=""
 #! FANOUT_ID_ATTR=""
+#! FANOUT_SUFFIX=""
+#! FANOUT_PREFIX=""
+#! FANOUT_DIRECTORY=""
+#! COORDSYS=""
+#! FANOUT="No"
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="WRITER_DATASET_HINT"
-#! VALUE="Specify a name for the GeoRSS/RSS Feed file"
+#! NAME="READER_DATASET_HINT"
+#! VALUE="Select the GeoRSS/RSS Feed file(s) or type the GeoRSS/RSS Feed URL"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="MIME_TYPE"
 #! VALUE="application/atom+xml"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="READER_DATASET_HINT"
-#! VALUE="Select the GeoRSS/RSS Feed file(s) or type the GeoRSS/RSS Feed URL"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="xml file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a name for the GeoRSS/RSS Feed file"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -681,8 +681,8 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int2,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -707,8 +707,8 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="int2,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -966,7 +966,7 @@
 #! BOUNDING_RECT="-1178.2 1147.58 2273.21 803.575"
 #! STICKY="true"
 #! COLOUR="0.0627451,0.792157,0.0666667"
-#! CONTENTS="65 55 54 83 42 "
+#! CONTENTS="55 65 42 83 54 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="64"
@@ -977,7 +977,7 @@
 #! BOUNDING_RECT="-358.746 210.928 1369.61 1360.94"
 #! STICKY="true"
 #! COLOUR="0.937255,0.964706,0.337255"
-#! CONTENTS="53 70 49 20 "
+#! CONTENTS="53 49 70 20 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="51"
@@ -988,7 +988,7 @@
 #! BOUNDING_RECT="-1178.2 334.929 3394.01 1537.94"
 #! STICKY="true"
 #! COLOUR="0.14902,0.4,0.54902"
-#! CONTENTS="45 53 64 70 49 20 46 "
+#! CONTENTS="53 49 45 64 70 20 46 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="26"
@@ -999,7 +999,7 @@
 #! BOUNDING_RECT="-1632.87 -1242.07 3864.47 626.373"
 #! STICKY="true"
 #! COLOUR="0.937255,0.964706,0.337255"
-#! CONTENTS="75 61 85 59 24 27 25 50 43 52 23 "
+#! CONTENTS="52 75 63 43 24 27 50 25 59 85 61 23 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="56"
@@ -1010,7 +1010,7 @@
 #! BOUNDING_RECT="-1636.47 -1918.54 3868.07 832.488"
 #! STICKY="true"
 #! COLOUR="0.937255,0.964706,0.337255"
-#! CONTENTS="39 41 69 37 82 44 47 48 40 62 38 58 "
+#! CONTENTS="58 41 40 69 39 48 62 44 47 37 38 82 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1031,13 +1031,13 @@
 #! <XFORM_ATTR ATTR_NAME="DownloadUrl" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_Norge_25833_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;hele&lt;space&gt;Norge"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_Norge_25833_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;hele&lt;space&gt;Norge"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="42"
@@ -1052,16 +1052,16 @@
 #! >
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="49"
@@ -1092,13 +1092,13 @@
 #! <XFORM_ATTR ATTR_NAME="Author" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Copyright" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="LinkURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;landsdekkende&lt;space&gt;data&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:25833.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Data&lt;space&gt;for&lt;space&gt;Sivilforsvaret&lt;space&gt;og&lt;space&gt;Brannvesenet.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:25833,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;25833,Author,Karen&lt;space&gt;Lie,Copyright,DSB&lt;space&gt;-&lt;space&gt;Sivilforsvaret&lt;space&gt;og&lt;space&gt;brannvesenet.,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;landsdekkende&lt;space&gt;data&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:25833.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Data&lt;space&gt;for&lt;space&gt;Sivilforsvaret&lt;space&gt;og&lt;space&gt;Brannvesenet.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:25833,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;25833,Author,Karen&lt;space&gt;Lie,Copyright,DSB&lt;space&gt;-&lt;space&gt;Sivilforsvaret&lt;space&gt;og&lt;space&gt;brannvesenet.,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="54"
@@ -1124,13 +1124,13 @@
 #! <XFORM_ATTR ATTR_NAME="Copyright" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="GeneratorURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="GeneratorVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,$(Title),Description,$(Description),LinkURI,$(FMEServerRoot)&lt;solidus&gt;$(Repository_Name),Id,$(FMEServerRoot)&lt;solidus&gt;$(Repository_Name),LastUpdate,$(LastUpdate),LinkRelation,self,LinkType,application&lt;solidus&gt;atom+xml,Copyright,Havforskningsinstituttet,Description,$(Description),GeneratorURI,$(FMEServerRoot),GeneratorVersion,$(FMEVersion)"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,$(Title),Description,$(Description),LinkURI,$(FMEServerRoot)&lt;solidus&gt;$(Repository_Name),Id,$(FMEServerRoot)&lt;solidus&gt;$(Repository_Name),LastUpdate,$(LastUpdate),LinkRelation,self,LinkType,application&lt;solidus&gt;atom+xml,Copyright,Havforskningsinstituttet,Description,$(Description),GeneratorURI,$(FMEServerRoot),GeneratorVersion,$(FMEVersion)"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="45"
@@ -1146,16 +1146,16 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_3"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_3"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="23"
@@ -1177,13 +1177,13 @@
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,$(FANOUT_FOLDER)&lt;backslash&gt;Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskningsinstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,$(FANOUT_FOLDER)&lt;backslash&gt;Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="24"
@@ -1220,13 +1220,13 @@
 #! <XFORM_ATTR ATTR_NAME="LinkURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Category" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Label" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;data&lt;space&gt;for&lt;space&gt;fylke&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Oversikt&lt;space&gt;over&lt;space&gt;korallrev.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Author,Per&lt;space&gt;Arne&lt;space&gt;Horneland,Copyright,Havforskninginstituttet,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Category,Fylke,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Label,&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;data&lt;space&gt;for&lt;space&gt;fylke&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Oversikt&lt;space&gt;over&lt;space&gt;korallrev.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Author,Per&lt;space&gt;Arne&lt;space&gt;Horneland,Copyright,Havforskninginstituttet,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Category,Fylke,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Label,&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="37"
@@ -1248,13 +1248,13 @@
 #! <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskniinginstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,$(FANOUT_FOLDER)&lt;backslash&gt;Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="DownloadUrl,$(ROTKATALOG_WEB)Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip,name,Havforskningsinstituttet,value,Havforskniinginstituttet&lt;space&gt;SOSI&lt;space&gt;Data&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;,_fileName,$(FANOUT_FOLDER)&lt;backslash&gt;Havforskningsinstituttet_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;_Korallrev_SOSI.zip"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="38"
@@ -1291,13 +1291,13 @@
 #! <XFORM_ATTR ATTR_NAME="LinkURI" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Category" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Category{1}.Label" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;data&lt;space&gt;for&lt;space&gt;kommune&lt;space&gt;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Korallrev.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Author,Per&lt;space&gt;Arne&lt;space&gt;Horneland,Copyright,Havforskningsinstituttet,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Category,Kommune,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Label,&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="Title,&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,Content,Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;&lt;u00e5&gt;&lt;space&gt;laste&lt;space&gt;ned&lt;space&gt;data&lt;space&gt;for&lt;space&gt;kommune&lt;space&gt;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;&lt;space&gt;i&lt;space&gt;koordinatsystemet&lt;space&gt;EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;.&lt;space&gt;&lt;lt&gt;br&lt;space&gt;&lt;solidus&gt;&lt;gt&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;lt&gt;&lt;backslash&gt;a&lt;gt&gt;,Description,Korallrev.&lt;space&gt;Trykk&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;linken&lt;space&gt;for&lt;space&gt;nedlasting:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;,ContentType,html,LastUpdate,$(LastUpdate),Id,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Category,EPSG:&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Domain,http:&lt;solidus&gt;&lt;solidus&gt;www.opengis.net&lt;solidus&gt;def&lt;solidus&gt;crs&lt;solidus&gt;,Category&lt;opencurly&gt;0&lt;closecurly&gt;.Label,EPSG&lt;solidus&gt;0&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;koordsys&lt;closeparen&gt;,Author,Per&lt;space&gt;Arne&lt;space&gt;Horneland,Copyright,Havforskningsinstituttet,LinkURI,&lt;at&gt;Value&lt;openparen&gt;DownloadUrl&lt;closeparen&gt;,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Category,Kommune,Category&lt;opencurly&gt;1&lt;closecurly&gt;.Label,&lt;at&gt;Value&lt;openparen&gt;navn&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="61"
@@ -1315,13 +1315,13 @@
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="fylkeid"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeMapper"/>
 #! <XFORM_PARM PARM_NAME="OUT_ATTR" PARM_VALUE="koordsys"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeMapper"/>
-#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="1,17,25832,18,19,25833,20,20,25835,,,25833"/>
+#! <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="fylkeid"/>
+#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="69"
@@ -1339,13 +1339,13 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="koordsys" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="kommuneid"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeMapper_2"/>
 #! <XFORM_PARM PARM_NAME="OUT_ATTR" PARM_VALUE="koordsys"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeMapper_2"/>
-#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="1,1799,25832,1800,1999,25833,2000,2099,25835,,,"/>
+#! <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="kommuneid"/>
+#! <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="40"
@@ -1368,15 +1368,15 @@
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KommuneFilnavnSjekker"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="FILE_EXISTS"/>
+#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="checkFilename"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;def&lt;space&gt;processFeature&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;fileName&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;quote&gt;_fileName&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;doesFileExist&lt;space&gt;=&lt;space&gt;os.path.exists&lt;openparen&gt;fileName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;doesFileExist:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;JA&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;NEI&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KommuneFilnavnSjekker"/>
-#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="processFeature"/>
-#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="FILE_EXISTS"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;def&lt;space&gt;checkFilename&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;fileName&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;quote&gt;_fileName&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;doesFileExist&lt;space&gt;=&lt;space&gt;os.path.exists&lt;openparen&gt;fileName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;doesFileExist:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;JA&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;NEI&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="39"
@@ -1409,13 +1409,13 @@
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KommuneFilnavnTester"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FILE_EXISTS&lt;closeparen&gt; = JA"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FILE_EXISTS&lt;closeparen&gt; = JA"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="43"
@@ -1438,15 +1438,15 @@
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FylkeFilnavnSjekker"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="FILE_EXISTS"/>
+#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="checkFilename"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;def&lt;space&gt;checkFilename&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;fileName&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;quote&gt;_fileName&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;doesFileExist&lt;space&gt;=&lt;space&gt;os.path.exists&lt;openparen&gt;fileName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;doesFileExist:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;JA&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;FILE_EXISTS&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;NEI&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FylkeFilnavnSjekker"/>
-#! <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="checkFilename"/>
-#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="FILE_EXISTS"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="50"
@@ -1479,13 +1479,13 @@
 #! <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_fileName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="FILE_EXISTS" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FylkeFilnavnTester"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FILE_EXISTS&lt;closeparen&gt; = JA"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;FILE_EXISTS&lt;closeparen&gt; = JA"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2088,7 +2088,7 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRE
 
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 
-FACTORY_DEF * PythonFactory    FACTORY_NAME KommuneFilnavnSjekker    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    SYMBOL_NAME processFeature    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<comma><space>os<lf>import<space>fmeobjects<lf><lf>#<space>Template<space>Function<space>interface:<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>fileName<space>=<space>feature.getAttribute<openparen><quote>_fileName<quote><closeparen><lf><space><space><space><space>doesFileExist<space>=<space>os.path.exists<openparen>fileName<closeparen><lf><space><space><space><space>if<space>doesFileExist:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>JA<quote><closeparen><lf><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>NEI<quote><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE KommuneFilnavnSjekker_OUTPUT
+FACTORY_DEF * PythonFactory    FACTORY_NAME KommuneFilnavnSjekker    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    SYMBOL_NAME checkFilename    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<comma><space>os<lf>import<space>fmeobjects<lf><lf>#<space>Template<space>Function<space>interface:<lf>def<space>checkFilename<openparen>feature<closeparen>:<lf><space><space><space><space>fileName<space>=<space>feature.getAttribute<openparen><quote>_fileName<quote><closeparen><lf><space><space><space><space>doesFileExist<space>=<space>os.path.exists<openparen>fileName<closeparen><lf><space><space><space><space>if<space>doesFileExist:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>JA<quote><closeparen><lf><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>FILE_EXISTS<quote><comma><quote>NEI<quote><closeparen><lf>    OUTPUT PYOUTPUT FEATURE_TYPE KommuneFilnavnSjekker_OUTPUT
 
 # -------------------------------------------------------------------------
 
@@ -2097,7 +2097,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME KommuneFilnavnTester    INPUT  FEATURE
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE KommuneFilnavnTester_PASSED ATTR Title <at>Value<openparen>value<closeparen> ATTR Content Trykk<space>p<u00e5><space>linken<space>for<space><u00e5><space>laste<space>ned<space>data<space>for<space>kommune<space><at>PadLeft<openparen><at>Value<openparen>kommuneid<closeparen><comma>4<comma>0<closeparen><comma><space><at>Value<openparen>navn<closeparen><space>i<space>koordinatsystemet<space>EPSG:<at>Value<openparen>koordsys<closeparen>.<space><lt>br<space><solidus><gt><space><space><lt>a<space>href=<quote><at>Value<openparen>DownloadUrl<closeparen><quote><gt><at>Value<openparen>value<closeparen><lt><backslash>a<gt> ATTR Description Korallrev.<space>Trykk<space>p<u00e5><space>linken<space>for<space>nedlasting:<space><at>Value<openparen>value<closeparen> ATTR ContentType html ATTR LastUpdate $(LastUpdate$encode) ATTR Id <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>0<closecurly>.Category EPSG:<at>Value<openparen>koordsys<closeparen> ATTR Category<opencurly>0<closecurly>.Domain http:<solidus><solidus>www.opengis.net<solidus>def<solidus>crs<solidus> ATTR Category<opencurly>0<closecurly>.Label EPSG<solidus>0<solidus><at>Value<openparen>koordsys<closeparen> ATTR Author Per<space>Arne<space>Horneland ATTR Copyright Havforskningsinstituttet ATTR LinkURI <at>Value<openparen>DownloadUrl<closeparen> ATTR Category<opencurly>1<closecurly>.Category Kommune ATTR Category<opencurly>1<closecurly>.Label <at>Value<openparen>navn<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Feed<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Feed<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_7_OUTPUT TO GEORSS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Entry<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
