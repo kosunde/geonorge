@@ -29,14 +29,27 @@
 			<Field InputName="linjespenn" InputType="BOOLSK" OutputName="LINJESPENN" OutputType="BOOLSK" UserDefined="true"/>
 			<Field InputName="L:avgrensesav{}.lokalid" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
 			<Field InputName="L:avgrensesav{}.navnerom" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
-			<Field InputName="L:avgrensesav{}.versjonid" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>				
+			<Field InputName="L:avgrensesav{}.versjonid" InputType="T80" OutputName="AVGRENSESAVPUNKT\KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>	
+			<Field InputName="L:merking{}.merkingfarge1" InputType="T255" OutputName="MERKING\MERKINGFARGE1\MERKINGFARGE" OutputType="T11" UserDefined="true"/>
+			<Field InputName="L:merking{}.annet1" InputType="T255" OutputName="MERKING\MERKINGFARGE1\ANNET" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.flouriserende1" InputType="H11" OutputName="MERKING\MERKINGFARGE1\FLUORISERENDE" OutputType="T6" UserDefined="true"/>		
+			<Field InputName="L:merking{}.reflekterende1" InputType="H11" OutputName="MERKING\MERKINGFARGE1\REFLEKTERENDE" OutputType="T6" UserDefined="true"/>		
+			<Field InputName="L:merking{}.merkingfarge2" InputType="T255" OutputName="MERKING\MERKINGFARGE2\MERKINGFARGE" OutputType="T11" UserDefined="true"/>
+			<Field InputName="L:merking{}.annet2" InputType="T80" OutputName="MERKING\MERKINGFARGE2\ANNET" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.flouriserende2" InputType="H11" OutputName="MERKING\MERKINGFARGE2\FLUORISERENDE" OutputType="T6" UserDefined="true"/>		
+			<Field InputName="L:merking{}.reflekterende2" InputType="H11" OutputName="MERKING\MERKINGFARGE2\REFLEKTERENDE" OutputType="T6" UserDefined="true"/>			
+			<Field InputName="L:merking{}.kommentarmerkingtype" InputType="T255" OutputName="MERKING\KOMMENTARMERKINGTYPE" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.merkingmonster" InputType="T255" OutputName="MERKING\MERKINGMØNSTER" OutputType="T5" UserDefined="true"/>
+			<Field InputName="L:merking{}.kommentarmerkingmonster" InputType="T255" OutputName="MERKING\KOMMENTARMERKINGMØNSTER" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.merkingicao" InputType="BOOLSK" OutputName="MERKING\MERKINGICAO" OutputType="BOOLSK" UserDefined="true"/>
+			<Field InputName="L:merking{}.merkingtilstand" InputType="T255" OutputName="MERKING\MERKINGTILST" OutputType="T3" UserDefined="true"/>	
 			<Field InputName="vertikalutstrekning" InputType="D20.2" OutputName="VERTIKALUTSTREKNING" OutputType="D10" UserDefined="true"/>		
             <Field InputName="hoydeverdienhet" InputType="T80" OutputName="MÅLEENHET" OutputType="T2"/>
             <Field InputName="merkepliktig" InputType="T80" OutputName="MERKEPLIKTIG\MERKEPLIKTIG" OutputType="T6"/>
 			<Field InputName="merkepliktigihenholdtil" InputType="T80" OutputName="MERKEPLIKTIG\REGELVERKMERKEPLIKT" OutputType="T5"/>
             <Field InputName="ansvarligformerking" InputType="T80" OutputName="MERKEPLIKTIG\ANSVARLIGMERKING" OutputType="T4"/>			
             <Field InputName="merkeinformasjon" InputType="T80" OutputName="MERKEPLIKTIG\MERKEINFO" OutputType="T4"/>
-            <Field InputName="kommentarmerkeplikt" InputType="T80" OutputName="MERKEPLIKTIG\KOMMENTARMERKEPLIKT" OutputType="T255"/>			
+            <Field InputName="kommentarmerkeplikt" InputType="T80" OutputName="MERKEPLIKTIG\KOMMENTAR" OutputType="T255"/>			
             <Field InputName="hrefsystem" InputType="T80" OutputName="HØYDE-REF" OutputType="T6"/>
             <Field InputName="href" InputType="T80" OutputName="HREF" OutputType="T6"/>
             <Field InputName="registernavn" InputType="T80" OutputName="REFERANSEEKSTREG\REGISTERNAVN" OutputType="T60"/>			
@@ -68,13 +81,24 @@
 			<Field InputName="L:avgrensesav{}.lokalid" InputType="T80" OutputName="AVGRENSERLINJE\KOMPONENTIDENT\LOKALID" OutputType="T100" UserDefined="true"/>		
 			<Field InputName="L:avgrensesav{}.navnerom" InputType="T80" OutputName="AVGRENSERLINJE\KOMPONENTIDENT\NAVNEROM" OutputType="T100" UserDefined="true"/>	
 			<Field InputName="L:avgrensesav{}.versjonid" InputType="T80" OutputName="AVGRENSERLINJE\KOMPONENTIDENT\VERSJONID" OutputType="T100" UserDefined="true"/>	
-			<Field InputName="vertikalutstrekning" InputType="D20.2" OutputName="VERTIKALUTSTREKNING" OutputType="D10" UserDefined="true"/>		
+			<Field InputName="vertikalutstrekning" InputType="D20.2" OutputName="VERTIKALUTSTREKNING" OutputType="D10" UserDefined="true"/>
+			<Field InputName="L:merking{}.flouriserende1" InputType="H11" OutputName="MERKING\MERKINGFARGE1\FLUORISERENDE" OutputType="T6" UserDefined="true"/>		
+			<Field InputName="L:merking{}.reflekterende1" InputType="H11" OutputName="MERKING\MERKINGFARGE1\REFLEKTERENDE" OutputType="T6" UserDefined="true"/>		
+			<Field InputName="L:merking{}.merkingfarge2" InputType="T255" OutputName="MERKING\MERKINGFARGE2\MERKINGFARGE" OutputType="T11" UserDefined="true"/>
+			<Field InputName="L:merking{}.annet2" InputType="T80" OutputName="MERKING\MERKINGFARGE2\ANNET" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.flouriserende2" InputType="H11" OutputName="MERKING\MERKINGFARGE2\FLUORISERENDE" OutputType="T6" UserDefined="true"/>		
+			<Field InputName="L:merking{}.reflekterende2" InputType="H11" OutputName="MERKING\MERKINGFARGE2\REFLEKTERENDE" OutputType="T6" UserDefined="true"/>			
+			<Field InputName="L:merking{}.kommentarmerkingtype" InputType="T255" OutputName="MERKING\KOMMENTARMERKINGTYPE" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.merkingmonster" InputType="T255" OutputName="MERKING\MERKINGMØNSTER" OutputType="T5" UserDefined="true"/>
+			<Field InputName="L:merking{}.kommentarmerkingmonster" InputType="T255" OutputName="MERKING\KOMMENTARMERKINGMØNSTER" OutputType="T255" UserDefined="true"/>
+			<Field InputName="L:merking{}.merkingicao" InputType="BOOLSK" OutputName="MERKING\MERKINGICAO" OutputType="BOOLSK" UserDefined="true"/>
+			<Field InputName="L:merking{}.merkingtilstand" InputType="T255" OutputName="MERKING\MERKINGTILST" OutputType="T3" UserDefined="true"/>				
             <Field InputName="hoydeverdienhet" InputType="T80" OutputName="MÅLEENHET" OutputType="T2"/>
             <Field InputName="merkepliktig" InputType="T80" OutputName="MERKEPLIKTIG\MERKEPLIKTIG" OutputType="T6"/>
 			<Field InputName="merkepliktigihenholdtil" InputType="T80" OutputName="MERKEPLIKTIG\REGELVERKMERKEPLIKT" OutputType="T5"/>
             <Field InputName="ansvarligformerking" InputType="T80" OutputName="MERKEPLIKTIG\ANSVARLIGMERKING" OutputType="T4"/>			
             <Field InputName="merkeinformasjon" InputType="T80" OutputName="MERKEPLIKTIG\MERKEINFO" OutputType="T4"/>
-            <Field InputName="kommentarmerkeplikt" InputType="T80" OutputName="MERKEPLIKTIG\KOMMENTARMERKEPLIKT" OutputType="T255"/>			
+            <Field InputName="kommentarmerkeplikt" InputType="T80" OutputName="MERKEPLIKTIG\KOMMENTAR" OutputType="T255"/>			
             <Field InputName="hrefsystem" InputType="T80" OutputName="HØYDE-REF" OutputType="T6"/>
             <Field InputName="href" InputType="T80" OutputName="HREF" OutputType="T6"/>
             <Field InputName="registernavn" InputType="T80" OutputName="REFERANSEEKSTREG\REGISTERNAVN" OutputType="T60"/>			
