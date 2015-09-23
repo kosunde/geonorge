@@ -1,4 +1,4 @@
-﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WFS_Capabilities xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.opengis.net/wfs/2.0" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd" updateSequence="71579">
 	<!--Service Identification Section-->
 	<ows:ServiceIdentification>
@@ -41,8 +41,8 @@
 		<ows:Operation name="GetCapabilities">
 			<ows:DCP>
 				<ows:HTTP>
-					<ows:Get xlink:href=""></ows:Get>
-					<ows:Post xlink:href=""></ows:Post>
+					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS_utviklingsversjon.fmw"></ows:Get>
+					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS_utviklingsversjon.fmw"></ows:Post>
 				</ows:HTTP>
 			</ows:DCP>
 			<ows:Parameter name="AcceptVersions">
@@ -61,8 +61,8 @@
 		<ows:Operation name="DescribeFeatureType">
 			<ows:DCP>
 				<ows:HTTP>
-					<ows:Get xlink:href=""></ows:Get>
-					<ows:Post xlink:href=""></ows:Post>
+					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS_utviklingsversjon.fmw"></ows:Get>
+					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS_utviklingsversjon.fmw"></ows:Post>
 				</ows:HTTP>
 			</ows:DCP>
 			<ows:Parameter name="outputFormat">
@@ -74,8 +74,8 @@
 		<ows:Operation name="GetFeature">
 			<ows:DCP>
 				<ows:HTTP>
-					<ows:Get xlink:href=""></ows:Get>
-					<ows:Post xlink:href=""></ows:Post>
+					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS_utviklingsversjon.fmw"></ows:Get>
+					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS_utviklingsversjon.fmw"></ows:Post>
 				</ows:HTTP>
 			</ows:DCP>
 		</ows:Operation>
@@ -242,4 +242,3 @@
 		</fes:Scalar_Capabilities>
 	</fes:Filter_Capabilities>
 </WFS_Capabilities>
-

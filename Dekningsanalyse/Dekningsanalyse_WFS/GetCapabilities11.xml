@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:WFS_Capabilities xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ows="http://www.opengis.net/ows" xmlns:wfs="http://www.opengis.net/wfs" xmlns:xlink="http://www.w3.org/1999/xlink" updateSequence="0" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+	<!--Service Identification Section-->
+	<ows:ServiceIdentification>
+		<ows:Title>WFS Service Compliant with OGC WFS Specification Version 1.1.0</ows:Title>
+		<ows:Abstract>An OGC WFS Service created by Safe Software's FME Server</ows:Abstract>
+		<ows:ServiceType>WFS</ows:ServiceType>
+		<ows:ServiceTypeVersion>1.1.0</ows:ServiceTypeVersion>
+		<ows:Fees>None</ows:Fees>
+		<ows:AccessConstraints>None</ows:AccessConstraints>
+	</ows:ServiceIdentification>
+	<!--Service Provider Section-->
+	<ows:ServiceProvider>
+		<ows:ProviderName>GeoNorge</ows:ProviderName>
+		<ows:ProviderSite xlink:href="www.safe.com"></ows:ProviderSite>
+		<ows:ServiceContact>
+			<ows:IndividualName>Norge Digitalt</ows:IndividualName>
+			<ows:PositionName></ows:PositionName>
+			<ows:ContactInfo>
+				<ows:Phone>
+					<ows:Voice></ows:Voice>
+					<ows:Facsimile></ows:Facsimile>
+				</ows:Phone>
+				<ows:Address>
+					<ows:City>Hønefoss</ows:City>
+					<ows:PostalCode></ows:PostalCode>
+					<ows:Country>Norway</ows:Country>
+					<ows:ElectronicMailAddress>post@norgedigitalt.no</ows:ElectronicMailAddress>
+				</ows:Address>
+				<ows:OnlineResource xlink:href="http://www.geonorge.no"></ows:OnlineResource>
+				<ows:HoursOfService></ows:HoursOfService>
+				<ows:ContactInstructions></ows:ContactInstructions>
+			</ows:ContactInfo>
+			<ows:Role></ows:Role>
+		</ows:ServiceContact>
+	</ows:ServiceProvider>
+	<!--Operations Metadata Section-->
+	<ows:OperationsMetadata>
+		<ows:Operation name="GetCapabilities">
+			<ows:DCP>
+				<ows:HTTP>
+					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></ows:Get>
+					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></ows:Post>
+				</ows:HTTP>
+			</ows:DCP>
+			<ows:Parameter name="AcceptVersions">
+				<ows:Value>1.1.0</ows:Value>
+				<ows:Value>1.0.0</ows:Value>
+			</ows:Parameter>
+			<ows:Parameter name="AcceptFormats">
+				<ows:Value>text/xml</ows:Value>
+			</ows:Parameter>
+			<ows:Parameter name="Sections">
+				<ows:Value>ServiceIdentification</ows:Value>
+				<ows:Value>ServiceProvider</ows:Value>
+				<ows:Value>OperationsMetadata</ows:Value>
+				<ows:Value>FeatureTypeList</ows:Value>
+				<ows:Value>ServesGMLObjectTypeList</ows:Value>
+				<ows:Value>SupportsGMLObjectTypeList</ows:Value>
+			</ows:Parameter>
+		</ows:Operation>
+		<ows:Operation name="GetFeature">
+			<ows:DCP>
+				<ows:HTTP>
+					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></ows:Get>
+					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></ows:Post>
+				</ows:HTTP>
+			</ows:DCP>
+			<ows:Parameter name="resultType">
+				<ows:Value>results</ows:Value>
+			</ows:Parameter>
+			<ows:Parameter name="outputFormat">
+				<ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+			</ows:Parameter>
+		</ows:Operation>
+		<ows:Operation name="DescribeFeatureType">
+			<ows:DCP>
+				<ows:HTTP>
+					<ows:Get xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></ows:Get>
+					<ows:Post xlink:href="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></ows:Post>
+				</ows:HTTP>
+			</ows:DCP>
+			<ows:Parameter name="outputFormat">
+				<ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+			</ows:Parameter>
+		</ows:Operation>
+	</ows:OperationsMetadata>
+	<!--Feature Type List Section-->
+	<wfs:FeatureTypeList>
+		<wfs:FeatureType xmlns:app="http://skjema.geonorge.no/SOSI/produktspesifikasjon/">
+			<wfs:Name>app:dekningsoversikt.dekningsoversikt</wfs:Name>
+			<wfs:Title>dekningsoversikt.dekningsoversikt</wfs:Title>
+			<wfs:Abstract></wfs:Abstract>
+			<wfs:DefaultSRS>urn:ogc:def:crs:EPSG::4258</wfs:DefaultSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::4326</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25830</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25831</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25832</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25833</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25834</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25835</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::25836</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::3044</wfs:OtherSRS>
+			<wfs:OtherSRS>urn:ogc:def:crs:EPSG::3045</wfs:OtherSRS>
+			<wfs:OutputFormats>
+				<wfs:Format>text/xml; subtype=gml/3.1.1</wfs:Format>
+			</wfs:OutputFormats>
+			<ows:WGS84BoundingBox>
+				<ows:LowerCorner>-180 -90</ows:LowerCorner>
+				<ows:UpperCorner>180 90</ows:UpperCorner>
+			</ows:WGS84BoundingBox>
+		</wfs:FeatureType>
+	</wfs:FeatureTypeList>
+	<!--Supports GML Object Type List Section-->
+	<wfs:SupportsGMLObjectTypeList>
+		<wfs:GMLObjectType>
+			<wfs:Name>gml:AbstractGMLFeatureType</wfs:Name>
+			<wfs:OutputFormats>
+				<wfs:Format>text/xml; subtype=gml3.1.1</wfs:Format>
+			</wfs:OutputFormats>
+		</wfs:GMLObjectType>
+	</wfs:SupportsGMLObjectTypeList>
+	<!--Filter Capabilities Section-->
+	<ogc:Filter_Capabilities>
+		<ogc:Spatial_Capabilities>
+			<ogc:GeometryOperands>
+				<ogc:GeometryOperand>gml:Envelope</ogc:GeometryOperand>
+			</ogc:GeometryOperands>
+			<ogc:SpatialOperators>
+				<ogc:SpatialOperator name="BBOX"></ogc:SpatialOperator>
+			</ogc:SpatialOperators>
+		</ogc:Spatial_Capabilities>
+		<ogc:Scalar_Capabilities>
+			<ogc:LogicalOperators></ogc:LogicalOperators>
+			<ogc:ComparisonOperators>
+				<ogc:ComparisonOperator>LessThan</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>GreaterThan</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>LessThanEqualTo</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>GreaterThanEqualTo</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>EqualTo</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>NotEqualTo</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>Like</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>Between</ogc:ComparisonOperator>
+				<ogc:ComparisonOperator>NullCheck</ogc:ComparisonOperator>
+			</ogc:ComparisonOperators>
+		</ogc:Scalar_Capabilities>
+		<ogc:Id_Capabilities>
+			<ogc:EID></ogc:EID>
+			<ogc:FID></ogc:FID>
+		</ogc:Id_Capabilities>
+	</ogc:Filter_Capabilities>
+</wfs:WFS_Capabilities>
