@@ -5,53 +5,53 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" Z:\Presentasjoner\Demoworkspacer\korallrev_postgis2none.fmw
+#    "C:\Program Files\FME\fme.exe" D:\GitHub\geonorge\Util\korallrev_postgis2none.fmw
 #          --SourceDataset_POSTGIS "geonor01tst"
 #    
 #    
-#! DESCRIPTION=""
-#! FME_DOCUMENT_PRIORGUID="6a8071c0-9f7f-43fb-8f27-2d2773bcdf52,0023eda1-423b-40b4-b097-44ccc051a143"
-#! FME_BUILD_NUM="15515"
-#! SOURCE="NONE"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! USAGE=""
-#! VIEW_POSITION="-903.009 789.008"
-#! IGNORE_READER_FAILURE="No"
-#! REQUIREMENTS_KEYWORD=""
-#! SHOW_INFO_NODES="true"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! LOG_MAX_PRECISION="Yes"
-#! PASSWORD=""
-#! WORKSPACE_VERSION="1"
-#! FME_DOCUMENT_GUID="6202ccfd-1bc4-4c66-8446-2c9dd5cb74d8"
-#! FME_REPROJECTION_ENGINE="FME"
-#! REDIRECT_TERMINATORS="NONE"
-#! DOC_EXTENTS="3798.04 1836.01"
-#! ATTR_TYPE_ENCODING="SDF"
-#! ZOOM_SCALE="100"
-#! BEGIN_PYTHON=""
-#! HISTORY=""
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! BEGIN_TCL=""
-#! FME_SERVER_SERVICES=""
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #! WARN_INVALID_XFORM_PARAM="Yes"
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! END_TCL=""
-#! TITLE=""
-#! DOC_TOP_LEFT="-30.0003 -1707.01"
-#! MAX_LOG_FEATURES="200"
-#! REQUIREMENTS=""
-#! SOURCE_ROUTING_FILE=""
-#! LOG_FILE=""
-#! SHOW_ANNOTATIONS="true"
-#! END_PYTHON=""
-#! CATEGORY=""
-#! LAST_SAVE_DATE="2015-09-23T11:34:30"
 #! DESTINATION="NONE"
-#! DESTINATION_ROUTING_FILE=""
+#! SHOW_ANNOTATIONS="true"
 #! LEGAL_TERMS_CONDITIONS=""
+#! REDIRECT_TERMINATORS="NONE"
+#! FME_DOCUMENT_GUID="497bdd70-21f2-476c-97d9-265fabf06ff3"
+#! PASSWORD=""
+#! DESCRIPTION=""
+#! USAGE=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! REQUIREMENTS=""
+#! DESTINATION_ROUTING_FILE=""
+#! HISTORY=""
+#! LAST_SAVE_DATE="2015-09-23T12:59:06"
+#! ZOOM_SCALE="100"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! BEGIN_TCL=""
+#! BEGIN_PYTHON=""
+#! SOURCE="NONE"
+#! LOG_MAX_PRECISION="Yes"
+#! DOC_EXTENTS="3798.04 1836.01"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! WORKSPACE_VERSION="1"
+#! LOG_FILE=""
+#! TITLE=""
+#! CATEGORY=""
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! IGNORE_READER_FAILURE="No"
+#! FME_DOCUMENT_PRIORGUID="6a8071c0-9f7f-43fb-8f27-2d2773bcdf52,0023eda1-423b-40b4-b097-44ccc051a143,6202ccfd-1bc4-4c66-8446-2c9dd5cb74d8"
+#! DOC_TOP_LEFT="-30.0003 -1707.01"
+#! SHOW_INFO_NODES="true"
+#! FME_SERVER_SERVICES=""
+#! END_PYTHON=""
+#! FME_BUILD_NUM="15515"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! SOURCE_ROUTING_FILE=""
+#! MAX_LOG_FEATURES="200"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! FME_REPROJECTION_ENGINE="FME"
+#! VIEW_POSITION="-1344.01 753.008"
+#! REQUIREMENTS_KEYWORD=""
+#! END_TCL=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -67,7 +67,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_fill_color char(50) fme_sweep_angle float8 fme_rotation float8 multi_reader_type char(50) postgis_collection_part_id int4 fme_text_size float8 fme_feature_type char(50) multi_reader_full_id int4 postgis_type char(50) fme_text_string char(50) fme_basename char(50) postgis_collection_id int4 fme_geometry fme_char(50) postgres_oid int4 multi_reader_id int4 fme_secondary_axis float8 fme_type char(50) fme_primary_axis float8 multi_reader_keyword char(50) fme_start_angle float8 fme_color char(50) fme_dataset char(50)"
+#! EXPOSABLE_ATTRS="postgis_collection_id int4 fme_type char(50) multi_reader_id int4 fme_text_size float8 fme_start_angle float8 fme_secondary_axis float8 fme_rotation float8 postgis_type char(50) fme_feature_type char(50) multi_reader_keyword char(50) postgres_oid int4 multi_reader_type char(50) fme_basename char(50) fme_sweep_angle float8 fme_geometry fme_char(50) postgis_collection_part_id int4 fme_fill_color char(50) fme_text_string char(50) multi_reader_full_id int4 fme_color char(50) fme_dataset char(50) fme_primary_axis float8"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -76,17 +76,13 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! MIN_FEATURES=""
-#! FEATURE_TYPES=""
-#! COORDSYS=""
-#! START_FEATURE=""
 #! MAX_FEATURES=""
+#! FEATURE_TYPES=""
+#! START_FEATURE=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! COORDSYS=""
+#! MIN_FEATURES=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
@@ -98,6 +94,10 @@
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
@@ -670,7 +670,7 @@
 #! BOUNDING_RECT="-28.9998 129.001 3797.04 1248.01"
 #! STICKY="true"
 #! COLOUR="0.666667,0.376471,0.756863"
-#! CONTENTS="27 20 26 7 16 25 8 15 9 33 14 18 10 12 3 13 2 21 22 28 34 23 35 19 "
+#! CONTENTS="34 16 3 18 23 27 13 33 14 26 22 8 35 2 10 20 21 7 9 25 15 12 28 19 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="37"
@@ -681,7 +681,7 @@
 #! BOUNDING_RECT="-30.0003 -1200 1464 507.005"
 #! STICKY="true"
 #! COLOUR="0.0431373,0.537255,0.564706"
-#! CONTENTS="29 32 30 31 "
+#! CONTENTS="30 29 31 32 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -760,20 +760,20 @@
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="OV_ATTR" PARM_VALUE="_overlaps"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POLYS_FIRST" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP1" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OV_ATTR" PARM_VALUE="_overlaps"/>
 #! <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="k_"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointOnAreaOverlayer"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP1" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="POLYS_FIRST" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Prefix Incoming"/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="12"
@@ -855,20 +855,20 @@
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="OV_ATTR" PARM_VALUE="_overlaps"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POLYS_FIRST" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP1" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OV_ATTR" PARM_VALUE="_overlaps"/>
 #! <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="f_"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointOnAreaOverlayer_2"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP1" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="POLYS_FIRST" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Prefix Incoming"/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="19"
@@ -915,17 +915,17 @@
 #! <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="99"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="f_fylkeid"/>
-#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="99"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
+#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
 #! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="f_fylkeid"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="21"
@@ -972,17 +972,17 @@
 #! <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="Uplassert-i-fylke"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="f_navn"/>
-#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="Uplassert-i-fylke"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper_2"/>
+#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
 #! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="f_navn"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="23"
@@ -1029,17 +1029,17 @@
 #! <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="9999"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="k_kommuneid"/>
-#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="9999"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper_3"/>
+#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
 #! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="k_kommuneid"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="26"
@@ -1086,17 +1086,17 @@
 #! <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="Uplassert-i-kommune"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="k_navn"/>
-#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="Uplassert-i-kommune"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper_4"/>
+#! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="New Value"/>
 #! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
 #! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="k_navn"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="31"
@@ -1109,22 +1109,22 @@
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
-#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="View_med_kommune"/>
 #! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="View_med_kommune"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="33"
@@ -1170,11 +1170,11 @@
 #! <XFORM_ATTR ATTR_NAME="k_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="f_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRemover"/>
 #! <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="_overlaps"/>
+#! <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="28"
@@ -1187,22 +1187,22 @@
 #! ENABLED="true"
 #! LAST_PARM_EDIT="15515"
 #! >
-#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FME_modell_med_kommune"/>
 #! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FME_modell_med_kommune"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1439,11 +1439,11 @@ MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
 MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::korallrev.korallrev TO FME_GENERIC ::korallrev.korallrev ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::korallrev.v_korallrev TO FME_GENERIC ::korallrev.v_korallrev ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::admingrense.kommuneflate TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::admingrense.fylkeflate TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-POSTGIS_1_MERGE_DEF POSTGIS_1::korallrev.korallrev EXACT korallrev.korallrev DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,serial<comma>PRIKEY,objtype,varchar<openparen>32<closeparen>,obs_metode,varchar<openparen>80<closeparen>,obs_start,timestamp,obs_slutt,timestamp,bmnatyp,varchar<openparen>80<closeparen>,bm_kildenavn,varchar<openparen>80<closeparen>,bm_kildetittel,varchar<openparen>80<closeparen>,bmkildtyp,varchar<openparen>80<closeparen>,bm_kildeaar,int4,dybde_min,int4,dybde_max,int4,lokalid,uuid<comma>PRIKEY,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,verifiseringsdato,timestamp,maalemetode,varchar<openparen>80<closeparen>,noeyaktighet,int4,synbarhet,varchar<openparen>80<closeparen>,maalemetodehoeyde,varchar<openparen>80<closeparen>,h_noeyaktighet,int4,max_avvik,int4,medium,varchar<openparen>80<closeparen>,opphav,varchar<openparen>80<closeparen>,noeyaktighetsklasse,varchar<openparen>80<closeparen>,produkt,varchar<openparen>80<closeparen>,versjon,varchar<openparen>80<closeparen>
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGIS_1)    ROUTE POSTGIS POSTGIS_1::korallrev.v_korallrev TO FME_GENERIC ::korallrev.v_korallrev ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::admingrense.kommuneflate TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::admingrense.fylkeflate TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::korallrev.korallrev TO FME_GENERIC ::korallrev.korallrev ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::korallrev.v_korallrev EXACT korallrev.v_korallrev DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,int4,objtype,varchar<openparen>32<closeparen>,obs_metode,varchar<openparen>80<closeparen>,obs_start,timestamp,obs_slutt,timestamp,bmnatyp,varchar<openparen>80<closeparen>,bm_kildenavn,varchar<openparen>80<closeparen>,bm_kildetittel,varchar<openparen>80<closeparen>,bmkildtyp,varchar<openparen>80<closeparen>,bm_kildeaar,int4,dybde_min,int4,dybde_max,int4,lokalid,uuid,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,verifiseringsdato,timestamp,maalemetode,varchar<openparen>80<closeparen>,noeyaktighet,int4,synbarhet,varchar<openparen>80<closeparen>,maalemetodehoeyde,varchar<openparen>80<closeparen>,h_noeyaktighet,int4,max_avvik,int4,medium,varchar<openparen>80<closeparen>,opphav,varchar<openparen>80<closeparen>,noeyaktighetsklasse,varchar<openparen>80<closeparen>,produkt,varchar<openparen>80<closeparen>,versjon,varchar<openparen>80<closeparen>,k_kommuneid,int4,k_navn,varchar<openparen>80<closeparen>,f_fylkeid,int4,f_navn,varchar<openparen>80<closeparen>
 POSTGIS_1_MERGE_DEF POSTGIS_1::admingrense.kommuneflate EXACT admingrense.kommuneflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4,navn,varchar<openparen>80<closeparen>
 POSTGIS_1_MERGE_DEF POSTGIS_1::admingrense.fylkeflate EXACT admingrense.fylkeflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,fylkeid,int4,navn,varchar<openparen>80<closeparen>
+POSTGIS_1_MERGE_DEF POSTGIS_1::korallrev.korallrev EXACT korallrev.korallrev DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,objid,serial<comma>PRIKEY,objtype,varchar<openparen>32<closeparen>,obs_metode,varchar<openparen>80<closeparen>,obs_start,timestamp,obs_slutt,timestamp,bmnatyp,varchar<openparen>80<closeparen>,bm_kildenavn,varchar<openparen>80<closeparen>,bm_kildetittel,varchar<openparen>80<closeparen>,bmkildtyp,varchar<openparen>80<closeparen>,bm_kildeaar,int4,dybde_min,int4,dybde_max,int4,lokalid,uuid<comma>PRIKEY,navnerom,varchar<openparen>80<closeparen>,versjonid,varchar<openparen>80<closeparen>,verifiseringsdato,timestamp,maalemetode,varchar<openparen>80<closeparen>,noeyaktighet,int4,synbarhet,varchar<openparen>80<closeparen>,maalemetodehoeyde,varchar<openparen>80<closeparen>,h_noeyaktighet,int4,max_avvik,int4,medium,varchar<openparen>80<closeparen>,opphav,varchar<openparen>80<closeparen>,noeyaktighetsklasse,varchar<openparen>80<closeparen>,produkt,varchar<openparen>80<closeparen>,versjon,varchar<openparen>80<closeparen>
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
@@ -1472,23 +1472,23 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME View_med_kommune_VectorSetterUpper    I
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
 
-Tcl2 proc View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME View_med_kommune___PointCloudThinner    INPUT FEATURE_TYPE View_med_kommune___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_thinPointCloud")
-Tcl2 proc View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME View_med_kommune_RasterSetterUpper    INPUT FEATURE_TYPE View_med_kommune___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME View_med_kommune___PointCloudThinner    INPUT FEATURE_TYPE View_med_kommune___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_thinPointCloud")
+Tcl2 proc View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME View_med_kommune_RasterSetterUpper    INPUT FEATURE_TYPE View_med_kommune___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_VIS_FEAT_TYPE changes the feature types
+# View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
 
-DEFAULT_MACRO View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_VIS_FEAT_TYPE View_med_kommune$(CATMAC)
+DEFAULT_MACRO View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_VIS_FEAT_TYPE View_med_kommune$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
 
-FACTORY_DEF * RecorderFactory    FACTORY_NAME View_med_kommune_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(View_med_kommune_8da322a1_7620_4ce1_b6b7_62685e20f54a0_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA objid,varchar<openparen>255<closeparen>,objtype,varchar<openparen>255<closeparen>,obs_metode,varchar<openparen>255<closeparen>,obs_start,varchar<openparen>255<closeparen>,obs_slutt,varchar<openparen>255<closeparen>,bmnatyp,varchar<openparen>255<closeparen>,bm_kildenavn,varchar<openparen>255<closeparen>,bm_kildetittel,varchar<openparen>255<closeparen>,bmkildtyp,varchar<openparen>255<closeparen>,bm_kildeaar,varchar<openparen>255<closeparen>,dybde_min,varchar<openparen>255<closeparen>,dybde_max,varchar<openparen>255<closeparen>,lokalid,varchar<openparen>255<closeparen>,navnerom,varchar<openparen>255<closeparen>,versjonid,varchar<openparen>255<closeparen>,verifiseringsdato,varchar<openparen>255<closeparen>,maalemetode,varchar<openparen>255<closeparen>,noeyaktighet,varchar<openparen>255<closeparen>,synbarhet,varchar<openparen>255<closeparen>,maalemetodehoeyde,varchar<openparen>255<closeparen>,h_noeyaktighet,varchar<openparen>255<closeparen>,max_avvik,varchar<openparen>255<closeparen>,medium,varchar<openparen>255<closeparen>,opphav,varchar<openparen>255<closeparen>,noeyaktighetsklasse,varchar<openparen>255<closeparen>,produkt,varchar<openparen>255<closeparen>,versjon,varchar<openparen>255<closeparen>,k_kommuneid,varchar<openparen>255<closeparen>,k_navn,varchar<openparen>255<closeparen>,f_fylkeid,varchar<openparen>255<closeparen>,f_navn,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME View_med_kommune_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(View_med_kommune_4a5eec49_235c_4d4b_a37b_db887185c7330_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA objid,varchar<openparen>255<closeparen>,objtype,varchar<openparen>255<closeparen>,obs_metode,varchar<openparen>255<closeparen>,obs_start,varchar<openparen>255<closeparen>,obs_slutt,varchar<openparen>255<closeparen>,bmnatyp,varchar<openparen>255<closeparen>,bm_kildenavn,varchar<openparen>255<closeparen>,bm_kildetittel,varchar<openparen>255<closeparen>,bmkildtyp,varchar<openparen>255<closeparen>,bm_kildeaar,varchar<openparen>255<closeparen>,dybde_min,varchar<openparen>255<closeparen>,dybde_max,varchar<openparen>255<closeparen>,lokalid,varchar<openparen>255<closeparen>,navnerom,varchar<openparen>255<closeparen>,versjonid,varchar<openparen>255<closeparen>,verifiseringsdato,varchar<openparen>255<closeparen>,maalemetode,varchar<openparen>255<closeparen>,noeyaktighet,varchar<openparen>255<closeparen>,synbarhet,varchar<openparen>255<closeparen>,maalemetodehoeyde,varchar<openparen>255<closeparen>,h_noeyaktighet,varchar<openparen>255<closeparen>,max_avvik,varchar<openparen>255<closeparen>,medium,varchar<openparen>255<closeparen>,opphav,varchar<openparen>255<closeparen>,noeyaktighetsklasse,varchar<openparen>255<closeparen>,produkt,varchar<openparen>255<closeparen>,versjon,varchar<openparen>255<closeparen>,k_kommuneid,varchar<openparen>255<closeparen>,k_navn,varchar<openparen>255<closeparen>,f_fylkeid,varchar<openparen>255<closeparen>,f_navn,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 
 # -------------------------------------------------------------------------
 
@@ -1500,23 +1500,23 @@ FACTORY_DEF * OverlayFactory    FACTORY_NAME PointOnAreaOverlayer_2    INPUT POI
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_877c5a3b_efda_44e4_b491_c743e0e0175e0_null_replacer { otherValue newValue regExp } {    set attrs [split {f_fylkeid} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE PointOnAreaOverlayer_2_POINT    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_877c5a3b_efda_44e4_b491_c743e0e0175e0_null_replacer {} {99} {}")
+Tcl2 proc NullAttributeMapper_1609cd55_208b_4f30_8389_43224507f1e30_null_replacer { otherValue newValue regExp } {    set attrs [split {f_fylkeid} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE PointOnAreaOverlayer_2_POINT    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_1609cd55_208b_4f30_8389_43224507f1e30_null_replacer {} {99} {}")
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_2_5fc7d42d_e852_467d_ad1e_8cdeb9d7a98c0_null_replacer { otherValue newValue regExp } {    set attrs [split {f_navn} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_2    INPUT  FEATURE_TYPE NullAttributeMapper_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT         @Tcl2("NullAttributeMapper_2_5fc7d42d_e852_467d_ad1e_8cdeb9d7a98c0_null_replacer {} {Uplassert-i-fylke} {}")
+Tcl2 proc NullAttributeMapper_2_b08cdaba_c04d_4f99_9b26_a02cb2c6f8380_null_replacer { otherValue newValue regExp } {    set attrs [split {f_navn} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_2    INPUT  FEATURE_TYPE NullAttributeMapper_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT         @Tcl2("NullAttributeMapper_2_b08cdaba_c04d_4f99_9b26_a02cb2c6f8380_null_replacer {} {Uplassert-i-fylke} {}")
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_3_82283948_2a94_4c13_bf34_8c0776c8b2960_null_replacer { otherValue newValue regExp } {    set attrs [split {k_kommuneid} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_3    INPUT  FEATURE_TYPE NullAttributeMapper_2_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_3_OUTPUT         @Tcl2("NullAttributeMapper_3_82283948_2a94_4c13_bf34_8c0776c8b2960_null_replacer {} {9999} {}")
+Tcl2 proc NullAttributeMapper_3_3c3f0098_02e8_4619_a67e_18b92656d0fe0_null_replacer { otherValue newValue regExp } {    set attrs [split {k_kommuneid} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_3    INPUT  FEATURE_TYPE NullAttributeMapper_2_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_3_OUTPUT         @Tcl2("NullAttributeMapper_3_3c3f0098_02e8_4619_a67e_18b92656d0fe0_null_replacer {} {9999} {}")
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_4_3644ba5c_567c_4650_9c54_e2f608f4c57d0_null_replacer { otherValue newValue regExp } {    set attrs [split {k_navn} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_4    INPUT  FEATURE_TYPE NullAttributeMapper_3_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_4_OUTPUT         @Tcl2("NullAttributeMapper_4_3644ba5c_567c_4650_9c54_e2f608f4c57d0_null_replacer {} {Uplassert-i-kommune} {}")
+Tcl2 proc NullAttributeMapper_4_6dd81522_65ea_4bdb_bcaf_fc7ce99f0e700_null_replacer { otherValue newValue regExp } {    set attrs [split {k_navn} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_4    INPUT  FEATURE_TYPE NullAttributeMapper_3_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_4_OUTPUT         @Tcl2("NullAttributeMapper_4_6dd81522_65ea_4bdb_bcaf_fc7ce99f0e700_null_replacer {} {Uplassert-i-kommune} {}")
 
 # -------------------------------------------------------------------------
 
@@ -1550,23 +1550,23 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME FME_modell_med_kommune_VectorSetterUppe
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
 
-Tcl2 proc FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME FME_modell_med_kommune___PointCloudThinner    INPUT FEATURE_TYPE FME_modell_med_kommune___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_thinPointCloud")
-Tcl2 proc FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME FME_modell_med_kommune_RasterSetterUpper    INPUT FEATURE_TYPE FME_modell_med_kommune___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME FME_modell_med_kommune___PointCloudThinner    INPUT FEATURE_TYPE FME_modell_med_kommune___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_thinPointCloud")
+Tcl2 proc FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME FME_modell_med_kommune_RasterSetterUpper    INPUT FEATURE_TYPE FME_modell_med_kommune___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_VIS_FEAT_TYPE changes the feature types
+# FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
 
-DEFAULT_MACRO FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_VIS_FEAT_TYPE FME_modell_med_kommune$(CATMAC)
+DEFAULT_MACRO FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_VIS_FEAT_TYPE FME_modell_med_kommune$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
 
-FACTORY_DEF * RecorderFactory    FACTORY_NAME FME_modell_med_kommune_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(FME_modell_med_kommune_1994fd26_28b9_4775_a7f1_40fe9f41b6c20_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA objid,varchar<openparen>255<closeparen>,objtype,varchar<openparen>255<closeparen>,obs_metode,varchar<openparen>255<closeparen>,obs_start,varchar<openparen>255<closeparen>,obs_slutt,varchar<openparen>255<closeparen>,bmnatyp,varchar<openparen>255<closeparen>,bm_kildenavn,varchar<openparen>255<closeparen>,bm_kildetittel,varchar<openparen>255<closeparen>,bmkildtyp,varchar<openparen>255<closeparen>,bm_kildeaar,varchar<openparen>255<closeparen>,dybde_min,varchar<openparen>255<closeparen>,dybde_max,varchar<openparen>255<closeparen>,lokalid,varchar<openparen>255<closeparen>,navnerom,varchar<openparen>255<closeparen>,versjonid,varchar<openparen>255<closeparen>,verifiseringsdato,varchar<openparen>255<closeparen>,maalemetode,varchar<openparen>255<closeparen>,noeyaktighet,varchar<openparen>255<closeparen>,synbarhet,varchar<openparen>255<closeparen>,maalemetodehoeyde,varchar<openparen>255<closeparen>,h_noeyaktighet,varchar<openparen>255<closeparen>,max_avvik,varchar<openparen>255<closeparen>,medium,varchar<openparen>255<closeparen>,opphav,varchar<openparen>255<closeparen>,noeyaktighetsklasse,varchar<openparen>255<closeparen>,produkt,varchar<openparen>255<closeparen>,versjon,varchar<openparen>255<closeparen>,k_kommuneid,varchar<openparen>255<closeparen>,k_navn,varchar<openparen>255<closeparen>,f_fylkeid,varchar<openparen>255<closeparen>,f_navn,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME FME_modell_med_kommune_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(FME_modell_med_kommune_a3831790_e3a6_422e_88f7_3ab46ea659f70_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA objid,varchar<openparen>255<closeparen>,objtype,varchar<openparen>255<closeparen>,obs_metode,varchar<openparen>255<closeparen>,obs_start,varchar<openparen>255<closeparen>,obs_slutt,varchar<openparen>255<closeparen>,bmnatyp,varchar<openparen>255<closeparen>,bm_kildenavn,varchar<openparen>255<closeparen>,bm_kildetittel,varchar<openparen>255<closeparen>,bmkildtyp,varchar<openparen>255<closeparen>,bm_kildeaar,varchar<openparen>255<closeparen>,dybde_min,varchar<openparen>255<closeparen>,dybde_max,varchar<openparen>255<closeparen>,lokalid,varchar<openparen>255<closeparen>,navnerom,varchar<openparen>255<closeparen>,versjonid,varchar<openparen>255<closeparen>,verifiseringsdato,varchar<openparen>255<closeparen>,maalemetode,varchar<openparen>255<closeparen>,noeyaktighet,varchar<openparen>255<closeparen>,synbarhet,varchar<openparen>255<closeparen>,maalemetodehoeyde,varchar<openparen>255<closeparen>,h_noeyaktighet,varchar<openparen>255<closeparen>,max_avvik,varchar<openparen>255<closeparen>,medium,varchar<openparen>255<closeparen>,opphav,varchar<openparen>255<closeparen>,noeyaktighetsklasse,varchar<openparen>255<closeparen>,produkt,varchar<openparen>255<closeparen>,versjon,varchar<openparen>255<closeparen>,k_kommuneid,varchar<openparen>255<closeparen>,k_navn,varchar<openparen>255<closeparen>,f_fylkeid,varchar<openparen>255<closeparen>,f_navn,varchar<openparen>255<closeparen>    MODE RECORD    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 
 # -------------------------------------------------------------------------
 
