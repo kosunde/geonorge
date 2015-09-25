@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WFS_Capabilities xmlns:gml2="http://www.safe.com/gml2" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/wfs" version="1.0.0">
+	<!--Service Identification Section-->
+	<Service>
+		<Name>FME Server WFS Service</Name>
+		<Title>WFS Service Compliant with OGC WFS Specification Version 1.0.0</Title>
+		<Abstract>An OGC WFS Service created by Safe Software's FME Server</Abstract>
+		<OnlineResource>"http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"</OnlineResource>
+		<Fees>None</Fees>
+		<AccessConstraints>None</AccessConstraints>
+	</Service>
+	<!--Operations Metadata Section-->
+	<Capability>
+		<Request>
+			<GetCapabilities>
+				<DCPType>
+					<HTTP>
+						<Get onlineResource="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></Get>
+						<Post onlineResource="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></Post>
+					</HTTP>
+				</DCPType>
+			</GetCapabilities>
+			<GetFeature>
+				<ResultFormat>
+					<GML2></GML2>
+				</ResultFormat>
+				<DCPType>
+					<HTTP>
+						<Get onlineResource="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></Get>
+						<Post onlineResource="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></Post>
+					</HTTP>
+				</DCPType>
+			</GetFeature>
+			<DescribeFeatureType>
+				<SchemaDescriptionLanguage>
+					<XMLSCHEMA></XMLSCHEMA>
+				</SchemaDescriptionLanguage>
+				<DCPType>
+					<HTTP>
+						<Get onlineResource="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></Get>
+						<Post onlineResource="http://nnrite507/fmedatastreaming/Dekningsanalyse/DekningsanalyseWFS.fmw"></Post>
+					</HTTP>
+				</DCPType>
+			</DescribeFeatureType>
+		</Request>
+	</Capability>
+	<!--Feature Type List Section-->
+	<FeatureTypeList>
+		<Operations>
+			<Query></Query>
+		</Operations>
+		<FeatureType>
+			<Name>dekningsoversikt.dekningsoversikt</Name>
+			<Title>dekningsoversikt.dekningsoversikt</Title>
+			<Abstract></Abstract>
+			<SRS>EPSG:4258</SRS>
+			<SRS>EPSG:4326</SRS>
+			<SRS>EPSG:25830</SRS>
+			<SRS>EPSG:25831</SRS>
+			<SRS>EPSG:25832</SRS>
+			<SRS>EPSG:25833</SRS>
+			<SRS>EPSG:25834</SRS>
+			<SRS>EPSG:25835</SRS>
+			<SRS>EPSG:25836</SRS>
+			<SRS>EPSG:3044</SRS>
+			<SRS>EPSG:3045</SRS>
+			<LatLongBoundingBox maxx="180" maxy="90" minx="-180" miny="-90"></LatLongBoundingBox>
+		</FeatureType>
+	</FeatureTypeList>
+	<!--Filter Capabilities Section-->
+	<ogc:Filter_Capabilities>
+		<ogc:Spatial_Capabilities>
+			<ogc:Spatial_Operators>
+				<ogc:BBOX></ogc:BBOX>
+			</ogc:Spatial_Operators>
+		</ogc:Spatial_Capabilities>
+		<ogc:Scalar_Capabilities>
+			<ogc:Logical_Operators></ogc:Logical_Operators>
+		</ogc:Scalar_Capabilities>
+	</ogc:Filter_Capabilities>
+</WFS_Capabilities>

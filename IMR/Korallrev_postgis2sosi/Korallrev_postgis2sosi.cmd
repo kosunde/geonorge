@@ -11,7 +11,7 @@ rem
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Korallrev_postgis2sosi\Korallrev_postgis2sosi.fmw --FNR "1-17" --OUTPUT_EPSG_CODE "25832" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Korallrev_postgis2sosi\Korallrev_postgis2sosi.fmw --FNR "18-19" --OUTPUT_EPSG_CODE "25833" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Korallrev_postgis2sosi\Korallrev_postgis2sosi.fmw --FNR "20" --OUTPUT_EPSG_CODE "25835" --FANOUT "Fylker"
-"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Korallrev_postgis2sosi\Korallrev_postgis2sosi.fmw --OUTPUT_EPSG_CODE "25833"
+"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Korallrev_postgis2sosi\Korallrev_postgis2sosi.fmw --OUTPUT_EPSG_CODE "25833" --FANOUT "Norge"
 time /t
 endlocal
 @echo on
