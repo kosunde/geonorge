@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://skjema.geonorge.no/SOSI/produktspesifikasjon/Luftfartshindre/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sosi="http://www.statkart.no/sosi/gml" elementFormDefault="qualified" targetNamespace="http://skjema.geonorge.no/SOSI/produktspesifikasjon/Luftfartshindre/1.0" version="1.0.1">
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <simpleType name="AnsvarligForMerkingType">
+    <annotation>
+      <documentation>hvem har ansvar for merking</documentation>
+    </annotation>
+    <union memberTypes="app:AnsvarligForMerkingEnumerationType app:AnsvarligForMerkingOtherType"/>
+  </simpleType>
+  <simpleType name="AnsvarligForMerkingEnumerationType">
+    <annotation>
+      <documentation>hvem har ansvar for merking</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="EIER"/>
+      <enumeration value="ITOG"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="AnsvarligForMerkingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Eier" substitutionGroup="app:Kontakt" type="app:EierType">
+    <annotation>
+      <documentation>tiltakshaver, eier, utbygger eller ansvarlig søker</documentation>
+    </annotation>
+  </element>
+  <complexType name="EierType">
+    <complexContent>
+      <extension base="app:KontaktType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="EierPropertyType">
+    <sequence>
+      <element ref="app:Eier"/>
+    </sequence>
+  </complexType>
+  <element name="Endringsflagg" substitutionGroup="gml:AbstractObject" type="app:EndringsflaggType">
+    <annotation>
+      <documentation>endringsinformasjon om et objekt
+
+Merknad: 
+Inntil videre vil hele objektet merkes med endringsflagget.
+I det videre arbeidet (framtidige versjoner) vil denne kunne utvides, f.eks ved å angi om endringen er knyttet til geometrien, egenskapene eller relasjoner</documentation>
+    </annotation>
+  </element>
+  <complexType name="EndringsflaggType">
+    <sequence>
+      <element name="typeEndring" type="app:TypeEndringType">
+        <annotation>
+          <documentation>endringsstatus for objektet</documentation>
+        </annotation>
+      </element>
+      <element name="tidspunktEndring" type="dateTime">
+        <annotation>
+          <documentation>tidspunkt for endring av objektet</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="EndringsflaggPropertyType">
+    <sequence>
+      <element ref="app:Endringsflagg"/>
+    </sequence>
+  </complexType>
+  <element name="Farge" substitutionGroup="gml:AbstractObject" type="app:FargeType">
+    <annotation>
+      <documentation>detaljer om fargen og dens egenskaper</documentation>
+    </annotation>
+  </element>
+  <complexType name="FargeType">
+    <sequence>
+      <element name="farge" type="app:MerkingFargeType">
+        <annotation>
+          <documentation>farge angis med koder fra definert kodeliste</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="annet" type="string">
+        <annotation>
+          <documentation>hvis "annet" velges på attributt farge, må dette spesifiseres her</documentation>
+        </annotation>
+      </element>
+      <element name="fluoriserende" type="app:JaNeiType">
+        <annotation>
+          <documentation>om fargemerkingen er fluoriserende (selvlysende)</documentation>
+        </annotation>
+      </element>
+      <element name="reflekterende" type="app:JaNeiType">
+        <annotation>
+          <documentation>om fargemerkingen er reflekterende</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="FargePropertyType">
+    <sequence>
+      <element ref="app:Farge"/>
+    </sequence>
+  </complexType>
+  <simpleType name="HøydereferanseType">
+    <annotation>
+      <documentation>koordinatregistering utført på topp eller bunn av et objekt</documentation>
+    </annotation>
+    <union memberTypes="app:HøydereferanseEnumerationType app:HøydereferanseOtherType"/>
+  </simpleType>
+  <simpleType name="HøydereferanseEnumerationType">
+    <annotation>
+      <documentation>koordinatregistering utført på topp eller bunn av et objekt</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="FOT"/>
+      <enumeration value="TOP"/>
+      <enumeration value="UKJENT">
+        <annotation>
+          <documentation>benyttes ikke ved nyregistrering</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="HøydereferanseOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="HøydereferansesystemType">
+    <annotation>
+      <documentation>referanseflate som er utgangspunktet for høyde</documentation>
+    </annotation>
+    <union memberTypes="app:HøydereferansesystemEnumerationType app:HøydereferansesystemOtherType"/>
+  </simpleType>
+  <simpleType name="HøydereferansesystemEnumerationType">
+    <annotation>
+      <documentation>referanseflate som er utgangspunktet for høyde</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="ELLIP"/>
+      <enumeration value="LOKAL"/>
+      <enumeration value="NKG89">
+        <annotation>
+          <documentation>NKG: The Nordic Geodetic Commission - founded in 1953 - is an association of geodesists from Denmark, Finland, Iceland, Norway and Sweden. Its purpose is to give the members possibilities of fruitful gatherings and mutual exchange of professional views and experiences. The NKG is recognized and supported by a number of Nordic  organizations, such as the Director Generals of the Nordic Mapping Authorities. (Kilde: http://217.152.180.26/nkg/)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NN54">
+        <annotation>
+          <documentation>Denne er identisk med NN1954</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NNN57">
+        <annotation>
+          <documentation>For nyere data er denne gått ut av bruk. Er erstattet av NN54.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NN2000">
+        <annotation>
+          <documentation>Nytt felles nordisk vertikalt datum, basert på Normaal Amsterdals Peil.</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="HøydereferansesystemOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Identifikasjon" substitutionGroup="gml:AbstractObject" type="app:IdentifikasjonType">
+    <annotation>
+      <documentation>Unik identifikasjon av et objekt, ivaretatt av den ansvarlige produsent/forvalter, som kan benyttes av eksterne applikasjoner som referanse til objektet. 
+
+NOTE1 Denne eksterne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer. 
+
+NOTE 2 Denne unike identifikatoren vil ikke endres i løpet av objektets levetid.</documentation>
+    </annotation>
+  </element>
+  <complexType name="IdentifikasjonType">
+    <sequence>
+      <element name="lokalId" type="string">
+        <annotation>
+          <documentation>lokal identifikator, tildelt av dataleverendør/dataforvalter. Den lokale identifikatoren er unik innenfor navnerommet, ingen andre objekter har samme identifikator.
+
+NOTE: Det er data leverendørens ansvar å sørge for at denne lokale identifikatoren er unik innenfor navnerommet.</documentation>
+        </annotation>
+      </element>
+      <element name="navnerom" type="string">
+        <annotation>
+          <documentation>navnerom som unikt identifiserer datakilden til objektet, starter med to bokstavs kode jfr ISO 3166. Benytter understreking  ("_") dersom data produsenten ikke er assosiert med bare et land.
+
+NOTE 1 : Verdien for nanverom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og vil registreres i "INSPIRE external  Object Identifier Namespaces Register"
+
+Eksempel: NO for Norge.</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="versjonId" type="string">
+        <annotation>
+          <documentation>identifikasjon av en spesiell versjon av et geografisk objekt (instans), maksimum lengde på 25 karakterers. Dersom spesifikasjonen av et geografisk objekt med en identifikasjon inkludererer livsløpssyklusinformasjon, benyttes denne versjonId for å skille mellom ulike versjoner av samme objekt. versjonId er en unik  identifikasjon av versjonen. 
+
+NOTE Maksimum lengde er valgt for å tillate tidsregistrering i henhold til  ISO 8601, slik som  "2007-02-12T12:12:12+05:30" som versjonId.</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="IdentifikasjonPropertyType">
+    <sequence>
+      <element ref="app:Identifikasjon"/>
+    </sequence>
+  </complexType>
+  <element name="Innmelder" substitutionGroup="app:Kontakt" type="app:InnmelderType">
+    <annotation>
+      <documentation>innmelder har rettigheter til å registrere hindre for gitte tiltakshavere</documentation>
+    </annotation>
+  </element>
+  <complexType name="InnmelderType">
+    <complexContent>
+      <extension base="app:KontaktType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="InnmelderPropertyType">
+    <sequence>
+      <element ref="app:Innmelder"/>
+    </sequence>
+  </complexType>
+  <simpleType name="JaNeiType">
+    <annotation>
+      <documentation>alternativ til å bruke den generelle datatypen Boolean</documentation>
+    </annotation>
+    <union memberTypes="app:JaNeiEnumerationType app:JaNeiOtherType"/>
+  </simpleType>
+  <simpleType name="JaNeiEnumerationType">
+    <annotation>
+      <documentation>alternativ til å bruke den generelle datatypen Boolean</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Ja"/>
+      <enumeration value="Nei"/>
+      <enumeration value="Ukjent"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="JaNeiOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KommunenummerType">
+    <annotation>
+      <documentation>Kommunenummer forvaltes av matrikkelsystemet</documentation>
+    </annotation>
+    <union memberTypes="app:KommunenummerEnumerationType app:KommunenummerOtherType"/>
+  </simpleType>
+  <simpleType name="KommunenummerEnumerationType">
+    <annotation>
+      <documentation>Kommunenummer forvaltes av matrikkelsystemet</documentation>
+    </annotation>
+    <restriction base="string"/>
+  </simpleType>
+  <simpleType name="KommunenummerOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Kontakt" substitutionGroup="gml:AbstractObject" type="app:KontaktType">
+    <annotation>
+      <documentation>kontaktinformasjon for dette objektet hos hindereier</documentation>
+    </annotation>
+  </element>
+  <complexType name="KontaktType">
+    <sequence>
+      <element name="kontaktnavn" type="string">
+        <annotation>
+          <documentation>firmanavn eller kontaktperson for dette objektet</documentation>
+        </annotation>
+      </element>
+      <element name="adresse" type="app:VegadressePropertyType">
+        <annotation>
+          <documentation>adresseinformasjon ifm et hinder</documentation>
+        </annotation>
+      </element>
+      <element maxOccurs="unbounded" minOccurs="0" name="telefon" type="string">
+        <annotation>
+          <documentation>gjelder alle typer telefonnumre</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="ePost" type="string"/>
+      <element minOccurs="0" name="firmanavn" type="string">
+        <annotation>
+          <documentation>hvilket firma representerer kontaktpersonen</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="KontaktPropertyType">
+    <sequence>
+      <element ref="app:Kontakt"/>
+    </sequence>
+  </complexType>
+  <element name="Kontaktperson" substitutionGroup="app:Kontakt" type="app:KontaktpersonType">
+    <annotation>
+      <documentation>en person som kan kontaktes for informasjon om et objekt. Kan være ansatt hos tiltakshaver eller annen kontaktperson</documentation>
+    </annotation>
+  </element>
+  <complexType name="KontaktpersonType">
+    <complexContent>
+      <extension base="app:KontaktType">
+        <sequence/>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KontaktpersonPropertyType">
+    <sequence>
+      <element ref="app:Kontaktperson"/>
+    </sequence>
+  </complexType>
+  <element name="Link" substitutionGroup="gml:AbstractObject" type="app:LinkType">
+    <annotation>
+      <documentation>referanse  til et informasjonselement, enten lokalt eller globalt
+
+Eksempel:
+Som lokal : //skrisrv2/tjenester/sosiforv/web/welcome.htm
+Som global: http://www.statkart.no/standard/sosi/ACCESS/welcome.htm</documentation>
+    </annotation>
+  </element>
+  <complexType name="LinkType">
+    <sequence/>
+  </complexType>
+  <complexType name="LinkPropertyType">
+    <sequence>
+      <element ref="app:Link"/>
+    </sequence>
+  </complexType>
+  <element name="Lyssetting" substitutionGroup="app:Supertype_Lyssetting" type="app:LyssettingType">
+    <annotation>
+      <documentation>lyssetting ifm merking av et hinder</documentation>
+    </annotation>
+  </element>
+  <complexType name="LyssettingType">
+    <complexContent>
+      <extension base="app:Supertype_LyssettingType">
+        <sequence>
+          <element name="lystype" type="app:LystypeType">
+            <annotation>
+              <documentation>hva slags type lys brukes til merking av hinderet</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="LyssettingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Lyssetting"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="LystypeType">
+    <annotation>
+      <documentation>hinderlys til bruk ved merking av luftfartshinder i henhold til vedlegg til forskrift om rapportering, registrering og merking av luftfartshinder, BSL E 2-1.
+&lt;font color="#0f0f0f"&gt;Dette vedlegget er tabell 6-3 i ICAO annex 14. I tillegg er det mulig å velge koder fra gammel NRL&lt;/font&gt;</documentation>
+    </annotation>
+    <union memberTypes="app:LystypeEnumerationType app:LystypeOtherType"/>
+  </simpleType>
+  <simpleType name="LystypeEnumerationType">
+    <annotation>
+      <documentation>hinderlys til bruk ved merking av luftfartshinder i henhold til vedlegg til forskrift om rapportering, registrering og merking av luftfartshinder, BSL E 2-1.
+&lt;font color="#0f0f0f"&gt;Dette vedlegget er tabell 6-3 i ICAO annex 14. I tillegg er det mulig å velge koder fra gammel NRL&lt;/font&gt;</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="LIA">
+        <annotation>
+          <documentation>rødt, fast, 10 candela</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LIB">
+        <annotation>
+          <documentation>rødt, fast, 32 candela</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LIC">
+        <annotation>
+          <documentation>ikke del av oversikten i vedlegg 2 BSL E 2-1, men tatt fra tabell 6-3 i ICAO annex 14</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LID">
+        <annotation>
+          <documentation>ikke del av oversikten i vedlegg 2 BSL E 2-1, men tatt fra tabell 6-3 i ICAO annex 14</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MIA">
+        <annotation>
+          <documentation>hvitt, blinkende, 20 000 candela ved bakgrunnsbelysning 50 cd/m ² og over, 2000 candela med bakgrunnsbelysning uneder 50 cd/m ²</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MIB">
+        <annotation>
+          <documentation>rødt, blinkende, 2000 candela</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MIC">
+        <annotation>
+          <documentation>rødt, fast, 2000 candela</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HIA">
+        <annotation>
+          <documentation>hvitt, blinkende, 200 000 candela ved bakgrunnsbelysning over 500 cd/m², 20 000 candela ved bakgrunnsbelysning 50-500 cd/m² og 2000 candela ved bakgrunnsbelysning under 50 cd/m²</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HIB">
+        <annotation>
+          <documentation>hvitt, blinkende, 100 000 candela ved bakgrunnsbelysning over 500 cd/m², 20 000 candela ved bakgrunnsbelysning 50-500 cd/m² og 2000 candela ved bakgrunnsbelysning under 50 cd/m²</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FLO">
+        <annotation>
+          <documentation>objektet er opplys av lyskastere for å være synlig for luftfarten</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FR">
+        <annotation>
+          <documentation>brukes dersom vi ikke vet lysstyrke, men har observert lysfarge rød fast lys</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FH">
+        <annotation>
+          <documentation>brukes dersom vi ikke vet lysstyrke, men har observert lysfarge hvit fast lys</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BH">
+        <annotation>
+          <documentation>brukes dersom vi ikke vet lysstyrke, men har observert lysfarge hvitt blinkende lys</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BR">
+        <annotation>
+          <documentation>brukes dersom vi ikke vet lysstyrke, men har observert lysfarge rødt blinkende lys</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="L">
+        <annotation>
+          <documentation>brukes dersom man vet at det har lys, men ikke vet farge og type</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IL"/>
+      <enumeration value="UKJ"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LystypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Matrikkelnummer" substitutionGroup="gml:AbstractObject" type="app:MatrikkelnummerType">
+    <annotation>
+      <documentation>Entydig identifisering av matrikkelenhet innen kommune, definert i matrikkelforskrift § 7.
+
+Matrikkelnummeret for grunneiendom, anleggseiendom og jordsameie skal bestå av et gårdsnummer og et bruksnummer. Bruksnummeret inngår i en fortløpende nummerering innenfor gårdsnummeret.
+
+Matrikkelnummer for festegrunn skal bestå av gårdsnummer, bruksnummer og festenummer. Festenummeret inngår i en fortløpende nummerering av festegrunn på vedkommende grunneiendom eller jordsameie.
+
+Matrikkelnummer for eierseksjon skal bestå av gårdsnummer, bruksnummer og seksjonsnummer. Dersom eierseksjonen ligg på festegrunn, skal festenummeret være en del av matrikkelnummeret. Seksjonsnummeret inngår i en fortløpende nummerering av eierseksjonene på vedkommende grunneiendom, anleggseiendom eller festegrunn.</documentation>
+    </annotation>
+  </element>
+  <complexType name="MatrikkelnummerType">
+    <sequence>
+      <element name="kommunenummer" type="app:KommunenummerType"/>
+      <element name="gårdsnummer" type="integer">
+        <annotation>
+          <documentation>En kommune er delt inn i flere gårder, og alle matrikkelenheter ligger på en gårdsenhet. Gårdsnummer er nummeret på en gårdsenhet i matrikkelen og er unikt innenfor hver kommune. Forkortelsen er gnr</documentation>
+        </annotation>
+      </element>
+      <element name="bruksnummer" type="integer">
+        <annotation>
+          <documentation>Hver gård er delt opp i et eller flere bruk. Neste ledige bruksnummer innen et gårdsnummer tildeles automatisk. Forkortelsen er bnr</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="festenummer" type="integer">
+        <annotation>
+          <documentation>Fortløpende nummerering av fester under gårdsnummer/bruksnummer. Forkortelsen er fnr</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="seksjonsnummer" type="integer">
+        <annotation>
+          <documentation>Fortløpende nummerering av seksjoner under gårdsnummer/bruksnummer og eventuelt festenummer.</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="MatrikkelnummerPropertyType">
+    <sequence>
+      <element ref="app:Matrikkelnummer"/>
+    </sequence>
+  </complexType>
+  <simpleType name="MerkeInformasjonType">
+    <annotation>
+      <documentation>utdypende informasjon om merking</documentation>
+    </annotation>
+    <union memberTypes="app:MerkeInformasjonEnumerationType app:MerkeInformasjonOtherType"/>
+  </simpleType>
+  <simpleType name="MerkeInformasjonEnumerationType">
+    <annotation>
+      <documentation>utdypende informasjon om merking</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="FOR"/>
+      <enumeration value="DISP"/>
+      <enumeration value="FOR+"/>
+      <enumeration value="MNGL"/>
+      <enumeration value="UKJ"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkeInformasjonOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Merkepliktig" substitutionGroup="gml:AbstractObject" type="app:MerkepliktigType">
+    <annotation>
+      <documentation>informasjon om merkeplikt</documentation>
+    </annotation>
+  </element>
+  <complexType name="MerkepliktigType">
+    <sequence>
+      <element name="merkepliktig" type="app:JaNeiType">
+        <annotation>
+          <documentation>er et hinder merkepliktig? Her tas det ikke hensyn til om det har blitt gitt dispensasjon</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="merkepliktigIhenholdTil" type="app:RegelverkMerkepliktType">
+        <annotation>
+          <documentation>regelverk som pålegger merking</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="ansvarligForMerking" type="app:AnsvarligForMerkingType">
+        <annotation>
+          <documentation>hvem har ansvar for merking</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="merkeInformasjon" type="app:MerkeInformasjonType">
+        <annotation>
+          <documentation>utdypende informasjon om merking</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="kommentarMerkeplikt" type="string">
+        <annotation>
+          <documentation>utfyllende informasjon om en eller flere av de andre attributtene</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="MerkepliktigPropertyType">
+    <sequence>
+      <element ref="app:Merkepliktig"/>
+    </sequence>
+  </complexType>
+  <element name="Merking" substitutionGroup="gml:AbstractObject" type="app:MerkingType">
+    <annotation>
+      <documentation>samlet informasjon om merking</documentation>
+    </annotation>
+  </element>
+  <complexType name="MerkingType">
+    <sequence>
+      <element name="merkingFarge1" type="app:FargePropertyType">
+        <annotation>
+          <documentation>skal alltid brukes hvis merking består av en eller to farger</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="merkingFarge2" type="app:FargePropertyType">
+        <annotation>
+          <documentation>brukes som farge nummer to ved to-farget merking, og kan være brukt til eksempelvis sjakkmønster, flagg, horisontale eller vertikale bånd (se kodeliste MerkingType)</documentation>
+        </annotation>
+      </element>
+      <element name="merkingType" type="app:MerkingTypeType">
+        <annotation>
+          <documentation>ulike typer merking spesifiseres her</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="kommentarMerkingType" type="string">
+        <annotation>
+          <documentation>hvis "annet" velges på merkingType skal dette spesifiseres her</documentation>
+        </annotation>
+      </element>
+      <element name="merkingMønster" type="app:MerkingMønsterType">
+        <annotation>
+          <documentation>mønster til merkingen</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="kommentarMerkingMønster" type="string">
+        <annotation>
+          <documentation>hvis "Annet" velges på merkingMønster skal dette spesifiseres her</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="merkingICAO" type="boolean">
+        <annotation>
+          <documentation>er merking ihht. ICAO standard</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="merkingTilstand" type="app:MerkingTilstandType">
+        <annotation>
+          <documentation>informasjon om merkingens tilstand</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="MerkingPropertyType">
+    <sequence>
+      <element ref="app:Merking"/>
+    </sequence>
+  </complexType>
+  <simpleType name="MerkingFargeType">
+    <annotation>
+      <documentation>kodeliste for merkingens farge</documentation>
+    </annotation>
+    <union memberTypes="app:MerkingFargeEnumerationType app:MerkingFargeOtherType"/>
+  </simpleType>
+  <simpleType name="MerkingFargeEnumerationType">
+    <annotation>
+      <documentation>kodeliste for merkingens farge</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Svovelgul">
+        <annotation>
+          <documentation>RAL 1016 (Sulfur yellow)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Trafikkrød">
+        <annotation>
+          <documentation>RAL 3020 (Traffic red)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Lysende rød">
+        <annotation>
+          <documentation>RAL 3024 (Luminous red)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Lys grå">
+        <annotation>
+          <documentation>RAL 7035 (Light grey)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Agatgrå">
+        <annotation>
+          <documentation>RAL 7038 (Agate grey)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Signalhvit">
+        <annotation>
+          <documentation>RAL 9003 (Signal white)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Ren hvit">
+        <annotation>
+          <documentation>RAL 9010 (Pure white)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Trafikkhvit">
+        <annotation>
+          <documentation>RAL 9016 (Traffic white)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Oransje">
+        <annotation>
+          <documentation>RAL kode ikke aktuelt, kode er videreført fra gammelt system</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Rødt">
+        <annotation>
+          <documentation>RAL kode ikke aktuelt, kode er videreført fra gammelt system</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Hvitt">
+        <annotation>
+          <documentation>RAL kode ikke aktuelt, kode er videreført fra gammelt system</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Annet"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingFargeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingMønsterType">
+    <annotation>
+      <documentation>ulike mønstertyper spesifiseres her</documentation>
+    </annotation>
+    <union memberTypes="app:MerkingMønsterEnumerationType app:MerkingMønsterOtherType"/>
+  </simpleType>
+  <simpleType name="MerkingMønsterEnumerationType">
+    <annotation>
+      <documentation>ulike mønstertyper spesifiseres her</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="EN"/>
+      <enumeration value="RUTE"/>
+      <enumeration value="HORB">
+        <annotation>
+          <documentation>to-fargete alternerende horisontale bånd</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VERB">
+        <annotation>
+          <documentation>to-fargete alternerende vertikale bånd</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UKJ"/>
+      <enumeration value="Annet"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingMønsterOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingTilstandType">
+    <union memberTypes="app:MerkingTilstandEnumerationType app:MerkingTilstandOtherType"/>
+  </simpleType>
+  <simpleType name="MerkingTilstandEnumerationType">
+    <restriction base="string">
+      <enumeration value="D"/>
+      <enumeration value="B"/>
+      <enumeration value="G"/>
+      <enumeration value="VG"/>
+      <enumeration value="UKJ"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingTilstandOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingTypeType">
+    <annotation>
+      <documentation>ulike typer merking spesifiseres her</documentation>
+    </annotation>
+    <union memberTypes="app:MerkingTypeEnumerationType app:MerkingTypeOtherType"/>
+  </simpleType>
+  <simpleType name="MerkingTypeEnumerationType">
+    <annotation>
+      <documentation>ulike typer merking spesifiseres her</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Flagg">
+        <annotation>
+          <documentation>kan være ensfarget eller mønsteret</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Markør">
+        <annotation>
+          <documentation>gjelder også blåser</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Plater"/>
+      <enumeration value="UKJ"/>
+      <enumeration value="Annet"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MerkingTypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MåleenhetType">
+    <annotation>
+      <documentation>kodeliste for ulike måleenheter</documentation>
+    </annotation>
+    <union memberTypes="app:MåleenhetEnumerationType app:MåleenhetOtherType"/>
+  </simpleType>
+  <simpleType name="MåleenhetEnumerationType">
+    <annotation>
+      <documentation>kodeliste for ulike måleenheter</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="FT">
+        <annotation>
+          <documentation>foot</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="M">
+        <annotation>
+          <documentation>meter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="CM">
+        <annotation>
+          <documentation>centimeter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KM">
+        <annotation>
+          <documentation>kilometer</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="MåleenhetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeType">
+    <annotation>
+      <documentation>metode som ligger til grunn for registrering av posisjon
+
+
+-- Definition - - 
+method on which registration of position is based</documentation>
+    </annotation>
+    <union memberTypes="app:MålemetodeEnumerationType app:MålemetodeOtherType"/>
+  </simpleType>
+  <simpleType name="MålemetodeEnumerationType">
+    <annotation>
+      <documentation>metode som ligger til grunn for registrering av posisjon
+
+
+-- Definition - - 
+method on which registration of position is based</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="10"/>
+      <enumeration value="18"/>
+      <enumeration value="19">
+        <annotation>
+          <documentation>Annet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="20"/>
+      <enumeration value="22"/>
+      <enumeration value="24"/>
+      <enumeration value="36"/>
+      <enumeration value="45"/>
+      <enumeration value="46"/>
+      <enumeration value="56">
+        <annotation>
+          <documentation>(Raster)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="60"/>
+      <enumeration value="80"/>
+      <enumeration value="81"/>
+      <enumeration value="82"/>
+      <enumeration value="91">
+        <annotation>
+          <documentation>Tidligere GPS-Differensiell, pseudorange
+
+-- Definition -- 
+Previous GPS differential, pseudorange</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="92">
+        <annotation>
+          <documentation>Tidligere GPS, Absolutt, pseudorange
+
+-- Definition -- 
+Previous GPS, absolute, pseudorange</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="99"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeHøydeType">
+    <annotation>
+      <documentation>metode for å måle objekttypens høydeverdi</documentation>
+    </annotation>
+    <union memberTypes="app:MålemetodeHøydeEnumerationType app:MålemetodeHøydeOtherType"/>
+  </simpleType>
+  <simpleType name="MålemetodeHøydeEnumerationType">
+    <annotation>
+      <documentation>metode for å måle objekttypens høydeverdi</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="10"/>
+      <enumeration value="18"/>
+      <enumeration value="19"/>
+      <enumeration value="20"/>
+      <enumeration value="22"/>
+      <enumeration value="24"/>
+      <enumeration value="36"/>
+      <enumeration value="60"/>
+      <enumeration value="61"/>
+      <enumeration value="74"/>
+      <enumeration value="91"/>
+      <enumeration value="92"/>
+      <enumeration value="99"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeHøydeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Posisjonskvalitet" substitutionGroup="gml:AbstractObject" type="app:PosisjonskvalitetType">
+    <annotation>
+      <documentation>beskrivelse av kvaliteten på stedfestingen</documentation>
+    </annotation>
+  </element>
+  <complexType name="PosisjonskvalitetType">
+    <sequence>
+      <element name="målemetode" type="app:MålemetodeType">
+        <annotation>
+          <documentation>metode for måling i grunnriss (x,y), og høyde (z) når metoden er den samme som ved måling i grunnriss</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="nøyaktighet" type="integer">
+        <annotation>
+          <documentation>punktstandardavviket i grunnriss for punkter samt tverravvik for linjer
+
+Merknad:
+Oppgitt i cm</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="synbarhet" type="app:SynbarhetType">
+        <annotation>
+          <documentation>hvor godt den kartlagte detalj var synbar ved kartleggingen</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="målemetodeHøyde" type="app:MålemetodeHøydeType">
+        <annotation>
+          <documentation>metode for å måle høyden</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="nøyaktighetHøyde" type="integer">
+        <annotation>
+          <documentation>nøyaktighet for høyden i cm</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="PosisjonskvalitetPropertyType">
+    <sequence>
+      <element ref="app:Posisjonskvalitet"/>
+    </sequence>
+  </complexType>
+  <element name="ReferanseTilEksterntRegister" substitutionGroup="gml:AbstractObject" type="app:ReferanseTilEksterntRegisterType">
+    <annotation>
+      <documentation>informasjon om kobling til eksterne registere</documentation>
+    </annotation>
+  </element>
+  <complexType name="ReferanseTilEksterntRegisterType">
+    <sequence>
+      <element name="registernavn" type="string">
+        <annotation>
+          <documentation>navn til eksternt register</documentation>
+        </annotation>
+      </element>
+      <element name="eksternId" type="string">
+        <annotation>
+          <documentation>ekstern Id av samme objekt i et annet register</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="ReferanseTilEksterntRegisterPropertyType">
+    <sequence>
+      <element ref="app:ReferanseTilEksterntRegister"/>
+    </sequence>
+  </complexType>
+  <simpleType name="RegelverkMerkepliktType">
+    <annotation>
+      <documentation>hinder er merkepliktig i henhold til</documentation>
+    </annotation>
+    <union memberTypes="app:RegelverkMerkepliktEnumerationType app:RegelverkMerkepliktOtherType"/>
+  </simpleType>
+  <simpleType name="RegelverkMerkepliktEnumerationType">
+    <annotation>
+      <documentation>hinder er merkepliktig i henhold til</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="BSLE2"/>
+      <enumeration value="BSLE3"/>
+      <enumeration value="LT">
+        <annotation>
+          <documentation>merking pålagt spesifikt av Luftfartstilsynet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AGG">
+        <annotation>
+          <documentation>enkelelementer er ikke merkepliktige i utgangspunktet, men de er merkepliktige hvis de oppfyller visse krav når de er sett som helhet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EASA"/>
+      <enumeration value="ICAO"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RegelverkMerkepliktOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="StatusType">
+    <annotation>
+      <documentation>objektets tilstand
+
+Eksempel: 
+Brukes, drift, foreldet, planlagt etc
+
+
+-- Definition - - 
+the condition of the object    Examples:In use, in operation, obsolete, planned, etc.</documentation>
+    </annotation>
+    <union memberTypes="app:StatusEnumerationType app:StatusOtherType"/>
+  </simpleType>
+  <simpleType name="StatusEnumerationType">
+    <annotation>
+      <documentation>objektets tilstand
+
+Eksempel: 
+Brukes, drift, foreldet, planlagt etc
+
+
+-- Definition - - 
+the condition of the object    Examples:In use, in operation, obsolete, planned, etc.</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="E">
+        <annotation>
+          <documentation>Identisk med tidligere SITSTAT = 3
+
+-- Definition -- 
+Identical with previous SITSTAT = 3</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="K">
+        <annotation>
+          <documentation>Ikke lenger et hinder.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="O"/>
+      <enumeration value="P"/>
+      <enumeration value="U"/>
+      <enumeration value="FJ">
+        <annotation>
+          <documentation>Feilregistrert i registeret, skulle aldri vært der.</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="StatusOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element abstract="true" name="Supertype_Lyssetting" substitutionGroup="gml:AbstractFeature" type="app:Supertype_LyssettingType">
+    <annotation>
+      <documentation>realisering av SOSI objektet med fellesegenskaper for objekter av klassen Lyssetting</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="Supertype_LyssettingType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identifikasjon" type="app:IdentifikasjonPropertyType">
+            <annotation>
+              <documentation>unik identifikasjon av et objekt 
+
+Merknad: Bør bruke UUID.  se http://en.wikipedia.org/wiki/UUID
+De som ikke benytter UUID må selv sørge for at denne er globalt unik.</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Supertype_LyssettingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Supertype_Lyssetting"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Supertype_VertikalObjekt" substitutionGroup="gml:AbstractFeature" type="app:Supertype_VertikalObjektType">
+    <annotation>
+      <documentation>realisering av SOSI objektet med fellesegenskaper for objekter av klassen VertikalObjekt</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="Supertype_VertikalObjektType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="datafangstdato" type="dateTime">
+            <annotation>
+              <documentation>dato når objektet siste gang ble registrert/observert/målt i terrenget
+
+Merknad: I mange tilfeller er denne forskjellig fra Oppdateringsdato, da registrerte endringer kan bufres i en kortere eller lengre periode før disse legges inn i databasen.
+Ved førstegangsregistrering settes Datafangstdato lik førsteDatafangstdato.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endringsflagg" type="app:EndringsflaggPropertyType">
+            <annotation>
+              <documentation>endringsinformasjon om et objekt 
+
+Merknad: 
+Reglene knyttet til bruken av endringsflagg er for denne versjonen ikke avklart. Utdypes nærmere i produktspesifikasjonen basert på 4.0.
+
+Merknad: 
+Endringsflagg kan benyttes til å merke slettede "objekter".
+
+Eksempel: 
+Dersom en eiendomsgrense endres skal endringsflagg også legges inn på eiendomsteigen</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="gyldigFra" type="dateTime">
+            <annotation>
+              <documentation>Tidspunktet når objektet oppstod i den virkelige verden
+
+-Definition-
+The time when the phenomenon started to exist in the real world.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="gyldigTil" type="dateTime">
+            <annotation>
+              <documentation>Tidspunktet når objektet opphørte å eksistere i den virkelige verden
+
+-Definition-
+The time from which the phenomenon no longer exists in the real world.</documentation>
+            </annotation>
+          </element>
+          <element name="identifikasjon" type="app:IdentifikasjonPropertyType">
+            <annotation>
+              <documentation>unik identifikasjon av et objekt 
+
+Merknad: Bør bruke UUID.  se http://en.wikipedia.org/wiki/UUID
+De som ikke benytter UUID må selv sørge for at denne er globalt unik.</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="informasjon" type="string">
+            <annotation>
+              <documentation>generell opplysning
+
+Merknad:
+mulighet til å legge inn utfyllende informasjon om objektet</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="link" type="string">
+            <annotation>
+              <documentation>referanse  til et informasjonselement, enten lokalt eller globalt</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="oppdateringsdato" type="dateTime">
+            <annotation>
+              <documentation>dato for siste endring på objektetdataene 
+
+Merknad: 
+Oppdateringsdato kan være forskjellig fra Datafangsdato ved at data som er registrert kan bufres en kortere eller lengre periode før disse legges inn i datasystemet (databasen).
+
+-Definition-
+Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="opphav" type="string">
+            <annotation>
+              <documentation>referanse til opphavsmaterialet, kildematerialet, organisasjons/publiseringskilde
+
+Merknad: 
+Kan også beskrive navn på person og årsak til oppdatering</documentation>
+            </annotation>
+          </element>
+          <element name="status" type="app:StatusType">
+            <annotation>
+              <documentation>objektets tilstand
+
+Eksempel: Brukes, drift, foreldet, planlagt  etc</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Supertype_VertikalObjektPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Supertype_VertikalObjekt"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="Supertype_VertikalObjektKomponent" substitutionGroup="gml:AbstractFeature" type="app:Supertype_VertikalObjektKomponentType">
+    <annotation>
+      <documentation>realisering av SOSI objektet med fellesegenskaper for objekter av klassen VertikalObjektKomponent</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="Supertype_VertikalObjektKomponentType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identifikasjon" type="app:IdentifikasjonPropertyType">
+            <annotation>
+              <documentation>unik identifikasjon av et objekt 
+
+Merknad: Bør bruke UUID.  se http://en.wikipedia.org/wiki/UUID
+De som ikke benytter UUID må selv sørge for at denne er globalt unik.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="verifiseringsdato" type="dateTime">
+            <annotation>
+              <documentation>dato når dataene er fastslått å være i samsvar med virkeligheten
+
+Merknad: Verifiseringsdato er identisk med ..DATO i tidligere versjoner av SOSI</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="oppdateringsdato" type="dateTime">
+            <annotation>
+              <documentation>dato for siste endring på objektetdataene 
+
+Merknad: 
+Oppdateringsdato kan være forskjellig fra Datafangsdato ved at data som er registrert kan bufres en kortere eller lengre periode før disse legges inn i datasystemet (databasen).
+
+-Definition-
+Date and time at which this version of the spatial object was inserted or changed in the spatial data set.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kvalitet" type="app:PosisjonskvalitetPropertyType">
+            <annotation>
+              <documentation>beskrivelse av kvaliteten på stedfestingen
+
+Merknad: Denne er identisk med ..KVALITET i tidligere versjoner av SOSI.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="endringsflagg" type="app:EndringsflaggPropertyType">
+            <annotation>
+              <documentation>endringsinformasjon om et objekt 
+
+Merknad: 
+Reglene knyttet til bruken av endringsflagg er for denne versjonen ikke avklart. Utdypes nærmere i produktspesifikasjonen basert på 4.0.
+
+Merknad: 
+Endringsflagg kan benyttes til å merke slettede "objekter".
+
+Eksempel: 
+Dersom en eiendomsgrense endres skal endringsflagg også legges inn på eiendomsteigen</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="status" type="app:StatusType">
+            <annotation>
+              <documentation>objektets tilstand
+
+Eksempel: Brukes, drift, foreldet, planlagt  etc</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Supertype_VertikalObjektKomponentPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Supertype_VertikalObjektKomponent"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="SynbarhetType">
+    <annotation>
+      <documentation>hvor godt den kartlagte detalj var synbar ved kartleggingen</documentation>
+    </annotation>
+    <union memberTypes="app:SynbarhetEnumerationType app:SynbarhetOtherType"/>
+  </simpleType>
+  <simpleType name="SynbarhetEnumerationType">
+    <annotation>
+      <documentation>hvor godt den kartlagte detalj var synbar ved kartleggingen</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="0">
+        <annotation>
+          <documentation>Default</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1">
+        <annotation>
+          <documentation>Forøvrig grei å innmåle. (Benyttes bl.a. for innmåling av ledninger på lukket grøft)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>Middels synlig i flybilde/modell</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>Dårlig/ikke synlig i flybilde/modell</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="SynbarhetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TypeEndringType">
+    <annotation>
+      <documentation>endringsstatus for objektet</documentation>
+    </annotation>
+    <union memberTypes="app:TypeEndringEnumerationType app:TypeEndringOtherType"/>
+  </simpleType>
+  <simpleType name="TypeEndringEnumerationType">
+    <annotation>
+      <documentation>endringsstatus for objektet</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="E"/>
+      <enumeration value="N"/>
+      <enumeration value="S"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TypeEndringOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Vegadresse" substitutionGroup="gml:AbstractObject" type="app:VegadresseType">
+    <annotation>
+      <documentation>adresse i form av et adressenavn og et adressenummer (matrikkelforskriften § 2i).
+
+Merknad: 
+Vegadresser er enkeltadresser innen en "veg" (adresseområde) i en kommune. Vegadresse identifiseres innen kommunen ved adressekode, husnummer (nummer) og eventuelt bokstav.</documentation>
+    </annotation>
+  </element>
+  <complexType name="VegadresseType">
+    <sequence>
+      <element minOccurs="0" name="adressekode" type="integer"/>
+      <element minOccurs="0" name="adressenavn" type="string"/>
+      <element minOccurs="0" name="bokstav" type="string">
+        <annotation>
+          <documentation>del av adressenummer (jfr Matrikkelforskrift § 2f).
+
+Ved behov kan det i tillegg til tallet brukes en etterfølgende bokstav. Bokstav skal bare brukes for å unngå omnummerering i tidligere tildelte adresser. Bokstav skal gis i alfabetisk rekkefølge. (matrikkelforskrift § 52 tredje ledd).
+
+Merknad: Høyst en bokstav</documentation>
+        </annotation>
+      </element>
+      <element name="kommunenummer" type="integer"/>
+      <element name="nummer" type="integer">
+        <annotation>
+          <documentation>Del av adressenummer som er definert slik i matrikkelforskrift:
+
+et nummer og en eventuell bokstav (husnummer) som entydig identifiserer eiendommer, anlegg, bygninger eller innganger til bygninger innenfor en adresserbar gate, veg, sti, plass eller område (Forskrift § 2f).</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="VegadressePropertyType">
+    <sequence>
+      <element ref="app:Vegadresse"/>
+    </sequence>
+  </complexType>
+  <element name="VertikalObjekt" substitutionGroup="app:Supertype_VertikalObjekt" type="app:VertikalObjektType">
+    <annotation>
+      <documentation>alle faste eller mobile objekter eller deler av dem som stikker opp over bakken og som kan utgjøre en fare for luftfarten</documentation>
+    </annotation>
+  </element>
+  <complexType name="VertikalObjektType">
+    <complexContent>
+      <extension base="app:Supertype_VertikalObjektType">
+        <sequence>
+          <element name="kommentarVertikalObjektType" type="string">
+            <annotation>
+              <documentation>hvis "Annet" velges på vertikalObjektType skal dette spesifiseres her</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="kontakt" type="app:KontaktPropertyType">
+            <annotation>
+              <documentation>her kan eier, innmelder og/eller kontaktperson til et vertikalt objekt og potensielt hinder angis</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="matrikkelID" type="app:MatrikkelnummerPropertyType">
+            <annotation>
+              <documentation>koblingsnøkkel som gjør det mulig å koble vertikale objekter og potensielle hindre til en eller flere matrikkelenheter</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="vertikalObjektGruppe" type="boolean">
+            <annotation>
+              <documentation>indikerer om VertikalObjekt er en representant for et antall nært lokaliserte objekter av samme type</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="vertikalObjektNavn" type="string"/>
+          <element name="vertikalObjektType" type="app:VertikalObjektTypeType">
+            <annotation>
+              <documentation>her angis det hvilken type vertikalt objekt dette objektet er</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="komponent">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="app:VertikalObjektKomponent"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="VertikalObjektPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:VertikalObjekt"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="VertikalObjektKomponent" substitutionGroup="app:Supertype_VertikalObjektKomponent" type="app:VertikalObjektKomponentType">
+    <annotation>
+      <documentation>del av et vertikalt objekt</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="VertikalObjektKomponentType">
+    <complexContent>
+      <extension base="app:Supertype_VertikalObjektKomponentType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="merking" type="app:MerkingPropertyType">
+            <annotation>
+              <documentation>samlet informasjon om merking. Gjelder ikke lyssetting. All informasjon om lyssetting ligger under feature type Lyssetting</documentation>
+            </annotation>
+          </element>
+          <element name="vertikalUtstrekning" type="double">
+            <annotation>
+              <documentation>objektkomponentens maksimale høyde over terreng</documentation>
+            </annotation>
+          </element>
+          <element name="høydeVerdiEnhet" type="app:MåleenhetType">
+            <annotation>
+              <documentation>her oppgis måleenheten til den vertikale utstrekningen av objektet</documentation>
+            </annotation>
+          </element>
+          <element name="merkepliktig" type="app:MerkepliktigPropertyType">
+            <annotation>
+              <documentation>informasjon om merkeplikt, gjelder lyssetting og annen merking</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="hrefSystem" type="app:HøydereferansesystemType">
+            <annotation>
+              <documentation>referanseflate som er utgangspunktet for høyde</documentation>
+            </annotation>
+          </element>
+          <element name="href" type="app:HøydereferanseType">
+            <annotation>
+              <documentation>koordinatregistering utført på topp eller bunn av et objekt</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="eksternReferanse" type="app:ReferanseTilEksterntRegisterPropertyType">
+            <annotation>
+              <documentation>referanse til et eksternt register</documentation>
+            </annotation>
+          </element>
+          <element name="mobilitet" type="boolean">
+            <annotation>
+              <documentation>informasjon om en komponent av et vertikalt objekt er mobil</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="komponentsekvensnummer" type="integer">
+            <annotation>
+              <documentation>angir rekkefølge på VertikalObjektKomponent som tilhører samme VertikalObjekt</documentation>
+            </annotation>
+          </element>
+          <element name="BSLE-2-1_hinder" type="boolean">
+            <annotation>
+              <documentation>er dette hinder ihht forskrift BSLE 2.1</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" name="harLyssetting">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="app:Lyssetting"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="VertikalObjektKomponentPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:VertikalObjektKomponent"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="VertikalObjektKomponentLinje" substitutionGroup="app:VertikalObjektKomponent" type="app:VertikalObjektKomponentLinjeType">
+    <annotation>
+      <documentation>generell betegnelse for linjekomponenter</documentation>
+    </annotation>
+  </element>
+  <complexType name="VertikalObjektKomponentLinjeType">
+    <complexContent>
+      <extension base="app:VertikalObjektKomponentType">
+        <sequence>
+          <element minOccurs="0" name="linjeElement" type="gml:CurvePropertyType"/>
+          <element minOccurs="0" name="lengde" type="double">
+            <annotation>
+              <documentation>horisontal avstand mellom start- og sluttpunkt på linjesegment</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lengdeVerdiEnhet" type="app:MåleenhetType">
+            <annotation>
+              <documentation>her oppgis måleenheten til lengden av objektet</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="linjespenn" type="boolean">
+            <annotation>
+              <documentation>informasjon om objektet er et spenn eller ei</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="2" minOccurs="2" name="avgrensesAv" type="app:VertikalObjektKomponentPunktPropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="VertikalObjektKomponentLinjePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:VertikalObjektKomponentLinje"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="VertikalObjektKomponentPunkt" substitutionGroup="app:VertikalObjektKomponent" type="app:VertikalObjektKomponentPunktType">
+    <annotation>
+      <documentation>generell betegnelse for punktkomponenter</documentation>
+    </annotation>
+  </element>
+  <complexType name="VertikalObjektKomponentPunktType">
+    <complexContent>
+      <extension base="app:VertikalObjektKomponentType">
+        <sequence>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="brekkbar" type="boolean">
+            <annotation>
+              <documentation>informasjon om objektet er konstruert for å gi etter ved sammenstøtt</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="avgrenser" type="app:VertikalObjektKomponentLinjePropertyType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="VertikalObjektKomponentPunktPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:VertikalObjektKomponentPunkt"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="VertikalObjektTypeType">
+    <annotation>
+      <documentation>ulike typer vertikale objekter</documentation>
+    </annotation>
+    <union memberTypes="app:VertikalObjektTypeEnumerationType app:VertikalObjektTypeOtherType"/>
+  </simpleType>
+  <simpleType name="VertikalObjektTypeEnumerationType">
+    <annotation>
+      <documentation>ulike typer vertikale objekter</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Landbruksutstyr">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode AG_EQUIP</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Telemast">
+        <annotation>
+          <documentation>mast med radio- og telekommunikasjonsutstyr for sending/mottak av telesignaler
+
+tilsvarer klasse MastTele i Ledningsnett 4.0</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Bru">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode BRIDGE</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Bygning">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode BUILDING</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Gondolbane">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode CABLE_CAR</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Kontrolltårn">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode CONTROL_TOWER</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Kjøletårn">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode COOLING_TOWER</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Kran">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType
+
+gjelder også heisekrantypene skinnekran/havnekran, tårnkran/byggekran, mobilkran, flytekran</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Demning">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode DAM</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Kuppel">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode DOME</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="EL_Nettstasjon">
+        <annotation>
+          <documentation>stasjon som transformerer elektrisitet fra et høyspentnivå til et lavere
+
+tilsvarer EL_Transformatorstasjon og EL_Nettstasjon i SOSI Ledning 4.5
+
+Merk: Gjelder alle typer transformasjoner. I standarden for luftfartshinder skiller vi ikke mellom ulike typer transformasjoner som for eksempel transformasjon til lavere eller høyere enn 230 V slik det gjøres i SOSI Ledning 4.5.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Gjerde">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode FENCE</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Fyrtårn">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType kode LIGHTHOUSE</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Monument">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode MONUMENT</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Terrengpunkt">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode NATURAL_HIGHPOINT</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Navigasjonshjelpemiddel">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode NAVAID
+
+Gjelder kun radio instrumenter som brukes ifm navigasjon for luftfartøy og ikke hjelpemidler til andre form for navigasjon, som for eksempel til sjøs.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Stolpe">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode POLE</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Kraftverk">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode POWER_PLANT</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Raffineri">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode REFINERY</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Oljerigg">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode RIG</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Skilt">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode SIGN</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Pipe">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode STACK</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Tank">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode TANK</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Forankret ballong">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode TETHERED_BALLOON</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Tårn">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode TOWER</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Kraftledning">
+        <annotation>
+          <documentation>linje som fører elektrisk kraft over store avstander og der det er usikkert om det lav- eller høyspentlinje
+
+tilsvarer klasse LuftledningLH i SOSI Ledningsnett 4.0 og kodene "Høgspentnett" og "Lavspentnett" i kodelista Ledningsnettverkstype i SOSI Ledningsnett 4.5
+
+tilsvarer også kode TRANSMISSION_LINE
+hentet fra AIXM 5.1 klasse CodeVerticalStructureType</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Tre">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode TREE</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Skogsområde">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode VEGETATION
+
+gjelder også klasse lufthavnhinderTregruppe i SOSI Lufthavn 4.1</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Vanntårn">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode WATER_TOWER</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Vindmølle">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode WINDMILL</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Vindmøllepark">
+        <annotation>
+          <documentation>hentet fra AIXM 5.1 klasse CodeVerticalStructureType, kode WINDMILL_FARMS</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Hopptårn">
+        <annotation>
+          <documentation>tilsvarer klasse Hoppbakke i SOSI Bygnan 4.0
+
+ikke dommertårnet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Vindmåler">
+        <annotation>
+          <documentation>meteorologisk instrument som måler vindhastighet og vindretning</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Lysmast">
+        <annotation>
+          <documentation>mast brukt for montering av ulike lyskilder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Flaggstang">
+        <annotation>
+          <documentation>lang rett stang for heising av flagg
+
+tilsvarer klasse Flaggstang i SOSI Bygnan 4.0</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Petroleumsinnretning">
+        <annotation>
+          <documentation>innretning, installasjon, anlegg og annet utstyr for petroleumsvirksomhet, likevel ikke forsynings- og hjelpefartøy eller skip som transporterer petroleum i bulk
+
+tilsvarer klasse Petroleumsinnretning i SOSI Petroleum 4.0</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Silo">
+        <annotation>
+          <documentation>lagringsbygg for fôr og korn som ikke er registrert som bygning i GAB
+
+tilsvarer klasse Silo i SOSI Bygnan 4.0
+
+Merknad: I motsetning til definisjonen av klasse Silo i SOSI Bygnan 4.0 vil dette også gjelde store silobygg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Stolheis">
+        <annotation>
+          <documentation>taubane med stoler til persontransport
+
+tilsvarer klasse Stolheis i SOSI Bygnan 4.0</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Skitrekk">
+        <annotation>
+          <documentation>taubane til å dra skiløper opp bratte bakker
+
+tilsvarer klasse Skitrekk i SOSI Bygnan 4.0</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Taubane">
+        <annotation>
+          <documentation>innretning hvor tau eller vaiere bærer og eller trekker last over en strekning
+
+tilsvarer klasse Taubane i SOSI Bygnan 4.0</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Fornøyelsesparkinnretning">
+        <annotation>
+          <documentation>pariserhjul, berg og dal bane og andre høye innretninger i en fornøyelsespark</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Annet"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="VertikalObjektTypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+</schema>

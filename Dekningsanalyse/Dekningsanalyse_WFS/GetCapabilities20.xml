@@ -52,6 +52,21 @@
 					<ows:Value>1.0.0</ows:Value>
 				</ows:AllowedValues>
 			</ows:Parameter>
+			<ows:Parameter name="srsName">
+                <ows:AllowedValues>
+                    <ows:Value>urn:ogc:def:crs:EPSG:4258</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::4326</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25830</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25831</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25832</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25833</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25834</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25835</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::25836</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::3044</ows:Value>
+                    <ows:Value>urn:ogc:def:crs:EPSG::3045</ows:Value>
+                </ows:AllowedValues>
+            </ows:Parameter>
 			<ows:Parameter name="AcceptFormats">
 				<ows:AllowedValues>
 					<ows:Value>text/xml</ows:Value>
@@ -67,7 +82,8 @@
 			</ows:DCP>
 			<ows:Parameter name="outputFormat">
 				<ows:AllowedValues>
-					<ows:Value>text/xml; subtype=gml/3.2</ows:Value>
+<!-- 					<ows:Value>text/xml; subtype=gml/3.2.1</ows:Value> -->
+					<ows:Value>application/gml+xml; version=3.2</ows:Value>
 				</ows:AllowedValues>
 			</ows:Parameter>
 		</ows:Operation>
@@ -82,6 +98,10 @@
 		<!-- ***************************************************** -->
 		<!-- *   CONFORMANCE DECLARATION                         * -->
 		<!-- ***************************************************** -->
+		<ows:Constraint name="ImplementsSimpleWFS">
+			<ows:NoValues></ows:NoValues>
+			<ows:DefaultValue>TRUE</ows:DefaultValue>
+		</ows:Constraint>
 		<ows:Constraint name="ImplementsBasicWFS">
 			<ows:NoValues></ows:NoValues>
 			<ows:DefaultValue>TRUE</ows:DefaultValue>
@@ -240,5 +260,10 @@
 				<fes:ComparisonOperator name="PropertyIsNull"></fes:ComparisonOperator>
 			</fes:ComparisonOperators>
 		</fes:Scalar_Capabilities>
+		<fes:Spatial_Capabilities>
+			<fes:SpatialOperators>
+				<fes:SpatialOperator name="BBOX"></fes:SpatialOperator>
+			</fes:SpatialOperators>
+		</fes:Spatial_Capabilities>
 	</fes:Filter_Capabilities>
 </WFS_Capabilities>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wfs:WFS_Capabilities xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ows="http://www.opengis.net/ows" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" updateSequence="0" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/wfs ../wfs/1.1.0/WFS.xsd">
+	<!-- Service Identification Section -->
+	<ows:ServiceIdentification>
+		<ows:Title>
+WFS Service Compliant with OGC WFS Specification Version 1.1.0
+		</ows:Title>
+		<ows:Abstract>
+An OGC WFS Service created by Safe Software's FME Server. This is a template only and Safe Software provides no warrantee for the data supplied by the web service.
+		</ows:Abstract>
+		<ows:ServiceType>WFS</ows:ServiceType>
+		<ows:ServiceTypeVersion>1.1.0</ows:ServiceTypeVersion>
+		<ows:Fees>None</ows:Fees>
+		<ows:AccessConstraints>None</ows:AccessConstraints>
+	</ows:ServiceIdentification>
+	<!-- Service Provider Section -->
+	<ows:ServiceProvider>
+		<ows:ProviderName>Safe Software</ows:ProviderName>
+		<ows:ProviderSite xlink:href="www.safe.com"></ows:ProviderSite>
+		<ows:ServiceContact>
+			<ows:IndividualName>Safe Software Inc.</ows:IndividualName>
+			<ows:PositionName>Safe Software Inc.</ows:PositionName>
+			<ows:ContactInfo>
+				<ows:Phone>
+					<ows:Voice>1-604-501-9985</ows:Voice>
+					<ows:Facsimile>1-604-501-9965</ows:Facsimile>
+				</ows:Phone>
+				<ows:Address>
+					<ows:City>Surrey</ows:City>
+					<ows:PostalCode>V3W 1J8</ows:PostalCode>
+					<ows:Country>Canada</ows:Country>
+					<ows:ElectronicMailAddress>info@safe.com</ows:ElectronicMailAddress>
+				</ows:Address>
+				<ows:OnlineResource xlink:href="http://safe.com/about/contact"></ows:OnlineResource>
+				<ows:HoursOfService>24x7</ows:HoursOfService>
+				<ows:ContactInstructions>none</ows:ContactInstructions>
+			</ows:ContactInfo>
+			<ows:Role>Developer</ows:Role>
+		</ows:ServiceContact>
+	</ows:ServiceProvider>
+	<!-- Operations Metadata Section -->
+	<ows:OperationsMetadata>
+		<ows:Operation name="GetCapabilities">
+			<ows:DCP>
+				<ows:HTTP>
+					<ows:Get xlink:href="/fmedatastreaming/INSPIRE/INSPIRE_WFS.fmw"></ows:Get>
+					<ows:Post xlink:href="/fmedatastreaming/INSPIRE/INSPIRE_WFS.fmw"></ows:Post>
+				</ows:HTTP>
+			</ows:DCP>
+			<ows:Parameter name="AcceptVersions">
+				<ows:Value>1.1.0</ows:Value>
+				<ows:Value>1.0.0</ows:Value>
+			</ows:Parameter>
+			<ows:Parameter name="AcceptFormats">
+				<ows:Value>text/xml</ows:Value>
+			</ows:Parameter>
+			<ows:Parameter name="Sections">
+				<ows:Value>ServiceIdentification</ows:Value>
+				<ows:Value>ServiceProvider</ows:Value>
+				<ows:Value>OperationsMetadata</ows:Value>
+				<ows:Value>FeatureTypeList</ows:Value>
+				<ows:Value>ServesGMLObjectTypeList</ows:Value>
+				<ows:Value>SupportsGMLObjectTypeList</ows:Value>
+			</ows:Parameter>
+		</ows:Operation>
+		<ows:Operation name="GetFeature">
+			<ows:DCP>
+				<ows:HTTP>
+					<ows:Get xlink:href="/fmedatastreaming/INSPIRE/INSPIRE_WFS.fmw"></ows:Get>
+					<ows:Post xlink:href="/fmedatastreaming/INSPIRE/INSPIRE_WFS.fmw"></ows:Post>
+				</ows:HTTP>
+			</ows:DCP>
+			<ows:Parameter name="resultType">
+				<ows:Value>results</ows:Value>
+			</ows:Parameter>
+			<ows:Parameter name="outputFormat">
+				<ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+			</ows:Parameter>
+		</ows:Operation>
+		<ows:Operation name="DescribeFeatureType">
+			<ows:DCP>
+				<ows:HTTP>
+					<ows:Get xlink:href="/fmedatastreaming/INSPIRE/INSPIRE_WFS.fmw"></ows:Get>
+					<ows:Post xlink:href="/fmedatastreaming/INSPIRE/INSPIRE_WFS.fmw"></ows:Post>
+				</ows:HTTP>
+			</ows:DCP>
+			<ows:Parameter name="outputFormat">
+				<ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+			</ows:Parameter>
+		</ows:Operation>
+	</ows:OperationsMetadata>
+	<!-- Feature Type List Section -->
+	<wfs:FeatureTypeList>
+
+		<wfs:FeatureType xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" updateSequence="0" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/wfs ../wfs/1.1.0/WFS.xsd">
+			<wfs:Name>NamedPlace</wfs:Name>
+			<wfs:Title>NamedPlace</wfs:Title>
+			<wfs:Abstract></wfs:Abstract>
+			<wfs:DefaultSRS>EPSG:4326</wfs:DefaultSRS>
+			<wfs:OutputFormats>
+				<wfs:Format>text/xml; subtype=gml/3.1.1</wfs:Format>
+			</wfs:OutputFormats>
+			<ows:WGS84BoundingBox>
+				<ows:LowerCorner>-20 20</ows:LowerCorner>
+				<ows:UpperCorner>60 80</ows:UpperCorner>
+			</ows:WGS84BoundingBox>
+		</wfs:FeatureType>
+		<wfs:FeatureType xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:base="urn:x-inspire:specification:gmlas:BaseTypes:3.2" xmlns="urn:x-inspire:specification:gmlas:CadastralParcels:3.0" updateSequence="0" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/wfs ../wfs/1.1.0/WFS.xsd">
+			<wfs:Name>CadastralParcel</wfs:Name>
+			<wfs:Title>CadastralParcel</wfs:Title>
+			<wfs:Abstract></wfs:Abstract>
+			<wfs:DefaultSRS>EPSG:4326</wfs:DefaultSRS>
+			<wfs:OutputFormats>
+				<wfs:Format>text/xml; subtype=gml/3.1.1</wfs:Format>
+			</wfs:OutputFormats>
+			<ows:WGS84BoundingBox>
+				<ows:LowerCorner>-20 20</ows:LowerCorner>
+				<ows:UpperCorner>60 80</ows:UpperCorner>
+			</ows:WGS84BoundingBox>
+		</wfs:FeatureType>
+
+	</wfs:FeatureTypeList>
+	<!-- Supports GML Object Type List Section -->
+	<wfs:SupportsGMLObjectTypeList>
+		<wfs:GMLObjectType>
+			<wfs:Name>gml:AbstractGMLFeatureType</wfs:Name>
+			<wfs:OutputFormats>
+				<wfs:Format>text/xml; subtype=gml3.1.1</wfs:Format>
+			</wfs:OutputFormats>
+		</wfs:GMLObjectType>
+	</wfs:SupportsGMLObjectTypeList>
+	<!-- Filter Capabilities Section -->
+	<ogc:Filter_Capabilities>
+		<ogc:Spatial_Capabilities>
+			<ogc:GeometryOperands>
+				<ogc:GeometryOperand>gml:Envelope</ogc:GeometryOperand>
+			</ogc:GeometryOperands>
+			<ogc:SpatialOperators>
+				<ogc:SpatialOperator name="BBOX"></ogc:SpatialOperator>
+			</ogc:SpatialOperators>
+		</ogc:Spatial_Capabilities>
+		<ogc:Scalar_Capabilities></ogc:Scalar_Capabilities>
+		<ogc:Id_Capabilities>
+			<ogc:EID></ogc:EID>
+			<ogc:FID></ogc:FID>
+		</ogc:Id_Capabilities>
+	</ogc:Filter_Capabilities>
+</wfs:WFS_Capabilities>
