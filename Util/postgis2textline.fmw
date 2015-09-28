@@ -10,49 +10,49 @@
 #          --DestDataset_TEXTLINE "C:\Users\xsunknu\Desktop\Planomriss_postgis2sosi.bat"
 #    
 #    
-#! FME_DOCUMENT_GUID="54620e4e-3074-49ad-b978-bf3689d8c061"
-#! SOURCE="NONE"
-#! PASSWORD=""
-#! BEGIN_PYTHON=""
-#! USAGE=""
-#! HISTORY=""
-#! FME_STROKE_MAX_DEVIATION="0"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! FME_SERVER_SERVICES=""
+#! FME_DOCUMENT_PRIORGUID="54620e4e-3074-49ad-b978-bf3689d8c061"
 #! ATTR_TYPE_ENCODING="SDF"
-#! BEGIN_TCL=""
-#! DOC_TOP_LEFT="0 -300"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! LEGAL_TERMS_CONDITIONS=""
-#! DESTINATION="NONE"
-#! LAST_SAVE_DATE="2015-09-18T11:38:28"
-#! FME_REPROJECTION_ENGINE="FME"
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! SOURCE_ROUTING_FILE=""
-#! LOG_MAX_PRECISION="Yes"
-#! DESCRIPTION=""
-#! FME_DOCUMENT_PRIORGUID=""
-#! WORKSPACE_VERSION="1"
-#! END_TCL=""
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! FME_BUILD_NUM="15515"
-#! MAX_LOG_FEATURES="200"
-#! ZOOM_SCALE="100"
-#! DESTINATION_ROUTING_FILE=""
-#! REQUIREMENTS_KEYWORD=""
-#! LOG_FILE=""
-#! CATEGORY=""
-#! SHOW_INFO_NODES="true"
-#! VIEW_POSITION="-120.001 1140.01"
-#! SHOW_ANNOTATIONS="true"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! REDIRECT_TERMINATORS="NONE"
-#! TITLE=""
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! DOC_EXTENTS="2172 667.003"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! PASSWORD=""
+#! FME_DOCUMENT_GUID="eefb2c97-3a64-47d1-9395-83045525cea1"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
 #! REQUIREMENTS=""
-#! END_PYTHON=""
+#! DOC_EXTENTS="2172 667.003"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! TITLE=""
+#! HISTORY=""
+#! FME_SERVER_SERVICES=""
+#! BEGIN_PYTHON=""
+#! LEGAL_TERMS_CONDITIONS=""
+#! SOURCE="NONE"
+#! SOURCE_ROUTING_FILE=""
+#! FME_BUILD_NUM="15515"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! END_TCL=""
+#! REQUIREMENTS_KEYWORD=""
+#! SHOW_ANNOTATIONS="true"
+#! LOG_MAX_PRECISION="Yes"
+#! DOC_TOP_LEFT="0 -300"
+#! LOG_FILE=""
+#! WORKSPACE_VERSION="1"
+#! CATEGORY=""
+#! VIEW_POSITION="-117.001 1137.01"
+#! DESTINATION="NONE"
+#! REDIRECT_TERMINATORS="NONE"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! DESCRIPTION=""
+#! LOG_MAX_RECORDED_FEATURES="200"
 #! IGNORE_READER_FAILURE="No"
+#! USAGE=""
+#! END_PYTHON=""
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! ZOOM_SCALE="100"
+#! BEGIN_TCL=""
+#! DESTINATION_ROUTING_FILE=""
+#! SHOW_INFO_NODES="true"
+#! FME_REPROJECTION_ENGINE="FME"
+#! LAST_SAVE_DATE="2015-09-28T10:21:32"
+#! MAX_LOG_FEATURES="200"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -68,7 +68,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_feature_type char(50) fme_rotation float8 fme_sweep_angle float8 fme_text_size float8 multi_reader_keyword char(50) fme_fill_color char(50) fme_color char(50) multi_reader_type char(50) postgis_collection_id int4 postgis_type char(50) fme_text_string char(50) fme_secondary_axis float8 fme_type char(50) postgres_oid int4 fme_primary_axis float8 fme_basename char(50) fme_dataset char(50) fme_geometry fme_char(50) multi_reader_id int4 multi_reader_full_id int4 fme_start_angle float8 postgis_collection_part_id int4"
+#! EXPOSABLE_ATTRS="fme_fill_color char(50) fme_color char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_text_size float8 fme_start_angle float8 fme_primary_axis float8 postgis_collection_id int4 fme_type char(50) fme_rotation float8 multi_reader_full_id int4 fme_sweep_angle float8 postgis_type char(50) fme_secondary_axis float8 multi_reader_type char(50) fme_feature_type char(50) postgres_oid int4 fme_text_string char(50) fme_basename char(50) fme_dataset char(50) postgis_collection_part_id int4 fme_geometry fme_char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -77,24 +77,20 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! MIN_FEATURES=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! MAX_FEATURES=""
 #! COORDSYS=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! MIN_FEATURES=""
+#! FEATURE_TYPES=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_DEFAULT_NAME"
-#! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
@@ -103,6 +99,10 @@
 #! <METAFILE_PARAMETER
 #! NAME="DATASET_NAME"
 #! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -118,7 +118,7 @@
 #! WRITE_DEFS="false"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="false"
-#! EXPOSABLE_ATTRS="fme_fill_color char(50) fme_primary_axis number(31,15) fme_feature_type char(50) fme_secondary_axis number(31,15) fme_basename char(50) fme_type char(50) text_line_eol char(10) fme_text_string char(50) fme_color char(50) fme_dataset char(50) fme_geometry fme_char(50) fme_rotation number(31,15) fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_text_size number(31,15)"
+#! EXPOSABLE_ATTRS="fme_basename char(50) text_line_eol char(10) fme_secondary_axis number(31,15) fme_dataset char(50) fme_geometry fme_char(50) fme_rotation number(31,15) fme_primary_axis number(31,15) fme_text_string char(50) fme_feature_type char(50) fme_start_angle number(31,15) fme_text_size number(31,15) fme_sweep_angle number(31,15) fme_fill_color char(50) fme_type char(50) fme_color char(50)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -127,32 +127,32 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FANOUT_DIRECTORY=""
-#! FANOUT_SUFFIX=""
 #! FANOUT="No"
+#! FANOUT_SUFFIX=""
+#! COORDSYS=""
 #! FANOUT_PREFIX=""
 #! FANOUT_ID_ATTR=""
-#! COORDSYS=""
+#! FANOUT_DIRECTORY=""
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="text_line"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="WRITER_DATASET_HINT"
 #! VALUE="Specify a name for the Text file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="txt file"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="MIME_TYPE"
 #! VALUE="text/plain"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_DEFAULT_NAME"
-#! VALUE="text_line"
-#! />
-#! <METAFILE_PARAMETER
 #! NAME="READER_DATASET_HINT"
 #! VALUE="Select the Text file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="txt file"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -694,8 +694,8 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -720,8 +720,8 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
@@ -781,14 +781,14 @@
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="nr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &lt; 1800&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--KNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25832&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Kommuner&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &gt;= 1800;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &lt; 2000&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--KNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25833&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Kommuner&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &gt;= 2000&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--KNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25835&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Kommuner&lt;quote&gt;&apos;FME_NUM_CONDITIONS4___&quot;,nr,&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &lt; 1800&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--KNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25832&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Kommuner&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &gt;= 1800;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &lt; 2000&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--KNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25833&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Kommuner&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &gt;= 2000&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--KNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25835&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Kommuner&lt;quote&gt;&apos;FME_NUM_CONDITIONS4___&quot;,nr,&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="6"
@@ -807,14 +807,14 @@
 #! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="nr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &lt; 18&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--FNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25832&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Fylker&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &gt;= 18;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &lt; 20&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--FNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25833&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Fylker&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &gt;= 20&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--FNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25835&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Fylker&lt;quote&gt;&apos;FME_NUM_CONDITIONS4___&quot;,nr,&lt;at&gt;Evaluate&lt;openparen&gt;3000&lt;space&gt;+&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &lt; 18&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--FNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25832&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Fylker&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &gt;= 18;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &lt; 20&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--FNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25833&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Fylker&lt;quote&gt;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; &gt;= 20&apos;&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--FNR&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25835&lt;quote&gt;&lt;space&gt;--FANOUT&lt;space&gt;&lt;quote&gt;Fylker&lt;quote&gt;&apos;FME_NUM_CONDITIONS4___&quot;,nr,&lt;at&gt;Evaluate&lt;openparen&gt;3000&lt;space&gt;+&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="8"
@@ -830,16 +830,16 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="9"
@@ -857,14 +857,14 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="nr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25833&lt;quote&gt;,nr,5000"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,&lt;quote&gt;$(FME_HOME_ENCODED)fme.exe&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;backslash&gt;nnrite507&lt;backslash&gt;Geodata&lt;backslash&gt;Jobs&lt;backslash&gt;Planomriss_postgis2sosi&lt;backslash&gt;Planomriss_postgis2sosi.fmw&lt;space&gt;--OUTPUT_EPSG_CODE&lt;space&gt;&lt;quote&gt;25833&lt;quote&gt;,nr,5000"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="11"
@@ -879,12 +879,12 @@
 #! >
 #! <OUTPUT_FEAT NAME="SORTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="nr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
 #! <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="nr NUMERIC ASCENDING"/>
 #! </TRANSFORMER>
@@ -902,16 +902,16 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="18"
@@ -929,14 +929,14 @@
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="nr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,REM&lt;space&gt;Hakker&lt;space&gt;opp&lt;space&gt;planomriss&lt;space&gt;i&lt;space&gt;landsdekkende&lt;comma&gt;&lt;space&gt;kommunevise&lt;space&gt;og&lt;space&gt;fylkesvise&lt;space&gt;SOSI-filer&lt;space&gt;i&lt;space&gt;lokal&lt;space&gt;UTM-sone&lt;space&gt;&lt;space&gt;,nr,0"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
 #! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="text_line_data,REM&lt;space&gt;Hakker&lt;space&gt;opp&lt;space&gt;planomriss&lt;space&gt;i&lt;space&gt;landsdekkende&lt;comma&gt;&lt;space&gt;kommunevise&lt;space&gt;og&lt;space&gt;fylkesvise&lt;space&gt;SOSI-filer&lt;space&gt;i&lt;space&gt;lokal&lt;space&gt;UTM-sone&lt;space&gt;&lt;space&gt;,nr,0"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1239,12 +1239,12 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE __
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Creator_CREATED ATTR text_line_data <quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--OUTPUT_EPSG_CODE<space><quote>25833<quote> ATTR nr 5000    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE admingrense.fylkeflate ATTR text_line_data "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> < 18'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--FNR<space><quote><at>Value<openparen>fylkeid<closeparen><quote><space>OUTPUT_EPSG_CODE<space><quote>25832<quote><space>--FANOUT<space><quote>Fylker<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> >= 18;TEST <at>Value<openparen>fylkeid<closeparen> < 20'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--FNR<space><quote><at>Value<openparen>fylkeid<closeparen><quote><space>OUTPUT_EPSG_CODE<space><quote>25833<quote><space>--FANOUT<space><quote>Fylker<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> >= 20'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--FNR<space><quote><at>Value<openparen>fylkeid<closeparen><quote><space>OUTPUT_EPSG_CODE<space><quote>25835<quote><space>--FANOUT<space><quote>Fylker<quote>'FME_NUM_CONDITIONS4___" ATTR nr <at>Evaluate<openparen>3000<space>+<space><at>Value<openparen>fylkeid<closeparen><closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE admingrense.fylkeflate ATTR text_line_data "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> < 18'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--FNR<space><quote><at>Value<openparen>fylkeid<closeparen><quote><space>--OUTPUT_EPSG_CODE<space><quote>25832<quote><space>--FANOUT<space><quote>Fylker<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> >= 18;TEST <at>Value<openparen>fylkeid<closeparen> < 20'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--FNR<space><quote><at>Value<openparen>fylkeid<closeparen><quote><space>--OUTPUT_EPSG_CODE<space><quote>25833<quote><space>--FANOUT<space><quote>Fylker<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> >= 20'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--FNR<space><quote><at>Value<openparen>fylkeid<closeparen><quote><space>--OUTPUT_EPSG_CODE<space><quote>25835<quote><space>--FANOUT<space><quote>Fylker<quote>'FME_NUM_CONDITIONS4___" ATTR nr <at>Evaluate<openparen>3000<space>+<space><at>Value<openparen>fylkeid<closeparen><closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE admingrense.kommuneflate ATTR text_line_data "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> < 1800'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--KNR<space><quote><at>Value<openparen>kommuneid<closeparen><quote><space>OUTPUT_EPSG_CODE<space><quote>25832<quote><space>--FANOUT<space><quote>Kommuner<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> >= 1800;TEST <at>Value<openparen>kommuneid<closeparen> < 2000'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--KNR<space><quote><at>Value<openparen>kommuneid<closeparen><quote><space>OUTPUT_EPSG_CODE<space><quote>25833<quote><space>--FANOUT<space><quote>Kommuner<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> >= 2000'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--KNR<space><quote><at>Value<openparen>kommuneid<closeparen><quote><space>OUTPUT_EPSG_CODE<space><quote>25835<quote><space>--FANOUT<space><quote>Kommuner<quote>'FME_NUM_CONDITIONS4___" ATTR nr <at>Value<openparen>kommuneid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE admingrense.kommuneflate ATTR text_line_data "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> < 1800'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--KNR<space><quote><at>Value<openparen>kommuneid<closeparen><quote><space>--OUTPUT_EPSG_CODE<space><quote>25832<quote><space>--FANOUT<space><quote>Kommuner<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> >= 1800;TEST <at>Value<openparen>kommuneid<closeparen> < 2000'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--KNR<space><quote><at>Value<openparen>kommuneid<closeparen><quote><space>--OUTPUT_EPSG_CODE<space><quote>25833<quote><space>--FANOUT<space><quote>Kommuner<quote>'BOOL_OP;AND;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> >= 2000'<quote>$(FME_HOME_ENCODED)fme.exe<quote><space><backslash><backslash>nnrite507<backslash>Geodata<backslash>Jobs<backslash>Planomriss_postgis2sosi<backslash>Planomriss_postgis2sosi.fmw<space>--KNR<space><quote><at>Value<openparen>kommuneid<closeparen><quote><space>--OUTPUT_EPSG_CODE<space><quote>25835<quote><space>--FANOUT<space><quote>Kommuner<quote>'FME_NUM_CONDITIONS4___" ATTR nr <at>Value<openparen>kommuneid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    SORT_BY nr NUMERIC ASCENDING    OUTPUT SORTED FEATURE_TYPE Sorter_SORTED
+FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    SORT_BY nr NUMERIC ASCENDING    OUTPUT SORTED FEATURE_TYPE Sorter_SORTED
 
 # -------------------------------------------------------------------------
 
