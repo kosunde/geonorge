@@ -1422,12 +1422,12 @@ et nummer og en eventuell bokstav (husnummer) som entydig identifiserer eiendomm
               <documentation>samlet informasjon om merking. Gjelder ikke lyssetting. All informasjon om lyssetting ligger under feature type Lyssetting</documentation>
             </annotation>
           </element>
-          <element name="vertikalUtstrekning" type="double">
+          <element minOccurs="0" name="vertikalUtstrekning" type="double">
             <annotation>
               <documentation>objektkomponentens maksimale høyde over terreng</documentation>
             </annotation>
           </element>
-          <element name="høydeVerdiEnhet" type="app:MåleenhetType">
+          <element minOccurs="0" name="høydeVerdiEnhet" type="app:MåleenhetType">
             <annotation>
               <documentation>her oppgis måleenheten til den vertikale utstrekningen av objektet</documentation>
             </annotation>
@@ -1467,7 +1467,7 @@ et nummer og en eventuell bokstav (husnummer) som entydig identifiserer eiendomm
               <documentation>er dette hinder ihht forskrift BSLE 2.1</documentation>
             </annotation>
           </element>
-          <element maxOccurs="unbounded" name="harLyssetting">
+          <element minOccurs="0" maxOccurs="unbounded" name="harLyssetting">
             <complexType>
               <complexContent>
                 <extension base="gml:AbstractMemberType">
