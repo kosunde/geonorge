@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\IMR\Korallrev_AtomFeed\Korallrev_AtomFeed.fmw
+#    "C:\Program Files\FME\fme.exe" C:\Users\xmaland\Documents\GitHub\geonorge\DSB\DSBAtomfeeds\SivilforsvarsdistrikterGML\AtomFeedsivilforsvarsdistrikterGML.fmw
 #    
 #    
 #! REQUIREMENTS="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FME 2015.0+ &lt;/p&gt;&#10;"
@@ -28,9 +28,9 @@
 #! WORKSPACE_VERSION="1"
 #! WARN_INVALID_XFORM_PARAM="Yes"
 #! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! VIEW_POSITION="-867.009 1149.01"
+#! VIEW_POSITION="-867.009 -741.007"
 #! DOC_TOP_LEFT="-1178.2 -2751.03"
-#! LAST_SAVE_DATE="2015-10-05T11:35:57"
+#! LAST_SAVE_DATE="2015-10-05T11:30:05"
 #! LOG_MAX_RECORDED_FEATURES="200"
 #! DESTINATION="NONE"
 #! FME_DOCUMENT_PRIORGUID="e2268bf6-f724-4c83-b829-cff191426dfa,a4ffe612-2b5d-4aa2-a070-a7cc84bd78a5,dc0aa76a-f13b-4a5d-85a5-fa6295a58a14,2437262b-3b9c-4468-95b7-bbe86ce300c9,d01be33a-faf5-4808-82f9-2923d07d83de,1caef670-3148-4fbf-b8bf-b9dfc6c84627,b16f06fe-910a-4b62-975e-281c36c5cc7a,6bc7fbcc-3095-4439-b85f-6ffdab4f63dc,52fe7089-8dde-4bb3-bc1a-92518eac2e2f,efea6150-af30-49a5-a5c7-a8aa265c767f,15f68be8-2e9b-4eee-89e8-c5cf5fa98d9f,d4222d46-d6a6-47fe-925b-0e5269e38a16,4d976883-ac46-47f8-a587-7151c16825f5,1b2f8e2a-1d61-457f-873d-c76588de7795,6bd4d361-e01c-403c-9b2b-8f61ecefe3a3,73c3603d-84a4-4f6f-a927-a65ec2b89a14,170f85a0-17a3-4def-9f0a-ad2972960e3b,8fb859d0-baca-450d-a08f-8e711e50005f,867f90c5-965e-487b-b5db-b88f75e4531e,1973c2ff-3eb6-4276-83a1-5d7e3ea5d829,2d29ca19-028a-43e8-b9ca-f46c5b6cecdb,0dcd45d7-b572-4984-a662-1f422d4b7fe2,cbaf302f-8b38-4405-95df-e85739f38e61,578a991a-cd24-4cc3-a9e4-f8b3a26888df,d3dd435b-7f85-496a-ab1b-e8bd0f521382,eadedff6-e881-47eb-a2ca-557f376273a9,1a07bf0a-607e-49cb-bc84-c054ccf71d8d,9e23dbc7-ed4a-474a-a68c-ce535879f329,44efece1-6b44-4d26-8d63-41ae334d1534,09687c2e-53c1-4b24-a914-92bb35415d88,40f69edc-f5c3-423b-a4de-8af4fdb87146,4ee6cc26-6a73-4d69-96dc-08b46270df38,43014fdf-1585-482d-b6aa-ba16875f49b1,d37f3fe3-9e3e-4030-9126-6dce5e88f0c5,ab980aeb-0847-429a-b0a4-230cb76e2b56,a1764787-0ca9-4c28-8440-6e8ceeea9ba4,59a65324-a0f1-4a67-8e4e-9e94a39cf4e4,ea58cd82-8940-4355-bcd9-362ee7f4b5a2,8bdc8609-3e04-4e97-aa02-6599a7f23c3f,be33bd39-3c19-46a2-af4e-f0fa9a932f64,82f4b338-82c5-4b71-ab7f-16d0bef8de54,d129f29c-b515-47d7-9dad-4c0a6c834fb0,13235b69-0259-4a4e-93bd-468f0fea8722,4bd75109-537f-4f16-a12a-ad1556de46f4"
@@ -754,7 +754,7 @@
 #! NAME="DSB"
 #! />
 #! <ITEM
-#! NAME="Akvakultur_AtomFeed.fmw"
+#! NAME="AtomFeedbrannstasjonerSOSI.fmw"
 #! />
 #! <MODIFICATIONS>
 #! <MODIFICATION
@@ -2649,7 +2649,7 @@ GEORSS_1_DATASET "$(DestDataset_GEORSS_1)"
 #! END_DEST_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)Korallrev_AtomFeed.log"
+LOG_FILENAME "$(FME_MF_DIR)AtomFeedsivilforsvarsdistrikterGML.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -2672,7 +2672,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME Korallrev_AtomFeed
+MACRO WORKSPACE_NAME AtomFeedsivilforsvarsdistrikterGML
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
@@ -2737,8 +2737,8 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECT
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_6d8fcfc2_7aee_49d8_b89a_33e4a83cf86516_replacer { findText replaceText invalidValue} {     set attrs [split \"navn\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE admingrense.fylker    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_6d8fcfc2_7aee_49d8_b89a_33e4a83cf86516_replacer {<space>} {_} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_6d8fcfc2_7aee_49d8_b89a_33e4a83cf8654_replacer { findText replaceText invalidValue} {     set attrs [split \"navn\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE admingrense.fylker    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_6d8fcfc2_7aee_49d8_b89a_33e4a83cf8654_replacer {<space>} {_} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_8 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE StringReplacer_OUTPUT ATTR koordsys "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> IN 1-17'25832'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> IN 18-19'25833'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>fylkeid<closeparen> IN 20'25835'FME_NUM_CONDITIONS4___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT 
@@ -2765,8 +2765,8 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRE
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_2_ad69ef83_ff88_430e_97a2_410a6c03c95c16_replacer { findText replaceText invalidValue} {     set attrs [split \"navn\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE admingrense.kommuner    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_ad69ef83_ff88_430e_97a2_410a6c03c95c16_replacer {<space>} {_} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_2_ad69ef83_ff88_430e_97a2_410a6c03c95c4_replacer { findText replaceText invalidValue} {     set attrs [split \"navn\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE admingrense.kommuner    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_ad69ef83_ff88_430e_97a2_410a6c03c95c4_replacer {<space>} {_} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_9 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE StringReplacer_2_OUTPUT ATTR koordsys "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> IN 100-1799'25832'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> IN 1800-1999'25833'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>kommuneid<closeparen> IN 2000-2099'25835'FME_NUM_CONDITIONS4___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_9_OUTPUT 
