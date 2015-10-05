@@ -2493,7 +2493,7 @@
 ..BELIGGENHET T50                                  !beliggenhet
 
 .DEF
-..BELYSNING H1                                     !belysning
+..BELYSNING BOOLSK                                     !belysning
 
 .DEF
 ..BELYSNINGSBRUK H2
@@ -2857,7 +2857,7 @@
 ..BRANSJE T5                                       !bransje
 
 .DEF
-..BREDDE H3                                        !trasébredde
+..BREDDE H5                                        !trasébredde
 
 .DEF
 ..BRENNVIDDE D10.2                                 !brennvidde
@@ -5410,7 +5410,7 @@
 ..KOMM_ALT_AREAL2 D6.2                             !kommAlternativtAreal2
 
 .DEF
-..KOMMENTAR T50                                    !kommentar
+..KOMMENTAR T500                                   !kommentar
 
 .DEF
 ..KOMMENTAR_TYPE T3                                !kommentarType
@@ -5826,7 +5826,7 @@
 ..LEKEREKRTYPE T2                                  !lekeRekreasjonstype
 
 .DEF
-..LENGDE D8.2                                      !lengde
+..LENGDE H8                                      !lengde
 
 .DEF
 ..LENGDEENHET T20                                  !lengdeenhet
@@ -8714,7 +8714,7 @@
 ..STENGESDATO DATO                                 !stengesDato
 
 .DEF
-..STIGNING H2                                      !stigning
+..STIGNING D5                                      !stigning
 
 .DEF
 ..STORBUE H1                                       !storbue
