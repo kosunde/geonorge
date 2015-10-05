@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://skjema.geonorge.no/SOS/produktspesifikasjon/Havforskningsinstituttet/4.5/Korallrev.xsd" xmlns:gml="http://www.opengis.net/gml/3.2" elementFormDefault="qualified" targetNamespace="http://skjema.geonorge.no/SOS/produktspesifikasjon/Havforskningsinstituttet/4.5/Korallrev.xsd" version="20150408">
+  <annotation>
+    <documentation>Denne spesifikasjonen spesifiserer datasettet Korallrev og forvaltningen av dette produktet. Datasettet Korallrev egner seg for kartproduksjon og til bruk i saksbehandling og beslutningssystemer, prosjektering og til geografiske analyser.</documentation>
+  </annotation>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="BmKilde" substitutionGroup="gml:AbstractObject" type="app:BmKildeType">
+    <annotation>
+      <documentation>kilden registreringen baserer seg på</documentation>
+    </annotation>
+  </element>
+  <complexType name="BmKildeType">
+    <sequence>
+      <element name="kildeNavn" type="string">
+        <annotation>
+          <documentation>navn på observatør(er) eller forfatter(e)</documentation>
+        </annotation>
+      </element>
+      <element name="kildeTittel" type="string">
+        <annotation>
+          <documentation>kan være navn på rapport, beskrivelse av hva som er gjort</documentation>
+        </annotation>
+      </element>
+      <element name="kildetype" type="gml:CodeType">
+        <annotation>
+          <documentation>hvilken kilde opplysningene stammer fra</documentation>
+        </annotation>
+      </element>
+      <element name="kildeÅr" type="integer">
+        <annotation>
+          <documentation>publiseringsår (for litteraturhenvisninger) eller år for undersøkelse</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="BmKildePropertyType">
+    <sequence>
+      <element ref="app:BmKilde"/>
+    </sequence>
+  </complexType>
+  <element abstract="true" name="BmNaturtype_Korall" substitutionGroup="app:DybdeIntervall" type="app:BmNaturtype_KorallType">
+    <annotation>
+      <documentation>naturtyper kartlagt gjennom registrering av Biologisk mangfold - DN-håndbok 13-1999 og DN-håndbok 19</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="BmNaturtype_KorallType">
+    <complexContent>
+      <extension base="app:DybdeIntervallType">
+        <sequence>
+          <element name="naturtype" type="gml:CodeType">
+            <annotation>
+              <documentation>naturtyper innsamlet gjennom kommunal kartlegging av viktige arealer for biologisk mangfold etter DN-håndbok 13-1999 Kartlegging av naturtyper. Verdisetting av biologisk mangfold og håndbok 19 marine områder</documentation>
+            </annotation>
+          </element>
+          <element name="bmKilde" type="app:BmKildePropertyType">
+            <annotation>
+              <documentation>kilden registreringen baserer seg på</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BmNaturtype_KorallPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:BmNaturtype_Korall"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="DybdeIntervall" substitutionGroup="app:KorallrevSupertype" type="app:DybdeIntervallType">
+    <annotation>
+      <documentation>I Korallrev : Observasjonene er utført i Dybde intervallet.
+
+
+sjøområde der alle dybdene er innenfor et angitt dybdeintervall
+
+Merknad:
+Tilsvarer DEPARE i S-57
+
+
+-- Definition -- 
+sea area where all of the depths are within a designated depth interval Note: Corresponds to DEPARE in S-57</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="DybdeIntervallType">
+    <complexContent>
+      <extension base="app:KorallrevSupertypeType">
+        <sequence>
+          <element name="minimumsdybde" type="integer">
+            <annotation>
+              <documentation>minste dybde innen et område
+
+-- Definition -- 
+the minimum (shoalest) value of a depth range.  Note:  S-57 DRVAL1</documentation>
+            </annotation>
+          </element>
+          <element name="maksimumsdybde" type="integer">
+            <annotation>
+              <documentation>største dybde innen et område
+
+-- Definition -- 
+the maximum (deepest) value of a depth range.  Note:  S-57 DRVAL2</documentation>
+            </annotation>
+          </element>
+          <element name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>Observasjonen sin posisjon</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DybdeIntervallPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:DybdeIntervall"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Identifikasjon" substitutionGroup="gml:AbstractObject" type="app:IdentifikasjonType">
+    <annotation>
+      <documentation>Unik identifikasjon av et objekt, ivaretatt av den ansvarlige produsent/forvalter, som kan benyttes av eksterne applikasjoner som referanse til objektet. 
+
+NOTE1 Denne eksterne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer. 
+
+NOTE 2 Denne unike identifikatoren vil ikke endres i løpet av objektets levetid.</documentation>
+    </annotation>
+  </element>
+  <complexType name="IdentifikasjonType">
+    <sequence>
+      <element name="lokalId" type="string">
+        <annotation>
+          <documentation>lokal identifikator, tildelt av dataleverendør/dataforvalter. Den lokale identifikatoren er unik innenfor navnerommet, ingen andre objekter har samme identifikator.
+
+NOTE: Det er data leverendørens ansvar å sørge for at denne lokale identifikatoren er unik innenfor navnerommet.</documentation>
+        </annotation>
+      </element>
+      <element name="navnerom" type="string">
+        <annotation>
+          <documentation>navnerom som unikt identifiserer datakilden til objektet, starter med to bokstavs kode jfr ISO 3166. Benytter understreking  ("_") dersom data produsenten ikke er assosiert med bare et land.
+
+NOTE 1 : Verdien for nanverom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og vil registreres i "INSPIRE external  Object Identifier Namespaces Register"
+
+Eksempel: NO for Norge.</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="versjonId" type="string">
+        <annotation>
+          <documentation>identifikasjon av en spesiell versjon av et geografisk objekt (instans), maksimum lengde på 25 karakterers. Dersom spesifikasjonen av et geografisk objekt med en identifikasjon inkludererer livsløpssyklusinformasjon, benyttes denne versjonId for å skille mellom ulike versjoner av samme objekt. versjonId er en unik  identifikasjon av versjonen. 
+
+NOTE Maksimum lengde er valgt for å tillate tidsregistrering i henhold til  ISO 8601, slik som  "2007-02-12T12:12:12+05:30" som versjonId.</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="IdentifikasjonPropertyType">
+    <sequence>
+      <element ref="app:Identifikasjon"/>
+    </sequence>
+  </complexType>
+  <element name="Korallrev" substitutionGroup="app:BmNaturtype_Korall" type="app:KorallrevType">
+    <annotation>
+      <documentation>naturtyper kartlagt gjennom registrering av Biologisk mangfold - DN-håndbok 13-1999 og DN-håndbok 19</documentation>
+    </annotation>
+  </element>
+  <complexType name="KorallrevType">
+    <complexContent>
+      <extension base="app:BmNaturtype_KorallType">
+        <sequence>
+          <element name="observasjonsMetode" type="string">
+            <annotation>
+              <documentation>Metoden for observasjonen</documentation>
+            </annotation>
+          </element>
+          <element name="observasjonsStart" type="dateTime">
+            <annotation>
+              <documentation>Tidspunktet observasjonen startet</documentation>
+            </annotation>
+          </element>
+          <element name="observasjonsSlutt" type="dateTime">
+            <annotation>
+              <documentation>Tidspunktet observasjonen sluttet</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KorallrevPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Korallrev"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="KorallrevSupertype" substitutionGroup="gml:AbstractFeature" type="app:KorallrevSupertypeType">
+    <annotation>
+      <documentation>abstrakt objekt som bærer en rekke egenskaper som er fagområde-uavhengige og kan benyttes for alle objekttyper
+
+Merknad:
+Spesielt i produktspesifikasjonsarbeid vil en velge egenskaper og av grensningslinjer fra denne klassen.</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="KorallrevSupertypeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identifikasjon" type="app:IdentifikasjonPropertyType">
+            <annotation>
+              <documentation>unik identifikasjon av et objekt</documentation>
+            </annotation>
+          </element>
+          <element name="verifiseringsdato" type="dateTime">
+            <annotation>
+              <documentation>dato når dataene er fastslått å være i samsvar med virkeligheten
+
+Merknad: Verifiseringsdato er identisk med ..DATO i tidligere versjoner av SOSI</documentation>
+            </annotation>
+          </element>
+          <element name="kvalitet" type="app:PosisjonskvalitetPropertyType">
+            <annotation>
+              <documentation>beskrivelse av kvaliteten på stedfestingen
+
+Merknad: Denne er identisk med ..KVALITET i tidligere versjoner av SOSI.</documentation>
+            </annotation>
+          </element>
+          <element name="medium" type="app:MediumType">
+            <annotation>
+              <documentation>objektets beliggenhet i forhold til jordoverflaten
+
+Eksempel:
+På bro, i tunnel, inne i et bygningsmessig anlegg, etc.</documentation>
+            </annotation>
+          </element>
+          <element name="opphav" type="string">
+            <annotation>
+              <documentation>referanse til opphavsmaterialet, kildematerialet, organisasjons/publiseringskilde
+
+Merknad: 
+Kan også beskrive navn på person og årsak til oppdatering</documentation>
+            </annotation>
+          </element>
+          <element name="nøyaktighetsklasse" type="app:NøyaktighetsklasseType">
+            <annotation>
+              <documentation>grov klassifisering av nøyaktigheten til et punkts/steds plassering i forhold til noe som forutsettes kjent</documentation>
+            </annotation>
+          </element>
+          <element name="registreringsversjon" type="app:RegistreringsversjonPropertyType">
+            <annotation>
+              <documentation>angivelse av hvilken produktspesifikasjon som er utgangspunkt  for dataene</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KorallrevSupertypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:KorallrevSupertype"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="MediumType">
+    <annotation>
+      <documentation>objektets beliggenhet i forhold til jordoverflaten
+
+Eksempel:
+Veg på bro, i tunnel, inne i et bygningsmessig anlegg, etc.</documentation>
+    </annotation>
+    <union memberTypes="app:MediumEnumerationType app:MediumOtherType"/>
+  </simpleType>
+  <simpleType name="MediumEnumerationType">
+    <annotation>
+      <documentation>objektets beliggenhet i forhold til jordoverflaten
+
+Eksempel:
+Veg på bro, i tunnel, inne i et bygningsmessig anlegg, etc.</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="V"/>
+      <enumeration value="S"/>
+      <enumeration value="X">
+        <annotation>
+          <documentation>ukjent</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="MediumOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeType">
+    <annotation>
+      <documentation>metode som ligger til grunn for registrering av posisjon
+
+
+-- Definition - - 
+method on which registration of position is based</documentation>
+    </annotation>
+    <union memberTypes="app:MålemetodeEnumerationType app:MålemetodeOtherType"/>
+  </simpleType>
+  <simpleType name="MålemetodeEnumerationType">
+    <annotation>
+      <documentation>metode som ligger til grunn for registrering av posisjon
+
+
+-- Definition - - 
+method on which registration of position is based</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="10">
+        <annotation>
+          <documentation>Målt i terrenget , uspesifisert metode/måleinstrument</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="15">
+        <annotation>
+          <documentation>Punkt beregnet på bakgrunn av måling mot andre punkter, slik som to avstander eller avstand og retning
+
+-- Definition -- 
+Point calculated on the basis of other items, such as two distances or distance + direction.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="18">
+        <annotation>
+          <documentation>Tatt fra plan eller godkjent tiltak</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="19">
+        <annotation>
+          <documentation>Annet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="30">
+        <annotation>
+          <documentation>Geometri overført fra kart maskinelt ved hjelp av skanner, uspesifisert kartmedium</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="31">
+        <annotation>
+          <documentation>Geometri overført fra kart maskinelt ved hjelp av skanner. Kartmedium er blyantoriginal</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="32">
+        <annotation>
+          <documentation>Geometri overført fra kart maskinelt ved hjelp av skanner. Kartmedium er rissefolie</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="33">
+        <annotation>
+          <documentation>Geometri overført fra kart maskinelt ved hjelp av skanner. Kartmedium er transparent folie av  god kvalitet.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="34">
+        <annotation>
+          <documentation>Geometri overført fra kart maskinelt ved hjelp av skanner. Kartmedium er transparent folie av mindre god kvalitet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="35">
+        <annotation>
+          <documentation>Geometri overført fra kart maskinelt ved hjelp av skanner. Kartmedium er papirkopi.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="38">
+        <annotation>
+          <documentation>brukes for objekter som er stedfestet med lineær referanse, enten disse leveres med stedfesting kun som lineære referanser, eller med koordinatgeometri avledet fra lineære referanser</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="47"/>
+      <enumeration value="48"/>
+      <enumeration value="50">
+        <annotation>
+          <documentation>Geometri overført fra kart ved hjelp av manuell registrering på et digitaliseringsbord, medium uspesifisert</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="51">
+        <annotation>
+          <documentation>Geometri overført fra kart ved hjelp av manuell registrering på et digitaliseringsbord. Kartmedium er blyantoriginal</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="55">
+        <annotation>
+          <documentation>Geometri overført fra kart ved hjelp av manuell registrering på et digitaliseringsbord. Kartmedium er papirkopi</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="56">
+        <annotation>
+          <documentation>Geometri overført fra kart ved hjelp av manuell registrering på skjerm, medium skannet kart (raster), samkopi</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="60">
+        <annotation>
+          <documentation>Genererte data, interpolasjonsmetode. Ikke nærmere spesifisert</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="61">
+        <annotation>
+          <documentation>Genererte data, interpolasjonsmetode, fra terrengmodell</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="62">
+        <annotation>
+          <documentation>Genererte data, interpolasjonsmetode, vektet middel</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="63">
+        <annotation>
+          <documentation>Genererte data: Sirkelgeometri, korridor eller annen geometri generert ut fra f.eks et punkt eller en linje (f.eks midtlinje veg)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="64">
+        <annotation>
+          <documentation>Genererte data: Generalisering</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="65">
+        <annotation>
+          <documentation>Genererte data: Sentralpunkt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="69">
+        <annotation>
+          <documentation>Beregnet, uspesifisert hvordan</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="70">
+        <annotation>
+          <documentation>Spesielle metoder, uspesifisert</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="74">
+        <annotation>
+          <documentation>Spesielle metoder: Målt med stigningsmåler</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="77">
+        <annotation>
+          <documentation>Punkt fastsatt ut fra et grunnlag (kart, bilde), f.eks ved partenes enighet ved en oppmålingsforretning</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="79">
+        <annotation>
+          <documentation>Annet (spesifiseres i filhode)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="80">
+        <annotation>
+          <documentation>Digitalisert ut fra frihåndstegning.  Frihåndstegning er basert på svært grovt grunnlag eller ikke noe grunnlag</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="81">
+        <annotation>
+          <documentation>Digitalisert fra krokering på kart, dvs grovt skissert på kart</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="82">
+        <annotation>
+          <documentation>Digitalisert ut fra frihåndstegning (direkte på skjerm). Frihåndstegning er basert på svært grovt grunnlag eller ikke noe grunnlag</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="91">
+        <annotation>
+          <documentation>Innmålt med satellittbaserte systemer for navigasjon og posisjonering med global dekning (f.eks GPS, GLONASS, GALILEO): Kodemåling, relative målinger.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="92">
+        <annotation>
+          <documentation>Innmålt med satellittbaserte systemer for navigasjon og posisjonering med global dekning (f.eks GPS, GLONASS, GALILEO): Kodemåling, enkle målinger.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="94">
+        <annotation>
+          <documentation>Innmålt med satellittbaserte systemer for navigasjon og posisjonering med global dekning (f.eks GPS, GLONASS, GALILEO): Fasemåling andre metoder.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="95">
+        <annotation>
+          <documentation>Kombinasjon av GPS/Treghet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="96">
+        <annotation>
+          <documentation>Innmålt med satellittbaserte systemer for navigasjon og posisjonering med global dekning (f.eks GPS, GLONASS, GALILEO).: Fasemåling RTK (realtids kinematisk måling)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="97">
+        <annotation>
+          <documentation>Innmålt med satellittbaserte systemer for navigasjon og posisjonering med global dekning (f.eks GPS, GLONASS, GALILEO). Fasemåling float-løsning</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="99">
+        <annotation>
+          <documentation>Målemetode er ukjent</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeHøydeType">
+    <annotation>
+      <documentation>metode for å måle objekttypens høydeverdi</documentation>
+    </annotation>
+    <union memberTypes="app:MålemetodeHøydeEnumerationType app:MålemetodeHøydeOtherType"/>
+  </simpleType>
+  <simpleType name="MålemetodeHøydeEnumerationType">
+    <annotation>
+      <documentation>metode for å måle objekttypens høydeverdi</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="10"/>
+      <enumeration value="19"/>
+      <enumeration value="20"/>
+      <enumeration value="60"/>
+      <enumeration value="61"/>
+      <enumeration value="62"/>
+      <enumeration value="63"/>
+      <enumeration value="64"/>
+      <enumeration value="69"/>
+      <enumeration value="70"/>
+      <enumeration value="79"/>
+      <enumeration value="91"/>
+      <enumeration value="94"/>
+      <enumeration value="95"/>
+      <enumeration value="96"/>
+      <enumeration value="99"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="MålemetodeHøydeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="NøyaktighetsklasseType">
+    <annotation>
+      <documentation>grov klassifisering av nøyaktigheten til et punkts/steds plassering i forhold til noe som forutsettes kjent
+
+Merknad: Bør spesifiseres nærmere i de tilfeller denne er angitt, dvs produktspesifikasjon</documentation>
+    </annotation>
+    <union memberTypes="app:NøyaktighetsklasseEnumerationType app:NøyaktighetsklasseOtherType"/>
+  </simpleType>
+  <simpleType name="NøyaktighetsklasseEnumerationType">
+    <annotation>
+      <documentation>grov klassifisering av nøyaktigheten til et punkts/steds plassering i forhold til noe som forutsettes kjent
+
+Merknad: Bør spesifiseres nærmere i de tilfeller denne er angitt, dvs produktspesifikasjon</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="NøyaktighetsklasseOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Posisjonskvalitet" substitutionGroup="gml:AbstractObject" type="app:PosisjonskvalitetType">
+    <annotation>
+      <documentation>beskrivelse av kvaliteten på stedfestingen</documentation>
+    </annotation>
+  </element>
+  <complexType name="PosisjonskvalitetType">
+    <sequence>
+      <element name="målemetode" type="app:MålemetodeType">
+        <annotation>
+          <documentation>metode for måling i grunnriss (x,y), og høyde (z) når metoden er den samme som ved måling i grunnriss</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="nøyaktighet" type="integer">
+        <annotation>
+          <documentation>punktstandardavviket i grunnriss for punkter samt tverravvik for linjer
+
+Merknad:
+Oppgitt i cm</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="synbarhet" type="app:SynbarhetType">
+        <annotation>
+          <documentation>hvor godt den kartlagte detalj var synbar ved kartleggingen</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="målemetodeHøyde" type="app:MålemetodeHøydeType">
+        <annotation>
+          <documentation>metode for å måle høyden</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="nøyaktighetHøyde" type="integer">
+        <annotation>
+          <documentation>nøyaktighet for høyden i cm</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="maksimaltAvvik" type="integer">
+        <annotation>
+          <documentation>absolutt toleranse for geometriske avvik</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="PosisjonskvalitetPropertyType">
+    <sequence>
+      <element ref="app:Posisjonskvalitet"/>
+    </sequence>
+  </complexType>
+  <element name="Registreringsversjon" substitutionGroup="gml:AbstractObject" type="app:RegistreringsversjonType">
+    <annotation>
+      <documentation>angir hvilken versjon av registreringsinstruksen som ble benyttet ved datafangst
+
+Eksempel:
+I et datasett kan det finnes objekter som er etablert fra ulike registreringsversjoner. For eksempel har registreringsinstruksen for objekttypen Takkant i FKB blitt endret fra SOSI/FKB-versjon 3.4 til versjon 4.0. Dersom en kommune ønsker å ajourføre Takkant for et delområde av kommunen etter FKB/SOSI-versjon 4.0, vil han etter ajourføring ha et kommunedekkende datasett der Takkant er registrert med forskjellig registreringsinstruks. I disse tilfellene kan det være nyttig å kunne skille på objektnivå hvilken registreringsversjon som er benyttet ved datafangst. Egenskapen kan benyttes til dette.</documentation>
+    </annotation>
+  </element>
+  <complexType name="RegistreringsversjonType">
+    <sequence>
+      <element name="produkt" type="string">
+        <annotation>
+          <documentation>entydig navn på produktet i form av et kortnavn</documentation>
+        </annotation>
+      </element>
+      <element name="versjon" type="string">
+        <annotation>
+          <documentation>versjonsnummer</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="RegistreringsversjonPropertyType">
+    <sequence>
+      <element ref="app:Registreringsversjon"/>
+    </sequence>
+  </complexType>
+  <simpleType name="SynbarhetType">
+    <annotation>
+      <documentation>hvor godt den kartlagte detalj var synbar ved kartleggingen</documentation>
+    </annotation>
+    <union memberTypes="app:SynbarhetEnumerationType app:SynbarhetOtherType"/>
+  </simpleType>
+  <simpleType name="SynbarhetEnumerationType">
+    <annotation>
+      <documentation>hvor godt den kartlagte detalj var synbar ved kartleggingen</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="0">
+        <annotation>
+          <documentation>Default</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1">
+        <annotation>
+          <documentation>Forøvrig grei å innmåle. (Benyttes bl.a. for innmåling av ledninger på lukket grøft)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>Middels synlig i flybilde/modell</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>Dårlig/ikke synlig i flybilde/modell</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="SynbarhetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+</schema>
