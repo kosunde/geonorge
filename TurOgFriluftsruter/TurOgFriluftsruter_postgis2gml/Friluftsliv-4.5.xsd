@@ -1,0 +1,2321 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://skjema.geonorge.no/SOS/produktspesifikasjon/Friluftsliv/4.5/Friluftsliv-4.5.xsd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" elementFormDefault="qualified" targetNamespace="http://skjema.geonorge.no/SOS/produktspesifikasjon/Friluftsliv/4.5" version="1.0">
+  <import namespace="http://www.interactive-instruments.de/ShapeChange/AppInfo" schemaLocation="http://shapechange.net/resources/schema/ShapeChangeAppinfo.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="AnnenRute" substitutionGroup="app:TurOgFriluftsrute" type="app:AnnenRuteType">
+    <annotation>
+      <documentation>rute for annen ferdsel, hovedsakelig knyttet til friluftsliv</documentation>
+    </annotation>
+  </element>
+  <complexType name="AnnenRuteType">
+    <complexContent>
+      <extension base="app:TurOgFriluftsruteType">
+        <sequence>
+          <element minOccurs="0" name="annenRutetype" type="string">
+            <annotation>
+              <documentation>type rute definert ut fra observert bruk, merking, anbefaling eller tilrettelegging for bruk
+
+Eksempel:
+riderute, klatretrute, padlerute</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">ARUTETYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AnnenRutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:AnnenRute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="BelysningType">
+    <annotation>
+      <documentation>om det er permanent belysning langs sti eller løype</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">BELYSNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:BelysningEnumerationType app:BelysningOtherType"/>
+  </simpleType>
+  <simpleType name="BelysningEnumerationType">
+    <annotation>
+      <documentation>om det er permanent belysning langs sti eller løype</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">BELYSNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="BelysningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="BrukerfrekvensType">
+    <annotation>
+      <documentation>angir hvor stor dagens brukerfrekvens er</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">BRUKERFREKVENS</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:BrukerfrekvensEnumerationType app:BrukerfrekvensOtherType"/>
+  </simpleType>
+  <simpleType name="BrukerfrekvensEnumerationType">
+    <annotation>
+      <documentation>angir hvor stor dagens brukerfrekvens er</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">BRUKERFREKVENS</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="4"/>
+      <enumeration value="1"/>
+      <enumeration value="3"/>
+      <enumeration value="2"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="BrukerfrekvensOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="EgnethetType">
+    <annotation>
+      <documentation>angir om området er spesielt godt egnet for en eller flere enkeltaktiviteter som det ikke finnes like gode alternative områder til</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">EGNETHET</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:EgnethetEnumerationType app:EgnethetOtherType"/>
+  </simpleType>
+  <simpleType name="EgnethetEnumerationType">
+    <annotation>
+      <documentation>angir om området er spesielt godt egnet for en eller flere enkeltaktiviteter som det ikke finnes like gode alternative områder til</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">EGNETHET</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="EgnethetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Fotrute" substitutionGroup="app:TurOgFriluftsrute" type="app:FotruteType">
+    <annotation>
+      <documentation>rute for menneskelig ferdsel til fots
+
+Merknad:
+ruter kan ha mange utforminger og gå på ulike fysiske underlag, fotruter kan gå i fjellområder, skog, i kulturlandskap eller som spaserruter i by- og boligstrøk.</documentation>
+    </annotation>
+  </element>
+  <complexType name="FotruteType">
+    <complexContent>
+      <extension base="app:TurOgFriluftsruteType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="spesialFotrutetype" type="app:SpesialFotrutetypeType">
+            <annotation>
+              <documentation>typer er definert ut fra spesiell tilrettelegging, spesielle bruksformål eller historisk opprinnelse</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SFOTRUTETYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="sesong" type="app:SesongType">
+            <annotation>
+              <documentation>vår- sommer- høst eller vintertur</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SESONG</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FotrutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Fotrute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="FriluftEierforholdType">
+    <annotation>
+      <documentation>angir hvilken instans som er eier av ruten</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRILUFTEIERFORHOLD</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:FriluftEierforholdEnumerationType app:FriluftEierforholdOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftEierforholdEnumerationType">
+    <annotation>
+      <documentation>angir hvilken instans som er eier av ruten</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRILUFTEIERFORHOLD</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="8"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftEierforholdOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivSikringType">
+    <annotation>
+      <documentation>angir om staten eller kommunen har bidratt til sikring av området</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftslivSikringEnumerationType app:FriluftslivSikringOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivSikringEnumerationType">
+    <annotation>
+      <documentation>angir om staten eller kommunen har bidratt til sikring av området</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="KS">
+        <annotation>
+          <documentation>område sikret for friluftslivsformål av kommunen ved erverv eller avtale.  Unntatt områder der sikring har skjedd i samarbeid med Staten v/Miljødirektoratet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SS">
+        <annotation>
+          <documentation>område der Staten v/Miljødirektoratet har skaffet seg råderett over arealet for allmennhetens bruk som friluftslivsområde ved erverv/kjøp, ved langsiktig avtale om bruksrett (servituttavtale) eller ved tinglyst erklæring om bruk til friluftslivsformål</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivSikringOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="FriluftslivTilrettelAvgrensning" substitutionGroup="gml:AbstractFeature" type="app:FriluftslivTilrettelAvgrensningType">
+    <annotation>
+      <documentation>avgrensning av et tilretteleggingstiltak (innenfor et friluftlivsområde)</documentation>
+    </annotation>
+  </element>
+  <complexType name="FriluftslivTilrettelAvgrensningType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="grense" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>forløp som følger overgang mellom ulike fenomener</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FriluftslivTilrettelAvgrensningPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:FriluftslivTilrettelAvgrensning"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FriluftslivTilrettelegging" substitutionGroup="gml:AbstractFeature" type="app:FriluftslivTilretteleggingType">
+    <annotation>
+      <documentation>fysiske tiltak som gjennomføres i friluftsområder</documentation>
+    </annotation>
+  </element>
+  <complexType name="FriluftslivTilretteleggingType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="område" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>objektets utstrekning</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">Flate</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>sted som objektet eksisterer på</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NØ</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilgjengelighetsGruppe" type="app:TilgjengelighetsgruppeType">
+            <annotation>
+              <documentation>angir hvilke grupper av funksjonshemmede området er tilrettelagt for</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHETSGRUPPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilrettelegging" type="app:FriluftslivTilretteleggingType">
+            <annotation>
+              <documentation>angir tilretteleggingstiltak i området</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRITILRETTELEGGING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ansvarlig" type="app:FriluftslivsområdeDriftstilsynType">
+            <annotation>
+              <documentation>angir hvem som er ansvarlig for tilretteleggingstiltaket</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIDRIFTSTILSYN</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="vedlikeholdsansvarlig" type="string">
+            <annotation>
+              <documentation>ansvarlig for vedlikehold</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">VEDLIKEH</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FriluftslivTilretteleggingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:FriluftslivTilrettelegging"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="FriluftslivTilretteleggingType">
+    <annotation>
+      <documentation>tilrettelegging som er gjort innenfor friluftslivsområdet</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftslivTilretteleggingEnumerationType app:FriluftslivTilretteleggingOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivTilretteleggingEnumerationType">
+    <annotation>
+      <documentation>tilrettelegging som er gjort innenfor friluftslivsområdet</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="41"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="8"/>
+      <enumeration value="9"/>
+      <enumeration value="10"/>
+      <enumeration value="11"/>
+      <enumeration value="12"/>
+      <enumeration value="13"/>
+      <enumeration value="14"/>
+      <enumeration value="15"/>
+      <enumeration value="16"/>
+      <enumeration value="17"/>
+      <enumeration value="18">
+        <annotation>
+          <documentation>f.eks. (markdekke, drenering, klopplegging)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="19"/>
+      <enumeration value="20"/>
+      <enumeration value="21"/>
+      <enumeration value="22"/>
+      <enumeration value="23"/>
+      <enumeration value="24">
+        <annotation>
+          <documentation>inkl. kulturminner</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="25"/>
+      <enumeration value="26"/>
+      <enumeration value="27"/>
+      <enumeration value="28"/>
+      <enumeration value="29"/>
+      <enumeration value="30"/>
+      <enumeration value="31"/>
+      <enumeration value="32"/>
+      <enumeration value="33"/>
+      <enumeration value="35"/>
+      <enumeration value="36"/>
+      <enumeration value="37">
+        <annotation>
+          <documentation>for eksempel gapahuk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="38"/>
+      <enumeration value="39"/>
+      <enumeration value="40"/>
+      <enumeration value="42"/>
+      <enumeration value="43"/>
+      <enumeration value="44"/>
+      <enumeration value="45"/>
+      <enumeration value="46"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivTilretteleggingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeDriftstilsynType">
+    <annotation>
+      <documentation>angir ansvarlig instans for drift og tilsyn med området</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIDRIFTSTILSYN</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:FriluftslivsområdeDriftstilsynEnumerationType app:FriluftslivsområdeDriftstilsynOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeDriftstilsynEnumerationType">
+    <annotation>
+      <documentation>angir ansvarlig instans for drift og tilsyn med området</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIDRIFTSTILSYN</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeDriftstilsynOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeEgnethetType">
+    <annotation>
+      <documentation>hvilken bruk friluftslivsområdet er egnet for</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftslivsområdeEgnethetEnumerationType app:FriluftslivsområdeEgnethetOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeEgnethetEnumerationType">
+    <annotation>
+      <documentation>hvilken bruk friluftslivsområdet er egnet for</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="8"/>
+      <enumeration value="9"/>
+      <enumeration value="10"/>
+      <enumeration value="11">
+        <annotation>
+          <documentation>Grøntdrag, parker og lekeområder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="12"/>
+      <enumeration value="13"/>
+      <enumeration value="14"/>
+      <enumeration value="15"/>
+      <enumeration value="16"/>
+      <enumeration value="17"/>
+      <enumeration value="18"/>
+      <enumeration value="19"/>
+      <enumeration value="20"/>
+      <enumeration value="21">
+        <annotation>
+          <documentation>grotting, brevandring og lignende</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="22">
+        <annotation>
+          <documentation>Rafting, elvepadling og lignende</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeEgnethetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeTypeType">
+    <annotation>
+      <documentation>klassifisering av friluftslivsområder etter funksjon
+
+Merknad:
+For mer uttømmende definisjoner, se Miljødirektoratets Veileder M98-2013 (tidligere Håndbok for kartlegging og verdsetting av friluftslivsområder, Direktoratet for naturforvaltning 2004).</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftslivsområdeTypeEnumerationType app:FriluftslivsområdeTypeOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeTypeEnumerationType">
+    <annotation>
+      <documentation>klassifisering av friluftslivsområder etter funksjon
+
+Merknad:
+For mer uttømmende definisjoner, se Miljødirektoratets Veileder M98-2013 (tidligere Håndbok for kartlegging og verdsetting av friluftslivsområder, Direktoratet for naturforvaltning 2004).</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="AF">
+        <annotation>
+          <documentation>områder av betydning for friluftslivet som ikke lar seg plassere i de øvrige områdetypene</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GK">
+        <annotation>
+          <documentation>grønnkorridoren er en del av det "myke" transportsystemet og er viktige forbindelseslinjer som knytter sammen boligområder og de mest brukte og egnede friluftslivsområdene
+
+Merknad:
+slike korridorer skal ha et grønt hovedpreg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KL">
+        <annotation>
+          <documentation>(tidligere kulturlandskap) Områder av betydning for friluftslivet i jordbrukslandskapet, der man etter friluftslovens bestemmelser kan ferdes til fots i den tid marken er frosset eller snølagt, dog ikke i tidsrommet fra 30. april til 14. oktober. Se "Friluftsloven" for mer informasjon om ferdselsrett. Loven finnes på www.lovdata.no.
+
+I tillegg kan ferdselsveier som er åpne for allmenn ferdsel som sti-, løype- og turveiforbindelser i jordbrukslandskapet registreres i denne kategorien.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LR">
+        <annotation>
+          <documentation>leke- og rekreasjonsområde som lekeplasser, ballplasser, nærmiljøanlegg, hundremeterskogen, badestrender, offentlig sikrede områder, parker og lignende områder som er mindre enn 200 daa</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MA">
+        <annotation>
+          <documentation>marka omfatter noen av de viktigste områdene for friluftsliv i kommunen og/eller regionen
+
+Merknad: 
+marka grenser som regel direkte opp mot byer og tettsteder og har en direkte atkomst herfra, ofte kombinert med tilrettelagte parkeringsplasser</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="NT">
+        <annotation>
+          <documentation>Vegetasjonskledd områder på mer enn 200daa. Områdene skal være tilknyttet byggeområder som f.eks. boligområder, skoler og barnehager, og ligge i gangavstand fra disse. De er vanligvis naturlig avgrenset av bebyggelse eller dyrket mark. 
+
+Merknad: 
+området skal være tilknyttet byggeområder som f eks boligområder, skoler og barnehager, og være i gangavstand fra disse. Det er vanligvis naturlig avgrenset av bebyggelse eller dyrket mark</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TM">
+        <annotation>
+          <documentation>områdetypen dekker de nasjonalt viktigste fjell-, skog og heiområdene med tilrettelegging i form av merket sti- og løypenett med tilhørende overnattingssteder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TU">
+        <annotation>
+          <documentation>store områder eller systemer av delområder som er "inngrepsfrie"</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SS">
+        <annotation>
+          <documentation>Områder langs kyst, innsjøer og vassdrag med muligheter for allment friluftsliv. (tidligere Strandsone)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SK">
+        <annotation>
+          <documentation>landskap, natur- eller kulturmiljø som har helt spesielle opplevelseskvaliteter eller som har spesielt stor symbolverdi</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UO">
+        <annotation>
+          <documentation>område som ligger utenfor den umiddelbare nærhet til byer og tettsted, men reisetiden er ikke lengre en at den kan aksepteres for en dags opphold 
+
+Merknad: 
+områdene kjennetegnes ofte med at de er egnet for en eller flere enkeltaktiviteter som det lokalt ikke finnes alternative områder til av noenlunde tilsvarende kvalitet</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeTypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeVerdiType">
+    <annotation>
+      <documentation>områdets betydning for friluftslivet</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftslivsområdeVerdiEnumerationType app:FriluftslivsområdeVerdiOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeVerdiEnumerationType">
+    <annotation>
+      <documentation>områdets betydning for friluftslivet</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="A"/>
+      <enumeration value="B"/>
+      <enumeration value="C"/>
+      <enumeration value="D"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeVerdiOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBrukergrupperType">
+    <annotation>
+      <documentation>angir hvor brukerne kommer fra</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftsområdeBrukergrupperEnumerationType app:FriluftsområdeBrukergrupperOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftsområdeBrukergrupperEnumerationType">
+    <annotation>
+      <documentation>angir hvor brukerne kommer fra</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBrukergrupperOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBruksfrekvensType">
+    <annotation>
+      <documentation>angivelse av hvor mye et område brukes</documentation>
+    </annotation>
+    <union memberTypes="app:FriluftsområdeBruksfrekvensEnumerationType app:FriluftsområdeBruksfrekvensOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftsområdeBruksfrekvensEnumerationType">
+    <annotation>
+      <documentation>angivelse av hvor mye et område brukes</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBruksfrekvensOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FunksjonType">
+    <annotation>
+      <documentation>angir om området har en spesiell funksjon (adkomstsone, korridor, parkeringsplass el)</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FUNKSJON</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:FunksjonEnumerationType app:FunksjonOtherType"/>
+  </simpleType>
+  <simpleType name="FunksjonEnumerationType">
+    <annotation>
+      <documentation>angir om området har en spesiell funksjon (adkomstsone, korridor, parkeringsplass el)</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FUNKSJON</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FunksjonOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="InngrepType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er inngrepsfritt</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">INNGREP</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:InngrepEnumerationType app:InngrepOtherType"/>
+  </simpleType>
+  <simpleType name="InngrepEnumerationType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er inngrepsfritt</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">INNGREP</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="InngrepOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="KartlFriluftslivsomrAvgrensning" substitutionGroup="gml:AbstractFeature" type="app:KartlFriluftslivsomrAvgrensningType">
+    <annotation>
+      <documentation>avgrensning av et kartlagt friluftlivsområde</documentation>
+    </annotation>
+  </element>
+  <complexType name="KartlFriluftslivsomrAvgrensningType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="grense" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>forløp som følger overgang mellom ulike fenomener</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KartlFriluftslivsomrAvgrensningPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:KartlFriluftslivsomrAvgrensning"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="KartlagtFriluftslivsområde" substitutionGroup="gml:AbstractFeature" type="app:KartlagtFriluftslivsområdeType">
+    <annotation>
+      <documentation>områder som er kartlagt og verdsatt etter metoden i Miljødirektoratets &lt;i&gt;Veileder M98-2013 &lt;/i&gt;(tidligere DN-håndbok 25 2004) og andre viktige friluftslivsområder som for eksempel potensielt tilgjengelige strandsoneområder</documentation>
+    </annotation>
+  </element>
+  <complexType name="KartlagtFriluftslivsområdeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="område" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>objektets utstrekning</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">Flate</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>sted som objektet eksisterer på</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">Punkt</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kartlagtFriluftslivKurve" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>kartlagte friluftlivsområder kan registreres som linjer</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">Kurve</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kartlagtStatus" type="app:KartlagtStatusType">
+            <annotation>
+              <documentation>egenskap for å registere et området før det er endelig vedtatt/ området skal ut på høring</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KARTLAGTSTATUS</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="områdeverdi" type="app:FriluftslivsområdeVerdiType">
+            <annotation>
+              <documentation>områdets betydning for friluftslivet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIVERDI</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="områdetype" type="app:FriluftslivsområdeTypeType">
+            <annotation>
+              <documentation>angir hovedtype friluftsområde som best beskriver området etter kodeliste</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRITYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="friluftOpphav" type="string">
+            <annotation>
+              <documentation>beskriver i hvilken sammenheng området er kartlagt</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRILUFTOPPHAV</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="helling" type="gml:CodeType">
+            <annotation>
+              <documentation>angir hellingsgraden i strandsonen</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tilgjengeligStrandsone" type="gml:CodeType">
+            <annotation>
+              <documentation>et strandsoneareal som er tigjengelig for allmennhetens friluftsliv i forhold til fysiske hindringer</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="verdsetting" type="app:VerdsettingPropertyType">
+            <annotation>
+              <documentation>angir kriterium for verdsetting av området</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">VERDSETTING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KartlagtFriluftslivsområdePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:KartlagtFriluftslivsområde"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="KartlagtStatusType">
+    <annotation>
+      <documentation>brukes hvis området skal gjennom en høringsprosess før endelig versjon er "vedtatt"</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KARTLAGTSTATUS</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:KartlagtStatusEnumerationType app:KartlagtStatusOtherType"/>
+  </simpleType>
+  <simpleType name="KartlagtStatusEnumerationType">
+    <annotation>
+      <documentation>brukes hvis området skal gjennom en høringsprosess før endelig versjon er "vedtatt"</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KARTLAGTSTATUS</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="UA"/>
+      <enumeration value="E">
+        <annotation>
+          <documentation>endelig versjon av friluftsområdet vedtatt</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="KartlagtStatusOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KunnskapsverdierType">
+    <annotation>
+      <documentation>angir om området er egnet i undervisningssammenheng eller om området har spesielle natur- eller kulturvitenskaplige kvaliteter</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KUNNSKAPSVERDIER</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:KunnskapsverdierEnumerationType app:KunnskapsverdierOtherType"/>
+  </simpleType>
+  <simpleType name="KunnskapsverdierEnumerationType">
+    <annotation>
+      <documentation>angir om området er egnet i undervisningssammenheng eller om området har spesielle natur- eller kulturvitenskaplige kvaliteter</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KUNNSKAPSVERDIER</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KunnskapsverdierOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LydmiljøType">
+    <annotation>
+      <documentation>angir kvaliteten av lydmiljøet</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">LYDMILJO</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:LydmiljøEnumerationType app:LydmiljøOtherType"/>
+  </simpleType>
+  <simpleType name="LydmiljøEnumerationType">
+    <annotation>
+      <documentation>angir kvaliteten av lydmiljøet</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">LYDMILJO</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LydmiljøOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LøypeprepareringType">
+    <annotation>
+      <documentation>angivelse av hvordan løypestrekningen er preparert</documentation>
+    </annotation>
+    <union memberTypes="app:LøypeprepareringEnumerationType app:LøypeprepareringOtherType"/>
+  </simpleType>
+  <simpleType name="LøypeprepareringEnumerationType">
+    <annotation>
+      <documentation>angivelse av hvordan løypestrekningen er preparert</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="PM">
+        <annotation>
+          <documentation>preparert med løypemaskin</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PS">
+        <annotation>
+          <documentation>preparert med snøscooter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="U">
+        <annotation>
+          <documentation>løype som gås opp av skiløypere eller grunnprepareres vha snøscooter/løypemaskin tidlig i sesongen/ved store snøfall</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="LøypeprepareringOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpparbeidingType">
+    <annotation>
+      <documentation>grov gruppering av ulike opparbeidingstiltak på bakken/grunnen knyttet til turstier, skiløyper mv.</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OPPARBEIDING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:OpparbeidingEnumerationType app:OpparbeidingOtherType"/>
+  </simpleType>
+  <simpleType name="OpparbeidingEnumerationType">
+    <annotation>
+      <documentation>grov gruppering av ulike opparbeidingstiltak på bakken/grunnen knyttet til turstier, skiløyper mv.</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OPPARBEIDING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="5"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpparbeidingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpplevelseskvaliteterType">
+    <annotation>
+      <documentation>angir om området har spesielle natur- eller kulturhistoriske opplevelseskvaliteter eller om området har et spesielt landskap</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OPPLEVELSESKVALITETER</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:OpplevelseskvaliteterEnumerationType app:OpplevelseskvaliteterOtherType"/>
+  </simpleType>
+  <simpleType name="OpplevelseskvaliteterEnumerationType">
+    <annotation>
+      <documentation>angir om området har spesielle natur- eller kulturhistoriske opplevelseskvaliteter eller om området har et spesielt landskap</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OPPLEVELSESKVALITETER</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpplevelseskvaliteterOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="PotensiellBrukType">
+    <annotation>
+      <documentation>angir områdets potensial utover dagens bruk</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">POTENSIELLBRUK</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:PotensiellBrukEnumerationType app:PotensiellBrukOtherType"/>
+  </simpleType>
+  <simpleType name="PotensiellBrukEnumerationType">
+    <annotation>
+      <documentation>angir områdets potensial utover dagens bruk</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">POTENSIELLBRUK</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="PotensiellBrukOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RegionaleOgNasjonaleBrukereType">
+    <annotation>
+      <documentation>graden området brukes av personer som ikke er lokale</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">REGIONALE_NASJONALE_BRUKERE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RegionaleOgNasjonaleBrukereEnumerationType app:RegionaleOgNasjonaleBrukereOtherType"/>
+  </simpleType>
+  <simpleType name="RegionaleOgNasjonaleBrukereEnumerationType">
+    <annotation>
+      <documentation>graden området brukes av personer som ikke er lokale</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">REGIONALE_NASJONALE_BRUKERE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RegionaleOgNasjonaleBrukereOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteFølgerType">
+    <annotation>
+      <documentation>type trase som hoveddelen rute eller turen følger</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEFØLGER</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RuteFølgerEnumerationType app:RuteFølgerOtherType"/>
+  </simpleType>
+  <simpleType name="RuteFølgerEnumerationType">
+    <annotation>
+      <documentation>type trase som hoveddelen rute eller turen følger</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEFØLGER</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="US">
+        <annotation>
+          <documentation>sti som er vanskelig å se, f.eks. over bart fjell eller gjengrodd</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ST"/>
+      <enumeration value="TR"/>
+      <enumeration value="LT">
+        <annotation>
+          <documentation>løypetrase der terrenget er utjevnet f.eks. ved rydding av stein eller påfylling av masse for å oppnå gode forhold når det er snø</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TV">
+        <annotation>
+          <documentation>turvei er opparbeidet og med toppdekke som gir jevn overflate når det er bar mark</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GS">
+        <annotation>
+          <documentation>bane for fotgjengere og syklister langs eller nær en kjøreveg. Brøytes normalt om vinteren</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SV">
+        <annotation>
+          <documentation>bane for syklister</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SF">
+        <annotation>
+          <documentation>sykkelfelt i kjørebanen</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FO"/>
+      <enumeration value="BV">
+        <annotation>
+          <documentation>bilvei, uspesifisert vegdekke</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VV"/>
+      <enumeration value="IT">
+        <annotation>
+          <documentation>ruten følger en trase som ikke har tydelige spor i terrenget etter ferdsel. Ingen sti.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SB"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteFølgerOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteMerkingType">
+    <annotation>
+      <documentation>forteller om det er merking  langs en sti, løype, veg, sykkelvei mv</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEMERKING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RuteMerkingEnumerationType app:RuteMerkingOtherType"/>
+  </simpleType>
+  <simpleType name="RuteMerkingEnumerationType">
+    <annotation>
+      <documentation>forteller om det er merking  langs en sti, løype, veg, sykkelvei mv</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEMERKING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="JA"/>
+      <enumeration value="PM">
+        <annotation>
+          <documentation>merket rute/løype
+
+Merknad:
+Det er ikke spesifisert om merkingen er permanent eller bare i visse årstider</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SM"/>
+      <enumeration value="NEI"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteMerkingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteVanskelighetsgradType">
+    <annotation>
+      <documentation>angivelse av hvor krevende en rute er. Tilpasset til Innovasjon Norge sin standard</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEVANSKELIGHETSGRAD</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RuteVanskelighetsgradEnumerationType app:RuteVanskelighetsgradOtherType"/>
+  </simpleType>
+  <simpleType name="RuteVanskelighetsgradEnumerationType">
+    <annotation>
+      <documentation>angivelse av hvor krevende en rute er. Tilpasset til Innovasjon Norge sin standard</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEVANSKELIGHETSGRAD</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="G"/>
+      <enumeration value="B"/>
+      <enumeration value="R"/>
+      <enumeration value="S"/>
+      <enumeration value="I"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteVanskelighetsgradOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebetydningType">
+    <annotation>
+      <documentation>klassifisering av tur- og friluftsruter etter viktighet og bruk</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEBETYDNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RutebetydningEnumerationType app:RutebetydningOtherType"/>
+  </simpleType>
+  <simpleType name="RutebetydningEnumerationType">
+    <annotation>
+      <documentation>klassifisering av tur- og friluftsruter etter viktighet og bruk</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEBETYDNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebetydningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebreddeType">
+    <annotation>
+      <documentation>minste sti- , sykkelsti- eller skiløypebredde på strekningen (ligger i intervallet)</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEBREDDE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RutebreddeEnumerationType app:RutebreddeOtherType"/>
+  </simpleType>
+  <simpleType name="RutebreddeEnumerationType">
+    <annotation>
+      <documentation>minste sti- , sykkelsti- eller skiløypebredde på strekningen (ligger i intervallet)</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEBREDDE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="0"/>
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebreddeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutetypeType">
+    <annotation>
+      <documentation>angivelse av type rute</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RutetypeEnumerationType app:RutetypeOtherType"/>
+  </simpleType>
+  <simpleType name="RutetypeEnumerationType">
+    <annotation>
+      <documentation>angivelse av type rute</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>mye brukt rute som utgjør hovedtraseene i løypenettet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>mye brukt rute som binder sammen hovedløypenettet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>rute som utgjør alternative traseer, snarveier eller går til målpunkt</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RyddebreddeType">
+    <annotation>
+      <documentation>bredde på trase ryddet for løype i skog. Brukes for skiløyper</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RYDDEBREDDE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:RyddebreddeEnumerationType app:RyddebreddeOtherType"/>
+  </simpleType>
+  <simpleType name="RyddebreddeEnumerationType">
+    <annotation>
+      <documentation>bredde på trase ryddet for løype i skog. Brukes for skiløyper</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RYDDEBREDDE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RyddebreddeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SesongType">
+    <annotation>
+      <documentation>vår- sommer- høst eller vintertur</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SESONG</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:SesongEnumerationType app:SesongOtherType"/>
+  </simpleType>
+  <simpleType name="SesongEnumerationType">
+    <annotation>
+      <documentation>vår- sommer- høst eller vintertur</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SESONG</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="S"/>
+      <enumeration value="V"/>
+      <enumeration value="H"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SesongOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="SikraFriluftslivsomrAvgrensning" substitutionGroup="gml:AbstractFeature" type="app:SikraFriluftslivsomrAvgrensningType">
+    <annotation>
+      <documentation>avgrensning av et sikra friluftslivsområde</documentation>
+    </annotation>
+  </element>
+  <complexType name="SikraFriluftslivsomrAvgrensningType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="grense" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>forløp som følger overgang mellom ulike fenomener</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SikraFriluftslivsomrAvgrensningPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:SikraFriluftslivsomrAvgrensning"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="SikraFriluftslivsområde" substitutionGroup="gml:AbstractFeature" type="app:SikraFriluftslivsområdeType">
+    <annotation>
+      <documentation>områder hvor det offentlige har kontroll over arealbruken gjennom eierskap eller servituttavtale</documentation>
+    </annotation>
+  </element>
+  <complexType name="SikraFriluftslivsområdeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="område" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>objektets utstrekning</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">Flate</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>sted som objektet eksisterer på</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">Punkt</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="områdeverdi" type="app:FriluftslivsområdeVerdiType">
+            <annotation>
+              <documentation>områdets betydning for friluftslivet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIVERDI</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bruksfrekvens" type="app:FriluftsområdeBruksfrekvensType">
+            <annotation>
+              <documentation>angivelse av hvor mye et område brukes
+
+Merknad: 
+Merk at omfanget av bruk er relativ og et område med lite bruk i Oslo kan ha mye mer bruk enn et område med mye bruk andre steder i landet. Det kan også være variasjoner mellom årstid og aktivitet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIBRUKSFREKVENS</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="brukergrupper" type="app:FriluftsområdeBrukergrupperType">
+            <annotation>
+              <documentation>angir hvor brukerne kommer fra</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIBRUKERGRUPPER</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="sikringsstatus" type="app:FriluftslivSikringType">
+            <annotation>
+              <documentation>angir om staten eller kommunen har bidratt til sikring av området</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRISIKRING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="driftstilsynAnsvarlig" type="app:FriluftslivsområdeDriftstilsynType">
+            <annotation>
+              <documentation>angir ansvarlig instans for drift og tilsyn med området</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIDRIFTSTILSYN</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="forvaltningsplan" type="boolean">
+            <annotation>
+              <documentation>angir om det finnes forvaltningsplan</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FORVALTNINGSPLAN</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="offentligKommunikasjon" type="boolean">
+            <annotation>
+              <documentation>angir om området er tilgjengelig med offentlig kommunikasjon</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OFFENTLIGKOMMUNIKASJON</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tilgjengelighetKartlagt" type="boolean">
+            <annotation>
+              <documentation>angir om tilgjenglighet er kartlagt</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJKARTLAGT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilrettelegging" type="app:FriluftslivTilretteleggingType">
+            <annotation>
+              <documentation>tilretteleggingstiltak som er gjort innenfor friluftslivsområdet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRITILRETTELEGGING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="områdeEgnethet" type="app:FriluftslivsområdeEgnethetType">
+            <annotation>
+              <documentation>hvilken bruk friluftslivsområdet er egnet for</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIEGNETHET</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tilgjengeligFunksjon" type="app:TilgjengeligFunksjonType">
+            <annotation>
+              <documentation>angir hvilke funksjoner i området som er tilrettelagt for funksjonshemmede</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJFUNKSJON</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilgjenglighetsGruppe" type="app:TilgjengelighetsgruppeType">
+            <annotation>
+              <documentation>angir hvilke grupper av funksjonshemmede området er tilrettelagt for</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHETSGRUPPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="skjærgårdspark" type="boolean">
+            <annotation>
+              <documentation>angir om området er en del av skjærgårdspark</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SKJÆRGÅRDSPARK</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="sikraFriluftslivsomravgrensning">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="app:SikraFriluftslivsomrAvgrensning"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="turOgFriluftsrute">
+            <annotation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TUROGFRILUFTSRUTE</taggedValue>
+              </appinfo>
+            </annotation>
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="app:TurOgFriluftsrute"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SikraFriluftslivsområdePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:SikraFriluftslivsområde"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Skiløype" substitutionGroup="app:TurOgFriluftsrute" type="app:SkiløypeType">
+    <annotation>
+      <documentation>rute for ikke-motorisert ferdsel på snø
+
+Merknad:
+fortrinnsvis på ski, men også andre former slik som hundekjøring</documentation>
+    </annotation>
+  </element>
+  <complexType name="SkiløypeType">
+    <complexContent>
+      <extension base="app:TurOgFriluftsruteType">
+        <sequence>
+          <element minOccurs="0" name="spesialSkiløypetype" type="app:SpesialSkiløypetypeType">
+            <annotation>
+              <documentation>spesielle skiløyper definert ut fra observert bruk eller merking, anbefaling eller tilrettelegging for bruk.
+
+Merknad: 
+definert ut fra observert bruk eller merking, anbefaling eller tilrettelegging for bruk</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SPES_SKILØYPETYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="preparering" type="app:LøypeprepareringType">
+            <annotation>
+              <documentation>angivelse av hvordan løypestrekningen er preparert</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">PREPARERING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ryddebredde" type="app:RyddebreddeType">
+            <annotation>
+              <documentation>bredde på trase ryddet for løype i skog. Brukes for skiløyper</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RYDDEBREDDE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="antallSkispor" type="integer">
+            <annotation>
+              <documentation>antall oppkjørte skispor for klassisk på løypestrekningen. Angis med tall. Er det også tilrettelagt for skøyting registreres det med JA under skøytetrase</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">ANTALLSKISPOR</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="skøytetrase">
+            <annotation>
+              <documentation>om løypen er tilrettelagt for skøyting eller ikke. Er traseen kun tilrettelagt for skøyting settes i tillegg verdien 0 under AntallSkispor.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SKØYTETRASE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SkiløypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Skiløype"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="SpesialFotrutetypeType">
+    <annotation>
+      <documentation>typer er definert ut fra spesiell tilrettelegging, spesielle bruksformål eller historisk opprinnelse</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SFOTRUTETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:SpesialFotrutetypeEnumerationType app:SpesialFotrutetypeOtherType"/>
+  </simpleType>
+  <simpleType name="SpesialFotrutetypeEnumerationType">
+    <annotation>
+      <documentation>typer er definert ut fra spesiell tilrettelegging, spesielle bruksformål eller historisk opprinnelse</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SFOTRUTETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="NT">
+        <annotation>
+          <documentation>rute med opplysninger om naturfaglige emner gjennom skilting eller på annen måte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KT">
+        <annotation>
+          <documentation>rute med opplysninger om kulturhistoriske emner gjennom skilting eller på annen måte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HF">
+        <annotation>
+          <documentation>pilgrimsled, gammel kongevei, postveger, barnevandringsstier og rallarveier etc</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TR">
+        <annotation>
+          <documentation>rute spesielt tilrettelagt og/eller merket for trim</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KY">
+        <annotation>
+          <documentation>en rute som følger kystlinja</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AN"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialFotrutetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSkiløypetypeType">
+    <annotation>
+      <documentation>spesielle skiløyper</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SPES_SKILØYPETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:SpesialSkiløypetypeEnumerationType app:SpesialSkiløypetypeOtherType"/>
+  </simpleType>
+  <simpleType name="SpesialSkiløypetypeEnumerationType">
+    <annotation>
+      <documentation>spesielle skiløyper</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SPES_SKILØYPETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="SH">
+        <annotation>
+          <documentation>enveiskjørt løype med slake kurver og lydfyr. Bør skiltes med at man kan møte blinde skiløpere.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BV">
+        <annotation>
+          <documentation>løyper som er tilrettelagt for blant annet langrennspiggere. Krever liten kupering og slake kurver</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HL">
+        <annotation>
+          <documentation>løype for folk som kjører med hunder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HU">
+        <annotation>
+          <documentation>anbefalt skiløype for folk som går på skitur med hund</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KO">
+        <annotation>
+          <documentation>anbefalt løype for aktive skiløpere. Ofte i tilknytning til anlegg for langrenn og skiskyting</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FK">
+        <annotation>
+          <documentation>anbefalt nedfart for frikjøring (telemark, randonee og lignende)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AT">
+        <annotation>
+          <documentation>anbefalte traseer for skigåing uten spesiell tilrettelegging i form av preparering, rydding og lignende</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LL"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSkiløypetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSykkelrutetypeType">
+    <annotation>
+      <documentation>defineres med utgangspunkt i &lt;a href="http://www.fjellturisme.no/skilting-og-gradering/ny-utgave-av-handbok-for-skilting-og-gradering"&gt;Innovasjon Norge sin inndeling&lt;/a&gt;; utforsykling, terrengsykling og tursykling. I tillegg tas transportsykling inn som en kategori som fanger opp sykkelruter på og i tilknytning til veier og inne i byer og tettsted</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SPESIALSYKKELRUTETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:SpesialSykkelrutetypeEnumerationType app:SpesialSykkelrutetypeOtherType"/>
+  </simpleType>
+  <simpleType name="SpesialSykkelrutetypeEnumerationType">
+    <annotation>
+      <documentation>defineres med utgangspunkt i &lt;a href="http://www.fjellturisme.no/skilting-og-gradering/ny-utgave-av-handbok-for-skilting-og-gradering"&gt;Innovasjon Norge sin inndeling&lt;/a&gt;; utforsykling, terrengsykling og tursykling. I tillegg tas transportsykling inn som en kategori som fanger opp sykkelruter på og i tilknytning til veier og inne i byer og tettsted</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SPESIALSYKKELRUTETYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>sykling på vedlikholdt vei, sykkelvei og lignende</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>sykling utenfor vedlikeholdt vei og turvei</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>sykling i alpinanlegg og/eller andre tilrettelagte anlegg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>sykkelruter mellom knutepunkt. Eks. på knutepunkt er boligområder, arbeidssted, butikk, skole og lignende.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSykkelrutetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Sykkelrute" substitutionGroup="app:TurOgFriluftsrute" type="app:SykkelruteType">
+    <annotation>
+      <documentation>rute for ikke-motorisert ferdsel på sykkel
+
+Merknad:
+Sykkelrute kan følge kjørevei, gang/sykkelvei, traktorvei, sti etc</documentation>
+    </annotation>
+  </element>
+  <complexType name="SykkelruteType">
+    <complexContent>
+      <extension base="app:TurOgFriluftsruteType">
+        <sequence>
+          <element minOccurs="0" name="spesialSykkelrutetype" type="app:SpesialSykkelrutetypeType">
+            <annotation>
+              <documentation>spesielle former for sykkelruter</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SPESIALSYKKELRUTETYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SykkelrutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Sykkelrute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="SymbolverdiType">
+    <annotation>
+      <documentation>angir i hvor stor grad området har en spesiell symbolverdi</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SYMBOLVERDI</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:SymbolverdiEnumerationType app:SymbolverdiOtherType"/>
+  </simpleType>
+  <simpleType name="SymbolverdiEnumerationType">
+    <annotation>
+      <documentation>angir i hvor stor grad området har en spesiell symbolverdi</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SYMBOLVERDI</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SymbolverdiOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengeligFunksjonType">
+    <annotation>
+      <documentation>angir hvilke funksjoner i området som er tilrettelagt for funksjonshemmede</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJFUNKSJON</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:TilgjengeligFunksjonEnumerationType app:TilgjengeligFunksjonOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengeligFunksjonEnumerationType">
+    <annotation>
+      <documentation>angir hvilke funksjoner i området som er tilrettelagt for funksjonshemmede</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJFUNKSJON</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengeligFunksjonOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetType">
+    <annotation>
+      <documentation>angir hvor god tilgjengeligheten er.
+Grad av tilgjengelighet til et område avgjøres av mange faktorer som allemannsretten, fysisk tilrettelegging, transports, informasjon mv.</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHET</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:TilgjengelighetEnumerationType app:TilgjengelighetOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengelighetEnumerationType">
+    <annotation>
+      <documentation>angir hvor god tilgjengeligheten er.
+Grad av tilgjengelighet til et område avgjøres av mange faktorer som allemannsretten, fysisk tilrettelegging, transports, informasjon mv.</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHET</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetsgruppeType">
+    <annotation>
+      <documentation>angir hvilke gruppe av funksjonshemmede området er tilrettelagt for</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHETSGRUPPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:TilgjengelighetsgruppeEnumerationType app:TilgjengelighetsgruppeOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengelighetsgruppeEnumerationType">
+    <annotation>
+      <documentation>angir hvilke gruppe av funksjonshemmede området er tilrettelagt for</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHETSGRUPPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7">
+        <annotation>
+          <documentation>se NS 11005:2011, kap. 4.4</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetsgruppeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilretteleggingType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er tilrettelagt for spesielle aktiviteter eller grupper</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIOMRÅDETTILRETTELEGGING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:TilretteleggingEnumerationType app:TilretteleggingOtherType"/>
+  </simpleType>
+  <simpleType name="TilretteleggingEnumerationType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er tilrettelagt for spesielle aktiviteter eller grupper</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIOMRÅDETTILRETTELEGGING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilretteleggingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TrafikkbelastningType">
+    <annotation>
+      <documentation>grov kategorisering av trafikkbelastning på en strekning</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TRAFIKKBELASTNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:TrafikkbelastningEnumerationType app:TrafikkbelastningOtherType"/>
+  </simpleType>
+  <simpleType name="TrafikkbelastningEnumerationType">
+    <annotation>
+      <documentation>grov kategorisering av trafikkbelastning på en strekning</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TRAFIKKBELASTNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2">
+        <annotation>
+          <documentation>lav fart, noe trafikk eller fart opp til 60 km/t og lite trafikk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>mye trafikk og lav fart eller høy fart og litt trafikk.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>mye trafikk og fart under 60 km/t på veg med sykkelfelt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>alt som ikke inngår i de 4 klassene over. I stor grad veger med fart over 60 km/t eller høy trafikkmengde</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="TrafikkbelastningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element abstract="true" name="TurOgFriluftsrute" substitutionGroup="gml:AbstractFeature" type="app:TurOgFriluftsruteType">
+    <annotation>
+      <documentation>generellt overordnet ruteobjekt for tur- og friluftsruter</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="TurOgFriluftsruteType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="vedlikeholdsansvarlig" type="string">
+            <annotation>
+              <documentation>institusjon eller andre som har ansvar for vedlikehold av rute</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">VEDLIKEH</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="friluftEierforhold" type="app:FriluftEierforholdType">
+            <annotation>
+              <documentation>angir hvilken instans som er eier av ruta</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRILUFTEIERFORHOLD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="belysning" type="app:BelysningType">
+            <annotation>
+              <documentation>om det er permanent belysning langs ruten</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">BELYSNING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="merking" type="app:RuteMerkingType">
+            <annotation>
+              <documentation>forteller om det er merking  langs en sti, løype, veg, sykkelvei mv</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEMERKING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="skilting" type="boolean">
+            <annotation>
+              <documentation>om ruten er skiltet eller ikke (må skilles fra merking - skiltes ofte i viktige kryss og start- sluttpunkt)</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SKILTING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ruteFølger" type="app:RuteFølgerType">
+            <annotation>
+              <documentation>hoveddelen av type trase som rute eller løype følger</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEFØLGER</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rutebredde" type="app:RutebreddeType">
+            <annotation>
+              <documentation>minste sti- , sykkelsti- eller skiløypebredde på rutestrekningen</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEBREDDE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="opparbeiding" type="app:OpparbeidingType">
+            <annotation>
+              <documentation>grov gruppering av ulike opparbeidingstiltak på bakken/grunnen knyttet til turstier, skiløyper mv.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OPPARBEIDING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rutebetydning" type="app:RutebetydningType">
+            <annotation>
+              <documentation>klassifisering av ulike tur- og friluftsruter etter hvor brukerne i hovedsak kommer fra</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEBETYDNING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ruteVanskelighetsgrad" type="app:RuteVanskelighetsgradType">
+            <annotation>
+              <documentation>angivelse av hvor krevende en rute er</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTEVANSKELIGHETSGRAD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="underlagstype" type="app:UnderlagstypeType">
+            <annotation>
+              <documentation>type underlag som ruten eller løypen følger - om rutestrekningen har asfalt/betongdekke, går på grus eller på naturlig grunn</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">UNDERLAGSTYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lengde" type="integer">
+            <annotation>
+              <documentation>rutens lengde i meter</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">LENGDE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="stigning" type="integer">
+            <annotation>
+              <documentation>samlet stigning i prosent. Denne egenskapen kan legges inn hvis en ikke har mulighet til å beregne stigning automatisk ut fra kartobjektet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">STIGNING</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilgjengelighetsGruppe" type="app:TilgjengelighetsgruppeType">
+            <annotation>
+              <documentation>angir hvilke grupper av funksjonshemmede området er tilrettelagt for</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHETSGRUPPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rutetype" type="app:RutetypeType">
+            <annotation>
+              <documentation>angivelse av type rute</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">RUTETYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="trafikkbelastning" type="app:TrafikkbelastningType"/>
+          <element minOccurs="0" name="anleggsnummer" type="integer">
+            <annotation>
+              <documentation>anleggsnummer i idrettsanleggsregisteret i forbindelse med tilskudd gjennom spillemiddel ordningen.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">ANLEGGSNUMMER</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TurOgFriluftsrutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:TurOgFriluftsrute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="UnderlagstypeType">
+    <annotation>
+      <documentation>om rutestrekningen har asfalt/betongdekke, går på grus eller på naturlig grunn</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">UNDERLAGSTYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:UnderlagstypeEnumerationType app:UnderlagstypeOtherType"/>
+  </simpleType>
+  <simpleType name="UnderlagstypeEnumerationType">
+    <annotation>
+      <documentation>om rutestrekningen har asfalt/betongdekke, går på grus eller på naturlig grunn</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">UNDERLAGSTYPE</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>strekningen har fast dekke  av asfalt eller betong</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>strekningen har grusdekke</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>strekningen går ikke på opparbeidet grunn, men på sti, over fjell el.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>strekningen har annen type underlag enn de nevnte</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="UnderlagstypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="UtstrekningType">
+    <annotation>
+      <documentation>angir om utstrekning av området er stor nok for å utøve de ønskede aktivitetene</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">UTSTREKNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <union memberTypes="app:UtstrekningEnumerationType app:UtstrekningOtherType"/>
+  </simpleType>
+  <simpleType name="UtstrekningEnumerationType">
+    <annotation>
+      <documentation>angir om utstrekning av området er stor nok for å utøve de ønskede aktivitetene</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">UTSTREKNING</taggedValue>
+      </appinfo>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="UtstrekningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Verdsetting" substitutionGroup="gml:AbstractObject" type="app:VerdsettingType">
+    <annotation>
+      <documentation>angir kriterium for verdsetting av området</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">VERDSETTING</taggedValue>
+      </appinfo>
+    </annotation>
+  </element>
+  <complexType name="VerdsettingType">
+    <sequence>
+      <element minOccurs="0" name="brukerfrekvens" type="app:BrukerfrekvensType">
+        <annotation>
+          <documentation>Hvor stor er dagens brukerfrekvens?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">BRUKERFREKVENS</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="regionaleOgNasjonaleBrukere" type="app:RegionaleOgNasjonaleBrukereType">
+        <annotation>
+          <documentation>Brukes området av personer som ikke er lokale?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">REGIONALE_NASJONALE_BRUKERE</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="opplevelseskvaliteter" type="app:OpplevelseskvaliteterType">
+        <annotation>
+          <documentation>Har området spesielle natur- eller kulturhistoriske opplevelseskvaliteter? Har området spesielt landskap?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">OPPLEVELSESKVALITETER</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="symbolverdi" type="app:SymbolverdiType">
+        <annotation>
+          <documentation>Har området en spesiell symbolverdi?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">SYMBOLVERDI</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="funksjon" type="app:FunksjonType">
+        <annotation>
+          <documentation>Har området en spesiell funksjon (atkomstsone, korridor, parkeringsplass el.)?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FUNKSJON</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="egnethet" type="app:EgnethetType">
+        <annotation>
+          <documentation>Er området spesielt godt egnet for en eller flere enkeltaktiviteter som det ikke finnes like gode alternative områder til?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">EGNETHET</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="tilrettelegging" type="app:TilretteleggingType">
+        <annotation>
+          <documentation>Er området tilrettelagt for spesielle aktiviteter eller grupper?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">FRIOMRÅDETTILRETTELEGGING</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="kunnskapsverdier" type="app:KunnskapsverdierType">
+        <annotation>
+          <documentation>Er området egnet i undervisningssammenheng eller har området spesielle natur- eller kulturvitenskaplige kvaliteter?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KUNNSKAPSVERDIER</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="inngrep" type="app:InngrepType">
+        <annotation>
+          <documentation>Er området inngrepsfritt?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">INNGREP</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="utstrekning" type="app:UtstrekningType">
+        <annotation>
+          <documentation>Er området stort nok for å utøve de ønskede aktivitetene?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">UTSTREKNING</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="potensiellBruk" type="app:PotensiellBrukType">
+        <annotation>
+          <documentation>Har området potensial utover dagens bruk?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">POTENSIELLBRUK</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="tilgjengelighet" type="app:TilgjengelighetType">
+        <annotation>
+          <documentation>Er tilgjengeligheten god, eller kan den bli god?</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">TILGJENGELIGHET</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="lydmiljø" type="app:LydmiljøType">
+        <annotation>
+          <documentation>Har området et godt lydmiljø
+
+Merknad: God betyr lite støy.</documentation>
+          <appinfo>
+            <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">KPSTØY</taggedValue>
+          </appinfo>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="VerdsettingPropertyType">
+    <sequence>
+      <element ref="app:Verdsetting"/>
+    </sequence>
+  </complexType>
+</schema>
