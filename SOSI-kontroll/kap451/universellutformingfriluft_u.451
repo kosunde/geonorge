@@ -1,0 +1,61 @@
+! ***************************************************************************!
+! * SOSI-kontroll                                             UNIVERSELLUTFORMINGFRILUFT-UTVALG *!
+! * Utvalgsregler for UNIVERSELLUTFORMINGFRILUFT          				                    *!
+! *                            SOSI versjon  4.5.1                   *!
+! ***************************************************************************!
+! *           Følger databeskrivelsene i Del 1, Praktisk bruk               *!
+! *            og databeskrivelsene i Objektkatalogen,                      *!
+! *                   Generert fra SOSI UML modell                          *!
+! *                                                                         *!
+! *               Statens kartverk, SOSI-sekretariatet           08.10.2015 *!
+! *                          nn                                             *!
+! ***************************************************************************!
+! ------ Antall definerte objekttyper i denne katalogen: 12
+
+.GRUPPE-UTVALG UUFriluftBaderampe
+..VELG  "..OBJTYPE" = UUFriluftBaderampe
+..BRUK-REGEL UUFriluftBaderampe
+
+.GRUPPE-UTVALG UUFriluftFiskeplass
+..VELG  "..OBJTYPE" = UUFriluftFiskeplass
+..BRUK-REGEL UUFriluftFiskeplass
+
+.GRUPPE-UTVALG UUFriluftFriluftsområde
+..VELG  "..OBJTYPE" = UUFriluftFriluftsområde
+..BRUK-REGEL UUFriluftFriluftsområde
+
+.GRUPPE-UTVALG UUFriluftHytterTilrettelagt
+..VELG  "..OBJTYPE" = UUFriluftHytterTilrettelagt
+..BRUK-REGEL UUFriluftHytterTilrettelagt
+
+.GRUPPE-UTVALG UUFriluftStatligSikraFriluftsområder
+..VELG  "..OBJTYPE" = UUFriluftStatligSikraFriluftsområder
+..BRUK-REGEL UUFriluftStatligSikraFriluftsområder
+
+.GRUPPE-UTVALG UUFriluftGapahuk
+..VELG  "..OBJTYPE" = UUFriluftGapahuk
+..BRUK-REGEL UUFriluftGapahuk
+
+.GRUPPE-UTVALG UUFriluftGrillBålplass
+..VELG  "..OBJTYPE" = UUFriluftGrillBålplass
+..BRUK-REGEL UUFriluftGrillBålplass
+
+.GRUPPE-UTVALG UUFriluftHCparkering
+..VELG  "..OBJTYPE" = UUFriluftHCparkering
+..BRUK-REGEL UUFriluftHCparkering
+
+.GRUPPE-UTVALG UUFriluftParkeringsområde
+..VELG  "..OBJTYPE" = UUFriluftParkeringsområde
+..BRUK-REGEL UUFriluftParkeringsområde
+
+.GRUPPE-UTVALG UUFriluftSittegruppe
+..VELG  "..OBJTYPE" = UUFriluftSittegruppe
+..BRUK-REGEL UUFriluftSittegruppe
+
+.GRUPPE-UTVALG UUFriluftToalett
+..VELG  "..OBJTYPE" = UUFriluftToalett
+..BRUK-REGEL UUFriluftToalett
+
+.GRUPPE-UTVALG UUFriluftTurvei
+..VELG  "..OBJTYPE" = UUFriluftTurvei
+..BRUK-REGEL UUFriluftTurvei
