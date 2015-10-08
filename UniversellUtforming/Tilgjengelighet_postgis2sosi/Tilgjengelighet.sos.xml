@@ -1,10 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GeoSOSI>
     <Mapping>
+		<FeatureClass InputName="uufriluftsomrader.uufriluftstatligsikrafriluftsomrader">
+            <Field InputName="bilde" InputType="T100"/>
+			<Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T50"/>
+			<Field InputName="naturbasenr" InputType="T12" OutputName="NATURBASENR" OutputType="T12" UserDefined="true"/>
+			<Field InputName="linkbilde" InputType="T50" OutputName="LINKBILDE" OutputType="T50" UserDefined="true"/>
+			<Field InputName="linkskjema" InputType="T50" OutputName="LINKSKJEMA" OutputType="T50" UserDefined="true"/>			
+            <Field InputName="forbedringsforslag" InputType="T2000" OutputName="FORBEDRINGSFORSLAG" OutputType="T2000" UserDefined="true"/>
+            <Field InputName="kommentar" InputType="T2000" OutputName="KOMMENTAR" OutputType="T2000"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T4"/>
+            <Field InputName="ogcfid" InputType="H11" OutputName="OGCFID" OutputType="H" UserDefined="true"/>
+            <Field InputName="oppdatert" InputType="DATOTID" OutputName="OPPDATERT" OutputType="DATOTID" UserDefined="true"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T100"/>
+            <Field InputName="registrert" InputType="DATOTID" OutputName="REGISTRERT" OutputType="DATOTID" UserDefined="true"/>
+        </FeatureClass>
+		<FeatureClass InputName="uufriluftsomrader.uufriluftstatligsikrafriluftsomradergrense">
+        </FeatureClass>		
+		<FeatureClass InputName="uufriluftsomrader.uufrilufthyttertilrettelagt">
+            <Field InputName="bilde" InputType="T100"/>
+			<Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T32"/>
+			<Field InputName="eier" InputType="T80" OutputName="EIER" OutputType="T50" UserDefined="true"/>
+			<Field InputName="lenke" InputType="T255" OutputName="LENKE" OutputType="T200" UserDefined="true"/>
+			<Field InputName="tilrettelagt" InputType="T80" OutputName="TILRETTELAGT" OutputType="T200" UserDefined="true"/>
+            <Field InputName="forbedringsforslag" InputType="T244" OutputName="FORBEDRINGSFORSLAG" OutputType="T500" UserDefined="true"/>
+            <Field InputName="kommentar" InputType="T244" OutputName="KOMMENTAR" OutputType="T500"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T4"/>
+            <Field InputName="ogcfid" InputType="H11" OutputName="OGCFID" OutputType="H" UserDefined="true"/>
+            <Field InputName="oppdatert" InputType="DATOTID" OutputName="OPPDATERT" OutputType="DATOTID" UserDefined="true"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T100"/>
+            <Field InputName="registrert" InputType="DATOTID" OutputName="REGISTRERT" OutputType="DATOTID" UserDefined="true"/>
+        </FeatureClass>		
         <FeatureClass InputName="uutettsted.uutettstedvei">
             <Field InputName="bilde" InputType="T80"/>
             <Field InputName="bredde" InputType="H11" OutputName="BREDDE" OutputType="H"/>
-            <Field InputName="byggingpagar" InputType="BOOLSK" OutputName="BYGGINGPAGAR" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="byggingpagar" InputType="BOOLSK" OutputName="BYGGINGPÅGÅR" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="dekke" InputType="T80" OutputName="DEKKE" OutputType="T15" UserDefined="true"/>
             <Field InputName="dekketilstand" InputType="T80" OutputName="DEKKETILSTAND" OutputType="T80" UserDefined="true"/>
             <Field InputName="gatetype" InputType="T80" OutputName="GATETYPE" OutputType="T10" UserDefined="true"/>
@@ -72,7 +102,7 @@
             <Field InputName="registrert" InputType="DATOTID" OutputName="REGISTRERT" OutputType="DATOTID" UserDefined="true"/>
             <Field InputName="rekkverk" InputType="BOOLSK" OutputName="REKKVERK" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="stoppkant" InputType="BOOLSK" OutputName="STOPPKANT" OutputType="BOOLSK" UserDefined="true"/>
-            <Field InputName="stoppkanthoyde" InputType="D20.2" OutputName="STOPPKANTHOYDE" OutputType="D5" UserDefined="true"/>
+            <Field InputName="stoppkanthoyde" InputType="D20.2" OutputName="STOPPKANTHØYDE" OutputType="D5" UserDefined="true"/>
             <Field InputName="tilgjengvurderingelrullestol" InputType="T80" OutputName="TILGJENGVURDERINGELRULLESTOL" OutputType="T25" UserDefined="true"/>
             <Field InputName="tilgjengvurderingrullestol" InputType="T80" OutputName="TILGJENGVURDERINGRULLESTOL" OutputType="T25" UserDefined="true"/>
             <Field InputName="tilgjengvurderingsyn" InputType="T80" OutputName="TILGJENGVURDERINGSYN" OutputType="T25" UserDefined="true"/>
@@ -94,7 +124,7 @@
             <Field InputName="ogcfid" InputType="H11" OutputName="OGCFID" OutputType="H" UserDefined="true"/>
             <Field InputName="oppdatert" InputType="DATOTID" OutputName="OPPDATERT" OutputType="DATOTID" UserDefined="true"/>
             <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T100"/>
-            <Field InputName="parkeringsomrade" InputType="BOOLSK" OutputName="PARKERINGSOMRADE" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="parkeringsomrade" InputType="BOOLSK" OutputName="PARKERINGSOMRÅDE" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="registrert" InputType="DATOTID" OutputName="REGISTRERT" OutputType="DATOTID" UserDefined="true"/>
             <Field InputName="sittegruppe" InputType="BOOLSK" OutputName="SITTEGRUPPE" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="toalett" InputType="BOOLSK" OutputName="TOALETT" OutputType="BOOLSK" UserDefined="true"/>
@@ -125,7 +155,7 @@
             <Field InputName="rampeterskel" InputType="D20.2" OutputName="RAMPETERSKEL" OutputType="D5" UserDefined="true"/>
             <Field InputName="rampetilgjengelig" InputType="T80" OutputName="RAMPETILGJENGELIG" OutputType="T25" UserDefined="true"/>
             <Field InputName="registrert" InputType="DATOTID" OutputName="REGISTRERT" OutputType="DATOTID" UserDefined="true"/>
-            <Field InputName="terskelhoyde" InputType="D20.2" OutputName="TERSKELHOYDE" OutputType="D5" UserDefined="true"/>
+            <Field InputName="terskelhoyde" InputType="D20.2" OutputName="TERSKELHØYDE" OutputType="D5" UserDefined="true"/>
             <Field InputName="tilgjengvurderingelrullestol" InputType="T80" OutputName="TILGJENGVURDERINGELRULLESTOL" OutputType="T25" UserDefined="true"/>
             <Field InputName="tilgjengvurderingrullestol" InputType="T80" OutputName="TILGJENGVURDERINGRULLESTOL" OutputType="T25" UserDefined="true"/>
             <Field InputName="tilgjengvurderingsyn" InputType="T80" OutputName="TILGJENGVURDERINGSYN" OutputType="T25" UserDefined="true"/>
@@ -145,7 +175,7 @@
             <Field InputName="tilgjengvurderingrullestol" InputType="T80" OutputName="TILGJENGVURDERINGRULLESTOL" OutputType="T25" UserDefined="true"/>
         </FeatureClass>
         <FeatureClass InputName="uufriluftsomrader.uufrilufthcparkering">
-            <Field InputName="automathoyde" InputType="H11" OutputName="AUTOMATHOYDE" OutputType="H5" UserDefined="true"/>
+            <Field InputName="automathoyde" InputType="H11" OutputName="AUTOMATHØYDE" OutputType="H5" UserDefined="true"/>
             <Field InputName="avgift" InputType="BOOLSK" OutputName="AVGIFT" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="avstandfasilitet" InputType="H11" OutputName="AVSTANDFASILITET" OutputType="H5" UserDefined="true"/>
             <Field InputName="bilde" InputType="T80"/>
@@ -215,7 +245,7 @@
             <Field InputName="kommentar" InputType="T500" OutputName="KOMMENTAR" OutputType="T500"/>
             <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T4"/>
             <Field InputName="kontrastinngang" InputType="T80" OutputName="KONTRASTINNGANG" OutputType="T15" UserDefined="true"/>
-            <Field InputName="manoverknapphoyde" InputType="H11" OutputName="MANØVERKNAPPHOYDE" OutputType="H5" UserDefined="true"/>
+            <Field InputName="manoverknapphoyde" InputType="H11" OutputName="MANØVERKNAPPHØYDE" OutputType="H5" UserDefined="true"/>
             <Field InputName="ogcfid" InputType="H11" OutputName="OGCFID" OutputType="H" UserDefined="true"/>
             <Field InputName="omkledningtilgjengelig" InputType="T80" OutputName="OMKLEDNINGTILGJENGELIG" OutputType="T25" UserDefined="true"/>
             <Field InputName="oppdatert" InputType="DATOTID" OutputName="OPPDATERT" OutputType="DATOTID" UserDefined="true"/>
@@ -227,7 +257,7 @@
             <Field InputName="rampetilgjengelighet" InputType="T80" OutputName="RAMPETILGJENGELIGHET" OutputType="T25" UserDefined="true"/>
             <Field InputName="registrert" InputType="DATOTID" OutputName="REGISTRERT" OutputType="DATOTID" UserDefined="true"/>
             <Field InputName="servanttilgjengelig" InputType="T80" OutputName="SERVANTTILGJENGELIG" OutputType="T25" UserDefined="true"/>
-            <Field InputName="terskelhoyde" InputType="D20.2" OutputName="TERSKELHOYDE" OutputType="D5" UserDefined="true"/>
+            <Field InputName="terskelhoyde" InputType="D20.2" OutputName="TERSKELHØYDE" OutputType="D5" UserDefined="true"/>
             <Field InputName="tilgjengvurderingelrullestol" InputType="T80" OutputName="TILGJENGVURDERINGELRULLESTOL" OutputType="T25" UserDefined="true"/>
             <Field InputName="tilgjengvurderingrullestol" InputType="T80" OutputName="TILGJENGVURDERINGRULLESTOL" OutputType="T25" UserDefined="true"/>
             <Field InputName="tilgjengvurderingsyn" InputType="T80" OutputName="TILGJENGVURDERINGSYN" OutputType="T25" UserDefined="true"/>
@@ -242,7 +272,7 @@
             <Field InputName="dekke" InputType="T80" OutputName="DEKKE" OutputType="T10" UserDefined="true"/>
             <Field InputName="dekketilstand" InputType="T80" OutputName="DEKKETILSTAND" OutputType="T10" UserDefined="true"/>
             <Field InputName="forbedringsforslag" InputType="T500" OutputName="FORBEDRINGSFORSLAG" OutputType="T500" UserDefined="true"/>
-            <Field InputName="frihoyde" InputType="T80" OutputName="FRIHOYDE" OutputType="T10" UserDefined="true"/>
+            <Field InputName="frihoyde" InputType="T80" OutputName="FRIHØYDE" OutputType="T10" UserDefined="true"/>
             <Field InputName="kommentar" InputType="T500" OutputName="KOMMENTAR" OutputType="T500"/>
             <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T4"/>
             <Field InputName="ledelinje" InputType="T80" OutputName="LEDELINJE" OutputType="T50" UserDefined="true"/>
@@ -263,12 +293,12 @@
             <Field InputName="veitype" InputType="T80" OutputName="VEITYPE" OutputType="T50" UserDefined="true"/>
         </FeatureClass>
         <FeatureClass InputName="uutettsted.uutettstedhcparkering">
-            <Field InputName="automathoyde" InputType="H11" OutputName="AUTOMATHOYDE" OutputType="H" UserDefined="true"/>
+            <Field InputName="automathoyde" InputType="H11" OutputName="AUTOMATHØYDE" OutputType="H" UserDefined="true"/>
             <Field InputName="avgift" InputType="BOOLSK" OutputName="AVGIFT" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="avstandservicebygg" InputType="H11" OutputName="AVSTANDSERVICEBYGG" OutputType="H" UserDefined="true"/>
             <Field InputName="bilde" InputType="T80"/>
             <Field InputName="bredde" InputType="H11" OutputName="BREDDE" OutputType="H8"/>
-            <Field InputName="byggingpagar" InputType="BOOLSK" OutputName="BYGGINGPAGAR" OutputType="BOOLSK" UserDefined="true"/>
+            <Field InputName="byggingpagar" InputType="BOOLSK" OutputName="BYGGINGPÅGÅR" OutputType="BOOLSK" UserDefined="true"/>
             <Field InputName="kommentar" InputType="T500" OutputName="KOMMENTAR" OutputType="T500"/>
             <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T4"/>
             <Field InputName="lengde" InputType="H11" OutputName="LENGDE" OutputType="H8"/>
@@ -289,7 +319,7 @@
             <Field InputName="avstandvanligparkering" InputType="H11" OutputName="AVSTANDVANLIGPARKERING" OutputType="H" UserDefined="true"/>
             <Field InputName="bilde" InputType="T80"/>
             <Field InputName="byggfunksjon" InputType="T80" OutputName="BYGGFUNKSJON" OutputType="T80" UserDefined="true"/>
-            <Field InputName="byggingpagar" InputType="T80" OutputName="BYGGINGPAGAR" OutputType="T40" UserDefined="true"/>
+            <Field InputName="byggingpagar" InputType="T80" OutputName="BYGGINGPÅGÅR" OutputType="T40" UserDefined="true"/>
             <Field InputName="dorapner" InputType="T80" OutputName="DØRÅPNER" OutputType="T15" UserDefined="true"/>
             <Field InputName="dortype" InputType="T80" OutputName="DØRTYPE" OutputType="T15" UserDefined="true"/>
             <Field InputName="handlist" InputType="T80" OutputName="HÅNDLIST" OutputType="T15" UserDefined="true"/>
