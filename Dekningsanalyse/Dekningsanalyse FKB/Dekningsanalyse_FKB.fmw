@@ -1,0 +1,3275 @@
+#! <?xml version="1.0" encoding="utf-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" "C:\Users\xmaland\Documents\GitHub\geonorge\Dekningsanalyse\Dekningsanalyse FKB\Dekningsanalyse_FKB.fmw"
+#          --FKB_datasett "PblTiltak"
+#    
+#    
+#! DESTINATION_ROUTING_FILE=""
+#! LEGAL_TERMS_CONDITIONS=""
+#! DOC_EXTENTS="9000.21 4176.6"
+#! FME_SERVER_SERVICES=""
+#! FME_DOCUMENT_PRIORGUID="0d3257ab-0879-4f5f-bfdd-14f235244178,6648e0f4-38cc-468b-a198-72d5081df63c,60584c0f-f66b-4ee6-9b53-b324ab615aed,4e6e70a8-eae1-4151-90b4-889c60e71e8c,dedd4055-76e4-4d65-9c96-250fca326106"
+#! PASSWORD=""
+#! SHOW_INFO_NODES="true"
+#! ZOOM_SCALE="64"
+#! LOG_FILE=""
+#! LOG_MAX_PRECISION="Yes"
+#! MAX_LOG_FEATURES="200"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! WORKSPACE_VERSION="1"
+#! SOURCE_ROUTING_FILE=""
+#! VIEW_POSITION="-1279.7 -32.8128"
+#! LAST_SAVE_DATE="2015-10-07T13:12:24"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! SHOW_ANNOTATIONS="true"
+#! END_TCL=""
+#! USAGE=""
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! END_PYTHON=""
+#! DESTINATION="NONE"
+#! BEGIN_PYTHON=""
+#! FME_BUILD_NUM="15515"
+#! DESCRIPTION=""
+#! HISTORY=""
+#! REQUIREMENTS_KEYWORD=""
+#! CATEGORY=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! SOURCE="NONE"
+#! FME_DOCUMENT_GUID="2c7c7552-7025-47bf-ae4b-121c940a5629"
+#! REDIRECT_TERMINATORS="NONE"
+#! DOC_TOP_LEFT="-1928.02 -4209.41"
+#! FME_REPROJECTION_ENGINE="FME"
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! REQUIREMENTS=""
+#! BEGIN_TCL=""
+#! IGNORE_READER_FAILURE="No"
+#! TITLE=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! >
+#! <DATASETS>
+#! <DATASET
+#! IS_SOURCE="true"
+#! ROLE="READER"
+#! FORMAT="POSTGRES"
+#! DATASET="$(SourceDataset_POSTGRES)"
+#! KEYWORD="POSTGRES_1"
+#! MULTI_GEOM_ALLOWED="false"
+#! ATTR_MAX_LENGTH="60"
+#! ATTR_CASE="ANY"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="postgres_type char(50) fme_rotation float8 multi_reader_type char(50) fme_primary_axis float8 fme_sweep_angle float8 fme_basename char(50) fme_geometry fme_char(50) multi_reader_keyword char(50) fme_color char(50) postgres_oid int4 fme_text_string char(50) fme_feature_type char(50) fme_secondary_axis float8 fme_text_size float8 multi_reader_id int4 fme_fill_color char(50) fme_dataset char(50) fme_start_angle float8 multi_reader_full_id int4 fme_type char(50)"
+#! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
+#! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
+#! ATTR_NAME_INVALID_CHARS=""
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="DATABASE"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! MIN_FEATURES=""
+#! MAX_FEATURES=""
+#! COORDSYS=""
+#! FEATURE_TYPES=""
+#! START_FEATURE=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! </DATASET>
+#! <DATASET
+#! IS_SOURCE="false"
+#! ROLE="WRITER"
+#! FORMAT="POSTGRES"
+#! DATASET="$(DestDataset_POSTGRES)"
+#! KEYWORD="POSTGRES_2"
+#! MULTI_GEOM_ALLOWED="true"
+#! ATTR_MAX_LENGTH="63"
+#! ATTR_CASE="LOWER"
+#! ALLOWED_FEAT_TYPES=""
+#! WRITE_DEFS="true"
+#! DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_mode INHERIT_FROM_WRITER postgres_sql_key_columns &quot;&quot; postgres_drop_table NO postgres_truncate_table NO postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
+#! DEFLINE_ATTRS="true"
+#! EXPOSABLE_ATTRS="fme_type char(50) postgres_type char(50) fme_db_operation char(8) fme_basename char(50) fme_text_size float8 fme_text_string char(50) fme_dataset char(50) fme_color char(50) fme_secondary_axis float8 fme_fill_color char(50) fme_geometry fme_char(50) fme_start_angle float8 fme_rotation float8 fme_sweep_angle float8 fme_primary_axis float8 fme_feature_type char(50) fme_where char(254)"
+#! DEFLINE_PARMS="&quot;GUI CHOICE postgres_drop_table YES%NO Drop Table First&quot; NO &quot;GUI CHOICE postgres_truncate_table YES%NO Truncate Table First&quot; NO &quot;GUI CHOICE postgres_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL ATTRLIST_COMMAS postgres_sql_key_columns SQL Key Columns&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
+#! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
+#! ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
+#! SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#! ENABLED="true"
+#! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#! DATASET_TYPE="DATABASE"
+#! GENERATE_FME_BUILD_NUM="15515"
+#! FANOUT="No"
+#! FANOUT_PREFIX=""
+#! FANOUT_ID_ATTR=""
+#! COORDSYS=""
+#! FANOUT_SUFFIX=""
+#! FANOUT_DIRECTORY=""
+#! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="FEATURE_TYPE_DEFAULT_NAME"
+#! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bool"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varchar(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="text"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bytea"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_int16"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_int64"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="numeric(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="oid"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="serial"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float4"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="money"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="float8"
+#! FME_TYPE="fme_real64"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="date"
+#! FME_TYPE="fme_date"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="time"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timetz"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamp"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="timestamptz"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="uuid"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="bit(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="varbit(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="bool"
+#! FME_TYPE="fme_boolean"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="varchar(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="text"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="bytea"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_int16"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="int2"
+#! FME_TYPE="fme_uint8"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="int4"
+#! FME_TYPE="fme_uint16"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_int64"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="int8"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="numeric(width,decimal)"
+#! FME_TYPE="fme_decimal(width,decimal)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="numeric(20,0)"
+#! FME_TYPE="fme_uint64"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="oid"
+#! FME_TYPE="fme_uint32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="serial"
+#! FME_TYPE="fme_int32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="float4"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="money"
+#! FME_TYPE="fme_real32"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="float8"
+#! FME_TYPE="fme_real64"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="date"
+#! FME_TYPE="fme_date"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="time"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="timetz"
+#! FME_TYPE="fme_time"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="timestamp"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="timestamptz"
+#! FME_TYPE="fme_datetime"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="uuid"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="char(1)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="bit(width)"
+#! FME_TYPE="fme_char(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="varbit"
+#! FME_TYPE="fme_buffer"
+#! FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="varbit(width)"
+#! FME_TYPE="fme_varchar(width)"
+#! FORMAT="POSTGRES"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_text"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_arc"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_collection"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_raster"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_solid"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="true"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_no_geom"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_point"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_line"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_area"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_rectangle"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_rounded_rectangle"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_text"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_ellipse"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_arc"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_collection"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_raster"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_surface"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_solid"
+#! FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#! IS_SOURCE="false"
+#! FORMAT_TYPE="postgres_none"
+#! FME_TYPE="fme_point_cloud"
+#! FORMAT="POSTGRES"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#! IS_SOURCE="true"
+#! NODE_NAME="admingrense.kommuner"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="admingrense"
+#! IS_EDITABLE="false"
+#! IDENTIFIER="9"
+#! FEAT_GEOMTYPE="postgres_none"
+#! POSITION="-1799.77 -1003.14"
+#! BOUNDING_RECT="-1799.77 -1003.14 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="POSTGRES_1"
+#! PARMS_EDITED="false"
+#! ENABLED="true"
+#! HIDDEN_USER_ATTRS=""
+#! MERGE_FILTER=""
+#! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#! MERGE_FILTER_CASE_SENSITIVE="true"
+#! DYNAMIC_SCHEMA="false"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int2,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_where_clause" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#! IS_SOURCE="false"
+#! NODE_NAME="dekningsoversikt.dekningsoversikt"
+#! FEATURE_TYPE_NAME=""
+#! FEATURE_TYPE_NAME_QUALIFIER="dekningsoversikt"
+#! IS_EDITABLE="true"
+#! IDENTIFIER="33"
+#! FEAT_GEOMTYPE="All"
+#! POSITION="7019.19 -1063.69"
+#! BOUNDING_RECT="7019.19 -1063.69 -1 -1"
+#! ORDER="5e+014"
+#! COLLAPSED="true"
+#! KEYWORD="POSTGRES_2"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4,PRIKEY" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="akvakultur" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="korallrev" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_110sentral" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_brannstasjon" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_distrkont_siv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_sivforsvdistr" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_brannsmitteomr" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_tettetrehusm" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_frededebygg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_enkeltminner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_kulturmiljo" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_lokaliteter" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="ra_sikringssoner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kv_hovedbiled" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kv_ispshavneanlegg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kv_losbordingsfelt" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="kv_losstasjoner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner10" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner20" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner50" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner100" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner200" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner500" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner1000" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsoner200_i_aar2100" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_flomsonekartplan" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_elvis_hovedelv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_elvis_elvenett" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_innsjodata" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_dybdekart" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_nedborfelt_regine" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vassdragsomrade" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_totnedbfelt_mstasjon" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vannkraftverk" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vindparkomrader" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vindturbin" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_kraftlinjer" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_sjokabler" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_transformatorstasjoner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_omradekonsesjoner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_sikringstiltak" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_verneplan_vassdrag" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_kvikkleire" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_aktsomhet_snoskred" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_aktsomhet_steinsprang" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_aktsomhet_snosteinsprang" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_aktsomhet_jordflomskred" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_skredhendelser" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_kraftverk_alle_kst" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_magasin" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_dam" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vanninntak" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vannvei" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_delfelt_vannkraft" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_vindkraftverk" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nve_skredsoner" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_anleggfarligstoff" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_storulykkeanlegg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="dsb_eksplosivanlegg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="nibio_jordkvalitet" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_forurensetgrunn" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_frilstatligsikra" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_frilkartlverds" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_verdif_kulturlandsk" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_viktige_naturt" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_villreinomr" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_naturvernomr" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_naturvernomr_foresl" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_arter_nasjon_forv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_naturt_landskap" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="md_naturt_utv" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_ar5" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_adresse" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_arealbruk" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_bane" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_bygnanlegg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_bygning" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_bygningspunkt" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_hoydekurve-5m" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_hoydekurve" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_ledning" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_ledningva" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_lufthavn" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_matrikkelkartdekteig" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_naturinfo" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_pbltiltak" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_servitutt" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_tekst1000" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_tekst5000" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_traktorvegsti" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_vann" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_vbase" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="fkb_veg" ATTR_TYPE="bool" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgres_drop_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_mode" PARM_VALUE="UPDATE"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_sql_key_columns" PARM_VALUE="kommuneid"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_create_with_oids" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_vacuum_analyze" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_truncate_table" PARM_VALUE="NO"/>
+#! <DEFLINE_PARM PARM_NAME="postgres_allow_serial_writing" PARM_VALUE="NO"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI CHOICE_OR_ATTR FKB_datasett AR5%Adresse%Arealbruk%Bane%BygnAnlegg%Bygning%Bygningspunkt%Hoydekurve-5m%Hoydekurve%Ledning%LedningVa%Lufthavn%MatrikkelkartDekTeig%Naturinfo%PblTiltak%Servitutt%Tekst1000%Tekst5000%TraktorvegSti%Vann%Vbase%Veg Datasett som skal analyseres:"
+#! DEFAULT_VALUE="PblTiltak"
+#! IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT SourceDataset_POSTGRES Database:"
+#! DEFAULT_VALUE="geonor01tst"
+#! IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#! GUI_LINE="GUI IGNORE TEXT DestDataset_POSTGRES Database:"
+#! DEFAULT_VALUE="geonor01tst"
+#! IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#! IDENTIFIER="50"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Alle attributter til små bokstaver&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="4916.86 -1865.07"
+#! TOP_LEFT="4916.86 -1865.07"
+#! BOTTOM_RIGHT="4915.86 -1864.07"
+#! BOUNDING_RECT="4916.86 -1865.07 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="37"
+#! />
+#! <COMMENT
+#! IDENTIFIER="54"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Henter ut transSize-attributten&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="2630.78 -880.689"
+#! TOP_LEFT="2630.78 -880.689"
+#! BOTTOM_RIGHT="2629.78 -879.689"
+#! BOUNDING_RECT="2630.78 -880.689 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="6"
+#! />
+#! <COMMENT
+#! IDENTIFIER="58"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Leser kommunetabell (uten geometri)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="-1928.02 -823.515"
+#! TOP_LEFT="-1928.02 -823.515"
+#! BOTTOM_RIGHT="-1929.02 -822.515"
+#! BOUNDING_RECT="-1928.02 -823.515 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="9"
+#! />
+#! <COMMENT
+#! IDENTIFIER="59"
+#! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Oppdaterer postgres&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#! POSITION="7072.19 -880.001"
+#! TOP_LEFT="7072.19 -880.001"
+#! BOTTOM_RIGHT="7071.19 -879.001"
+#! BOUNDING_RECT="7072.19 -880.001 -1 -1"
+#! ORDER="5e+014"
+#! FOLLOW_ANCHOR="true"
+#! INFO_NODE="false"
+#! COLOUR="1,1,0.784314,0.192157"
+#! SIZE_POLICY="8"
+#! COMMENT_TYPE="REGULAR"
+#! ANCHORED_NODE="33"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#! IDENTIFIER="51"
+#! NAME="KommuneID ledende 0"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="5615.68 -815.633"
+#! BOTTOM_RIGHT="6871.95 -1354.7"
+#! BOUNDING_RECT="5615.68 -815.633 1256.27 539.068"
+#! STICKY="true"
+#! COLOUR="0.847059,0.686275,0.537255"
+#! CONTENTS="45 42 48 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="41"
+#! NAME="Er det dekning?"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="3145.34 -32.8128"
+#! BOTTOM_RIGHT="5564.11 -4209.41"
+#! BOUNDING_RECT="3145.34 -32.8128 2418.77 4176.6"
+#! STICKY="true"
+#! COLOUR="0.811765,0.231373,0.501961"
+#! CONTENTS="113 110 107 50 94 104 100 89 52 86 95 101 84 92 53 77 125 74 122 118 93 71 37 115 63 112 109 79 61 106 96 103 80 67 88 60 120 97 117 114 78 111 81 108 83 105 76 102 124 73 87 34 121 43 70 98 68 99 119 85 116 90 44 82 75 123 72 91 69 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="55"
+#! NAME="Leser XML Metadata"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="1818.39 -513.94"
+#! BOTTOM_RIGHT="2414.39 -1339.45"
+#! BOUNDING_RECT="1818.39 -513.94 596 825.51"
+#! STICKY="true"
+#! COLOUR="0.937255,0.827451,0.0666667"
+#! CONTENTS="1 24 21 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="56"
+#! NAME="Finner lokale UTM-soner"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="945.012 -793.69"
+#! BOTTOM_RIGHT="1499.01 -1149.69"
+#! BOUNDING_RECT="945.012 -793.69 554 356"
+#! STICKY="true"
+#! COLOUR="0.627451,0.611765,0.666667"
+#! CONTENTS="15 "
+#! />
+#! <BOOKMARK
+#! IDENTIFIER="57"
+#! NAME="KommuneID ledende 0"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="-268.315 -764.07"
+#! BOTTOM_RIGHT="876.875 -1257.2"
+#! BOUNDING_RECT="-268.315 -764.07 1145.19 493.13"
+#! STICKY="true"
+#! COLOUR="0.054902,0.909804,0.901961"
+#! CONTENTS="12 18 14 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#! IDENTIFIER="1"
+#! TYPE="HTTPCaller"
+#! VERSION="0"
+#! POSITION="1934.39 -622.44"
+#! BOUNDING_RECT="1934.39 -622.44 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="Output"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
+#! <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
+#! <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#! <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
+#! <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#! <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="http:&lt;solidus&gt;&lt;solidus&gt;159.162.103.4&lt;solidus&gt;metadata&lt;solidus&gt;FKB40&lt;solidus&gt;32_&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;$(FKB_datasett).xml"/>
+#! <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#! <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller"/>
+#! <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="6"
+#! TYPE="XMLFlattener"
+#! VERSION="2"
+#! POSITION="2690.78 -1003.69"
+#! BOUNDING_RECT="2690.78 -1003.69 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTR_EXPOSE" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="SUB_FRAGMENT_OPTIONS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XML_SOURCE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FLATTEN_OPTIONS" PARM_VALUE="&lt;lt&gt;structure&lt;space&gt;&lt;space&gt;&lt;lf&gt;separator=&lt;quote&gt;.&lt;quote&gt;&lt;space&gt;&lt;lf&gt;map-empty-elements=&lt;quote&gt;yes&lt;quote&gt;&lt;space&gt;&lt;lf&gt;matched-prefix=&lt;quote&gt;attributes&lt;quote&gt;&lt;space&gt;&lt;lf&gt;matched-attributes=&lt;quote&gt;yes&lt;quote&gt;&lt;space&gt;&lt;lf&gt;cardinality=&lt;quote&gt;+&lt;opencurly&gt;?&lt;closecurly&gt;&lt;quote&gt;&lt;lf&gt;except-expression=&lt;quote&gt;&lt;quote&gt;&lt;lf&gt;structure-prefix=&lt;quote&gt;&lt;quote&gt;&lt;lf&gt;child-position-attribute=&lt;quote&gt;&lt;quote&gt;&lt;lf&gt;attribute-identifier=&lt;quote&gt;&lt;quote&gt;&lt;lf&gt;ui-mode=&lt;quote&gt;basic&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="transSize"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_XML" PARM_VALUE="_response_body"/>
+#! <XFORM_PARM PARM_NAME="FEATURE_PATHS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FEATURE_PATHS_STRUCTURE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="XMLFlattener"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FILE_XML" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XML_SOURCE_TYPE" PARM_VALUE="Attribute with XML document"/>
+#! <XFORM_PARM PARM_NAME="EMBEDDED_EXPRESSIONS" PARM_VALUE="*"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="12"
+#! TYPE="Tester"
+#! VERSION="2"
+#! POSITION="-194.315 -977.568"
+#! BOUNDING_RECT="-194.315 -977.568 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="PASSED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="FAILED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; &lt; 1000"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="14"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="354.69 -883.69"
+#! BOUNDING_RECT="354.69 -883.69 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="kommuneid,0&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="15"
+#! TYPE="TestFilter"
+#! VERSION="1"
+#! POSITION="1019.01 -883.69"
+#! BOUNDING_RECT="1019.01 -883.69 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="Sone32"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="Sone33"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="Sone35"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;kommuneid&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;&lt;lt&gt;&lt;space&gt;1800&lt;quote&gt;,Sone32,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;kommuneid&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;&lt;lt&gt;&lt;space&gt;2000&lt;quote&gt;,Sone33"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="Sone35"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="21"
+#! TYPE="HTTPCaller"
+#! VERSION="0"
+#! POSITION="1934.39 -872.441"
+#! BOUNDING_RECT="1934.39 -872.441 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="Output"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
+#! <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
+#! <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#! <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
+#! <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#! <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="http:&lt;solidus&gt;&lt;solidus&gt;159.162.103.4&lt;solidus&gt;metadata&lt;solidus&gt;FKB40&lt;solidus&gt;33_&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;$(FKB_datasett).xml"/>
+#! <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#! <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller_2"/>
+#! <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="24"
+#! TYPE="HTTPCaller"
+#! VERSION="0"
+#! POSITION="1934.39 -1133.45"
+#! BOUNDING_RECT="1934.39 -1133.45 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="Output"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
+#! <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
+#! <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#! <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
+#! <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#! <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="http:&lt;solidus&gt;&lt;solidus&gt;159.162.103.4&lt;solidus&gt;metadata&lt;solidus&gt;FKB40&lt;solidus&gt;35_&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;$(FKB_datasett).xml"/>
+#! <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#! <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller_3"/>
+#! <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="34"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -203.192"
+#! BOUNDING_RECT="4152.17 -203.192 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ar5" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_ar5,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="37"
+#! TYPE="BulkAttributeRenamer"
+#! VERSION="2"
+#! POSITION="4982.86 -1988.07"
+#! BOUNDING_RECT="4982.86 -1988.07 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transsize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygningspunkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_adresse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_arealbruk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_pbltiltak" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_naturinfo" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ar5" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve-5m" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_matrikkelkartdekteig" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygnanlegg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_veg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_traktorvegsti" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_lufthavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst5000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vbase" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vann" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst1000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_servitutt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledningva" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bane" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="ATTRS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CASE_CHANGE_TYPE" PARM_VALUE="lowercase"/>
+#! <XFORM_PARM PARM_NAME="REPLACE_PATTERN" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PATTERN_ACTION_DISP" PARM_VALUE="Change Case"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BulkAttributeRenamer_2"/>
+#! <XFORM_PARM PARM_NAME="REPLACE_STR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="All Attributes"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CASE_DISP" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="45"
+#! TYPE="Tester"
+#! VERSION="2"
+#! POSITION="5689.68 -1129.44"
+#! BOUNDING_RECT="5689.68 -1129.44 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="PASSED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transsize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygningspunkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_adresse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_arealbruk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_pbltiltak" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_naturinfo" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ar5" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve-5m" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_matrikkelkartdekteig" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygnanlegg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_veg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_traktorvegsti" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_lufthavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst5000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vbase" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vann" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst1000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_servitutt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledningva" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bane" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="FAILED"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="transsize" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygningspunkt" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_adresse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_arealbruk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_pbltiltak" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_naturinfo" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ar5" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve-5m" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_matrikkelkartdekteig" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledning" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygnanlegg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_veg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_traktorvegsti" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_lufthavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst5000" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vbase" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vann" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst1000" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygning" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_servitutt" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledningva" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bane" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; BEGINS_WITH 0"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="42"
+#! TYPE="SubstringExtractor"
+#! VERSION="2"
+#! POSITION="6316.25 -929.627"
+#! BOUNDING_RECT="6316.25 -929.627 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transsize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygningspunkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_adresse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_arealbruk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_pbltiltak" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_naturinfo" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ar5" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve-5m" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_matrikkelkartdekteig" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygnanlegg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_veg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_traktorvegsti" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_lufthavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst5000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vbase" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vann" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst1000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_servitutt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledningva" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bane" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="START" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="END" PARM_VALUE="-1"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SubstringExtractor"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RESULT_ATTR" PARM_VALUE="kommuneid"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SRC_STRING" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="64"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="-965.854 -943.135"
+#! BOUNDING_RECT="-965.854 -943.135 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="datasett,$(FKB_datasett)"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="61"
+#! TYPE="AttributeFilter"
+#! VERSION="4"
+#! POSITION="3267 -880.689"
+#! BOUNDING_RECT="3267 -880.689 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="&lt;EMPTY&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;MISSING&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <OUTPUT_FEAT NAME="&lt;NULL&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="2"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#! <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="3"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#! <OUTPUT_FEAT NAME="AR5"/>
+#! <FEAT_COLLAPSED COLLAPSED="4"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#! <OUTPUT_FEAT NAME="Adresse"/>
+#! <FEAT_COLLAPSED COLLAPSED="5"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#! <OUTPUT_FEAT NAME="Arealbruk"/>
+#! <FEAT_COLLAPSED COLLAPSED="6"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#! <OUTPUT_FEAT NAME="Bane"/>
+#! <FEAT_COLLAPSED COLLAPSED="7"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#! <OUTPUT_FEAT NAME="BygnAnlegg"/>
+#! <FEAT_COLLAPSED COLLAPSED="8"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#! <OUTPUT_FEAT NAME="Bygning"/>
+#! <FEAT_COLLAPSED COLLAPSED="9"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#! <OUTPUT_FEAT NAME="Bygningspunkt"/>
+#! <FEAT_COLLAPSED COLLAPSED="10"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#! <OUTPUT_FEAT NAME="Hoydekurve-5m"/>
+#! <FEAT_COLLAPSED COLLAPSED="11"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#! <OUTPUT_FEAT NAME="Hoydekurve"/>
+#! <FEAT_COLLAPSED COLLAPSED="12"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#! <OUTPUT_FEAT NAME="Ledning"/>
+#! <FEAT_COLLAPSED COLLAPSED="13"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#! <OUTPUT_FEAT NAME="LedningVa"/>
+#! <FEAT_COLLAPSED COLLAPSED="14"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#! <OUTPUT_FEAT NAME="Lufthavn"/>
+#! <FEAT_COLLAPSED COLLAPSED="15"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#! <OUTPUT_FEAT NAME="MatrikkelkartDekTeig"/>
+#! <FEAT_COLLAPSED COLLAPSED="16"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#! <OUTPUT_FEAT NAME="Naturinfo"/>
+#! <FEAT_COLLAPSED COLLAPSED="17"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#! <OUTPUT_FEAT NAME="PblTiltak"/>
+#! <FEAT_COLLAPSED COLLAPSED="18"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#! <OUTPUT_FEAT NAME="Servitutt"/>
+#! <FEAT_COLLAPSED COLLAPSED="19"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#! <OUTPUT_FEAT NAME="Tekst1000"/>
+#! <FEAT_COLLAPSED COLLAPSED="20"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#! <OUTPUT_FEAT NAME="Tekst5000"/>
+#! <FEAT_COLLAPSED COLLAPSED="21"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#! <OUTPUT_FEAT NAME="TraktorvegSti"/>
+#! <FEAT_COLLAPSED COLLAPSED="22"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#! <OUTPUT_FEAT NAME="Vann"/>
+#! <FEAT_COLLAPSED COLLAPSED="23"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#! <OUTPUT_FEAT NAME="Vbase"/>
+#! <FEAT_COLLAPSED COLLAPSED="24"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#! <OUTPUT_FEAT NAME="Veg"/>
+#! <FEAT_COLLAPSED COLLAPSED="25"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#! <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;EMPTY&lt;gt&gt;,&lt;lt&gt;MISSING&lt;gt&gt;,&lt;lt&gt;NULL&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;,AR5,Adresse,Arealbruk,Bane,BygnAnlegg,Bygning,Bygningspunkt,Hoydekurve-5m,Hoydekurve,Ledning,LedningVa,Lufthavn,MatrikkelkartDekTeig,Naturinfo,PblTiltak,Servitutt,Tekst1000,Tekst5000,TraktorvegSti,Vann,Vbase,Veg"/>
+#! <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="datasett"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="43"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -379.691"
+#! BOUNDING_RECT="4152.17 -379.691 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_adresse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_adresse,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="44"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -532.817"
+#! BOUNDING_RECT="4152.17 -532.817 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_arealbruk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_arealbruk,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="52"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -704.694"
+#! BOUNDING_RECT="4152.17 -704.694 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bane" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_bane,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="53"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -880.689"
+#! BOUNDING_RECT="4152.17 -880.689 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygnanlegg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_bygnanlegg,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="60"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -1048.45"
+#! BOUNDING_RECT="4152.17 -1048.45 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_8"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_bygning,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="78"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -1223.45"
+#! BOUNDING_RECT="4152.17 -1223.45 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_bygningspunkt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_9"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_bygningspunkt,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="79"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -1381.26"
+#! BOUNDING_RECT="4152.17 -1381.26 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve-5m" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_10"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_hoydekurve-5m,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="80"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -1553.14"
+#! BOUNDING_RECT="4152.17 -1553.14 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_hoydekurve" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_11"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_hoydekurve,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="81"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -1715.64"
+#! BOUNDING_RECT="4152.17 -1715.64 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledning" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_12"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_ledning,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="90"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -3750.04"
+#! BOUNDING_RECT="4152.17 -3750.04 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_veg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_13"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_veg,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="91"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -3565.66"
+#! BOUNDING_RECT="4152.17 -3565.66 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vbase" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_14"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_vbase,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="92"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -3400.03"
+#! BOUNDING_RECT="4152.17 -3400.03 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_vann" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_15"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_vann,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="93"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -3234.41"
+#! BOUNDING_RECT="4152.17 -3234.41 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_traktorvegsti" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_16"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_traktorvegsti,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="94"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -3064.09"
+#! BOUNDING_RECT="4152.17 -3064.09 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst5000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_17"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_tekst5000,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="95"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -2912.53"
+#! BOUNDING_RECT="4152.17 -2912.53 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_tekst1000" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_18"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_tekst1000,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="96"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -2746.9"
+#! BOUNDING_RECT="4152.17 -2746.9 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_servitutt" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_19"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_servitutt,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="97"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -2571.9"
+#! BOUNDING_RECT="4152.17 -2571.9 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_pbltiltak" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_20"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_pbltiltak,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="98"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -2378.14"
+#! BOUNDING_RECT="4152.17 -2378.14 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_naturinfo" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_21"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_naturinfo,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="99"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -2221.89"
+#! BOUNDING_RECT="4152.17 -2221.89 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_matrikkelkartdekteig" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_22"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_matrikkelkartdekteig,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="100"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -2048.46"
+#! BOUNDING_RECT="4152.17 -2048.46 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_lufthavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_23"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_lufthavn,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="101"
+#! TYPE="AttributeCreator"
+#! VERSION="7"
+#! POSITION="4152.17 -1892.21"
+#! BOUNDING_RECT="4152.17 -1892.21 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="true"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="OUTPUT"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="datasett" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="transSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fkb_ledningva" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_24"/>
+#! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="fkb_ledningva,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;transSize&lt;closeparen&gt; &gt; 0&apos;1&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#! IDENTIFIER="7"
+#! SOURCE_NODE="1"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="18"
+#! SOURCE_NODE="12"
+#! TARGET_NODE="14"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="17"
+#! SOURCE_NODE="12"
+#! TARGET_NODE="15"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS="787 -1129"
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="20"
+#! SOURCE_NODE="14"
+#! TARGET_NODE="15"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="19"
+#! SOURCE_NODE="15"
+#! TARGET_NODE="1"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="22"
+#! SOURCE_NODE="15"
+#! TARGET_NODE="21"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="23"
+#! SOURCE_NODE="21"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="25"
+#! SOURCE_NODE="15"
+#! TARGET_NODE="24"
+#! SOURCE_PORT_DESC="fo 2"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="26"
+#! SOURCE_NODE="24"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="46"
+#! SOURCE_NODE="37"
+#! TARGET_NODE="45"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="48"
+#! SOURCE_NODE="45"
+#! TARGET_NODE="42"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="49"
+#! SOURCE_NODE="42"
+#! TARGET_NODE="33"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="47"
+#! SOURCE_NODE="45"
+#! TARGET_NODE="33"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="-1"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="65"
+#! SOURCE_NODE="9"
+#! TARGET_NODE="64"
+#! SOURCE_PORT_DESC="-1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="66"
+#! SOURCE_NODE="64"
+#! TARGET_NODE="12"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="67"
+#! SOURCE_NODE="34"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="62"
+#! SOURCE_NODE="6"
+#! TARGET_NODE="61"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="68"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="34"
+#! SOURCE_PORT_DESC="fo 4"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="63"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="43"
+#! SOURCE_PORT_DESC="fo 5"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="69"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="44"
+#! SOURCE_PORT_DESC="fo 6"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="70"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="52"
+#! SOURCE_PORT_DESC="fo 7"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="71"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="53"
+#! SOURCE_PORT_DESC="fo 8"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="72"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="60"
+#! SOURCE_PORT_DESC="fo 9"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="73"
+#! SOURCE_NODE="43"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="74"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="75"
+#! SOURCE_NODE="52"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="76"
+#! SOURCE_NODE="53"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="77"
+#! SOURCE_NODE="60"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="82"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="78"
+#! SOURCE_PORT_DESC="fo 10"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="83"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="79"
+#! SOURCE_PORT_DESC="fo 11"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="84"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="80"
+#! SOURCE_PORT_DESC="fo 12"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="85"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="81"
+#! SOURCE_PORT_DESC="fo 13"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="86"
+#! SOURCE_NODE="78"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="87"
+#! SOURCE_NODE="79"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="88"
+#! SOURCE_NODE="80"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="89"
+#! SOURCE_NODE="81"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="102"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="101"
+#! SOURCE_PORT_DESC="fo 14"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="103"
+#! SOURCE_NODE="101"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="104"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="100"
+#! SOURCE_PORT_DESC="fo 15"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="105"
+#! SOURCE_NODE="100"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="106"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="99"
+#! SOURCE_PORT_DESC="fo 16"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="107"
+#! SOURCE_NODE="99"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="108"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="98"
+#! SOURCE_PORT_DESC="fo 17"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="109"
+#! SOURCE_NODE="98"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="110"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="97"
+#! SOURCE_PORT_DESC="fo 18"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="111"
+#! SOURCE_NODE="97"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="112"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="96"
+#! SOURCE_PORT_DESC="fo 19"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="113"
+#! SOURCE_NODE="96"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="114"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="95"
+#! SOURCE_PORT_DESC="fo 20"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="115"
+#! SOURCE_NODE="95"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="116"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="94"
+#! SOURCE_PORT_DESC="fo 21"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="117"
+#! SOURCE_NODE="94"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="118"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="93"
+#! SOURCE_PORT_DESC="fo 22"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="119"
+#! SOURCE_NODE="93"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="120"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="92"
+#! SOURCE_PORT_DESC="fo 23"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="121"
+#! SOURCE_NODE="92"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="122"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="91"
+#! SOURCE_PORT_DESC="fo 24"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="123"
+#! SOURCE_NODE="91"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="124"
+#! SOURCE_NODE="61"
+#! TARGET_NODE="90"
+#! SOURCE_PORT_DESC="fo 25"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="125"
+#! SOURCE_NODE="90"
+#! TARGET_NODE="37"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="true"
+#! EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+#! 
+GUI IGNORE SourceDataset_POSTGRES_1,POSTGRES_IN_HOST_POSTGRES_1,POSTGRES_IN_PORT_POSTGRES_1,POSTGRES_IN_USER_NAME_POSTGRES_1,POSTGRES_IN_PASSWORD_POSTGRES_1,POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1,POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1,POSTGRES_IN_BEGIN_SQL_POSTGRES_1,POSTGRES_IN_END_SQL_POSTGRES_1,DestDataset_POSTGRES_2,POSTGRES_OUT_HOST_POSTGRES_2,POSTGRES_OUT_PORT_POSTGRES_2,POSTGRES_OUT_USER_NAME_POSTGRES_2,POSTGRES_OUT_PASSWORD_POSTGRES_2,POSTGRES_OUT_WRITER_MODE_POSTGRES_2,POSTGRES_OUT_START_TRANSACTION_POSTGRES_2,POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_2,POSTGRES_OUT_BULK_COPY_POSTGRES_2,POSTGRES_OUT_BEGIN_SQL_POSTGRES_2,POSTGRES_OUT_END_SQL_POSTGRES_2
+DEFAULT_MACRO FKB_datasett PblTiltak
+GUI CHOICE FKB_datasett AR5%Adresse%Arealbruk%Bane%BygnAnlegg%Bygning%Bygningspunkt%Hoydekurve-5m%Hoydekurve%Ledning%LedningVa%Lufthavn%MatrikkelkartDekTeig%Naturinfo%PblTiltak%Servitutt%Tekst1000%Tekst5000%TraktorvegSti%Vann%Vbase%Veg Datasett som skal analyseres:
+DEFAULT_MACRO SourceDataset_POSTGRES geonor01tst
+GUI IGNORE TEXT SourceDataset_POSTGRES Database:
+DEFAULT_MACRO DestDataset_POSTGRES geonor01tst
+GUI IGNORE TEXT DestDataset_POSTGRES Database:
+INCLUDE [ if {{$(FKB_datasett)} == {}} { puts_real {Parameter 'FKB_datasett' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_POSTGRES)} == {}} { puts_real {Parameter 'SourceDataset_POSTGRES' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_POSTGRES)} == {}} { puts_real {Parameter 'DestDataset_POSTGRES' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE POSTGRES
+READER_KEYWORD POSTGRES_1
+READER_GEN_DIRECTIVES USER_NAME,geonortst,SCHEMALIST,admingrense,POSTGRES_EXPOSE_FORMAT_ATTRS,,PORT,5432,TABLELIST,admingrense.kommuner,_MERGE_SCHEMAS,YES,HOST,nnridb504,FME_CONNECTION_GROUP,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_OPEN
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} POSTGRES
+MULTI_WRITER_KEYWORD{0} POSTGRES_2
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "POSTGRES_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGRES POSTGRES_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_POSTGRES_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER POSTGRES POSTGRES_1
+DEFAULT_MACRO SourceDataset_POSTGRES_1 $(SourceDataset_POSTGRES)
+GUI TEXT SourceDataset_POSTGRES_1 Database:
+DEFAULT_MACRO POSTGRES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGRES_1 Yes
+POSTGRES_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGRES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGRES_1)"
+DEFAULT_MACRO POSTGRES_IN_HOST_POSTGRES_1 nnridb504
+POSTGRES_1_HOST "$(POSTGRES_IN_HOST_POSTGRES_1)"
+GUI TEXT POSTGRES_IN_HOST_POSTGRES_1 Host:
+DEFAULT_MACRO POSTGRES_IN_PORT_POSTGRES_1 5432
+POSTGRES_1_PORT "$(POSTGRES_IN_PORT_POSTGRES_1)"
+GUI INTEGER POSTGRES_IN_PORT_POSTGRES_1 Port:
+DEFAULT_MACRO POSTGRES_IN_USER_NAME_POSTGRES_1 geonortst
+POSTGRES_1_USER_NAME "$(POSTGRES_IN_USER_NAME_POSTGRES_1)"
+GUI TEXT POSTGRES_IN_USER_NAME_POSTGRES_1 Username:
+DEFAULT_MACRO POSTGRES_IN_PASSWORD_POSTGRES_1 fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsziiAvR9075sBZ9mHyVVC4q7y0NnyconBBy497SdQoON8MWz+K1JBGejv219rEH3MjpK4ij6vGQoAdlwXWQmoDIPq547n8WH/8oTWamXed00D1GFuxUxgfF2Z3ngsKtmG91BbzpB089RCTZJlTGw5cGzfdlQyqUGQekF9rtmlTYP6uDuOIf6oUJPAI5aMMzKY/jdX9pN8CXQvzhFYr0+Z5Z5Tu5i+brgwy6H17KGbfASCXnt7vX+R0uAfk6dm81EPyQlGX7PWsq3CPZiW8MuSe9a/GU2CEQ5tcYT0dhct0l169wjCd5wZCxw9Z3kQjrLspq6fO+Uiqds0JXo+sGH+NO0elgrp9vzXS)
+POSTGRES_1_PASSWORD "$(POSTGRES_IN_PASSWORD_POSTGRES_1)"
+GUI OPTIONAL PASSWORD POSTGRES_IN_PASSWORD_POSTGRES_1 Password:
+DEFAULT_MACRO POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1 FME_DISCLOSURE_OPEN
+POSTGRES_1_EXPOSE_ATTRS_GROUP "$(POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1)"
+GUI DISCLOSUREGROUP POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1 POSTGRES_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1 10000
+GUI FLOAT POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1 Number Of Records To Fetch At A Time:
+POSTGRES_1_FEATURES_PER_FETCH $(POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1)
+DEFAULT_MACRO POSTGRES_IN_BEGIN_SQL_POSTGRES_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGRES_IN_BEGIN_SQL_POSTGRES_1 SQL Statement to Execute Before Translation:
+POSTGRES_1_BEGIN_SQL "$(POSTGRES_IN_BEGIN_SQL_POSTGRES_1)"
+DEFAULT_MACRO POSTGRES_IN_END_SQL_POSTGRES_1 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGRES_IN_END_SQL_POSTGRES_1 SQL Statement to Execute After Translation:
+POSTGRES_1_END_SQL "$(POSTGRES_IN_END_SQL_POSTGRES_1)"
+POSTGRES_1_DATASET "$(SourceDataset_POSTGRES_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "POSTGRES_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER POSTGRES POSTGRES_2
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_POSTGRES_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER POSTGRES POSTGRES_2
+DEFAULT_MACRO DestDataset_POSTGRES_2 $(DestDataset_POSTGRES)
+GUI TEXT DestDataset_POSTGRES_2 Database:
+DEFAULT_MACRO POSTGRES_OUT_HOST_POSTGRES_2 nnridb504
+POSTGRES_2_HOST "$(POSTGRES_OUT_HOST_POSTGRES_2)"
+GUI TEXT POSTGRES_OUT_HOST_POSTGRES_2 Host:
+DEFAULT_MACRO POSTGRES_OUT_PORT_POSTGRES_2 5432
+POSTGRES_2_PORT "$(POSTGRES_OUT_PORT_POSTGRES_2)"
+GUI INTEGER POSTGRES_OUT_PORT_POSTGRES_2 Port:
+DEFAULT_MACRO POSTGRES_OUT_USER_NAME_POSTGRES_2 geonortst
+POSTGRES_2_USER_NAME "$(POSTGRES_OUT_USER_NAME_POSTGRES_2)"
+GUI TEXT POSTGRES_OUT_USER_NAME_POSTGRES_2 Username:
+DEFAULT_MACRO POSTGRES_OUT_PASSWORD_POSTGRES_2 fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszd44UzWlK4VbUPEH/IwOQiPr8+LzqCuchOMp+4Zwj9Cp3R3Og18tX0SmZYfLTIT+Mzz4dq7diJCQEEn/6ScgGX/S3rbQFab4qb6lMTDaelFC9UB+38MIxAuhR+ElyVrWW72av8AqAbcsRdaNEl79uvFNkelltJ+ukMHZQGCfaslqY+AKfyKcmW6E93iA0hqIUuwkY6C0fuqkhe+qHpUs8No+/CDaU/pXQMS5vQbrtRZqpRmoECmWKZVx1CsZ9TCICDfwC13tD5DCGLZ6Aisoh4jphJsfaBDagVIzF19dKTylgPhMCUx3W1N6sMMAWHst5Yaj7OSmccw2qmy2fLn2GzfhboyzUGb6j)
+POSTGRES_2_PASSWORD "$(POSTGRES_OUT_PASSWORD_POSTGRES_2)"
+GUI OPTIONAL PASSWORD POSTGRES_OUT_PASSWORD_POSTGRES_2 Password:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO POSTGRES_OUT_DESTINATION_DATASETTYPE_VALIDATION_POSTGRES_2 Yes
+POSTGRES_2_DESTINATION_DATASETTYPE_VALIDATION "$(POSTGRES_OUT_DESTINATION_DATASETTYPE_VALIDATION_POSTGRES_2)"
+DEFAULT_MACRO POSTGRES_OUT_WRITER_MODE_POSTGRES_2 INSERT
+GUI CHOICE POSTGRES_OUT_WRITER_MODE_POSTGRES_2 INSERT%UPDATE%DELETE Writer Mode:
+POSTGRES_2_WRITER_MODE $(POSTGRES_OUT_WRITER_MODE_POSTGRES_2)
+DEFAULT_MACRO POSTGRES_OUT_START_TRANSACTION_POSTGRES_2 0
+GUI TEXT POSTGRES_OUT_START_TRANSACTION_POSTGRES_2 Starting Feature:
+POSTGRES_2_START_TRANSACTION $(POSTGRES_OUT_START_TRANSACTION_POSTGRES_2)
+DEFAULT_MACRO POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_2 1000
+GUI TEXT POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_2 Features Per Transaction:
+POSTGRES_2_TRANSACTION_INTERVAL $(POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_2)
+DEFAULT_MACRO POSTGRES_OUT_BULK_COPY_POSTGRES_2 YES
+GUI CHOICE POSTGRES_OUT_BULK_COPY_POSTGRES_2 YES%NO Bulk Copy Insert:
+POSTGRES_2_BULK_COPY $(POSTGRES_OUT_BULK_COPY_POSTGRES_2)
+DEFAULT_MACRO POSTGRES_OUT_BEGIN_SQL_POSTGRES_2 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGRES_OUT_BEGIN_SQL_POSTGRES_2 SQL Statement to Execute Before Translation:
+POSTGRES_2_BEGIN_SQL "$(POSTGRES_OUT_BEGIN_SQL_POSTGRES_2)"
+DEFAULT_MACRO POSTGRES_OUT_END_SQL_POSTGRES_2 
+GUI OPTIONAL TEXT_EDIT_SQL POSTGRES_OUT_END_SQL_POSTGRES_2 SQL Statement to Execute After Translation:
+POSTGRES_2_END_SQL "$(POSTGRES_OUT_END_SQL_POSTGRES_2)"
+POSTGRES_2_DATASET "$(DestDataset_POSTGRES_2)"
+#! END_DEST_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Dekningsanalyse_FKB.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_TIMINGS YES
+FME_DEBUG MAPPING_FILE BADNEWS FME_STACK_TRACE UNGROUPED UNCORRELATED DUMP_SCHEMA XSD_VERBOSE HTTP_DEBUG
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGRES_1 POSTGRES_1
+DEFAULT_MACRO DATASET_KEYWORD_POSTGRES_2 POSTGRES_2
+# -------------------------------------------------------------------------
+
+POSTGRES_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Dekningsanalyse_FKB
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *       @SupplyAttributes(multi_reader_keyword,POSTGRES_1)    ROUTE POSTGRES POSTGRES_1::admingrense.kommuner TO FME_GENERIC ::admingrense.kommuner ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+POSTGRES_1_MERGE_DEF POSTGRES_1::admingrense.kommuner EXACT admingrense.kommuner DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,kommuneid,int2<comma>PRIKEY,navn,varchar<openparen>80<closeparen>
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE admingrense.kommuner ATTR datasett $(FKB_datasett$encode)    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>kommuneid<closeparen>,Tester) < 1000 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE Tester_PASSED ATTR kommuneid 0<at>Value<openparen>kommuneid<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE Tester_FAILED    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
+
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_0 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>kommuneid<closeparen>,TestFilter) < 1800 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_Sone32 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
+FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_1 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>kommuneid<closeparen>,TestFilter) < 2000 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_Sone33 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2
+FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_Sone35 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE TestFilter_Sone35
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller_3       INPUT  FEATURE_TYPE TestFilter_Sone35    TARGET_URL "@EvaluateExpression(FDIV,STRING_ENCODED,http:<solidus><solidus>159.162.103.4<solidus>metadata<solidus>FKB40<solidus>35_<at>Value<openparen>kommuneid<closeparen>$(FKB_datasett$encode).xml,HTTPCaller_3)"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR "_headers"    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_3_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_3_<Rejected>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller_3 <Rejected> Output Nuker"   INPUT FEATURE_TYPE HTTPCaller_3_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller_2       INPUT  FEATURE_TYPE TestFilter_Sone33    TARGET_URL "@EvaluateExpression(FDIV,STRING_ENCODED,http:<solidus><solidus>159.162.103.4<solidus>metadata<solidus>FKB40<solidus>33_<at>Value<openparen>kommuneid<closeparen>$(FKB_datasett$encode).xml,HTTPCaller_2)"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR "_headers"    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_2_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_2_<Rejected>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller_2 <Rejected> Output Nuker"   INPUT FEATURE_TYPE HTTPCaller_2_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE TestFilter_Sone32    TARGET_URL "@EvaluateExpression(FDIV,STRING_ENCODED,http:<solidus><solidus>159.162.103.4<solidus>metadata<solidus>FKB40<solidus>32_<at>Value<openparen>kommuneid<closeparen>$(FKB_datasett$encode).xml,HTTPCaller)"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR "_headers"    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<Rejected>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller <Rejected> Output Nuker"   INPUT FEATURE_TYPE HTTPCaller_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * XFMapFactory    FACTORY_NAME XMLFlattener    INPUT  FEATURE_TYPE HTTPCaller_Output    INPUT  FEATURE_TYPE HTTPCaller_3_Output    INPUT  FEATURE_TYPE HTTPCaller_2_Output    XML_STREAM "_response_body"    XFMAP_FEATURE_PATHS_EXPRESSION "*"    XFMAP_FEATURE_PATHS_STRUCTURE "<lt>structure<space><space><lf>separator=<quote>.<quote><space><lf>map-empty-elements=<quote>yes<quote><space><lf>matched-prefix=<quote>attributes<quote><space><lf>matched-attributes=<quote>yes<quote><space><lf>cardinality=<quote>+<opencurly>?<closecurly><quote><lf>except-expression=<quote><quote><lf>structure-prefix=<quote><quote><lf>child-position-attribute=<quote><quote><lf>attribute-identifier=<quote><quote><lf>ui-mode=<quote>basic<quote><solidus><gt>"    OUTPUT_ONE_FEATURE_PER_INPUT yes    OUTPUT MAPPED FEATURE_TYPE XMLFlattener_OUTPUT
+
+# -------------------------------------------------------------------------
+Lookup AttributeFilter_AttributeFilterLut   AR5 ok   Adresse ok   Arealbruk ok   Bane ok   BygnAnlegg ok   Bygning ok   Bygningspunkt ok   Hoydekurve-5m ok   Hoydekurve ok   Ledning ok   LedningVa ok   Lufthavn ok   MatrikkelkartDekTeig ok   Naturinfo ok   PblTiltak ok   Servitutt ok   Tekst1000 ok   Tekst5000 ok   TraktorvegSti ok   Vann ok   Vbase ok   Veg ok   "" notok   ENCODED
+
+Tcl2 proc AttributeFilter_setFeatType {} {     global FME_FeatureType;     set ft {AttributeFilter_};     append ft [FME_EncodeText [FME_GetAttribute [FME_DecodeText {datasett}]]];     set FME_FeatureType $ft; }
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE XMLFlattener_OUTPUT    TEST @Lookup(AttributeFilter_AttributeFilterLut,datasett,ENCODED_ATTR) == "ok"    OUTPUT PASSED FEATURE_TYPE * @Tcl2(AttributeFilter_setFeatType)    OUTPUT FAILED FEATURE_TYPE AttributeFilter_<NULL>
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFilter_NullFilter    INPUT FEATURE_TYPE AttributeFilter_<NULL>    TEST datasett ATTRIBUTE_VALUE_NULL "" ENCODED    OUTPUT PASSED FEATURE_TYPE AttributeFilter_<NULL>    OUTPUT FAILED FEATURE_TYPE AttributeFilter_<MISSING>
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFilter_MissingFilter    INPUT FEATURE_TYPE AttributeFilter_<MISSING>    TEST datasett ATTRIBUTE_IS_MISSING "" ENCODED    OUTPUT PASSED FEATURE_TYPE AttributeFilter_<MISSING>    OUTPUT FAILED FEATURE_TYPE AttributeFilter_<UNFILTERED>
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFilter_BlankFilter    INPUT FEATURE_TYPE AttributeFilter_<UNFILTERED>    TEST datasett ATTRIBUTE_IS_EMPTY "" ENCODED    OUTPUT PASSED FEATURE_TYPE AttributeFilter_<EMPTY>    OUTPUT FAILED FEATURE_TYPE AttributeFilter_<UNFILTERED>
+
+
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <EMPTY> Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<EMPTY>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <MISSING> Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<MISSING>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <NULL> Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<NULL>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<UNFILTERED>
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_13 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Veg ATTR fkb_veg "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_13_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_14 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Vbase ATTR fkb_vbase "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_14_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_15 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Vann ATTR fkb_vann "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_15_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_16 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_TraktorvegSti ATTR fkb_traktorvegsti "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_16_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_17 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Tekst5000 ATTR fkb_tekst5000 "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_17_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_18 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Tekst1000 ATTR fkb_tekst1000 "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_18_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_19 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Servitutt ATTR fkb_servitutt "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_19_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_20 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_PblTiltak ATTR fkb_pbltiltak "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_20_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_21 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Naturinfo ATTR fkb_naturinfo "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_21_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_22 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_MatrikkelkartDekTeig ATTR fkb_matrikkelkartdekteig "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_22_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_23 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Lufthavn ATTR fkb_lufthavn "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_23_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_24 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_LedningVa ATTR fkb_ledningva "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_24_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_12 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Ledning ATTR fkb_ledning "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_12_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_11 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Hoydekurve ATTR fkb_hoydekurve "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_11_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_10 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Hoydekurve-5m ATTR fkb_hoydekurve-5m "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_10_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_9 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Bygningspunkt ATTR fkb_bygningspunkt "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_9_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_8 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Bygning ATTR fkb_bygning "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_BygnAnlegg ATTR fkb_bygnanlegg "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Bane ATTR fkb_bane "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Arealbruk ATTR fkb_arealbruk "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_Adresse ATTR fkb_adresse "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
+# -------------------------------------------------------------------------
+FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeFilter_AR5 ATTR fkb_ar5 "FME_CONDITIONAL:DEFAULT_VALUE'0'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>transSize<closeparen> > 0'1'FME_NUM_CONDITIONS2___"    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME BulkAttributeRenamer_2    INPUT  FEATURE_TYPE AttributeCreator_16_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_20_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_13_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_9_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_10_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_18_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_7_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_22_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_15_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_8_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_24_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_17_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_5_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_11_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_14_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_23_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_19_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_21_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_12_OUTPUT    OUTPUT FEATURE_TYPE BulkAttributeRenamer_2_OUTPUT        @RenameAttributes(PATTERN_REPLACE, CASECHANGE, <Unused>, "<Unused>", "<Unused>", "lower", "<Unused>", "-_")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE BulkAttributeRenamer_2_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>kommuneid<closeparen>,Tester_3) BEGINS_WITH 0 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
+# -------------------------------------------------------------------------
+
+# Since the Tcl "END" index specification starts at -1 for the second
+# last character, and we've defined -1 to be the last charater, we've got
+# small bit of fiddling to do
+
+Tcl2 proc SubstringExtractor_fixLastIndex {lastValue} {     if {$lastValue < -1} {         incr lastValue;         return "end$lastValue";     }     elseif {$lastValue == -1} {         return "end";     }     else {         return $lastValue;     } }
+Tcl2 proc SubstringExtractor_extract {startIdx endIdx} {     FME_SetAttribute [FME_DecodeText kommuneid]         [string range [FME_DecodeTextOrAttr @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>kommuneid<closeparen>,SubstringExtractor)]                       [SubstringExtractor_fixLastIndex $startIdx]                       [SubstringExtractor_fixLastIndex $endIdx]]     }
+FACTORY_DEF * TeeFactory    FACTORY_NAME SubstringExtractor    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE SubstringExtractor_OUTPUT         @Tcl2("SubstringExtractor_extract 1 -1")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SubstringExtractor_OUTPUT TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY    ROUTE FME_GENERIC Tester_3_FAILED TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dekningsoversikt.dekningsoversikt<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+POSTGRES_2_DEF dekningsoversikt.dekningsoversikt   postgres_type                All   postgres_mode                UPDATE   postgres_sql_key_columns     kommuneid   postgres_drop_table          NO   postgres_truncate_table      NO   postgres_create_with_oids    NO   postgres_vacuum_analyze      NO   postgres_allow_serial_writing NO   kommuneid                    int4,PRIKEY   akvakultur                   bool   korallrev                    bool   dsb_110sentral               bool   dsb_brannstasjon             bool   dsb_distrkont_siv            bool   dsb_sivforsvdistr            bool   ra_brannsmitteomr            bool   ra_tettetrehusm              bool   ra_frededebygg               bool   ra_enkeltminner              bool   ra_kulturmiljo               bool   ra_lokaliteter               bool   ra_sikringssoner             bool   kv_hovedbiled                bool   kv_ispshavneanlegg           bool   kv_losbordingsfelt           bool   kv_losstasjoner              bool   nve_flomsoner10              bool   nve_flomsoner20              bool   nve_flomsoner50              bool   nve_flomsoner100             bool   nve_flomsoner200             bool   nve_flomsoner500             bool   nve_flomsoner1000            bool   nve_flomsoner200_i_aar2100   bool   nve_flomsonekartplan         bool   nve_elvis_hovedelv           bool   nve_elvis_elvenett           bool   nve_innsjodata               bool   nve_dybdekart                bool   nve_nedborfelt_regine        bool   nve_vassdragsomrade          bool   nve_totnedbfelt_mstasjon     bool   nve_vannkraftverk            bool   nve_vindparkomrader          bool   nve_vindturbin               bool   nve_kraftlinjer              bool   nve_sjokabler                bool   nve_transformatorstasjoner   bool   nve_omradekonsesjoner        bool   nve_sikringstiltak           bool   nve_verneplan_vassdrag       bool   nve_kvikkleire               bool   nve_aktsomhet_snoskred       bool   nve_aktsomhet_steinsprang    bool   nve_aktsomhet_snosteinsprang bool   nve_aktsomhet_jordflomskred  bool   nve_skredhendelser           bool   nve_kraftverk_alle_kst       bool   nve_magasin                  bool   nve_dam                      bool   nve_vanninntak               bool   nve_vannvei                  bool   nve_delfelt_vannkraft        bool   nve_vindkraftverk            bool   nve_skredsoner               bool   dsb_anleggfarligstoff        bool   dsb_storulykkeanlegg         bool   dsb_eksplosivanlegg          bool   nibio_jordkvalitet           bool   md_forurensetgrunn           bool   md_frilstatligsikra          bool   md_frilkartlverds            bool   md_verdif_kulturlandsk       bool   md_viktige_naturt            bool   md_villreinomr               bool   md_naturvernomr              bool   md_naturvernomr_foresl       bool   md_arter_nasjon_forv         bool   md_naturt_landskap           bool   md_naturt_utv                bool   fkb_ar5                      bool   fkb_adresse                  bool   fkb_arealbruk                bool   fkb_bane                     bool   fkb_bygnanlegg               bool   fkb_bygning                  bool   fkb_bygningspunkt            bool   fkb_hoydekurve-5m            bool   fkb_hoydekurve               bool   fkb_ledning                  bool   fkb_ledningva                bool   fkb_lufthavn                 bool   fkb_matrikkelkartdekteig     bool   fkb_naturinfo                bool   fkb_pbltiltak                bool   fkb_servitutt                bool   fkb_tekst1000                bool   fkb_tekst5000                bool   fkb_traktorvegsti            bool   fkb_vann                     bool   fkb_vbase                    bool   fkb_veg                      bool
