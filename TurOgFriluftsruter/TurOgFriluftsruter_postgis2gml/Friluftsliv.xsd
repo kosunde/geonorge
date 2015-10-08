@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://skjema.geonorge.no/SOS/produktspesifikasjon/Friluftsliv/4.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sosi="http://skjema.geonorge.no/SOS/produktspesifikasjon/Friluftsliv/4.1" elementFormDefault="qualified" targetNamespace="http://skjema.geonorge.no/SOS/produktspesifikasjon/Friluftsliv/4.1" version="4.1">
+  <annotation>
+    <documentation>spesifikasjonen omfatter områder som er ervervet med statlig bistand, kartlagt som viktige for friluftslivet, samt tilretteleggingstiltak for allmennhetens friluftsliv. Områdene kan være ervervet for friluftslivsformål og forvaltet av det offentlige, eller det kan være områder der hensynet til friluftslivet bør ivaretas, f.eks. i planprosesser. En viktig kilde til informasjon er Direktoratet for naturforvaltning sin Naturbase (http://www.naturbase.no/). Metodikk for kartlegging av områder som er viktige for friluftslivet er beskrevet i Håndbok for kartlegging og verdsetting av friluftslivsområder DN-håndbok 25 – 2004. Prinsippene for naturvennlig tilrettelegging finner man i DN-håndbok 27-2006 Naturvennlig tilrettelegging 
+for friluftsliv</documentation>
+  </annotation>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="AnnenRute" substitutionGroup="sosi:TurOgFriluftsrute" type="sosi:AnnenRuteType">
+    <annotation>
+      <documentation>rute for annen ferdsel, hovedsakelig knyttet til friluftsliv</documentation>
+    </annotation>
+  </element>
+  <complexType name="AnnenRuteType">
+    <complexContent>
+      <extension base="sosi:TurOgFriluftsruteType">
+        <sequence>
+          <element minOccurs="0" name="annenRutetype" type="string">
+            <annotation>
+              <documentation>type rute definert ut fra observert bruk, merking, anbefaling eller tilrettelegging for bruk
+
+Eksempel:
+riderute, klatretrute, padlerute</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="AnnenRutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:AnnenRute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="BelysningType">
+    <annotation>
+      <documentation>om det er permanent belysning langs sti eller løype</documentation>
+    </annotation>
+    <union memberTypes="sosi:BelysningEnumerationType sosi:BelysningOtherType"/>
+  </simpleType>
+  <simpleType name="BelysningEnumerationType">
+    <annotation>
+      <documentation>om det er permanent belysning langs sti eller løype</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="BelysningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="BrukerfrekvensType">
+    <annotation>
+      <documentation>angir hvor stor dagens brukerfrekvens er</documentation>
+    </annotation>
+    <union memberTypes="sosi:BrukerfrekvensEnumerationType sosi:BrukerfrekvensOtherType"/>
+  </simpleType>
+  <simpleType name="BrukerfrekvensEnumerationType">
+    <annotation>
+      <documentation>angir hvor stor dagens brukerfrekvens er</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3">
+        <annotation>
+          <documentation>Hvor stor er dagens brukerfrekvens?</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="BrukerfrekvensOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="EgnethetType">
+    <annotation>
+      <documentation>angir om området er spesielt godt egnet for en eller flere enkeltaktiviteter som det ikke finnes like gode alternative områder til</documentation>
+    </annotation>
+    <union memberTypes="sosi:EgnethetEnumerationType sosi:EgnethetOtherType"/>
+  </simpleType>
+  <simpleType name="EgnethetEnumerationType">
+    <annotation>
+      <documentation>angir om området er spesielt godt egnet for en eller flere enkeltaktiviteter som det ikke finnes like gode alternative områder til</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="EgnethetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Fotrute" substitutionGroup="sosi:TurOgFriluftsrute" type="sosi:FotruteType">
+    <annotation>
+      <documentation>rute for menneskelig ferdsel til fots
+
+Merknad:
+ruter kan ha mange utforminger og gå på ulike fysiske underlag, fotruter kan gå i fjellområder, skog, i kulturlandskap eller som spaserruter i by- og boligstrøk.</documentation>
+    </annotation>
+  </element>
+  <complexType name="FotruteType">
+    <complexContent>
+      <extension base="sosi:TurOgFriluftsruteType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="spesialFotrutetype" type="sosi:SpesialFotrutetypeType">
+            <annotation>
+              <documentation>typer er definert ut fra spesiell tilrettelegging, spesielle bruksformål eller historisk opprinnelse</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="sesong" type="sosi:SesongType">
+            <annotation>
+              <documentation>vår- sommer- høst eller vintertur</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FotrutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:Fotrute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="FriluftEierforholdType">
+    <annotation>
+      <documentation>angir hvilken instans som er eier av ruten</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftEierforholdEnumerationType sosi:FriluftEierforholdOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftEierforholdEnumerationType">
+    <annotation>
+      <documentation>angir hvilken instans som er eier av ruten</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="8"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftEierforholdOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivSikringType">
+    <annotation>
+      <documentation>angir om staten eller kommunen har bidratt til sikring av området</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftslivSikringEnumerationType sosi:FriluftslivSikringOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivSikringEnumerationType">
+    <annotation>
+      <documentation>angir om staten eller kommunen har bidratt til sikring av området</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="SS">
+        <annotation>
+          <documentation>område der Staten v/ Direktoratet for naturforvaltning har skaffet seg råderett over arealet for allmennhetens bruk som friluftslivsområde ved erverv/kjøp, ved langsiktig avtale om bruksrett (servituttavtale) eller ved tinglyst erklæring om bruk til friluftslivsformål</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KS">
+        <annotation>
+          <documentation>område sikret for friluftslivsformål av kommunen ved erverv eller avtale.  Unntatt områder der sikring har skjedd i samarbeid med Staten v/ Direktoratet for naturforvaltning</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivSikringOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="FriluftslivTilrettelAvgrensning" substitutionGroup="gml:AbstractFeature" type="sosi:FriluftslivTilrettelAvgrensningType">
+    <annotation>
+      <documentation>avgrensning av et tilretteleggingstiltak (innenfor et friluftlivsområde)</documentation>
+    </annotation>
+  </element>
+  <complexType name="FriluftslivTilrettelAvgrensningType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="grense" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>forløp som følger overgang mellom ulike fenomener</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FriluftslivTilrettelAvgrensningPropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:FriluftslivTilrettelAvgrensning"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="FriluftslivTilrettelegging" substitutionGroup="gml:AbstractFeature" type="sosi:FriluftslivTilretteleggingType">
+    <annotation>
+      <documentation>fysiske tiltak som gjennomføres i friluftsområder</documentation>
+    </annotation>
+  </element>
+  <complexType name="FriluftslivTilretteleggingType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="område" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>objektets utstrekning</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>sted som objektet eksisterer på</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilgjengelighetsGruppe" type="sosi:TilgjengelighetsgruppeType">
+            <annotation>
+              <documentation>angir hvilke grupper av funksjonshemmede området er tilrettelagt for</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilrettelegging" type="sosi:FriluftslivTilretteleggingType">
+            <annotation>
+              <documentation>angir tilretteleggingstiltak i området</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ansvarlig" type="sosi:FriluftslivsområdeDriftstilsynType">
+            <annotation>
+              <documentation>angir hvem som er ansvarlig for tilretteleggingstiltaket</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FriluftslivTilretteleggingPropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:FriluftslivTilrettelegging"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="FriluftslivTilretteleggingType">
+    <annotation>
+      <documentation>tilrettelegging som er gjort innenfor friluftslivsområdet</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftslivTilretteleggingEnumerationType sosi:FriluftslivTilretteleggingOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivTilretteleggingEnumerationType">
+    <annotation>
+      <documentation>tilrettelegging som er gjort innenfor friluftslivsområdet</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="8"/>
+      <enumeration value="9"/>
+      <enumeration value="10"/>
+      <enumeration value="11"/>
+      <enumeration value="12"/>
+      <enumeration value="13"/>
+      <enumeration value="14"/>
+      <enumeration value="15"/>
+      <enumeration value="16"/>
+      <enumeration value="17"/>
+      <enumeration value="18">
+        <annotation>
+          <documentation>f.eks. (markdekke, drenering, klopplegging)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="19"/>
+      <enumeration value="20"/>
+      <enumeration value="21"/>
+      <enumeration value="22"/>
+      <enumeration value="23"/>
+      <enumeration value="24">
+        <annotation>
+          <documentation>inkl. kulturminner</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="25"/>
+      <enumeration value="26"/>
+      <enumeration value="27"/>
+      <enumeration value="28"/>
+      <enumeration value="29"/>
+      <enumeration value="30"/>
+      <enumeration value="31"/>
+      <enumeration value="32"/>
+      <enumeration value="33"/>
+      <enumeration value="35"/>
+      <enumeration value="36"/>
+      <enumeration value="37">
+        <annotation>
+          <documentation>for eksempel gapahuk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="38"/>
+      <enumeration value="39"/>
+      <enumeration value="40"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivTilretteleggingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeDriftstilsynType">
+    <annotation>
+      <documentation>angir ansvarlig instans for drift og tilsyn med området</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftslivsområdeDriftstilsynEnumerationType sosi:FriluftslivsområdeDriftstilsynOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeDriftstilsynEnumerationType">
+    <annotation>
+      <documentation>angir ansvarlig instans for drift og tilsyn med området</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeDriftstilsynOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeEgnethetType">
+    <annotation>
+      <documentation>hvilken bruk friluftslivsområdet er egnet for</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftslivsområdeEgnethetEnumerationType sosi:FriluftslivsområdeEgnethetOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeEgnethetEnumerationType">
+    <annotation>
+      <documentation>hvilken bruk friluftslivsområdet er egnet for</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7"/>
+      <enumeration value="8"/>
+      <enumeration value="9"/>
+      <enumeration value="10"/>
+      <enumeration value="11">
+        <annotation>
+          <documentation>Grøntdrag, parker og lekeområder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="12"/>
+      <enumeration value="13"/>
+      <enumeration value="14"/>
+      <enumeration value="15"/>
+      <enumeration value="16"/>
+      <enumeration value="17"/>
+      <enumeration value="18"/>
+      <enumeration value="19"/>
+      <enumeration value="20"/>
+      <enumeration value="21">
+        <annotation>
+          <documentation>grotting, brevandring og lignende</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="22">
+        <annotation>
+          <documentation>Rafting, elvepadling og lignende</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeEgnethetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeTypeType">
+    <annotation>
+      <documentation>klassifisering av friluftslivsområder etter funksjon
+
+Merknad:
+For mer uttømmende definisjoner, se Håndbok for kartlegging og verdsetting av friluftslivsområder, Direktoratet for naturforvaltning 2004. http://www.dirnat.no/archive/attachments/02/89/Hndbo045.pdf</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftslivsområdeTypeEnumerationType sosi:FriluftslivsområdeTypeOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeTypeEnumerationType">
+    <annotation>
+      <documentation>klassifisering av friluftslivsområder etter funksjon
+
+Merknad:
+For mer uttømmende definisjoner, se Håndbok for kartlegging og verdsetting av friluftslivsområder, Direktoratet for naturforvaltning 2004. http://www.dirnat.no/archive/attachments/02/89/Hndbo045.pdf</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="NT">
+        <annotation>
+          <documentation>Vegetasjonskledd områder, inkludert bart fjell, sand, grus- og blokkmark på minimum 200 daa.
+
+Merknad: 
+området skal være tilknyttet byggeområder som f eks boligområder, skoler og barnehager, og være i gangavstand fra disse. Det er vanligvis naturlig avgrenset av bebyggelse eller dyrket mark</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LR">
+        <annotation>
+          <documentation>leke- og rekreasjonsområde som lekeplasser, ballplasser, nærmiljøanlegg, 100 meterskogen, badestrender, offentlig sikrede områder, parker og lignende områder som er mindre enn 200 daa</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GK">
+        <annotation>
+          <documentation>grønnkorridoren er en del av det "myke" transportsystemet og er viktige forbindelseslinjer som knytter sammen boligområder og de mest brukte og egnede friluftslivsområdene
+
+Merknad:
+slike korridorer skal ha et grønt hovedpreg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="MA">
+        <annotation>
+          <documentation>marka omfatter noen av de viktigste områdene for friluftsliv i kommunen og/eller regionen
+
+Merknad: 
+marka grenser som regel direkte opp mot byer og tettsteder og har en direkte atkomst herfra, ofte kombinert med tilrettelagte parkeringsplasser</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SS">
+        <annotation>
+          <documentation>med strandsonen menes de områdene langs kyst, innsjøerog vassdrag med muligheter for allment friluftsliv, dvs de land- og sjøområder som står i innbyrdes direkte samspill bruksmessig</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KL">
+        <annotation>
+          <documentation>område av betydning for friluftsliv i jordbrukslandskapet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="UO">
+        <annotation>
+          <documentation>område som ligger utenfor den umiddelbare nærhet til byer og tettsted, men reisetiden er ikke lengre en at den kan aksepteres for en dags opphold 
+
+Merknad: 
+områdene kjennetegnes ofte med at de er egnet for en eller flere enkeltaktiviteter som det lokalt ikke finnes alternative områder til av noenlunde tilsvarende kvalitet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TM">
+        <annotation>
+          <documentation>områdetypen dekker de nasjonalt viktigste fjell-, skog og heiområdene med tilrettelegging i form av merket sti- og løypenett med tilhørende overnattingssteder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TU">
+        <annotation>
+          <documentation>stort område eller system av delområder som er "inngrepsfrie"</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SK">
+        <annotation>
+          <documentation>landskap, natur- eller kulturmiljø som har helt spesielle opplevelseskvaliteter eller som har spesielt stor symbolverdi</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AF">
+        <annotation>
+          <documentation>områder av betydning for friluftslivet som ikke lar seg plassere i de øvrige områdetypene</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeTypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeVerdiType">
+    <annotation>
+      <documentation>områdets betydning for friluftslivet</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftslivsområdeVerdiEnumerationType sosi:FriluftslivsområdeVerdiOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeVerdiEnumerationType">
+    <annotation>
+      <documentation>områdets betydning for friluftslivet</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="A"/>
+      <enumeration value="B"/>
+      <enumeration value="C"/>
+      <enumeration value="D"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftslivsområdeVerdiOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBrukergrupperType">
+    <annotation>
+      <documentation>angir hvor brukerne kommer fra</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftsområdeBrukergrupperEnumerationType sosi:FriluftsområdeBrukergrupperOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftsområdeBrukergrupperEnumerationType">
+    <annotation>
+      <documentation>angir hvor brukerne kommer fra</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBrukergrupperOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBruksfrekvensType">
+    <annotation>
+      <documentation>angivelse av hvor mye et område brukes</documentation>
+    </annotation>
+    <union memberTypes="sosi:FriluftsområdeBruksfrekvensEnumerationType sosi:FriluftsområdeBruksfrekvensOtherType"/>
+  </simpleType>
+  <simpleType name="FriluftsområdeBruksfrekvensEnumerationType">
+    <annotation>
+      <documentation>angivelse av hvor mye et område brukes</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FriluftsområdeBruksfrekvensOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FunksjonType">
+    <annotation>
+      <documentation>angir om området har en spesiell funksjon (adkomstsone, korridor, parkeringsplass el)</documentation>
+    </annotation>
+    <union memberTypes="sosi:FunksjonEnumerationType sosi:FunksjonOtherType"/>
+  </simpleType>
+  <simpleType name="FunksjonEnumerationType">
+    <annotation>
+      <documentation>angir om området har en spesiell funksjon (adkomstsone, korridor, parkeringsplass el)</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FunksjonOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="InngrepType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er inngrepsfritt</documentation>
+    </annotation>
+    <union memberTypes="sosi:InngrepEnumerationType sosi:InngrepOtherType"/>
+  </simpleType>
+  <simpleType name="InngrepEnumerationType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er inngrepsfritt</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="InngrepOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="KartlFriluftslivsomrAvgrensning" substitutionGroup="gml:AbstractFeature" type="sosi:KartlFriluftslivsomrAvgrensningType">
+    <annotation>
+      <documentation>avgrensning av et kartlagt friluftlivsområde</documentation>
+    </annotation>
+  </element>
+  <complexType name="KartlFriluftslivsomrAvgrensningType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="grense" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>forløp som følger overgang mellom ulike fenomener</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KartlFriluftslivsomrAvgrensningPropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:KartlFriluftslivsomrAvgrensning"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="KartlagtFriluftslivsområde" substitutionGroup="gml:AbstractFeature" type="sosi:KartlagtFriluftslivsområdeType">
+    <annotation>
+      <documentation>områder som er kartlagt og verdsatt etter metoden i DN-håndbok 25 2004 og andre viktige friluftslivsområder</documentation>
+    </annotation>
+  </element>
+  <complexType name="KartlagtFriluftslivsområdeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="område" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>objektets utstrekning</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>sted som objektet eksisterer på</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kartlagtFriluftslivKurve" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>kartlagte friluftlivsområder kan registreres som linjer</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kartlagtStatus" type="sosi:KartlagtStatusType">
+            <annotation>
+              <documentation>egenskap for å registere et området før det er endelig vedtatt/ området skal ut på høring</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="områdeverdi" type="sosi:FriluftslivsområdeVerdiType">
+            <annotation>
+              <documentation>områdets betydning for friluftslivet</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="områdetype" type="sosi:FriluftslivsområdeTypeType">
+            <annotation>
+              <documentation>angir hovedtype friluftsområde som best beskriver området etter kodeliste</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="friluftOpphav" type="string">
+            <annotation>
+              <documentation>beskriver i hvilken sammenheng området er kartlagt</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="verdsetting" type="app:VerdsettingPropertyType">
+            <annotation>
+              <documentation>angir kriterium for verdsetting av området</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="KartlagtFriluftslivsområdePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:KartlagtFriluftslivsområde"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="KartlagtStatusType">
+    <annotation>
+      <documentation>brukes hvis området skal gjennom en høringsprosess for endelig versjon er "vedtatt"</documentation>
+    </annotation>
+    <union memberTypes="sosi:KartlagtStatusEnumerationType sosi:KartlagtStatusOtherType"/>
+  </simpleType>
+  <simpleType name="KartlagtStatusEnumerationType">
+    <annotation>
+      <documentation>brukes hvis området skal gjennom en høringsprosess for endelig versjon er "vedtatt"</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="UA"/>
+      <enumeration value="E">
+        <annotation>
+          <documentation>endelig versjon av friluftsområdet vedtatt</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="KartlagtStatusOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KunnskapsverdierType">
+    <annotation>
+      <documentation>angir om området er egnet i undervisningssammenheng eller om området har spesielle natur- eller kulturvitenskaplige kvaliteter</documentation>
+    </annotation>
+    <union memberTypes="sosi:KunnskapsverdierEnumerationType sosi:KunnskapsverdierOtherType"/>
+  </simpleType>
+  <simpleType name="KunnskapsverdierEnumerationType">
+    <annotation>
+      <documentation>angir om området er egnet i undervisningssammenheng eller om området har spesielle natur- eller kulturvitenskaplige kvaliteter</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KunnskapsverdierOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LydmiljøType">
+    <annotation>
+      <documentation>angir kvaliteten av lydmiljøet</documentation>
+    </annotation>
+    <union memberTypes="sosi:LydmiljøEnumerationType sosi:LydmiljøOtherType"/>
+  </simpleType>
+  <simpleType name="LydmiljøEnumerationType">
+    <annotation>
+      <documentation>angir kvaliteten av lydmiljøet</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LydmiljøOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LøypeprepareringType">
+    <annotation>
+      <documentation>angivelse av hvordan løypestrekningen er preparert</documentation>
+    </annotation>
+    <union memberTypes="sosi:LøypeprepareringEnumerationType sosi:LøypeprepareringOtherType"/>
+  </simpleType>
+  <simpleType name="LøypeprepareringEnumerationType">
+    <annotation>
+      <documentation>angivelse av hvordan løypestrekningen er preparert</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="PM">
+        <annotation>
+          <documentation>preparert med løypemaskin</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="PS">
+        <annotation>
+          <documentation>preparert med snøscooter</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="U">
+        <annotation>
+          <documentation>løype som gås opp av skiløypere eller grunnprepareres vha snøscooter/løypemaskin tidlig i sesongen/ved store snøfall</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="LøypeprepareringOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpparbeidingType">
+    <annotation>
+      <documentation>grov gruppering av ulike opparbeidingstiltak på bakken/grunnen knyttet til turstier, skiløyper mv.</documentation>
+    </annotation>
+    <union memberTypes="sosi:OpparbeidingEnumerationType sosi:OpparbeidingOtherType"/>
+  </simpleType>
+  <simpleType name="OpparbeidingEnumerationType">
+    <annotation>
+      <documentation>grov gruppering av ulike opparbeidingstiltak på bakken/grunnen knyttet til turstier, skiløyper mv.</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="5"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpparbeidingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpplevelseskvaliteterType">
+    <annotation>
+      <documentation>angir om området har spesielle natur- eller kulturhistoriske opplevelseskvaliteter eller om området har et spesielt landskap</documentation>
+    </annotation>
+    <union memberTypes="sosi:OpplevelseskvaliteterEnumerationType sosi:OpplevelseskvaliteterOtherType"/>
+  </simpleType>
+  <simpleType name="OpplevelseskvaliteterEnumerationType">
+    <annotation>
+      <documentation>angir om området har spesielle natur- eller kulturhistoriske opplevelseskvaliteter eller om området har et spesielt landskap</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="OpplevelseskvaliteterOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="PotensiellBrukType">
+    <annotation>
+      <documentation>angir områdets potensial utover dagens bruk</documentation>
+    </annotation>
+    <union memberTypes="sosi:PotensiellBrukEnumerationType sosi:PotensiellBrukOtherType"/>
+  </simpleType>
+  <simpleType name="PotensiellBrukEnumerationType">
+    <annotation>
+      <documentation>angir områdets potensial utover dagens bruk</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="PotensiellBrukOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RegionaleOgNasjonaleBrukereType">
+    <annotation>
+      <documentation>graden området brukes av personer som ikke er lokale</documentation>
+    </annotation>
+    <union memberTypes="sosi:RegionaleOgNasjonaleBrukereEnumerationType sosi:RegionaleOgNasjonaleBrukereOtherType"/>
+  </simpleType>
+  <simpleType name="RegionaleOgNasjonaleBrukereEnumerationType">
+    <annotation>
+      <documentation>graden området brukes av personer som ikke er lokale</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RegionaleOgNasjonaleBrukereOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteFølgerType">
+    <annotation>
+      <documentation>type trase som hoveddelen rute eller turen følger</documentation>
+    </annotation>
+    <union memberTypes="sosi:RuteFølgerEnumerationType sosi:RuteFølgerOtherType"/>
+  </simpleType>
+  <simpleType name="RuteFølgerEnumerationType">
+    <annotation>
+      <documentation>type trase som hoveddelen rute eller turen følger</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="US">
+        <annotation>
+          <documentation>sti som er vanskelig å se, f.eks. over bart fjell eller gjengrodd</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="ST"/>
+      <enumeration value="TR"/>
+      <enumeration value="LT">
+        <annotation>
+          <documentation>løypetrase der terrenget er utjevnet f.eks. ved rydding av stein eller påfylling av masse for å oppnå gode forhold når det er snø</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TV">
+        <annotation>
+          <documentation>turvei er opparbeidet og med toppdekke som gir jevn overflate når det er bar mark</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="GS">
+        <annotation>
+          <documentation>bane for fotgjengere og syklister langs eller nær en kjøreveg. Brøytes normalt om vinteren</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SV">
+        <annotation>
+          <documentation>bane for syklister</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SF">
+        <annotation>
+          <documentation>sykkelfelt i kjørebanen</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FO"/>
+      <enumeration value="BV">
+        <annotation>
+          <documentation>bilvei, uspesifisert vegdekke</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="VV"/>
+      <enumeration value="IT">
+        <annotation>
+          <documentation>ruten følger en trase som ikke har tydelige spor i terrenget etter ferdsel. Ingen sti.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SB"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteFølgerOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteMerkingType">
+    <annotation>
+      <documentation>forteller om det er merking  langs en sti, løype, veg, sykkelvei mv</documentation>
+    </annotation>
+    <union memberTypes="sosi:RuteMerkingEnumerationType sosi:RuteMerkingOtherType"/>
+  </simpleType>
+  <simpleType name="RuteMerkingEnumerationType">
+    <annotation>
+      <documentation>forteller om det er merking  langs en sti, løype, veg, sykkelvei mv</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="JA"/>
+      <enumeration value="PM">
+        <annotation>
+          <documentation>merket rute/løype
+
+Merknad:
+Det er ikke spesifisert om merkingen er permanent eller bare i visse årstider</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="SM"/>
+      <enumeration value="NEI"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteMerkingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteVanskelighetsgradType">
+    <annotation>
+      <documentation>angivelse av hvor krevende en rute er. Tilpasset til Innovasjon Norge sin standard</documentation>
+    </annotation>
+    <union memberTypes="sosi:RuteVanskelighetsgradEnumerationType sosi:RuteVanskelighetsgradOtherType"/>
+  </simpleType>
+  <simpleType name="RuteVanskelighetsgradEnumerationType">
+    <annotation>
+      <documentation>angivelse av hvor krevende en rute er. Tilpasset til Innovasjon Norge sin standard</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="G"/>
+      <enumeration value="B"/>
+      <enumeration value="R"/>
+      <enumeration value="S"/>
+      <enumeration value="I"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RuteVanskelighetsgradOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebetydningType">
+    <annotation>
+      <documentation>klassifisering av tur- og friluftsruter etter viktighet og bruk</documentation>
+    </annotation>
+    <union memberTypes="sosi:RutebetydningEnumerationType sosi:RutebetydningOtherType"/>
+  </simpleType>
+  <simpleType name="RutebetydningEnumerationType">
+    <annotation>
+      <documentation>klassifisering av tur- og friluftsruter etter viktighet og bruk</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebetydningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebreddeType">
+    <annotation>
+      <documentation>minste sti- , sykkelsti- eller skiløypebredde på strekningen (ligger i intervallet)</documentation>
+    </annotation>
+    <union memberTypes="sosi:RutebreddeEnumerationType sosi:RutebreddeOtherType"/>
+  </simpleType>
+  <simpleType name="RutebreddeEnumerationType">
+    <annotation>
+      <documentation>minste sti- , sykkelsti- eller skiløypebredde på strekningen (ligger i intervallet)</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="0"/>
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutebreddeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutetypeType">
+    <annotation>
+      <documentation>angivelse av type rute</documentation>
+    </annotation>
+    <union memberTypes="sosi:RutetypeEnumerationType sosi:RutetypeOtherType"/>
+  </simpleType>
+  <simpleType name="RutetypeEnumerationType">
+    <annotation>
+      <documentation>angivelse av type rute</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>mye brukt rute som utgjør hovedtraseene i løypenettet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>mye brukt rute som binder sammen hovedløypenettet</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>rute som utgjør alternative traseer, snarveier eller går til målpunkt</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="RutetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RyddebreddeType">
+    <annotation>
+      <documentation>bredde på trase ryddet for løype i skog. Brukes for skiløyper</documentation>
+    </annotation>
+    <union memberTypes="sosi:RyddebreddeEnumerationType sosi:RyddebreddeOtherType"/>
+  </simpleType>
+  <simpleType name="RyddebreddeEnumerationType">
+    <annotation>
+      <documentation>bredde på trase ryddet for løype i skog. Brukes for skiløyper</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="RyddebreddeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SesongType">
+    <annotation>
+      <documentation>vår- sommer- høst eller vintertur</documentation>
+    </annotation>
+    <union memberTypes="sosi:SesongEnumerationType sosi:SesongOtherType"/>
+  </simpleType>
+  <simpleType name="SesongEnumerationType">
+    <annotation>
+      <documentation>vår- sommer- høst eller vintertur</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="S"/>
+      <enumeration value="V"/>
+      <enumeration value="H"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SesongOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="SikraFriluftslivsomrAvgrensning" substitutionGroup="gml:AbstractFeature" type="sosi:SikraFriluftslivsomrAvgrensningType">
+    <annotation>
+      <documentation>avgrensning av et sikra friluftslivsområde</documentation>
+    </annotation>
+  </element>
+  <complexType name="SikraFriluftslivsomrAvgrensningType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="grense" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>forløp som følger overgang mellom ulike fenomener</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SikraFriluftslivsomrAvgrensningPropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:SikraFriluftslivsomrAvgrensning"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="SikraFriluftslivsområde" substitutionGroup="gml:AbstractFeature" type="sosi:SikraFriluftslivsområdeType">
+    <annotation>
+      <documentation>områder hvor det offentlige har kontroll over arealbruken gjennom eierskap eller servituttavtale</documentation>
+    </annotation>
+  </element>
+  <complexType name="SikraFriluftslivsområdeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="område" type="gml:SurfacePropertyType">
+            <annotation>
+              <documentation>objektets utstrekning</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>sted som objektet eksisterer på</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="områdeverdi" type="sosi:FriluftslivsområdeVerdiType">
+            <annotation>
+              <documentation>områdets betydning for friluftslivet</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bruksfrekvens" type="sosi:FriluftsområdeBruksfrekvensType">
+            <annotation>
+              <documentation>angivelse av hvor mye et område brukes
+
+Merknad: 
+Merk at omfanget av bruk er relativ og et område med lite bruk i Oslo kan ha mye mer bruk enn et område med mye bruk andre steder i landet. Det kan også være variasjoner mellom årstid og aktivitet</documentation>
+            </annotation>
+          </element>
+          <element name="brukergrupper" type="sosi:FriluftsområdeBrukergrupperType">
+            <annotation>
+              <documentation>angir hvor brukerne kommer fra</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="sikringsstatus" type="sosi:FriluftslivSikringType">
+            <annotation>
+              <documentation>angir om staten eller kommunen har bidratt til sikring av området</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="driftstilsynAnsvarlig" type="sosi:FriluftslivsområdeDriftstilsynType">
+            <annotation>
+              <documentation>angir ansvarlig instans for drift og tilsyn med området</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="forvaltningsplan" type="boolean">
+            <annotation>
+              <documentation>angir om det finnes forvaltningsplan</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="offentligKommunikasjon" type="boolean">
+            <annotation>
+              <documentation>angir om området er tilgjengelig med offentlig kommunikasjon</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tilgjengelighetKartlagt" type="boolean">
+            <annotation>
+              <documentation>angir om tilgjenglighet er kartlagt</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilrettelegging" type="sosi:FriluftslivTilretteleggingType">
+            <annotation>
+              <documentation>tilretteleggingstiltak som er gjort innenfor friluftslivsområdet</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="områdeEgnethet" type="sosi:FriluftslivsområdeEgnethetType">
+            <annotation>
+              <documentation>hvilken bruk friluftslivsområdet er egnet for</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tilgjengeligFunksjon" type="sosi:TilgjengeligFunksjonType">
+            <annotation>
+              <documentation>angir hvilke funksjoner i området som er tilrettelagt for funksjonshemmede</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilgjenglighetsGruppe" type="sosi:TilgjengelighetsgruppeType">
+            <annotation>
+              <documentation>angir hvilke grupper av funksjonshemmede området er tilrettelagt for</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="skjærgårdspark" type="boolean">
+            <annotation>
+              <documentation>angir om området er en del av skjærgårdspark</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="sikraFriluftslivsomravgrensning">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="sosi:SikraFriluftslivsomrAvgrensning"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SikraFriluftslivsområdePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:SikraFriluftslivsområde"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Skiløype" substitutionGroup="sosi:TurOgFriluftsrute" type="sosi:SkiløypeType">
+    <annotation>
+      <documentation>rute for ikke-motorisert ferdsel på snø
+
+Merknad:
+fortrinnsvis på ski, men også andre former slik som hundekjøring</documentation>
+    </annotation>
+  </element>
+  <complexType name="SkiløypeType">
+    <complexContent>
+      <extension base="sosi:TurOgFriluftsruteType">
+        <sequence>
+          <element minOccurs="0" name="spesialSkiløypetype" type="sosi:SpesialSkiløypetypeType">
+            <annotation>
+              <documentation>spesielle skiløyper definert ut fra observert bruk eller merking, anbefaling eller tilrettelegging for bruk.
+
+Merknad: 
+definert ut fra observert bruk eller merking, anbefaling eller tilrettelegging for bruk</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="preparering" type="sosi:LøypeprepareringType">
+            <annotation>
+              <documentation>angivelse av hvordan løypestrekningen er preparert</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ryddebredde" type="sosi:RyddebreddeType">
+            <annotation>
+              <documentation>bredde på trase ryddet for løype i skog. Brukes for skiløyper</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="antallSkispor" type="integer">
+            <annotation>
+              <documentation>antall oppkjørte skispor for klassisk på løypestrekningen. Angis med tall. Er det også tilrettelagt for skøyting registreres det med JA under skøytetrase</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="skøytetrase">
+            <annotation>
+              <documentation>om løypen er tilrettelagt for skøyting eller ikke. Er traseen kun tilrettelagt for skøyting settes i tillegg verdien 0 under AntallSkispor.</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SkiløypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:Skiløype"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="SpesialFotrutetypeType">
+    <annotation>
+      <documentation>typer er definert ut fra spesiell tilrettelegging, spesielle bruksformål eller historisk opprinnelse</documentation>
+    </annotation>
+    <union memberTypes="sosi:SpesialFotrutetypeEnumerationType sosi:SpesialFotrutetypeOtherType"/>
+  </simpleType>
+  <simpleType name="SpesialFotrutetypeEnumerationType">
+    <annotation>
+      <documentation>typer er definert ut fra spesiell tilrettelegging, spesielle bruksformål eller historisk opprinnelse</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="NT">
+        <annotation>
+          <documentation>rute med opplysninger om naturfaglige emner gjennom skilting eller på annen måte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KT">
+        <annotation>
+          <documentation>rute med opplysninger om kulturhistoriske emner gjennom skilting eller på annen måte</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HF">
+        <annotation>
+          <documentation>pilgrimsled, gammel kongevei, postveger, barnevandringsstier og rallarveier etc</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="TR">
+        <annotation>
+          <documentation>rute spesielt tilrettelagt og/eller merket for trim</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KY">
+        <annotation>
+          <documentation>en rute som følger kystlinja</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AN"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialFotrutetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSkiløypetypeType">
+    <annotation>
+      <documentation>spesielle skiløyper</documentation>
+    </annotation>
+    <union memberTypes="sosi:SpesialSkiløypetypeEnumerationType sosi:SpesialSkiløypetypeOtherType"/>
+  </simpleType>
+  <simpleType name="SpesialSkiløypetypeEnumerationType">
+    <annotation>
+      <documentation>spesielle skiløyper</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="SH">
+        <annotation>
+          <documentation>enveiskjørt løype med slake kurver og lydfyr. Bør skiltes med at man kan møte blinde skiløpere.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="BV">
+        <annotation>
+          <documentation>løyper som er tilrettelagt for blant annet langrennspiggere. Krever liten kupering og slake kurver</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HL">
+        <annotation>
+          <documentation>løype for folk som kjører med hunder</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="HU">
+        <annotation>
+          <documentation>anbefalt skiløype for folk som går på skitur med hund</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="KO">
+        <annotation>
+          <documentation>anbefalt løype for aktive skiløpere. Ofte i tilknytning til anlegg for langrenn og skiskyting</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="FK">
+        <annotation>
+          <documentation>anbefalt nedfart for frikjøring (telemark, randonee og lignende)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="AT">
+        <annotation>
+          <documentation>anbefalte traseer for skigåing uten spesiell tilrettelegging i form av preparering, rydding og lignende</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="LL"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSkiløypetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSykkelrutetypeType">
+    <annotation>
+      <documentation>defineres med utgangspunkt i &lt;a href="http://www.fjellturisme.no/skilting-og-gradering/ny-utgave-av-handbok-for-skilting-og-gradering"&gt;Innovasjon Norge sin inndeling&lt;/a&gt;; utforsykling, terrengsykling og tursykling. I tillegg tas transportsykling inn som en kategori som fanger opp sykkelruter på og i tilknytning til veier og inne i byer og tettsted</documentation>
+    </annotation>
+    <union memberTypes="sosi:SpesialSykkelrutetypeEnumerationType sosi:SpesialSykkelrutetypeOtherType"/>
+  </simpleType>
+  <simpleType name="SpesialSykkelrutetypeEnumerationType">
+    <annotation>
+      <documentation>defineres med utgangspunkt i &lt;a href="http://www.fjellturisme.no/skilting-og-gradering/ny-utgave-av-handbok-for-skilting-og-gradering"&gt;Innovasjon Norge sin inndeling&lt;/a&gt;; utforsykling, terrengsykling og tursykling. I tillegg tas transportsykling inn som en kategori som fanger opp sykkelruter på og i tilknytning til veier og inne i byer og tettsted</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>sykling på vedlikholdt vei, sykkelvei og lignende</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>sykling utenfor vedlikeholdt vei og turvei</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>sykling i alpinanlegg og/eller andre tilrettelagte anlegg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>sykkelruter mellom knutepunkt. Eks. på knutepunkt er boligområder, arbeidssted, butikk, skole og lignende.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SpesialSykkelrutetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Sykkelrute" substitutionGroup="sosi:TurOgFriluftsrute" type="sosi:SykkelruteType">
+    <annotation>
+      <documentation>rute for ikke-motorisert ferdsel på sykkel
+
+Merknad:
+Sykkelrute kan følge kjørevei, gang/sykkelvei, traktorvei, sti etc</documentation>
+    </annotation>
+  </element>
+  <complexType name="SykkelruteType">
+    <complexContent>
+      <extension base="sosi:TurOgFriluftsruteType">
+        <sequence>
+          <element minOccurs="0" name="spesialSykkelrutetype" type="sosi:SpesialSykkelrutetypeType">
+            <annotation>
+              <documentation>spesielle former for sykkelruter</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="trafikkbelastning" type="sosi:TrafikkbelastningType">
+            <annotation>
+              <documentation>grov kategorisering av trafikkbelastning på en strekning</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="SykkelrutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:Sykkelrute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="SymbolverdiType">
+    <annotation>
+      <documentation>angir i hvor stor grad området har en spesiell symbolverdi</documentation>
+    </annotation>
+    <union memberTypes="sosi:SymbolverdiEnumerationType sosi:SymbolverdiOtherType"/>
+  </simpleType>
+  <simpleType name="SymbolverdiEnumerationType">
+    <annotation>
+      <documentation>angir i hvor stor grad området har en spesiell symbolverdi</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SymbolverdiOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengeligFunksjonType">
+    <annotation>
+      <documentation>angir hvilke funksjoner i området som er tilrettelagt for funksjonshemmede</documentation>
+    </annotation>
+    <union memberTypes="sosi:TilgjengeligFunksjonEnumerationType sosi:TilgjengeligFunksjonOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengeligFunksjonEnumerationType">
+    <annotation>
+      <documentation>angir hvilke funksjoner i området som er tilrettelagt for funksjonshemmede</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengeligFunksjonOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetType">
+    <annotation>
+      <documentation>angir hvor god tilgjengeligheten er.
+Grad av tilgjengelighet til et område avgjøres av mange faktorer som allemannsretten, fysisk tilrettelegging, transports, informasjon mv.</documentation>
+    </annotation>
+    <union memberTypes="sosi:TilgjengelighetEnumerationType sosi:TilgjengelighetOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengelighetEnumerationType">
+    <annotation>
+      <documentation>angir hvor god tilgjengeligheten er.
+Grad av tilgjengelighet til et område avgjøres av mange faktorer som allemannsretten, fysisk tilrettelegging, transports, informasjon mv.</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetsgruppeType">
+    <annotation>
+      <documentation>angir hvilke gruppe av funksjonshemmede området er tilrettelagt for</documentation>
+    </annotation>
+    <union memberTypes="sosi:TilgjengelighetsgruppeEnumerationType sosi:TilgjengelighetsgruppeOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengelighetsgruppeEnumerationType">
+    <annotation>
+      <documentation>angir hvilke gruppe av funksjonshemmede området er tilrettelagt for</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+      <enumeration value="6"/>
+      <enumeration value="7">
+        <annotation>
+          <documentation>se NS 11005:2011, kap. 4.4</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="9"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetsgruppeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilretteleggingType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er tilrettelagt for spesielle aktiviteter eller grupper</documentation>
+    </annotation>
+    <union memberTypes="sosi:TilretteleggingEnumerationType sosi:TilretteleggingOtherType"/>
+  </simpleType>
+  <simpleType name="TilretteleggingEnumerationType">
+    <annotation>
+      <documentation>angir i hvor stor grad området er tilrettelagt for spesielle aktiviteter eller grupper</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilretteleggingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TrafikkbelastningType">
+    <annotation>
+      <documentation>grov kategorisering av trafikkbelastning på en strekning</documentation>
+    </annotation>
+    <union memberTypes="sosi:TrafikkbelastningEnumerationType sosi:TrafikkbelastningOtherType"/>
+  </simpleType>
+  <simpleType name="TrafikkbelastningEnumerationType">
+    <annotation>
+      <documentation>grov kategorisering av trafikkbelastning på en strekning</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2">
+        <annotation>
+          <documentation>lav fart, noe trafikk eller fart opp til 60 km/t og lite trafikk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>mye trafikk og lav fart eller høy fart og litt trafikk.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>mye trafikk og fart under 60 km/t på veg med sykkelfelt</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>alt som ikke inngår i de 4 klassene over. I stor grad veger med fart over 60 km/t eller høy trafikkmengde</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="TrafikkbelastningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element abstract="true" name="TurOgFriluftsrute" substitutionGroup="gml:AbstractFeature" type="sosi:TurOgFriluftsruteType">
+    <annotation>
+      <documentation>generellt overordnet ruteobjekt for tur- og friluftsruter</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="TurOgFriluftsruteType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="vedlikeholdsansvarlig" type="string">
+            <annotation>
+              <documentation>institusjon eller andre som har ansvar for vedlikehold av rute</documentation>
+            </annotation>
+          </element>
+          <element name="friluftEierforhold" type="sosi:FriluftEierforholdType">
+            <annotation>
+              <documentation>angir hvilken instans som er eier av ruta</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="belysning" type="sosi:BelysningType">
+            <annotation>
+              <documentation>om det er permanent belysning langs ruten</documentation>
+            </annotation>
+          </element>
+          <element name="merking" type="sosi:RuteMerkingType">
+            <annotation>
+              <documentation>forteller om det er merking  langs en sti, løype, veg, sykkelvei mv</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="skilting" type="boolean">
+            <annotation>
+              <documentation>om ruten er skiltet eller ikke (må skilles fra merking - skiltes ofte i viktige kryss og start- sluttpunkt)</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ruteFølger" type="sosi:RuteFølgerType">
+            <annotation>
+              <documentation>hoveddelen av type trase som rute eller løype følger</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rutebredde" type="sosi:RutebreddeType">
+            <annotation>
+              <documentation>minste sti- , sykkelsti- eller skiløypebredde på rutestrekningen</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="opparbeiding" type="sosi:OpparbeidingType">
+            <annotation>
+              <documentation>grov gruppering av ulike opparbeidingstiltak på bakken/grunnen knyttet til turstier, skiløyper mv.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rutebetydning" type="sosi:RutebetydningType">
+            <annotation>
+              <documentation>klassifisering av ulike tur- og friluftsruter etter hvor brukerne i hovedsak kommer fra</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ruteVanskelighetsgrad" type="sosi:RuteVanskelighetsgradType">
+            <annotation>
+              <documentation>angivelse av hvor krevende en rute er</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="underlagstype" type="sosi:UnderlagstypeType">
+            <annotation>
+              <documentation>type underlag som ruten eller løypen følger - om rutestrekningen har asfalt/betongdekke, går på grus eller på naturlig grunn</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lengde" type="integer">
+            <annotation>
+              <documentation>rutens lengde i meter</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="stigning" type="integer">
+            <annotation>
+              <documentation>samlet stigning i prosent. Denne egenskapen kan legges inn hvis en ikke har mulighet til å beregne stigning automatisk ut fra kartobjektet</documentation>
+            </annotation>
+          </element>
+          <element maxOccurs="unbounded" minOccurs="0" name="tilgjengelighetsGruppe" type="sosi:TilgjengelighetsgruppeType">
+            <annotation>
+              <documentation>angir hvilke grupper av funksjonshemmede området er tilrettelagt for</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rutetype" type="sosi:RutetypeType">
+            <annotation>
+              <documentation>angivelse av type rute</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TurOgFriluftsrutePropertyType">
+    <sequence minOccurs="0">
+      <element ref="sosi:TurOgFriluftsrute"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="UnderlagstypeType">
+    <annotation>
+      <documentation>om rutestrekningen har asfalt/betongdekke, går på grus eller på naturlig grunn</documentation>
+    </annotation>
+    <union memberTypes="sosi:UnderlagstypeEnumerationType sosi:UnderlagstypeOtherType"/>
+  </simpleType>
+  <simpleType name="UnderlagstypeEnumerationType">
+    <annotation>
+      <documentation>om rutestrekningen har asfalt/betongdekke, går på grus eller på naturlig grunn</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>strekningen har fast dekke  av asfalt eller betong</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>strekningen har grusdekke</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>strekningen går ikke på opparbeidet grunn, men på sti, over fjell el.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>strekningen har annen type underlag enn de nevnte</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="UnderlagstypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="UtstrekningType">
+    <annotation>
+      <documentation>angir om utstrekning av området er stor nok for å utøve de ønskede aktivitetene</documentation>
+    </annotation>
+    <union memberTypes="sosi:UtstrekningEnumerationType sosi:UtstrekningOtherType"/>
+  </simpleType>
+  <simpleType name="UtstrekningEnumerationType">
+    <annotation>
+      <documentation>angir om utstrekning av området er stor nok for å utøve de ønskede aktivitetene</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1"/>
+      <enumeration value="2"/>
+      <enumeration value="3"/>
+      <enumeration value="4"/>
+      <enumeration value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="UtstrekningOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element name="Verdsetting" substitutionGroup="gml:AbstractObject" type="sosi:VerdsettingType">
+    <annotation>
+      <documentation>angir kriterium for verdsetting av området</documentation>
+    </annotation>
+  </element>
+  <complexType name="VerdsettingType">
+    <sequence>
+      <element minOccurs="0" name="brukerfrekvens" type="sosi:BrukerfrekvensType">
+        <annotation>
+          <documentation>Hvor stor er dagens brukerfrekvens?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="regionaleOgNasjonaleBrukere" type="sosi:RegionaleOgNasjonaleBrukereType">
+        <annotation>
+          <documentation>Brukes området av personer som ikke er lokale?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="opplevelseskvaliteter" type="sosi:OpplevelseskvaliteterType">
+        <annotation>
+          <documentation>Har området spesielle natur- eller kulturhistoriske opplevelseskvaliteter? Har området spesielt landskap?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="symbolverdi" type="sosi:SymbolverdiType">
+        <annotation>
+          <documentation>Har området en spesiell symbolverdi?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="funksjon" type="sosi:FunksjonType">
+        <annotation>
+          <documentation>Har området en spesiell funksjon (atkomstsone, korridor, parkeringsplass el.)?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="egnethet" type="sosi:EgnethetType">
+        <annotation>
+          <documentation>Er området spesielt godt egnet for en eller flere enkeltaktiviteter som det ikke finnes like gode alternative områder til?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="tilrettelegging" type="sosi:TilretteleggingType">
+        <annotation>
+          <documentation>Er området tilrettelagt for spesielle aktiviteter eller grupper?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="kunnskapsverdier" type="sosi:KunnskapsverdierType">
+        <annotation>
+          <documentation>Er området egnet i undervisningssammenheng eller har området spesielle natur- eller kulturvitenskaplige kvaliteter?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="inngrep" type="sosi:InngrepType">
+        <annotation>
+          <documentation>Er området inngrepsfritt?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="utstrekning" type="sosi:UtstrekningType">
+        <annotation>
+          <documentation>Er området stort nok for å utøve de ønskede aktivitetene?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="potensiellBruk" type="sosi:PotensiellBrukType">
+        <annotation>
+          <documentation>Har området potensial utover dagens bruk?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="tilgjengelighet" type="sosi:TilgjengelighetType">
+        <annotation>
+          <documentation>Er tilgjengeligheten god, eller kan den bli god?</documentation>
+        </annotation>
+      </element>
+      <element minOccurs="0" name="støy" type="sosi:LydmiljøType">
+        <annotation>
+          <documentation>angir kvaliteten av lydmiljøet
+
+Merknad: God betyr lite støy.</documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+  <complexType name="VerdsettingPropertyType">
+    <sequence>
+      <element ref="sosi:Verdsetting"/>
+    </sequence>
+  </complexType>
+</schema>

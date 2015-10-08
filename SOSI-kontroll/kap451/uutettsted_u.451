@@ -1,0 +1,29 @@
+! ***************************************************************************!
+! * SOSI-kontroll                                             UUTETTSTED-UTVALG *!
+! * Utvalgsregler for UUTETTSTED          				                    *!
+! *                            SOSI versjon  4.5.1                   *!
+! ***************************************************************************!
+! *           Følger databeskrivelsene i Del 1, Praktisk bruk               *!
+! *            og databeskrivelsene i Objektkatalogen,                      *!
+! *                   Generert fra SOSI UML modell                          *!
+! *                                                                         *!
+! *               Statens kartverk, SOSI-sekretariatet           08.10.2015 *!
+! *                          nn                                             *!
+! ***************************************************************************!
+! ------ Antall definerte objekttyper i denne katalogen: 4
+
+.GRUPPE-UTVALG UUTettstedHCparkering
+..VELG  "..OBJTYPE" = UUTettstedHCparkering
+..BRUK-REGEL UUTettstedHCparkering
+
+.GRUPPE-UTVALG UUTettstedInngangBygg
+..VELG  "..OBJTYPE" = UUTettstedInngangBygg
+..BRUK-REGEL UUTettstedInngangBygg
+
+.GRUPPE-UTVALG UUTettstedParkeringsområde
+..VELG  "..OBJTYPE" = UUTettstedParkeringsområde
+..BRUK-REGEL UUTettstedParkeringsområde
+
+.GRUPPE-UTVALG UUTettstedVei
+..VELG  "..OBJTYPE" = UUTettstedVei
+..BRUK-REGEL UUTettstedVei

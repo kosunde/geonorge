@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://data.geonorge.no/so/universellutforming/tettsted/4.5" xmlns:gml="http://www.opengis.net/gml/3.2" elementFormDefault="qualified" targetNamespace="http://data.geonorge.no/so/universellutforming/tettsted/4.5" version="4.5.1">
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <simpleType name="BygningsfunksjonType">
+    <union memberTypes="app:BygningsfunksjonEnumerationType app:BygningsfunksjonOtherType"/>
+  </simpleType>
+  <simpleType name="BygningsfunksjonEnumerationType">
+    <restriction base="string">
+      <enumeration value="Aktivitets- og dagsenter">
+        <annotation>
+          <documentation>temporær oppholdssted (dagsaktiviteter) for eldre og funksjonshemmede.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Annen bygning"/>
+      <enumeration value="Barnehage"/>
+      <enumeration value="Beredskap">
+        <annotation>
+          <documentation>Politi, Brannstasjon, ...</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Butikk"/>
+      <enumeration value="Hotell"/>
+      <enumeration value="Idrett"/>
+      <enumeration value="Kultur">
+        <annotation>
+          <documentation>museum, bibliotek, kino, teater, sammfunnshus, kulturhus, ...</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Lege/helsebygning"/>
+      <enumeration value="Offentlig forvaltning">
+        <annotation>
+          <documentation>Rådhus, Fylkesmann, Fylkeskommune, NAV, Skattetaten, Helseforvaltning,...</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Omsorgsbolig">
+        <annotation>
+          <documentation>Boligenheter/Rom hvor personer bor permanent</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Religion"/>
+      <enumeration value="Servering"/>
+      <enumeration value="Toalett"/>
+      <enumeration value="Transport">
+        <annotation>
+          <documentation>togstasjon, flyplass, busstasjon, ...</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Turistkontor"/>
+      <enumeration value="Undervisning">
+        <annotation>
+          <documentation>skoler, universitet, høyskoler, voksenutdanning, folkeuniversitet, ...</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="BygningsfunksjonOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="DekkeType">
+    <union memberTypes="app:DekkeEnumerationType app:DekkeOtherType"/>
+  </simpleType>
+  <simpleType name="DekkeEnumerationType">
+    <restriction base="string">
+      <enumeration value="Asfalt"/>
+      <enumeration value="Betong"/>
+      <enumeration value="Brostein"/>
+      <enumeration value="Stein"/>
+      <enumeration value="Gress"/>
+      <enumeration value="Skogsbunn"/>
+      <enumeration value="Grus"/>
+      <enumeration value="Annet">
+        <annotation>
+          <documentation>f.eks. treplanker</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="DekkeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="DekketilstandType">
+    <union memberTypes="app:DekketilstandEnumerationType app:DekketilstandOtherType"/>
+  </simpleType>
+  <simpleType name="DekketilstandEnumerationType">
+    <restriction base="string">
+      <enumeration value="Jevnt">
+        <annotation>
+          <documentation>For at en turvei klassifiseres som jenvt skal den ikke har sprekker med &gt;1cm vidde og &gt;2,5cm høydedifferens.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Ujevnt">
+        <annotation>
+          <documentation>Dersom en turvei har sprekker med &gt;1cm vidde og &gt;2,5cm høydedifferens klassifiseres den som ujevnt.</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="DekketilstandOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="DørtypeType">
+    <union memberTypes="app:DørtypeEnumerationType app:DørtypeOtherType"/>
+  </simpleType>
+  <simpleType name="DørtypeEnumerationType">
+    <restriction base="string">
+      <enumeration value="Slagdør inn"/>
+      <enumeration value="Slagdør ut">
+        <annotation>
+          <documentation>Dørå skal ikke åpne ikke mot manøverknappen.</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Skyvedør"/>
+      <enumeration value="Karuselldør">
+        <annotation>
+          <documentation>Karusselldør er ikke tilgjengelig for rullestolbruker og synshemmede. Ofte er en sideengang på plass som må da kartlegges.</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="DørtypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="DøråpnerType">
+    <union memberTypes="app:DøråpnerEnumerationType app:DøråpnerOtherType"/>
+  </simpleType>
+  <simpleType name="DøråpnerEnumerationType">
+    <restriction base="string">
+      <enumeration value="Manuell"/>
+      <enumeration value="Halvautomatisk"/>
+      <enumeration value="Automatisk"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="DøråpnerOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="EierforholdType">
+    <annotation>
+      <documentation>eierforhold knyttet til et objekt
+
+
+-- Definition - - 
+ownership in connection with an object</documentation>
+    </annotation>
+    <union memberTypes="app:EierforholdEnumerationType app:EierforholdOtherType"/>
+  </simpleType>
+  <simpleType name="EierforholdEnumerationType">
+    <annotation>
+      <documentation>eierforhold knyttet til et objekt
+
+
+-- Definition - - 
+ownership in connection with an object</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Offentlig"/>
+      <enumeration value="Privat"/>
+      <enumeration value="Annet"/>
+      <enumeration value="Ikke valgt"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="EierforholdOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="GatetypeType">
+    <union memberTypes="app:GatetypeEnumerationType app:GatetypeOtherType"/>
+  </simpleType>
+  <simpleType name="GatetypeEnumerationType">
+    <restriction base="string">
+      <enumeration value="Fortau"/>
+      <enumeration value="Gangfelt"/>
+      <enumeration value="Gangveg"/>
+      <enumeration value="Sykkelsti"/>
+      <enumeration value="Gangveg og sykkelveg"/>
+      <enumeration value="Gågate"/>
+      <enumeration value="Sti"/>
+      <enumeration value="Gate"/>
+      <enumeration value="Torg"/>
+      <enumeration value="Gågate og torg"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="GatetypeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="HåndlistplasseringType">
+    <union memberTypes="app:HåndlistplasseringEnumerationType app:HåndlistplasseringOtherType"/>
+  </simpleType>
+  <simpleType name="HåndlistplasseringEnumerationType">
+    <restriction base="string">
+      <enumeration value="Høyre side">
+        <annotation>
+          <documentation>Plassering av håndlist sett mot inngang</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Venstre side">
+        <annotation>
+          <documentation>Plassering av håndlist sett mot inngang</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Begge sider"/>
+      <enumeration value="Mangler"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="HåndlistplasseringOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="JaNeiType">
+    <union memberTypes="app:JaNeiEnumerationType app:JaNeiOtherType"/>
+  </simpleType>
+  <simpleType name="JaNeiEnumerationType">
+    <restriction base="string">
+      <enumeration value="Ja"/>
+      <enumeration value="Nei"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="JaNeiOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KommunenummerType">
+    <annotation>
+      <documentation>nummerering av kommuner i henhold til SSB sin offisielle liste
+
+Merknad: Det presiseres at kommune alltid skal ha 4 siffer, dvs. eventuelt med ledende null. Kommune benyttes for kopling mot en rekke andre registre som også benytter 4 siffer.
+
+
+-- Definition - - 
+numbering of municipalities in accordance with Statistics Norway's official list Note: It must be emphasised that municipality number always consists of 4 digits, i.e. sometimes with leading zero. Municipality is used for establishing relations to a number of other registers which also use 4 digits.</documentation>
+    </annotation>
+    <union memberTypes="app:KommunenummerEnumerationType app:KommunenummerOtherType"/>
+  </simpleType>
+  <simpleType name="KommunenummerEnumerationType">
+    <annotation>
+      <documentation>nummerering av kommuner i henhold til SSB sin offisielle liste
+
+Merknad: Det presiseres at kommune alltid skal ha 4 siffer, dvs. eventuelt med ledende null. Kommune benyttes for kopling mot en rekke andre registre som også benytter 4 siffer.
+
+
+-- Definition - - 
+numbering of municipalities in accordance with Statistics Norway's official list Note: It must be emphasised that municipality number always consists of 4 digits, i.e. sometimes with leading zero. Municipality is used for establishing relations to a number of other registers which also use 4 digits.</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="1201"/>
+      <enumeration value="1804"/>
+      <enumeration value="0602"/>
+      <enumeration value="1101"/>
+      <enumeration value="1401"/>
+      <enumeration value="0101"/>
+      <enumeration value="1901"/>
+      <enumeration value="0701"/>
+      <enumeration value="2211"/>
+      <enumeration value="0402"/>
+      <enumeration value="1001"/>
+      <enumeration value="0501"/>
+      <enumeration value="1502"/>
+      <enumeration value="0301"/>
+      <enumeration value="0805"/>
+      <enumeration value="0901"/>
+      <enumeration value="2311"/>
+      <enumeration value="2111"/>
+      <enumeration value="1702"/>
+      <enumeration value="1601"/>
+      <enumeration value="2002"/>
+      <enumeration value="0211"/>
+      <enumeration value="2121"/>
+      <enumeration value="1211"/>
+      <enumeration value="0502"/>
+      <enumeration value="0904"/>
+      <enumeration value="1411"/>
+      <enumeration value="0403"/>
+      <enumeration value="1612"/>
+      <enumeration value="0702"/>
+      <enumeration value="0604"/>
+      <enumeration value="1505"/>
+      <enumeration value="1002"/>
+      <enumeration value="0104"/>
+      <enumeration value="1703"/>
+      <enumeration value="1805"/>
+      <enumeration value="1102"/>
+      <enumeration value="0213"/>
+      <enumeration value="0806"/>
+      <enumeration value="2321"/>
+      <enumeration value="1902"/>
+      <enumeration value="2003"/>
+      <enumeration value="0906"/>
+      <enumeration value="1811"/>
+      <enumeration value="0511"/>
+      <enumeration value="1003"/>
+      <enumeration value="2004"/>
+      <enumeration value="2131"/>
+      <enumeration value="1911"/>
+      <enumeration value="1711"/>
+      <enumeration value="0807"/>
+      <enumeration value="0605"/>
+      <enumeration value="0412"/>
+      <enumeration value="0105"/>
+      <enumeration value="1613"/>
+      <enumeration value="1412"/>
+      <enumeration value="1103"/>
+      <enumeration value="1216"/>
+      <enumeration value="0704"/>
+      <enumeration value="1504"/>
+      <enumeration value="0214"/>
+      <enumeration value="2011"/>
+      <enumeration value="1219"/>
+      <enumeration value="1004"/>
+      <enumeration value="0106"/>
+      <enumeration value="0215"/>
+      <enumeration value="0911"/>
+      <enumeration value="1106"/>
+      <enumeration value="1617"/>
+      <enumeration value="0612"/>
+      <enumeration value="1413"/>
+      <enumeration value="0512"/>
+      <enumeration value="0415"/>
+      <enumeration value="0706"/>
+      <enumeration value="0811"/>
+      <enumeration value="1913"/>
+      <enumeration value="1714"/>
+      <enumeration value="1812"/>
+      <enumeration value="1511"/>
+      <enumeration value="2012"/>
+      <enumeration value="0814"/>
+      <enumeration value="1915"/>
+      <enumeration value="1813"/>
+      <enumeration value="0615"/>
+      <enumeration value="1717"/>
+      <enumeration value="1620"/>
+      <enumeration value="0111"/>
+      <enumeration value="1416"/>
+      <enumeration value="0709"/>
+      <enumeration value="0216"/>
+      <enumeration value="1514"/>
+      <enumeration value="0513"/>
+      <enumeration value="1111"/>
+      <enumeration value="0417"/>
+      <enumeration value="1221"/>
+      <enumeration value="0912"/>
+      <enumeration value="1014"/>
+      <enumeration value="0118"/>
+      <enumeration value="1222"/>
+      <enumeration value="1515">
+        <annotation>
+          <documentation>Herøy i  Møre og Romsdal</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1917"/>
+      <enumeration value="0815"/>
+      <enumeration value="1718"/>
+      <enumeration value="0514"/>
+      <enumeration value="2014"/>
+      <enumeration value="1112"/>
+      <enumeration value="0616"/>
+      <enumeration value="0418"/>
+      <enumeration value="0217"/>
+      <enumeration value="1017"/>
+      <enumeration value="0711"/>
+      <enumeration value="0914"/>
+      <enumeration value="1815"/>
+      <enumeration value="1417"/>
+      <enumeration value="1621"/>
+      <enumeration value="1622"/>
+      <enumeration value="1418"/>
+      <enumeration value="1114"/>
+      <enumeration value="0219"/>
+      <enumeration value="0817"/>
+      <enumeration value="0919"/>
+      <enumeration value="0617"/>
+      <enumeration value="1919"/>
+      <enumeration value="2015"/>
+      <enumeration value="1719"/>
+      <enumeration value="0119"/>
+      <enumeration value="0713"/>
+      <enumeration value="1018"/>
+      <enumeration value="0419"/>
+      <enumeration value="1223"/>
+      <enumeration value="1516"/>
+      <enumeration value="1816"/>
+      <enumeration value="0515"/>
+      <enumeration value="0220"/>
+      <enumeration value="0420"/>
+      <enumeration value="1517"/>
+      <enumeration value="0618"/>
+      <enumeration value="1818"/>
+      <enumeration value="0714"/>
+      <enumeration value="1119"/>
+      <enumeration value="2017"/>
+      <enumeration value="1224"/>
+      <enumeration value="1920"/>
+      <enumeration value="1419"/>
+      <enumeration value="0926"/>
+      <enumeration value="1021"/>
+      <enumeration value="0819"/>
+      <enumeration value="0516"/>
+      <enumeration value="1624"/>
+      <enumeration value="0121"/>
+      <enumeration value="1721"/>
+      <enumeration value="1820"/>
+      <enumeration value="0221"/>
+      <enumeration value="1922"/>
+      <enumeration value="0928"/>
+      <enumeration value="1627"/>
+      <enumeration value="0821"/>
+      <enumeration value="0423"/>
+      <enumeration value="1227"/>
+      <enumeration value="1120"/>
+      <enumeration value="1723"/>
+      <enumeration value="2018"/>
+      <enumeration value="0716"/>
+      <enumeration value="0517"/>
+      <enumeration value="1420"/>
+      <enumeration value="0122"/>
+      <enumeration value="1519"/>
+      <enumeration value="0619"/>
+      <enumeration value="1026"/>
+      <enumeration value="0719"/>
+      <enumeration value="1027"/>
+      <enumeration value="1421"/>
+      <enumeration value="0620"/>
+      <enumeration value="1822"/>
+      <enumeration value="2019"/>
+      <enumeration value="1228"/>
+      <enumeration value="1923"/>
+      <enumeration value="0822"/>
+      <enumeration value="0123"/>
+      <enumeration value="0519"/>
+      <enumeration value="0226"/>
+      <enumeration value="1121"/>
+      <enumeration value="1724"/>
+      <enumeration value="1520"/>
+      <enumeration value="1630"/>
+      <enumeration value="0929"/>
+      <enumeration value="0425"/>
+      <enumeration value="0124"/>
+      <enumeration value="0227"/>
+      <enumeration value="1122"/>
+      <enumeration value="0935"/>
+      <enumeration value="1029"/>
+      <enumeration value="1422"/>
+      <enumeration value="1924"/>
+      <enumeration value="1725"/>
+      <enumeration value="2020"/>
+      <enumeration value="0520"/>
+      <enumeration value="1632"/>
+      <enumeration value="0621"/>
+      <enumeration value="0720"/>
+      <enumeration value="0826"/>
+      <enumeration value="1231"/>
+      <enumeration value="1824"/>
+      <enumeration value="0426">
+        <annotation>
+          <documentation>Våler i Hedmark</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1523"/>
+      <enumeration value="1232"/>
+      <enumeration value="0125"/>
+      <enumeration value="0427"/>
+      <enumeration value="0937"/>
+      <enumeration value="1825"/>
+      <enumeration value="0827"/>
+      <enumeration value="1729"/>
+      <enumeration value="2021"/>
+      <enumeration value="0622"/>
+      <enumeration value="1032"/>
+      <enumeration value="1524"/>
+      <enumeration value="0722"/>
+      <enumeration value="1633"/>
+      <enumeration value="0228"/>
+      <enumeration value="1124"/>
+      <enumeration value="1925"/>
+      <enumeration value="0521"/>
+      <enumeration value="1424"/>
+      <enumeration value="0938"/>
+      <enumeration value="1926"/>
+      <enumeration value="0229"/>
+      <enumeration value="0522"/>
+      <enumeration value="1826"/>
+      <enumeration value="1034"/>
+      <enumeration value="2022"/>
+      <enumeration value="1426"/>
+      <enumeration value="0623"/>
+      <enumeration value="1634"/>
+      <enumeration value="1127"/>
+      <enumeration value="0828"/>
+      <enumeration value="0127"/>
+      <enumeration value="1736"/>
+      <enumeration value="1525"/>
+      <enumeration value="0723"/>
+      <enumeration value="0428"/>
+      <enumeration value="1233"/>
+      <enumeration value="1428"/>
+      <enumeration value="1827"/>
+      <enumeration value="1129"/>
+      <enumeration value="2023"/>
+      <enumeration value="1234"/>
+      <enumeration value="1037"/>
+      <enumeration value="0829"/>
+      <enumeration value="0728"/>
+      <enumeration value="1738"/>
+      <enumeration value="0230"/>
+      <enumeration value="0128"/>
+      <enumeration value="1635"/>
+      <enumeration value="1526"/>
+      <enumeration value="1927"/>
+      <enumeration value="0940"/>
+      <enumeration value="0528"/>
+      <enumeration value="0624"/>
+      <enumeration value="0429"/>
+      <enumeration value="2024"/>
+      <enumeration value="0941"/>
+      <enumeration value="1429"/>
+      <enumeration value="1636"/>
+      <enumeration value="0625"/>
+      <enumeration value="1828"/>
+      <enumeration value="0830"/>
+      <enumeration value="1739"/>
+      <enumeration value="0135"/>
+      <enumeration value="1046"/>
+      <enumeration value="0231"/>
+      <enumeration value="0430"/>
+      <enumeration value="1130"/>
+      <enumeration value="1528"/>
+      <enumeration value="1928"/>
+      <enumeration value="0529"/>
+      <enumeration value="1235"/>
+      <enumeration value="1929">
+        <annotation>
+          <documentation>Berg</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2025"/>
+      <enumeration value="0831"/>
+      <enumeration value="1430"/>
+      <enumeration value="1832"/>
+      <enumeration value="1133"/>
+      <enumeration value="0532"/>
+      <enumeration value="1238"/>
+      <enumeration value="0626"/>
+      <enumeration value="1740"/>
+      <enumeration value="0233"/>
+      <enumeration value="1638"/>
+      <enumeration value="0432"/>
+      <enumeration value="0136"/>
+      <enumeration value="1529"/>
+      <enumeration value="0434"/>
+      <enumeration value="1241"/>
+      <enumeration value="0234"/>
+      <enumeration value="1742"/>
+      <enumeration value="1431"/>
+      <enumeration value="1931"/>
+      <enumeration value="0533"/>
+      <enumeration value="1833"/>
+      <enumeration value="1640"/>
+      <enumeration value="0627"/>
+      <enumeration value="1531"/>
+      <enumeration value="1134"/>
+      <enumeration value="0833"/>
+      <enumeration value="2027"/>
+      <enumeration value="0137"/>
+      <enumeration value="1933"/>
+      <enumeration value="2028"/>
+      <enumeration value="1432"/>
+      <enumeration value="1532"/>
+      <enumeration value="0534"/>
+      <enumeration value="0138"/>
+      <enumeration value="1644"/>
+      <enumeration value="0628"/>
+      <enumeration value="1743"/>
+      <enumeration value="1834"/>
+      <enumeration value="1242"/>
+      <enumeration value="1135"/>
+      <enumeration value="0436"/>
+      <enumeration value="0235"/>
+      <enumeration value="0834"/>
+      <enumeration value="1141"/>
+      <enumeration value="0631"/>
+      <enumeration value="1534"/>
+      <enumeration value="1936"/>
+      <enumeration value="1648"/>
+      <enumeration value="1433"/>
+      <enumeration value="0236"/>
+      <enumeration value="1243"/>
+      <enumeration value="1744"/>
+      <enumeration value="0536"/>
+      <enumeration value="2030"/>
+      <enumeration value="1835"/>
+      <enumeration value="0437"/>
+      <enumeration value="0438"/>
+      <enumeration value="1244"/>
+      <enumeration value="1438"/>
+      <enumeration value="0237"/>
+      <enumeration value="1748"/>
+      <enumeration value="1938"/>
+      <enumeration value="1653"/>
+      <enumeration value="0538"/>
+      <enumeration value="1142"/>
+      <enumeration value="0632"/>
+      <enumeration value="1836"/>
+      <enumeration value="1535"/>
+      <enumeration value="1749"/>
+      <enumeration value="0439"/>
+      <enumeration value="1144"/>
+      <enumeration value="1837"/>
+      <enumeration value="0238"/>
+      <enumeration value="0633"/>
+      <enumeration value="1539"/>
+      <enumeration value="1657"/>
+      <enumeration value="1939"/>
+      <enumeration value="1245"/>
+      <enumeration value="0540"/>
+      <enumeration value="1439"/>
+      <enumeration value="1145"/>
+      <enumeration value="0541"/>
+      <enumeration value="1246"/>
+      <enumeration value="1940"/>
+      <enumeration value="1838"/>
+      <enumeration value="0239"/>
+      <enumeration value="1662"/>
+      <enumeration value="1543"/>
+      <enumeration value="0441"/>
+      <enumeration value="1441"/>
+      <enumeration value="1750"/>
+      <enumeration value="1247"/>
+      <enumeration value="1839"/>
+      <enumeration value="1443"/>
+      <enumeration value="1663"/>
+      <enumeration value="1545"/>
+      <enumeration value="0542"/>
+      <enumeration value="1751"/>
+      <enumeration value="1941"/>
+      <enumeration value="1146"/>
+      <enumeration value="1444"/>
+      <enumeration value="1149"/>
+      <enumeration value="1755"/>
+      <enumeration value="1942"/>
+      <enumeration value="1840"/>
+      <enumeration value="1546"/>
+      <enumeration value="1664"/>
+      <enumeration value="1251"/>
+      <enumeration value="0543"/>
+      <enumeration value="1547"/>
+      <enumeration value="1841"/>
+      <enumeration value="1445"/>
+      <enumeration value="1943"/>
+      <enumeration value="1252"/>
+      <enumeration value="1665"/>
+      <enumeration value="1151"/>
+      <enumeration value="0544"/>
+      <enumeration value="1548"/>
+      <enumeration value="1253"/>
+      <enumeration value="1842">
+        <annotation>
+          <documentation>Skjerstad</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1449"/>
+      <enumeration value="0545"/>
+      <enumeration value="1160"/>
+      <enumeration value="1551"/>
+      <enumeration value="1256"/>
+      <enumeration value="1845"/>
+      <enumeration value="1554"/>
+      <enumeration value="1848"/>
+      <enumeration value="1259"/>
+      <enumeration value="1849"/>
+      <enumeration value="1260"/>
+      <enumeration value="1557"/>
+      <enumeration value="1263"/>
+      <enumeration value="1850"/>
+      <enumeration value="1264"/>
+      <enumeration value="1851"/>
+      <enumeration value="1560"/>
+      <enumeration value="1265"/>
+      <enumeration value="1563"/>
+      <enumeration value="1852"/>
+      <enumeration value="1853"/>
+      <enumeration value="1266"/>
+      <enumeration value="1566"/>
+      <enumeration value="1854"/>
+      <enumeration value="1567"/>
+      <enumeration value="1576"/>
+      <enumeration value="1856"/>
+      <enumeration value="1571"/>
+      <enumeration value="1857"/>
+      <enumeration value="1859"/>
+      <enumeration value="1573"/>
+      <enumeration value="1860"/>
+      <enumeration value="1865"/>
+      <enumeration value="1866"/>
+      <enumeration value="1867">
+        <annotation>
+          <documentation>Bø i Nordland</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="1868"/>
+      <enumeration value="1870"/>
+      <enumeration value="1871"/>
+      <enumeration value="1874"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KommunenummerOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KontrastType">
+    <union memberTypes="app:KontrastEnumerationType app:KontrastOtherType"/>
+  </simpleType>
+  <simpleType name="KontrastEnumerationType">
+    <restriction base="string">
+      <enumeration value="Ikke vurdert"/>
+      <enumeration value="God"/>
+      <enumeration value="Mindre god"/>
+      <enumeration value="Dårlig"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="KontrastOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LedelinjeType">
+    <union memberTypes="app:LedelinjeEnumerationType app:LedelinjeOtherType"/>
+  </simpleType>
+  <simpleType name="LedelinjeEnumerationType">
+    <restriction base="string">
+      <enumeration value="Ingen"/>
+      <enumeration value="Taktil"/>
+      <enumeration value="Visuell"/>
+      <enumeration value="Taktil og visuell"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="LedelinjeOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetsvurderingType">
+    <annotation>
+      <documentation>fast skala for vurdering av tilgjengelighet
+
+
+-- Definition - - 
+fixed scale for appraisal of accessibility</documentation>
+    </annotation>
+    <union memberTypes="app:TilgjengelighetsvurderingEnumerationType app:TilgjengelighetsvurderingOtherType"/>
+  </simpleType>
+  <simpleType name="TilgjengelighetsvurderingEnumerationType">
+    <annotation>
+      <documentation>fast skala for vurdering av tilgjengelighet
+
+
+-- Definition - - 
+fixed scale for appraisal of accessibility</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Tilgjengelig">
+        <annotation>
+          <documentation>oppfyller minstekrav til tilgjengelighet for personer med
+funksjonsnedsettelse, der rullestol har vært en dimensjonerende
+faktor
+
+-- Definition -- 
+fulfils minimum requirements to accessibility for persons with</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Vanskelig tilgjengelig">
+        <annotation>
+          <documentation>oppfyller delvis minstekrav
+
+-- Definition -- 
+partially fulfils minimum requirements</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Ikke tilgjengelig">
+        <annotation>
+          <documentation>Vurdert, funnet å ikke oppfylle minstekrav. Denne klassen er lagt til fordi en i visse sammenhenger, bl.a. i virkningsarbeid for bedre tilrettelegging kan ønske å fokusere på ulike typer bygg der forholdene er dårlige.
+
+-- Definition -- 
+Assessed and found not to fulfil minimum requirements. This class has been added because one in certain connections, such as in efforts for</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="Ikke vurdert"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="TilgjengelighetsvurderingOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+  <element abstract="true" name="UUTettstedFellesegenskaper" substitutionGroup="gml:AbstractFeature" type="app:UUTettstedFellesegenskaperType">
+    <annotation>
+      <documentation>abstrakt objekt som bærer en rekke egenskaper som er fagområde-uavhengige og kan benyttes for alle objekttyper
+
+Merknad:
+Spesielt i produktspesifikasjonsarbeid vil en velge egenskaper og av grensningslinjer fra denne klassen.
+
+
+-- Definition -- 
+abstract object which carries a number of attributes which are independent of specific disciplines and may be used for all object types</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="UUTettstedFellesegenskaperType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="ogc_fid" type="integer">
+            <annotation>
+              <documentation>unik identifikator som blir fortløpende generert av databasen og forblir alltid med objekt.</documentation>
+            </annotation>
+          </element>
+          <element name="kommune" type="app:KommunenummerType">
+            <annotation>
+              <documentation>nummerering av kommuner i henhold til SSB sin offisielle liste
+
+Merknad: Det presiseres at kommune alltid skal ha 4 siffer, dvs. eventuelt med ledende null. Kommune benyttes for kopling mot en rekke andre registre som også benytter 4 siffer.
+
+-- Definition -- 
+numbering of municipalities in accordance with Statistics Norway's official list    Note: It must be emphasised that the municipality number always consists of 4 digits, i.e. sometimes with leading zero. Municipality is used for establishing relations to a number of other registers which also use 4 digits.</documentation>
+            </annotation>
+          </element>
+          <element name="opphav" type="string">
+            <annotation>
+              <documentation>referanse til opphavsmaterialet, kildematerialet, organisasjons/publiseringskilde
+
+Merknad: 
+Kan også beskrive navn på person og årsak til oppdatering
+
+-- Definition -- 
+reference to the original material, the source material, organization/publication source    Note: May also describe the name of a person and reason for updating:</documentation>
+            </annotation>
+          </element>
+          <element name="registrert" type="dateTime">
+            <annotation>
+              <documentation>dato når data ble registrert/observert/målt første gang, som utgangspunkt for første digitalisering
+
+Merknad:
+registreringsdato blir generert av APPen når objektet blir digitalisert første gang. Ved overgang i databasen får objektet en unik ID (ogc_fid) som forblir uforanderlig hos objektet.
+
+-- Definition -- 
+date when data were registered/observed/measured for the first time, as a starting point for the first digitisation</documentation>
+            </annotation>
+          </element>
+          <element name="oppdatert" type="dateTime">
+            <annotation>
+              <documentation>Dato for siste endring på objektetdataene fra app
+
+Merknad: Hentes fra "oppdat_app" i basen</documentation>
+            </annotation>
+          </element>
+          <element name="byggingPågår" type="app:JaNeiType">
+            <annotation>
+              <documentation>spørsmål om angående byggingsarbeid som gjør vurderingen umulig. Hvis byggingsarbeid pågår blir nesten alle felter valgfri.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bilde" type="string">
+            <annotation>
+              <documentation>Bilde av kartlagt objekt</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kommentar" type="string">
+            <annotation>
+              <documentation>fritekst</documentation>
+            </annotation>
+          </element>
+          <element name="tilgjengvurderingRullestol" type="app:TilgjengelighetsvurderingType">
+            <annotation>
+              <documentation>Tilgjengelighetsvurdering for manuell rullestol</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UUTettstedFellesegenskaperPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:UUTettstedFellesegenskaper"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="UUTettstedHCparkering" substitutionGroup="app:UUTettstedFellesegenskaper" type="app:UUTettstedHCparkeringType"/>
+  <complexType name="UUTettstedHCparkeringType">
+    <complexContent>
+      <extension base="app:UUTettstedFellesegenskaperType">
+        <sequence>
+          <element name="posisjon" type="gml:PointPropertyType"/>
+          <element minOccurs="0" name="overbygg" type="app:JaNeiType"/>
+          <element minOccurs="0" name="varmekabel" type="app:JaNeiType"/>
+          <element minOccurs="0" name="skiltet" type="app:JaNeiType">
+            <annotation>
+              <documentation>angir om HC-parkeringsplassen er skiltet eller ikke</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="merket" type="app:JaNeiType">
+            <annotation>
+              <documentation>angir om HC-parkeringsplassen er merket</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bredde" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom merket er "ja".</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lengde" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom merket er "ja".</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="avstandServicebygg" type="integer">
+            <annotation>
+              <documentation>avstand til nærmeste servicebygg oppgis i m uten desimaltall</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="avgift" type="app:JaNeiType">
+            <annotation>
+              <documentation>angir om HC-parkering er avgiftspliktig</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="automatHøyde" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom avgift er "ja". Høyden måles til den øverste knappen eller myntinnkastet og oppgis i cm uten desimaltall</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tilgjengeligAutomat" type="app:JaNeiType">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom avgift er "ja".</documentation>
+            </annotation>
+          </element>
+          <element name="tilgjengvuderingElRull" type="app:TilgjengelighetsvurderingType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UUTettstedHCparkeringPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:UUTettstedHCparkering"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="UUTettstedInngangBygg" substitutionGroup="app:UUTettstedFellesegenskaper" type="app:UUTettstedInngangByggType"/>
+  <complexType name="UUTettstedInngangByggType">
+    <complexContent>
+      <extension base="app:UUTettstedFellesegenskaperType">
+        <sequence>
+          <element name="posisjon" type="gml:PointPropertyType"/>
+          <element name="byggFunksjon" type="app:BygningsfunksjonType">
+            <annotation>
+              <documentation>Bygningens hovedfunksjon</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="avstandVanligParkering" type="integer">
+            <annotation>
+              <documentation>Avstand til nærmeste parkeringsplass oppgis i meter uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="avstandHC" type="integer">
+            <annotation>
+              <documentation>Avstand til nærmeste HC-parkeringsplass oppgis i meter uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rampe" type="app:JaNeiType">
+            <annotation>
+              <documentation>Kryss av om det finnes en rampe.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rampeBredde" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja". Minste bredde oppgis i cm uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rampeStigning" type="double">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja". Stigningen oppgis i grader med 1 desimal.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="håndlist" type="app:HåndlistplasseringType">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja".</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="håndlistHøyde1" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja". Høyden på den øverste håndlistens øverste kant oppgis i cm uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="håndlistHøyde2" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja". Høyden på den nederste håndlistens øverste kant oppgis i cm uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rampeTerskel" type="double">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja". Terskelhøyde oppgis i cm med 1 desimal.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="rampeTilgjengelig" type="app:TilgjengelighetsvurderingType">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom rampe er "ja".</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="dørtype" type="app:DørtypeType"/>
+          <element minOccurs="0" name="døråpner" type="app:DøråpnerType"/>
+          <element minOccurs="0" name="manøverknappHøyde" type="integer">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom dørtype er "Halvautomatisk". Høyden oppgis i cm uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="inngangBredde" type="integer">
+            <annotation>
+              <documentation>Minste bredde oppgis i cm uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="terskelHøyde" type="double">
+            <annotation>
+              <documentation>Terskelhøyden oppgis i cm med 1 desimal.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ringeklokke" type="app:JaNeiType">
+            <annotation>
+              <documentation>Kryss av om det finnes en ringeklokke.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ringeklokkeHøyde" type="integer">
+            <annotation>
+              <documentation>Høyden oppgis i cm uten desimaler.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="stigningAdkomstvei" type="double">
+            <annotation>
+              <documentation>Stigning/fall i kursretningen oppgis i grad med en desimal. Her måles den bratteste stigningen på atkomstveien fra parkeringsplass til inngang.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kontrast" type="app:KontrastType"/>
+          <element name="tilgjengvuderingElRull" type="app:TilgjengelighetsvurderingType"/>
+          <element name="tilgjengvuderingtSyn" type="app:TilgjengelighetsvurderingType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UUTettstedInngangByggPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:UUTettstedInngangBygg"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="UUTettstedParkeringsområde" substitutionGroup="app:UUTettstedFellesegenskaper" type="app:UUTettstedParkeringsområdeType"/>
+  <complexType name="UUTettstedParkeringsområdeType">
+    <complexContent>
+      <extension base="app:UUTettstedFellesegenskaperType">
+        <sequence>
+          <element name="posisjon" type="gml:SurfacePropertyType"/>
+          <element minOccurs="0" name="kapasitetPersonbiler" type="integer"/>
+          <element name="kapasitetUU" type="integer"/>
+          <element minOccurs="0" name="eierforhold" type="app:EierforholdType"/>
+          <element minOccurs="0" name="årstidsbruk" type="app:ÅrstidsbrukType"/>
+          <element minOccurs="0" name="overbygg" type="app:JaNeiType"/>
+          <element minOccurs="0" name="varmekabel" type="app:JaNeiType"/>
+          <element minOccurs="0" name="dekke" type="app:DekkeType"/>
+          <element minOccurs="0" name="dekkeTilstand" type="app:DekketilstandType"/>
+          <element name="tilgjengvuderingElRull" type="app:TilgjengelighetsvurderingType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UUTettstedParkeringsområdePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:UUTettstedParkeringsområde"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="UUTettstedVei" substitutionGroup="app:UUTettstedFellesegenskaper" type="app:UUTettstedVeiType"/>
+  <complexType name="UUTettstedVeiType">
+    <complexContent>
+      <extension base="app:UUTettstedFellesegenskaperType">
+        <sequence>
+          <element name="posisjon" type="gml:CurvePropertyType"/>
+          <element name="gatetype" type="app:GatetypeType"/>
+          <element minOccurs="0" name="dekke" type="app:DekkeType"/>
+          <element minOccurs="0" name="dekkeTilstand" type="app:DekketilstandType"/>
+          <element name="bredde" type="integer">
+            <annotation>
+              <documentation>Minste bredde oppgis i cm uten desimaler</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="nedsenk1" type="double">
+            <annotation>
+              <documentation>Avhengig verdi - gjelder bare gangfelt. Terskelhøyden på nedsenkningen oppgis i cm med 1 desimal.</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="nedsenk2" type="double">
+            <annotation>
+              <documentation>Avhengig verdi - gjelder bare gangfelt. Terskelhøyden på nedsenkningen oppgis i cm med 1 desimal.</documentation>
+            </annotation>
+          </element>
+          <element name="stigning" type="double">
+            <annotation>
+              <documentation>Stigning/fall i kursretningen oppgis i grader med en desimal</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tverrfall" type="double">
+            <annotation>
+              <documentation>Stigning/fall på tvers av kursretningen oppgis i  grader med en desimal</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="møteplass" type="app:JaNeiType"/>
+          <element minOccurs="0" name="varmekabel" type="app:JaNeiType">
+            <annotation>
+              <documentation>minste lengde oppgis i cm uten desimaltall</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lyssignal" type="app:JaNeiType">
+            <annotation>
+              <documentation>Gjelder bare gangfelt</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lydsignal" type="app:JaNeiType"/>
+          <element minOccurs="0" name="ledelinje" type="app:LedelinjeType"/>
+          <element minOccurs="0" name="ledelinjeKontrast" type="app:KontrastType">
+            <annotation>
+              <documentation>Avhengig verdi - må kun fylles ut dersom ledelinje_kontrast er "ja".</documentation>
+            </annotation>
+          </element>
+          <element name="tilgjengvuderingElRull" type="app:TilgjengelighetsvurderingType"/>
+          <element name="tilgjengvuderingSyn" type="app:TilgjengelighetsvurderingType"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="UUTettstedVeiPropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:UUTettstedVei"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="ÅrstidsbrukType">
+    <union memberTypes="app:ÅrstidsbrukEnumerationType app:ÅrstidsbrukOtherType"/>
+  </simpleType>
+  <simpleType name="ÅrstidsbrukEnumerationType">
+    <restriction base="string">
+      <enumeration value="Helårsbruk"/>
+      <enumeration value="Sommerbruk"/>
+      <enumeration value="Vinterbruk"/>
+      <enumeration value="Ikke valgt"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="ÅrstidsbrukOtherType">
+    <restriction base="string">
+      <pattern value="other: \w{2,}"/>
+    </restriction>
+  </simpleType>
+</schema>
