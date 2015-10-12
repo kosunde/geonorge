@@ -1,0 +1,25 @@
+! ***************************************************************************!
+! * SOSI-kontroll                                             NRL-UTVALG *!
+! * Utvalgsregler for NRL          				                    *!
+! *                            SOSI versjon  1.0.1                   *!
+! ***************************************************************************!
+! *           Følger databeskrivelsene i Del 1, Praktisk bruk               *!
+! *            og databeskrivelsene i Objektkatalogen,                      *!
+! *                   Generert fra SOSI UML modell                          *!
+! *                                                                         *!
+! *               Statens kartverk, SOSI-sekretariatet           08.10.2015 *!
+! *                          nn                                             *!
+! ***************************************************************************!
+! ------ Antall definerte objekttyper i denne katalogen: 3
+
+.GRUPPE-UTVALG VertikalObjekt
+..VELG  "..OBJTYPE" = VertikalObjekt
+..BRUK-REGEL VertikalObjekt
+
+.GRUPPE-UTVALG VertikalObjektKomponentLinje
+..VELG  "..OBJTYPE" = VertikalObjektKomponentLinje
+..BRUK-REGEL VertikalObjektKomponentLinje
+
+.GRUPPE-UTVALG VertikalObjektKomponentPunkt
+..VELG  "..OBJTYPE" = VertikalObjektKomponentPunkt
+..BRUK-REGEL VertikalObjektKomponentPunkt
