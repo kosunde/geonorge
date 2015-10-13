@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="sikringssoner.kulturminnesikringssone">
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+            <Field InputName="vern_lov" InputType="T80" OutputName="VERN\VERN_LOV" OutputType="T3"/>
+            <Field InputName="vern_para" InputType="T80" OutputName="VERN\VERN_PARA" OutputType="T10"/>
+            <Field InputName="verntype" InputType="T80" OutputName="VERN\VERNTYPE" OutputType="T5"/>
+            <Field InputName="vernedato" InputType="DATO" OutputName="VERN\VERNEDATO" OutputType="DATO"/>
+            <Field InputName="km_kategori" InputType="T80" OutputName="KM_KATEGORI" OutputType="T5"/>
+            <Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="datauttaksdato" InputType="DATOTID" OutputName="DATAUTTAKSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMM" OutputType="T4"/>
+            <Field InputName="link" InputType="T255" OutputName="LINK" OutputType="T255"/>
+        </FeatureClass>
+        <FeatureClass InputName="sikringssoner.kulturminnesikringssonegr">
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>
