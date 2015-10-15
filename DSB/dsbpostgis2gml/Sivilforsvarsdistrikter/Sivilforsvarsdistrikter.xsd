@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:app="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-sivilforsvarsdistrikter/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-sivilforsvarsdistrikter/" elementFormDefault="qualified">
+	<import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<element name="sivilforsvarsdistriktergrense" type="app:sivilforsvarsdistriktergrenseType" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="sivilforsvarsdistriktergrenseType">
+		<complexContent>
+			<extension base="gml:AbstractFeatureType">
+				<sequence>
+					<element name="objtype" minOccurs="0" type="string"/>
+					<element name="kvalitet" minOccurs="0">
+						<complexType>
+							<sequence>
+								<element name="Posisjonskvalitet" minOccurs="0">
+									<complexType>
+										<sequence>
+											<element name="målemetode" minOccurs="0" type="string"/>
+											<element name="nøyaktighet" minOccurs="0" type="long"/>
+										</sequence>
+									</complexType>
+								</element>
+							</sequence>
+						</complexType>
+					</element>
+					<element name="kopidato" minOccurs="0" type="date"/>
+					<element name="avgrenser" minOccurs="0" maxOccurs="unbounded" type="gml:ReferenceType"/>
+					<element ref="gml:curveProperty" minOccurs="0"/>
+					<element ref="gml:multiCurveProperty" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="sivilforsvarsdistrikter" type="app:sivilforsvarsdistrikterType" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="sivilforsvarsdistrikterType">
+		<complexContent>
+			<extension base="gml:AbstractFeatureType">
+				<sequence>
+					<element name="Administrasjonssenter" minOccurs="0">
+						<complexType>
+							<sequence>
+								<element name="Ident" minOccurs="0">
+									<complexType>
+										<sequence>
+											<element name="lokalid" minOccurs="0" type="string"/>
+											<element name="navnerom" minOccurs="0" type="string"/>
+											<element name="versjonid" minOccurs="0">
+												<simpleType>
+													<restriction base="string">
+														<maxLength value="2"/>
+													</restriction>
+												</simpleType>
+											</element>
+										</sequence>
+									</complexType>
+								</element>
+							</sequence>
+						</complexType>
+					</element>
+					<element name="sivdistrik" minOccurs="0" type="string"/>
+					<element name="url" minOccurs="0" type="string"/>
+					<element name="navn" minOccurs="0" type="string"/>
+					<element name="kopidato" minOccurs="0" type="date"/>
+					<element name="originaldatavert" minOccurs="0" type="string"/>
+					<element name="omådeid" minOccurs="0" type="int"/>
+					<element name="objtype" minOccurs="0" type="string"/>
+					<element name="avgrensesAv" minOccurs="0" maxOccurs="unbounded" type="gml:ReferenceType"/>
+					<element ref="gml:surfaceProperty" minOccurs="0"/>
+					<element ref="gml:multiSurfaceProperty" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="kantutsnitt" type="app:kantutsnittType" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="kantutsnittType">
+		<complexContent>
+			<extension base="gml:AbstractFeatureType">
+				<sequence>
+					<element name="objtype" minOccurs="0" type="string"/>
+					<element name="kvalitet" minOccurs="0">
+						<complexType>
+							<sequence>
+								<element name="Posisjonskvalitet" minOccurs="0">
+									<complexType>
+										<sequence>
+											<element name="målemetode" minOccurs="0" type="string"/>
+											<element name="nøyaktighet" minOccurs="0" type="long"/>
+										</sequence>
+									</complexType>
+								</element>
+							</sequence>
+						</complexType>
+					</element>
+					<element name="kopidato" minOccurs="0" type="date"/>
+					<element name="avgrenser" minOccurs="0" maxOccurs="unbounded" type="gml:ReferenceType"/>
+					<element ref="gml:curveProperty" minOccurs="0"/>
+					<element ref="gml:multiCurveProperty" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+</schema>

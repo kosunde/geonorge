@@ -16,49 +16,49 @@
 #          --DestDataset_GML "Z:\Jobs\DSB_postgis2gml\Brannstasjoner\Brannstasjoner.gml"
 #    
 #    
-#! PASSWORD=""
-#! HISTORY=""
-#! CATEGORY=""
-#! DOC_TOP_LEFT="-1759.44 -1910.54"
-#! LOG_MAX_PRECISION="Yes"
-#! REQUIREMENTS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! SOURCE="NONE"
-#! FME_SERVER_SERVICES=""
-#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! DESTINATION="NONE"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! ATTR_TYPE_ENCODING="SDF"
-#! MULTI_WRITER_DATASET_ORDER="BY_ID"
-#! SOURCE_ROUTING_FILE=""
-#! DESCRIPTION="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#! BEGIN_PYTHON=""
-#! FME_BUILD_NUM="15515"
-#! IGNORE_READER_FAILURE="No"
-#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c,b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea,322aba2d-7e13-424f-99bc-4ad788264fb1,c1cba4a8-5482-41b6-a62d-80798824c712,85641e35-55e2-4dad-b738-c9ccf485c58e,f9175740-dbdb-439f-8fdf-a524a2afadcf,9ef0b6d1-77cc-4527-9529-a8d2946acd2c,0461041e-711a-4369-9c34-7c1383a2fc4c,b75678c6-a537-4b25-a449-65f7bc94cab5,0ee22b60-2f53-4268-b044-5ce035b3ab5c,b3ca2cd4-ac96-4a5d-895a-982f32fc8a3d,a5c65272-140d-4b74-8032-6737c2ac9d06,eb73ab0d-1c0e-4204-ac7e-07a3784c7622,2cb55127-a03b-47bf-b580-0f0094730fe8,5e6818ff-24e0-4294-bdce-485f5ecd4758,38262577-88a4-486f-b273-030a4efd24fa,6bf0d545-dd76-47c5-99c1-460c1e4bef4a,5f2e98e8-f8e1-4018-a620-35186ee830cd,d15c33f7-818f-4a68-8143-34fc2890b944,68ee95c4-c2b7-473f-b2e9-77627d60f985,2f1f0371-12cd-485b-b749-5eb1f3168474,8d98c2c7-fa0d-456a-b4f1-ed481af69be3,59ccade7-981a-49fb-b9cf-1864c82681e5,20660ff2-28eb-4d38-8456-542fc045cbd5"
-#! END_PYTHON="#&lt;space&gt;-*-&lt;space&gt;coding:&lt;space&gt;utf-8&lt;space&gt;-*-&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zipfiles.py&lt;lf&gt;#&lt;space&gt;Purpose:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Pakker&lt;space&gt;filer&lt;space&gt;i&lt;space&gt;output&lt;space&gt;folderen&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;18.09.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;sys&lt;comma&gt;&lt;space&gt;os&lt;comma&gt;&lt;space&gt;zipfile&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;zip&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;zfile&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;from&lt;space&gt;os.path&lt;space&gt;import&lt;space&gt;basename&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Lager&lt;space&gt;korresponderende&lt;space&gt;zip-fil&lt;space&gt;av&lt;space&gt;SOSI-fil&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;os.path.isfile&lt;openparen&gt;zfile&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;zfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zf&lt;space&gt;=&lt;space&gt;zipfile.ZipFile&lt;openparen&gt;zfile&lt;comma&gt;&lt;space&gt;&lt;quote&gt;w&lt;quote&gt;&lt;comma&gt;&lt;space&gt;zipfile.ZIP_DEFLATED&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;&lt;u00d8&gt;nsker&lt;space&gt;ikke&lt;space&gt;full&lt;space&gt;sti&lt;space&gt;inn&lt;space&gt;i&lt;space&gt;ZIP-filen&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;basename&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;ZIP-formatet&lt;space&gt;st&lt;u00f8&gt;tter&lt;space&gt;ikke&lt;space&gt;non-ascii&lt;space&gt;tegn&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Erstatter&lt;space&gt;A&lt;u00d8&gt;&lt;u00c5&gt;&lt;u00e6&gt;&lt;u00f8&gt;&lt;u00e5&gt;&lt;space&gt;med&lt;space&gt;ascii-tegn&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xc6&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;E&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xd8&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;O&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xc5&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;A&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xe6&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;e&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xf8&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;o&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xe5&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;a&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zf.write&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;arcname&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zf.close&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Kj&lt;u00f8&gt;res&lt;space&gt;ikke&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;FME&lt;space&gt;Server&lt;comma&gt;&lt;space&gt;da&lt;space&gt;FME&lt;space&gt;Server&lt;space&gt;selv&lt;space&gt;s&lt;u00f8&gt;rger&lt;space&gt;for&lt;space&gt;pakkingen&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;not&lt;space&gt;&lt;apos&gt;FME_SERVER_DEST_DIR&lt;apos&gt;&lt;space&gt;in&lt;space&gt;fme.macroValues:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;apos&gt;FANOUT_FOLDER&lt;apos&gt;&lt;space&gt;in&lt;space&gt;fme.macroValues:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;path&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FANOUT_FOLDER&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;dirpath&lt;comma&gt;&lt;space&gt;dnames&lt;comma&gt;&lt;space&gt;fnames&lt;space&gt;in&lt;space&gt;os.walk&lt;openparen&gt;path&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;f&lt;space&gt;in&lt;space&gt;fnames:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;f.endswith&lt;openparen&gt;&lt;quote&gt;.gml&lt;quote&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Scanner&lt;space&gt;gjennom&lt;space&gt;alle&lt;space&gt;SOSI-filer&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;gmlfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;f&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;.zip&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;os.path.isfile&lt;openparen&gt;zfile&lt;closeparen&gt;:&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Korresponderende&lt;space&gt;ZIP-fil&lt;space&gt;finnes&lt;comma&gt;&lt;space&gt;sjekker&lt;space&gt;timestamps&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;sositstamp&lt;space&gt;=&lt;space&gt;os.stat&lt;openparen&gt;gmlfile&lt;closeparen&gt;.st_mtime&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ziptstamp&lt;space&gt;=&lt;space&gt;os.stat&lt;openparen&gt;zfile&lt;closeparen&gt;.st_mtime&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;sositstamp&lt;space&gt;&lt;gt&gt;&lt;space&gt;ziptstamp:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fil&lt;space&gt;er&lt;space&gt;nyere&lt;space&gt;enn&lt;space&gt;ZIP-fila&lt;comma&gt;&lt;space&gt;ZIP-fila&lt;space&gt;oppdateres&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;slettes&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zip&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;zfile&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;space&gt;&lt;apos&gt;Kunne&lt;space&gt;ikke&lt;space&gt;pakke:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;gmlfile&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;er&lt;space&gt;eldre&lt;space&gt;enn&lt;space&gt;ZIP-fila&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;slettes&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;space&gt;&lt;apos&gt;Kunne&lt;space&gt;ikke&lt;space&gt;slette:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;gmlfile&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;ZIP-fila&lt;space&gt;eksisterer&lt;space&gt;ikke&lt;space&gt;og&lt;space&gt;lages&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;slettes&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zip&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;zfile&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;space&gt;&lt;apos&gt;Kunne&lt;space&gt;ikke&lt;space&gt;pakke:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;gmlfile&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;if&lt;space&gt;__name__&lt;space&gt;==&lt;space&gt;&lt;apos&gt;__main__&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;"
+#! VIEW_POSITION="-1769.14 -61.7653"
 #! SHOW_INFO_NODES="true"
-#! VIEW_POSITION="-167.649 -150.002"
-#! LOG_FILE=""
-#! DESTINATION_ROUTING_FILE=""
 #! ZOOM_SCALE="68"
-#! LAST_SAVE_DATE="2015-09-30T10:47:51"
-#! WORKSPACE_VERSION="1"
-#! FME_DOCUMENT_GUID="1ec8578f-9c1b-40dc-8339-11728856baae"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! LOG_MAX_PRECISION="Yes"
 #! TITLE="DSB data fra PostGIS til SOSI"
-#! DOC_EXTENTS="6628.65 2821.08"
-#! END_TCL=""
-#! REQUIREMENTS_KEYWORD="none"
-#! MAX_LOG_FEATURES="200"
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! BEGIN_TCL=""
-#! FME_REPROJECTION_ENGINE="FME"
-#! REDIRECT_TERMINATORS="NONE"
+#! WORKSPACE_VERSION="1"
+#! DESTINATION_ROUTING_FILE=""
+#! DESTINATION="NONE"
 #! SHOW_ANNOTATIONS="true"
+#! HISTORY=""
+#! LOG_FILE=""
+#! DESCRIPTION="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! FME_SERVER_SERVICES=""
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! IGNORE_READER_FAILURE="No"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! REQUIREMENTS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! END_PYTHON="#&lt;space&gt;-*-&lt;space&gt;coding:&lt;space&gt;utf-8&lt;space&gt;-*-&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;#&lt;space&gt;Name:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zipfiles.py&lt;lf&gt;#&lt;space&gt;Purpose:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Pakker&lt;space&gt;filer&lt;space&gt;i&lt;space&gt;output&lt;space&gt;folderen&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Author:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;xsunknu&lt;lf&gt;#&lt;lf&gt;#&lt;space&gt;Created:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;18.09.2015&lt;lf&gt;#&lt;space&gt;Copyright:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;c&lt;closeparen&gt;&lt;space&gt;xsunknu&lt;space&gt;2015&lt;lf&gt;#&lt;space&gt;Licence:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lt&gt;your&lt;space&gt;licence&lt;gt&gt;&lt;lf&gt;#-------------------------------------------------------------------------------&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;sys&lt;comma&gt;&lt;space&gt;os&lt;comma&gt;&lt;space&gt;zipfile&lt;comma&gt;&lt;space&gt;fme&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;zip&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;zfile&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;from&lt;space&gt;os.path&lt;space&gt;import&lt;space&gt;basename&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Lager&lt;space&gt;korresponderende&lt;space&gt;zip-fil&lt;space&gt;av&lt;space&gt;SOSI-fil&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;os.path.isfile&lt;openparen&gt;zfile&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;zfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zf&lt;space&gt;=&lt;space&gt;zipfile.ZipFile&lt;openparen&gt;zfile&lt;comma&gt;&lt;space&gt;&lt;quote&gt;w&lt;quote&gt;&lt;comma&gt;&lt;space&gt;zipfile.ZIP_DEFLATED&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;&lt;u00d8&gt;nsker&lt;space&gt;ikke&lt;space&gt;full&lt;space&gt;sti&lt;space&gt;inn&lt;space&gt;i&lt;space&gt;ZIP-filen&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;basename&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;ZIP-formatet&lt;space&gt;st&lt;u00f8&gt;tter&lt;space&gt;ikke&lt;space&gt;non-ascii&lt;space&gt;tegn&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Erstatter&lt;space&gt;A&lt;u00d8&gt;&lt;u00c5&gt;&lt;u00e6&gt;&lt;u00f8&gt;&lt;u00e5&gt;&lt;space&gt;med&lt;space&gt;ascii-tegn&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xc6&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;E&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xd8&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;O&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xc5&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;A&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xe6&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;e&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xf8&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;o&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;arcname&lt;space&gt;=&lt;space&gt;arcname.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;xe5&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;a&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zf.write&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;arcname&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zf.close&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Kj&lt;u00f8&gt;res&lt;space&gt;ikke&lt;space&gt;p&lt;u00e5&gt;&lt;space&gt;FME&lt;space&gt;Server&lt;comma&gt;&lt;space&gt;da&lt;space&gt;FME&lt;space&gt;Server&lt;space&gt;selv&lt;space&gt;s&lt;u00f8&gt;rger&lt;space&gt;for&lt;space&gt;pakkingen&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;not&lt;space&gt;&lt;apos&gt;FME_SERVER_DEST_DIR&lt;apos&gt;&lt;space&gt;in&lt;space&gt;fme.macroValues:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;apos&gt;FANOUT_FOLDER&lt;apos&gt;&lt;space&gt;in&lt;space&gt;fme.macroValues:&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;path&lt;space&gt;=&lt;space&gt;fme.macroValues&lt;openbracket&gt;&lt;apos&gt;FANOUT_FOLDER&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;dirpath&lt;comma&gt;&lt;space&gt;dnames&lt;comma&gt;&lt;space&gt;fnames&lt;space&gt;in&lt;space&gt;os.walk&lt;openparen&gt;path&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;f&lt;space&gt;in&lt;space&gt;fnames:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;f.endswith&lt;openparen&gt;&lt;quote&gt;.gml&lt;quote&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Scanner&lt;space&gt;gjennom&lt;space&gt;alle&lt;space&gt;SOSI-filer&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;gmlfile&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;f&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zfile&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;.zip&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;os.path.isfile&lt;openparen&gt;zfile&lt;closeparen&gt;:&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Korresponderende&lt;space&gt;ZIP-fil&lt;space&gt;finnes&lt;comma&gt;&lt;space&gt;sjekker&lt;space&gt;timestamps&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;sositstamp&lt;space&gt;=&lt;space&gt;os.stat&lt;openparen&gt;gmlfile&lt;closeparen&gt;.st_mtime&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ziptstamp&lt;space&gt;=&lt;space&gt;os.stat&lt;openparen&gt;zfile&lt;closeparen&gt;.st_mtime&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;sositstamp&lt;space&gt;&lt;gt&gt;&lt;space&gt;ziptstamp:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fil&lt;space&gt;er&lt;space&gt;nyere&lt;space&gt;enn&lt;space&gt;ZIP-fila&lt;comma&gt;&lt;space&gt;ZIP-fila&lt;space&gt;oppdateres&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;slettes&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zip&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;zfile&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;space&gt;&lt;apos&gt;Kunne&lt;space&gt;ikke&lt;space&gt;pakke:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;gmlfile&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;er&lt;space&gt;eldre&lt;space&gt;enn&lt;space&gt;ZIP-fila&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;slettes&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;gmlfile&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;space&gt;&lt;apos&gt;Kunne&lt;space&gt;ikke&lt;space&gt;slette:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;gmlfile&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;ZIP-fila&lt;space&gt;eksisterer&lt;space&gt;ikke&lt;space&gt;og&lt;space&gt;lages&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;SOSI-fila&lt;space&gt;slettes&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zip&lt;openparen&gt;gmlfile&lt;comma&gt;&lt;space&gt;zfile&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;space&gt;&lt;apos&gt;Kunne&lt;space&gt;ikke&lt;space&gt;pakke:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;gmlfile&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;if&lt;space&gt;__name__&lt;space&gt;==&lt;space&gt;&lt;apos&gt;__main__&lt;apos&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;"
+#! SOURCE_ROUTING_FILE=""
+#! LEGAL_TERMS_CONDITIONS="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! REQUIREMENTS_KEYWORD="none"
+#! END_TCL=""
+#! ATTR_TYPE_ENCODING="SDF"
+#! FME_DOCUMENT_PRIORGUID="f4a5b3e8-3374-4284-aa2b-5c6cb4911039,c0e66f2c-d3b5-4418-b80c-18c2250badcc,965d232b-3ec2-44fc-aa68-341973af475c,b6523b9c-7803-4fd6-a2ab-acc7f7fe6aea,322aba2d-7e13-424f-99bc-4ad788264fb1,c1cba4a8-5482-41b6-a62d-80798824c712,85641e35-55e2-4dad-b738-c9ccf485c58e,f9175740-dbdb-439f-8fdf-a524a2afadcf,9ef0b6d1-77cc-4527-9529-a8d2946acd2c,0461041e-711a-4369-9c34-7c1383a2fc4c,b75678c6-a537-4b25-a449-65f7bc94cab5,0ee22b60-2f53-4268-b044-5ce035b3ab5c,b3ca2cd4-ac96-4a5d-895a-982f32fc8a3d,a5c65272-140d-4b74-8032-6737c2ac9d06,eb73ab0d-1c0e-4204-ac7e-07a3784c7622,2cb55127-a03b-47bf-b580-0f0094730fe8,5e6818ff-24e0-4294-bdce-485f5ecd4758,38262577-88a4-486f-b273-030a4efd24fa,6bf0d545-dd76-47c5-99c1-460c1e4bef4a,5f2e98e8-f8e1-4018-a620-35186ee830cd,d15c33f7-818f-4a68-8143-34fc2890b944,68ee95c4-c2b7-473f-b2e9-77627d60f985,2f1f0371-12cd-485b-b749-5eb1f3168474,8d98c2c7-fa0d-456a-b4f1-ed481af69be3,59ccade7-981a-49fb-b9cf-1864c82681e5,20660ff2-28eb-4d38-8456-542fc045cbd5,1ec8578f-9c1b-40dc-8339-11728856baae"
+#! USAGE="&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
+#! LAST_SAVE_DATE="2015-10-15T14:31:49"
+#! MAX_LOG_FEATURES="200"
+#! FME_DOCUMENT_GUID="eed76f63-0593-4710-b412-3af683d572b8"
+#! REDIRECT_TERMINATORS="NONE"
+#! BEGIN_PYTHON=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! BEGIN_TCL=""
+#! DOC_EXTENTS="8406.61 2070.84"
+#! PASSWORD=""
+#! FME_REPROJECTION_ENGINE="FME"
+#! CATEGORY=""
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! DOC_TOP_LEFT="-1759.44 -1160.31"
+#! FME_BUILD_NUM="15515"
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! SOURCE="NONE"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
+#! WARN_INVALID_XFORM_PARAM="Yes"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -74,7 +74,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_geometry fme_char(50) multi_reader_keyword char(50) postgres_oid int4 fme_text_string char(50) fme_dataset char(50) multi_reader_type char(50) fme_secondary_axis float8 postgis_collection_id int4 postgis_collection_part_id int4 multi_reader_id int4 fme_primary_axis float8 fme_text_size float8 fme_type char(50) multi_reader_full_id int4 fme_rotation float8 postgis_type char(50) fme_start_angle float8 fme_feature_type char(50) fme_fill_color char(50) fme_sweep_angle float8 fme_basename char(50) fme_color char(50)"
+#! EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_fill_color char(50) postgis_collection_part_id int4 fme_feature_type char(50) fme_start_angle float8 fme_text_size float8 fme_rotation float8 postgis_collection_id int4 postgis_type char(50) fme_type char(50) multi_reader_type char(50) multi_reader_full_id int4 fme_sweep_angle float8 postgres_oid int4 fme_secondary_axis float8 fme_primary_axis float8 fme_basename char(50) fme_color char(50) fme_geometry fme_char(50) fme_text_string char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -83,15 +83,15 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
+#! COORDSYS="EPSG:4258"
 #! MIN_FEATURES=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! MAX_FEATURES=""
 #! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! COORDSYS="EPSG:4258"
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
+#! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -99,16 +99,16 @@
 #! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="Table"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -124,7 +124,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_geometry fme_char(50) multi_reader_keyword char(50) postgres_oid int4 fme_text_string char(50) fme_dataset char(50) multi_reader_type char(50) fme_secondary_axis float8 postgis_collection_id int4 postgis_collection_part_id int4 multi_reader_id int4 fme_primary_axis float8 fme_text_size float8 fme_type char(50) multi_reader_full_id int4 fme_rotation float8 postgis_type char(50) fme_start_angle float8 fme_feature_type char(50) fme_fill_color char(50) fme_sweep_angle float8 fme_basename char(50) fme_color char(50)"
+#! EXPOSABLE_ATTRS="fme_dataset char(50) multi_reader_keyword char(50) multi_reader_id int4 fme_fill_color char(50) postgis_collection_part_id int4 fme_feature_type char(50) fme_start_angle float8 fme_text_size float8 fme_rotation float8 postgis_collection_id int4 postgis_type char(50) fme_type char(50) multi_reader_type char(50) multi_reader_full_id int4 fme_sweep_angle float8 postgres_oid int4 fme_secondary_axis float8 fme_primary_axis float8 fme_basename char(50) fme_color char(50) fme_geometry fme_char(50) fme_text_string char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="BTREE RTREE HASH PRIKEY"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -133,15 +133,15 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
+#! COORDSYS=""
 #! MIN_FEATURES=""
-#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! MAX_FEATURES=""
 #! FEATURE_TYPES=""
 #! START_FEATURE=""
-#! COORDSYS=""
+#! MAX_FEATURES_PER_FEATURE_TYPE=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
+#! NAME="NETWORK_AUTHENTICATION"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
@@ -149,16 +149,16 @@
 #! VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="Table"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -174,7 +174,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE=""
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_geometry fme_char(50) gml_id xml_char(254) fme_text_string xml_char(50) fme_dataset xml_char(50) fme_secondary_axis xml_real64 gml_parent_id xml_char(254) fme_primary_axis xml_real64 fme_text_size xml_real64 fme_type xml_char(50) xml_type xml_char(50) gml_parent_property xml_char(254) fme_rotation xml_real64 fme_start_angle xml_real64 fme_feature_type xml_char(50) gml_original_coordinate_system xml_char(64) fme_fill_color xml_char(50) fme_sweep_angle xml_real64 fme_basename xml_char(50) fme_color xml_char(50)"
+#! EXPOSABLE_ATTRS="fme_dataset xml_char(50) fme_fill_color xml_char(50) fme_feature_type xml_char(50) gml_parent_property xml_char(254) fme_start_angle xml_real64 fme_text_size xml_real64 fme_rotation xml_real64 gml_original_coordinate_system xml_char(64) fme_type xml_char(50) xml_type xml_char(50) fme_sweep_angle xml_real64 fme_secondary_axis xml_real64 fme_primary_axis xml_real64 fme_basename xml_char(50) fme_color xml_char(50) fme_geometry fme_char(50) fme_text_string xml_char(50) gml_id xml_char(254) gml_parent_id xml_char(254)"
 #! DEFLINE_PARMS=""
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS="[]= %~!@$&amp;#[()^?*&apos;+\\/&quot;:"
@@ -183,13 +183,25 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILE_OR_URL"
 #! GENERATE_FME_BUILD_NUM="15515"
+#! COORDSYS=""
+#! FANOUT_PREFIX=""
+#! FANOUT_ID_ATTR="sosifile"
+#! FANOUT_DIRECTORY="$(FANOUT_FOLDER)"
 #! FANOUT="Yes"
 #! FANOUT_SUFFIX=".gml"
-#! FANOUT_PREFIX=""
-#! FANOUT_DIRECTORY="$(FANOUT_FOLDER)"
-#! FANOUT_ID_ATTR="sosifile"
-#! COORDSYS=""
 #! >
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_AUTHENTICATION"
+#! VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="WRITER_DATASET_HINT"
+#! VALUE="Specify a name for the GML file"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="gml file"
+#! />
 #! <METAFILE_PARAMETER
 #! NAME="NETWORK_PROXY"
 #! VALUE="NO"
@@ -205,18 +217,6 @@
 #! <METAFILE_PARAMETER
 #! NAME="MIME_TYPE"
 #! VALUE="application/xml"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_AUTHENTICATION"
-#! VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="WRITER_DATASET_HINT"
-#! VALUE="Specify a name for the GML file"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="gml file"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -816,21 +816,21 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="omradeid" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="kopidato" ATTR_TYPE="timestamp" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="originaldatavert" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="false"
-#! NODE_NAME="dsb.brannstasjoner"
+#! NODE_NAME="brannstasjoner"
 #! FEATURE_TYPE_NAME=""
 #! FEATURE_TYPE_NAME_QUALIFIER=""
 #! IS_EDITABLE="true"
 #! IDENTIFIER="6"
 #! FEAT_GEOMTYPE="All"
-#! POSITION="3600.17 -835.687"
-#! BOUNDING_RECT="3600.17 -835.687 1269.04 71"
+#! POSITION="5378.13 -526.86"
+#! BOUNDING_RECT="5378.13 -526.86 1269.04 71"
 #! ORDER="5e+014"
-#! COLLAPSED="false"
+#! COLLAPSED="true"
 #! KEYWORD="GML_1"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -840,14 +840,14 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="Kasernert" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Brannvesen" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="AnleggID" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="Ajouføringsdato" ATTR_TYPE="xml_char(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="Ajouføringsdato" ATTR_TYPE="xml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Informasjon" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Opphav" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Stasjonstype" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Objtype" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="Oppdateringsdato" ATTR_TYPE="xml_char(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="Oppdateringsdato" ATTR_TYPE="xml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Kopidata.omradeid" ATTR_TYPE="xml_int64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <FEAT_ATTRIBUTE ATTR_NAME="Kopidata.kopidato" ATTR_TYPE="xml_char(12)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! <FEAT_ATTRIBUTE ATTR_NAME="Kopidata.kopidato" ATTR_TYPE="xml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Kopidata.originaldatavert" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
@@ -873,8 +873,8 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="kommuneid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -899,8 +899,8 @@
 #! >
 #! <FEAT_ATTRIBUTE ATTR_NAME="fylkeid" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="navn" ATTR_TYPE="varchar(80)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1206,10 +1206,10 @@
 #! <COMMENT
 #! IDENTIFIER="41"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Reprojiserer til destcoordsys&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="1693.57 -221.422"
-#! TOP_LEFT="1693.57 -221.422"
-#! BOTTOM_RIGHT="1692.57 -220.422"
-#! BOUNDING_RECT="1693.57 -221.422 -1 -1"
+#! POSITION="2178.87 -286.86"
+#! TOP_LEFT="2178.87 -286.86"
+#! BOTTOM_RIGHT="2177.87 -285.86"
+#! BOUNDING_RECT="2178.87 -286.86 -1 -1"
 #! ORDER="5e+014"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
@@ -1221,10 +1221,10 @@
 #! <COMMENT
 #! IDENTIFIER="65"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sjekker om det er sendt inn klippere&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="437.496 -724.269"
-#! TOP_LEFT="437.496 -724.269"
-#! BOTTOM_RIGHT="436.496 -723.269"
-#! BOUNDING_RECT="437.496 -724.269 -1 -1"
+#! POSITION="375.731 -752.523"
+#! TOP_LEFT="375.731 -752.523"
+#! BOTTOM_RIGHT="374.731 -751.523"
+#! BOUNDING_RECT="375.731 -752.523 -1 -1"
 #! ORDER="5e+014"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
@@ -1246,7 +1246,7 @@
 #! BOUNDING_RECT="-1759.44 910.535 1776.01 607.926"
 #! STICKY="true"
 #! COLOUR="0.737255,0.0784314,0.364706"
-#! CONTENTS="28 84 18 81 30 83 19 79 21 22 80 82 17 "
+#! CONTENTS="18 30 84 17 19 22 81 21 79 28 83 82 80 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="34"
@@ -1263,9 +1263,9 @@
 #! IDENTIFIER="43"
 #! NAME="PostGIS inn"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="-1759.44 -583.452"
-#! BOTTOM_RIGHT="-363.16 -1910.54"
-#! BOUNDING_RECT="-1759.44 -583.452 1396.28 1327.09"
+#! TOP_LEFT="-1759.44 -869.126"
+#! BOTTOM_RIGHT="-363.16 -1160.31"
+#! BOUNDING_RECT="-1759.44 -869.126 1396.28 291.179"
 #! STICKY="true"
 #! COLOUR="0.564706,0.509804,0.901961"
 #! CONTENTS="5 "
@@ -1291,13 +1291,13 @@
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; IN $(FNR)"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt; IN $(FNR)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="21"
@@ -1318,13 +1318,13 @@
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; IN $(KNR)"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt; IN $(KNR)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="22"
@@ -1339,16 +1339,16 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1383,40 +1383,40 @@
 #! <FEAT_COLLAPSED COLLAPSED="4"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(CLIPPER_FILE)"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="NewFeatureType,"/>
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="NewFeatureType,"/>
+#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#! <XFORM_PARM PARM_NAME="GENERIC_REAL_FORMAT" PARM_VALUE="GUESS_FROM_EXTENSION"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(CLIPPER_FILE)"/>
 #! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="GENERIC_REAL_FORMAT,&quot;OPTIONAL READERPICK&quot;,GENERIC&lt;space&gt;Input&lt;space&gt;Format:"/>
 #! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
+#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceREAL_FORMAT&lt;comma&gt;GUESS_FROM_EXTENSION,METAFILE,GENERIC"/>
 #! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#! <XFORM_PARM PARM_NAME="GENERIC_REAL_FORMAT" PARM_VALUE="GUESS_FROM_EXTENSION"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%NewFeatureType"/>
 #! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="GENERIC"/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="GENERIC_REAL_FORMAT,&quot;OPTIONAL READERPICK&quot;,GENERIC&lt;space&gt;Input&lt;space&gt;Format:"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
 #! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%NewFeatureType"/>
+#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="25"
@@ -1432,16 +1432,16 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="35"
@@ -1457,13 +1457,13 @@
 #! <OUTPUT_FEAT NAME="reprojectBboxESRI_REPROJECTED_2"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="DESTCOORDSYS" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="CreateClipper"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CreateClipper"/>
+#! <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CLIPPERCOORDS" PARM_VALUE="$(FIXEDCLIPPERCOORDS)"/>
+#! <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="CreateClipper"/>
 #! <XFORM_PARM PARM_NAME="CLIPPERCOORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CreateClipper"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="36"
@@ -1479,10 +1479,10 @@
 #! <OUTPUT_FEAT NAME="INSIDE"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="navnerom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="versjonid" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1530,28 +1530,28 @@
 #! <XFORM_ATTR ATTR_NAME="_fme_no_clipper" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #! <FEAT_COLLAPSED COLLAPSED="2"/>
-#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
+#! <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="YES"/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Clippee"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
-#! <XFORM_PARM PARM_NAME="PRESERVE_CLIPPEE_EXTENTS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
 #! <XFORM_PARM PARM_NAME="CREATE_AGGREGATES" PARM_VALUE="Yes"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="Treat as Inside"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
-#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Clipper"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CLIP_TYPE" PARM_VALUE="Multiple Clippers"/>
 #! <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="40"
 #! TYPE="Reprojector"
 #! VERSION="4"
-#! POSITION="1627.52 -461.422"
-#! BOUNDING_RECT="1627.52 -461.422 -1 -1"
+#! POSITION="2112.82 -526.86"
+#! BOUNDING_RECT="2112.82 -526.86 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1580,25 +1580,25 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="48"
 #! TYPE="AttributeCreator"
 #! VERSION="7"
-#! POSITION="1994.76 -805.271"
-#! BOUNDING_RECT="1994.76 -805.271 -1 -1"
+#! POSITION="2696.24 -526.86"
+#! BOUNDING_RECT="2696.24 -526.86 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1627,30 +1627,30 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sosifile,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;$(SOSI_FILE)_$(OUTPUT_EPSG_CODE)_Brannstasjoner_GML&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Kommuner&apos;$(SOSI_FILE)_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;kommunenavn&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)_Brannstasjoner_GML&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Fylker&apos;$(SOSI_FILE)_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;fylkesnavn&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)_Brannstasjoner_GML&apos;FME_NUM_CONDITIONS3___&quot;,dataeier,DSB,fylkesnr,&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;,komm,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST kommuneid ATTRIBUTE_IS_MISSING _FME_BLANK_STRING_&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="sosifile,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;$(SOSI_FILE)_$(OUTPUT_EPSG_CODE)_Brannstasjoner_GML&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Kommuner&apos;$(SOSI_FILE)_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;kommunenavn&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)_Brannstasjoner_GML&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST $(FANOUT) LIKE Fylker&apos;$(SOSI_FILE)_&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;&lt;comma&gt;2&lt;comma&gt;0&lt;closeparen&gt;_&lt;at&gt;Value&lt;openparen&gt;fylkesnavn&lt;closeparen&gt;_$(OUTPUT_EPSG_CODE)_Brannstasjoner_GML&apos;FME_NUM_CONDITIONS3___&quot;,dataeier,DSB,fylkesnr,&lt;at&gt;Value&lt;openparen&gt;fylkeid&lt;closeparen&gt;,komm,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;PadLeft&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;kommuneid&lt;closeparen&gt;&lt;comma&gt;4&lt;comma&gt;0&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST kommuneid ATTRIBUTE_IS_MISSING _FME_BLANK_STRING_&apos;FME_NULL_VALUE&apos;FME_NUM_CONDITIONS2___&quot;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="62"
 #! TYPE="Tester"
 #! VERSION="2"
-#! POSITION="502.075 -915.696"
-#! BOUNDING_RECT="502.075 -915.696 -1 -1"
+#! POSITION="440.31 -943.95"
+#! BOUNDING_RECT="440.31 -943.95 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1700,20 +1700,20 @@
 #! <XFORM_ATTR ATTR_NAME="_FNR" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _KNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _FNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPER_FILE ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPERCOORDS ATTRIBUTE_IS_EMPTY &quot;&quot;"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _KNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _FNR ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPER_FILE ATTRIBUTE_IS_EMPTY &quot;&quot;&#10;TEST _CLIPPERCOORDS ATTRIBUTE_IS_EMPTY &quot;&quot;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="66"
 #! TYPE="AttributeCreator"
 #! VERSION="7"
-#! POSITION="-127.659 -1003.95"
-#! BOUNDING_RECT="-127.659 -1003.95 -1 -1"
+#! POSITION="-198.248 -1003.95"
+#! BOUNDING_RECT="-198.248 -1003.95 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1742,13 +1742,13 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_KNR,$(KNR),_FNR,$(FNR),_CLIPPERCOORDS,$(CLIPPERCOORDS),_CLIPPER_FILE,$(CLIPPER_FILE)"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_KNR,$(KNR),_FNR,$(FNR),_CLIPPERCOORDS,$(CLIPPERCOORDS),_CLIPPER_FILE,$(CLIPPER_FILE)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="79"
@@ -1765,8 +1765,8 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="navn,fylkesnavn,"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="82"
@@ -1783,15 +1783,15 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="navn,kommunenavn,"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="44"
 #! TYPE="AttributeRenamer"
 #! VERSION="3"
-#! POSITION="2657.11 -805.271"
-#! BOUNDING_RECT="2657.11 -805.271 -1 -1"
+#! POSITION="4814.48 -526.86"
+#! BOUNDING_RECT="4814.48 -526.86 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1820,24 +1820,24 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_3"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="lokalid,Administrasjonssenter.Ident.lokalid,,navnerom,Administrasjonssenter.Ident.navnerom,,versjonid,Administrasjonssenter.Ident.versjonid,"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="47"
 #! TYPE="DateFormatter"
 #! VERSION="4"
-#! POSITION="2679.18 -1105.82"
-#! BOUNDING_RECT="2679.18 -1105.82 -1 -1"
+#! POSITION="3790.96 -526.86"
+#! BOUNDING_RECT="3790.96 -526.86 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1866,29 +1866,29 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="ajourdato,dato,kopidato"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO DateTime (%Y-%m-%dT%H:%M:%S)"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="ajourdato,dato,kopidato"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
+#! <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO DateTime (%Y-%m-%dT%H:%M:%S)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="45"
 #! TYPE="NullAttributeMapper"
 #! VERSION="1"
-#! POSITION="2904.18 -1330.82"
-#! BOUNDING_RECT="2904.18 -1330.82 -1 -1"
+#! POSITION="4293.9 -526.86"
+#! BOUNDING_RECT="4293.9 -526.86 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1917,33 +1917,33 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="informasjon"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="All Attributes"/>
 #! <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="Missing"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
-#! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Empty Null"/>
 #! <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
 #! <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="51"
 #! TYPE="StringReplacer"
 #! VERSION="3"
-#! POSITION="2055.9 -1054.42"
-#! BOUNDING_RECT="2055.9 -1054.42 -1 -1"
+#! POSITION="3247.09 -526.86"
+#! BOUNDING_RECT="3247.09 -526.86 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -1972,25 +1972,25 @@
 #! <XFORM_ATTR ATTR_NAME="_CLIPPERCOORDS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_CLIPPER_FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommuneid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="kommunenavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkeid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="fylkesnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="sosifile" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="fylkesnr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="komm" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="sosifile"/>
-#! <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="_"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
-#! <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;space&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="_"/>
+#! <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#! <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#! <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="sosifile"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2073,7 +2073,7 @@
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
-#! EXTRA_POINTS="1536 -1094 1521 -736"
+#! EXTRA_POINTS="1367 -780 1521 -736"
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="64"
@@ -2188,53 +2188,25 @@
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#! IDENTIFIER="196654"
+#! IDENTIFIER="720942"
 #! SOURCE_NODE="44"
 #! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 14"
-#! TARGET_PORT_DESC="11"
+#! SOURCE_PORT_DESC="ao 0 8"
+#! TARGET_PORT_DESC="5"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="393262"
+#! IDENTIFIER="131118"
 #! SOURCE_NODE="44"
 #! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 5"
 #! TARGET_PORT_DESC="2"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="720942"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 3"
-#! TARGET_PORT_DESC="0"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="589870"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 15"
-#! TARGET_PORT_DESC="12"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="852014"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 9"
-#! TARGET_PORT_DESC="6"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="655406"
+#! IDENTIFIER="393262"
 #! SOURCE_NODE="44"
 #! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 12"
 #! TARGET_PORT_DESC="9"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="327726"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 13"
-#! TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
 #! IDENTIFIER="524334"
@@ -2244,27 +2216,6 @@
 #! TARGET_PORT_DESC="1"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="65582"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 7"
-#! TARGET_PORT_DESC="4"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="262190"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 10"
-#! TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#! IDENTIFIER="458798"
-#! SOURCE_NODE="44"
-#! TARGET_NODE="6"
-#! SOURCE_PORT_DESC="ao 0 8"
-#! TARGET_PORT_DESC="5"
-#! />
-#! <ATTR_LINK
 #! IDENTIFIER="786478"
 #! SOURCE_NODE="44"
 #! TARGET_NODE="6"
@@ -2272,7 +2223,56 @@
 #! TARGET_PORT_DESC="3"
 #! />
 #! <ATTR_LINK
-#! IDENTIFIER="131118"
+#! IDENTIFIER="458798"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 13"
+#! TARGET_PORT_DESC="10"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="327726"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 9"
+#! TARGET_PORT_DESC="6"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="589870"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 7"
+#! TARGET_PORT_DESC="4"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="655406"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 10"
+#! TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="262190"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 15"
+#! TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="65582"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 14"
+#! TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="196654"
+#! SOURCE_NODE="44"
+#! TARGET_NODE="6"
+#! SOURCE_PORT_DESC="ao 0 3"
+#! TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#! IDENTIFIER="852014"
 #! SOURCE_NODE="44"
 #! TARGET_NODE="6"
 #! SOURCE_PORT_DESC="ao 0 11"
@@ -2282,27 +2282,27 @@
 #! <SUBDOCUMENTS>
 #! <SUBDOCUMENT
 #! NAME="CreateClipper"
-#! FME_PROCESS_GROUP_BY=""
-#! VIEW_POSITION="435.004 243.002"
-#! FME_PROCESS_GROUPS_ORDERED="No"
+#! DOC_TOP_LEFT="315 -1144"
+#! DOC_EXTENTS="3190 780"
+#! IS_VISIBLE="true"
 #! FME_DOCUMENT_PRIORGUID=""
+#! HISTORY=",,"
+#! USAGE=""
+#! DOC_DYNAMIC_INPUT_ATTRS="1"
+#! TITLE="CreateClipper"
 #! SUPPRESS_UPGRADE="false"
 #! XFORM_DEPRECATED="No"
-#! USAGE=""
-#! TITLE="CreateClipper"
-#! IS_VISIBLE="true"
-#! DOC_EXTENTS="3190 780"
-#! DOC_DYNAMIC_INPUT_ATTRS="1"
-#! DOC_TOP_LEFT="315 -1144"
-#! FME_DOCUMENT_GUID=""
-#! FME_PROCESS_COUNT="NO_PARALLELISM"
-#! LEGAL_TERMS_CONDITIONS=""
 #! ZOOM_SCALE="100"
-#! REQUIREMENTS_KEYWORD="none"
+#! FME_DOCUMENT_GUID=""
 #! DESCRIPTION=""
-#! HISTORY=",,"
-#! CATEGORY="Geometric Operators"
+#! REQUIREMENTS_KEYWORD="none"
+#! LEGAL_TERMS_CONDITIONS=""
+#! VIEW_POSITION="435.004 243.002"
 #! REQUIREMENTS=""
+#! CATEGORY="Geometric Operators"
+#! FME_PROCESS_GROUPS_ORDERED="No"
+#! FME_PROCESS_COUNT="NO_PARALLELISM"
+#! FME_PROCESS_GROUP_BY=""
 #! >
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
@@ -2447,14 +2447,14 @@
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="$(CLIPPERCOORDS)"/>
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Coordinate List"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="$(CLIPPERCOORDSYS)"/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="$(CLIPPERCOORDS)"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="2D Coordinate List"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="2"
@@ -2471,15 +2471,15 @@
 #! <OUTPUT_FEAT NAME="ORIGINAL"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="TOPFER_INDEX" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2499,15 +2499,15 @@
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #! <XFORM_PARM PARM_NAME="TOPFER_INDEX" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SOURCE_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BoundingBoxAccumulator_2"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#! <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="DESTINATION_SCALE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2528,18 +2528,18 @@
 #! <OUTPUT_FEAT NAME="FAILED"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Single Base"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Base"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter"/>
-#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
-#! <XFORM_PARM PARM_NAME="PREDICATES" PARM_VALUE="EQUALS"/>
-#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PASS_CRITERIA" PARM_VALUE="Pass Against One Base"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="BASE_TYPE" PARM_VALUE="Single Base"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MERGE_ATTRS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="PREDATTR" PARM_VALUE="_predicate"/>
+#! <XFORM_PARM PARM_NAME="CURVE_BOUNDARY_RULE_PARAM" PARM_VALUE="Default Rule"/>
+#! <XFORM_PARM PARM_NAME="PREDICATES" PARM_VALUE="EQUALS"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="5"
@@ -2556,13 +2556,13 @@
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="$(DESTCOORDSYS)"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2579,13 +2579,13 @@
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -2601,13 +2601,13 @@
 #! >
 #! <OUTPUT_FEAT NAME="REPROJECTED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="STROKE_ARCS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
 #! <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
-#! <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4258"/>
 #! <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
@@ -3302,7 +3302,7 @@ GUI OPTIONAL CHOICE GML_OUT_SRS_AXIS_ORDER_GML_1 1,2%2,1%1,2,3%2,1,3 GML SRS Axi
 DEFAULT_MACRO GML_OUT_TARGET_NS_PREFIX_GML_1 app
 GML_1_TARGET_NS_PREFIX "$(GML_OUT_TARGET_NS_PREFIX_GML_1)"
 GUI OPTIONAL TEXT GML_OUT_TARGET_NS_PREFIX_GML_1 Target Namespace Prefix:
-DEFAULT_MACRO GML_OUT_TARGET_NS_URI_GML_1 http://skjema.geonorge.no/SOSI/produktspesifikasjon/
+DEFAULT_MACRO GML_OUT_TARGET_NS_URI_GML_1 http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-brannstasjoner/
 GML_1_TARGET_NS_URI "$(GML_OUT_TARGET_NS_URI_GML_1)"
 GUI OPTIONAL TEXT GML_OUT_TARGET_NS_URI_GML_1 Target Namespace URI:
 # ============================================================================
@@ -3430,7 +3430,7 @@ GML_1_OUTPUT_ENCODING $(_OUTPUT_ENCODING_GML_1)
 # is made up of a sequence of namespace uri and xsd document url pairs. This
 # keyword allows the user to specify explicitly the url for the xsd document
 # whose target namespace is settable with the TARGET_NS_URI keyword.
-DEFAULT_MACRO _TARGET_XSI_SCHEMALOCATION_URL_GML_1 
+DEFAULT_MACRO _TARGET_XSI_SCHEMALOCATION_URL_GML_1 http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-brannstasjoner/ http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-brannstasjoner/Brannstasjoner.xsd
 GUI OPTIONAL TEXT _TARGET_XSI_SCHEMALOCATION_URL_GML_1 Target xsi:schemaLocation URL:
 GML_1_TARGET_XSI_SCHEMALOCATION_URL "$(_TARGET_XSI_SCHEMALOCATION_URL_GML_1)"
 # ============================================================================
@@ -3453,6 +3453,7 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID DSB<space>data<space>fra<space>PostGIS<space>til<space>SOSI
+LOG_TIMINGS YES
 LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_2 POSTGIS_2
@@ -3477,10 +3478,10 @@ MACRO WORKSPACE_NAME DSB_Postgis2gmlbrannstasjon
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjoner multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.brannstasjoner ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::admingrense.kommuneflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::admingrense.fylkeflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::dsb.brannstasjoner multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::dsb.brannstasjoner ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::admingrense.fylkeflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::admingrense.fylkeflate ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::admingrense.kommuneflate multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::admingrense.kommuneflate ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::dsb.brannstasjoner EXACT dsb.brannstasjoner DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,lokalid,uuid,navnerom,text,versjonid,varchar<openparen>2<closeparen>,msgeometry,text,brannstasjon,text,kasernert,text,brannvesen,text,anleggid,text,ajourdato,date,informasjon,text,opphav,text,stasjonstype,text,objtype,text,dato,date,brannsta_,text,omradeid,int8,kopidato,timestamp,originaldatavert,text
-POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.kommuneflate EXACT admingrense.kommuneflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4,navn,varchar<openparen>80<closeparen>
 POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.fylkeflate EXACT admingrense.fylkeflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,fylkeid,int4,navn,varchar<openparen>80<closeparen>
+POSTGIS_2_MERGE_DEF POSTGIS_2::admingrense.kommuneflate EXACT admingrense.kommuneflate DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,kommuneid,int4,navn,varchar<openparen>80<closeparen>
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 MACRO CreateClipper_WORKSPACE_NAME CreateClipper
@@ -3546,7 +3547,7 @@ DEFAULT_MACRO $(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE Read from fea
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO $(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(CreateClipper_WORKSPACE_NAME)_Reprojector_3    INPUT  FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_BoundingBoxAccumulator_2_BOUNDING_BOX"    OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"         @Reproject($($(CreateClipper_WORKSPACE_NAME)_Reprojector_3_SOURCE),EPSG:4258,NearestNeighbor,PreserveCells)
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_21443602871 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_2_REPROJECTED"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_2"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_21444912309 Output Collector"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_2_REPROJECTED"   INPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_Reprojector_3_REPROJECTED"   OUTPUT FEATURE_TYPE "$(CreateClipper_WORKSPACE_NAME)_reprojectBboxESRI_REPROJECTED_2"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(CreateClipper_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "CreateClipper reprojectBboxESRI_REPROJECTED_2 Output Renamer/Nuker"   INPUT FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2   OUTPUT FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2
 # -------------------------------------------------------------------------
@@ -3602,7 +3603,7 @@ INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {M
 Tcl2 proc Reprojector_2_warnIfSourceIgnored {chosenSource} {   global FME_CoordSys;   global Reprojector_2_haveWarned;   if { [info exists Reprojector_2_haveWarned] == 0        && $chosenSource != {}        && $FME_CoordSys != {}        && $chosenSource != $FME_CoordSys } {      set Reprojector_2_haveWarned 1;      FME_LogMessage fme_warn \"Reprojector_2: Ignoring source coordinate system '$chosenSource' in favor of feature coordinate system. This warning will not be repeated\";   }; }
 # Passing in source CS to @Tcl rather than referencing it directly to allow
 # attribute evalutation to be performed.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE Tester_PASSED    INPUT  FEATURE_TYPE Tester_2_PASSED    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE Tester_2_PASSED    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Tcl2("Reprojector_2_warnIfSourceIgnored {$(Reprojector_2_SOURCE)}")         @Reproject($(Reprojector_2_SOURCE),"EPSG:4258",NearestNeighbor,PreserveCells)
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_2 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE dsb.brannstasjoner ATTR _KNR $(KNR$encode) ATTR _FNR $(FNR$encode) ATTR _CLIPPERCOORDS $(CLIPPERCOORDS$encode) ATTR _CLIPPER_FILE $(CLIPPER_FILE)    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT 
@@ -3612,7 +3613,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE Attrib
 # -------------------------------------------------------------------------
 
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
+FACTORY_DEF * TeeFactory    FACTORY_NAME Clipper_ClipperCloner    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    INPUT  FEATURE_TYPE CreateClipper_reprojectBboxESRI_REPROJECTED_2    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    INPUT FEATURE_TYPE Clipper_ClipperCloner_DUMMY    OUTPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    OUTPUT FEATURE_TYPE Clipper___ClippersForRaster___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_SolidClipperFilter    INPUT FEATURE_TYPE Clipper___ClippersForSolidOrVector___    TEST &fme_type == "fme_solid"    OUTPUT FAILED FEATURE_TYPE Clipper___ClippersForVector___    OUTPUT PASSED FEATURE_TYPE Clipper___ClippersForSolid___
 FACTORY_DEF * TestFactory    FACTORY_NAME Clipper_ClippeeFilter    INPUT  FEATURE_TYPE Tester_3_FAILED    INPUT FEATURE_TYPE Clipper_ClippeeFilter_DUMMY    TEST &fme_type == "fme_raster"    OUTPUT FAILED FEATURE_TYPE Clipper___VectorOrSolidClippees___    OUTPUT PASSED FEATURE_TYPE Clipper___RasterClippees___
 FACTORY_DEF $(RASTER_CLIPPER_IN) RasterClippingFactory    FACTORY_NAME Clipper_Raster    INPUT CLIPPER FEATURE_TYPE Clipper___ClippersForRaster___    INPUT CLIPPEE FEATURE_TYPE Clipper___RasterClippees___    MULTICLIP YES    MERGE_CLIPPER_ATTRIBUTES YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CLIPPEE_IF_CONFLICT"    CLIPPER_PREFIX "<Unused>"    PRESERVE_CLIPPEE_EXTENTS NO    OUTPUT_NO_CLIPPERS_AS_OUTSIDE    OUTSIDE_NO_CLIPPERS_ATTR _fme_no_clipper    OUTPUT INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" no    OUTPUT CLIPPED_INSIDE FEATURE_TYPE Clipper_INSIDE        "_clipped" yes    OUTPUT EXTRA_CLIPPER FEATURE_TYPE Clipper__delete__ @Tcl2("FME_LogMessage fme_warn 917351 Clipper")
@@ -3638,8 +3639,8 @@ FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECT
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_ced7d5ba_2466_4ac9_a9f6_d6a9435a766d0_replacer { findText replaceText invalidValue} {     set attrs [split \"sosifile\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_ced7d5ba_2466_4ac9_a9f6_d6a9435a766d0_replacer {<space>} {_} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_74478436_eddc_4796_9678_bdd1e4dd8d1a9_replacer { findText replaceText invalidValue} {     set attrs [split \"sosifile\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_74478436_eddc_4796_9678_bdd1e4dd8d1a9_replacer {<space>} {_} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -3648,8 +3649,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE St
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_7b692d98_1d79_4f79_a20d_22965d6025fd0_null_replacer { otherValue newValue regExp } {    set attrs [split {informasjon} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {DELETEATTR};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_7b692d98_1d79_4f79_a20d_22965d6025fd0_null_replacer {} {<Unused>} {}")
+Tcl2 proc NullAttributeMapper_36a32dc1_8c4d_44b4_90d4_c53a23800e679_null_replacer { otherValue newValue regExp } {    set attrs [split {<Unused>} { }];    set decode true;    if { {ALL} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {EMPTY SETNULL}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {EMPTY SETNULL}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {DELETEATTR};          };      }      elseif {[string first {MISSINGATTR} {EMPTY SETNULL}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_36a32dc1_8c4d_44b4_90d4_c53a23800e679_null_replacer {} {<Unused>} {}")
 
 # -------------------------------------------------------------------------
 
@@ -3658,10 +3659,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_3    INPUT  FEATURE_TY
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeRenamer_3_OUTPUT TO GML __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>Brannstasjon<comma>brannstasjon<comma>Kasernert<comma>kasernert<comma>Brannvesen<comma>brannvesen<comma>AnleggID<comma>anleggid<comma>Ajouf<lt>u00f8<gt>ringsdato<comma>ajourdato<comma>Informasjon<comma>informasjon<comma>Opphav<comma>opphav<comma>Stasjonstype<comma>stasjonstype<comma>Objtype<comma>objtype<comma>Oppdateringsdato<comma>dato<comma>Kopidata.omradeid<comma>omradeid<comma>Kopidata.kopidato<comma>kopidato<comma>Kopidata.originaldatavert<comma>originaldatavert<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>dsb.brannstasjoner<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeRenamer_3_OUTPUT TO GML __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>Brannstasjon<comma>brannstasjon<comma>Kasernert<comma>kasernert<comma>Brannvesen<comma>brannvesen<comma>AnleggID<comma>anleggid<comma>Ajouf<lt>u00f8<gt>ringsdato<comma>ajourdato<comma>Informasjon<comma>informasjon<comma>Opphav<comma>opphav<comma>Stasjonstype<comma>stasjonstype<comma>Objtype<comma>objtype<comma>Oppdateringsdato<comma>dato<comma>Kopidata.omradeid<comma>omradeid<comma>Kopidata.kopidato<comma>kopidato<comma>Kopidata.originaldatavert<comma>originaldatavert<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>brannstasjoner<closeparen> GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-GML_1_DEF dsb.brannstasjoner   Brannstasjon                 xml_buffer   Kasernert                    xml_buffer   Brannvesen                   xml_buffer   AnleggID                     xml_buffer   Ajouføringsdato              xml_char(8)   Informasjon                  xml_buffer   Opphav                       xml_buffer   Stasjonstype                 xml_buffer   Objtype                      xml_buffer   Oppdateringsdato             xml_char(8)   Kopidata.omradeid            xml_int64   Kopidata.kopidato            xml_char(12)   Kopidata.originaldatavert    xml_buffer
+GML_1_DEF brannstasjoner   Brannstasjon                 xml_buffer   Kasernert                    xml_buffer   Brannvesen                   xml_buffer   AnleggID                     xml_buffer   Ajouføringsdato              xml_char(20)   Informasjon                  xml_buffer   Opphav                       xml_buffer   Stasjonstype                 xml_buffer   Objtype                      xml_buffer   Oppdateringsdato             xml_char(20)   Kopidata.omradeid            xml_int64   Kopidata.kopidato            xml_char(20)   Kopidata.originaldatavert    xml_buffer
