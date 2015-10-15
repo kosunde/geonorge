@@ -1,0 +1,21 @@
+! ***************************************************************************!
+! * SOSI-kontroll                                             SIKRINGSSONER-UTVALG *!
+! * Utvalgsregler for SIKRINGSSONER          				                    *!
+! *                            SOSI versjon  20150421                   *!
+! ***************************************************************************!
+! *           Følger databeskrivelsene i Del 1, Praktisk bruk               *!
+! *            og databeskrivelsene i Objektkatalogen,                      *!
+! *                   Generert fra SOSI UML modell                          *!
+! *                                                                         *!
+! *               Statens kartverk, SOSI-sekretariatet           14.10.2015 *!
+! *                          nn                                             *!
+! ***************************************************************************!
+! ------ Antall definerte objekttyper i denne katalogen: 2
+
+.GRUPPE-UTVALG KulturminneSikringssone
+..VELG  "..OBJTYPE" = KulturminneSikringssone
+..BRUK-REGEL KulturminneSikringssone
+
+.GRUPPE-UTVALG KulturminneSikringssoneGr
+..VELG  "..OBJTYPE" = KulturminneSikringssoneGr
+..BRUK-REGEL KulturminneSikringssoneGr
