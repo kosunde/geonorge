@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="brannsmitteomrader.brannfareomrade">
+            <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>
+			<Field InputName="datauttaksdato" InputType="DATOTID" OutputName="DATAUTTAKSDATO" OutputType="DATOTID"/>
+            <Field InputName="forstedigitaliseringsdato" InputType="DATOTID" OutputName="FØRSTEDIGITALISERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="lokalid" InputType="T80" OutputName="IDENT\LOKALID" OutputType="T100"/>
+            <Field InputName="navnerom" InputType="T80" OutputName="IDENT\NAVNEROM" OutputType="T100"/>
+            <Field InputName="versjonid" InputType="T80" OutputName="IDENT\VERSJONID" OutputType="T100"/>
+            <Field InputName="informasjon" InputType="T255" OutputName="INFORMASJON" OutputType="T255"/>
+            <Field InputName="komm" InputType="T80" OutputName="KOMM" OutputType="T4"/>					
+            <Field InputName="malemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="noyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>	
+            <Field InputName="link" InputType="T255" OutputName="LINK" OutputType="T255"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>		          		
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>			
+        </FeatureClass>
+        <FeatureClass InputName="brannsmitteomrader.brannfareomradegrense"/>
+    </Mapping>
+</GeoSOSI>
