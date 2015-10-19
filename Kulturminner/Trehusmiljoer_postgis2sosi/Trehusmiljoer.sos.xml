@@ -3,7 +3,7 @@
     <Mapping>
         <FeatureClass InputName="trehusmiljo.trehusmiljo">
             <Field InputName="navn" InputType="T80" OutputName="NAVN" OutputType="T60"/>		
-            <Field InputName="vern_lov" InputType="T80" OutputName="VERN_LOV" OutputType="T3"/>
+            <Field InputName="vern_lov" InputType="T80" OutputName="VERN\VERN_LOV" OutputType="T3"/>
             <Field InputName="lokalid" InputType="T80" OutputName="IDENT\LOKALID" OutputType="T100"/>
             <Field InputName="navnerom" InputType="T80" OutputName="IDENT\NAVNEROM" OutputType="T100"/>
             <Field InputName="versjonid" InputType="T80" OutputName="IDENT\VERSJONID" OutputType="T100"/>
