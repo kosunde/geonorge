@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/NVDB-Trafikkulykker" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" elementFormDefault="qualified" targetNamespace="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/NVDB-Trafikkulykker" version="1.0">
+  <annotation>
+    <documentation>Trafikkulykker de siste 5 år</documentation>
+  </annotation>
+  <import namespace="http://www.interactive-instruments.de/ShapeChange/AppInfo" schemaLocation="http://shapechange.net/resources/schema/ShapeChangeAppinfo.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="Trafikkulykke" substitutionGroup="app:TrafikkulykkerSupertype" type="app:TrafikkulykkeType">
+    <annotation>
+      <documentation>Informasjon om ulykkessted, værforhold, skadeomfang mm. Gjelder primært ulykker med personskader</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_TRAFIKKULYKKE</taggedValue>
+      </appinfo>
+    </annotation>
+  </element>
+  <complexType name="TrafikkulykkeType">
+    <complexContent>
+      <extension base="app:TrafikkulykkerSupertypeType">
+        <sequence>
+          <element name="alvorligsteSkadegrad" type="gml:CodeType">
+            <annotation>
+              <documentation>Alvorligste skadegrad i ulykken</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ALVORLIGSTESKADEGRAD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="ulykkesdato" type="date">
+            <annotation>
+              <documentation>Dato når ulykken skjedde</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ULYKKESDATO</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ulykkestidspunkt" type="string">
+            <annotation>
+              <documentation>Hvilket klokkeslett ulykken skjedde</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ULYKKESTIDSPUNKT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="ukedag" type="gml:CodeType">
+            <annotation>
+              <documentation>Ukedag fra 1 TIL 7 som angir dagen ulykken inntreffer på.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_UKEDAG</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="registreringsdatoFagdata" type="date">
+            <annotation>
+              <documentation>Dato for når data ble lagt inn i databasen</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_REGISTRERINGSDATOFAGDATA</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="uhellKategori" type="gml:CodeType">
+            <annotation>
+              <documentation>Beskriver ulykken med hensyn på innblanda trafikkanter</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_UHELLKATEGORI</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="uhellskode" type="gml:CodeType">
+            <annotation>
+              <documentation>Angir hvilken type uhell trafikkulykken er karakterisert som. Uhellskoden bestemmes ut fra hva som er den utløsende trafikksituasjonen. Hvis den enheten/trafikanten som antas å ha vært uhellsutløsende ikke har blitt skadet, og det ikke kan verifiseres at vedkommende har vært part i saken, må den endelige uhellssituasjonen gis som uhellskode, og antatt utløsende situasjon angis ved alternativ uhellskode</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_UHELLSKODE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="antallEnheter" type="integer">
+            <annotation>
+              <documentation>Antall enheter involvert i ulykken. En fotgjenger regnes også som en enhet. Se Kjøretøytype under Ulykkesinvolvert person</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANTALLENHETER</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="antallDrepteIUlykken" type="integer">
+            <annotation>
+              <documentation>Antall drepte personer i ulykken for alle involverte enheter.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANTALLDREPTEIULYKKEN</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="antallMegetAlvorligSkadet" type="integer">
+            <annotation>
+              <documentation>Antall personer involvert i ulykken med skadegrad 2.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANTALLMEGETALVORLIGSKADET</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="antallAlvorligSkadet" type="integer">
+            <annotation>
+              <documentation>Antall personer involvert i ulykken med skadegrad 3.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANTALLALVORLIGSKADET</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="antallLettereSkadet" type="integer">
+            <annotation>
+              <documentation>Antall personer involvert i ulykken med skadegrad 4.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANTALLLETTERESKADET</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="vegtype" type="gml:CodeType">
+            <annotation>
+              <documentation>Vegtype.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_VEGTYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="stedsforhold" type="gml:CodeType">
+            <annotation>
+              <documentation>Stedsforhold på ulykkessted</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_STEDSFORHOLD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="midtdeler" type="gml:CodeType">
+            <annotation>
+              <documentation>Angir om det var midtdeler på vegen hvor ulykka skjedde</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_MIDTDELER</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="dekketype" type="gml:CodeType">
+            <annotation>
+              <documentation>Dekketype.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_DEKKETYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="føreforhold" type="gml:CodeType">
+            <annotation>
+              <documentation>FØREFORHOLD PÅ ULYKKESSTED</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_FØREFORHOLD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="værforhold" type="gml:CodeType">
+            <annotation>
+              <documentation>Værforhold på ulykkessted/tidspunkt.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_VÆRFORHOLD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="lysforhold" type="gml:CodeType">
+            <annotation>
+              <documentation>Lysforhold på ulykkessted/tidspunkt.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_LYSFORHOLD</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="felttype" type="gml:CodeType">
+            <annotation>
+              <documentation>Felttype.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_FELTTYPE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="antallKjørefelt" type="integer">
+            <annotation>
+              <documentation>Antall kjørefelt.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANTALLKJØREFELT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="bebyggelse" type="gml:CodeType">
+            <annotation>
+              <documentation>Bebyggelse på ulykkesstedet.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_BEBYGGELSE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="vegbredde" type="double">
+            <annotation>
+              <documentation>Angir vegbredde på ulykkesstedet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_VEGBREDDE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="fartsgrense" type="gml:CodeType">
+            <annotation>
+              <documentation>Angir fartsgrense på ulykkesstedet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_FARTSGRENSE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="temperatur" type="integer">
+            <annotation>
+              <documentation>Temperatur i grader Celsius.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_TEMPERATUR</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="kommunenr" type="integer">
+            <annotation>
+              <documentation>Kommunenummer.  Kan normalt utledes fra ulykkas stedfesting, men nødvendig pga. mangelfull stedfesting og i kommunikasjon med SSB</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_KOMMUNENR</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="historiskVegstatus" type="gml:CodeType">
+            <annotation>
+              <documentation>Vegstatus på ulykkestidspunkt</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_HISTORISKVEGSTATUS</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="historiskVegkategori" type="gml:CodeType">
+            <annotation>
+              <documentation>Vegkategori på ulykkestidspunktet.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_HISTORISKVEGKATEGORI</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="historiskVegnummer" type="integer">
+            <annotation>
+              <documentation>Vegnummer på uhellstidspunktet.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_HISTORISKVEGNUMMER</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="historiskHp" type="integer">
+            <annotation>
+              <documentation>Hovedparsell på uhellstidspunktet.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_HISTORISKHP</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="historiskKilometerverdi" type="integer">
+            <annotation>
+              <documentation>Kilometerverdi på uhellstidspunkt.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_HISTORISKKILOMETERVERDI</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="vegnavn" type="string">
+            <annotation>
+              <documentation>Beskrivelse (navn) på vegen. Benyttes i STRAKS 2.0.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_VEGNAVN</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="stedfestingensNøyaktighet" type="gml:CodeType">
+            <annotation>
+              <documentation>Nøyaktigheten for stedfesting av en ulykke</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_STEDFESTINGENSNØYAKTIGHET</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="posisjon" type="gml:PointPropertyType">
+            <annotation>
+              <documentation>Angir koordinater for å stedfeste ulykke</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_GEOMETRIPUNKT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TrafikkulykkePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Trafikkulykke"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element abstract="true" name="TrafikkulykkerSupertype" substitutionGroup="gml:AbstractFeature" type="app:TrafikkulykkerSupertypeType">
+    <annotation>
+      <documentation>abstrakt objekt som bærer en rekke egenskaper som er fagområde-uavhengige og kan benyttes for alle objekttyper
+
+Merknad:
+Spesielt i produktspesifikasjonsarbeid vil en velge egenskaper og av grensningslinjer fra denne klassen.</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="TrafikkulykkerSupertypeType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element minOccurs="0" name="datauttaksdato" type="dateTime">
+            <annotation>
+              <documentation>dato for uttak fra en database
+
+Merknad:
+Skiller seg fra Kopidato ved at en ikke skiller på om det er uttak fra en originaldatabase eller en kopidatabase.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">DATAUTTAKSDATO</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TrafikkulykkerSupertypePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:TrafikkulykkerSupertype"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
