@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="nvdb_trafikkmengde.trafikkmengde">
+            <Field InputName="DATAUTTAKSDATO" InputType="DATOTID" OutputName="DATAUTTAKSDATO" OutputType="DATOTID"/>
+            <Field InputName="NVDB_ÅDTANDELLANGEKJØRETØY" InputType="H11" OutputName="NVDB_ÅDTANDELLANGEKJØRETØY" OutputType="H11"/>
+            <Field InputName="NVDB_ÅDTSLUTT" InputType="H11" OutputName="NVDB_ÅDTSLUTT" OutputType="H11"/>
+            <Field InputName="NVDB_ÅDTSTART" InputType="H11" OutputName="NVDB_ÅDTSTART" OutputType="H11"/>
+            <Field InputName="NVDB_ÅDTTOTAL" InputType="H11" OutputName="NVDB_ÅDTTOTAL" OutputType="H11"/>
+            <Field InputName="NVDB_ÅRGJELDERFOR" InputType="H11" OutputName="NVDB_ÅRGJELDERFOR" OutputType="H4"/>
+            <Field InputName="NVDB_ANSVARLIGID" InputType="T80" OutputName="NVDB_ANSVARLIGID" OutputType="T25"/>
+            <Field InputName="NVDB_FORHOLDÅDT" InputType="D20.2" OutputName="NVDB_FORHOLDÅDT" OutputType="D6.2"/>
+            <Field InputName="NVDB_FORHOLDLANGE" InputType="D20.2" OutputName="NVDB_FORHOLDLANGE" OutputType="D6.2"/>
+            <Field InputName="NVDB_GRUNNLAGFORÅDT" InputType="T80" OutputName="NVDB_GRUNNLAGFORÅDT" OutputType="T25"/>
+            <Field InputName="NVDB_KOPLINGSÅR" InputType="H11" OutputName="NVDB_KOPLINGSÅR" OutputType="H4"/>
+            <Field InputName="NVDB_MFAKTOR" InputType="D20.2" OutputName="NVDB_MFAKTOR" OutputType="D6.2"/>
+            <Field InputName="NVDB_OPPDATERTFRA" InputType="T80" OutputName="NVDB_OPPDATERTFRA" OutputType="T50"/>
+            <Field InputName="NVDB_TELLEPUNKTPRIMÆRT" InputType="H11" OutputName="NVDB_TELLEPUNKTPRIMÆRT" OutputType="H11"/>
+            <Field InputName="NVDB_TELLEPUNKTSEKUNDÆRT" InputType="H11" OutputName="NVDB_TELLEPUNKTSEKUNDÆRT" OutputType="H11"/>
+            <Field InputName="NVDB_TRAFIKKARBEIDSTALL" InputType="H11" OutputName="NVDB_TRAFIKKARBEIDSTALL" OutputType="H11"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>

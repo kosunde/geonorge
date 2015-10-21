@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:app="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/NVDB-Trafikkmengde" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" elementFormDefault="qualified" targetNamespace="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/NVDB-Trafikkmengde" version="20150101">
+  <annotation>
+    <documentation>Beskrivelse av trafikkmengde for ERF- veger (Europa-,Riks- og Fylkesveger)</documentation>
+  </annotation>
+  <import namespace="http://www.interactive-instruments.de/ShapeChange/AppInfo" schemaLocation="http://shapechange.net/resources/schema/ShapeChangeAppinfo.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element abstract="true" name="Fellesegenskaper1" substitutionGroup="gml:AbstractFeature" type="app:Fellesegenskaper1Type">
+    <annotation>
+      <documentation>abstrakt objekt som bærer en rekke egenskaper som er fagområde-uavhengige og kan benyttes for alle objekttyper
+
+Merknad:
+Spesielt i produktspesifikasjonsarbeid vil en velge egenskaper og av grensningslinjer fra denne klassen.</documentation>
+    </annotation>
+  </element>
+  <complexType abstract="true" name="Fellesegenskaper1Type">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="datauttaksdato" type="dateTime">
+            <annotation>
+              <documentation>dato for uttak fra en database
+
+Merknad:
+Skiller seg fra Kopidato ved at en ikke skiller på om det er uttak fra en originaldatabase eller en kopidatabase.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">DATAUTTAKSDATO</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="Fellesegenskaper1PropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Fellesegenskaper1"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <element name="Trafikkmengde" substitutionGroup="app:Fellesegenskaper1" type="app:TrafikkmengdeType">
+    <annotation>
+      <documentation>Gir informasjon om representativ trafikkmengde for en strekning</documentation>
+      <appinfo>
+        <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_TRAFIKKMENGDE</taggedValue>
+      </appinfo>
+    </annotation>
+  </element>
+  <complexType name="TrafikkmengdeType">
+    <complexContent>
+      <extension base="app:Fellesegenskaper1Type">
+        <sequence>
+          <element name="senterlinje" type="gml:CurvePropertyType">
+            <annotation>
+              <documentation>Gir linje/kurve som geometrisk representerer objektet.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_POSISJON</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="ådtTotal" type="integer">
+            <annotation>
+              <documentation>Angir total årsdøgntrafikk.  Representativt for gitt strekning.  Gjennomsnittsverdi.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ÅDTTOTAL</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="ådtAndelLangeKjøretøy" type="integer">
+            <annotation>
+              <documentation>Angir hvor stor andel (i prosent) av kjøretøyene som er definert som lange.  Kjøretøy med lengde større eller lik 5,6 meter defineres som lange kjøretøy.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ÅDTANDELLANGEKJØRETØY</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="årGjelderFor" type="integer">
+            <annotation>
+              <documentation>Angir hvilket år trafikkdataene gjelder for</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ÅRGJELDERFOR</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="grunnlagForÅDT" type="gml:CodeType">
+            <annotation>
+              <documentation>Angir hva som er grunnlag for ÅDT-verdien</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_GRUNNLAGFORÅDT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element name="ansvarligId" type="string">
+            <annotation>
+              <documentation>Angir brukeridentifikasjon til ansvarlig for datainnlegging</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ANSVARLIGID</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ådtStart" type="integer">
+            <annotation>
+              <documentation>Angir årsdøgntrafikk i start av gitt strekning.  Inkl tunge kjøretøy</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ÅDTSTART</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="ådtSlutt" type="integer">
+            <annotation>
+              <documentation>Angir årsdøgntrafikk i slutt av gitt strekning.  Inkl tunge kjøretøy</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_ÅDTSLUTT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="oppdatertFra" type="gml:CodeType">
+            <annotation>
+              <documentation>Angir hvorfra ÅDT-verdien er kommet</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_OPPDATERTFRA</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="trafikkarbeidstall" type="integer">
+            <annotation>
+              <documentation>Antall vognkilometer pr år.  Veglengde x ÅDT x 365.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_TRAFIKKARBEIDSTALL</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tellepunktPrimært" type="integer">
+            <annotation>
+              <documentation>Angir hvilket tellepunkt som representerer strekningen primært</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_TELLEPUNKTPRIMÆRT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="tellepunktSekundært" type="integer">
+            <annotation>
+              <documentation>Sekundært tellepunkt for kobling av ÅDT-strekninger.(Nivå-1 pkt.)</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_TELLEPUNKTSEKUNDÆRT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="forholdÅDT" type="double">
+            <annotation>
+              <documentation>Prosent ÅDT på parsellen.  PRSTARTR = 100.0 *VDB-VERDI / TDB-VERDI</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_FORHOLDÅDT</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="forholdLange" type="double">
+            <annotation>
+              <documentation>Prosent Lange på strekningen ift. prosenttallet i tellepunktet.  PRLANGE = 100.0 *VDB-VERDI / TDB-VERDI</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_FORHOLDLANGE</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="koplingsår" type="integer">
+            <annotation>
+              <documentation>Årstall koblingen ble utført</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_KOPLINGSÅR</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="mfaktor" type="double">
+            <annotation>
+              <documentation>Multiplikasjonsfaktor.  Faktor for å kalkulere ÅDT verdi inne på en strekning.</documentation>
+              <appinfo>
+                <taggedValue xmlns="http://www.interactive-instruments.de/ShapeChange/AppInfo" tag="SOSI_navn">NVDB_MFAKTOR</taggedValue>
+              </appinfo>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="TrafikkmengdePropertyType">
+    <sequence minOccurs="0">
+      <element ref="app:Trafikkmengde"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
