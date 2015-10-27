@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="nvdb_trafikkulykker.trafikkulykke">
+            <Field InputName="DATAUTTAKSDATO" InputType="DATOTID" OutputName="DATAUTTAKSDATO" OutputType="DATOTID"/>
+            <Field InputName="NVDB_ALVORLIGSTESKADEGRAD" InputType="T80" OutputName="NVDB_ALVORLIGSTESKADEGRAD" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_ANTALLALVORLIGSKADET" InputType="H11" OutputName="NVDB_ANTALLALVORLIGSKADET" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_ANTALLDREPTEIULYKKEN" InputType="H11" OutputName="NVDB_ANTALLDREPTEIULYKKEN" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_ANTALLENHETER" InputType="H11" OutputName="NVDB_ANTALLENHETER" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_ANTALLKJØREFELT" InputType="H11" OutputName="NVDB_ANTALLKJØREFELT" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_ANTALLLETTERESKADET" InputType="H11" OutputName="NVDB_ANTALLLETTERESKADET" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_ANTALLMEGETALVORLIGSKADET" InputType="H11" OutputName="NVDB_ANTALLMEGETALVORLIGSKADET" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_BEBYGGELSE" InputType="T80" OutputName="NVDB_BEBYGGELSE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_DEKKETYPE" InputType="T80" OutputName="NVDB_DEKKETYPE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_FØREFORHOLD" InputType="T80" OutputName="NVDB_FØREFORHOLD" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_FARTSGRENSE" InputType="T80" OutputName="NVDB_FARTSGRENSE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_FELTTYPE" InputType="T80" OutputName="NVDB_FELTTYPE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_HISTORISKHP" InputType="H11" OutputName="NVDB_HISTORISKHP" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_HISTORISKKILOMETERVERDI" InputType="H11" OutputName="NVDB_HISTORISKKILOMETERVERDI" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_HISTORISKVEGKATEGORI" InputType="T80" OutputName="NVDB_HISTORISKVEGKATEGORI" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_HISTORISKVEGNUMMER" InputType="H11" OutputName="NVDB_HISTORISKVEGNUMMER" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_HISTORISKVEGSTATUS" InputType="T80" OutputName="NVDB_HISTORISKVEGSTATUS" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_KOMMUNENR" InputType="H11" OutputName="NVDB_KOMMUNENR" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_LYSFORHOLD" InputType="T80" OutputName="NVDB_LYSFORHOLD" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_MIDTDELER" InputType="T80" OutputName="NVDB_MIDTDELER" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_REGISTRERINGSDATOFAGDATA" InputType="DATO" OutputName="NVDB_REGISTRERINGSDATOFAGDATA" OutputType="DATO" UserDefined="true"/>
+            <Field InputName="NVDB_STEDFESTINGENSNØYAKTIGHET" InputType="T80" OutputName="NVDB_STEDFESTINGENSNØYAKTIGHET" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_STEDSFORHOLD" InputType="T80" OutputName="NVDB_STEDSFORHOLD" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_TEMPERATUR" InputType="H11" OutputName="NVDB_TEMPERATUR" OutputType="H11" UserDefined="true"/>
+            <Field InputName="NVDB_UHELLKATEGORI" InputType="T80" OutputName="NVDB_UHELLKATEGORI" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_UHELLSKODE" InputType="T80" OutputName="NVDB_UHELLSKODE" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_UKEDAG" InputType="T80" OutputName="NVDB_UKEDAG" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_ULYKKESDATO" InputType="DATO" OutputName="NVDB_ULYKKESDATO" OutputType="DATO" UserDefined="true"/>
+            <Field InputName="NVDB_ULYKKESTIDSPUNKT" InputType="T20" OutputName="NVDB_ULYKKESTIDSPUNKT" OutputType="T20" UserDefined="true"/>
+            <Field InputName="NVDB_VÆRFORHOLD" InputType="T80" OutputName="NVDB_VÆRFORHOLD" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_VEGBREDDE" InputType="D20.2" OutputName="NVDB_VEGBREDDE" OutputType="D20.2" UserDefined="true"/>
+            <Field InputName="NVDB_VEGNAVN" InputType="T80" OutputName="NVDB_VEGNAVN" OutputType="T80" UserDefined="true"/>
+            <Field InputName="NVDB_VEGTYPE" InputType="T80" OutputName="NVDB_VEGTYPE" OutputType="T80" UserDefined="true"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>

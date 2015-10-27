@@ -1,0 +1,21 @@
+! ***************************************************************************!
+! * SOSI-kontroll                                             BRANNSMITTEOMRÅDER-UTVALG *!
+! * Utvalgsregler for BRANNSMITTEOMRÅDER          				                    *!
+! *                            SOSI versjon  4.0                   *!
+! ***************************************************************************!
+! *           Følger databeskrivelsene i Del 1, Praktisk bruk               *!
+! *            og databeskrivelsene i Objektkatalogen,                      *!
+! *                   Generert fra SOSI UML modell                          *!
+! *                                                                         *!
+! *               Statens kartverk, SOSI-sekretariatet           19.10.2015 *!
+! *                          nn                                             *!
+! ***************************************************************************!
+! ------ Antall definerte objekttyper i denne katalogen: 2
+
+.GRUPPE-UTVALG Brannfareområde
+..VELG  "..OBJTYPE" = Brannfareområde
+..BRUK-REGEL Brannfareområde
+
+.GRUPPE-UTVALG BrannfareområdeGrense
+..VELG  "..OBJTYPE" = BrannfareområdeGrense
+..BRUK-REGEL BrannfareområdeGrense
