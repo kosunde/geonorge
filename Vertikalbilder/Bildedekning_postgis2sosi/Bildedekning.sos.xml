@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="vertikalbilde.bildedekningsgrense">
+            <Field InputName="malemetode" InputType="H6" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+        </FeatureClass>
+        <FeatureClass InputName="vertikalbilde.vertikalbildedekning">
+            <Field InputName="dekningsnummer" InputType="T80" OutputName="DEKNINGSNUMMER" OutputType="T10"/>
+            <Field InputName="fotodato" InputType="DATO" OutputName="FOTODATO" OutputType="DATO"/>
+            <Field InputName="geodataeier" InputType="T80" OutputName="EIER" OutputType="T50"/>			
+            <Field InputName="oppdragsgiver" InputType="T80" OutputName="OPPDRAGSGIVER" OutputType="T100"/>
+            <Field InputName="oppdragsnavn" InputType="T255" OutputName="OPPDRAGSNAVN" OutputType="T255" UserDefined="true"/>			
+            <Field InputName="flyfirma" InputType="T80" OutputName="FLYFIRMA" OutputType="T50"/>			
+            <Field InputName="bakkopplosning" InputType="H11" OutputName="BAKKEOPPLØSNING" OutputType="D6.2"/>
+            <Field InputName="skanneropplosning" InputType="D10.2" OutputName="SCANNEROPPLØSNING" OutputType="D5.2"/>			
+            <Field InputName="bitsprpixel" InputType="H11" OutputName="BITS_PR_PIXEL" OutputType="H4"/>									
+            <Field InputName="bildefilformat" InputType="H11" OutputName="BILDEFILFORMAT" OutputType="H2"/>
+            <Field InputName="bildemalestokk" InputType="H11" OutputName="BILDEMÅLESTOKK" OutputType="H8"/>
+            <Field InputName="lengdeoverlapp" InputType="H11" OutputName="OVERLAPP\LENGDEOVERLAPP" OutputType="H3"/>
+            <Field InputName="sideoverlapp" InputType="H11" OutputName="OVERLAPP\SIDEOVERLAPP" OutputType="H3"/>			
+            <Field InputName="oppdragsgiver" InputType="T80" OutputName="OPPDRAGSGIVER" OutputType="T100"/>
+            <Field InputName="aerotriangulering" InputType="H11" OutputName="ORIENTERING\AEROTRIANGULERING" OutputType="H2"/>
+            <Field InputName="orienteringsdata" InputType="T80" OutputName="ORIENTERING\ORIENTERINGSDATA" OutputType="T255"/>
+            <Field InputName="orienteringsmetode" InputType="H11" OutputName="ORIENTERING\ORIENTERINGSMETODE" OutputType="H1"/>
+            <Field InputName="prosjektrapportlink" InputType="T255" OutputName="PROSJEKTRAPPORTLINK" OutputType="T255"/>
+        </FeatureClass>
+    </Mapping>
+</GeoSOSI>
