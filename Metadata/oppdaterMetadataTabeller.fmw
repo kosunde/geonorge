@@ -11,49 +11,49 @@
 #          --DestDataset_MSSQL_ADO "kartverket_nedlasting"
 #    
 #    
-#! MAX_LOG_FEATURES="200"
-#! SOURCE_ROUTING_FILE=""
-#! FME_DOCUMENT_PRIORGUID="56556ad4-9cba-4769-ad34-54055d193e56,f0d6a5a5-4cf6-4165-b6ab-d56e487f8855,e719d26d-3ae8-47dc-b2f2-b3642446101e,52c3c291-7590-49ea-b834-37d94888236c,44c32748-26af-44a8-8e3e-e217cb46beac,e6d0b342-1794-43f1-be4b-90056225aa20,15e34e46-5c40-4d2e-85e2-fb7e8821b60d,bcca2a35-626b-4187-8f95-9bc23e3fbb73,6d1d592a-4f3d-4189-a4ef-7235d8c5cea0,062b0b09-a0e0-416f-ad07-36a0f2781b9d,b95a87ac-7240-46d7-8804-0c8357425604"
-#! BEGIN_TCL=""
-#! DESTINATION_ROUTING_FILE=""
-#! PASSWORD=""
-#! ATTR_TYPE_ENCODING="SDF"
-#! DOC_EXTENTS="11892.9 2534.68"
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! IGNORE_READER_FAILURE="No"
-#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
-#! LAST_SAVE_DATE="2015-10-19T10:51:34"
-#! LOG_MAX_PRECISION="Yes"
-#! WORKSPACE_VERSION="1"
-#! TITLE=""
-#! REQUIREMENTS_KEYWORD=""
-#! WARN_INVALID_XFORM_PARAM="Yes"
-#! END_PYTHON=""
 #! LEGAL_TERMS_CONDITIONS=""
-#! DOC_TOP_LEFT="-206.628 -747.7"
-#! REQUIREMENTS=""
-#! ZOOM_SCALE="65"
-#! REDIRECT_TERMINATORS="NONE"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! SHOW_ANNOTATIONS="true"
-#! END_TCL=""
-#! DESTINATION="NONE"
-#! LOG_FILE=""
-#! CATEGORY=""
-#! FME_BUILD_NUM="15515"
-#! FME_REPROJECTION_ENGINE="FME"
+#! LOG_MAX_PRECISION="Yes"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! WORKSPACE_VERSION="1"
+#! MAX_LOG_FEATURES="200"
+#! SHOW_INFO_NODES="true"
+#! PASSWORD=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
 #! FME_GEOMETRY_HANDLING="Enhanced"
+#! REQUIREMENTS=""
+#! LOG_FILE=""
+#! SHOW_ANNOTATIONS="true"
+#! USAGE=""
+#! ZOOM_SCALE="65"
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! DESTINATION_ROUTING_FILE=""
+#! FME_SERVER_SERVICES=""
+#! REDIRECT_TERMINATORS="NONE"
+#! ATTR_TYPE_ENCODING="SDF"
+#! FME_REPROJECTION_ENGINE="FME"
+#! BEGIN_PYTHON=""
+#! DESTINATION="NONE"
+#! LAST_SAVE_BUILD="FME(R) 2015.1.1.0 (20150715 - Build 15515 - WIN64)"
 #! MULTI_WRITER_DATASET_ORDER="BY_ID"
 #! DESCRIPTION=""
-#! BEGIN_PYTHON=""
-#! FME_STROKE_MAX_DEVIATION="0"
-#! USAGE=""
-#! FME_DOCUMENT_GUID="c9d63431-9921-4c29-b774-fd43493c3a3a"
-#! VIEW_POSITION="249.233 2280.02"
-#! FME_SERVER_SERVICES=""
 #! SOURCE="NONE"
-#! SHOW_INFO_NODES="true"
+#! SOURCE_ROUTING_FILE=""
+#! FME_DOCUMENT_GUID="7e3251bc-acee-46e5-8bc2-d80f7649fda7"
+#! FME_DOCUMENT_PRIORGUID="56556ad4-9cba-4769-ad34-54055d193e56,f0d6a5a5-4cf6-4165-b6ab-d56e487f8855,e719d26d-3ae8-47dc-b2f2-b3642446101e,52c3c291-7590-49ea-b834-37d94888236c,44c32748-26af-44a8-8e3e-e217cb46beac,e6d0b342-1794-43f1-be4b-90056225aa20,15e34e46-5c40-4d2e-85e2-fb7e8821b60d,bcca2a35-626b-4187-8f95-9bc23e3fbb73,6d1d592a-4f3d-4189-a4ef-7235d8c5cea0,062b0b09-a0e0-416f-ad07-36a0f2781b9d,b95a87ac-7240-46d7-8804-0c8357425604,c9d63431-9921-4c29-b774-fd43493c3a3a"
 #! HISTORY=""
+#! DOC_TOP_LEFT="-206.628 -747.7"
+#! IGNORE_READER_FAILURE="No"
+#! LAST_SAVE_DATE="2015-10-22T13:44:30"
+#! CATEGORY=""
+#! END_PYTHON=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! REQUIREMENTS_KEYWORD=""
+#! BEGIN_TCL=""
+#! FME_BUILD_NUM="15515"
+#! TITLE=""
+#! END_TCL=""
+#! VIEW_POSITION="-249.233 2053.87"
+#! DOC_EXTENTS="11892.9 2784.61"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="xlsx_start_row &quot;&quot; xlsx_end_row &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="multi_reader_full_id number(11,0) multi_reader_type char(50) fme_sweep_angle number(31,15) fme_type char(50) xlsx_row_id number(11,0) fme_fill_color char(50) fme_secondary_axis number(31,15) fme_text_string char(50) fme_rotation number(31,15) fme_dataset char(50) fme_color char(50) fme_primary_axis number(31,15) multi_reader_keyword char(50) multi_reader_id number(11,0) fme_basename char(50) fme_geometry fme_char(50) fme_start_angle number(31,15) fme_text_size number(31,15) fme_feature_type char(50)"
+#! EXPOSABLE_ATTRS="fme_basename char(50) fme_feature_type char(50) fme_geometry fme_char(50) fme_sweep_angle number(31,15) multi_reader_type char(50) multi_reader_full_id number(11,0) xlsx_row_id number(11,0) fme_text_size number(31,15) fme_text_string char(50) fme_type char(50) fme_color char(50) fme_dataset char(50) fme_rotation number(31,15) multi_reader_id number(11,0) fme_secondary_axis number(31,15) fme_primary_axis number(31,15) fme_start_angle number(31,15) fme_fill_color char(50) multi_reader_keyword char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL FORCE_DEFS INTEGER xlsx_start_row Start Row:&quot; &quot;&quot; &quot;GUI OPTIONAL FORCE_DEFS INTEGER xlsx_end_row End Row:&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES=""
 #! ATTR_NAME_INVALID_CHARS=""
@@ -78,36 +78,36 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="FILE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FEATURE_TYPES=""
-#! START_FEATURE=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! COORDSYS=""
-#! MIN_FEATURES=""
 #! MAX_FEATURES=""
+#! FEATURE_TYPES=""
+#! COORDSYS=""
+#! START_FEATURE=""
+#! MIN_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="xlsx file"
+#! NAME="FEATURE_TYPE_NAME"
+#! VALUE="Sheet"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="READER_DATASET_HINT"
 #! VALUE="Select the Excel file(s)"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="ADVANCED_PARMS"
-#! VALUE="XLSXR_IN_READ_BLANK_AS XLSXR_IN_EXPAND_MERGED_CELLS XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC"
+#! NAME="ALLOW_DATASET_CONFLICT"
+#! VALUE=""
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="xlsx file"
 #! />
 #! <METAFILE_PARAMETER
 #! NAME="MIME_TYPE"
 #! VALUE="application/vnd.ms-excel ADD_DISPOSITION"
 #! />
 #! <METAFILE_PARAMETER
-#! NAME="FEATURE_TYPE_NAME"
-#! VALUE="Sheet"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="ALLOW_DATASET_CONFLICT"
-#! VALUE=""
+#! NAME="ADVANCED_PARMS"
+#! VALUE="XLSXR_IN_READ_BLANK_AS XLSXR_IN_EXPAND_MERGED_CELLS XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -123,7 +123,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="mssql_sql_statement &quot;&quot; mssql_where_clause &quot;&quot;"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="multi_reader_full_id integer multi_reader_type char(50) fme_sweep_angle float db_type char(254) fme_type char(50) fme_fill_color char(50) fme_secondary_axis float fme_text_string char(50) fme_rotation float fme_dataset char(50) fme_color char(50) fme_primary_axis float multi_reader_keyword char(50) multi_reader_id integer fme_basename char(50) fme_geometry fme_char(50) fme_start_angle float fme_text_size float fme_feature_type char(50)"
+#! EXPOSABLE_ATTRS="fme_basename char(50) fme_feature_type char(50) fme_geometry fme_char(50) fme_sweep_angle float multi_reader_type char(50) multi_reader_full_id integer fme_text_size float fme_text_string char(50) fme_type char(50) db_type char(254) fme_color char(50) fme_dataset char(50) fme_rotation float multi_reader_id integer fme_secondary_axis float fme_primary_axis float fme_start_angle float fme_fill_color char(50) multi_reader_keyword char(50)"
 #! DEFLINE_PARMS="&quot;GUI OPTIONAL TEXT mssql_where_clause  WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT mssql_sql_statement     SELECT Statement&quot; &quot;&quot; "
 #! ATTR_INDEX_TYPES="indexed indexed_not_null unique unique_clustered clustered clustered_not_null not_null primary_key"
 #! ATTR_NAME_INVALID_CHARS=""
@@ -132,21 +132,13 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
-#! FEATURE_TYPES=""
-#! START_FEATURE=""
 #! MAX_FEATURES_PER_FEATURE_TYPE=""
-#! COORDSYS=""
-#! MIN_FEATURES=""
 #! MAX_FEATURES=""
+#! FEATURE_TYPES=""
+#! COORDSYS=""
+#! START_FEATURE=""
+#! MIN_FEATURES=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
-#! VALUE="NO"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="Table"
@@ -156,8 +148,16 @@
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -173,7 +173,7 @@
 #! WRITE_DEFS="true"
 #! DEFLINE_TEMPLATE="mssql_update_key_columns &quot;&quot; mssql_drop_table &quot;&quot; mssql_truncate_table &quot;&quot; mssql_table_writer_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; mssql_enable_identity_insert NO"
 #! DEFLINE_ATTRS="true"
-#! EXPOSABLE_ATTRS="fme_type char(50) fme_feature_type char(50) db_type char(254) fme_text_string char(50) fme_secondary_axis float fme_start_angle float fme_fill_color char(50) fme_sweep_angle float fme_db_operation char(16) fme_basename char(50) fme_dataset char(50) fme_db_transaction char(16) fme_geometry fme_char(50) fme_color char(50) fme_primary_axis float fme_text_size float fme_rotation float"
+#! EXPOSABLE_ATTRS="fme_text_string char(50) fme_db_transaction char(16) fme_primary_axis float fme_type char(50) fme_feature_type char(50) fme_start_angle float fme_geometry fme_char(50) fme_rotation float db_type char(254) fme_sweep_angle float fme_text_size float fme_secondary_axis float fme_fill_color char(50) fme_db_operation char(16) fme_dataset char(50) fme_basename char(50) fme_color char(50)"
 #! DEFLINE_PARMS="&quot;GUI NAMEDGROUP fme_configuration_group fme_feature_operation%fme_table_handling%fme_selection_group Configuration&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI LOOKUP_CHOICE fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING Table Handling&quot; CREATE_IF_MISSING &quot;GUI DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI DISCLOSUREGROUP fme_advanced_group mssql_enable_identity_insert Advanced&quot; &quot;&quot; &quot;GUI CHOICE mssql_enable_identity_insert NO%YES Insert Into Identity Column&quot; NO "
 #! ATTR_INDEX_TYPES="indexed indexed_not_null unique unique_clustered clustered clustered_not_null not_null primary_key"
 #! ATTR_NAME_INVALID_CHARS="\\[]&quot;"
@@ -182,21 +182,13 @@
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! DATASET_TYPE="DATABASE"
 #! GENERATE_FME_BUILD_NUM="15515"
+#! FANOUT="No"
+#! FANOUT_PREFIX=""
 #! FANOUT_ID_ATTR=""
 #! FANOUT_DIRECTORY=""
 #! COORDSYS=""
 #! FANOUT_SUFFIX=""
-#! FANOUT="No"
-#! FANOUT_PREFIX=""
 #! >
-#! <METAFILE_PARAMETER
-#! NAME="DATASET_NAME"
-#! VALUE="Database"
-#! />
-#! <METAFILE_PARAMETER
-#! NAME="NETWORK_PROXY"
-#! VALUE="NO"
-#! />
 #! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_NAME"
 #! VALUE="Table"
@@ -206,8 +198,16 @@
 #! VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
+#! NAME="DATASET_NAME"
+#! VALUE="Database"
+#! />
+#! <METAFILE_PARAMETER
 #! NAME="FEATURE_TYPE_DEFAULT_NAME"
 #! VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#! NAME="NETWORK_PROXY"
+#! VALUE="NO"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -998,7 +998,7 @@
 #! COLLAPSED="true"
 #! KEYWORD="XLSXR_1"
 #! PARMS_EDITED="false"
-#! ENABLED="true"
+#! ENABLED="false"
 #! HIDDEN_USER_ATTRS=""
 #! MERGE_FILTER=""
 #! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
@@ -1022,8 +1022,8 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="Kan publiseres på test" ATTR_TYPE="char(22)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="Metadataoppføring Geonorge" ATTR_TYPE="char(150)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="UUID" ATTR_TYPE="char(37)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="xlsx_end_row" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #! IS_SOURCE="true"
@@ -1039,7 +1039,7 @@
 #! COLLAPSED="true"
 #! KEYWORD="MSSQL_ADO_1"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! HIDDEN_USER_ATTRS=""
 #! MERGE_FILTER=""
 #! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
@@ -1073,7 +1073,7 @@
 #! COLLAPSED="true"
 #! KEYWORD="MSSQL_ADO_1"
 #! PARMS_EDITED="false"
-#! ENABLED="true"
+#! ENABLED="false"
 #! HIDDEN_USER_ATTRS=""
 #! MERGE_FILTER=""
 #! MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
@@ -1116,15 +1116,15 @@
 #! <FEAT_ATTRIBUTE ATTR_NAME="supportsPolygonSelection" ATTR_TYPE="bit" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="supportsProjectionSelection" ATTR_TYPE="bit" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! <FEAT_ATTRIBUTE ATTR_NAME="fmeklippeUrl" ATTR_TYPE="nvarchar(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#! <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
-#! <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #! <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#! <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#! <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#! <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
 #! <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
 #! <DEFLINE_PARM PARM_NAME="mssql_enable_identity_insert" PARM_VALUE="NO"/>
-#! <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#! <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#! <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1270,7 +1270,7 @@
 #! BOUNDING_RECT="2628.89 -313.229 3567 434.471"
 #! STICKY="true"
 #! COLOUR="0.137255,0.584314,0.921569"
-#! CONTENTS="37 38 100 36 33 29 99 30 43 "
+#! CONTENTS="99 37 100 36 33 29 43 30 38 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="88"
@@ -1281,18 +1281,18 @@
 #! BOUNDING_RECT="2390.79 1491.61 9295.48 1729.53"
 #! STICKY="true"
 #! COLOUR="0.447059,0.901961,0.901961"
-#! CONTENTS="77 76 56 105 71 68 69 70 108 63 83 103 39 62 78 79 102 75 101 55 96 106 74 85 67 60 81 64 92 93 72 104 107 82 80 98 91 65 73 86 34 66 54 58 "
+#! CONTENTS="85 60 82 66 71 73 101 102 63 68 108 77 93 56 103 80 79 62 78 58 86 67 96 72 55 83 91 76 106 54 75 64 104 39 107 34 70 98 92 105 81 65 110 69 74 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="101"
 #! NAME="Bygger opp filmetadata"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #! TOP_LEFT="3547.84 1273.6"
-#! BOTTOM_RIGHT="7574.32 242.408"
+#! BOTTOM_RIGHT="7574.32 242.41"
 #! BOUNDING_RECT="3547.84 1273.6 4026.48 1031.19"
 #! STICKY="true"
 #! COLOUR="0.411765,0.694118,0.992157"
-#! CONTENTS="72 76 63 74 64 82 67 70 66 65 60 71 54 55 75 58 83 68 77 62 69 56 73 78 79 "
+#! CONTENTS="70 79 54 69 56 74 64 75 63 58 72 62 77 60 82 67 71 83 78 65 68 73 55 66 76 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="102"
@@ -1303,7 +1303,7 @@
 #! BOUNDING_RECT="7593.39 1214.83 2409.4 812.348"
 #! STICKY="true"
 #! COLOUR="0.427451,0.239216,0.537255"
-#! CONTENTS="81 91 39 96 103 98 104 93 "
+#! CONTENTS="93 81 91 96 103 104 39 98 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1315,7 +1315,7 @@
 #! BOUNDING_RECT="1524.32 885.687 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="MERGED"/>
@@ -1413,24 +1413,24 @@
 #! <XFORM_ATTR ATTR_NAME="Kan publiseres på test" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="Metadataoppføring Geonorge" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="UUID" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;metadataUuid&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;UUID&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="21"
@@ -1440,7 +1440,7 @@
 #! BOUNDING_RECT="487.917 1024.89 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
@@ -1463,13 +1463,13 @@
 #! <XFORM_ATTR ATTR_NAME="supportsPolygonSelection" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="supportsProjectionSelection" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="fmeklippeUrl" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST metadataUuid NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST metadataUuid NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST metadataUuid NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST metadataUuid NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="24"
@@ -1479,7 +1479,7 @@
 #! BOUNDING_RECT="487.917 585.687 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
@@ -1520,13 +1520,13 @@
 #! <XFORM_ATTR ATTR_NAME="Kan publiseres på test" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="Metadataoppføring Geonorge" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="UUID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST UUID NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST UUID NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST UUID NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST UUID NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="30"
@@ -1536,7 +1536,7 @@
 #! BOUNDING_RECT="2702.89 -505.739 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -1558,8 +1558,8 @@
 #! <XFORM_ATTR ATTR_NAME="Kan publiseres på test" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="Metadataoppføring Geonorge" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="metadataUuid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="UUID,metadataUuid,,Underkategori,Tittel,,Nedlastingstjeneste&lt;space&gt;SOSI,fmeklippeUrl,"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="UUID,metadataUuid,,Underkategori,Tittel,,Nedlastingstjeneste&lt;space&gt;SOSI,fmeklippeUrl,"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="29"
@@ -1569,7 +1569,7 @@
 #! BOUNDING_RECT="3197.9 -460.739 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -1595,14 +1595,14 @@
 #! <XFORM_ATTR ATTR_NAME="supportsFormatSelection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="supportsPolygonSelection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="supportsProjectionSelection" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="supportsAreaSelection,1,supportsFormatSelection,1,supportsPolygonSelection,1,supportsProjectionSelection,1"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="36"
@@ -1612,7 +1612,7 @@
 #! BOUNDING_RECT="3761.9 -421.729 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="RESULT"/>
@@ -1663,23 +1663,23 @@
 #! <XFORM_ATTR ATTR_NAME="supportsPolygonSelection" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="supportsProjectionSelection" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="kartverket_nedlasting"/>
-#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="maxID"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz1wTRRP/uRsEEhury25D0oVQZRznu9hwWlJQzxbB55/+yHrXUYMtYUXjLDN3Ucy/ARuJ1sKPYB32rswTdTOFe49pdP4o7P3VEvSn2aPYAojJ9LA4+W9yfakmaAjyeKxqTzUbY5KBlY33R6bAb8WXcjq4Yu/UR549gehXXGevczvaNMnFpF8/dpKLodOKBJqZqldhdiYbkuYXThf62NDwH8Pf4uUTItxNtR+SYzJmVBEmIF+9Uq4HMKtTzHz5XEs/fr9gq2FzdfgQ163zdTLBZEmHJEnLuCPNEnFJeadgk0GrKIl78wsDk8LL01Wd3innwg0/Bw929odVUgDZXFXrYFQqh342KqUaU)"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="kartverket_nedlasting"/>
+#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="maxID"/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="159.162.102.151,1433"/>
-#! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;space&gt;max&lt;openparen&gt;ID&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;maxID&lt;space&gt;from&lt;space&gt;dbo.Dataset"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection"/>
+#! <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="geodata"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;space&gt;max&lt;openparen&gt;ID&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;maxID&lt;space&gt;from&lt;space&gt;dbo.Dataset"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection"/>
+#! <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
+#! <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Initiator Attributes if Conflict"/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
-#! <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="geodata"/>
-#! <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="38"
@@ -1689,7 +1689,7 @@
 #! BOUNDING_RECT="4475.45 -460.739 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -1717,13 +1717,13 @@
 #! <XFORM_ATTR ATTR_NAME="supportsProjectionSelection" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="maxID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_count"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Global"/>
-#! <XFORM_PARM PARM_NAME="START" PARM_VALUE="1"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Counter"/>
-#! <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="counter"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DOMAIN" PARM_VALUE="counter"/>
+#! <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_count"/>
+#! <XFORM_PARM PARM_NAME="SCOPE" PARM_VALUE="Global"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="START" PARM_VALUE="1"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="34"
@@ -1733,7 +1733,7 @@
 #! BOUNDING_RECT="2527.5 1104.41 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
@@ -1854,42 +1854,42 @@
 #! <XFORM_ATTR ATTR_NAME="Metadataoppføring Geonorge" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="UUID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PATH_TYPE" PARM_VALUE="ANY"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PATH_TYPE,&quot;OPTIONAL CHOICE ANY%DIRECTORY%FILE&quot;,PATH&lt;space&gt;Allowed&lt;space&gt;Path&lt;space&gt;Type:,PATH_RETRIEVE_FILE_PROPERTIES,&quot;OPTIONAL CHOICE YES%NO&quot;,PATH&lt;space&gt;Retrieve&lt;space&gt;file&lt;space&gt;properties:,PATH_GLOB_PATTERN,&quot;OPTIONAL TEXT_ENCODED&quot;,PATH&lt;space&gt;Path&lt;space&gt;Filter:"/>
-#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceTYPE&lt;comma&gt;ANY&lt;comma&gt;SourceRETRIEVE_FILE_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceGLOB_PATTERN&lt;comma&gt;*,METAFILE,PATH"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PATH"/>
-#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Sti&lt;space&gt;til&lt;space&gt;SOSI-filer&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
-#! <XFORM_PARM PARM_NAME="PATH_RETRIEVE_FILE_PROPERTIES" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="SINGLE_PORT"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Sti&lt;space&gt;til&lt;space&gt;SOSI-filer&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PATH_GLOB_PATTERN" PARM_VALUE="*"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE="path_windows path_filename"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PATH_GLOB_PATTERN" PARM_VALUE="*"/>
+#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
+#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PATH"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PATH_TYPE" PARM_VALUE="ANY"/>
+#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
+#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceTYPE&lt;comma&gt;ANY&lt;comma&gt;SourceRETRIEVE_FILE_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceGLOB_PATTERN&lt;comma&gt;*,METAFILE,PATH"/>
+#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="SINGLE_PORT"/>
+#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PATH_TYPE,&quot;OPTIONAL CHOICE ANY%DIRECTORY%FILE&quot;,PATH&lt;space&gt;Allowed&lt;space&gt;Path&lt;space&gt;Type:,PATH_RETRIEVE_FILE_PROPERTIES,&quot;OPTIONAL CHOICE YES%NO&quot;,PATH&lt;space&gt;Retrieve&lt;space&gt;file&lt;space&gt;properties:,PATH_GLOB_PATTERN,&quot;OPTIONAL TEXT_ENCODED&quot;,PATH&lt;space&gt;Path&lt;space&gt;Filter:"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="PATH_RETRIEVE_FILE_PROPERTIES" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="39"
@@ -1899,7 +1899,7 @@
 #! BOUNDING_RECT="8359.08 908.486 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="MERGED"/>
@@ -2022,24 +2022,24 @@
 #! <XFORM_ATTR ATTR_NAME="projeksjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #! <XFORM_ATTR ATTR_NAME="dataset" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_2"/>
+#! <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
 #! <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;url&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;url&lt;closeparen&gt; AUTO"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
-#! <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_2"/>
+#! <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
-#! <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="55"
@@ -2049,7 +2049,7 @@
 #! BOUNDING_RECT="5288.67 746.928 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2090,14 +2090,14 @@
 #! <XFORM_ATTR ATTR_NAME="projeksjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="underkategori" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="url,$(Datahotell_URL)&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;,kategori,&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;,admenhet,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt;,inndelingsverdi,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;2&lt;closecurly&gt;&lt;closeparen&gt;,projeksjon,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;3&lt;closecurly&gt;&lt;closeparen&gt;,format,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;5&lt;closecurly&gt;&lt;closeparen&gt;,underkategori,&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="60"
@@ -2107,7 +2107,7 @@
 #! BOUNDING_RECT="3621.84 1004.66 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2140,14 +2140,14 @@
 #! <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="_"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="Both"/>
-#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeSplitter"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="path_filename"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="_"/>
 #! <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
+#! <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="Both"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="path_filename"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="56"
@@ -2157,7 +2157,7 @@
 #! BOUNDING_RECT="4191.22 1007.02 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2191,11 +2191,11 @@
 #! <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListElementCounter"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="CNT_ATTR" PARM_VALUE="_element_count"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list&lt;opencurly&gt;&lt;closecurly&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListElementCounter"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="62"
@@ -2205,7 +2205,7 @@
 #! BOUNDING_RECT="4713.99 1007.02 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="4"/>
@@ -2394,9 +2394,9 @@
 #! <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #! <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;4&lt;quote&gt;,4,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;5&lt;quote&gt;,5,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;6&lt;quote&gt;,6,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;7&lt;quote&gt;,7,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;8&lt;quote&gt;,8"/>
-#! <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;4&lt;quote&gt;,4,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;5&lt;quote&gt;,5,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;6&lt;quote&gt;,6,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;7&lt;quote&gt;,7,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_element_count&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;8&lt;quote&gt;,8"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="66"
@@ -2406,7 +2406,7 @@
 #! BOUNDING_RECT="5288.67 567.428 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2447,14 +2447,14 @@
 #! <XFORM_ATTR ATTR_NAME="projeksjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="underkategori" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="url,$(Datahotell_URL)&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;,kategori,&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;,admenhet,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt;,inndelingsverdi,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;2&lt;closecurly&gt;&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;3&lt;closecurly&gt;&lt;closeparen&gt;,projeksjon,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;4&lt;closecurly&gt;&lt;closeparen&gt;,format,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;6&lt;closecurly&gt;&lt;closeparen&gt;,underkategori,&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="70"
@@ -2464,7 +2464,7 @@
 #! BOUNDING_RECT="5288.67 388.409 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2505,14 +2505,14 @@
 #! <XFORM_ATTR ATTR_NAME="projeksjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="underkategori" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="url,$(Datahotell_URL)&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;,kategori,&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;,admenhet,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt;,inndelingsverdi,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;2&lt;closecurly&gt;&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;3&lt;closecurly&gt;&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;4&lt;closecurly&gt;&lt;closeparen&gt;,projeksjon,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;5&lt;closecurly&gt;&lt;closeparen&gt;,format,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;7&lt;closecurly&gt;&lt;closeparen&gt;,underkategori,&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="78"
@@ -2522,7 +2522,7 @@
 #! BOUNDING_RECT="5288.67 1183.6 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2562,14 +2562,14 @@
 #! <XFORM_ATTR ATTR_NAME="projeksjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="underkategori" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="kategori,&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;,admenhet,Norge,inndelingsverdi,FME_NULL_VALUE,projeksjon,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt;,format,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;3&lt;closecurly&gt;&lt;closeparen&gt;,underkategori,&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="54"
@@ -2579,7 +2579,7 @@
 #! BOUNDING_RECT="6503.52 803.102 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2623,12 +2623,12 @@
 #! <XFORM_ATTR ATTR_NAME="inndeling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="filnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_PARM PARM_NAME="RESULT_ATTR" PARM_VALUE="format"/>
-#! <XFORM_PARM PARM_NAME="SRC_STRING" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;format&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="END" PARM_VALUE="-5"/>
-#! <XFORM_PARM PARM_NAME="START" PARM_VALUE="0"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SubstringExtractor"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SRC_STRING" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;format&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="END" PARM_VALUE="-5"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="START" PARM_VALUE="0"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="68"
@@ -2638,7 +2638,7 @@
 #! BOUNDING_RECT="5911.35 803.102 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2681,14 +2681,14 @@
 #! <XFORM_ATTR ATTR_NAME="underkategori" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="inndeling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="filnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="inndeling,&quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;ikke&lt;space&gt;spesifisert&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;StringLength&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;admenhet&lt;closeparen&gt;&lt;closeparen&gt; = 4&apos;kommune&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;StringLength&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;admenhet&lt;closeparen&gt;&lt;closeparen&gt; = 2&apos;fylke&apos;FME_NUM_CONDITIONS3___&quot;,filnavn,&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_7"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="82"
@@ -2698,7 +2698,7 @@
 #! BOUNDING_RECT="5288.67 996.589 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2739,14 +2739,14 @@
 #! <XFORM_ATTR ATTR_NAME="projeksjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="underkategori" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_8"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="url,$(Datahotell_URL)&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;,kategori,&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;,admenhet,Norge,inndelingsverdi,FME_NULL_VALUE,projeksjon,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;2&lt;closecurly&gt;&lt;closeparen&gt;,format,&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;4&lt;closecurly&gt;&lt;closeparen&gt;,underkategori,&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_8"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="76"
@@ -2756,7 +2756,7 @@
 #! BOUNDING_RECT="7094.32 803.102 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2800,14 +2800,14 @@
 #! <XFORM_ATTR ATTR_NAME="inndeling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="filnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_9"/>
 #! <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="url,$(Datahotell_URL)&lt;at&gt;Value&lt;openparen&gt;Hovedkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;Underkategori&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;format&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;,dataset,&lt;at&gt;Value&lt;openparen&gt;ID&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_9"/>
-#! <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="81"
@@ -2817,7 +2817,7 @@
 #! BOUNDING_RECT="8990.17 716.177 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
@@ -2902,13 +2902,13 @@
 #! <XFORM_ATTR ATTR_NAME="inndeling" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="filnavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
-#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
-#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST url NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;&#10;TEST dataset NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
+#! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST url NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;&#10;TEST dataset NOT_ATTRIBUTE_VALUE_NULL &quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="96"
@@ -2918,7 +2918,7 @@
 #! BOUNDING_RECT="9522.79 693.793 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -2932,11 +2932,11 @@
 #! <XFORM_ATTR ATTR_NAME="inndeling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="filnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="dataset,filnavn,format,inndeling,inndelingsverdi,kategori,projeksjon,underkategori,url"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="80"
@@ -2946,7 +2946,7 @@
 #! BOUNDING_RECT="10223.2 908.486 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="RESULT"/>
@@ -2963,23 +2963,23 @@
 #! <XFORM_ATTR ATTR_NAME="filnavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="kartverket_nedlasting"/>
-#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz0A/fX8EJ2yCDSdB3C1/44fGUbpC+1jHtVlntEHQELvQp2Vmt2M+VxJruYMXOJuPzvM0vnLX2ETwt3Su47OPiCj2qxM3GNTkz7URq5yu1MRqxQ69eW919GpL4xb/nWl2QZRr9gE07mKGu0neYjvOYlVxjQsJA7jZGbTMu1Kw2VD+K+zz2ex+n5mOYPZAMtNHE9rCkQerQwUtAAF3OepupGiNMXVjtR0TKTp5YDPhYyUonk6qCmZuJnyQj2AMUho8yIjUdb+fzwuzINRmV3sXRcqSwLm/4NOL3YwG35+WvZlN9TgzA6w8ry/PF4N/SqYr6eFgfJv5exRICWozkswkZIVac073gb+Ci)"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="kartverket_nedlasting"/>
+#! <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="159.162.102.151,1433"/>
-#! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="INSERT&lt;space&gt;INTO&lt;space&gt;dbo.&lt;openbracket&gt;filliste&lt;closebracket&gt;&lt;space&gt;&lt;openparen&gt;&lt;openbracket&gt;id&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;url&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;kategori&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;inndelingsverdi&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;projeksjon&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;format&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;underkategori&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;inndeling&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;filnavn&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;dataset&lt;closebracket&gt;&lt;closeparen&gt;&lt;space&gt;&lt;lf&gt;VALUES&lt;space&gt;&lt;openparen&gt;NEWID&lt;openparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;url&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;kategori&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;inndelingsverdi&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;projeksjon&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;format&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;underkategori&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;inndeling&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;filnavn&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;dataset&lt;closeparen&gt;&lt;apos&gt;&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection"/>
+#! <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="geodata"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#! <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="INSERT&lt;space&gt;INTO&lt;space&gt;dbo.&lt;openbracket&gt;filliste&lt;closebracket&gt;&lt;space&gt;&lt;openparen&gt;&lt;openbracket&gt;id&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;url&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;kategori&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;inndelingsverdi&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;projeksjon&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;format&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;underkategori&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;inndeling&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;filnavn&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;&lt;openbracket&gt;dataset&lt;closebracket&gt;&lt;closeparen&gt;&lt;space&gt;&lt;lf&gt;VALUES&lt;space&gt;&lt;openparen&gt;NEWID&lt;openparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;url&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;kategori&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;inndelingsverdi&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;projeksjon&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;format&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;underkategori&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;inndeling&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;filnavn&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;dataset&lt;closeparen&gt;&lt;apos&gt;&lt;closeparen&gt;"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection"/>
+#! <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
+#! <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
 #! <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
-#! <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="geodata"/>
-#! <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="107"
@@ -2989,7 +2989,7 @@
 #! BOUNDING_RECT="2527.5 673.378 -1 -1"
 #! ORDER="5e+014"
 #! PARMS_EDITED="true"
-#! ENABLED="true"
+#! ENABLED="false"
 #! LAST_PARM_EDIT="15515"
 #! >
 #! <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
@@ -3110,42 +3110,218 @@
 #! <XFORM_ATTR ATTR_NAME="Metadataoppføring Geonorge" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="UUID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #! <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
-#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PATH_TYPE" PARM_VALUE="ANY"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
-#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PATH_GLOB_PATTERN,&quot;OPTIONAL TEXT_ENCODED&quot;,PATH&lt;space&gt;Path&lt;space&gt;Filter:,PATH_TYPE,&quot;OPTIONAL CHOICE ANY%DIRECTORY%FILE&quot;,PATH&lt;space&gt;Allowed&lt;space&gt;Path&lt;space&gt;Type:,PATH_RETRIEVE_FILE_PROPERTIES,&quot;OPTIONAL CHOICE YES%NO&quot;,PATH&lt;space&gt;Retrieve&lt;space&gt;file&lt;space&gt;properties:"/>
-#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceTYPE&lt;comma&gt;ANY&lt;comma&gt;SourceRETRIEVE_FILE_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceGLOB_PATTERN&lt;comma&gt;*,METAFILE,PATH"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_2"/>
-#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
-#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PATH"/>
-#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Sti&lt;space&gt;til&lt;space&gt;GML-filer&lt;closeparen&gt;"/>
 #! <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
-#! <XFORM_PARM PARM_NAME="PATH_RETRIEVE_FILE_PROPERTIES" PARM_VALUE="NO"/>
-#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="SINGLE_PORT"/>
-#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Sti&lt;space&gt;til&lt;space&gt;GML-filer&lt;closeparen&gt;"/>
-#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
 #! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PATH_GLOB_PATTERN" PARM_VALUE="*"/>
-#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE="path_windows path_filename"/>
+#! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PATH_GLOB_PATTERN" PARM_VALUE="*"/>
+#! <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
+#! <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#! <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PATH"/>
+#! <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PATH_TYPE" PARM_VALUE="ANY"/>
+#! <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Based on Connections"/>
+#! <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_RADIO" PARM_VALUE="FEATURETYPES"/>
+#! <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
+#! <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceTYPE&lt;comma&gt;ANY&lt;comma&gt;SourceRETRIEVE_FILE_PROPERTIES&lt;comma&gt;NO&lt;comma&gt;SourceGLOB_PATTERN&lt;comma&gt;*,METAFILE,PATH"/>
+#! <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="SINGLE_PORT"/>
+#! <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FEATURETYPES_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PATH_GLOB_PATTERN,&quot;OPTIONAL TEXT_ENCODED&quot;,PATH&lt;space&gt;Path&lt;space&gt;Filter:,PATH_TYPE,&quot;OPTIONAL CHOICE ANY%DIRECTORY%FILE&quot;,PATH&lt;space&gt;Allowed&lt;space&gt;Path&lt;space&gt;Type:,PATH_RETRIEVE_FILE_PROPERTIES,&quot;OPTIONAL CHOICE YES%NO&quot;,PATH&lt;space&gt;Retrieve&lt;space&gt;file&lt;space&gt;properties:"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader_2"/>
+#! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#! <XFORM_PARM PARM_NAME="PATH_RETRIEVE_FILE_PROPERTIES" PARM_VALUE="NO"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="111"
+#! TYPE="Inspector"
+#! VERSION="3"
+#! POSITION="1124.99 239.491"
+#! BOUNDING_RECT="1124.99 239.491 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="false"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2_Passed"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="113"
+#! TYPE="HTTPCaller"
+#! VERSION="0"
+#! POSITION="2585.51 1981.98"
+#! BOUNDING_RECT="2585.51 1981.98 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="true"
+#! ENABLED="false"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="Output"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#! <FEAT_COLLAPSED COLLAPSED="1"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_headers{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="NO"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller"/>
+#! <XFORM_PARM PARM_NAME="SAVE_FILE" PARM_VALUE="Attribute"/>
+#! <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="auto-detect"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="SAVE_MULTI" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="Digest"/>
+#! <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="_response_body"/>
+#! <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
+#! <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="https:&lt;solidus&gt;&lt;solidus&gt;prosjektrom.statkart.no&lt;solidus&gt;p&lt;solidus&gt;nynasjonalgeoportal&lt;solidus&gt;Referansegruppe&lt;solidus&gt;Distribusjonsl%D8yper&lt;solidus&gt;Status%20datasett.xlsx&lt;solidus&gt;"/>
+#! <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="statkart\xmaland"/>
+#! <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="_headers"/>
+#! <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="YES"/>
+#! <XFORM_PARM PARM_NAME="ADVANCED_RESPONSE_PARAMETERS" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#! <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
+#! <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#! <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
+#! <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszX5DZ3DefWotji1LuKKZkZ+X3laGG86orrf3PDuRciWsn3gPhLxAbFCFeIxguHrXwR/NyTVQc5TrhGDYMBbiDRYonoj0rId+ryzWbkangZia7/AUKaWYcPzGHZGSw11x3SCH1f6RCuRLQChiekHkwtUxi25fF4l8NckZqfL6ORaHyppBFclhY5AEyOVAVBR/boOjbVBZvJUFRFZFMazdYE1QBg8kzN1JawiqdT9CU1nVw2FKxx84V+Ipjlk10NUTZvvHtkGUGJHWpyCkxJqiIlCMr6wxtYGcWktm/n6SOX3eFXdtvJIn8HLkwTTXPGggmtSGo3dnItD/NUUb1ym9MeZ1+RR/3j+0M)"/>
+#! <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="114"
+#! TYPE="Creator"
+#! VERSION="5"
+#! POSITION="1943.1 2036.91"
+#! BOUNDING_RECT="1943.1 2036.91 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="false"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <OUTPUT_FEAT NAME="CREATED"/>
+#! <FEAT_COLLAPSED COLLAPSED="0"/>
+#! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="116"
+#! TYPE="Inspector"
+#! VERSION="3"
+#! POSITION="3522.34 2036.91"
+#! BOUNDING_RECT="3522.34 2036.91 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="false"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller_Output"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#! IDENTIFIER="118"
+#! TYPE="Inspector"
+#! VERSION="3"
+#! POSITION="3522.34 1898.91"
+#! BOUNDING_RECT="3522.34 1898.91 -1 -1"
+#! ORDER="5e+014"
+#! PARMS_EDITED="false"
+#! ENABLED="false"
+#! LAST_PARM_EDIT="15515"
+#! >
+#! <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller__Rejected_"/>
+#! <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#! <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -3155,7 +3331,7 @@
 #! TARGET_NODE="10"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3164,7 +3340,7 @@
 #! TARGET_NODE="24"
 #! SOURCE_PORT_DESC="-1"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3173,7 +3349,7 @@
 #! TARGET_NODE="10"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 1"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3182,7 +3358,7 @@
 #! TARGET_NODE="30"
 #! SOURCE_PORT_DESC="fo 3"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3191,7 +3367,7 @@
 #! TARGET_NODE="29"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3200,7 +3376,7 @@
 #! TARGET_NODE="36"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3209,7 +3385,7 @@
 #! TARGET_NODE="38"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3218,7 +3394,7 @@
 #! TARGET_NODE="56"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3227,7 +3403,7 @@
 #! TARGET_NODE="62"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3236,7 +3412,7 @@
 #! TARGET_NODE="55"
 #! SOURCE_PORT_DESC="fo 2"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3245,7 +3421,7 @@
 #! TARGET_NODE="66"
 #! SOURCE_PORT_DESC="fo 3"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3254,7 +3430,7 @@
 #! TARGET_NODE="70"
 #! SOURCE_PORT_DESC="fo 4"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3263,7 +3439,7 @@
 #! TARGET_NODE="78"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3272,7 +3448,7 @@
 #! TARGET_NODE="68"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3281,7 +3457,7 @@
 #! TARGET_NODE="54"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3290,7 +3466,7 @@
 #! TARGET_NODE="68"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3299,7 +3475,7 @@
 #! TARGET_NODE="68"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3308,7 +3484,7 @@
 #! TARGET_NODE="82"
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3317,7 +3493,7 @@
 #! TARGET_NODE="68"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3326,7 +3502,7 @@
 #! TARGET_NODE="68"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3335,7 +3511,7 @@
 #! TARGET_NODE="76"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3344,7 +3520,7 @@
 #! TARGET_NODE="21"
 #! SOURCE_PORT_DESC="-1"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3353,7 +3529,7 @@
 #! TARGET_NODE="39"
 #! SOURCE_PORT_DESC="-1"
 #! TARGET_PORT_DESC="fi 1"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3362,7 +3538,7 @@
 #! TARGET_NODE="99"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="-1"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3371,7 +3547,7 @@
 #! TARGET_NODE="81"
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3380,7 +3556,7 @@
 #! TARGET_NODE="96"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3389,7 +3565,7 @@
 #! TARGET_NODE="80"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3398,7 +3574,7 @@
 #! TARGET_NODE="39"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3407,7 +3583,7 @@
 #! TARGET_NODE="60"
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3416,7 +3592,7 @@
 #! TARGET_NODE="34"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3425,7 +3601,7 @@
 #! TARGET_NODE="107"
 #! SOURCE_PORT_DESC="fo 0"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
@@ -3434,7 +3610,43 @@
 #! TARGET_NODE="60"
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
-#! ENABLED="true"
+#! ENABLED="false"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="112"
+#! SOURCE_NODE="24"
+#! TARGET_NODE="111"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="false"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="115"
+#! SOURCE_NODE="114"
+#! TARGET_NODE="113"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="false"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="117"
+#! SOURCE_NODE="113"
+#! TARGET_NODE="116"
+#! SOURCE_PORT_DESC="fo 0"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="false"
+#! EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#! IDENTIFIER="119"
+#! SOURCE_NODE="113"
+#! TARGET_NODE="118"
+#! SOURCE_PORT_DESC="fo 1"
+#! TARGET_PORT_DESC="fi 0"
+#! ENABLED="false"
 #! EXTRA_POINTS=""
 #! />
 #! </FEAT_LINKS>
@@ -3463,10 +3675,12 @@ INCLUDE [ if {{$(SourceDataset_XLSXR)} == {}} { puts_real {Parameter 'SourceData
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
-MULTI_READER_TYPE{0} XLSXR
+MULTI_READER_TYPE{0} NULL
+MULTI_READER_FORMAT{0} XLSXR
 MULTI_READER_KEYWORD{0} XLSXR_1
 MULTI_READER_GEN_DIRECTIVES{0} ADVANCED,,_MERGE_SCHEMAS,YES,READ_BLANK_AS,Missing,TABLELIST,,EXPAND_MERGED_CELLS,Yes,EXCEL_COL_NAMES,YES,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SCHEMA,,USE_SCHEMA_OTHER_FILES,No,EXPOSE_ATTRS_GROUP,,FORCE_DATETIME,NO,CONFIGURATION_DATASET,,XLSXR_EXPOSE_FORMAT_ATTRS,,SCAN_SCHEMA_IF_DYNAMIC,No
-MULTI_READER_TYPE{1} MSSQL_ADO
+MULTI_READER_TYPE{1} NULL
+MULTI_READER_FORMAT{1} MSSQL_ADO
 MULTI_READER_KEYWORD{1} MSSQL_ADO_1
 MULTI_READER_GEN_DIRECTIVES{1} _MERGE_SCHEMAS,YES,COMMAND_TIMEOUT,30,MSSQL_ADO_EXPOSE_FORMAT_ATTRS,,TABLELIST,dbo.Dataset<space>dbo.filliste,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,WHERE_CLAUSE,,USE_SSPI,NO,EXPOSE_ATTRS_GROUP,,SERVER,159.162.102.151<comma>1433,USER_NAME,geodata,FME_CONNECTION_GROUP,,ENCRYPT_CONNECTION,NO
 WRITER_TYPE MULTI_WRITER
@@ -3682,135 +3896,105 @@ MACRO WORKSPACE_NAME oppdaterMetadataTabeller
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    ROUTE XLSXR XLSXR_1::Ark1 multi_reader_keyword,$(DATASET_KEYWORD_XLSXR_1) TO FME_GENERIC ::Ark1 ALIAS_GEOMETRY    ROUTE MSSQL_ADO MSSQL_ADO_1::dbo.Dataset multi_reader_keyword,$(DATASET_KEYWORD_MSSQL_ADO_1) TO FME_GENERIC ::dbo.Dataset ALIAS_GEOMETRY    ROUTE MSSQL_ADO MSSQL_ADO_1::dbo.filliste multi_reader_keyword,$(DATASET_KEYWORD_MSSQL_ADO_1) TO FME_GENERIC ::dbo.filliste ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-XLSXR_1_MERGE_DEF XLSXR_1::Ark1 EXACT Ark1 DEFLINE xlsx_start_row,,xlsx_end_row,,Dataeier,char<openparen>23<closeparen>,Hovedkategori,char<openparen>18<closeparen>,Underkategori,char<openparen>24<closeparen>,Datahotell,char<openparen>2<closeparen>,WFS,char<openparen>2<closeparen>,Nedlastingstjeneste<space>SOSI,char<openparen>2<closeparen>,Fillager<space>SOSI,char<openparen>2<closeparen>,Sti<space>til<space>SOSI-filer,char<openparen>68<closeparen>,Fillager<space>GML,char<openparen>2<closeparen>,Sti<space>til<space>GML-filer,char<openparen>67<closeparen>,AtomFeed<space>SOSI,char<openparen>2<closeparen>,Sti<space>til<space>AtomFeed<space>SOSI,char<openparen>101<closeparen>,AtomFeed<space>GML,char<openparen>2<closeparen>,Sti<space>til<space>AtomFeed<space>GML,char<openparen>95<closeparen>,Kan<space>publiseres<space>p<u00e5><space>test,char<openparen>22<closeparen>,Metadataoppf<u00f8>ring<space>Geonorge,char<openparen>150<closeparen>,UUID,char<openparen>37<closeparen>
-MSSQL_ADO_1_MERGE_DEF MSSQL_ADO_1::dbo.Dataset EXACT dbo.Dataset DEFLINE mssql_sql_statement,,mssql_where_clause,,ID,identity,Tittel,varchar<openparen>255<closeparen>,metadataUuid,varchar<openparen>255<closeparen>,supportsAreaSelection,bit,supportsFormatSelection,bit,supportsPolygonSelection,bit,supportsProjectionSelection,bit,fmeklippeUrl,nvarchar<openparen>255<closeparen>
-MSSQL_ADO_1_MERGE_DEF MSSQL_ADO_1::dbo.filliste EXACT dbo.filliste DEFLINE mssql_sql_statement,,mssql_where_clause,,id,uniqueidentifier,filnavn,nvarchar<openparen>100<closeparen>,url,ntext,kategori,nvarchar<openparen>50<closeparen>,underkategori,nvarchar<openparen>50<closeparen>,inndeling,nvarchar<openparen>50<closeparen>,inndelingsverdi,varchar<openparen>100<closeparen>,projeksjon,varchar<openparen>100<closeparen>,format,varchar<openparen>100<closeparen>,dataset,integer
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   INPUT FEATURE_TYPE *    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+XLSXR_1_MERGE_DEF XLSXR_1::Ark1 EXACT Ark1
+MSSQL_ADO_1_MERGE_DEF MSSQL_ADO_1::dbo.filliste EXACT dbo.filliste
+MSSQL_ADO_1_MERGE_DEF MSSQL_ADO_1::dbo.Dataset EXACT dbo.Dataset
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Ark1 Disabled Nuker -1 25"   INPUT FEATURE_TYPE Ark1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "dbo.filliste Disabled Nuker -1 104"   INPUT FEATURE_TYPE dbo.filliste
+FACTORY_DEF * TeeFactory   FACTORY_NAME "dbo.Dataset Disabled Nuker -1 95"   INPUT FEATURE_TYPE dbo.Dataset
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE dbo.Dataset    TEST metadataUuid NOT_ATTRIBUTE_IS_MISSING "" ENCODED TEST metadataUuid NOT_ATTRIBUTE_VALUE_NULL "" ENCODED    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Creator_CREATED Disabled Nuker -1 115"   INPUT FEATURE_TYPE Creator_CREATED
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE Ark1    TEST UUID NOT_ATTRIBUTE_IS_MISSING "" ENCODED TEST UUID NOT_ATTRIBUTE_VALUE_NULL "" ENCODED    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller (Disabled) Nuker"   INPUT FEATURE_TYPE Creator_CREATED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller_Output Disabled Nuker -1 117"   INPUT FEATURE_TYPE HTTPCaller_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller_<Rejected> Disabled Nuker -1 119"   INPUT FEATURE_TYPE HTTPCaller_<Rejected>
 # -------------------------------------------------------------------------
-
-INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
-
-FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger    INPUT REFERENCER FEATURE_TYPE Tester_PASSED    INPUT REFERENCEE FEATURE_TYPE Tester_2_PASSED    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>metadataUuid<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>UUID<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED    OUTPUT UNREFERENCED FEATURE_TYPE FeatureMerger_UNREFERENCED
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger MERGED Splitter"   INPUT FEATURE_TYPE FeatureMerger_MERGED   OUTPUT FEATURE_TYPE FeatureMerger_MERGED_0_dtOzL5vgfW4=   OUTPUT FEATURE_TYPE FeatureMerger_MERGED_1_dtOzL5vgfW4=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller__Rejected_ (Disabled) Nuker"   INPUT FEATURE_TYPE HTTPCaller_<Rejected>
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE FeatureMerger_UNREFERENCED    OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT         @RenameAttributes(ATTR_LIST_DEF_VAL_ENCODED, UUID,metadataUuid,,Underkategori,Tittel,,Nedlastingstjeneste<space>SOSI,fmeklippeUrl,)
-
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller_Output (Disabled) Nuker"   INPUT FEATURE_TYPE HTTPCaller_Output
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT ATTR supportsAreaSelection 1 ATTR supportsFormatSelection 1 ATTR supportsPolygonSelection 1 ATTR supportsProjectionSelection 1    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester (Disabled) Nuker"   INPUT FEATURE_TYPE dbo.Dataset
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_PASSED Disabled Nuker -1 23"   INPUT FEATURE_TYPE Tester_PASSED
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_DIRECTIVES COMMAND_TIMEOUT 30 USE_SSPI NO QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz1wTRRP/uRsEEhury25D0oVQZRznu9hwWlJQzxbB55/+yHrXUYMtYUXjLDN3Ucy/ARuJ1sKPYB32rswTdTOFe49pdP4o7P3VEvSn2aPYAojJ9LA4+W9yfakmaAjyeKxqTzUbY5KBlY33R6bAb8WXcjq4Yu/UR549gehXXGevczvaNMnFpF8/dpKLodOKBJqZqldhdiYbkuYXThf62NDwH8Pf4uUTItxNtR+SYzJmVBEmIF+9Uq4HMKtTzHz5XEs/fr9gq2FzdfgQ163zdTLBZEmHJEnLuCPNEnFJeadgk0GrKIl78wsDk8LL01Wd3innwg0/Bw929odVUgDZXFXrYFQqh342KqUaU) SERVER 159.162.102.151,1433 USER_NAME geodata ENCRYPT_CONNECTION NO
-
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    QUERY_SQL            "select<space>max<openparen>ID<closeparen><space>as<space>maxID<space>from<space>dbo.Dataset"    READER_TYPE          MSSQL_ADO    READER_DATASET       "kartverket_nedlasting"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_2 (Disabled) Nuker"   INPUT FEATURE_TYPE Ark1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_2_PASSED_0_cJhyILNY7DA= Disabled Nuker -1 112"   INPUT FEATURE_TYPE Tester_2_PASSED_0_cJhyILNY7DA=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_2_PASSED_1_cJhyILNY7DA= Disabled Nuker -1 26"   INPUT FEATURE_TYPE Tester_2_PASSED_1_cJhyILNY7DA=
 # -------------------------------------------------------------------------
-
-Tcl2 proc Counter_31b897fe_c898_49d6_9b7f_9d091593f3467_createDomain { in_domainName } {    set domainName $in_domainName;    if { {Global} == {Local} }    {       set xFormName [FME_EncodeText {Counter_}];       set domainName $xFormName$domainName;    };    return $domainName; }
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME Counter    INPUT  FEATURE_TYPE SQLExecutor_RESULT    OUTPUT FEATURE_TYPE Counter_OUTPUT         "_count" @Count(fme_encoded,@Tcl2("Counter_31b897fe_c898_49d6_9b7f_9d091593f3467_createDomain {counter}"), "1")
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_PASSED   INPUT FEATURE_TYPE Tester_2_PASSED_1_cJhyILNY7DA=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_MERGED_0_dtOzL5vgfW4= Disabled Nuker -1 109"   INPUT FEATURE_TYPE FeatureMerger_MERGED_0_dtOzL5vgfW4=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_MERGED_1_dtOzL5vgfW4= Disabled Nuker -1 84"   INPUT FEATURE_TYPE FeatureMerger_MERGED_1_dtOzL5vgfW4=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_UNREFERENCED Disabled Nuker -1 31"   INPUT FEATURE_TYPE FeatureMerger_UNREFERENCED
 # -------------------------------------------------------------------------
-MACRO FeatureReader_2_OUTPUT_PORTS_ENCODED 
-MACRO FeatureReader_2_DIRECTIVES GLOB_PATTERN * TYPE ANY RETRIEVE_FILE_PROPERTIES NO
-
-# Values come in encoded and come out decoded.
-Tcl2 proc FeatureReader_2_findInListElseDefault { valueEncoded defaultValue } {    if { [lsearch [split {$(FeatureReader_2_OUTPUT_PORTS_ENCODED)}] $valueEncoded] >= 0} {       return FeatureReader_2_[FME_DecodeText $valueEncoded]    } else {       return FeatureReader_2_$defaultValue    } }
-# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
-INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
-# Consolidate the attribute merge options to what the factory expects
-DEFAULT_MACRO FeatureReader_2_COMBINE_ATTRS
-INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO FeatureReader_2_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO FeatureReader_2_COMBINE_ATTRS MERGE";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE FeatureMerger_MERGED_1_dtOzL5vgfW4=    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         PATH    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Sti<space>til<space>GML-filer<closeparen>,FeatureReader_2)"    READER_IDS    READER_DIRECTIVES   META_MACROS,SourceTYPE<comma>ANY<comma>SourceRETRIEVE_FILE_PROPERTIES<comma>NO<comma>SourceGLOB_PATTERN<comma>*,METAFILE,PATH    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [FeatureReader_2_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(PATH,FME_GENERIC)
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRenamer (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureMerger_UNREFERENCED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRenamer_OUTPUT Disabled Nuker -1 33"   INPUT FEATURE_TYPE AttributeRenamer_OUTPUT
 # -------------------------------------------------------------------------
-MACRO FeatureReader_OUTPUT_PORTS_ENCODED 
-MACRO FeatureReader_DIRECTIVES TYPE ANY RETRIEVE_FILE_PROPERTIES NO GLOB_PATTERN *
-
-# Values come in encoded and come out decoded.
-Tcl2 proc FeatureReader_findInListElseDefault { valueEncoded defaultValue } {    if { [lsearch [split {$(FeatureReader_OUTPUT_PORTS_ENCODED)}] $valueEncoded] >= 0} {       return FeatureReader_[FME_DecodeText $valueEncoded]    } else {       return FeatureReader_$defaultValue    } }
-# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
-INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
-# Consolidate the attribute merge options to what the factory expects
-DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
-INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS MERGE";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE FeatureMerger_MERGED_0_dtOzL5vgfW4=    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         PATH    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Sti<space>til<space>SOSI-filer<closeparen>,FeatureReader)"    READER_IDS    READER_DIRECTIVES   META_MACROS,SourceTYPE<comma>ANY<comma>SourceRETRIEVE_FILE_PROPERTIES<comma>NO<comma>SourceGLOB_PATTERN<comma>*,METAFILE,PATH    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(PATH,FME_GENERIC)
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_OUTPUT Disabled Nuker -1 37"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
-
-Tcl2 set AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitDelim [FME_DecodeText {_}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitDelim]] }      {         set AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitWidths [split [regsub -all {s$} {_} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {path_filename}]];            set attrNum 0;            set listName [FME_DecodeText {_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitDelim;            set delim [set AttributeSplitter_471eef81_f6e8_481f_8580_890062ecae0b7_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {path_filename}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    INPUT  FEATURE_TYPE FeatureReader_2_<OTHER>    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_RESULT Disabled Nuker -1 43"   INPUT FEATURE_TYPE SQLExecutor_RESULT
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME ListElementCounter    INPUT  FEATURE_TYPE AttributeSplitter_OUTPUT    OUTPUT FEATURE_TYPE ListElementCounter_OUTPUT         "_element_count" @NumElements("_list<opencurly><closecurly>",ENCODED)
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Counter (Disabled) Nuker"   INPUT FEATURE_TYPE SQLExecutor_RESULT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Counter_OUTPUT Disabled Nuker -1 100"   INPUT FEATURE_TYPE Counter_OUTPUT
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE ListElementCounter_OUTPUT    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
-
-FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_0 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_element_count<closeparen>,TestFilter) = 4 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_4 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
-FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_1 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_element_count<closeparen>,TestFilter) = 5 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_5 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2
-FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_2 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_element_count<closeparen>,TestFilter) = 6 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_6 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_3
-FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_3 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_3 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_element_count<closeparen>,TestFilter) = 7 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_7 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_4
-FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_TestFactory_4 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_4 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_element_count<closeparen>,TestFilter) = 8 ENCODED BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR <Unused> OUTPUT PASSED FEATURE_TYPE TestFilter_8 OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_5
-FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_5 OUTPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader_2 (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureMerger_MERGED_0_dtOzL5vgfW4=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader_2_<OTHER> Disabled Nuker -1 110"   INPUT FEATURE_TYPE FeatureReader_2_<OTHER>
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_5 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TestFilter_8 ATTR url $(Datahotell_URL$encode)<at>Value<openparen>Hovedkategori<closeparen><solidus><at>Value<openparen>Underkategori<closeparen><solidus><at>Value<openparen>path_filename<closeparen> ATTR kategori <at>Value<openparen>Hovedkategori<closeparen> ATTR admenhet <at>Value<openparen>_list<opencurly>1<closecurly><closeparen> ATTR inndelingsverdi <at>Value<openparen>_list<opencurly>2<closecurly><closeparen><space><at>Value<openparen>_list<opencurly>3<closecurly><closeparen><space><at>Value<openparen>_list<opencurly>4<closecurly><closeparen> ATTR projeksjon <at>Value<openparen>_list<opencurly>5<closecurly><closeparen> ATTR format <at>Value<openparen>_list<opencurly>7<closecurly><closeparen> ATTR underkategori <at>Value<openparen>Underkategori<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureMerger_MERGED_1_dtOzL5vgfW4=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader_<OTHER> Disabled Nuker -1 86"   INPUT FEATURE_TYPE FeatureReader_<OTHER>
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_4 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TestFilter_7 ATTR url $(Datahotell_URL$encode)<at>Value<openparen>Hovedkategori<closeparen><solidus><at>Value<openparen>Underkategori<closeparen><solidus><at>Value<openparen>path_filename<closeparen> ATTR kategori <at>Value<openparen>Hovedkategori<closeparen> ATTR admenhet <at>Value<openparen>_list<opencurly>1<closecurly><closeparen> ATTR inndelingsverdi <at>Value<openparen>_list<opencurly>2<closecurly><closeparen><space><at>Value<openparen>_list<opencurly>3<closecurly><closeparen> ATTR projeksjon <at>Value<openparen>_list<opencurly>4<closecurly><closeparen> ATTR format <at>Value<openparen>_list<opencurly>6<closecurly><closeparen> ATTR underkategori <at>Value<openparen>Underkategori<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeSplitter (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureReader_2_<OTHER>   INPUT FEATURE_TYPE FeatureReader_<OTHER>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeSplitter_OUTPUT Disabled Nuker -1 63"   INPUT FEATURE_TYPE AttributeSplitter_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_3 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TestFilter_6 ATTR url $(Datahotell_URL$encode)<at>Value<openparen>Hovedkategori<closeparen><solidus><at>Value<openparen>Underkategori<closeparen><solidus><at>Value<openparen>path_filename<closeparen> ATTR kategori <at>Value<openparen>Hovedkategori<closeparen> ATTR admenhet <at>Value<openparen>_list<opencurly>1<closecurly><closeparen> ATTR inndelingsverdi <at>Value<openparen>_list<opencurly>2<closecurly><closeparen> ATTR projeksjon <at>Value<openparen>_list<opencurly>3<closecurly><closeparen> ATTR format <at>Value<openparen>_list<opencurly>5<closecurly><closeparen> ATTR underkategori <at>Value<openparen>Underkategori<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListElementCounter (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeSplitter_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListElementCounter_OUTPUT Disabled Nuker -1 65"   INPUT FEATURE_TYPE ListElementCounter_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_8 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TestFilter_5 ATTR url $(Datahotell_URL$encode)<at>Value<openparen>Hovedkategori<closeparen><solidus><at>Value<openparen>Underkategori<closeparen><solidus><at>Value<openparen>path_filename<closeparen> ATTR kategori <at>Value<openparen>Hovedkategori<closeparen> ATTR admenhet Norge ATTR inndelingsverdi FME_NULL_VALUE ATTR projeksjon <at>Value<openparen>_list<opencurly>2<closecurly><closeparen> ATTR format <at>Value<openparen>_list<opencurly>4<closecurly><closeparen> ATTR underkategori <at>Value<openparen>Underkategori<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter (Disabled) Nuker"   INPUT FEATURE_TYPE ListElementCounter_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter_4 Disabled Nuker -1 79"   INPUT FEATURE_TYPE TestFilter_4
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter_5 Disabled Nuker -1 83"   INPUT FEATURE_TYPE TestFilter_5
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter_6 Disabled Nuker -1 64"   INPUT FEATURE_TYPE TestFilter_6
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter_7 Disabled Nuker -1 67"   INPUT FEATURE_TYPE TestFilter_7
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter_8 Disabled Nuker -1 71"   INPUT FEATURE_TYPE TestFilter_8
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_6 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE TestFilter_4 ATTR kategori <at>Value<openparen>Hovedkategori<closeparen> ATTR admenhet Norge ATTR inndelingsverdi FME_NULL_VALUE ATTR projeksjon <at>Value<openparen>_list<opencurly>1<closecurly><closeparen> ATTR format <at>Value<openparen>_list<opencurly>3<closecurly><closeparen> ATTR underkategori <at>Value<openparen>Underkategori<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_5 (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_8
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_5_OUTPUT Disabled Nuker -1 73"   INPUT FEATURE_TYPE AttributeCreator_5_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_7 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE AttributeCreator_8_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_5_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT ATTR inndeling "FME_CONDITIONAL:DEFAULT_VALUE'ikke<space>spesifisert'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>StringLength<openparen><at>Value<openparen>admenhet<closeparen><closeparen> = 4'kommune'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>StringLength<openparen><at>Value<openparen>admenhet<closeparen><closeparen> = 2'fylke'FME_NUM_CONDITIONS3___" ATTR filnavn <at>Value<openparen>path_filename<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_7_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_4 (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_7
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_4_OUTPUT Disabled Nuker -1 58"   INPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
 # -------------------------------------------------------------------------
-
-# Since the Tcl "END" index specification starts at -1 for the second
-# last character, and we've defined -1 to be the last charater, we've got
-# small bit of fiddling to do
-
-Tcl2 proc SubstringExtractor_fixLastIndex {lastValue} {     if {$lastValue < -1} {         incr lastValue;         return "end$lastValue";     }     elseif {$lastValue == -1} {         return "end";     }     else {         return $lastValue;     } }
-Tcl2 proc SubstringExtractor_extract {startIdx endIdx} {     FME_SetAttribute [FME_DecodeText format]         [string range [FME_DecodeTextOrAttr @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>format<closeparen>,SubstringExtractor)]                       [SubstringExtractor_fixLastIndex $startIdx]                       [SubstringExtractor_fixLastIndex $endIdx]]     }
-FACTORY_DEF * TeeFactory    FACTORY_NAME SubstringExtractor    INPUT  FEATURE_TYPE AttributeCreator_7_OUTPUT    OUTPUT FEATURE_TYPE SubstringExtractor_OUTPUT         @Tcl2("SubstringExtractor_extract 0 -5")
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_3 (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_6
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_3_OUTPUT Disabled Nuker -1 69"   INPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator_9 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV INPUT  FEATURE_TYPE SubstringExtractor_OUTPUT ATTR url $(Datahotell_URL$encode)<at>Value<openparen>Hovedkategori<closeparen><solidus><at>Value<openparen>Underkategori<closeparen><solidus><at>Value<openparen>format<closeparen><solidus><at>Value<openparen>path_filename<closeparen> ATTR dataset <at>Value<openparen>ID<closeparen>    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_9_OUTPUT 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_8 (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_5
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_8_OUTPUT Disabled Nuker -1 75"   INPUT FEATURE_TYPE AttributeCreator_8_OUTPUT
 # -------------------------------------------------------------------------
-
-INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
-
-FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_2    INPUT REFERENCER FEATURE_TYPE AttributeCreator_9_OUTPUT    INPUT REFERENCEE FEATURE_TYPE dbo.filliste    REFERENCE_INFO $(FeatureMerger_2_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>url<closeparen>,FeatureMerger_2) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>url<closeparen>,FeatureMerger_2) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_2_NOT_MERGED
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_6 (Disabled) Nuker"   INPUT FEATURE_TYPE TestFilter_4
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_6_OUTPUT Disabled Nuker -1 74"   INPUT FEATURE_TYPE AttributeCreator_6_OUTPUT
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE FeatureMerger_2_NOT_MERGED    TEST url NOT_ATTRIBUTE_VALUE_NULL "" ENCODED TEST dataset NOT_ATTRIBUTE_VALUE_NULL "" ENCODED    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_7 (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_8_OUTPUT   INPUT FEATURE_TYPE AttributeCreator_5_OUTPUT   INPUT FEATURE_TYPE AttributeCreator_4_OUTPUT   INPUT FEATURE_TYPE AttributeCreator_6_OUTPUT   INPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_7_OUTPUT Disabled Nuker -1 72"   INPUT FEATURE_TYPE AttributeCreator_7_OUTPUT
 # -------------------------------------------------------------------------
-
-INCLUDE [    set macroLine "MACRO AttributeKeeper_81956a0a_96df_4305_8c2b_3c4922ffa2127_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,dataset,filnavn,format,inndeling,inndelingsverdi,kategori,projeksjon,underkategori,url,fme_pcre_match,"^fme_$(AttributeKeeper_81956a0a_96df_4305_8c2b_3c4922ffa2127_LIST_EXP)")
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SubstringExtractor (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_7_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SubstringExtractor_OUTPUT Disabled Nuker -1 77"   INPUT FEATURE_TYPE SubstringExtractor_OUTPUT
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_2_DIRECTIVES SERVER 159.162.102.151,1433 USER_NAME geodata USE_SSPI NO PASSWORD fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz0A/fX8EJ2yCDSdB3C1/44fGUbpC+1jHtVlntEHQELvQp2Vmt2M+VxJruYMXOJuPzvM0vnLX2ETwt3Su47OPiCj2qxM3GNTkz7URq5yu1MRqxQ69eW919GpL4xb/nWl2QZRr9gE07mKGu0neYjvOYlVxjQsJA7jZGbTMu1Kw2VD+K+zz2ex+n5mOYPZAMtNHE9rCkQerQwUtAAF3OepupGiNMXVjtR0TKTp5YDPhYyUonk6qCmZuJnyQj2AMUho8yIjUdb+fzwuzINRmV3sXRcqSwLm/4NOL3YwG35+WvZlN9TgzA6w8ry/PF4N/SqYr6eFgfJv5exRICWozkswkZIVac073gb+Ci) QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes COMMAND_TIMEOUT 30 ENCRYPT_CONNECTION NO
-
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,INSERT<space>INTO<space>dbo.<openbracket>filliste<closebracket><space><openparen><openbracket>id<closebracket><comma><space><openbracket>url<closebracket><comma><space><openbracket>kategori<closebracket><comma><space><openbracket>inndelingsverdi<closebracket><comma><space><openbracket>projeksjon<closebracket><comma><space><openbracket>format<closebracket><comma><space><openbracket>underkategori<closebracket><comma><space><openbracket>inndeling<closebracket><comma><space><openbracket>filnavn<closebracket><comma><space><openbracket>dataset<closebracket><closeparen><space><lf>VALUES<space><openparen>NEWID<openparen><closeparen><comma><space><apos><at>Value<openparen>url<closeparen><apos><comma><space><apos><at>Value<openparen>kategori<closeparen><apos><comma><space><apos><at>Value<openparen>inndelingsverdi<closeparen><apos><comma><space><apos><at>Value<openparen>projeksjon<closeparen><apos><comma><space><apos><at>Value<openparen>format<closeparen><apos><comma><space><apos><at>Value<openparen>underkategori<closeparen><apos><comma><space><apos><at>Value<openparen>inndeling<closeparen><apos><comma><space><apos><at>Value<openparen>filnavn<closeparen><apos><comma><space><apos><at>Value<openparen>dataset<closeparen><apos><closeparen>,SQLExecutor_2)"    READER_TYPE          MSSQL_ADO    READER_DATASET       "kartverket_nedlasting"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    READER_PARAMS        $(SQLExecutor_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_2_RESULT    OUTPUT QUERY FEATURE_TYPE SQLExecutor_2_INITIATOR
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 RESULT Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_RESULT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_INITIATOR
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_9 (Disabled) Nuker"   INPUT FEATURE_TYPE SubstringExtractor_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_9_OUTPUT Disabled Nuker -1 105"   INPUT FEATURE_TYPE AttributeCreator_9_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_2 (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_9_OUTPUT   INPUT FEATURE_TYPE dbo.filliste
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_2_NOT_MERGED Disabled Nuker -1 98"   INPUT FEATURE_TYPE FeatureMerger_2_NOT_MERGED
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_3 (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureMerger_2_NOT_MERGED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_3_PASSED Disabled Nuker -1 103"   INPUT FEATURE_TYPE Tester_3_PASSED
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_3_PASSED
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_OUTPUT Disabled Nuker -1 85"   INPUT FEATURE_TYPE AttributeKeeper_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeKeeper_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_2_Passed (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_2_PASSED_0_cJhyILNY7DA=
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Counter_OUTPUT TO NULL __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ GEOMETRY   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")

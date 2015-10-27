@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GeoSOSI>
+    <Mapping>
+        <FeatureClass InputName="stoy_skytebane.stoey">
+            <Field InputName="lokalid" InputType="T255" OutputName="IDENT\LOKALID" OutputType="T100"/>
+            <Field InputName="navnerom" InputType="T80" OutputName="IDENT\NAVNEROM" OutputType="T100"/>
+            <Field InputName="versjonid" InputType="T80" OutputName="IDENT\VERSJONID" OutputType="T100"/>
+            <Field InputName="beregnetaar" InputType="T80" OutputName="BEREGNETÅR" OutputType="T100"/>
+            <Field InputName="datafangstdato" InputType="DATOTID" OutputName="DATAFANGSTDATO" OutputType="DATOTID"/>
+            <Field InputName="informasjon" InputType="T80" OutputName="INFORMASJON" OutputType="T255"/>
+            <Field InputName="kommune" InputType="T80" OutputName="KOMMUNE" OutputType="T255" UserDefined="true"/>
+            <Field InputName="maalemetode" InputType="T80" OutputName="KVALITET\MÅLEMETODE" OutputType="H2"/>
+            <Field InputName="max_avvik" InputType="H11" OutputName="KVALITET\MAX-AVVIK" OutputType="H6"/>
+            <Field InputName="noeyaktighet" InputType="H11" OutputName="KVALITET\NØYAKTIGHET" OutputType="H6"/>
+            <Field InputName="oppdateringsdato" InputType="DATOTID" OutputName="OPPDATERINGSDATO" OutputType="DATOTID"/>
+            <Field InputName="opphav" InputType="T80" OutputName="OPPHAV" OutputType="T255"/>
+            <Field InputName="stoeykilde" InputType="T80" OutputName="STØYKILDE" OutputType="T2"/>
+            <Field InputName="stoeykildeidentifikasjon" InputType="T80" OutputName="STØYKILDEIDENTIFIKASJON" OutputType="T100"/>
+            <Field InputName="stoeykildenavn" InputType="T80" OutputName="STØYKILDENAVN" OutputType="T100"/>
+            <Field InputName="stoeymetode" InputType="T80" OutputName="STØYMETODE" OutputType="T100"/>
+            <Field InputName="stoeysonekategori" InputType="T80" OutputName="STØYSONEKATEGORI" OutputType="T1"/>
+        </FeatureClass>
+        <FeatureClass InputName="stoy_skytebane.stoeygrense"/>
+    </Mapping>
+</GeoSOSI>
