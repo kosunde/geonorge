@@ -446,4 +446,4 @@ REM Hakker opp trafikkulykker i landsdekkende, kommunevise og fylkesvise SOSI-fi
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Flystoydata_postgis2sosi\Flystoydata_postgis2sosi.fmw --FNR "18" --OUTPUT_EPSG_CODE "25833" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Flystoydata_postgis2sosi\Flystoydata_postgis2sosi.fmw --FNR "19" --OUTPUT_EPSG_CODE "25833" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Flystoydata_postgis2sosi\Flystoydata_postgis2sosi.fmw --FNR "20" --OUTPUT_EPSG_CODE "25835" --FANOUT "Fylker"
-"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Flystoydata_postgis2sosi\Flystoydata_postgis2sosi.fmw --OUTPUT_EPSG_CODE "25833"
+"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\Flystoydata_postgis2sosi\Flystoydata_postgis2sosi.fmw --OUTPUT_EPSG_CODE "25833" --FANOUT "Norge"
