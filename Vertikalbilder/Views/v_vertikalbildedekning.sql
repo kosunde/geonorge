@@ -1,4 +1,8 @@
-﻿CREATE OR REPLACE VIEW vertikalbilde.v_vertikalbildedekning AS 
+﻿-- View som legger fotodato på vertikalbildedekning
+-- En tilfeldig dato hvis dekningen har flere fotodatoer
+-- Nødvendig for å kunne velge vertikalbildedekning på fotodato 
+
+CREATE OR REPLACE VIEW vertikalbilde.v_vertikalbildedekning AS 
  SELECT dekning.objid,
   dekning.objtype,
   dekning.oppdragsnavn,
