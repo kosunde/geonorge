@@ -2824,7 +2824,7 @@ Alle kurveobjekter i denne produktspesifikasjonen vil arve egenskaper fra denne 
               <documentation>Navnet på rutea. Hvis ruta har et navn, skal dette registreres.</documentation>
             </annotation>
           </element>
-          <element minOccurs="0" name="rutenummer" type="integer">
+          <element minOccurs="0" name="rutenummer" type="string">
             <annotation>
               <documentation>Identifikasjonsnummer eller betegnelse på friluftsrute.</documentation>
             </annotation>

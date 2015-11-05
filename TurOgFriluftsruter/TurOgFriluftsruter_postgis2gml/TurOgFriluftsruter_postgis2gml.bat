@@ -447,3 +447,4 @@ REM Hakker opp planomriss i landsdekkende, kommunevise og fylkesvise GML-filer i
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\TurOgFriluftsruter_postgis2gml\TurOgFriluftsruter_postgis2gml.fmw --FNR "19" --OUTPUT_EPSG_CODE "25833" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\TurOgFriluftsruter_postgis2gml\TurOgFriluftsruter_postgis2gml.fmw --FNR "20" --OUTPUT_EPSG_CODE "25835" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\TurOgFriluftsruter_postgis2gml\TurOgFriluftsruter_postgis2gml.fmw --OUTPUT_EPSG_CODE "25833" --FANOUT "Norge"
+"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\TurOgFriluftsruter_postgis2gml\TurOgFriluftsruter_postgis2gml.fmw --OUTPUT_EPSG_CODE "4258" --FANOUT "Norge"
