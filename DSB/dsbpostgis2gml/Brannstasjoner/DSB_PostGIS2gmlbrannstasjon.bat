@@ -5,4 +5,5 @@ REM Hakker opp DSBdata i landsdekkende, kommunevise og fylkesvise gml-filer i lo
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\DSB_postgis2gml\Brannstasjoner\DSB_Postgis2gmlbrannstasjon.fmw --FNR "1-17" --OUTPUT_EPSG_CODE "25832" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\DSB_postgis2gml\Brannstasjoner\DSB_Postgis2gmlbrannstasjon.fmw --FNR "1-20" --OUTPUT_EPSG_CODE "25833" --FANOUT "Fylker"
 "C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\DSB_postgis2gml\Brannstasjoner\DSB_Postgis2gmlbrannstasjon.fmw --FNR "20" --OUTPUT_EPSG_CODE "25835" --FANOUT "Fylker"
-"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\DSB_postgis2gml\Brannstasjoner\DSB_Postgis2gmlbrannstasjon.fmw --OUTPUT_EPSG_CODE "25833"
+"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\DSB_postgis2gml\Brannstasjoner\DSB_Postgis2gmlbrannstasjon.fmw --FANOUT "Norge" --OUTPUT_EPSG_CODE "25833"
+"C:\Program Files\FME\fme.exe" \\nnrite507\Geodata\Jobs\DSB_postgis2gml\Brannstasjoner\DSB_Postgis2gmlbrannstasjon.fmw --FANOUT "Norge" --OUTPUT_EPSG_CODE "4258"
