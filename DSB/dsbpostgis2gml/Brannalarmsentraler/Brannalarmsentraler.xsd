@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns:app="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-brannalarmsentraler" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://skjema.geonorge.no/SOSITEST/produktspesifikasjon/DSB-brannalarmsentraler" elementFormDefault="qualified">
 	<import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-	<element name="dsb.sentraldistrikter110" type="app:dsb.sentraldistrikter110Type" substitutionGroup="gml:AbstractFeature"/>
-	<complexType name="dsb.sentraldistrikter110Type">
+	<element name="sentraldistrikter110" type="app:sentraldistrikter110Type" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="sentraldistrikter110Type">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="Administrasjonssenter" minOccurs="0">
 						<complexType>
 							<sequence>
-								<element name="Ident" minOccurs="0">
+								<element name="Identifikasjon" minOccurs="0">
 									<complexType>
 										<sequence>
 											<element name="Lokalid" minOccurs="0" type="string"/>
@@ -64,7 +64,7 @@
 					<element name="Datafangstdato" minOccurs="0">
 						<simpleType>
 							<restriction base="string">
-								<maxLength value="8"/>
+								<maxLength value="20"/>
 							</restriction>
 						</simpleType>
 					</element>
@@ -75,8 +75,8 @@
 			</extension>
 		</complexContent>
 	</complexType>
-	<element name="dsb.kantutsnitt" type="app:dsb.kantutsnittType" substitutionGroup="gml:AbstractFeature"/>
-	<complexType name="dsb.kantutsnittType">
+	<element name="sentraldistrikter110grense" type="app:sentraldistrikter110grenseType" substitutionGroup="gml:AbstractFeature"/>
+	<complexType name="sentraldistrikter110grenseType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
@@ -84,18 +84,12 @@
 					<element name="kvalitet" minOccurs="0">
 						<complexType>
 							<sequence>
-								<element name="Posisjonskvalitet" minOccurs="0">
-									<complexType>
-										<sequence>
-											<element name="målemetode" minOccurs="0" type="string"/>
-											<element name="nøyaktighet" minOccurs="0" type="long"/>
-										</sequence>
-									</complexType>
-								</element>
+								<element name="målemetode" minOccurs="0" type="string"/>
+								<element name="nøyaktighet" minOccurs="0" type="long"/>
 							</sequence>
 						</complexType>
 					</element>
-					<element name="kopidato" minOccurs="0" type="date"/>
+					<element name="kopidato" minOccurs="0"/>
 					<element name="avgrenser" minOccurs="0" maxOccurs="unbounded" type="gml:ReferenceType"/>
 					<element ref="gml:curveProperty" minOccurs="0"/>
 					<element ref="gml:multiCurveProperty" minOccurs="0"/>
